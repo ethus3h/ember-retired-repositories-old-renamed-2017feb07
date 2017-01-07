@@ -10,3 +10,6 @@
 [submodule "app-configs"]
 	path = app-configs
 	url = https://github.com/ethus3h/app-configs.git
+[submodule "arcmaj3"]
+	path = arcmaj3
+	url = https://github.com/ethus3h/arcmaj3.git
