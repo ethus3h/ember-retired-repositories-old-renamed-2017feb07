@@ -13,3 +13,6 @@
 [submodule "arcmaj3"]
 	path = arcmaj3
 	url = https://github.com/ethus3h/arcmaj3.git
+[submodule "ember-old-moved-2016apr24a25"]
+	path = ember-old-moved-2016apr24a25
+	url = https://github.com/ethus3h/ember-old-moved-2016apr24a25.git
