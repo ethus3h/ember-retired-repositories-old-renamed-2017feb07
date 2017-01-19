@@ -1,0 +1,35 @@
+#!/bin/bash 
+echo ' 
+Making sure krusader is installed 
+' 
+sudo aptitude update 
+sudo aptitude install krusader 
+echo ' 
+Downloading new .desktop files 
+' 
+mkdir temp 
+cd temp 
+wget -c http://www.psychocats.net/ubuntu/defaultkrusader/nautilus-computer.de... 
+wget -c http://www.psychocats.net/ubuntu/defaultkrusader/nautilus.desktop 
+wget -c http://www.psychocats.net/ubuntu/defaultkrusader/nautilus-folder-hand... 
+wget -c http://www.psychocats.net/ubuntu/defaultkrusader/nautilus-home.desktop 
+sudo chown root:root *.desktop 
+echo ' 
+Making backup copies of old .desktop files 
+' 
+sudo cp /usr/share/applications/nautilus-computer.desktop /usr/share/applications/nautilus-computer.desktop.backup 
+sudo cp /usr/share/applications/nautilus.desktop /usr/share/applications/nautilus.desktop.backup 
+sudo cp /usr/share/applications/nautilus-folder-handler.desktop /usr/share/applications/nautilus-folder-handler.desktop.backup 
+sudo cp /usr/share/applications/nautilus-home.desktop /usr/share/applications/nautilus-home.desktop.backup 
+echo ' 
+Replacing old .desktop files with new .desktop files 
+' 
+sudo mv nautilus-computer.desktop /usr/share/applications/nautilus-computer.desktop 
+sudo mv nautilus.desktop /usr/share/applications/nautilus.desktop 
+sudo mv nautilus-folder-handler.desktop /usr/share/applications/nautilus-folder-handler.desktop 
+sudo mv nautilus-home.desktop /usr/share/applications/nautilus-home.desktop 
+cd .. 
+rmdir temp 
+echo ' 
+Krusader should now be your new default file manager in Gnome 
+' 

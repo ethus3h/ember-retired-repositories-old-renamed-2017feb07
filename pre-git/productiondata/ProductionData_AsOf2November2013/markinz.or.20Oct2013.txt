@@ -1,0 +1,1 @@
+libostyle1c2		deinstall

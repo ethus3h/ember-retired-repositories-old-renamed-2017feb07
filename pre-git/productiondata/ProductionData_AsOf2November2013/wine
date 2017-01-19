@@ -1,0 +1,6 @@
+wine1.3-gecko		deinstall
+wine1.3		deinstall
+winetricks		deinstall
+ttf-symbol-replacement-wine1.3		deinstall
+playonlinux		deinstall
+gnome-exe-thumbnailer		deinstall
