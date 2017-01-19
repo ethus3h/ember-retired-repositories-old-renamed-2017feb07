@@ -1,0 +1,912 @@
+# Thai translation for clamtk
+# Copyright (c) Dave M. < dave . nerd @ gmail >, 2004-2013
+# This file is distributed under the same license as the clamtk package.
+# SiraNokyoongtong <gumaraa@gmail.com>, 2010.
+# Manop Pornpeanvichanon(darkpower)
+# Kantinan Muangngarm <Darwhima2@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clamtk\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2013-04-23 16:43+0000\n"
+"Last-Translator: Kantinan Muangngarm <Darwhima2@gmail.com>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-05-12 13:20+0000\n"
+"X-Generator: Launchpad (build 16598)\n"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "แฟ้มที่ตรวจไวรัสแล้ว "
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "ไม่สามารถสร้างโฟลเดอร์เริ่มต้นได้"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "ไม่สามารถสร้างส่วนติดต่อแบบกราฟิกได้"
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "ไม่เคย"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "ตรวจหาไวรัส"
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "โปรแกรมตรวจจับไวรัส"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "อุปกรณ์ USB"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "ฟลอปปี้ดิสก์"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "ไม่พบอุปกรณ์อะไรเลย"
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "ถ้าคุณต่ออุปกรณ์เข้ากับเครื่องแล้ว อย่าลืมเมานท์ด้วย"
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "อุปกรณ์ที่มี"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "เลือกอุปกรณ์หรือกดยกเลิก"
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "ตรวจจับ"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "มุมมอง"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "ตัวเลือก"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "ป้องกัน"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "_ขั้นสูง"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "A _แฟ้ม"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "ตรวจไวรัสใน home (แบบเร็ว)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Home และโฟลเดอร์ย่อย"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "A _โฟลเดอร์"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "ตรวจในระดับย่อย(ถ้ามี)"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "อุปกรณ์"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "ออก"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "_ประวัติ"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "รายละเอียดการตรวจครั้งล่าสุด"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "ล้างผลการทำงาน"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "สถานะ"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "โหมดบำรุงโปรแกรม"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "โฟลเดอร์กักกันว่างเปล่า"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "_โปรแกรม/ข้อมูลรุ่นใหม่"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "เกี่ยวกับ ClamAV"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "ตารางทำงาน"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "ติดตั้งโปรแกรมตรวจไวรัสใหม่"
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "ค่าปรับแต่ง"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "ตรวจสอบไฟล์"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Home"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "ตรวจไวรัสในโฟลเดอร์ home"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "ประวัติ"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "ข้อมูลที่การตรวจที่ผ่านมา"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "ตั้งค่าต่างๆ"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "ออก"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "ออกจากโปรแกรม"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "รุ่นของ GUI"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "รุ่นของ GUI เป็นรุ่นล่าสุดแล้ว"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "การจำกัดไวรัส"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "ไม่รู้จัก"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "การกำจัดไวรัสทันสมัยแล้ว"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "ระบบจัดการไวรัส"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "แสดงรุ่นของระบบป้องกันไวรัส"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "หยุดตรวจไวรัส"
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "พบการคุกคาม: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "ลากและปล่อย"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "ไม่สามารถสแกนไวรัสได้ (อนุญาต)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "ไม่มี"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "ไม่ตรวจไวรัสในโฟลเดอร์ที่ระบุ"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "ตรวจไวรัสไม่ได้"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "มีโปรแกรมรุ่นใหม่กว่า"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "ไม่พบไวรัส"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "ล้าสมัย"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "ลายเซ็นโปรแกรมป้องกันไวรัสล้าสมัย"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "ปัจจุบัน"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "เลือกไฟล์"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "เลือกโฟลเดอร์ (สแกนโฟลเดอร์)"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "เลือกโฟลเดอร์ (รวมส่วนย่อย)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "ไม่ต้องตรวจโฟลเดอร์ที่ระบุ"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "กำลังตรวจ %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>พบการคุกคาม: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "พบการคุกคาม: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "ไฟล์ที่ตรวจไวรัสแล้ว: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "ปิดหน้าต่าง"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "ไม่มีไฟล์ที่ตรวจ"
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "ลายเซ็น ClamAV: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "โฟลเดอร์ที่ตรวจแล้ว:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"พบ %d อาจเป็น %s (%d %s ตรวจพบ).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "การคุกคาม"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "การคุกคาม"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "ไฟล์"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "แฟ้ม"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "ไม่สามารถเขียน logfile ได้ (ตรวจสิทธิ์)"
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "กำลังตรวจไวรัส (%d ข้อมูลไวรัส)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr ""
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "กักกัน"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "แฟ้ม"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "คืนสภาพ"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "ปฏิบัติการล้มเหลว"
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "คืนสภาพเป็น %s."
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "ไม่พบโฟลเดอร์ไวรัส"
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "ไม่สามารถเปิดโฟลเดอร์ไวรัส"
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "ไม่มีแฟ้มไวรัสที่ถูกกักกัน"
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "ไวรัสที่ถูกกักกันไว้ %d."
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "ไม่พบโฟลเดอร์กักกันไวรัส เพื่อลบ"
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "ลบแฟ้มไวรัสที่กักกันไว้ทั้งหมด?"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "ไม่มีแฟ้มไวรัสที่กักกันให้ลบ"
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "จำนวนแฟ้มไวรัสที่ถูกลบ %d."
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr ""
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "แสดง"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "ไม่สามารถลบ %s!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "กำลังแสดง %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "พบปัญหา ในการเปิด %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "ไม่สามารถปิด FILE %s! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr ""
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr ""
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "ตรวจทุกแฟ้มที่ขึ้นต้นด้วย (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr ""
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "ตรวจไวรัสในโฟลเดอร์ที่ระบุ (แฟ้มและโฟลเดอร์ย่อย)"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr ""
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "ตรวจไวรัสทุกแฟ้มที่ขนาด > 20 MB"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr ""
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr ""
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr ""
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr ""
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "ตรวจสอบว่าโปรแกรม GUI รุ่นไหมหรือไม่"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr ""
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "บัญชีขาว (ปลอดภัย)"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "ไดเรกทอรี"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "เลือกไดเรกทอรี"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr ""
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "ไม่ใช้พร็อกซี"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "กำหนด ข้อมูลประกอบการทำงาน"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "กำหนดเอง"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "หมายเลย IP หรือชื่อเครื่อง"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "หมายเลขพอร์ต:"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr ""
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr ""
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "กรุณารอ..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"ClamTk คือส่วนหน้าจอสำหรับ โปรแกรมต่อต้านไวรัส ClamAV ซึ่งใช้ gtk2-perl."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "ผลการตรวจสอบไวรัส"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr ""
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "สถานภาพ"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "เลือกปฎิบัติการ"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "กักกันแฟ้มไวรัสนี"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "ลบแฟ้มนี้"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "บันทึกเป็น..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "ไม่สามารถบันทึกแฟ้มข้อมูลได้"
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "ย้ายแล้ว"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "บันทึกแฟ้มแล้ว"
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "แฟ้มถูกย้ายหรือลบเรียบร้อยแล้ว"
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "แฟ้มไวรัสถูกกักกันแล้ว"
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>กักกัน</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "ไม่สามารถกักกันแฟ้มไวรัส"
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "ลบแฟ้มไวรัสนี้?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "แฟ้มถุกลบแล้ว"
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>ลบแล้ว</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "ไม่สามารถลบแฟ้มได้"
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "ไม่มีโฟลเดอร์สำหรับกักกันแฟ้มไวรัส"
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "ตาราง"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "ตัวเลือกในการตรวจไวรัส"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "ตรวจสอบที่ฉันระบุ ... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "Home (แนะนำ)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr "ตัวเลือกนี้สำหรับตรวจสอบ home. ขอแนะนำตัวเลือกนี้."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "เครื่องนี้ทั้งหมด"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"ตัวเลือกนี้จะตรวจสอบทุกอย่างในเครื่อง ยกเว้นโฟลเดอร์ /proc, /sys และ /dev"
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "ขณะนี้ ... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "กำหนดเวลา รูปแบบ 24 ชั่วโมง"
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "ชั่วโมง"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "นาที"
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "ตรวจไวรัสใน โฟลเดอร์ที่ปลอดภัยของฉัน"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "ตัวเลือกของ signature"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "เลือกเวลาเพื่อการปรับปรุง signature"
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "กำหนดตารางตรวจสอบประจำวันแล้ว"
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "กำหนดตารางปรับปรุง definitions ประจำวันแล้ว"
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "ไม่ได้กำหนดตารางตรวจสอบประจำวัน"
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "ไม่ได้กำหนดตารางปรับปรุง definitions ประจำวัน"
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr ""
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr ""
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr ""
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr ""
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr ""
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr ""
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr ""
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr ""
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr ""
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr ""
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr ""
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr ""
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr ""
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr ""
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr ""
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr ""
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "โปรแกรม/ข้อมูลรุ่นใหม่"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "ปรับปรุง"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "เลือก"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "root เท่านั้น ที่ enable ได้"
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "ปรับปรุง Signature"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "ตรวจ signature รุ่นใหม่ เพื่อปรับปรุง"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "ไม่ระบุ"
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "GUI มีการปรับปรุง"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "ตรวจสอบว่ามีการปรับปรุง GUI ไหม"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"ไม่แนะนำให้ run โปรแกรมนี้โดยใช้ root.\n"
+"รายละเอียดเพิ่มเติม http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "กำลังตรวจสอบ..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "update ล้มเหลว"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "Signatures เป็นรุ่นล่าสุด"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "ปรับปรุงข้อมูลแล้ว"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "การตรวจสอบล้มเหลว"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "กำลังติดต่อ..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "กำลังดาวน์โหลดรายการที่ต้องปรับปรุง..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "ไม่สามารถเชื่อมต่อไ้ด้..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Signatures แบบรายวันได้รับการปรับปรุงแล้ว"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "กำลังตรวจสอบรุ่นของฐานข้อมูลไวรัสหลัก"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "ฐานข้อมูลไวรัสหลักเป็นรุ่นปัจจุบัน"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr ""
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr ""
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr ""
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr ""
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr ""
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "ข้อกำหนดในการทำงาน ถูกบันทึกแล้ว"

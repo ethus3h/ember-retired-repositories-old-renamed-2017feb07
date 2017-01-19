@@ -1,0 +1,45 @@
+=== modified file 'unity/unity_window_decorator/src/events.c'
+--- a/unity/unity_window_decorator/src/events.c	2011-04-07 12:37:53 +0000
++++ b/unity/unity_window_decorator/src/events.c	2011-06-23 13:37:50 +0000
+@@ -1018,7 +1018,22 @@
+ 			{
+ 			    if (g_slist_find (d->transient_windows, win))
+ 			        break;
++
+ 			    d->transient_windows = g_slist_append (d->transient_windows, win);
++
++			    /* hint could have changed, so check the old
++			     * transient parent if set and remove this
++			     * from the transient parents list */
++
++			    if (d_transient->transient_parent &&
++				d_transient->transient_parent != p)
++			    {
++				decor_t *d_old_parent = g_object_get_data (G_OBJECT (d_transient->transient_parent), "decor");
++
++				d_old_parent->transient_windows = g_slist_remove (d_old_parent->transient_windows, win);
++				d_transient->transient_parent = NULL;
++			    }
++
+ 			    d_transient->transient_parent = p;
+ 			}
+ 		    }
+
+=== modified file 'unity/unity_window_decorator/src/wnck.c'
+--- a/unity/unity_window_decorator/src/wnck.c	2011-04-05 20:40:04 +0000
++++ b/unity/unity_window_decorator/src/wnck.c	2011-06-23 13:37:50 +0000
+@@ -700,8 +700,11 @@
+ 
+ 	    if (d)
+ 	    {
+-		d->transient_windows = g_slist_append (d->transient_windows, win);
+-		d_transient->transient_parent = p;
++	        if (!g_slist_find (d->transient_windows, win))
++	        {
++		    d->transient_windows = g_slist_append (d->transient_windows, win);
++		    d_transient->transient_parent = p;
++		}
+ 	    }
+ 	}
+     }
+

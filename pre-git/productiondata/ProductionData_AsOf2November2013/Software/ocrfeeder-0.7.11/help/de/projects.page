@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="projects">
+
+<info>
+    <link type="guide" xref="index#projects"/>
+    <link type="seealso" xref=""/>
+    <desc>Laden und Speichern von Projekten</desc>
+</info>
+
+<title>Projekte</title>
+
+<p>Gelegentlich möchten sie vielleicht Ihre Arbeit an einem Bild zwischenspeichern, um diese später fortzusetzen. Für diesen Fall bietet  <app>OCRFeeder</app> die Möglichkeit, Projekte zu speichern und wieder zu laden.</p>
+
+<p>Projekte sind gepackte Dateien mit der Endung <em>ocrf</em>, die Informationen über Seiten bzw. Bilder und deren Inhaltsbereiche enthalten.</p>
+
+<section>
+<title>Speichern eines Projekts</title>
+
+<p>Nachdem Sie bereits an einem Bild gearbeitet haben, können Sie daraus ein Projekt erstellen, indem Sie <guiseq><gui>Datei</gui><gui>Speichern</gui></guiseq> oder <guiseq><gui>Datei</gui><gui>Speichern unter …</gui></guiseq> wählen. Wahlweise können Sie dafür auch die Tastenkombinationen <keyseq><key>Strg</key><key>S</key></keyseq> oder <keyseq><key>Strg</key><key>Umschalttaste</key><key>S</key></keyseq> verwenden. Ein Dialog zum Speichern von Dateien wird geöffnet, in dem Sie den Namen und den Speicherort des Projekts angeben können.</p>
+
+</section>
+
+<section>
+<title>Laden eines Projekts</title>
+
+<p>Sie können ein vorhandenes Projekt laden, indem Sie <guiseq><gui>Datei</gui><gui>Öffnen</gui></guiseq> wählen oder die Tastenkombination <keyseq><key>Strg</key><key>O</key></keyseq> verwenden.</p>
+
+</section>
+
+<section>
+<title>Anhängen an ein Projekt</title>
+
+<p>Gelegentlich erscheint es sinnvoll, zwei oder mehrere Projekte zusammenzuführen, um daraus ein Projekt mit den Dateien verschiedener <app>OCRFeeder</app>-Projekte zu erstellen. Sie erreichen dies durch Anhängen eines Projekts an das aktuelle Projekt. Dadurch werden die Seiten des gewählten Projakts in das aktuelle Projekt geladen. Wählen Sie hierzu <guiseq><gui>Datei</gui><gui>Projekt anhängen</gui></guiseq> und wählen Sie das gewünschte Projekt aus.</p>
+
+</section>
+
+<section>
+<title>Leeren eines Projekts</title>
+
+<p>Falls alle Informationen des Projekts gelöscht werden sollen, um beispielsweise neu zu beginnen, wählen Sie <guiseq><gui>Bearbeiten</gui><gui>Projekt zurücksetzen</gui></guiseq>.</p>
+
+</section>
+
+
+</page>

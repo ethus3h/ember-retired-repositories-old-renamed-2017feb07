@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="deskewing">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Opravování deformací v obrázcích</desc>
+</info>
+
+<title>Odstraňování deformací</title>
+
+<p>Některé obrázky, zvláště pokud byly pořízeny ze skeneru, mohou být deformovány, což rozpoznávání obrázku ztěžuje.</p>
+
+<p>Aplikace <app>OCRFeeder</app> nabízí způsob automatického odstranění deformace. Pro odstranění deformace načteného obrázku klikněte na <guiseq><gui>Nástroje</gui><gui>Odstranění deformace obrazu</gui></guiseq>.</p>
+
+<p>Můžete si také nastavit, aby se tato operace provedla automaticky pokaždé, když je přidán obrázek. Uděláte to tak, že otevřete dialogové okno <gui>Předvolby</gui> z <guiseq><gui>Upravit</gui><gui>Předvolby</gui></guiseq> a zaškrtnete na kartě <gui>Nástroje</gui> položku <gui>Odstranit deformace obrazu</gui>.</p>
+
+<note type="warning"><p>V závislosti na velikosti a charakteru obrazu může operace zabrat nějaký čas.</p></note>
+
+</page>

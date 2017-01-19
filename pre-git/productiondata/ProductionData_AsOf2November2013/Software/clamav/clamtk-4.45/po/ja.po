@@ -1,0 +1,916 @@
+# Japanese translation for clamtk
+# Copyright (c) Dave M <dave . nerd @ gmail. com>, 2004 - 2012.
+# This file is distributed under the same license as the clamtk package.
+# Authors: Takahiro Sato, Hajime Mizuno
+# Shushi Kurose <md81bird@hitaki.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clamtk\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-01-22 07:14-0600\n"
+"PO-Revision-Date: 2012-02-03 03:06+0000\n"
+"Last-Translator: Shushi Kurose <md81bird@hitaki.net>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-02-03 21:20+0000\n"
+"X-Generator: Launchpad (build 14738)\n"
+
+#: clamtk:40
+msgid "Unable to create startup directories!"
+msgstr "起動フォルダーを作成できません!"
+
+#: clamtk:56
+msgid "Unable to create graphical interface!"
+msgstr "グラフィカルインターフェースを作成できませんでした!"
+
+#: lib/App.pm:351 lib/Prefs.pm:154
+msgid "Never"
+msgstr "しない"
+
+#: lib/App.pm:370
+msgid "Scan for viruses..."
+msgstr "ウィルスをスキャンします..."
+
+#: lib/Device.pm:40 lib/GUI.pm:84 lib/Update.pm:39
+msgid "Virus Scanner"
+msgstr "ウィルススキャナー"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "USB デバイス"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "フロッピーディスク"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "デバイスが見つかりませんでした。"
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "デバイスを接続している場合は、初めにマウントする必要があるかもしれません。"
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "利用可能なデバイス"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "デバイスを選択するかキャンセルを押してください"
+
+#: lib/GUI.pm:101
+msgid "_Scan"
+msgstr "スキャン(_S)"
+
+#: lib/GUI.pm:102
+msgid "_View"
+msgstr "表示(_V)"
+
+#: lib/GUI.pm:103
+msgid "_Options"
+msgstr "オプション(_O)"
+
+#: lib/GUI.pm:104
+msgid "_Quarantine"
+msgstr "隔離(_Q)"
+
+#: lib/GUI.pm:105
+msgid "_Advanced"
+msgstr "拡張(_A)"
+
+#: lib/GUI.pm:106
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: lib/GUI.pm:111
+msgid "A _File"
+msgstr "ファイル(_F)"
+
+#: lib/GUI.pm:117
+msgid "Home (_Quick)"
+msgstr "ホーム (高速)(_Q)"
+
+#: lib/GUI.pm:123
+msgid "Home (Recursive)"
+msgstr "ホーム (再帰的)"
+
+#: lib/GUI.pm:129
+msgid "A _Directory"
+msgstr "フォルダー(_D)"
+
+#: lib/GUI.pm:135
+msgid "_Recursive Scan"
+msgstr "再帰的なスキャン(_R)"
+
+#: lib/GUI.pm:141
+msgid "A Device"
+msgstr "デバイス"
+
+#: lib/GUI.pm:147
+msgid "E_xit"
+msgstr "終了(_X)"
+
+#: lib/GUI.pm:155
+msgid "Manage _Histories"
+msgstr "履歴の管理(_H)"
+
+#: lib/GUI.pm:161
+msgid "_Last Scan Information"
+msgstr "最新のスキャン情報(_L)"
+
+#: lib/GUI.pm:167
+msgid "Clear _Output"
+msgstr "出力の消去(_O)"
+
+#: lib/GUI.pm:175
+msgid "_Status"
+msgstr "状態(_S)"
+
+#: lib/GUI.pm:181
+msgid "_Maintenance"
+msgstr "メンテナンス(_M)"
+
+#: lib/GUI.pm:187
+msgid "_Empty Quarantine Folder"
+msgstr "隔離フォルダーを空にする(_E)"
+
+#: lib/GUI.pm:195
+msgid "_Check for updates"
+msgstr "アップデートの確認(_C)"
+
+#: lib/GUI.pm:201
+msgid "_About"
+msgstr "情報(_A)"
+
+#: lib/GUI.pm:209
+msgid "_Scheduler"
+msgstr "スケジュール(_S)"
+
+#: lib/GUI.pm:215
+msgid "Rerun antivirus setup _wizard"
+msgstr "セットアップウィザードの再実行(_W)"
+
+#: lib/GUI.pm:222 lib/GUI.pm:329 lib/GUI.pm:1840
+msgid "Preferences"
+msgstr "設定"
+
+#: lib/GUI.pm:228 lib/Submit.pm:56
+msgid "Submit a file for analysis"
+msgstr "ファイルの報告"
+
+#: lib/GUI.pm:308
+msgid "Home"
+msgstr "ホーム"
+
+#: lib/GUI.pm:311
+msgid "Scan your home directory"
+msgstr "ホームフォルダーをスキャンします"
+
+#: lib/GUI.pm:319 lib/GUI.pm:1661
+msgid "Histories"
+msgstr "履歴"
+
+#: lib/GUI.pm:321
+msgid "View your previous scans"
+msgstr "前のスキャンを表示"
+
+#: lib/GUI.pm:331
+msgid "Set or view your preferences"
+msgstr "設定の変更/表示"
+
+#: lib/GUI.pm:339
+msgid "Exit"
+msgstr "終了"
+
+#: lib/GUI.pm:341
+msgid "Exit this program"
+msgstr "このプログラムを終了します"
+
+#: lib/GUI.pm:360 lib/Update.pm:105 lib/Update.pm:253
+msgid "Antivirus engine"
+msgstr "アンチウィルスエンジン"
+
+#: lib/GUI.pm:361 lib/GUI.pm:385 lib/GUI.pm:735
+msgid "Unknown"
+msgstr "不明"
+
+#: lib/GUI.pm:364 lib/GUI.pm:376 lib/GUI.pm:387 lib/GUI.pm:641 lib/GUI.pm:681
+#: lib/GUI.pm:684 lib/GUI.pm:687 lib/GUI.pm:690 lib/GUI.pm:731 lib/GUI.pm:732
+#: lib/GUI.pm:752 lib/Update.pm:246 lib/Update.pm:248
+msgid "Current"
+msgstr "最新"
+
+#: lib/GUI.pm:372
+msgid "GUI version"
+msgstr "GUI バージョン"
+
+#: lib/GUI.pm:384
+msgid "Antivirus definitions"
+msgstr "シグネチャ"
+
+#: lib/GUI.pm:423
+msgid "Stop scanning now"
+msgstr "スキャンを中止します"
+
+#: lib/GUI.pm:457 lib/GUI.pm:1253
+msgid "Files Scanned: "
+msgstr "スキャンしたファイル: "
+
+#: lib/GUI.pm:460 lib/GUI.pm:1254
+msgid "Threats Found: "
+msgstr "発見した脅威: "
+
+#: lib/GUI.pm:463 lib/GUI.pm:1255 lib/GUI.pm:1337
+msgid "Ready"
+msgstr "準備完了"
+
+#: lib/GUI.pm:474 lib/GUI.pm:481 lib/GUI.pm:488
+msgid "Drag and drop"
+msgstr "ドラッグ＆ドロップ"
+
+#: lib/GUI.pm:532 lib/GUI.pm:947
+msgid "Could not scan (permissions)"
+msgstr "スキャンできません（アクセス権がありません）"
+
+#: lib/GUI.pm:533 lib/GUI.pm:541 lib/GUI.pm:949 lib/GUI.pm:1198
+msgid "None"
+msgstr "なし"
+
+#: lib/GUI.pm:540
+msgid "Directory excluded from scan"
+msgstr "フォルダーをスキャンから除外"
+
+#: lib/GUI.pm:621
+msgid "Please wait, initializing..."
+msgstr "初期化しているのでしばらくお待ちください..."
+
+#: lib/GUI.pm:638 lib/GUI.pm:669 lib/GUI.pm:672 lib/GUI.pm:694 lib/GUI.pm:697
+#: lib/GUI.pm:749
+msgid "Unable to check"
+msgstr "確認できません"
+
+#: lib/GUI.pm:645 lib/GUI.pm:756 lib/Update.pm:247
+msgid "A newer version is available"
+msgstr "新しいバージョンが入手可能です"
+
+#: lib/GUI.pm:675 lib/GUI.pm:678 lib/GUI.pm:726 lib/GUI.pm:1131
+#: lib/GUI.pm:1132
+msgid "Outdated"
+msgstr "期限切れです"
+
+#: lib/GUI.pm:716
+msgid "None found"
+msgstr "何も見つかりませんでした"
+
+#: lib/GUI.pm:728
+msgid "Your antivirus signatures are out-of-date"
+msgstr "シグネチャが古くなっています"
+
+#: lib/GUI.pm:879 lib/Submit.pm:120 lib/Submit.pm:252
+msgid "Select File"
+msgstr "ファイルの選択"
+
+#: lib/GUI.pm:881
+msgid "Select a Directory (directory scan)"
+msgstr "フォルダーを選択 (フォルダースキャン)"
+
+#: lib/GUI.pm:883
+msgid "Select a Directory (recursive scan)"
+msgstr "フォルダーを選択 (再帰的なスキャン)"
+
+#: lib/GUI.pm:948
+msgid "Will not scan that directory"
+msgstr "このフォルダーはスキャンしない"
+
+#: lib/GUI.pm:1014
+msgid "Elapsed time: "
+msgstr "経過時間: "
+
+#: lib/GUI.pm:1159
+#, perl-format
+msgid "Scanning %s..."
+msgstr "%s をスキャンしています…"
+
+#: lib/GUI.pm:1205 lib/GUI.pm:1334
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>発見した脅威: %d</b>"
+
+#: lib/GUI.pm:1207
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "発見した脅威: %d"
+
+#: lib/GUI.pm:1220
+#, perl-format
+msgid "Percent complete: %2d"
+msgstr "%2d パーセント完了"
+
+#: lib/GUI.pm:1232
+msgid "Percent complete: 100"
+msgstr "100 パーセント完了"
+
+#: lib/GUI.pm:1273
+#, perl-format
+msgid "Elapsed time: %s"
+msgstr "経過時間: %s"
+
+#: lib/GUI.pm:1274 lib/GUI.pm:1331
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "スキャンしたファイル数: %d"
+
+#: lib/GUI.pm:1313
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "ClamAV シグネチャ: %d\n"
+
+#: lib/GUI.pm:1314
+msgid "Directories Scanned:\n"
+msgstr "フォルダーのスキャンが完了しました:\n"
+
+#: lib/GUI.pm:1318
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"%d 個の %s を発見しました（%d %s をスキャン）\n"
+"\n"
+
+#: lib/GUI.pm:1320
+msgid "threat"
+msgstr "脅威"
+
+#: lib/GUI.pm:1320
+msgid "threats"
+msgstr "脅威"
+
+#: lib/GUI.pm:1322
+msgid "file"
+msgstr "ファイル"
+
+#: lib/GUI.pm:1322
+msgid "files"
+msgstr "ファイル"
+
+#: lib/GUI.pm:1325
+msgid "Could not write to logfile. Check permissions."
+msgstr "ログの出力に失敗しました。アクセス権限を確認してください。"
+
+#: lib/GUI.pm:1330
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "スキャン完了 (シグネチャ %d)"
+
+#: lib/GUI.pm:1345
+msgid "No threats found.\n"
+msgstr "脅威は発見されませんでした。\n"
+
+#: lib/GUI.pm:1404 lib/Results.pm:225
+msgid "Quarantine"
+msgstr "隔離"
+
+#: lib/GUI.pm:1417 lib/Results.pm:69
+msgid "File"
+msgstr "ファイル"
+
+#: lib/GUI.pm:1426
+msgid "Restore"
+msgstr "復元"
+
+#: lib/GUI.pm:1512 lib/GUI.pm:1555
+msgid "Operation failed."
+msgstr "操作に失敗しました。"
+
+#: lib/GUI.pm:1523
+#, perl-format
+msgid "Restored as %s."
+msgstr "%sを復元しました。"
+
+#: lib/GUI.pm:1570
+msgid "No virus directory available."
+msgstr "隔離フォルダーが存在しません。"
+
+#: lib/GUI.pm:1576 lib/GUI.pm:1613
+msgid "Unable to open the virus directory."
+msgstr "隔離フォルダーが開けません。"
+
+#: lib/GUI.pm:1584
+msgid "No items currently quarantined."
+msgstr "隔離されたファイルはありません。"
+
+#: lib/GUI.pm:1586
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "現在 %d 個のファイルが隔離されています。"
+
+#: lib/GUI.pm:1596
+msgid "There is no quarantine directory to empty."
+msgstr "空にする隔離フォルダーがありません。"
+
+#: lib/GUI.pm:1599
+msgid "Really delete all quarantined files?"
+msgstr "すべての隔離ファイルを削除しますか？"
+
+#: lib/GUI.pm:1620
+msgid "There are no quarantined items to delete."
+msgstr "削除する隔離ファイルはありません。"
+
+#: lib/GUI.pm:1633
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "%d 個のファイルを削除しました"
+
+#: lib/GUI.pm:1646
+msgid "Scanning Histories"
+msgstr "スキャンの履歴"
+
+#: lib/GUI.pm:1695
+msgid "View"
+msgstr "表示"
+
+#: lib/GUI.pm:1754
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "%s を削除できません！"
+
+#: lib/GUI.pm:1777
+#, perl-format
+msgid "Viewing %s"
+msgstr "%s を表示しています"
+
+#: lib/GUI.pm:1790
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "ファイルが開けませんでした: %s"
+
+#: lib/GUI.pm:1800
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "ファイル %s をクローズできません！ %s\n"
+
+#: lib/GUI.pm:1858
+msgid "Scanning Preferences"
+msgstr "スキャン設定"
+
+#: lib/GUI.pm:1861
+msgid "Scan files beginning with a dot (.*)"
+msgstr "dotで始まるファイルをスキャン (.*)"
+
+#: lib/GUI.pm:1872
+msgid "Scan all files and directories within a directory"
+msgstr "フォルダーにあるすべてのファイルとフォルダーをスキャン"
+
+#: lib/GUI.pm:1883
+msgid "Enable extra scan settings"
+msgstr "追加スキャン設定を有効にする"
+
+#: lib/GUI.pm:1894
+msgid "Scan files larger than 20 MB"
+msgstr "20MB以上のファイルもスキャンする"
+
+#: lib/GUI.pm:1908
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "%s samba フォルダーをスキャン"
+
+#: lib/GUI.pm:1920
+msgid "Startup Preferences"
+msgstr "起動時の設定"
+
+#: lib/GUI.pm:1923
+msgid "Check for AV Engine updates"
+msgstr "アンチウィルスエンジンのアップデートをチェックする"
+
+#: lib/GUI.pm:1934
+msgid "Check for GUI updates"
+msgstr "GUIのアップデートをチェックする"
+
+#: lib/GUI.pm:1945
+msgid "Use OpenDNS servers"
+msgstr "OpenDNSサーバーを使用する"
+
+#: lib/GUI.pm:1956
+msgid "Whitelist"
+msgstr "ホワイトリスト"
+
+#: lib/GUI.pm:1967
+msgid "Directory"
+msgstr "フォルダー"
+
+#: lib/GUI.pm:1981
+msgid "Select a Directory"
+msgstr "フォルダーを選択"
+
+#: lib/GUI.pm:2037
+msgid "Proxy settings"
+msgstr "プロキシの設定"
+
+#: lib/GUI.pm:2041
+msgid "No Proxy"
+msgstr "プロキシを使用しない"
+
+#: lib/GUI.pm:2047
+msgid "Environment settings"
+msgstr "システムのプロキシ設定を使用する"
+
+#: lib/GUI.pm:2053
+msgid "Set manually"
+msgstr "手動でプロキシを設定する"
+
+#: lib/GUI.pm:2060
+msgid "IP address or host:"
+msgstr "IPアドレス:"
+
+#: lib/GUI.pm:2077
+msgid "Port:"
+msgstr "ポート番号:"
+
+#: lib/GUI.pm:2343
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "最後にスキャンした日付: %s"
+
+#: lib/GUI.pm:2348
+#, perl-format
+msgid "Date of last known infection: %s"
+msgstr "最後に感染が分かった日付: %s"
+
+#: lib/GUI.pm:2369 lib/Submit.pm:326
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+#: lib/GUI.pm:2406
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr "ClamTkはClamAVのGUIフロントエンドです。このアプリケーションはgtk2-perlによって作成されました。"
+
+#: lib/GUI.pm:2410
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"このプログラムはフリーソフトウェアです。あなたはこれを\n"
+"以下のいずれかの条件のもとで再頒布かつ/または改変することができます:\n"
+"\n"
+"a) フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書\n"
+"(バージョン1または、希望によってはそれ以降のバージョン)、または\n"
+"\n"
+"b) アーティスティック・ライセンス\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "スキャンの結果"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "以下の脅威が発見されました。"
+
+#: lib/Results.pm:70 lib/Schedule.pm:189 lib/Update.pm:60
+msgid "Status"
+msgstr "状態"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "実行する"
+
+#: lib/Results.pm:135
+msgid "Quarantine this file"
+msgstr "このファイルを隔離"
+
+#: lib/Results.pm:154
+msgid "Delete this file"
+msgstr "このファイルを削除"
+
+#: lib/Results.pm:180
+msgid "Save As..."
+msgstr "名前を付けて保存..."
+
+#: lib/Results.pm:193
+msgid "Could not save that file."
+msgstr "ファイルを保存できませんでした。"
+
+#: lib/Results.pm:196 lib/Results.pm:332
+msgid "Moved"
+msgstr "移動しました"
+
+#: lib/Results.pm:199
+msgid "File saved."
+msgstr "ファイルを保存しました。"
+
+#: lib/Results.pm:290 lib/Results.pm:306
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "ファイルは既に移動、または削除されています。"
+
+#: lib/Results.pm:295
+msgid "File has been quarantined."
+msgstr "ファイルは隔離されました。"
+
+#: lib/Results.pm:297
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>隔離</b>"
+
+#: lib/Results.pm:300
+msgid "File could not be quarantined."
+msgstr "ファイルを隔離できませんでした。"
+
+#: lib/Results.pm:310
+msgid "Really delete this file?"
+msgstr "ファイルを削除してもよいですか？"
+
+#: lib/Results.pm:322
+msgid "File has been deleted."
+msgstr "ファイルを削除しました。"
+
+#: lib/Results.pm:324
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>削除</b>"
+
+#: lib/Results.pm:327
+msgid "File could not be deleted."
+msgstr "ファイルを削除できませんでした。"
+
+#: lib/Results.pm:376
+msgid "Quarantine directory does not exist."
+msgstr "隔離フォルダーが存在しません"
+
+#: lib/Schedule.pm:48
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: lib/Schedule.pm:59
+msgid "Scan options"
+msgstr "スキャン設定"
+
+#: lib/Schedule.pm:69
+msgid "Scan my ... "
+msgstr "スキャン対象 "
+
+#: lib/Schedule.pm:75
+msgid "Home (recommended)"
+msgstr "ホームフォルダー(推奨)"
+
+#: lib/Schedule.pm:81
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr "自分のホームフォルダーをスキャンします。このオプションの使用が推奨されています。"
+
+#: lib/Schedule.pm:83
+msgid "entire computer"
+msgstr "コンピューター全体"
+
+#: lib/Schedule.pm:88
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr "コンピューター全体をスキャンします。ただし /proc、/sys、 /dev フォルダーは除外されます。"
+
+#: lib/Schedule.pm:93
+msgid "at this time ... "
+msgstr "スキャンする時間 "
+
+#: lib/Schedule.pm:101 lib/Schedule.pm:155
+msgid "Set the hour using a 24 hour clock."
+msgstr "24時間表記で時間を設定してください。"
+
+#: lib/Schedule.pm:102 lib/Schedule.pm:156
+msgid "Hour"
+msgstr "時"
+
+#: lib/Schedule.pm:109 lib/Schedule.pm:162
+msgid "Minute"
+msgstr "分"
+
+#: lib/Schedule.pm:114
+msgid "Scan my whitelisted directories"
+msgstr "ホワイトリストに登録されたフォルダーもスキャンする"
+
+#: lib/Schedule.pm:138 lib/Update.pm:523 lib/Update.pm:561
+msgid "Antivirus signature options"
+msgstr "シグネチャオプション"
+
+#: lib/Schedule.pm:147
+msgid "Select a time to update your signatures."
+msgstr "シグネチャをアップデートする時間"
+
+#: lib/Schedule.pm:198 lib/Schedule.pm:264
+msgid "A daily scan is scheduled."
+msgstr "毎日定時にスキャンを実行します。"
+
+#: lib/Schedule.pm:203 lib/Schedule.pm:307
+msgid "A daily definitions update is scheduled."
+msgstr "毎日定時にシグネチャをアップデートします。"
+
+#: lib/Schedule.pm:298
+msgid "A daily scan is not scheduled."
+msgstr "毎日の定時スキャンは予定されていません。"
+
+#: lib/Schedule.pm:312
+msgid "A daily definitions update is not scheduled."
+msgstr "毎日のシグネチャアップデートは予定されていません。"
+
+#: lib/Submit.pm:79
+msgid "Name"
+msgstr "名前"
+
+#: lib/Submit.pm:98
+msgid "Email"
+msgstr "Email"
+
+#: lib/Submit.pm:116
+msgid "No file selected"
+msgstr "ファイルが選択されていません"
+
+#: lib/Submit.pm:155
+msgid "The attached file is"
+msgstr "添付ファイルの種類"
+
+#: lib/Submit.pm:161
+msgid "New malware"
+msgstr "新種のウィルス"
+
+#: lib/Submit.pm:164
+msgid "A false positive"
+msgstr "誤検出される正常なファイル"
+
+#: lib/Submit.pm:169 lib/Update.pm:58
+msgid "Description"
+msgstr "詳細"
+
+#: lib/Submit.pm:231 lib/Submit.pm:407
+msgid "Please do not submit more than two files per day."
+msgstr "1日につき2個以上のファイルを報告しないでください。"
+
+#: lib/Submit.pm:275
+msgid "You are about to submit a file for analysis."
+msgstr "ファイルを報告するための情報を入力してください。"
+
+#: lib/Submit.pm:278
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "進むボタンをクリックしてください。キャンセルボタンで中止します。"
+
+#: lib/Submit.pm:367
+msgid "The submission was successful!"
+msgstr "送信に成功しました！"
+
+#: lib/Submit.pm:370
+msgid "The file you submitted is already recognized"
+msgstr "このファイルは既に報告されています"
+
+#: lib/Submit.pm:380
+msgid "Unable to complete the submission. Please try again later."
+msgstr "送信に失敗しました。時間を置いて再試行してください。"
+
+#: lib/Submit.pm:401
+msgid "With this form, you can:"
+msgstr "このフォームから、以下のファイルを報告することができます:"
+
+#: lib/Submit.pm:402
+msgid "Report new viruses which are not detected"
+msgstr "検出されない新種のウィルス"
+
+#: lib/Submit.pm:404
+msgid "Report clean files which are incorrectly detected"
+msgstr "誤検出される正常なファイル"
+
+#: lib/Submit.pm:430
+msgid "Indicates a required field"
+msgstr "のついた項目は必須です"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "アップデート"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "選択"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "有効にするにはroot権限である必要があります。"
+
+#: lib/Update.pm:87 lib/Update.pm:233
+msgid "Signature updates"
+msgstr "シグネチャをアップデート"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "シグネチャのアップデートを確認"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:107 lib/Update.pm:154
+#: lib/Update.pm:155
+msgid "N/A"
+msgstr "該当なし"
+
+#: lib/Update.pm:97 lib/Update.pm:242
+msgid "GUI updates"
+msgstr "GUI をアップデート"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "GUI のアップデートを確認"
+
+#: lib/Update.pm:106
+msgid "Check for antivirus engine updates"
+msgstr "エンジンのアップデートを確認"
+
+#: lib/Update.pm:126
+msgid "Check for updates"
+msgstr "アップデートの確認"
+
+#: lib/Update.pm:171
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"このアプリケーションはrootユーザで実行しないことが推奨されています。\n"
+"次のページを参照してください。 http://clamtk.sf.net/faq.html"
+
+#: lib/Update.pm:234 lib/Update.pm:243 lib/Update.pm:254
+msgid "Checking..."
+msgstr "確認中..."
+
+#: lib/Update.pm:237
+msgid "Update failed"
+msgstr "アップデートに失敗しました"
+
+#: lib/Update.pm:238
+msgid "Signatures are current"
+msgstr "最新のシグネチャ"
+
+#: lib/Update.pm:239
+msgid "Updated"
+msgstr "アップデートしました"
+
+#: lib/Update.pm:249 lib/Update.pm:250
+msgid "Check failed"
+msgstr "確認に失敗しました"
+
+#: lib/Update.pm:330
+msgid "Trying to connect..."
+msgstr "接続しています..."
+
+#: lib/Update.pm:335
+msgid "Downloading updates..."
+msgstr "更新をダウンロード中..."
+
+#: lib/Update.pm:340
+msgid "Cannot connect..."
+msgstr "接続に失敗しました..."
+
+#: lib/Update.pm:345
+msgid "Daily signatures have been updated"
+msgstr "シグネチャのアップデートが完了しました"
+
+#: lib/Update.pm:358
+msgid "Checking main virus database version"
+msgstr "ウィルスデータベースのバージョンを確認しています"
+
+#: lib/Update.pm:363
+msgid "Main virus database is current"
+msgstr "最新のウィルスデータベース"
+
+#: lib/Update.pm:467
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "シグネチャのアップデート方法を選択してください。"
+
+#: lib/Update.pm:470
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "自分でシグネチャを更新したい場合は、手動更新を選択してください。"
+
+#: lib/Update.pm:475
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "自動でシグネチャを更新した場合は、自動更新を選択してください。"
+
+#: lib/Update.pm:491
+msgid "Manual"
+msgstr "手動更新"
+
+#: lib/Update.pm:502
+msgid "Automatic"
+msgstr "自動更新"
+
+#: lib/Update.pm:556
+msgid "Your preferences were saved."
+msgstr "スキャン設定を保存しました。"

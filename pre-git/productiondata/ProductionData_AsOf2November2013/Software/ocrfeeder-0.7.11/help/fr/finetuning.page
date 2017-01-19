@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="finetuning">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Options avancées pour une meilleure reconnaissance</desc>
+</info>
+
+<title>Ajustements</title>
+
+<p>Vous pouvez utiliser les options avancées d'<app>OCRFeeder</app> pour améliorer la reconnaissance du document. Ces options sont disponibles dans la boîte de dialogue <guiseq><gui>Édition</gui><gui>Préférences</gui></guiseq> et dans l'onglet <gui>Reconnaissance</gui>.</p>
+
+<p>La liste suivante décrit les options disponibles :</p>
+<list>
+    <item><p><gui>Réparer les sauts de ligne et les césures</gui> : les moteurs ROC lisent habituellement le texte ligne par ligne et séparent celles-ci par un saut de ligne. Parfois, ce n'est pas ce que vous souhaitez car le texte se retrouve coupé au milieu d'une phrase.</p>
+    <p>Si vous cochez cette option, <app>OCRFeeder</app> supprime les sauts de lignes uniques après la reconnaissance du texte par les moteurs.</p>
+    <p>Étant donné que supprimer seulement les sauts de ligne d'un texte à césures conduit à avoir des mots coupés de manière incorrecte, la césure est aussi détectée et supprimée dans ce processus.</p></item>
+    <item><p><gui>Taille de fenêtre</gui> : pour détecter le contenu d'une image, l’algorithme d'<app>OCRFeeder</app> utilise le concept de <em>taille de fenêtre</em> qui divise l'image en petites fenêtres. Une petite taille de fenêtre signifie qu'il est possible de détecter plus de zones de contenu mais des fenêtres trop petites peuvent résulter en un contenu qui devrait faire partie d'une zone plus grande. D'autre part, une taille de fenêtre plus grande veut dire moins de divisions de contenu mais peut résulter en contenu qui devrait être subdivisé.</p>
+    <p>Une bonne taille de fenêtre devrait être légèrement plus grande que l'espacement des lignes de texte d'une image.</p><p>Vous pouvez définir manuellement cette valeur si elle ne produit pas de zones de contenu correctes automatiquement. Mais il est normalement plus facile d'utiliser le mode automatique et d'appliquer les corrections voulues directement dans les zones de contenu.</p></item>
+    <item><p><gui>Améliorer la détection des colonnes</gui> : cochez cette option si vous voulez qu'<app>OCRFeeder</app> divise les zones de contenu détectées horizontalement (en générant davantage de colonnes). La valeur à utiliser pour détecter des espaces vides peut être définie automatiquement ou manuellement si les colonnes ne sont pas détectées correctement.</p></item>
+    <item><p><gui>Ajuster les limites des zones de contenu</gui> : parfois les zones de contenu détectées ont une marge considérable entre leur contenu et le bord de la zone. Cochez cette option si vous souhaitez qu'<app>OCRFeeder</app> diminue ces marges en ajustant les zones à leur contenu. Vous pouvez aussi saisir manuellement une taille maximale pour cet ajustement.</p></item>
+</list>
+
+</page>

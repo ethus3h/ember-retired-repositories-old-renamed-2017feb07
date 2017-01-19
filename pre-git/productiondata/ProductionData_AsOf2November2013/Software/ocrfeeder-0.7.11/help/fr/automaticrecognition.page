@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="automaticrecognition">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Reconnaître une image automatiquement</desc>
+</info>
+
+<title>Reconnaissance automatique</title>
+
+<p><app>OCRFeeder</app> essaye de détecter le contenu d'une image de document et y applique les moteurs ROC. Il distingue donc ce qui est graphique de ce qui est texte. Pour simplifier ce concept, nous l'appelons reconnaissance.</p>
+
+<p>Pour reconnaître automatiquement une image après ajout, cliquez sur <guiseq><gui>Document</gui><gui>Reconnaître le document</gui></guiseq>.</p>
+
+<note style="important"><p>Sachant qu'il existe plusieurs types de mise en page de documents, la reconnaissance automatique, principalement la segmentation des pages peut parfois être approximative. Dans ce cas, des modifications manuelles du résultat de la reconnaissance peut être nécessaire.</p></note>
+
+<note style="warning"><p>La reconnaissance automatique utilise des opérations complexes et peut prendre un certain temps en fonction de la taille de l'image et de la complexité de la mise en page.</p>
+<p>La reconnaissance automatique remplace toutes les zones de contenu dans la page actuellement sélectionnée.</p></note>
+
+</page>

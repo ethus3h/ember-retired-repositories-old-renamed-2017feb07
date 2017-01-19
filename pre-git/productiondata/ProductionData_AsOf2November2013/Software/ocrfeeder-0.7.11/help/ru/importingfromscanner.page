@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingfromscanner">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Импорт со сканера</desc>
+</info>
+
+<title>Импорт со сканера</title>
+
+<p>Чтобы преобразовать печатный документ в редатируемый, <app>OCRFeeder</app> позволяет импортировать изображения непосредственно со сканера.</p>
+
+<p>Чтобы импортировать изображение со сканера, воспользуйтесь командой меню <guiseq><gui>Файл</gui><gui>Импортировать страницу со сканера</gui></guiseq> или комбинацией клавиш <keyseq><key>Ctrl</key><key>Shift</key><key>I</key></keyseq>.</p>
+
+<p>Для сканирования страницы будет использоваться текущий обнаруженный сканер. Если обнаружено более одного сканера, будет показано диалоговое окно, позволяющее выбрать нужный сканер.</p>
+
+</page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingimage">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <desc>Hinzufügen eines zu erkennenden Bildes</desc>
+</info>
+
+<title>Hinzufügen eines Bildes</title>
+
+<p>Das Hinzufügen eines Bildes zu <app>OCRFeeder</app> ist üblicherweise der erste Schritt beim Umwandeln eines Dokuments.</p>
+
+<p>Jedes hinzugefügte Bild stellt eine Seite im fertigen Dokument dar. Ein Vorschaubild wird im linken Bereich des <app>OCRFeeder</app>-Fensters angezeigt.</p>
+
+<p>Die Reihenfolge der Seiten im sich ergebenden Dokument ist die gleiche wie die Reihenfolge der Bilder im Seitenbereich. Dadurch kann die Reihenfolge verändert werden, indem Sie die Vorschaubilder im Seitenbereich mit der Maus durch Ziehen und Ablegen neu anordnen.</p>
+
+<p>Zum Hinzufügen eines Bildes wählen Sie <guiseq><gui>Datei</gui><gui>Bild hinzufügen</gui></guiseq>.</p>
+
+<p>Um eine Seite zu löschen, wählen Sie <guiseq><gui>Bearbeiten</gui><gui>Seite löschen</gui></guiseq> oder klicken Sie mit der rechten Maustaste auf das Vorschaubild der Seite und wählen Sie <gui>Löschen</gui>.</p>
+
+<section>
+<title>Seiteneinstellungen</title>
+
+<p>To configure the page's size click in
+<guiseq><gui>Edit</gui><gui>Edit Page</gui></guiseq>
+and choose either a custom size, providing the respective
+values or a standard paper size from a list.</p>
+
+</section>
+
+</page>

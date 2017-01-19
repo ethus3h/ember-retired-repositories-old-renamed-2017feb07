@@ -1,0 +1,1375 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/desktop/gnome/peripherals/touchpad/disable_while_typing</key>
+      <applyto>/desktop/gnome/peripherals/touchpad/disable_while_typing</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Disable touchpad while typing</short>
+        <long>Set this to TRUE if you have problems with accidentally hitting the touchpad while typing.</long>
+      </locale>
+
+      <locale name="as">
+        <short>টাইপ কৰাৰ সময় টাচ-পেড নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>টাইপ কৰাৰ সময় ভুলবসত টাচ-পেড চুই দিয়াৰ সমস্যা থাকিলে এই মান TRUE ধাৰ্য কৰক ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar el touchpad al escribir</short>
+        <long>Afita esto a braeru si tienes problemes tocando accidentalmente&apos;l touchpad al escribir.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на сензорния панел по време на писане</short>
+        <long>Задайте да е истина, ако имате проблем със случайно докосване на сензорния панел по време на писане.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>টাইপ করার সময় টাচ-প্যাড নিষ্ক্রিয় করা হবে</short>
+        <long>টাইপ করার সময় ভুলবসত টাচ-প্যাড ছুঁয়ে ফেলার সমস্যা থাকলে এই মান TRUE  ধার্য করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>টাইপ করার সময় টাচ-প্যাড নিষ্ক্রিয় করা হবে</short>
+        <long>টাইপ করার সময় ভুলবসত টাচ-প্যাড ছুঁয়ে ফেলার সমস্যা থাকলে এই মান TRUE (সত্য) ধার্য করুন।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita el ratolí tàctil mentre s&apos;escriu</short>
+        <long>Establiu-ho a «True» (cert) si accidentalment toqueu el ratolí tàctil mentre escriviu.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita el ratolí tàctil mentre s&apos;escriu</short>
+        <long>Establiu-ho a «True» (cert) si accidentalment toqueu el ratolí tàctil mentre escriviu.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Yazarken touchpad&apos;i devre dışı bırak</short>
+        <long>Eğer yazarken touchpad&apos;e dokunma sorunu yaşıyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Vypnout touchpad během psaní</short>
+        <long>Nastavte na &quot;TRUE&quot;, pokud občas při psaní omylem zavadíte o touchpad.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér touchpad når der skrives</short>
+        <long>Sæt denne til TRUE hvis du kommer til at ramme touchpadden mens du skriver.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Touchpad während des Tippens deaktivieren</short>
+        <long>Setzen Sie dies auf »WAHR«, falls Sie Probleme mit unbeabsichtigtem Berühren des Touchpads während des Tippens haben.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση πινακίδας αφής κατά την πληκτρολόγηση</short>
+        <long>Ενεργοποιήστε αυτήν την επιλογή αν πατάτε κατά λάθος το touchpad κατά την πληκτρολόγηση.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable touchpad while typing</short>
+        <long>Set this to TRUE if you have problems with accidentally hitting the touchpad while typing.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar el touchpad al escribir</short>
+        <long>Establecer esto a verdadero si tiene problemas tocando accidentalmente el touchpad al escribir.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Puuteplaadi keelamine tippimise ajaks</short>
+        <long>Märgi see väärtus juhul, kui sind segab, et sa tippimise ajal kogemata puuteplaati puudutad.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu touchpad-a idaztean</short>
+        <long>Ezarri hau TRUE (egia) gisa idazten duzun bitartean ustekabean touchpad-a ukitzeak arazoak sortzen badizkizu.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista kosketuslevy käytöstä kirjoitettaessa</short>
+        <long>Aseta tämä todeksi jos sinulla on ongelmia osuessasi vahingossa kosketuslevyyn kirjoitettaessa.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver le pavé tactile lors de la frappe au clavier</short>
+        <long>Activez cette clé s&apos;il vous arrive de toucher accidentellement le pavé tactile lorsque vous écrivez au clavier.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar a superficie táctil mentres se escribe</short>
+        <long>Estabeleza isto como TRUE se ten problemas cos saltos accidentais na superficie táctil mentres escribe.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>જ્યારે ટાઇપ કરતા હોય ત્યારે ટચપેડને નિષ્ક્રિય કરો</short>
+        <long>જ્યારે ટાઇપ કરતા હોય ત્યારે ટચપેડ સાથે આકસ્મિક રીતે અથડાવાથી જો તમને સમસ્યા હોય તો આ TRUE ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable touchpad while typing</short>
+        <long>Set this to TRUE if you have problems with accidentally hitting the touchpad while typing.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>टाइपिंग के दौरान टचपैड दिखाएँ</short>
+        <long>इसे सही पर सेट करें यदि आपको टाइपिंग के दौरान अचानक से टतपैड को हिट करने की समस्या है.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Érintőtábla letiltása gépelés közben</short>
+        <long>Állítsa igazra, ha problémát okoz az érintőtábla véletlen megérintése gépelés közben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita il touchpad durante la digitazione</short>
+        <long>Impostare a VERO se si hanno problemi con pressioni accidentali del touchpad mentre si digita.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>タイピング中にタッチパッドを無効にする</short>
+        <long>タイプ中に誤ってタッチ・パッドを押してしまう問題があるのであれば、TRUE に設定してください。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟೈಪ್ ಮಾಡುವಾಗ ಟಚ್‌ಪ್ಯಾಡನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಟೈಪಿಸುವಾಗ ಆಕಸ್ಮಿಕವಾಗಿ ಟಚ್‌ಪ್ಯಾಡ್ ಗೆ ಕೈ ತಾಗುವ ತೊಂದರೆ ಇದ್ದರೆ ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>타이핑할 때 터치패드 사용 않기</short>
+        <long>타이핑할 때 터치패드를 실수로 건드리는 문제가 있을 경우 참으로 설정하십시오.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Išjungti paliesties lentelę, kai naudojamasi klaviatūra</short>
+        <long>Nustatykite TRUE, jei kartais rašydami tekstą netyčia kliudote paliesties lentelę.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atslēgt skārienpaliktni, kad raksta</short>
+        <long>Iestatiet šo uz PATIESS, ja jums ir problēmas ar netīšu skārienpaliktņa nospiešanu, kamēr rakstāt.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ടൈപ്പ് ചെയ്യുമ്പോള്‍ ടച്ച്പാഡ് പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>ടൈപ്പ് ചെയ്യുമ്പോള്‍ അബന്ധത്തില്‍ ടച്ച്പാഡില്‍ ഹിറ്റ് ചെയ്യുന്നതു് പ്രശ്നമുണ്ടാക്കുന്നുണ്ടെങ്കില്‍, ഇതു് TRUE ആയി സജ്ജമാക്കുക. </long>
+      </locale>
+
+      <locale name="mr">
+        <short>टाईपकरतेवेळी टचपॅड अकार्यक्षम करा</short>
+        <long>टाईप करतेवेळी टचपॅडला चुकीने हात लागल्यास यांस TRUE सेट करा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå av pekeplate ved skriving</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Touchpad uitschakelen tijdens het typen</short>
+        <long>Schakel dit in wanneer u problemen heeft met het per ongeluk aanraken van uw touchpad tijdens het typen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå av styreplata medan du skriv</short>
+        <long>Set denne til TRUE viss du har problem med at du uheldigvis treff skriveplata medan du skriv.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟାଇପ କରିବା ସମୟରେ ଟଚପ୍ୟାଡ଼କୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ ଯଦି ଆପଣଙ୍କର ଟାଇପ କରିବା ସମୟରେ ଟଚପ୍ୟାଡକୁ ହଠାତ ଆଘାତ କରିବାରେ ସମସ୍ୟା ଅଛି।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਲਿਖਣ ਦੌਰਾਨ ਟੱਚਪੈਡ ਆਯੋਗ ਕਰੋ</short>
+        <long>ਇਹ ਚੋਣ ਕਰੋ, ਜੇ ਤੁਹਾਨੂੰ ਲਿਖਣ ਦੌਰਾਨ ਗਲਤੀ ਨਾਲ ਟੱਚਪੈਚ ਛੋਹਣ ਦੀ ਸਮੱਸਿਆ ਆਉਂਦੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie panelu dotykowego podczas pisania</short>
+        <long>Powinno być ustawione na &quot;TRUE&quot;, jeśli użytkownik ma problemy z przypadkowym naciskaniem panelu dotykowego podczas pisania.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar o touchpad enquanto utiliza o teclado</short>
+        <long>Defina como VERDADEIRO caso tenha problemas por tocar acidentalmente no touchpad enquanto utiliza o teclado.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar o touchpad enquanto digita</short>
+        <long>Defina como VERDADEIRO, se você tiver problemas ao tocar acidentalmente o touchpad enquanto digita.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare touchpad în timpul tastării</short>
+        <long>Definiți ca „TRUE” dacă aveți probleme cu atingerea accidentală a touchpad-ului în timp ce tastați.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключать сенсорную панель при наборе</short>
+        <long>Установите в TRUE если у вас проблемы со срабатыванием touchpad&apos;а при наборе текста.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zakázať touchpad počas písania</short>
+        <long>Nastavte na TRUE, ak máte problémy s náhodnými stlačeniami touchpadu počas písania.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči sledilno ploščico med tipkanjem.</short>
+        <long>Izbrana možnost je uporabna, če pogosto nepričakovano udarite po sledilni plošlici med tipkanjem.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи додирну таблу док куцам</short>
+        <long>Поставите на „TRUE“ (тачно) уколико случајно закачињете додирну таблу у току куцања.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi dodirnu tablu dok kucam</short>
+        <long>Postavite na „TRUE“ (tačno) ukoliko slučajno zakačinjete dodirnu tablu u toku kucanja.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera pekplatta under skrivning</short>
+        <long>Ställ in denna till TRUE om du har problem med oavsiktliga tryck på pekplattan när du skriver.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>தட்டச்சும்போது தொடுதிட்டை செயல்நீக்கு</short>
+        <long>தட்டச்சும்போது தவறுதலாக தொடு திட்டை தொடுபவராக இருந்தால் இதை உண்மை என அமைக்கவும்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>టైపుచేయునప్పుడు టచ్‌పాడ్‌ను అచేతనము చేయుము</short>
+        <long>టైపు చేయునప్పుడు మీరు ప్రమాదవశాత్తు టచ్‌పాడ్‌ను తగిలే సమస్యవుంటే దీనిని TRUEకు అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดทัชแพดขณะพิมพ์</short>
+        <long>กำหนดค่านี้เป็น TRUE ถ้าคุณมีปัญหากับการโดนทัชแพดโดยไม่ตั้งใจในขณะพิมพ์</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Yazarken touchpad&apos;i devre dışı bırak</short>
+        <long>Eğer yazarken touchpad&apos;e dokunma sorunu yaşıyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Вимикати точпад при наборі на клавіатурі</short>
+        <long>Відмітьте цей параметр, якщо у вас виникають проблеми з випадковим натисканням на топад при наборі тексту на клавіатурі.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tắt touchpad khi đang gõ</short>
+        <long>Đặt là TRUE nếu bạn hay chạm phải touchpad khi đang gõ phím.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>在输入时禁用触摸板</short>
+        <long>如果你打字时会因偶尔会碰到触摸板而造成麻烦，将其设置为真(TRUE)。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>打字時停用觸控板</short>
+        <long>如果你在打字時容易不小心碰到觸控板，可將此項設定為 TRUE。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>打字時停用觸控板</short>
+        <long>如果您在打字時容易不小心碰到觸控板，可將此項設定為 TRUE。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/peripherals/touchpad/tap_to_click</key>
+      <applyto>/desktop/gnome/peripherals/touchpad/tap_to_click</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Enable mouse clicks with touchpad</short>
+        <long>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</long>
+      </locale>
+
+      <locale name="as">
+        <short>টাচ-পেডৰ সৈতে মাউছ ক্লিক সক্ৰিয় কৰা হ&apos;ব</short>
+        <long>টাচ-পেডত টেপ কৰি মাউছৰ ক্লিকেৰ অনুকৰণৰ বাবে এই মান TRUE ধাৰ্য কৰক ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Activar pulsaciones del mur col touchpad</short>
+        <long>Afita esto a braeru pa poder mandar pulsaciones del mur calcando sobre&apos;l touchpad.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Включване на натискане на бутоните на мишката чрез сензорния панел</short>
+        <long>Задайте да е истина, за да подавате натискания на бутоните на мишката чрез потупване по сензорния панел.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>টাচ-প্যাডের সাথে মাউস ক্লিক সক্রিয় করা হবে</short>
+        <long>টাচ-প্যাডের মধ্যে টোকা মেরে মাউসের ক্লিকের অনুকরণের জন্য এই মান TRUE ধার্য করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>টাচ-প্যাডের সাথে মাউস ক্লিক সক্রিয় করা হবে</short>
+        <long>টাচ-প্যাডের মধ্যে টোকা মেরে মাউসের ক্লিকের অনুকরণের জন্য এই মান TRUE (সত্য) ধার্য করুন।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Permet fer clic amb el ratolí tàctil</short>
+        <long>Establiu-ho a «True» (cert) per permetre enviar clics de ratolí en prémer al ratolí tàctil.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Permet fer clic amb el ratolí tàctil</short>
+        <long>Establiu-ho a «True» (cert) per permetre enviar clics de ratolí en prémer al ratolí tàctil.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Touchpad ile fare tıklamasını etkinleştir</short>
+        <long>Touchpad üzerine vurarak fare tıklamaları göndermek istiyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit kliknutí myší pomocí zařízení touchpad</short>
+        <long>Nastavte na &quot;TRUE&quot;, chcete-li odeslat kliknutí myší poklepáním prsty na touchpad.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Aktivér museklik med touchpad</short>
+        <long>Sæt denne til TRUE for at muliggøre museklik ved at trykke på touchpadden.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Mausklicks mit dem Touchpad aktivieren</short>
+        <long>Setzen Sie dies auf »WAHR«, um Mausklicks mit dem Touchpad auslösen zu können.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση κλικ ποντικιού με την πινακίδα αφής</short>
+        <long>Ενεργοποιήστε αυτήν την επιλογή για να μπορείτε να κάνετε κλικ μέσω του touchpad.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable mouse clicks with touchpad</short>
+        <long>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar pulsaciones del ratón con el touchpad</short>
+        <long>Establecer esto a verdadero para poder enviar pulsaciones del ratón pulsando sobre el touchpad.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Hiireklõpsude lubamine puuteplaadilt</short>
+        <long>Kui märgitud, siis tõlgendatakse puuteplaadil toksimist hiireklõpsudena.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu saguaren klik egitea &apos;touchpad&apos;-arekin</short>
+        <long>Ezarri hau TRUE (egia) gisa saguaren klik-ak bidaltzeko touchpad-ean kolpetxoak ematean.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ota käyttöön hiiren napsautukset kosketuslevyllä</short>
+        <long>Aseta tämä todeksi jos haluat lähettää hiiren napsautuksia kosketuslevyä napauttamalla.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer les clics de souris avec le pavé tactile</short>
+        <long>Activez cette clé pour pouvoir effectuer des clics de souris en tapant sur le pavé tactile.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Activar os clics do rato coa superficie táctil</short>
+        <long>Estabeleza isto como TRUE para poder enviar clics de rato dando toques na superficie táctil.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ટચપેડ સાથે માઉસ ક્લિકોને સક્રિય કરો</short>
+        <long>ટચપેડ પર ટેપીંગ દ્દારા માઉસ ક્લિકોને મોકલવાનું સક્ષમ કરવા માટે આ TRUE ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Enable mouse clicks with touchpad</short>
+        <long>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>टचपैड के साथ माउस क्लिक सक्रिय करें</short>
+        <long>इसे सही पर सेट करें माउस क्लिक को टचपैड पर टैपिंग करके क्लिक करके.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Egérkattintások engedélyezése az érintőtáblán</short>
+        <long>Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita clic del mouse col touchpad</short>
+        <long>Impostare a VERO per essere in grado di inviare clic del mouse facendo tap sul touchpad.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>タッチパッドでのマウス・クリックを有効にする</short>
+        <long>この値を TRUE にすると、タッチ・パッドをタップすることで、マウス・クリックと同じ動作できるようにします。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟಚ್‌ಪ್ಯಾಡಿನಿಂದ ಮೌಸ್‌ಕ್ಲಿಕ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಿ</short>
+        <long>ಟಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ಮೆಲ್ಲಗೆ ತಟ್ಟುವುದರ ಮೂಲಕ ಮೌಸ್‌ ಕ್ಲಿಕ್‌ಗಳನ್ನು ಕಳುಹಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಲು ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>터치패드로 마우스 단추 누르기 사용</short>
+        <long>참이면 터치패드를 두드려서 마우스 단추를 누르는 효과를 낼 수 있습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įjungti pelės spragtelėjimus paliesties lentele</short>
+        <long>Nustatykite TRUE, jei norite atlikti spragtelėjimus trumpai paliesdami paliesties lentelę.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Ieslēgt peles klikšķus ar skārienpaliktni</short>
+        <long>Iestatiet šo uz PATIESS, lai varētu sūtīt peles klikšķus, uzsitot uz skārienpaliktņa.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ടച്ച്പാഡില്‍ മൌസ് ക്ലിക്കുകള്‍ പ്രവര്‍ത്തന സജ്ജമാക്കുക</short>
+        <long>ടച്ച്പാഡില്‍ ടാപ്പ് ചെയ്തു മൌസ് ക്ലിക്കുകള്‍ അയയ്ക്കുന്നതിനായി ഇതു് TRUE ആയി സജ്ജമാക്കുക.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>टचपॅडसह माऊस क्लिक्स् कार्यक्षम करा</short>
+        <long>टचपॅडवर टॅप केल्यानंतर माऊस क्लिक्स् पाठवण्यासाठी यांस TRUE असे सेट करा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå på musklikk med pekeplaten</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Muisklikken met touchpad inschakelen</short>
+        <long>Schakel dit in voor de mogelijkheid om te klikken met uw muis door te tikken op het touchpad.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå på museklikk med styreplata</short>
+        <long>Set denne til TRUE for å kunna klikka med musa ved å trykkja på styreplata.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟଚପ୍ୟାଡ଼ ସହିତ ମାଉସ କ୍ଲିକକୁ ସକ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ଟଚପ୍ୟାଡ ଉପରେ ଟ୍ୟାପ କରିବା ଦ୍ୱାରା ମାଉସ କ୍ଲିକଗୁଡ଼ିକୁ ପଠାଇବା ପାଇଁ ସମର୍ଥ କରିବାକୁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟੱਚਪੈਡ ਨਾਲ ਮਾਊਂਸ ਕਲਿੱਕ ਯੋਗ</short>
+        <long>ਇਹ ਚੋਣ ਕਰੋ, ਜੇ ਤੁਸੀਂ ਟੱਚਪੈਡ ਨੂੰ ਦਬਾ ਕੇ ਮਾਊਂਸ ਕਲਿੱਕ ਦਾ ਪ੍ਰਭਾਵ ਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączenie kliknięć myszy za pomocą panelu dotykowego</short>
+        <long>Ustawienie na &quot;TRUE&quot; umożliwia wysyłanie kliknięć myszy przez stukanie na panelu dotykowym</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar os cliques de rato com o touchpad</short>
+        <long>Defina como VERDADEIRO para ser possível enviar cliques do rato tocando no touchpad.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar os cliques do mouse com touchpad</short>
+        <long>Defina como VERDADEIRO para poder enviar cliques do mouse tocando no touchpad.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Activare clic maus cu touchpad</short>
+        <long>Definiți ca „TRUE” pentru a putea trimite clicuri de maus prin atingerea touchpad-ului.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Использовать щелчки мышью через сенсорную панель</short>
+        <long>Установите в TRUE чтобы посылать щелчки мышки короткими прикосновениями к сенсорной панели.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť kliknutia myšou pomocou touchpadu</short>
+        <long>Nastavte na TRUE, aby ste mohli posielať kliknutia myšou pomocou ťuknutia na touchpad.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Omogoči klike miške s sledilno ploščico</short>
+        <long>Izbrana možnost omogoči klik z udarjanjem po sledilni ploščici.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Укључи клик на додирној табли</short>
+        <long>Поставите на „TRUE“ (тачно) да укључите леви клик миша тапкањем на додирној табли.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uključi klik na dodirnoj tabli</short>
+        <long>Postavite na „TRUE“ (tačno) da uključite levi klik miša tapkanjem na dodirnoj tabli.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera musklick med pekplatta</short>
+        <long>Ställ in denna till TRUE för att kunna skicka musklick genom att trycka på pekplattan.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>தொடுதிட்டால் சொடுக்கி சொடுக்கலை செயல்படுத்து</short>
+        <long>சொடுக்கி சொடுக்கலை திட்டு தட்டலால் செய்ய இதை உண்மை என அமைக்கவும்</long>
+      </locale>
+
+      <locale name="te">
+        <short>టచ్‌పాడ్‌తో మౌస్ నొక్కులను చేతనము చేయుము</short>
+        <long>టట్‌పాడ్ పై టాప్‌చేయుట ద్వారా మౌస్ నొక్కులను పంపుటకు దీనిని TRUE కు అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เปิดใช้การคลิกเมาส์ด้วยทัชแพด</short>
+        <long>กำหนดค่านี้เป็น TRUE ถ้าต้องการส่งการคลิกเมาส์ด้วยการแตะที่ทัชแพด</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Touchpad ile fare tıklamasını etkinleştir</short>
+        <long>Touchpad üzerine vurarak fare tıklamaları göndermek istiyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Увімкнути клацання миші на точпаді</short>
+        <long>Відмітьте цей параметр, щоб мати змогу виконувати клацання мишею на постукуючи на точпаді.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật nhấn chuột bằng touchpad</short>
+        <long>Đặt là TRUE để có thể gửi phím nhấn chuột bằng cách gõ vào touchpad.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>使用触摸板启用鼠标点击</short>
+        <long>设置为真(TRUE)，即可在轻敲触摸板时发送鼠标点击信息。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用觸控板的滑鼠點擊</short>
+        <long>設定此項為 TRUE 可以在觸控板上輕點來送出滑鼠點擊的指令。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用觸控板的滑鼠點擊</short>
+        <long>設定此項為 TRUE 可以在觸控板上輕點來送出滑鼠點擊的指令。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/peripherals/touchpad/scroll_method</key>
+      <applyto>/desktop/gnome/peripherals/touchpad/scroll_method</applyto>
+      <owner>gnome</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Select the touchpad scroll method</short>
+        <long>Select the touchpad scroll method. Supported values are: 0 - disabled, 1 - edge scrolling, 2 - two-finger scrolling</long>
+      </locale>
+
+      <locale name="as">
+        <short>টাচ-পেড স্ক্ৰোলৰ ব্যৱস্থা নিৰ্বাচন কৰা হ&apos;ব</short>
+        <long>টাচ-পেড স্ক্ৰোলৰ ব্যৱস্থা নিৰ্বাচন কৰা হ&apos;ব । সমৰ্থিত মান হ&apos;ল: ০ - নিষ্ক্ৰিয়, ১ - প্ৰান্তে স্ক্ৰোলিং, ২ - দুই আঙ্গুলিৰ স্ক্ৰোলিং</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Escoyer el métodu de desplazamientu del touchpad</short>
+        <long>Escoyer el métodu de desplazamientu del touchpad. Los valores sofitaos son: 0 - desactiváu, 1 - desplazamientu nel borde, 2 - desplazamientu con dos deos</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Избор на вида придвижване чрез сензорния панел</short>
+        <long>Избор на метода на предвижване чрез сензорния панел. Възможни стойности са „0“ (изключено), „1“ (чрез ръба на панела), „2“ (с два пръста)</long>
+      </locale>
+
+      <locale name="bn">
+        <short>টাচ-প্যাড স্ক্রলের ব্যবস্থা নির্বাচন করা হবে</short>
+        <long>টাচ-প্যাড স্ক্রলের ব্যবস্থা নির্বাচন করা হবে। সমর্থিত মান হল: ০ - নিষ্ক্রিয়, ১ - প্রান্তে স্ক্রোলিং, ২- দুই আঙ্গুলের স্ক্রোলিং</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>টাচ-প্যাড স্ক্রোলের ব্যবস্থা নির্বাচন করা হবে</short>
+        <long>টাচ-প্যাড স্ক্রোলের ব্যবস্থা নির্বাচন করা হবে। সমর্থিত মান হল: 0 (০) - নিষ্ক্রিয়, 1 (১) - প্রান্তে স্ক্রোলিং, 2 (২) - দুই আঙ্গুলের স্ক্রোলিং</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Seleccioneu el mètode de desplaçament del ratolí tàctil</short>
+        <long>Seleccioneu el mètode de desplaçament del ratolí tàctil. Els valors admesos són: 0 - inhabilitat, 1 - desplaçament a la vora, 2 - desplaçament amb dos dits</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Seleccioneu el mètode de desplaçament del ratolí tàctil</short>
+        <long>Seleccioneu el mètode de desplaçament del ratolí tàctil. Els valors admesos són: 0 - inhabilitat, 1 - desplaçament a la vora, 2 - desplaçament amb dos dits</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Touchpad kaydırma yönetimini seçin</short>
+        <long>Touchpad kaydırma yöntemini seçin. Desteklenen değerler: 0 - kapalı, 1 - kenar kaydırması, 2 - iki parmak kaydırması</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zvolte metodu posunování zařízení touchpad</short>
+        <long>Zvolte metodu posunování zařízení touchpad. Podporované hodnoty jsou: 0 - vypnuto, 1 - posunování při okraji, 2 - posunování dvěma prsty</long>
+      </locale>
+
+      <locale name="da">
+        <short>Vælg rullemetoden for touchpad</short>
+        <long>Vælg touchpaddens rullemetode. Understøttede værdier er: 0 - deaktiveret, 1 - kantrulning, 2 - tofingerrulning</long>
+      </locale>
+
+      <locale name="de">
+        <short>Rollmethode für Touchpad auswählen</short>
+        <long>Wählen Sie die Rollmethode für das Touchpad aus. Mögliche Werte sind: 0 - deaktiviert, 1 - Kantenrollen, 2 - Rollen mit zwei Fingern</long>
+      </locale>
+
+      <locale name="el">
+        <short>Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής</short>
+        <long>Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής. Οι υποστηριζόμενες τιμές είναι: 0 - απενεργοποιημένο, 1 - κύλιση στην άκρη, 2 - κύλιση με δύο δάχτυλα</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Select the touchpad scroll method</short>
+        <long>Select the touchpad scroll method. Supported values are: 0 — disabled, 1 — edge scrolling, 2 — two-finger scrolling</long>
+      </locale>
+
+      <locale name="es">
+        <short>Seleccionar el método de desplazamiento del touchpad</short>
+        <long>Seleccionar el método de desplazamiento del touchpad. Los valores soportados son: 0 - desactivado, 1 - desplazamiento en el borde, 2 - desplazamiento con dos dedos</long>
+      </locale>
+
+      <locale name="et">
+        <short>Puuteplaadi kerimismeetodi valimine</short>
+        <long>Puuteplaadi kerimismeetod. Võimalikud väärtused on 0 - keelatud, 1 - kerimine servalt ja 2 - kahe sõrmega kerimine</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Hautatu &apos;touchpad&apos;-aren korritzeko metodoa</short>
+        <long>Hautatu &apos;touchpad&apos;-aren korritzeko metodoa. Balio erabilgarriak: 0 - desgaituta, 1 - ertzean korritzea, 2 - bi hatzekin korritzea</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Valitse kosketuslevyn vieritystapa</short>
+        <long>Valitse kosketuslevyn vieritystapa. Tuetut arvot ovat: 0 - ei käytössä, 1 - reunavieritys, 2 - kahden sormen vieritys</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Méthode de défilement du pavé tactile</short>
+        <long>Sélection de la méthode de défilement du pavé tactile. Les valeurs admises sont : 0 (désactivé), 1 (défilement sur les bords), 2 (défilement à deux doigts)</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Seleccionar o método de desprazamento na superficie táctil</short>
+        <long>Seleccionar o método de desprazamento da superficie táctil. Os valores permitidos son: 0 - desactivado, 1 - desprazamento no borde, 2 - desprazamento con dous dedos</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ટચપેડ સ્ક્રોલ પદ્દતિને પસંદ કરો</short>
+        <long>ટચપેડ સ્ક્રોલ પદ્દતિને પસંદ કરો. આધારભૂત કિંમતો છે: 0 - disabled, 1 - edge scrolling, 2 - two-finger scrolling</long>
+      </locale>
+
+      <locale name="he">
+        <short>Select the touchpad scroll method</short>
+        <long>Select the touchpad scroll method. Supported values are: 0 - disabled, 1 - edge scrolling, 2 - two-finger scrolling</long>
+      </locale>
+
+      <locale name="hi">
+        <short>टचपैड स्क्रॉल विधि चुनें</short>
+        <long>टचपैड स्क्रॉल विधि चुनें. समर्थित मान हैं: 0 - disabled, 1 - edge scrolling, 2 - two-finger scrolling</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Válassza ki az érintőtábla görgetési módját</short>
+        <long>Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: 0 - letiltva, 1 - görgetés a szélen, 2 - kétujjas görgetés</long>
+      </locale>
+
+      <locale name="it">
+        <short>Seleziona il metodo di scorrimento del touchpad</short>
+        <long>Seleziona il metodo di scorrimento del touchpad. Valori ammessi sono: 0 (disabilitato), 1 (scorrimento sul bordo), 2 (scorrimento con due dita)</long>
+      </locale>
+
+      <locale name="ja">
+        <short>タッチ・パッドでのスクロールの方法の選択</short>
+        <long>タッチ・パッドでのスクロール方法を選択します。指定できる値は次のとおり。0 - 無効、1 - エッジ・スクロール、2 - 2本指スクロール</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟಚ್‌ಪ್ಯಾಡ್ ಚಲನೆಯ ವಿಧಾನವನ್ನು ಆರಿಸಿ</short>
+        <long>ಟಚ್‌ಪ್ಯಾಡ್ ಚಲನೆಯ ವಿಧಾನವನ್ನು ಆರಿಸಿ. ಬೆಂಬಲವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: 0 - ಅಶಕ್ತಗೊಂಡ, 1 - ಅಂಚಿನಲ್ಲಿ ಚಲನೆ, 2 - ಎರಡು ಬೆರಳಿನ ಚಲನೆ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>터치패드 스크롤 방법 선택</short>
+        <long>터치패드 스크롤 방법을 선택합니다. 가능한 값은: 0 - 사용 않음, 1 - 가장자리 스크롤, 2 - 두 손가락 스크롤</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Pasirinkite paliesties lentelės slinkties metodą</short>
+        <long>Pasirinkite paliesties lentelės slinkties metodą. Palaikomos reikšmės: 0 - išjungta, 1 - slinkimas krašte, 2 - slinkimas dviem pirštais</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Izvēlieties skārienpaliktņa ritināšanas metodi</short>
+        <long>Izvēlieties skārienpaliktņa ritināšanas metodi. Atbalstītās vērtības ir: 0 - atslēgts, 1 - malas ritināšana, 2 - divu pirkstu ritināšana</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ടച്ച്പാഡ് സ്ക്രോള്‍ മാര്‍ഗ്ഗം തെരഞ്ഞെടുക്കുക</short>
+        <long>ടച്ച്പാഡ് സ്ക്രോള്‍ മാര്‍ഗ്ഗം തെരഞ്ഞെടുക്കുക. പിന്തുണയ്ക്കുന്ന മൂല്ല്യങ്ങള്‍: 0 - പ്രവര്‍ത്തന രഹിതം, 1 - എഡ്ജ് സ്ക്രോളിങ്, 2 - ടു-ഫിംഗര്‍ സ്ക്രോളിങ്</long>
+      </locale>
+
+      <locale name="mr">
+        <short>टचपॅड स्क्रोल पद्धत नीवडा</short>
+        <long>टचपॅड स्क्रोल पद्धत नीवडा. समर्थीत मूल्ये असे आहेत: 0 - अकार्यक्षम, 1 - किनार स्क्रोलींग, 2 - दोन-बोटांचे स्क्रोलींग</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Velg rullemetode for pekeplate</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Selecteer de touchpad-scrollmethode</short>
+        <long>Selecteer de touchpad-scrollmethode. Keuzemogelijkheden: 0 - uitgeschakeld, 1 - hoekscrollen, 2 - twee-vingerscrollen</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Vel rullingsmetode for styreplata</short>
+        <long>Vel rullingsmetode for styreplata. Støtta verdiar er: 0 - avslått, 1 - kantrulling, 2 - to-fingerrulling</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟଚପ୍ୟାଡ଼ ଟଣା ପଦ୍ଧତିକୁ ବାଛନ୍ତୁ</short>
+        <long>ଟଚପ୍ୟାଡ ଟଣା ପଦ୍ଧତିକୁ ବାଛନ୍ତୁ। ସମର୍ଥିତ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି: 0 - ନିଷ୍କ୍ରିୟ, 1 - ଧାର ଟଣା, 2 - ଦୁଇ-ଅଙ୍ଗୁଳି ଟଣା</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟੱਚਪੈਡ ਸਕਰੋਲ ਢੰਗ ਚੁਣੋ</short>
+        <long>ਟੱਚਪੈਡ ਸਕਰੋਲ ਢੰਗ ਚੁਣੋ। ਸਹਾਇਖ ਮੁੱਲ ਹਨ: 0 - ਆਯੋਗ, 1 - ਕੋਨਾ ਸਕਰੋਲ, 2 - ਦੋ-ਉਂਗਲਾਂ ਨਾਲ ਸਕਰੋਲਿੰਗ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wybór metody przewijania panelu dotykowego</short>
+        <long>Wybór metody przewijania panelu dotykowego. Obsługiwane wartości: 0 - wyłączone, 1 - przewijanie przy krawędziach, 2 - przewijanie dwoma palcami</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Seleccione o método de rolamento do touchpad</short>
+        <long>Seleccione o método de rolamento do touchpad. Valores suportados são: 0 - desactivado, 1 - rolamento na margem, 2 - rolamento com dois dedos</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Selecionar o método de rolagem do touchpad</short>
+        <long>Selecione o método de rolagem do touchpad. Os valores suportados são: 0 - desabilitado; 1 - rolagem pela lateral; 2 - rolagem com dois dedos</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Alegere metodă derulare touchpad</short>
+        <long>Alegere metoda de derulare touchpad. Valorile suportate sunt: 0 - dezactivat, 1 - derulare la margini, 2 - derulare cu două degete</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Выберите способ прокрутки</short>
+        <long>Выберите способ прокрутки. Допустимые значения: 0 — отключена, 1 — прокрутка по краю, 2 — прокрутка двумя пальцами</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zvoľte si spôsob rolovania touchpadom</short>
+        <long>Zvoľte si spôsob rolovania touchpadom. Podporované hodnoty sú: 0 - zakázané, 1 - skrolovanie pri okraji, 2 - skrolovanie dvoma prstami</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Izbor načina drsenja sledilne ploščice.</short>
+        <long>Izbor načina drsenja sledilne ploščice. Podprte vrednosti so: 0 - onemogočeno, 1 - robno drsenje, 2 - dvo-prstno drsenje</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Изаберите режим клизања преко додирне табле</short>
+        <long>Изаберите режим клизања преко додирне табле. Дозвољене су вредности: 0 (искључено клизање), 1 (клизање ивицом додирне табле) и 2 (клизање са два прста)</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Izaberite režim klizanja preko dodirne table</short>
+        <long>Izaberite režim klizanja preko dodirne table. Dozvoljene su vrednosti: 0 (isključeno klizanje), 1 (klizanje ivicom dodirne table) i 2 (klizanje sa dva prsta)</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Välj rullningsmetod för pekplattan</short>
+        <long>Välj rullningsmetod för pekplattan. Värden som stöds är: 0 - inaktiverad, 1 - kantrullning, 2 - tvåfingersrullning</long>
+      </locale>
+
+      <locale name="ta">
+        <short>தொடுதிட்டால் உருளல் செயலை தேர்ந்தெடு</short>
+        <long>தொடுதிட்டால் உருளல் செயலை தேர்ந்தெடு. ஆதரவுள்ள மதிப்புகள்:0 - செயல்நீக்கப்பட்டது, 1 - விளிம்பு உருளல் , 2 - இரு-விரல் உருளல்</long>
+      </locale>
+
+      <locale name="te">
+        <short>టచ్‌పాడ్ స్క్రాల్ పద్దతిని యెంపికచేయుము</short>
+        <long>టచ్‌పాడ్ స్క్రాల్ పద్దతిని యెంపికచేయుము. మద్దతిచ్చు విలువలు: 0 - అచేతనమైన, 1 - అంచు స్క్రాలింగ్, 2 - రెండు-వేళ్ళ స్క్రాలింగ్</long>
+      </locale>
+
+      <locale name="th">
+        <short>เลือกวิธีการเลื่อนหน้าจอด้วยทัชแพด</short>
+        <long>เลือกวิธีการเลื่อนหน้าจอด้วยทัชแพด ค่าที่รองรับคือ: 0 - ปิดใช้, 1 - เลื่อนที่ขอบ, 2 - เลื่อนโดยใช้สองนิ้ว</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Touchpad kaydırma yönetimini seçin</short>
+        <long>Touchpad kaydırma yöntemini seçin. Desteklenen değerler: 0 - kapalı, 1 - kenar kaydırması, 2 - iki parmak kaydırması</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Виберіть для точпаду метод прокрутки</short>
+        <long>Виберіть метод прокрутки при використанні точпаду. Підтримувані значення: 0 - вимкнено, 1 - прокрутка на межі точпаду, 2 - прокрутка двома пальцями</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chọn cách cuộn bằng touchpad</short>
+        <long>Chọn cách cuộn bằng touchpad. Giá trị hỗ trợ là: 0 - tắt, 1 - cuộn bằng cạnh, 2 - cuộn dùng hai ngón tay.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>选择触摸板滚动模式</short>
+        <long>选择触摸板卷页模式。支持的值有：0 - 禁止，1 - 边界卷页，2 - 双指卷页</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>選擇觸控板捲動方式</short>
+        <long>選擇觸控板的捲動方式。支援的數值有：0 - 停用，1 - 邊緣捲動，2 - 兩指式捲動</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>選擇觸控板捲動方式</short>
+        <long>選擇觸控板的捲動方式。支援的數值有：0 - 停用，1 - 邊緣捲動，2 - 兩指式捲動</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/peripherals/touchpad/horiz_scroll_enabled</key>
+      <applyto>/desktop/gnome/peripherals/touchpad/horiz_scroll_enabled</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Enable horizontal scrolling</short>
+        <long>Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অনুভূমিক দিশত স্ক্ৰোলিং ব্যৱস্থা সক্ৰিয় কৰক</short>
+        <long>scroll_method চাবি দ্বাৰা নিৰ্বাচিত পদ্ধতি দ্বাৰা অনুভূমিক স্ক্ৰোলিং ব্যৱস্থাৰ অনুমতি প্ৰদান কৰাৰ উদ্দেশ্যে এই মান TRUE ধাৰ্য কৰক ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Activar desplazamientu horizontal</short>
+        <long>Afita esto a braeru pa permitir desplazamientu horizontal col mesmu métodu escoyíu na clave scroll_method.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Включване на хоризонталното предвижване</short>
+        <long>Задайте да е истина, за да позволите хоризонтално придвижване по начина указан в ключа „scroll_method“.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>অনুভূমিক দিশায় স্ক্রলিং ব্যবস্থা সক্রিয় করুন</short>
+        <long>scroll_method কি দ্বারা নির্বাচিত পদ্ধতি দ্বারা অনুভূমিক স্ক্রোলিং ব্যবস্থার অনুমতি প্রদান করার উদ্দেশ্যে এই মান TRUE (সত্য) ধার্য করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>অনুভূমিক দিশায় স্ক্রোলিং ব্যবস্থা সক্রিয় করুন</short>
+        <long>scroll_method কি দ্বারা নির্বাচিত পদ্ধতি দ্বারা অনুভূমিক স্ক্রোলিং ব্যবস্থার অনুমতি প্রদান করার উদ্দেশ্যে এই মান TRUE (সত্য) ধার্য করুন।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita el desplaçament horitzontal</short>
+        <long>Establiu-ho a «True» (cert) per permetre desplaçaments horitzontals utilitzant el mètode seleccionat amb la clau «scroll_method».</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Habilita el desplaçament horitzontal</short>
+        <long>Establiu-ho a «True» (cert) per permetre desplaçaments horitzontals utilitzant el mètode seleccionat amb la clau «scroll_method».</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Yatay kaydırmayı etkinleştir</short>
+        <long>Eğer scroll_method anahtarında seçili yöntemle aynı şekilde yatay kaydırma istiyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit vodorovné posunování</short>
+        <long>Nastavte na &quot;TRUE&quot;, chcete-li povolit vodorovné posunování stejnou metodou, jaká byla vybrána se scroll_method key.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Aktivér vandret rulning</short>
+        <long>Sæt denne til TRUE for at tillade vandret rulning ved samme metode, som vælges med nøglen scroll_method.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Horizontales Rollen aktivieren</short>
+        <long>Setzen Sie dies auf »WAHR«, um horizontales Rollen mit der Methode zu erlauben, die im Schlüssel »scroll_method« festgelegt ist.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση οριζόντιας κύλισης</short>
+        <long>Ορισμός σε true για την ενεργοποίηση της οριζόντιας κύλισης με την ίδια μέθοδο που επιλέχθηκε στο κλειδί scroll_method</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑦𐑯𐑱𐑚𐑩𐑤 𐑣𐑪𐑮𐑦𐑟𐑪𐑯𐑑𐑩𐑤 𐑕𐑒𐑮𐑴𐑤𐑦𐑙</short>
+        <long>𐑕𐑧𐑑 𐑞𐑦𐑕 𐑑 𐑑𐑮𐑵 𐑑 𐑩𐑤𐑬 𐑣𐑪𐑮𐑦𐑟𐑪𐑯𐑑𐑩𐑤 𐑕𐑒𐑮𐑴𐑤𐑦𐑙 𐑚𐑲 𐑞 𐑕𐑱𐑥 𐑥𐑧𐑔𐑩𐑛 𐑕𐑩𐑤𐑧𐑒𐑑𐑩𐑛 𐑢𐑦𐑞 𐑞 scroll_method 𐑒𐑰.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable horizontal scrolling</short>
+        <long>Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar desplazamiento horizontal</short>
+        <long>Establecer esto a verdadero para permitir desplazamiento horizontal con el mismo método seleccionado en la clave scroll_method.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Rõhtsa kerimise lubamine</short>
+        <long>Kui märgitud, siis on rõhtne kerimine lubatud scroll_method võtmega määratud moel.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu korritze horizontala</short>
+        <long>Ezarri hau TRUE (gisa) korritze horizontala baimentzeko (scroll_method gakoan hautatutako metodo berdinaren arabera).</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käytä vaakasuuntaista vieritystä</short>
+        <long>Aseta tämä todeksi salliaksesi vaakasuuntaisen vierityksen samalla tavoin kuin on valittu avaimella scroll_method.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer le défilement horizontal</short>
+        <long>Activez cette clé pour permettre le défilement horizontal selon la méthode sélectionnée dans la clé « scroll_method ».</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Activar o desprazamento horizontal</short>
+        <long>Estabeleza isto como TRUE para permitir o desprazamento horizontal co mesmo método seleccionado para co método de desprazamento.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>આડા સ્ક્રોલીંગને સક્રિય કરો</short>
+        <long>સ્ક્રોલ પદ્દતિ સાથે પસંદ થયેલ સરખી પદ્દતિ દ્દારા આડી રીતે સ્ક્રોલીંગ ની પરવાનગી આપવા માટે આ TRUE ને સુયોજિત કરો (_m).</long>
+      </locale>
+
+      <locale name="he">
+        <short>Enable horizontal scrolling</short>
+        <long>Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्षैतिज स्क्रॉलिंग सक्रिय करें</short>
+        <long>इसे सही पर सेट करें क्षैतिज स्क्रॉलिंग को अनुमति देने के लिए उसी विधि से जो scroll_method कुंजी से चुनी जाती है.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Vízszintes görgetés engedélyezése</short>
+        <long>Állítsa igazra a vízszintes görgetés engedélyezéséhez a scroll_method kulcsban kiválasztott módon.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita lo scorrimento orizzontale</short>
+        <long>Impostare a VERO per consentire lo scorrimento orizzontale per mezzo dello stesso metodo impostato con la chiave scroll_method.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>水平スクロールを有効にする</short>
+        <long>この値を TRUE にすると、scroll_method キーで選択したのと同じ方法で、水平スクロールを許可します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಅಡ್ಡ ಚಲಿಸುವಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+        <long>scroll_method ಕೀಲಿಯಿಂದ ಆರಿಸಲಾದ ವಿಧಾನದ ರೀತಿಯಲ್ಲಿಯೆ ಅಡ್ಡ ಚಲನೆಯನ್ನು ಅನುಮತಿಸಲು ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>가로 스크롤 사용</short>
+        <long>참이면 scroll_method 키에서 선택한 방법대로 가로 스크롤이 가능합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įjungti horizontalų slinkimą</short>
+        <long>Nustatykite TRUE, jei norite leisti horizontalią slinktį tuo pačiu metodu, kaip ir scroll_method rakte.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Ieslēgt horizontālo ritināšanu</short>
+        <long>Iestatiet šo uz PATIESS, lai ļautu horizontālo ritināšanu ar tādu pašu metodi, kāda ir izvēlētā scroll_method atslēgā.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>നേരെയുള്ള സ്ക്രോളിങ് പ്രാവര്‍ത്തികമാക്കുക</short>
+        <long>സ്ക്രോള്‍_മാര്‍ഗ്ഗമുള്ള കീയുപയോഗിച്ചു് തെരഞ്ഞെടുത്ത അതേ മാര്‍ഗ്ഗം വഴി നേരെയുള്ള സ്ക്രോളിങ് അനുവദിക്കുന്നതിനായി ഇതു് TRUE ആയി സജ്ജമാക്കുക. </long>
+      </locale>
+
+      <locale name="mr">
+        <short>आडवे स्क्रोलींग कार्यक्षम करा</short>
+        <long>scroll_method कि सह समान पद्धत नीवडले असल्यास आडवे स्क्रोलींग स्वीकारण्याकरीता याला TRUE असे सेट करा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå på horisontal rulling</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Horizontaal schuiven inschakelen</short>
+        <long>Schakel dit in voor horizontaal scrollen met dezelfde methode die is ingesteld bij de scroll_methodesleutel.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå på horisontal rulling</short>
+        <long>Set denne til TRUE for å tillata horisontal rulling ved bruk av same metode som vald i scroll_method-nøkkelen.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ସମାନ୍ତରାଳ ଟଣାକୁ ସକ୍ରିୟ କରନ୍ତୁ </short>
+        <long>scroll_method କି ସହିତ ସମାନ ପଦ୍ଧତି ଦ୍ୱାରା ଭୂସମାନ୍ତରାଳ ଟଣାକୁ ଅନୁମତି ଦେବା ପାଇଁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਹਰੀਜੱਟਲ ਸਕਰੋਲਿੰਗ ਯੋਗ</short>
+        <long>ਇਹ ਚੋਣ ਕਰੋ, ਜੇ scroll_method ਸਵਿੱਚ ਵਾਂਗ ਚੁਣੇ ਢੰਗ ਮੁਤਾਬਕ ਹਰੀਜੱਟਲ ਸਕਰੋਲ ਕਰਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Przewijanie w poziomie</short>
+        <long>Ustawienie na &quot;TRUE&quot; umożliwia przewijanie w poziomie tą samą metodą, jaką wybrano za pomocą klucza &quot;scroll_method&quot;</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar o rolamento horizontal</short>
+        <long>Defina como VERDADEIRO para permitir rolamento horizontal com o mesmo método seleccionado com a chave scroll_method.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar a rolagem horizontal</short>
+        <long>Defina como VERDADEIRO para permitir rolagem horizontal pelo mesmo método selecionado com a chave scroll_method.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Activare derulare orizonală</short>
+        <long>Definiți ca „TRUE” pentru a permite derularea orizontală prin aceeași metodă selectată de cheia scroll_method</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Использовать горизонтальную прокрутку</short>
+        <long>Установите в TRUE чтобы включить горизонтальную прокрутку по методу установленному ключем scroll_method</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť horizontálne rolovanie</short>
+        <long>Nastavte na TRUE na povolenie horizontálneho rolovania rovnakým spôsobom zvoleným v kľúči scroll_method.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Omogoči vodoravno drsenje</short>
+        <long>Izbrana možnost omogoči vodoravno drsenje na način, kot je izbran z nastavitvijo načina drsenja.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Укључи хоризонтално клизање</short>
+        <long>Поставите на „TRUE“ (тачно) да дозволите хоризонтално клизање на исти начин као за вертикално, што одређује кључ scroll_method.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uključi horizontalno klizanje</short>
+        <long>Postavite na „TRUE“ (tačno) da dozvolite horizontalno klizanje na isti način kao za vertikalno, što određuje ključ scroll_method.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera horisontell rullning</short>
+        <long>Ställ in denna till TRUE för att tillåta horisontell rullning med samma metod som valts med nyckeln scroll_method.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கிடைமட்ட உருளலை இயலுமை செய்க</short>
+        <long>_m உருளல் முறைமை விசையுடன் தெந்தெடுத்த அதே முறையில் கிடைமட்ட உருளலை இயலுமை செய்ய  இதை உண்மை என அமைக்கவும்</long>
+      </locale>
+
+      <locale name="te">
+        <short>హారిజాంటల్ స్క్రాలింగును చేతనముచేయుము</short>
+        <long>scroll_method కీతో యెంపికైన అదే పద్దతి ద్వారా హారిజాంటల్ స్క్రాలింగును అనుమతించుటకు దీనిని TRUE కు అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เปิดใช้การเลื่อนหน้าจอแนวนอน</short>
+        <long>กำหนดค่านี้เป็น TRUE ถ้าต้องการเปิดใช้การเลื่อนหน้าจอแนวนอนด้วยวิธีการเดียวกับที่เลือกในคีย์ scroll_method</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Yatay kaydırmayı etkinleştir</short>
+        <long>Eğer scroll_method anahtarında seçili yöntemle aynı şekilde yatay kaydırma istiyorsanız bunu doğru olarak atayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Увімкнути горизонтальну прокрутку</short>
+        <long>Відмітьте цей параметр, щоб дозволити горизонтальну прокрутку обраним у ключі scroll_method методом.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật cuộn ngang</short>
+        <long>Đặt là TRUE để cho phép cuộn ngang bằng cùng cách cuộn xác định bởi khoá scroll_method.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用水平滚动</short>
+        <long>设置为真(TRUE)，即启用水平卷页且使用与 scroll_method 键值选定的同种方式。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用水平捲動</short>
+        <long>設定此項為 TRUE 可使用水平捲動，如同以 scroll_method 選取的方式一般。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用水平捲動</short>
+        <long>設定此項為 TRUE 可使用水平捲動，如同以 scroll_method 選取的方式一般。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/peripherals/touchpad/touchpad_enabled</key>
+      <applyto>/desktop/gnome/peripherals/touchpad/touchpad_enabled</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short>Enable touchpad</short>
+        <long>Set this to TRUE to enable all touchpads.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Включване на сензорния панел</short>
+        <long>Задайте да е истина, за да включите всички сензорни панели.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>টাচ-প্যাড সক্রিয় করা হবে</short>
+        <long>টাচ-প্যাড সক্রিয় করতে TRUE ধার্য করুন।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita el ratolí tàctil</short>
+        <long>Establiu-ho a «True» (cert) per habilitar tots els ratolins tàctils.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Habilita el ratolí tàctil</short>
+        <long>Establiu-ho a «True» (cert) per habilitar tots els ratolins tàctils.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Tiyüv-şiltesini qabilleştir</short>
+        <long>Episi tiyüv-şiltelerini qabilleştirmek içün bunı DOĞRU olaraq tesbit etiñiz.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zapnout zařízení touchpad</short>
+        <long>Nastavte na &quot;TRUE&quot;, chcete-li zapnout všechna zařízení touchpad.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Slå pegeplade til</short>
+        <long>Sæt denne til TRUE for at aktivere alle pegeplader.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Touchpad aktivieren</short>
+        <long>Setzen Sie dies auf »WAHR«, um alle Touchpads zu aktivieren.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποιήση πινακίδας αφής</short>
+        <long>Ορίστε το σε ΑΛΗΘΗΣ για να ενεργοποιήσετε όλες της πινακίδες αφής</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable touchpad</short>
+        <long>Set this to TRUE to enable all touchpads.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar el touchpad</short>
+        <long>Establecer esto a verdadero para activar todos los touchpad.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Puuteplaadi lubamine</short>
+        <long>Kui märgitud, siis on kõik puuteplaadid lubatud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu touchpad-a</short>
+        <long>Ezarri hau TRUE (egia) gisa touchpad guztiak gaitzeko</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ota kosketuslevy käyttöön</short>
+        <long>Aseta tämä todeksi jos haluat ottaa kaikki kosketuslevyt käyttöön.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer le pavé tactile</short>
+        <long>Activez cette clé pour activer tous les pavés tactiles.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Activar o touchpad</short>
+        <long>Estabeleza isto como TRUE para activar todos os touchpads.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Érintőtábla engedélyezése</short>
+        <long>Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita il touchpad</short>
+        <long>Impostare a VERO per abilitare tutti i touchpad.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>터치패드 사용</short>
+        <long>참이면 모든 터치패드를 사용합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įjungti paliesties lentelę</short>
+        <long>Nustatykite TRUE, jei norite įjungti visas paliesties lenteles.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Ieslēgt skārienpaliktni</short>
+        <long>Iestatiet šo uz PATIESS, lai ieslēgtu visus skārienpaliktņus.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>टचपॅड सुरू करा</short>
+        <long>सर्व टचपॅडस् सुरू करण्यासाठी यांस TRUE असे सेट करा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå på pekeplaten</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Touchpad inschakelen</short>
+        <long>Schakel dit in om alle touchpads te activeren.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå på styreplata</short>
+        <long>Set denne til TRUE for å slå på alle styreplater</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟੱਚਪੈਂਡ ਚਾਲੂ</short>
+        <long>ਇਹ ਚੋਣ ਕਰੋ, ਜੇ ਸਭ ਟੱਚਪੈਡ ਨੂੰ ਚਾਲੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączenie panelu dotykowego</short>
+        <long>Ustawienie na &quot;TRUE&quot; włącza wszystkie panele dotykowe.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar o touchpad</short>
+        <long>Defina como VERDADEIRO para activar todos os touchpads.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar touchpad</short>
+        <long>Defina como VERDADEIRO para habilitar todos os touchpads.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Activează touchpadul</short>
+        <long>Definiți ca „TRUE” pentru a activa toate touchpadurile.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить сенсорную панель</short>
+        <long>Установите в TRUE, чтобы разрешить все сенсорные панели.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť touchpad</short>
+        <long>Nastavte na TRUE na povolenie všetkých touchpadov.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Omogoči sledilno ploščico</short>
+        <long>Izbrana možnost omogoči vse sledilne ploščice.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Укључи додирну површ</short>
+        <long>Поставите на „TRUE“ (тачно) да укључите све додирне табле.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uključi dodirnu površ</short>
+        <long>Postavite na „TRUE“ (tačno) da uključite sve dodirne table.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera pekplatta</short>
+        <long>Ställ in denna till TRUE för att aktivera alla pekplattor.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>தொடுதிட்டை  செயல்படுத்து</short>
+        <long> எல்லா தொடு  திட்டுக்களை,யும்  செயல் படுத்த இதை உண்மை என அமைக்கவும்</long>
+      </locale>
+
+      <locale name="th">
+        <short>เปิดใช้ทัชแพด</short>
+        <long>กำหนดค่านี้เป็น TRUE ถ้าต้องการเปิดใช้ทัชแพดทั้งหมดในเครื่อง</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Увімкнути сенсорну панель</short>
+        <long>Відмітьте цей параметр, щоб увімкнути усі точпади.</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用觸控板</short>
+        <long>設定此項為 TRUE 以啟用所有的觸控板。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用觸控板</short>
+        <long>設定此項為 TRUE 以啟用所有的觸控板。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

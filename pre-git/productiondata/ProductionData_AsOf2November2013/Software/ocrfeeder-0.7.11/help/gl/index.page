@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+<info>
+    <desc>Axuda para o <app>Sistema de conversión de documentos OCRFeeder</app>.</desc>
+    <title type="link">Sistema de conversión de documentos OCRFeeder</title>
+    <title type="text">Sistema de conversión de documentos OCRFeeder</title>
+    <credit type="author">
+      <name>Joaquim Rocha</name>
+      <email>jrocha@igalia.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>Sistema de conversión de documentos OCRFeeder</title>
+<p>OCRFeeder é un formato de análise de documentos e sistema de recoñecemento óptico de caracteres.</p>
+
+<p>OCRFeeder foi creado para permitir que os usuarios poidan converter facilmente imaxes (por exemplo, unha imaxe PNG con texto) en documentos editables (por exemplo, unha versión ODT co texto).</p>
+
+<p>Dadas as imaxes esbózanse automaticamente os seus contidos, execútase o OCR e distínguese entre o que é gráficos e texto. Xera múltiples formatos sendo o principal ODT.</p>
+
+<p>Esta guía explica como configurar e utilizar OCRFeeder.</p>
+
+<section id="images" style="2column">
+    <title>Imaxes engadidas</title>
+</section>
+
+<section id="recognition" style="2column">
+    <title>Recoñecemento</title>
+</section>
+
+<section id="configuration" style="2column">
+    <title>Configuración</title>
+</section>
+
+<section id="projects" style="2column">
+    <title>Proxectos</title>
+</section>
+
+</page>

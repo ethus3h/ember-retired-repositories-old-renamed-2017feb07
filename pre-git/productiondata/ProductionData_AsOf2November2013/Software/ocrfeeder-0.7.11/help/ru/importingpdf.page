@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingpdf">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Импорт документов PDF</desc>
+</info>
+
+<title>Импорт PDF</title>
+
+<p>Некоторые документы являются ничем иным, как изображениями, помещёнными в документ PDF. В подобных случаях <app>OCRFeeder</app> может импортировать документ PDF, чтобы его можно было преобразовать в документ с возможностью редактирования.</p>
+
+<p>Чтобы импортировать документ PDF, нажмите <guiseq><gui>Файл</gui><gui>Импортировать PDF</gui></guiseq>.</p>
+
+<p>Каждая страница PDF будет преобразована в изображение и помещена в область страниц.</p>
+
+<note style="warning"><p>Преобразование PDF может оказаться сложным процессом и занять некоторое время в случае больших PDF-файлов.</p></note>
+
+</page>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingfromscanner">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Importování ze skenovacího zařízení</desc>
+</info>
+
+<title>Importování ze skeneru</title>
+
+<p>Aby vám aplikace <app>OCRFeeder</app> pomohla s převodem tištěných dokumentů do editovatelné podoby, nabízí přímý import obrázků ze skenovacího zařízení.</p>
+
+<p>Když chcete obrázek importovat ze skenovacího zařízení, použijte nabídku <guiseq><gui>Soubor</gui><gui>Importovat stránku ze skeneru</gui></guiseq> nebo klávesovou zkratku <keyseq><key>Ctrl</key><key>Shift</key><key>I</key></keyseq>.</p>
+
+<p>Ke skenování stránky budou požit aktuálně detekované skenovací zařízení. Pokud je nalezen více než jeden skener, objeví se dialogové okno, ve kterém si jeden zvolíte.</p>
+
+</page>

@@ -1,0 +1,921 @@
+# ClamTk language file
+# Copyright (C) Dave M <dave . nerd @ gmail>, 2004-2012
+# This file is distributed under the same license as the ClamTk package.
+# First author: Gina C., 2008.
+# OopsLee <oopslee@haansoft.com>, 2009.
+# Bundo <bundo@bundo.biz>, 2009, 2010
+# Seung Soo, Ha <sungsuha@gmail.com>, 2011
+# MinSik CHO, 2012
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ClamTk 4.38\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-05 19:00-0600\n"
+"PO-Revision-Date: 2012-03-12 13:57+0000\n"
+"Last-Translator: MinSik CHO <Unknown>\n"
+"Language-Team: Korean <oopslee@haansoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-17 11:32+0000\n"
+"X-Generator: Launchpad (build 14951)\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "시작 디렉토리를 생성할 수 없습니다!"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "그래픽  창조할수 없음"
+
+#: lib/App.pm:351 lib/Prefs.pm:154
+msgid "Never"
+msgstr "사용안함"
+
+#: lib/App.pm:370
+msgid "Scan for viruses..."
+msgstr "바이러스 스캔 중..."
+
+#: lib/Device.pm:40 lib/GUI.pm:87 lib/Update.pm:39
+msgid "Virus Scanner"
+msgstr "바이러스 검사기"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "시디/디비디"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "USB 장치"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "플로피 디스크"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "장치 찾을수없음"
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "장치를 연결시킬경우, 설치 할 필요가 있다"
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "장치 사용할 수 있는"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "장치을 고르거나 ,취소를 누르다"
+
+#: lib/GUI.pm:104
+msgid "_Scan"
+msgstr "검사(_S)"
+
+#: lib/GUI.pm:105
+msgid "_View"
+msgstr "보기(_V)"
+
+#: lib/GUI.pm:106
+msgid "_Options"
+msgstr "옵션(_O)"
+
+#: lib/GUI.pm:107
+msgid "_Quarantine"
+msgstr "검역소(_Q)"
+
+#: lib/GUI.pm:108
+msgid "_Advanced"
+msgstr "고급설정(_A)"
+
+#: lib/GUI.pm:109
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: lib/GUI.pm:114
+msgid "A _File"
+msgstr "파일(_F)"
+
+#: lib/GUI.pm:120
+msgid "Home (_Quick)"
+msgstr "홈을 신속하게 검사(_Q)"
+
+#: lib/GUI.pm:126
+msgid "Home (Recursive)"
+msgstr "홈 폴더(하위 폴더 포함)"
+
+#: lib/GUI.pm:132
+msgid "A _Directory"
+msgstr "디렉토리(_D)"
+
+#: lib/GUI.pm:138
+msgid "_Recursive Scan"
+msgstr "하위 디렉토리 포함(_R)"
+
+#: lib/GUI.pm:144
+msgid "A Device"
+msgstr "장치"
+
+#: lib/GUI.pm:150
+msgid "E_xit"
+msgstr "나가기(_x)"
+
+#: lib/GUI.pm:158
+msgid "Manage _Histories"
+msgstr "히스토리 관리(_H)"
+
+#: lib/GUI.pm:164
+msgid "_Last Scan Information"
+msgstr "마지막 스캔 정보 (_L)"
+
+#: lib/GUI.pm:170
+msgid "Clear _Output"
+msgstr "출력 삭제(_O)"
+
+#: lib/GUI.pm:178
+msgid "_Status"
+msgstr "상태(_S)"
+
+#: lib/GUI.pm:184
+msgid "_Maintenance"
+msgstr "검역소 관리(_M)"
+
+#: lib/GUI.pm:190
+msgid "_Empty Quarantine Folder"
+msgstr "검역소 비우기(_E)"
+
+#: lib/GUI.pm:198
+msgid "_Check for updates"
+msgstr "업데이트 확인"
+
+#: lib/GUI.pm:204
+msgid "_About"
+msgstr "정보(_A)"
+
+#: lib/GUI.pm:212
+msgid "_Scheduler"
+msgstr "스케줄러(_S)"
+
+#: lib/GUI.pm:218
+msgid "Rerun antivirus setup _wizard"
+msgstr "위저드 항바이러스 장치을  재계산하다"
+
+#: lib/GUI.pm:225 lib/GUI.pm:339 lib/GUI.pm:1857
+msgid "Preferences"
+msgstr "설정"
+
+#: lib/GUI.pm:231 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "서류를   분석 정리 상신하다"
+
+#: lib/GUI.pm:318
+msgid "Home"
+msgstr "홈"
+
+#: lib/GUI.pm:321
+msgid "Scan your home directory"
+msgstr "홈 폴더 검사하기"
+
+#: lib/GUI.pm:329 lib/GUI.pm:1678
+msgid "Histories"
+msgstr "히스토리"
+
+#: lib/GUI.pm:331
+msgid "View your previous scans"
+msgstr "이전에 수행한 스캔 정보 보기"
+
+#: lib/GUI.pm:341
+msgid "Set or view your preferences"
+msgstr "설정을 보고 편집하기"
+
+#: lib/GUI.pm:349
+msgid "Exit"
+msgstr "종료"
+
+#: lib/GUI.pm:351
+msgid "Exit this program"
+msgstr "프로그램 종료"
+
+#: lib/GUI.pm:370 lib/Update.pm:105 lib/Update.pm:253
+msgid "Antivirus engine"
+msgstr "안티바이러스 엔진"
+
+#: lib/GUI.pm:371 lib/GUI.pm:395 lib/GUI.pm:740
+msgid "Unknown"
+msgstr "알수없는 상태"
+
+#: lib/GUI.pm:374 lib/GUI.pm:386 lib/GUI.pm:397 lib/GUI.pm:646 lib/GUI.pm:686
+#: lib/GUI.pm:689 lib/GUI.pm:692 lib/GUI.pm:695 lib/GUI.pm:736 lib/GUI.pm:737
+#: lib/GUI.pm:757 lib/Update.pm:246 lib/Update.pm:248
+msgid "Current"
+msgstr "현재"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "GUI 버전"
+
+#: lib/GUI.pm:394
+msgid "Antivirus definitions"
+msgstr "항바이러스 정의"
+
+#: lib/GUI.pm:433
+msgid "Stop scanning now"
+msgstr "검사 중지"
+
+#: lib/GUI.pm:467 lib/GUI.pm:1261
+msgid "Files Scanned: "
+msgstr "검사된 파일: "
+
+#: lib/GUI.pm:470 lib/GUI.pm:1262
+msgid "Threats Found: "
+msgstr "위협 발견 "
+
+#: lib/GUI.pm:473 lib/GUI.pm:1263 lib/GUI.pm:1354
+msgid "Ready"
+msgstr "준비"
+
+#: lib/GUI.pm:484 lib/GUI.pm:491 lib/GUI.pm:498
+msgid "Drag and drop"
+msgstr "끌어다 놓기"
+
+#: lib/GUI.pm:537 lib/GUI.pm:952
+msgid "Could not scan (permissions)"
+msgstr "권한 문제로 검사할 수 없음"
+
+#: lib/GUI.pm:538 lib/GUI.pm:546 lib/GUI.pm:954 lib/GUI.pm:1206
+msgid "None"
+msgstr "선택안함"
+
+#: lib/GUI.pm:545
+msgid "Directory excluded from scan"
+msgstr "검사 제외할 디렉터리"
+
+#: lib/GUI.pm:626
+msgid "Please wait, initializing..."
+msgstr "잠시만 기다려주세요, 초기화 중입니다..."
+
+#: lib/GUI.pm:643 lib/GUI.pm:674 lib/GUI.pm:677 lib/GUI.pm:699 lib/GUI.pm:702
+#: lib/GUI.pm:754
+msgid "Unable to check"
+msgstr "확인할 수 없습니다"
+
+#: lib/GUI.pm:650 lib/GUI.pm:761 lib/Update.pm:247
+msgid "A newer version is available"
+msgstr "최신 버전이 사용 가능합니다"
+
+#: lib/GUI.pm:680 lib/GUI.pm:683 lib/GUI.pm:731 lib/GUI.pm:1139
+#: lib/GUI.pm:1140
+msgid "Outdated"
+msgstr "만료됨"
+
+#: lib/GUI.pm:721
+msgid "None found"
+msgstr "발견되지 않음"
+
+#: lib/GUI.pm:733
+msgid "Your antivirus signatures are out-of-date"
+msgstr "바이러스DB의 유효기간이 지났습니다"
+
+#: lib/GUI.pm:884 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "파일 선택"
+
+#: lib/GUI.pm:886
+msgid "Select a Directory (directory scan)"
+msgstr "디렉터리 선택"
+
+#: lib/GUI.pm:888
+msgid "Select a Directory (recursive scan)"
+msgstr "디렉터리 선택(하위포함)"
+
+#: lib/GUI.pm:953
+msgid "Will not scan that directory"
+msgstr "디렉터리를 검사할 수 없음"
+
+#: lib/GUI.pm:1016
+msgid "Elapsed time: "
+msgstr "경과시간: "
+
+#: lib/GUI.pm:1167
+#, perl-format
+msgid "Scanning %s..."
+msgstr "검사중  %s..."
+
+#: lib/GUI.pm:1213 lib/GUI.pm:1351
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>위협 발견: %d</b>"
+
+#: lib/GUI.pm:1215
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "위협 발견: %d"
+
+#: lib/GUI.pm:1228
+#, perl-format
+msgid "Percent complete: %2d"
+msgstr "검사 완료 : %2d"
+
+#: lib/GUI.pm:1240
+msgid "Percent complete: 100"
+msgstr "검사 완료 : 100%"
+
+#: lib/GUI.pm:1281
+#, perl-format
+msgid "Elapsed time: %s"
+msgstr "경과시간: %s"
+
+#: lib/GUI.pm:1282 lib/GUI.pm:1348
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "검사된 파일: %d"
+
+#: lib/GUI.pm:1296
+msgid "No files were scanned."
+msgstr "파일이 스캔되지 않음."
+
+#: lib/GUI.pm:1330
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "ClamAV 서명: %d\n"
+
+#: lib/GUI.pm:1331
+msgid "Directories Scanned:\n"
+msgstr "검사된 디렉터리:\n"
+
+#: lib/GUI.pm:1335
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"감염된 %d %s 개 발견 (%d 개 %s 검사).\n"
+"\n"
+
+#: lib/GUI.pm:1337
+msgid "threat"
+msgstr "위협"
+
+#: lib/GUI.pm:1337
+msgid "threats"
+msgstr "위협"
+
+#: lib/GUI.pm:1339
+msgid "file"
+msgstr "파일"
+
+#: lib/GUI.pm:1339
+msgid "files"
+msgstr "파일"
+
+#: lib/GUI.pm:1342
+msgid "Could not write to logfile. Check permissions."
+msgstr "로그파일을 저장할 수 없습니다. 권한을 확인하세요."
+
+#: lib/GUI.pm:1347
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "검사 종료(%d 서명)"
+
+#: lib/GUI.pm:1362
+msgid "No threats found.\n"
+msgstr "위협 발견되지 않음.\n"
+
+#: lib/GUI.pm:1421 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "검역"
+
+#: lib/GUI.pm:1434 lib/Results.pm:69
+msgid "File"
+msgstr "파일"
+
+#: lib/GUI.pm:1443
+msgid "Restore"
+msgstr "복구"
+
+#: lib/GUI.pm:1529 lib/GUI.pm:1572
+msgid "Operation failed."
+msgstr "작업 실패."
+
+#: lib/GUI.pm:1540
+#, perl-format
+msgid "Restored as %s."
+msgstr "%s로 복구"
+
+#: lib/GUI.pm:1587
+msgid "No virus directory available."
+msgstr "사용할 수 있는 바이러스 디렉터리가 없습니다."
+
+#: lib/GUI.pm:1593 lib/GUI.pm:1630
+msgid "Unable to open the virus directory."
+msgstr "바이러스 디렉터리를 열 수 없습니다."
+
+#: lib/GUI.pm:1601
+msgid "No items currently quarantined."
+msgstr "현재 검역된 항목이 없습니다."
+
+#: lib/GUI.pm:1603
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "%d개 항목이 검역되었습니다."
+
+#: lib/GUI.pm:1613
+msgid "There is no quarantine directory to empty."
+msgstr "비울 검역소가 없습니다."
+
+#: lib/GUI.pm:1616
+msgid "Really delete all quarantined files?"
+msgstr "검역된 모든 파일들을 지우시겠습니까?"
+
+#: lib/GUI.pm:1637
+msgid "There are no quarantined items to delete."
+msgstr "삭제할 파일이 없습니다."
+
+#: lib/GUI.pm:1650
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "제거된 항목 %d"
+
+#: lib/GUI.pm:1663
+msgid "Scanning Histories"
+msgstr "히스토리 검사"
+
+#: lib/GUI.pm:1712
+msgid "View"
+msgstr "보기"
+
+#: lib/GUI.pm:1771
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "%s을(를) 삭제할 수 없습니다!"
+
+#: lib/GUI.pm:1794
+#, perl-format
+msgid "Viewing %s"
+msgstr "%s 보기"
+
+#: lib/GUI.pm:1807
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "%s 여는 중..."
+
+#: lib/GUI.pm:1817
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "%s 파일을 닫을 수 없습니다! %s\n"
+
+#: lib/GUI.pm:1875
+msgid "Scanning Preferences"
+msgstr "검사 설정"
+
+#: lib/GUI.pm:1878
+msgid "Scan files beginning with a dot (.*)"
+msgstr "숨겨진 파일도 검사하기"
+
+#: lib/GUI.pm:1889
+msgid "Scan all files and directories within a directory"
+msgstr "디렉토리내 모든 파일 및 디렉토리 검사"
+
+#: lib/GUI.pm:1900
+msgid "Enable extra scan settings"
+msgstr "정밀검사 기능 활성화"
+
+#: lib/GUI.pm:1911
+msgid "Scan files larger than 20 MB"
+msgstr "20MB보다 큰 파일만 검사"
+
+#: lib/GUI.pm:1925
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "삼바 관련 디렉토리 검사 %s"
+
+#: lib/GUI.pm:1937
+msgid "Startup Preferences"
+msgstr "프로그램 시작 설정"
+
+#: lib/GUI.pm:1940
+msgid "Check for AV Engine updates"
+msgstr "백신 엔진 업데이트 확인"
+
+#: lib/GUI.pm:1951
+msgid "Check for GUI updates"
+msgstr "GUI 프로그램 업데이트 확인"
+
+#: lib/GUI.pm:1962
+msgid "Use OpenDNS servers"
+msgstr "OpenDNS 서버 사용"
+
+#: lib/GUI.pm:1973
+msgid "Whitelist"
+msgstr "화이트리스트"
+
+#: lib/GUI.pm:1984
+msgid "Directory"
+msgstr "디렉토리"
+
+#: lib/GUI.pm:1998
+msgid "Select a Directory"
+msgstr "디렉터리 선택"
+
+#: lib/GUI.pm:2054
+msgid "Proxy settings"
+msgstr "프록시 설정"
+
+#: lib/GUI.pm:2058
+msgid "No Proxy"
+msgstr "프록시 사용 안함"
+
+#: lib/GUI.pm:2064
+msgid "Environment settings"
+msgstr "환경 설정"
+
+#: lib/GUI.pm:2070
+msgid "Set manually"
+msgstr "메뉴얼 셋팅"
+
+#: lib/GUI.pm:2077
+msgid "IP address or host:"
+msgstr "IP 주소 또는 호스트"
+
+#: lib/GUI.pm:2094
+msgid "Port:"
+msgstr "포트:"
+
+#: lib/GUI.pm:2360
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "마지막 스캔 날짜 :%s"
+
+#: lib/GUI.pm:2365
+#, perl-format
+msgid "Date of last known infection: %s"
+msgstr "마지막 감염 날짜: %s"
+
+#: lib/GUI.pm:2386 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "잠시만 기다려주세요..."
+
+#: lib/GUI.pm:2423
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr "ClamTk는 gtk2-perl을 이용하여 개발된 ClamAV 백신의 GUI 프로그램입니니다."
+
+#: lib/GUI.pm:2427
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"본 프로그램은 자유 소프트웨어로서, 다음 라이센스에\n"
+"따라 재 배포할 수 있습니다:\n"
+"a)자유 소프트웨어 재단의\n"
+" GNU General Public License 의 버전 1 혹은 이후 버전\n"
+"b) 'Artistic License'.\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "검사 결과"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "가능한 위협 발견되다"
+
+#: lib/Results.pm:70 lib/Schedule.pm:189 lib/Update.pm:60
+msgid "Status"
+msgstr "상태"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "실행된"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "현재 파일 검역"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "현재 파일 삭제"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "다른이름으로 저장..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "파일을 저장할 수 없습니다."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "이동됨"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "파일이 저장되었습니다."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "파일이 이미 옮겨졌거나 삭제되었습니다."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "파일이 검역되었습니다."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>검역됨</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "파일을 검역할 수 없습니다."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "이 파일을 삭제하시겠습니까?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "파일이 삭제되었습니다."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>삭제됨</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "파일을 삭제할 수 없습니다."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "검역소가 존재하지 않습니다."
+
+#: lib/Schedule.pm:48
+msgid "Schedule"
+msgstr "예약 설정"
+
+#: lib/Schedule.pm:59
+msgid "Scan options"
+msgstr "검사 옵션"
+
+#: lib/Schedule.pm:69
+msgid "Scan my ... "
+msgstr "예약 검사 영역... "
+
+#: lib/Schedule.pm:75
+msgid "Home (recommended)"
+msgstr "홈디렉터리 (추천)"
+
+#: lib/Schedule.pm:81
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr "이 옵션은 홈디렉터리를 검사합니다. 이 옵션을 사용하기를 추천합니다."
+
+#: lib/Schedule.pm:83
+msgid "entire computer"
+msgstr "전체 시스템"
+
+#: lib/Schedule.pm:88
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr "이 옵션은 /proc, /sys, /dev 디렉터리를 제외한 시스템 전체를 검사합니다."
+
+#: lib/Schedule.pm:93
+msgid "at this time ... "
+msgstr "예약 검사 시각... "
+
+#: lib/Schedule.pm:101 lib/Schedule.pm:155
+msgid "Set the hour using a 24 hour clock."
+msgstr "24시간제로 시각을 설정합니다."
+
+#: lib/Schedule.pm:102 lib/Schedule.pm:156
+msgid "Hour"
+msgstr "시"
+
+#: lib/Schedule.pm:109 lib/Schedule.pm:162
+msgid "Minute"
+msgstr "분"
+
+#: lib/Schedule.pm:114
+msgid "Scan my whitelisted directories"
+msgstr "화이트리스트 디렉터리 검사"
+
+#: lib/Schedule.pm:138 lib/Update.pm:523 lib/Update.pm:561
+msgid "Antivirus signature options"
+msgstr "백신DB 업데이트 옵션"
+
+#: lib/Schedule.pm:147
+msgid "Select a time to update your signatures."
+msgstr "백신DB 업데이트 시각"
+
+#: lib/Schedule.pm:198 lib/Schedule.pm:264
+msgid "A daily scan is scheduled."
+msgstr "예약 검사가 설정되었습니다."
+
+#: lib/Schedule.pm:203 lib/Schedule.pm:307
+msgid "A daily definitions update is scheduled."
+msgstr "자동 DB 업데이트가 설정되었습니다."
+
+#: lib/Schedule.pm:298
+msgid "A daily scan is not scheduled."
+msgstr "예약 검사가 설정되지 않았습니다."
+
+#: lib/Schedule.pm:312
+msgid "A daily definitions update is not scheduled."
+msgstr "자동 DB 업데이트가 설정되지 않았습니다."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "이름"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "E메일"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "선택한 파일이 없습니다"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "첨부 파일입니다"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "새로운  malware"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "거짓 양성"
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "설명"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "하루에 두 개 이상의 파일을 제출하지 마십시오"
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "당신이 분석을 위해 파일을 제출하다"
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "계속하려면 확인을 누르거나, 취소  뒤로 이동"
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "제출이 성공적이다"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "제출하신 파일이 이미  인식하다"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr "제출을 완료하지 못했습니다. 나중에 다시 시도하십시오"
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "이 양식을 통해 수행할 수 있습니다 :"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "새로운 바이러스 조사의  보고 검색되지 않습니다"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "클린 파일 잘못 감지 신고  되다"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "필수의    필드을 나타내다"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "업데이트"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "선택"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "root 사용자로 실행해야합니다."
+
+#: lib/Update.pm:87 lib/Update.pm:233
+msgid "Signature updates"
+msgstr "서명데이터 업데이트"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "백신 서명데이터 확인"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:107 lib/Update.pm:154
+#: lib/Update.pm:155
+msgid "N/A"
+msgstr "해당사항 없음"
+
+#: lib/Update.pm:97 lib/Update.pm:242
+msgid "GUI updates"
+msgstr "GUI 업데이트"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "GUI프로그램 업데이트 확인"
+
+#: lib/Update.pm:106
+msgid "Check for antivirus engine updates"
+msgstr "최신 정보 항바이러스 엔진을  지연시키다"
+
+#: lib/Update.pm:126
+msgid "Check for updates"
+msgstr "업데이트 확인"
+
+#: lib/Update.pm:171
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"root 계정으로 이 프로그램을 실행하는 것은 추천하지 않습니다.\n"
+"http://clamtk.sf.net/faq.html 페이지를 참조하시기 바랍니다."
+
+#: lib/Update.pm:234 lib/Update.pm:243 lib/Update.pm:254
+msgid "Checking..."
+msgstr "확인 중..."
+
+#: lib/Update.pm:237
+msgid "Update failed"
+msgstr "업데이트 실패"
+
+#: lib/Update.pm:238
+msgid "Signatures are current"
+msgstr "최신 서명데이터"
+
+#: lib/Update.pm:239
+msgid "Updated"
+msgstr "업데이트됨"
+
+#: lib/Update.pm:249 lib/Update.pm:250
+msgid "Check failed"
+msgstr "검사 실패"
+
+#: lib/Update.pm:330
+msgid "Trying to connect..."
+msgstr "접속 시도중"
+
+#: lib/Update.pm:335
+msgid "Downloading updates..."
+msgstr "업데이트 다운로드중"
+
+#: lib/Update.pm:340
+msgid "Cannot connect..."
+msgstr "접속할 수 없습니다..."
+
+#: lib/Update.pm:345
+msgid "Daily signatures have been updated"
+msgstr "최신 DB로 업데이트 되었습니다"
+
+#: lib/Update.pm:358
+msgid "Checking main virus database version"
+msgstr "백신 DB 버전 확인중"
+
+#: lib/Update.pm:363
+msgid "Main virus database is current"
+msgstr "백신 DB는 최신버전입니다"
+
+#: lib/Update.pm:467
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "어떤 식으로   최신화 항바이러스 서명 의사 선택하다"
+
+#: lib/Update.pm:470
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "만약 당신 자신이 서명 의사 최신화 하고 싶다면 수동식을 고르싶시요"
+
+#: lib/Update.pm:475
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "만약 당신(들)의 컴퓨터가 자동으로 정보를 받기를 원할경우 자동식을 고르싶시요"
+
+#: lib/Update.pm:491
+msgid "Manual"
+msgstr "수동식"
+
+#: lib/Update.pm:502
+msgid "Automatic"
+msgstr "자동식"
+
+#: lib/Update.pm:556
+msgid "Your preferences were saved."
+msgstr "환경설정을 저장했습니다."

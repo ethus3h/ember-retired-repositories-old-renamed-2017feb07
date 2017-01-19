@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+<info>
+    <desc>Nápověda k <app>Systému OCRFeeder pro konverzi dokumentů</app>.</desc>
+    <title type="link">Systém OCRFeeder pro konverzi dokumentů</title>
+    <title type="text">Systém OCRFeeder pro konverzi dokumentů</title>
+    <credit type="author">
+      <name>Joaquim Rocha</name>
+      <email>jrocha@igalia.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>Systém OCRFeeder pro konverzi dokumentů</title>
+<p>Aplikace OCRFeeder slouží k analýze rozvržení dokumentu a optickému rozpoznávání znaků (OCR).</p>
+
+<p>Byla vytvořena pro uživatele za účelem snadného převodu obrazových dokumentů (například obrázek PNG s textem) na editovatelné dokumenty (například dokument ODT s tímto textem).</p>
+
+<p>V zadaném obrázku je automaticky označen jeho obsah, provedeno rozpoznání textu a rozlišení mezi tím, co je grafika a co text. Generuje se více formátu, přičemž tím hlavním je ODT.</p>
+
+<p>Tato příručka vám vysvětlí, jak aplikaci OCRFeeder nastavit a používat.</p>
+
+<section id="images" style="2column">
+    <title>Přidávání obrázků</title>
+</section>
+
+<section id="recognition" style="2column">
+    <title>Rozpoznávání</title>
+</section>
+
+<section id="configuration" style="2column">
+    <title>Nastavení</title>
+</section>
+
+<section id="projects" style="2column">
+    <title>Projekty</title>
+</section>
+
+</page>

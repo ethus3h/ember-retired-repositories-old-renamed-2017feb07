@@ -1,0 +1,923 @@
+# Afrikaans translation for clamtk
+# Copyright (C) 2004-2012, Dave M <dave . nerd @ gmail>
+# This file is distributed under the same license as the ClamTk package.
+# Dawid de Jager <dawid.dejager@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clamtk\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2012-09-27 07:29+0000\n"
+"Last-Translator: Dawid de Jager <dawid.dejager@gmail.com>\n"
+"Language-Team: Afrikaans <af@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-11-18 15:40+0000\n"
+"X-Generator: Launchpad (build 16278)\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "Nie in staat om aanvangsgidse te skep nie!"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "Nie in staat om grafiese koppelvlak te skep nie!"
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "Nooit"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "Skandeer vir virusse..."
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "Virus Skandeerder"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "USB toestel"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "Stiffie"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "Geen toestelle gekry nie."
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "Indien u 'n toestel gekoppel het, mag u dit eers wil monteer."
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "Toestelle beskikbaar"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "Kies 'n toestel of druk Kanselleer"
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "_Skandeer"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "_Uitsig"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "Keuses"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "Kwarentyn"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "Gevorderd"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_Help"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "'n Lêer"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "Tuis (Vinnig)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Tuis (Rekursief)"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "'n Gids"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "Rekursiewe Skandering"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "'n Toestel"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "Uitgang"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "Geskiedenis"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "Laaste Skandering Inligting"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "Maak Uitset Skoon"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "_Status"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "Onderhoud"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "Maak Kwarentyn Vouer Leeg"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "Kyk vir bywerkings"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "_Aangaande"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "_Skeduleerder"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "Hardloop antivirus opstellingshelper weer"
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "Voorkeure"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "Handig 'n lêer in vir analise"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Tuis"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "Skandeer u tuis gids"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "Geskiedenis"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "Bekyk u vorige skanderings"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "Stel of bekyk u voorkeure"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "Uitgang"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "Gaan uit hierdie program"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "GUI weergawe"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "Die GUI weergawe is op datum"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "Antivirus definisies"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "Die antivirus definisies is op datum"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "Antivirus enjin"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "Dui die weergawe van die antivirus enjin aan"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "Stop skandering nou"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "Lêers Geskandeer: "
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "Bedreigings Gekry: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "Sleep en laat val"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "Kon nie skandeer nie (toestemmings)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "Geen"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "Gids uitgesluit van skandering"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "Nie in staat om na te gaan nie"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "'n Nuwer weergawe is beskikbaar"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "Geen gekry nie"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "Verouderd"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "Die antivirus handtekeninge is verouderd"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "Huidig"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "Kies Lêer"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "Kies ' Gids (gids skandering)"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "Kies 'n Gids (rekursiewe skandering)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "Sal nie daardie gids skandeer nie"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "Skandeer %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>Bedreigings Gekry: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "Bedreigings Gekry: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "Lêers Geskandeer: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "Maak venster toe"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "Geen lêers is geskandeer nie."
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "ClamAV Handtekeninge: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "Gidse Geskandeer:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"Het %d moontlike %s gekry (%d %s geskandeer).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "bedreiging"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "bedreigings"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "lêer"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "lêers"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "Kon nie na die log lêer skryf nie. Gaan toestemmings na."
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "Skandering voltooi (%d handtekeninge)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr "Geen bedreigings gekry nie.\n"
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "Kwarentyn"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "Lêer"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "Herstel"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "Operasie het misluk."
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "Herstel as %s."
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "Geen virus gids beskikbaar."
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "Nie in staat om die virus gids oop te maak nie."
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "Geen items huidiglik in kwarentyn nie."
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "%d item(s) huidiglik in kwarentyn."
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "Daar is geen kwarentyn gids om leeg te maak nie."
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "Regtig alle lêers in kwarentyn skrap?"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "Daar is geen lêers in kwarentyn om te skrap nie."
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "Het %d item(s) verwyder."
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr "Skanderingsgeskiedenis"
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "Bekyk"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "Nie in staat om %s te skrap nie!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "Bekyk %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "Probleme met oop maak van %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "Nie in staat om LÊER %s toe te maak nie! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr "Skandeer"
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr "Skandeer verskuilde lêers"
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "Skandeer lêers wat met 'n punt begin (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr "Skandeer gidse rekursief"
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "Skandeer alle lêers en gidse binne 'n gids"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr "Skandeer vir Moontlik Ongewensde Toepassings"
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr "Spoor gepakte binêre lêers, wagwoord herwinningsmiddele, en meer op"
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "Skandeer lêers groter as 20 MG"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr "Skandeer groot lêers wat gewoonlik nie ondergaan word nie"
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr "Skandeer samba-verwante gidse"
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "Skandeer samba-verwante gidse %s"
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr "Aanvang"
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "Kyk vir GUI bywerkings"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr "Verwyder duplikaat handtekeningsdatabasisse"
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "Witlys"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "Gids"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "Kies 'n Gids"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr "Instaander"
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "Geen Instaander Nie"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "Omgewing Instellings"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "Stel handmatig"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "IP adres of gasheer:"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "Poort:"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "Datum van u laaste skandering: %s"
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr "Datum van laas bekende bedreiging: %s"
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "Wag asseblief..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"ClamTk is 'n Grafiese koppelvlak (GUI) vir die ClamAV antivirus wat gtk2-"
+"perl gebruik."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"Hierdie program is gratis sagteware; u kan dit herversprei\n"
+"en/of wysig in terme van:\n"
+"\n"
+"a) die GNU General Public License soos gepubliseer deur\n"
+"die Free Software Foundation; weergawe 1, of\n"
+"(met u keuse) enige laatere weergawe daarvan, of\n"
+"\n"
+"b) die 'Artistic License'.\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "Skanderingsresultate"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "Moontlike bedreigings is gekry."
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "Status"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "Stappe Geneem"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "Kwarentyn hierdie lêer"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "Skrap hierdie lêer"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "Berg As..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "Kon nie daardie lêer berg nie."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "Geskuif"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "Lêer geberg."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "Lêer is alreeds geskuif of geskrap."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "Lêer is in kwarentyn geplaas."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>In Kwarentyn</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "Lêer kon nie in kwarentyn geplaas word nie."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "Regtig hierdie lêer skrap?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "Lêer is geskrap."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>Geskrap</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "Lêer kon nie geskrap word nie."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "Kwarentyn gids bestaan nie."
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "Skeduleer"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "Skaderingskeuses"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "Skandeer my ... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "Tuis (aanbeveel)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr ""
+"Hierdie keuse sal u tuis gids skandeer. Hierdie is die aanbevole keuse."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "hele rekenaar"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"Hierdie keuse sal u hele rekenaar skandeer behalwe die /proc, /sys en /dev "
+"gidse."
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "teen hierdie tyd ... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "Stel die uur m.b.v. 'n 24-uur horlosie."
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "Uur"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "Minuut"
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "Skandeer my witgelysde gidse"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "Antivirus handtekening keuses"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "Kies 'n tyd om u handtekeninge by te werk."
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "'n Daaglikse skandering  is geskeduleer."
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "'n Daaglikse definisie bywerking is geskeduleer."
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "'n Daaglikse skandering is nie geskeduleer nie."
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "'n Daaglikse definisie bywerking is nie geskeduleer nie."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "Naam"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "E-pos"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "Geen lêer gekies nie"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "Die aangehegte lêer is"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "Nuwe skadelike sagteware (malware)"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "'n Vals-positief"
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "Beskrywing"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "Moet asb. nie meer as twee lêers per dag indien nie."
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "U is op die punt om 'n lêer in te dien vir analise."
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "Druk Goed oom voort te gaan, of Kanselleer om terug te gaan."
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "Die indiening was suksesvol!"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "Die lêer wat u ingedien het is alreeds herken"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr ""
+"Nie in staat om die indiening te voltooi nie. Probeer asb. weer later."
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "Met hierdie vorm, kan u:"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "Rapporteer nuwe virusse wat nie opgespoor is nie"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "Rapporteer skoon lêers wat verkeerdelik opgespoor is"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "Dui 'n vereiste veld aan"
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "Kyk vir bywerkings"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "Bywerkings"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "Kies"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "U moet \"root\" wees om hierdie in staat te stel"
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "Handtekening bywerkings"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "Kyk vir antivirus handtekening bywerkings"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "N.v.t."
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "GUI bywerkings"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "Kyk vir bywerkings tot die grafiese koppelvlak (GUI)"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"Dit word aanbeveel dat u nie hierdie toepassing as \"root\" hardloop nie.\n"
+"Sien asseblief http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "Gaan na..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "Bywerking misluk"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "Handtekeninge is op datum"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "Bygewerk"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "Nagaan misluk"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "Probeer verbind..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "Laai bywerkings af..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "Kan nie verbind nie..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Daaglikse handtekeninge is bygewerk"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "Gaan hoof virus databasis weergawe na"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "Hoof virus databasis is op datum"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "Kies asb. hoe u u antivirus handtekeninge gaan bywerk."
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "Indien u self die handtekeninge wil bywerk, kies Handmatig."
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "Indien u rekenaar outomaties bywerkings ontvang, kies Outomaties."
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr "Handmatig"
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr "Outomaties"
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "U voorkeure is geberg."

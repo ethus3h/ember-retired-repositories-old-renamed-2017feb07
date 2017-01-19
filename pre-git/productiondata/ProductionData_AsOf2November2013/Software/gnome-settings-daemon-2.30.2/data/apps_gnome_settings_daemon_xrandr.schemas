@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+    <schemalist>
+	<schema>
+	    <key>/schemas/apps/gnome_settings_daemon/xrandr/show_notification_icon</key>
+	    <applyto>/apps/gnome_settings_daemon/xrandr/show_notification_icon</applyto>
+            <owner>gnome</owner>
+	    <type>bool</type>
+            <default>false</default>
+            <locale name="C">
+	        <short>Show Displays in Notification Area</short>
+                <long>If a notification icon with display related things should be
+		    shown in the panel.
+		</long>
+            </locale>
+
+            <locale name="ar">
+	        <short>أظهر أجهزة العرض في منطقة التبليغ</short>
+                <long>ما إذا كانت ستعرض أيقونة تبليغ تحتوي على أشياء متعلقة بجهاز العرض في اللوحة.</long>
+            </locale>
+
+            <locale name="as">
+	        <short>সূচনাপ্ৰদানৰ স্থানে প্ৰদৰ্শনে প্ৰদৰ্শন কৰা হ&apos;ব</short>
+                <long>If a notification icon with display related things should be shown in the panel.</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>Amosar les pantalles nel área de notificación</short>
+                <long>Si habría d&apos;amosar nel panel un iconu de notificación con elementos rellacionaos cola pantalla.</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>Показване на екраните в областта за уведомяване</short>
+                <long>Дали в панела да се показва уведомителна икона за екрана.</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>ঘোষনা প্রদানের স্থানে ডিসপ্লে প্রদর্শন করা হবে</short>
+                <long>প্রদর্শন সংক্রান্ত ঘোষনার একটি আইকন প্যানেলের মধ্যে দৃশ্যমান হবে কি না।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>সূচনাপ্রদানের স্থানে ডিসপ্লে প্রদর্শন করা হবে</short>
+                <long>প্রদর্শন সংক্রান্ত বিজ্ঞপ্তির একটি আইকন প্যানেলের মধ্যে দৃশ্যমান হবে কি না।</long>
+            </locale>
+
+            <locale name="ca">
+	        <short>Mostra les pantalles a l&apos;àrea de notificació</short>
+                <long>Si s&apos;hauria de mostrar al quadre una icona de notificació amb elements relacionats amb la pantalla.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>Mostra les pantalles a l&apos;àrea de notificació</short>
+                <long>Si s&apos;hauria de mostrar al quadre una icona de notificació amb elements relacionats amb la pantalla.</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>Bildirim Mıntıqasında Ekranlarnı Köster</short>
+                <long>Ekran ile ilgili şeyler için bir uyarı simgesinin panelde gösterilmesi.</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>Zobrazit displeje v oznamovací oblasti</short>
+                <long>Pokud by měla být na panelu zobrazena oznamovací ikona s vlastnostmi týkajícími se displeje.</long>
+            </locale>
+
+            <locale name="da">
+	        <short>Vis skærme i påmindelsesområdet</short>
+                <long>Om en påmindelsesikon med visningsrelaterede ting skal vises i panelet.</long>
+            </locale>
+
+            <locale name="de">
+	        <short>Bildschirme im Benachrichtigungsfeld anzeigen</short>
+                <long>Legt fest, ob im Panel ein Benachrichtigungssymbol für die Bildschirmeinstellungen angezeigt wird.</long>
+            </locale>
+
+            <locale name="el">
+	        <short>Προβολή οθονών στην περιοχή ειδοποίησης</short>
+                <long>Αν ένα εικονίδιο ειδοποίησης θα εμφανίζεται στο πίνακα εφαρμογών.</long>
+            </locale>
+
+            <locale name="en@shaw">
+	        <short>𐑖𐑴 𐑛𐑦𐑕𐑐𐑤𐑱𐑟 𐑦𐑯 𐑯𐑴𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯 𐑺𐑦𐑩</short>
+                <long>𐑦𐑓 𐑩 𐑯𐑴𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯 𐑲𐑒𐑪𐑯 𐑢𐑦𐑞 𐑛𐑦𐑕𐑐𐑤𐑱 𐑮𐑦𐑤𐑱𐑑𐑩𐑛 𐑔𐑦𐑙𐑟 𐑖𐑫𐑛 𐑚𐑰 𐑖𐑴𐑯 𐑦𐑯 𐑞 𐑐𐑨𐑯𐑩𐑤.</long>
+            </locale>
+
+            <locale name="en_GB">
+	        <short>Show Displays in Notification Area</short>
+                <long>If a notification icon with display-related things should be shown in the panel.</long>
+            </locale>
+
+            <locale name="es">
+	        <short>Mostrar las pantallas en el área de notificación</short>
+                <long>Indica si se debería mostrar en el panel un icono de notificación con elementos relacionados con la pantalla.</long>
+            </locale>
+
+            <locale name="et">
+	        <short>Kuvade näitamine teavitusalas</short>
+                <long>Kas kuvaga seotud teavitusikooni tuleb paneelil näidata või mitte.</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>Erakutsi pantailak jakinarazpeneko arean</short>
+                <long>Pantailarekin zerikusia duten gauzen jakinarazpeneko ikonoa panelean bistaratu behar den ala ez.</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>Näytä näyttötiedot ilmoitusalueella</short>
+                <long>Näytetäänkö näyttöön liittyvistä asioita huomautuskuvake paneelissa</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>Icône de l&apos;affichage visible dans la zone de notification</short>
+                <long>Indique si une icône de notification concernant l&apos;affichage doit être affichée dans le tableau de bord.</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>Taispeáin Taispeáintí sa Limistéar Fógra.</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>Mostrar as pantallas na área de notificación</short>
+                <long>Indica se se debería mostrar no panel unha icona de notificación con elementos relacionados coa pantalla.</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>જાહેરાત વિસ્તારમાં દર્શાવો ને બતાવો</short>
+                <long>શું ડિસ્પ્લે સંબંધિત વસ્તુઓ સાથે સૂચન ચિહ્ન પેનલમાં દર્શાવવું જોઈએ.</long>
+            </locale>
+
+            <locale name="he">
+	        <short>Show Displays in Notification Area</short>
+                <long>If a notification icon with display related things should be shown in the panel.</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>अधिसूचना क्षेत्र में प्रदर्शन दिखाएँ</short>
+                <long>प्रदर्शन संबंधित चीजों को कोई अधिसूचना क्षेत्र प्रतीक में पटल में दिखनी चाहिए.</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>Kijelzők megjelenítése az értesítési területen</short>
+                <long>Megjelenjen-e a kijelzőkkel kapcsolatos értesítőikon a panelen.</long>
+            </locale>
+
+            <locale name="it">
+	        <short>Mostra i display nell&apos;area di notifica</short>
+                <long>Indica se è mostrata sul pannello un&apos;icona di notifica relativa al display.</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>通知スペースに通知アイコンを表示するかどうか</short>
+                <long>パネルの中に (表示のみの機能を持つ) 通知アイコンを表示するかどうかです。</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>ಸೂಚನೆಗಳನ್ನು ಸೂಚನಾ ಸ್ಥಳದಲ್ಲಿ ತೋರಿಸು</short>
+                <long>ಪ್ರದರ್ಶನಕ್ಕೆ ಸಂಬಂಧಿತವಾದ ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡ ಒಂದು ಸೂಚನಾ ಚಿಹ್ನೆಯನ್ನು ಫಲಕದಲ್ಲಿ ತೋರಿಸಬೇಕೆ.</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>알림 영역에 디스플레이 표시</short>
+                <long>디스플레이에 관련된 정보가 들어 있는 알림 아이콘을 패널에 표시할 지 여부.</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>Rodyti ekranus pranešimų srityje</short>
+                <long>Ar rodyti pranešimų piktogramą su ekrano nustatymais skydelyje.</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>Rādīt displejus paziņojumu laukā</short>
+                <long>Vai paziņojumu ikonai ar displeja saistītām lietām vajadzētu būt redzamai panelī.</long>
+            </locale>
+
+            <locale name="mk">
+	        <short>Прикажи ги приказите во местото за известување</short>
+                <long>Дали да се прикаже икона за известување на панелот со работи поврзани со приказот.</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>അവതരണങ്ങള്‍ അറിയിപ്പ് വിഭഗത്തില്‍ കാണിക്കുക</short>
+                <long>അവതരണവുമായി ബന്ധപ്പെട്ട കാര്യങ്ങളുടെ അറിയിപ്പ് ചിഹ്നം പാളിയില്‍ കാണിക്കണോ എന്ന്.</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>सूचना कक्षात दृश्य दर्शवा</short>
+                <long>दृश्य संबंधित घटना पटल अंतर्गत सूचना चिन्हसह दर्शवायचे असल्यास.</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>Vis skjermer i varslingsområdet</short>
+                <long>Om et varslingsikon med skjermrelatert informasjon skal vises på panelet.</long>
+            </locale>
+
+            <locale name="nl">
+	        <short>Schermen tonen in mededelingengebied</short>
+                <long>Of een mededelingspictogram met weergavegerelateerde zaken getoond moet worden in het paneel.</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>Vis skjermar i varslingsområdet</short>
+                <long>Om eit varslingsikon med skjermrelaterte ting skal verta vist i panelet.</long>
+            </locale>
+
+            <locale name="or">
+	        <short>ବିଜ୍ଞପ୍ତି କ୍ଷେତ୍ରରେ ପ୍ରଦର୍ଶିକା ଦର୍ଶାନ୍ତୁ</short>
+                <long>ପ୍ରଦର୍ଶିକା ସମ୍ପର୍କୀୟ ଯଦି ଗୋଟିଏ ବିଜ୍ଞପ୍ତି ଚିତ୍ରସଂକେତକୁ ପ୍ୟାନେଲରେ ଦର୍ଶାଯାଏ।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>ਡਿਸਪਲੇਅ ਨੂੰ ਨੋਟੀਫਿਕੇਸ਼ਨ ਖੇਤਰ &apos;ਚ ਵੇਖੋ</short>
+                <long> ਜੇ ਆਈਟਮ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਾਇਆ ਜਾਵੇ ਤਾਂ ਪੈਨਲ &apos;ਚ ਉੱਤੇ ਵੇਖਾਈ ਜਾਵੇਗੀ।</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>Wyświetlanie ekranów w obszarze powiadamiania</short>
+                <long>Określa, czy ma być wyświetlana ikona z właściwościami ekranu w obszarze powiadamiania.</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>Apresentar Ecrãs na Área de Notificação</short>
+                <long>Se deverá ou não ser apresentado no painel um ícone de notificação com informação relacionada com o ecrã.</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>Mostrar telas na área de notificação</short>
+                <long>Se um ícone de notificação de coisas relacionadas com a tela deve ser mostrado no painel.</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>Arată ecranele în zona de notificare</short>
+                <long>Dacă să fie afișată în panou o iconiță de notificare cu informații legate de ecran.</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>Показывать мониторы в области уведомлений</short>
+                <long>Показывать значок управления монитором в области уведомлений.</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>Zobraziť obrazovky v oblasti upozornení</short>
+                <long>Či má byť v paneli zobrazená ikona s vecmi súvisiacimi s obrazovkou.</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>Počasen prikaz obvestil na zaslonu</short>
+                <long>Ali naj bo na opravilni vrstici prikazana ikona za prikaz podobnih stvari.</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>Прикажи екране у обавештајној зони</short>
+                <long>Одређује да ли да се приказује иконица са ставкама везаним за екране унутар панела.</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>Prikaži ekrane u obaveštajnoj zoni</short>
+                <long>Određuje da li da se prikazuje ikonica sa stavkama vezanim za ekrane unutar panela.</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>Visa skärmar i notifieringsytan</short>
+                <long>Om en notifieringsikon med skärmrelaterade saker ska visas i panelen.</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>அறிவிப்பு இடத்தில் காட்சிகளை காட்டுகிறது.</short>
+                <long>பலகத்தில் தொடர்புடைய விஷயங்களுடன் ஒரு அறிவிப்பு சின்னம் காட்டப்பட வேண்டுமா.</long>
+            </locale>
+
+            <locale name="te">
+	        <short>ప్రకటన ప్రాంతమునందు ప్రదర్శనలను చూపుము</short>
+                <long>ప్రదర్శనకు సంభందిత విషయాలతో కూడిన వొక ప్రకటన ప్రతిమ ప్యానల్ నందు చూపించవలెనా.</long>
+            </locale>
+
+            <locale name="th">
+	        <short>แสดงดิสเพลย์ในพื้นที่แจ้งเหตุ</short>
+                <long>กำหนดว่าจะแสดงไอคอนเกี่ยวกับดิสเพลย์ในพาเนลหรือไม่</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>Uyarı Alanında Ekranlar Göster</short>
+                <long>Ekran ile ilgili şeyler için bir uyarı simgesinin panelde gösterilmesi.</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>Показувати дисплеї у області сповіщення</short>
+                <long>Чи показувати у панелі значок сповіщення з параметрами, що відносяться до дисплею.</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>Hiện Màn hình trên vùng thông báo</short>
+                <long>Nếu cần hiển thị biểu tượng thông báo và những thứ liên quan đến màn hình trên bảng</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>在通知区域显示</short>
+                <long>是否在面板中显示一个通知图标，其中包括相关设置。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>在通知區顯示訊息</short>
+                <long>是否在面板顯示通知圖示和相關訊息。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>在通知區顯示訊息</short>
+                <long>是否在面板顯示通知圖示和相關訊息。</long>
+            </locale>
+        </schema>
+    </schemalist>
+</gconfschemafile>

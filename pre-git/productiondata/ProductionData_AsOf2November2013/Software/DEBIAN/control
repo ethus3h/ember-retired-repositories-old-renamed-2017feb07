@@ -1,0 +1,12 @@
+Package: firefox-globalmenu
+Source: firefox
+Version: 15.0.1+build1-0ubuntu2
+Architecture: i386
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 274
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk4 (>= 0.4.2), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), firefox (= 15.0.1+build1-0ubuntu2)
+Section: web
+Priority: optional
+Description: Unity appmenu integration for Firefox
+ This package provides an extension which adds support for the Unity
+ appmenu to Firefox

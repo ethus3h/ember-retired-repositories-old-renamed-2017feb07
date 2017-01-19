@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+<info>
+    <desc>Справка по <app>системе оптического распознавания документов OCRFeeder</app>.</desc>
+    <title type="link">Система оптического распознавания документов OCRFeeder</title>
+    <title type="text">Система оптического распознавания документов OCRFeeder</title>
+    <credit type="author">
+      <name>Joaquim Rocha</name>
+      <email>jrocha@igalia.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>Система оптического распознавания документов OCRFeeder</title>
+<p>OCRFeeder — это система для анализа структуры документа и оптического распознавания симолов.</p>
+
+<p>OCRFeeder позволяет пользователям легко преобразовывать документы в виде изображений (например, изображение PNG с текстом) в документы с возможностью редактирования (например, документ в формате ODT с этим же текстом).</p>
+
+<p>Автоматически анализирует содержимое заданных документов, выделяя области изображений и текста, и выполняет оптическое распознавание символов. Создаёт различные форматы документов, основной из них — ODT.</p>
+
+<p>В этом руководстве описано, как настроить и использовать OCRFeeder.</p>
+
+<section id="images" style="2column">
+    <title>Добавление изображений</title>
+</section>
+
+<section id="recognition" style="2column">
+    <title>Распознавание</title>
+</section>
+
+<section id="configuration" style="2column">
+    <title>Настройка</title>
+</section>
+
+<section id="projects" style="2column">
+    <title>Проекты</title>
+</section>
+
+</page>

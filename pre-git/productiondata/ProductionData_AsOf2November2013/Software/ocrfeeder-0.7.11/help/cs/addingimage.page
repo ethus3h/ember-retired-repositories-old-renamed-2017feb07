@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingimage">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <desc>Přidávání obrázku, který má být rozpoznán</desc>
+</info>
+
+<title>Přidávání obrázku</title>
+
+<p>Přidání obrázku, ve kterém má být rozpoznán text, je obvykle prvním krokem při převodu dokumentu.</p>
+
+<p>Každý přidaný obrázek představuje jednu stránku ve výsledném dokumentu. Náhledy obrázků jsou zobrazovány v oblasti stránek (oblast v levé části aplikace <app>OCRFeeder</app>).</p>
+
+<p>Pořadí stránek ve výsledném dokumentu bude stejné, jako pořadí obrázků v oblasti stránek. Proto máte možnost měnit pořadí stránek přetahováním náhledů obrázků v oblasti stránek.</p>
+
+<p>Obrázek přidáte kliknutím na <guiseq><gui>Soubor</gui><gui>Přidat obrázek</gui></guiseq>.</p>
+
+<p>Pokud chcete stránku odstranit, klikněte na <guiseq><gui>Upravit</gui><gui>Odstranit stránku</gui></guiseq> nebo klikněte pravým tlačítkem na náhled stránky a zvolte <gui>Odstranit</gui>.</p>
+
+<section>
+<title>Nastavení stránky</title>
+
+<p>Pro nastavení velikosti stránky klikněte na <guiseq><gui>Upravit</gui><gui>Upravit stránku</gui></guiseq> a zvolte buďto vlastní velikost a zadejte příslušné údaje nebo si vyberte ze seznamu standardních velikostí papíru.</p>
+
+</section>
+
+</page>

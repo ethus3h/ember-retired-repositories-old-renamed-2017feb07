@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="manualeditionandcorrection">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="addingimage"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <desc>Ročno urejanje in popravilo rezultatov</desc>
+</info>
+
+<title>Ročno urejanje</title>
+
+<p>Morda želite za prepoznavo ročno izbrati samo del slike ali ročno popraviti samodejno prepoznavo. <app>OCRFeeder</app> vam omogoča ročno urejanje vseh vidikov vsebine dokumenta na enostaven način.</p>
+
+<section>
+
+<title>Vsebinska območja</title>
+
+<p>Vsebino omenjenega dokumenta predstavljajo področja kot je tisto prikazano na naslednji sliki:</p>
+<media type="image" mime="image/png" src="figures/content-areas.png" width="300px">Slika dveh področij vsebine, kjer je eno od njih izbrano.</media>
+
+<p>Prikazani so atributi izbranega področja, ki jih je mogoče spremeniti iz desnega dela glavnega okna kot je prikazano na naslednji sliki:</p>
+<media type="image" mime="image/png" src="figures/areas-edition.png" width="200px">Slika prikazuje uporabniški vmesnik urejanja področij</media>
+
+<p>Naslednji seznam opiše atribute področij besedila:</p>
+<list>
+    <item><p><em>Vrsta</em>: nastavi vrsto površine kot besedilo ali sliko. Vrsta slika bo področje iz izvirne strani obrezala in ga postavila v ustvarjen dokument. Vrsta besedilo bo uporabila dodeljeno besedilo v področju in ga v ustvarjenem dokumentu predstavila kot besedilo. (Ustvarjeni dokumenti ODT bodo imeli besedilna področja, ko je bilo področje označeno kot vrsta besedilo)</p></item>
+    <item><p><em>Izrezek</em>: Pokaže trenuten izrezek iz izvirnega področja. To uporabnikom olajša preveriti kaj natanko je v področju.</p></item>
+    <item><p><em>Obroba</em>: Pokaže točko (X in Y) v izvirni sliki, kjer je zgornji levi rob področja ter njegovo širino in dolžino.</p></item>
+    <item><p><em>Programnik OCR</em>: Uporabniku omogoča izbiro programnika OCR in prepoznavanja besedila področja z (s pritiskom gumba <gui>OCR</gui>)</p>. <note type="warning"><p>Programnik OCR za prepoznavanje besedila bo to besedilo neposredno dodelil področju in zamenjal predhodno določeno besedilo.</p></note></item>
+    <item><p><em>Besedilno področje</em>: Predstavlja besedilo dodeljeno temu področju in uporabniku omogoči njegovo urejanje. To področje je onemogočeno, ko je področje vrste slika</p></item>
+    <item><p><em>Zavihek slog</em>: Uporabniku omogoča nastavitev vrste pisave in velikosti kot tudi poravnavo besedila ter razmik med vrsticami in črkami.</p></item>
+</list>
+
+<p>Področja vsebine lahko izberete s klikom na njih ali z uporabo menijev <guiseq><gui>Dokument</gui><gui>Izberi predhodno področje</gui></guiseq> in <guiseq><gui>Dokument</gui><gui>Izberi naslednje področje</gui></guiseq>. Za ti dejanji sta na voljo tudi tipkovni bližnjici <keyseq><key>Ctrl</key><key>Dvigalka</key><key>P</key></keyseq> in <keyseq><key>Ctrl</key><key>Dvigalka</key><key>N</key></keyseq>.</p>
+
+<p>Vsa področja lahko izberete z <guiseq><gui>Dokument</gui><gui>Izberi vsa področja</gui></guiseq> ali <keyseq><key>Ctrl</key><key>Dvigalka</key><key>A</key></keyseq>.</p>
+
+<p>Ko je izbrano vsaj eno področje vsebine, je mogoče njegovo vsebino samodejno prepoznati ali izbrisati. To lahko dosežete s klikom na <guiseq><gui>Dokument</gui><gui>Prepoznana izbrana področja</gui></guiseq> in <guiseq><gui>Dokument</gui><gui>Izbriši izbrana področja</gui></guiseq> (ali <keyseq><key>Ctrl</key><key>Dvigalka</key><key>Izbriši</key></keyseq>)</p>
+
+</section>
+
+</page>

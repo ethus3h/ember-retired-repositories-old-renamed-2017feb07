@@ -1,0 +1,3 @@
+/home/kyan/git/appmenu/src/CMakeFiles/krunner_appmenu.dir
+/home/kyan/git/appmenu/src/CMakeFiles/krunner_appmenu_automoc.dir
+/home/kyan/git/appmenu/CMakeFiles/uninstall.dir

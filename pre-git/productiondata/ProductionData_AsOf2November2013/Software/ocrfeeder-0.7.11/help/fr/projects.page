@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="projects">
+
+<info>
+    <link type="guide" xref="index#projects"/>
+    <link type="seealso" xref=""/>
+    <desc>Charger et enregistrer des projets</desc>
+</info>
+
+<title>Projets</title>
+
+<p>Parfois un utilisateur peut souhaiter enregistrer la progression d'un travail en cours sur une image pour continuer son traitement plus tard. Avec <app>OCRFeeder</app>, vous pouvez enregistrer et charger des projets.</p>
+
+<p>Des projets sont des fichiers compressés possédant l'extension <em>ocrf</em> contenant les informations sur les pages (images) et leurs zones de contenu.</p>
+
+<section>
+<title>Enregistrement d'un projet</title>
+
+<p>Après avoir travaillé sur une image, vous pouvez créer un projet en cliquant sur <guiseq><gui>Fichier</gui><gui>Enregistrer</gui></guiseq> ou <guiseq><gui>Fichier</gui><gui>Enregistrer sous…</gui></guiseq>. Vous pouvez aussi utiliser les raccourcis <keyseq><key>Ctrl</key><key>S</key></keyseq> ou <keyseq><key>Ctrl</key><key>Maj</key><key>S</key></keyseq>. Une boîte de dialogue s'affiche alors pour vous permettre de saisir le nom du projet et sa destination.</p>
+
+</section>
+
+<section>
+<title>Chargement d'un projet</title>
+
+<p>Pour ouvrir un projet existant, cliquez sur <guiseq><gui>Fichier</gui><gui>Ouvrir</gui></guiseq> ou appuyez sur <keyseq><key>Ctrl</key><key>O</key></keyseq>.</p>
+
+</section>
+
+<section>
+<title>Ajout à un projet</title>
+
+<p>Il est parfois utile de fusionner des projets afin de ne créer qu'un seul document contenant les pages de plusieurs projets <app>OCRFeeder</app>. Cliquez sur <guiseq><gui>Fichier</gui><gui>Ajouter un projet</gui></guiseq> et faites votre choix.</p>
+
+</section>
+
+<section>
+<title>Effacement d'un projet</title>
+
+<p>Si vous souhaitez effacer toutes les informations d'un projet (par exemple pour recommencer depuis le début), utilisez le menu <guiseq><gui>Édition</gui><gui>Effacer le projet</gui></guiseq>.</p>
+
+</section>
+
+
+</page>

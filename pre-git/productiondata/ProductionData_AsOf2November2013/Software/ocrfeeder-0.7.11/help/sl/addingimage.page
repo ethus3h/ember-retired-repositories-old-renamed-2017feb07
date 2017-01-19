@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingimage">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <desc>Dodajanje slike za prepoznavo</desc>
+</info>
+
+<title>Dodajanje slike</title>
+
+<p>Dodajanje slike programu OCRFeeder je običajno pri korak pri pretvarjanju dokumenta.</p>
+
+<p>Vsaka dodana slika predstavlja stran v končnem dokumentu. Sličica slike bo bila prikazana v področju strani (levo področje <app>OCRFeeder</app>).</p>
+
+<p>Vrstni red strani v končnem dokumentu bo enak kot vrstni red slik v področju strani. Tako lahko strani preurediti z vlečenjem sličic slik v področju strani.</p>
+
+<p>Slike lahko dodat s klikom <guiseq><gui>Datoteka</gui><gui>Dodaj sliko</gui></guiseq>.</p>
+
+<p>Za izbris strani kliknite na <guiseq><gui>Uredi</gui><gui>Izbriši stran</gui></guiseq> ali desno kliknite na sličico strani in izberite <gui>Izbriši</gui>.</p>
+
+<section>
+<title>Nastavitev strani</title>
+
+<p>To configure the page's size click in
+<guiseq><gui>Edit</gui><gui>Edit Page</gui></guiseq>
+and choose either a custom size, providing the respective
+values or a standard paper size from a list.</p>
+
+</section>
+
+</page>

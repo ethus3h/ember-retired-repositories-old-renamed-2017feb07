@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingpdf">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Uvažanje dokumentov PDF</desc>
+</info>
+
+<title>Uvažanje PDF</title>
+
+<p>Nekateri dokumenti so slike postavljene v dokument PDF. Za takšne primere lahko <app>OCRFeeder</app> še vedno uvozi dokument PDF, tako da ga je mogoče pretvoriti v uredljiv dokument.</p>
+
+<p>Za uvoz dokumenta PDF kliknite <guiseq><gui>Datoteka</gui><gui>Uvozi PDF</gui></guiseq>.</p>
+
+<p>Vsaka stran PDF bo bila pretvorjena v sliko in postavljena na področje strani.</p>
+
+<note style="warning"><p>Pretvarjanje PDF je lahko zahtevno opravilo in za velike datoteke PDF traja nekaj časa.</p></note>
+
+</page>

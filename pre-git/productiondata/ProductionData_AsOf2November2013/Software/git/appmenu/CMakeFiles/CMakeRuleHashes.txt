@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+2fbb6a730281b92443f9648e0773795f CMakeFiles/uninstall
+cb91f72d946c334fa74381853036d521 src/CMakeFiles/krunner_appmenu_automoc
+1f7d95cd15e2b1e568057bc5b45f033b src/app_menu.cpp
+5392c56971eaed126f9f207b1e13618b src/app_menu.moc
+a7318d86ccf5bb50b44d22a682be874e src/dbus_menu.cpp
+90870a6ba4acf143073c5883525bf9de src/dbus_menu.moc

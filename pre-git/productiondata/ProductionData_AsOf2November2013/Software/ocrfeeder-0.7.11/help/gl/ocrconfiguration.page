@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="ocrconfigutation">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Configurar os motores de OCR para recoñecer o texto</desc>
+</info>
+
+<title>Configuración dos motores OCR</title>
+
+<p><app>OCRFeeder</app> utiliza motores do sistema OCR para extraer o texto desde as imaxes. Isto significa que calquera motor OCR que se pode usar desde a liña de comandos débese empregar tamén en <app>OCRFeeder</app>.</p>
+
+<section>
+
+<title>Detección automática dos motores de OCR</title>
+
+<p>Os motores de OCR (<em>Tesseract</em>, <em>GOCR</em>, <em>Ocrad</em> e <em>Cuneiform</em>) detéctanse e configúranse automaticamente na maioría dos sistemas, a primeira vez que se executa <app>OCRFeeder</app>.</p>
+
+<p>Se un motor de OCR se instala despois de que <app>OCRFeeder</app> xa  teña configurado un motor, este non se configura automaticamente pero, dependendo do motor, os usuarios poden ir facilmente ao diálogo <gui>Motores OCR</gui> e seleccionar na lista de motores detectados despois de premer <gui>Detectar</gui>.</p>
+
+<note style="tip"><p>Unha vez configurados os motores de OCR poden ser detectados de novo e o usuario debe desmarcar estes motores se non deben ser engadidos de novo.</p></note>
+
+</section>
+
+<section>
+
+<title>Configuración manual</title>
+
+<p>Os motores de OCR actualmente configurados aparecerán no diálogo <gui>Motores OCR</gui> que se pode abrir desde  <guiseq><gui>Ferramentas</gui><gui>Motores OCR</gui></guiseq>.</p>
+
+<p>Ademais de ver os motores de OCR configurados, o diálogo <gui>Motores OCR</gui> permite engadir novos motores, editar ou eliminar os actuais e detectar os motores instalados no sistema.</p>
+
+<p>Ao engadir ou editar un motor de OCR (premendo os botóns <gui>Engadir</gui> ou <gui>Editar</gui>, respectivamente), móstrase unha caixa de diálogo cos seguintes campos:</p>
+
+<list>
+    <item><p><gui>Nome</gui>: O nome do motor. Ese nome utilizarase en toda a interface de usuario cando se refire ao motor;</p></item>
+    <item><p><gui>Formato de imaxe</gui>: O formato de imaxe que o motor recoñece (por exemplo, <em>TIF</em> no caso de <em>Tesseract</em>);</p></item>
+    <item><p><gui>Texto de erro</gui>: Algúns motores substitúen caracteres non recoñecidos por outros predefinidos (por exemplo, <em>_</em> no caso de <em>GOCR</em>).</p></item>
+    <item><p><gui>Ruta ao motor</gui>: A ruta no sistema ao executable do motor (por exemplo, <em>/usr/bin/tesseract</em>).</p></item>
+    <item><p><gui>Argumentos del motor</gui>: Os argumentos que dan unha imaxe ao motor e as convirten en texto recoñecido para a saída estándar. <app>OCRFeeder</app> executa o motor con eses argumentos como se fose na liña de comandos e busca o texto recoñecido na saída estándar. Algúns motores xa o fan, como <em>Ocrad</em> e <em>GOCR</em> mentres outros, como o <em>Tesseract</em>, escriben o texto nun ficheiro.</p>
+    <p>Como sempre é necesaria a ruta da imaxe para que sexa lida, proporcionase un argumento especial <em>$IMAXE</em> para iso e será substituído pola ruta da imaxe cando o motor se execute. Para os casos en que sexa necesario o nome dun ficheiro, como o mencionado anteriormente, proporcionase un argumento especial <em>$FICHEIRO</em> e será substituído por un nome de ficheiro temporal.</p>
+    <p>Así, no caso de <em>Tesseract</em> (que escribe o texto recoñecido nun ficheiro), os argumentos serían <em>$IMAXE $FICHEIRO; cat $FICHEIRO.txt; rm $FICHEIRO</em>.</p></item>
+
+</list>
+
+<note style="advanced"><p>A configuración dos motores está gardada no seu propio ficheiro XML no cartafol persoal do usuario en <em>.ocrfeeder/motores/</em>.</p></note>
+
+</section>
+
+</page>

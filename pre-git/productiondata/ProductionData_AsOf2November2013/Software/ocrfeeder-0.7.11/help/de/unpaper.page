@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="unpaper">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Aufbereiten von Bildern vor der Erkennung</desc>
+</info>
+
+<title>Unpaper</title>
+
+<p><em>Unpaper</em> ist ein Werkzeug zum Aufbereiten von Bildern, um das Lesen am Bildschirm zu erleichtern. Es ist vorrangig dafür gedacht, von einem Scanner stammende Dokumente von Staub, schwarzen Rändern oder sonstigen Beeinträchtigungen zu befreien.</p>
+
+<p><app>OCRFeeder</app> kann <em>Unpaper</em> dazu verwenden, vor der Verarbeitung Bilder zu reinigen, wodurch oft eine deutlich bessere Erkennung möglich ist.</p>
+
+<p><em>Unpaper</em> muss separat installiert sein. Falls es nicht installiert ist, zeigt <app>OCRFeeder</app> diesbezügliche Aktionen nicht in der Benutzeroberfläche an.</p>
+
+<p>Um <em>Unpaper</em> auf ein geladenes Bild anzuwenden, klicken Sie auf <guiseq><gui>Werkzeuge</gui><gui>Unpaper</gui></guiseq>. Der <gui>Unpaper Bild-Prozessor</gui>-Dialog wird angezeigt, in welchem Sie einige Optionen für <em>Unpaper</em> einstellen können. In einem Vorschaubereich können Sie die Änderungen zunächst überprüfen, bevor sie angewendet werden. Abhängig von der Größe und der Charakteristik des Bildes kann die Verwendung dieses Werkzeuges einige Zeit in Anspruch nehmen.</p>
+
+<p>Um <em>Unpaper</em> zu konfigurieren, wählen Sie <guiseq><gui>Bearbeiten</gui><gui>Einstellungen</gui></guiseq> und klicken auf den Reiter <gui>Werkzeuge</gui>. In diesem Bereich können Sie den Pfad zur ausführabren Datei von <em>Unpaper</em> eingeben. Allerdings ist dies normalerweise bereits festgelegt, sofern <em>Unpaper</em> beim ersten Start von <app>OCRFeeder</app> bereits installiert war. Im gleichen Bereich können Sie unter <gui>Bild-Vorverarbeitung</gui> den Eintrag <gui>Unpaper-Bilder</gui> aktivieren, um Bilder automatisch durch <em>Unpaper</em> vorverarbeiten zu lassen, nachdem sie in <app>OCRFeeder</app> geladen wurden. Die Optionen für <em>Unpaper</em> beim automatischen Aufruf nach dem Hinzufügen eines Bildes können nach einem Klick auf den Knopf <gui>Unpaper-Einstellungen</gui> konfiguriert werden.</p>
+
+</page>

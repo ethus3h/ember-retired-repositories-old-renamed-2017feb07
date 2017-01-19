@@ -1,0 +1,7 @@
+content		globalmenubar	chrome/content/
+
+overlay		chrome://browser/content/browser.xul	chrome://globalmenubar/content/overlay.xul
+
+interfaces			components/IGlobalMenu.xpt
+binary-component	components/globalmenu.so
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="finetuning">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Opciones avanzadas para un reconocimiento mejor</desc>
+</info>
+
+<title>Puesta a punto</title>
+
+<p><app>OCRFeeder</app> tiene algunas opciones avanzadas que se pueden usar para realizar un reconocimiento mejor. Estas opciones se pueden elegir en el diálogo <guiseq><gui>Editar</gui><gui>Preferencias</gui></guiseq>, en la pestaña <gui>Reconocimiento</gui>.</p>
+
+<p>La siguiente lista describe las opciones mencionadas:</p>
+<list>
+    <item><p><gui>Arreglar los saltos de línea y guiones ortográficos</gui>: normalmente, los motores OCR leen el texto línea a línea y separan cada línea con un espacio. A veces esto no lo que quiere el usuario, ya que el texto se puede romper en medio de una frase.</p>
+    <p>Marcar esta opción hará que <app>OCRFeeder</app> quite los caracteres de salto de línea después de que los motores reconozcan el texto.</p>
+    <p>Ya que la eliminación de líneas nuevas en un texto con guiones puede tener como resultado palabras mal separadas, los guiones ortográficos también se detectan y se quitan en este proceso.</p></item>
+    <item><p><gui>Tamaño de la ventana</gui>: el algoritmo de <app>OCRFeeder</app> para detectar los contenidos de una imagen usa el concepto de <em>tamaño de la ventana</em>, que es la división de la imagen en ventanas pequeñas. Una ventana más pequeña significa que es probable que detecte más áreas de contenido, pero si es muy pequeña puede que los contenidos formen parte de un área mas grande en su lugar. Por otro lado, una ventana más grande significa menos divisiones de los contenidos, pero puede terminar en contenidos que se deben dividir.</p>
+    <p>Un tamaño de ventana correcto debe ser ligeramente mayor que el espaciado de las líneas de texto en una imagen.</p><p>Los usuarios pueden querer establecer manualmente este valor si el automático no produce ningún área de contenido válida, pero normalmente es más fácil usar el automático y realizar las correcciones necesarias directamente en las áreas de contenido.</p></item>
+    <item><p><gui>Mejorar la detección de columnas</gui>: marque esta opción si <app>OCRFeeder</app> debería intentar dividir horizontalmente las áreas de contenido detectadas (originando más columnas). El valor usado para comprobar la existencia de espacios en blanco en el contenido puede ser automático o manual cuando las columnas no se detectan correctamente.</p></item>
+    <item><p><gui>Ajustar los límites de las áreas de contenido</gui>: las áreas de contenido detectadas tienen a veces un margen considerable entre sus contenidos y los bordes del área. Activando esta opción, <app>OCRFeeder</app> minimizará estos márgenes, ajustando mejor las áreas a los contenidos. Opcionalmente, se puede probar un valor manual para indicar el valor mínimo de los márgenes ajustados.</p></item>
+</list>
+
+</page>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="documentgeneration">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Vytváření upravitelného dokumentu</desc>
+</info>
+
+<title>Generování dokumentu</title>
+
+<p>Aplikace <app>OCRFeeder</app> v současnosti generuje tři formáty dokumentů: <em>ODT</em>, <em>HTML</em> a <em>prostý text</em>.</p>
+
+<p>Po provedení rozpoznání a případných ručních úpravách, můžete vygenerovat dokument kliknutím na <guiseq><gui>Soubor</gui><gui>Export…</gui></guiseq> a zvolte požadovaný formát dokumentu.</p>
+
+<note style="tip"><p>Při exportu ve formátu HTML se vygeneruje složka se soubory HTML představujícími jednotlivé stránky dokumentu. Na každé stránce je odkaz na předchozí stránku a následující stránku. Obsažené obrázky jsou uloženy v podsložce <em>images</em>.</p></note>
+
+</page>

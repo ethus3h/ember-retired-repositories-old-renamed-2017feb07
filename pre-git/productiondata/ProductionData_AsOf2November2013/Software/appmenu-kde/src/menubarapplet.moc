@@ -1,0 +1,97 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'menubarapplet.h'
+**
+** Created: Mon Sep 10 17:31:47 2012
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "menubarapplet.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'menubarapplet.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_MenuBarApplet[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      15,   14,   14,   14, 0x08,
+      31,   14,   14,   14, 0x08,
+      45,   14,   14,   14, 0x08,
+      61,   14,   14,   14, 0x08,
+      81,   14,   14,   14, 0x08,
+     120,  109,   14,   14, 0x08,
+     164,   14,   14,   14, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_MenuBarApplet[] = {
+    "MenuBarApplet\0\0createMenuBar()\0"
+    "applyConfig()\0slotActivated()\0"
+    "updateActiveWinId()\0slotWindowUnregistered(WId)\0"
+    "wid,action\0slotActionActivationRequested(WId,QAction*)\0"
+    "fillDesktopMenu()\0"
+};
+
+const QMetaObject MenuBarApplet::staticMetaObject = {
+    { &Plasma::Applet::staticMetaObject, qt_meta_stringdata_MenuBarApplet,
+      qt_meta_data_MenuBarApplet, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &MenuBarApplet::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *MenuBarApplet::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *MenuBarApplet::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_MenuBarApplet))
+        return static_cast<void*>(const_cast< MenuBarApplet*>(this));
+    typedef Plasma::Applet QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int MenuBarApplet::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Plasma::Applet QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: createMenuBar(); break;
+        case 1: applyConfig(); break;
+        case 2: slotActivated(); break;
+        case 3: updateActiveWinId(); break;
+        case 4: slotWindowUnregistered((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 5: slotActionActivationRequested((*reinterpret_cast< WId(*)>(_a[1])),(*reinterpret_cast< QAction*(*)>(_a[2]))); break;
+        case 6: fillDesktopMenu(); break;
+        default: ;
+        }
+        _id -= 7;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

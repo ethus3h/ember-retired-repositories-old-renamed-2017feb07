@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="automaticrecognition">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Automatické rozpoznávání obrazu</desc>
+</info>
+
+<title>Automatické rozpoznávání</title>
+
+<p>Aplikace <app>OCRFeeder</app> zkouší detekovat obsah v obrázcích dokumentu a provést na nich rozpoznání textu. Zároveň se snaží rozhodnout, co je grafika a co text. Celý tento postup se nazývá rozpoznávání.</p>
+
+<p>Po té, co je přidán obrázek, může být automaticky rozpoznán kliknutím na <guiseq><gui>Dokument</gui><gui>Rozpoznat dokument</gui></guiseq>.</p>
+
+<note style="important"><p>Vzhledem k tomu, že rozvržení dokumentu může mít spoustu podob, nemusí automatické rozpoznání, hlavně rozdělení stránky, dopadnou úplně správně. V takových případech je nutné přistoupit k ruční úpravě výsledků rozpoznávání.</p></note>
+
+<note style="warning"><p>Automatické rozpoznávání provádí některé komplexní operace a může trvat nějako dobu v závislosti na velikosti obrázku a složitosti obsahu.</p>
+<p>Automatické rozpoznání nahradí vše v oblastech textu na aktuálně vybrané stránce.</p></note>
+
+</page>

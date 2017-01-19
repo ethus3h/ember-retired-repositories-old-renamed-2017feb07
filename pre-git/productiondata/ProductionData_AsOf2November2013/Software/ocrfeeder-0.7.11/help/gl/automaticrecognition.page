@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="automaticrecognition">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Recoñecendo automaticamente unha imaxe</desc>
+</info>
+
+<title>Recoñecemento automático</title>
+
+<p><app>OCRFeeder</app> tenta detectar os contidos dun documento imaxe e executar OCR sobre eles, e distinguir tamén entre o que son gráficos e o que é texto. Para simplificar este concepto, chamarémoslle recoñecemento.</p>
+
+<p>Despois de engadir unha imaxe pode ser recoñecida automáticamente premendo <guiseq><gui>Documento</gui><gui>Recoñecer documento</gui></guiseq>.</p>
+
+<note style="important"><p>Dado que hai moitos deseños de documento diferentes aí fóra, o recoñecemento automático, sobre todo, a segmentación da páxina, pode chegar a ser non apropiada para o documento. Neste caso, pode ser precisa a edición manual dos resultados de recoñecemento.</p></note>
+
+<note style="warning"><p>O recoñecemento automático realiza algunhas operacións complexas e pode levar moito tempo dependendo do tamaño da imaxe e da complexidade do deseño.</p>
+<p>O recoñecemento automático pode substituír todas as áreas de contido na páxina seleccionada actualmente.</p></note>
+
+</page>

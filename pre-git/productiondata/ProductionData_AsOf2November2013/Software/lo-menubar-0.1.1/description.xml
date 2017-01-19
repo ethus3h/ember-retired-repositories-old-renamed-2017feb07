@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description
+
+    xmlns="http://openoffice.org/extensions/description/2006"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dep="http://openoffice.org/extensions/description/2006">
+    <identifier value="org.launchpad.lo-menubar" />
+
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.3" dep:name="OpenOffice.org 3.3"/>
+    </dependencies>
+
+    <version value="0.0.5" />
+
+    <publisher>
+        <name xlink:href="https://launchpad.net/lo-menubar" lang="en">Canonical</name>
+    </publisher>
+
+    <display-name>
+        <name lang="en-US">Menubar</name>
+    </display-name>
+
+</description>

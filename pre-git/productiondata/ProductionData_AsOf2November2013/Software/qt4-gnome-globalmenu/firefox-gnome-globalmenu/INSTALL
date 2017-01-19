@@ -1,0 +1,19 @@
+You need the Firefox 9 "SDK", NSPR, and Gtk+ 2.0 libraries and development
+headers.
+
+Gtk+2.0 are NSPR are autodetected using pkgconfig.
+However, I was not able to find a standardized pkgconfig file for the newer
+Firefox's built-in xulrunner SDK. Therefore, you might have to edit the first
+few lines of src/Makefile to point to the the paths of the SDK in your system:
+
+* "binpath" must contain xpidl.py, etc.
+* "libpath" must contain libxul.so, libxpcom.s, libxpcomglue_s.a, etc.
+* "includepath" must contain mozilla/ModuleUtils.h, etc.
+
+Once this is done, to build globalmenu.xpi extension package:
+
+$ make -C src dist
+
+globalmenu.xpi will appear in current directory. Install to Firefox via 
+drag and drop or File -> Open file... .
+

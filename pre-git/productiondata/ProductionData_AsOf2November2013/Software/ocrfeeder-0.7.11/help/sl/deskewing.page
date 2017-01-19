@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="deskewing">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Popravljanje nagiba v slikah</desc>
+</info>
+
+<title>Odstranjevanje nagiba</title>
+
+<p>Nekatere slike, še posebno če so bile dodane iz optičnega bralnika, so lahko nagnjene. To lahko oteži prepoznavo slike.</p>
+
+<p><app>OCRFeeder</app> ponuja način za samodejno odstranitev nagiba slika. Za odstranitev nagiba naložene slike kliknite na <guiseq><gui>Orodja</gui><gui>Odstranjevalnik nagiba slik</gui></guiseq>.</p>
+
+<p>To opravilo se lahko izvede samodejno vsakič, ko je dodana slika. Za njeno nastavitev odprite pogovorno okno <gui>Možnosti</gui> v  <guiseq><gui>Uredi</gui><gui>Možnosti</gui></guiseq> in v zavihku <gui>Orodja</gui> izberite <gui>Odstrani nagib slike</gui>.</p>
+
+<note type="warning"><p>Glede na velikost in značilnosti slike lahko odstranjevanje nagiba slika traja nekaj časa.</p></note>
+
+</page>

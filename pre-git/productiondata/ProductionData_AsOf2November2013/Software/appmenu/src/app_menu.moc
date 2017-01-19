@@ -1,0 +1,123 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'app_menu.h'
+**
+** Created: Thu Nov 8 02:19:46 2012
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "app_menu.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'app_menu.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ComCanonicalAppMenuRegistrarInterface[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      71,   39,   38,   38, 0x05,
+     127,  118,   38,   38, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     195,  118,  152,   38, 0x0a,
+     262,  238,  218,   38, 0x0a,
+     334,   38,  302,   38, 0x0a,
+     365,  238,  345,   38, 0x0a,
+     402,  118,  345,   38, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ComCanonicalAppMenuRegistrarInterface[] = {
+    "ComCanonicalAppMenuRegistrarInterface\0"
+    "\0windowId,service,menuObjectPath\0"
+    "WindowRegistered(uint,QString,QDBusObjectPath)\0"
+    "windowId\0WindowUnregistered(uint)\0"
+    "QDBusPendingReply<QString,QDBusObjectPath>\0"
+    "GetMenuForWindow(uint)\0QDBusReply<QString>\0"
+    "windowId,menuObjectPath\0"
+    "GetMenuForWindow(uint,QDBusObjectPath&)\0"
+    "QDBusPendingReply<MenuInfoList>\0"
+    "GetMenus()\0QDBusPendingReply<>\0"
+    "RegisterWindow(uint,QDBusObjectPath)\0"
+    "UnregisterWindow(uint)\0"
+};
+
+const QMetaObject ComCanonicalAppMenuRegistrarInterface::staticMetaObject = {
+    { &QDBusAbstractInterface::staticMetaObject, qt_meta_stringdata_ComCanonicalAppMenuRegistrarInterface,
+      qt_meta_data_ComCanonicalAppMenuRegistrarInterface, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ComCanonicalAppMenuRegistrarInterface::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ComCanonicalAppMenuRegistrarInterface::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ComCanonicalAppMenuRegistrarInterface::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ComCanonicalAppMenuRegistrarInterface))
+        return static_cast<void*>(const_cast< ComCanonicalAppMenuRegistrarInterface*>(this));
+    return QDBusAbstractInterface::qt_metacast(_clname);
+}
+
+int ComCanonicalAppMenuRegistrarInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractInterface::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: WindowRegistered((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QDBusObjectPath(*)>(_a[3]))); break;
+        case 1: WindowUnregistered((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 2: { QDBusPendingReply<QString,QDBusObjectPath> _r = GetMenuForWindow((*reinterpret_cast< uint(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<QString,QDBusObjectPath>*>(_a[0]) = _r; }  break;
+        case 3: { QDBusReply<QString> _r = GetMenuForWindow((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< QDBusObjectPath(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<QString>*>(_a[0]) = _r; }  break;
+        case 4: { QDBusPendingReply<MenuInfoList> _r = GetMenus();
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<MenuInfoList>*>(_a[0]) = _r; }  break;
+        case 5: { QDBusPendingReply<> _r = RegisterWindow((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< const QDBusObjectPath(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = _r; }  break;
+        case 6: { QDBusPendingReply<> _r = UnregisterWindow((*reinterpret_cast< uint(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = _r; }  break;
+        default: ;
+        }
+        _id -= 7;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void ComCanonicalAppMenuRegistrarInterface::WindowRegistered(uint _t1, const QString & _t2, const QDBusObjectPath & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void ComCanonicalAppMenuRegistrarInterface::WindowUnregistered(uint _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_END_MOC_NAMESPACE

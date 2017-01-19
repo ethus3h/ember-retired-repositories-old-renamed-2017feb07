@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="unpaper">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Nettoyer les images avant de faire une ROC</desc>
+</info>
+
+<title>Unpaper</title>
+
+<p><em>Unpaper</em> est un outil pour nettoyer des images afin de les rendre plus facilement lisibles à l'écran. Il est surtout destiné à des images obtenues par numérisation qui présentent habituellement des traces de poussière, des marges noires ou d'autres défauts.</p>
+
+<p><app>OCRFeeder</app> peut utiliser <em>Unpaper</em> pour nettoyer ses images avant de les traiter, ce qui donne habituellement une meilleure reconnaissance.</p>
+
+<p>Vous devez installer <em>Unpaper</em> pour l'utiliser. S'il ne l'est pas, <app>OCRFeeder</app> n'affiche pas ses options dans l'interface.</p>
+
+<p>Pour utiliser <em>Unpaper</em> sur une image chargée, cliquez sur <guiseq><gui>Outils</gui><gui>Unpaper</gui></guiseq>. Une boîte de dialogue <gui>Processeur d'images Unpaper</gui> affiche les options d'<em>Unpaper</em> ainsi qu'une zone d'aperçu pour voir les modifications avant de les appliquer à l'image chargée. L'utilisation de cet outil peut prendre un certain temps en fonction de la taille et des caractéristiques de l'image.</p>
+
+<p>Pour configurer <em>Unpaper</em>, ouvrez le menu <guiseq><gui>Édition</gui><gui>Préférences</gui></guiseq> et allez à l'onglet <gui>Outils</gui>. Dans cette zone, vous pouvez saisir le chemin d'accès vers l'exécutable de <em>Unpaper</em> (normalement, si <em>Unpaper</em> est déjà installé à la première exécution de <app>OCRFeeder</app>, cela devrait être déjà configuré). Dans la même section, sous <gui>Pré-traitement de l'image</gui>, vous pouvez cocher <gui>Images via Unpaper</gui> pour que les images soient analysées automatiquement par <em>Unpaper</em> après leur chargement dans <app>OCRFeeder</app>. Les options utilisées par <em>Unpaper</em> lorsqu'il est appelé automatiquement après l'ajout d'une image, peuvent être configurées en cliquant sur le bouton <gui>Préférences Unpaper</gui>.</p>
+
+</page>

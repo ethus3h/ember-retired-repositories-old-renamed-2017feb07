@@ -1,0 +1,925 @@
+# ClamTk, Danish language file
+# Copyright (C) Dave M. < dave . nerd @ gmail >, 2004-2013
+# This file is distributed under the same license as the ClamTk package.
+# Other authors: Jimmy Christensen <DusteD@DusteD.dk>,
+# Steffen V. Petersen <spet@bunker47.dk>, Pillum, Ask Hjorth Larsen
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clamtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2013-04-02 17:21+0000\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-05-12 13:28+0000\n"
+"X-Generator: Launchpad (build 16598)\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "Kunne ikke oprette opstartsmapper!"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "Ude af stand til at skabe grafisk brugerflade!"
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "Aldrig"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "Skan for virus..."
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "Virusskanner"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "cd/dvd"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "USB-enhed"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "Diskette"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "Ingen enheder blev fundet."
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "Hvis du har tilsluttet en enhed, skal du måske montere den først."
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "Tilgængelige enheder"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "Vælg en enhed eller tryk Annullér"
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "_Skan"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "_Vis"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "_Indstillinger"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "_Karantæne"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "_Avanceret"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "En _fil"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "Hjemmemappe (_hurtig)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Hjemmemappe (rekursiv)"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "En _mappe"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "Rekursiv skanning"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "En enhed"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "_Afslut"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "_Historik"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "Information om _sidste skanning"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "_Fjern output"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "_Status"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "_Vedligeholdelse"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "_Tøm karantænemappen"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "Se efter _opdateringer"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "O_m"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "_Planlægning"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "Kør opsætnings_guide til antivirus"
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "Indsend en fil til analyse"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Hjemmemappe"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "Skan din hjemmemappe"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "Historik"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "Vis dine tidligere skanninger"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "Vis eller ændr dine indstillinger"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "Afslut"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "Afslut programmet"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "Grafisk version"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "Den grafiske version er opdateret"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "Antivirus-definitioner"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "Antivirusdefinitionerne er opdateret"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "Antivirus-system"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "Angiver versionen af antivirusmotoren"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "Afbryd skanning"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "Skannede filer: "
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "Trusler fundet: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "Træk og slip"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "Kunne ikke skanne (rettigheder)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "Ingen"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "Mapper undtaget fra skanning"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "Kunne ikke kontrollere"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "En nyere version er tilgængelig"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "Ingen fundet"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "Forældet"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "Antivirussignaturerne er forældede"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "Aktuel"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "Vælg fil"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "Vælg en mappe (mappeskanning)"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "Vælg en mappe (rekursiv skannning)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "Vil ikke skanne denne mappe"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "Skanner %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>Trusler fundet: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "Trusler fundet: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "Filer skannet: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "Luk vindue"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "Ingen filer blev skannet."
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "ClamAV-signaturer: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "Mapper skannet:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"Fandt %d mulige %s (%d %s skannet).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "trussel"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "trusler"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "fil"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "filer"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "Kunne ikke skrive i logfilen. Kontroller rettigheder."
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "Skanning færdig (%d signaturer)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr "Ingen trusler fundet\n"
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "Karantæne"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "Fil"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "Genskab"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "Operation mislykkedes."
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "Genskabt som %s."
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "Ingen virusmappe til rådighed."
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "Kunne ikke åbne virusmappen."
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "Ingen filer i karantæne i øjeblikket."
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "%d elementer er blevet sat i karantæne."
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "Der er ingen karantænemappe at tømme."
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "Vil du virkelig slette alle filer i karantæne?"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "Der er ingen filer i karantæne at slette."
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "Fjernede %d elementer."
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr "Skanningshistorik"
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "Vis"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "Kan ikke slette %s!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "Viser %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "Problem ved åbning af %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "Kan ikke lukke FIL %s! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr "Skanner"
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr "Skan skjulte filer"
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "Skan filer, der begynder med et punktum (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr "Skan kataloger rekursivt"
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "Skan alle filer og undermapper i en mappe"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr "Skan efter potentielt uønskede programmer (PUA)"
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+"Find pakkede binærfiler, værktøjer til genskabelse af adgangskoder med mere"
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "Skan filer større end 20 MB"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr "Skan store filer som typisk ikke undersøges"
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr "Skan samba-relaterede kataloger"
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "Scan samba-relaterede kataloger %s"
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr "Opstart"
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "Tjek for opdateringer til brugerfladen"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr "Fjern gentagne signaturdatabaser"
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "Undtagelser"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "Mappe"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "Vælg en mappe"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr "Proxy"
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "Ingen proxy"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "Miljøindstillinger"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "Sæt manuelt"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "IP-adresse eller vært:"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "Port:"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "Dato for sidste skanning: %s"
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr "Dato for sidste kendte trussel: %s"
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "Vent venligst..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"ClamTk er en grafisk brugerflade til ClamAV Antivirus, der benytter gtk2-"
+"perl."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"Dette program er fri software; du kan redistribuere\n"
+"og/eller modificere det under de betingelserne som er angivet enten af:\n"
+"a) GNU General Public License, som er udgivet af\n"
+"Free Software Foundation. Enten version 1 af licensen eller\n"
+"(efter eget valg) enhver senere version, eller\n"
+"\n"
+"b) 'Artistic License'.\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "Resultat af skanning"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "Der blev fundet mulige trusler."
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "Status"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "Handling"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "Sæt denne fil i karantæne"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "Slet denne fil"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "Gem som..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "Kunne ikke gemme filen."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "Flyttet"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "Filen er gemt."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "Fil er allerede flyttet eller slettet."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "File er sat i karantæne."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>Sat i karantæne</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "Filen kunne ikke sættes i karantæne."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "Vil du virkelig slette filen?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "Flien er slettet."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>Slettet</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "Kunne ikke slette filen."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "Karantænemappe findes ikke."
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "Planlægning"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "Skanningsindstillinger"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "Skan min ... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "Hjemmemappe (anbefales)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr ""
+"Denne indstilling vil skanne din hjemmemappe. Dette er den anbefalede "
+"indstilling."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "hele computeren"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"Denne indstilling vil skanne hele din computer, på nær mapperne /proc, /sys "
+"og /dev."
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "på dette tidspunkt ... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "Sæt tiden til 24-timers format."
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "Time"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "Minut"
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "Skan mine undtagede mapper"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "Indstillinger for antivirussignaturer"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "Vælg et tidspunkt for opdatering af signaturer."
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "En daglig skanning er planlagt."
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "En daglig opdatering af definitionerne er planlagt."
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "En daglig skanning er ikke planlagt."
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "En daglig opdatering af definitionerne er ikke planlagt."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "Navn"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "E-post"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "Ingen fil valgt"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "Den vedhæftede fil er"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "Ny malware"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "En falsk positiv"
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "Undlad venligst at indsende mere end to filer pr. dag."
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "Du er ved at indsende en fil til analyse."
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "Tryk O.k. for at fortsætte, eller Annuller for at gå tilbage"
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "Indsendelse fuldført!"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "Den indsendte fil kendes i forvejen"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr "Indsendelse mislykkedes. Prøv venligst senere."
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "Med denne formular kan du:"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "Indberette nye vira, der ikke er fundet"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "Indberette en ren fil, der ukorrekt er fundet"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "Angiver et påkrævet felt"
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "Søg efter opdateringer"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "Opdateringer"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "Vælg"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "Du skal være administrator for at slå dette til."
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "Signaturopdateringer"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "Søg efter opdateringer til signaturer"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "Utilgængelig"
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "Opdateringer til brugerfalde"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "Søg efter opdateringer af brugerfladen"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"Det kan ikke anbefales at køre programmet som administrativ bruger.\n"
+"Referer til den engelske FAQ på http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "Søger..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "Opdateringen fejlede"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "Signaturerne er opdaterede"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "Opdateret"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "Kunne ikke søge"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "Forsøger at oprette forbindelse..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "Henter opdateringer..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "Kan ikke oprette forbindelse..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Daglige virussignaturer er blevet opdateret"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "Kontrollerer version af hovedvirusdatabasen"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "Virusdatabasen er aktuel"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "Vælg venligst hvordan du vil opdatere dine antivirus-signaturer."
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "Hvis du ønsker at opdatere signaturerne selv, så vælg Manuel."
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr ""
+"Hvis din computer modtager opdateringer automatisk, så vælg Automatisk."
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr "Manuelt"
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "Dine indstillinger blev gemt."

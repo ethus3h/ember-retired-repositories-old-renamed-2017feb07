@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="ocrconfigutation">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Nastavite programnike OCR za prepoznavo besedila</desc>
+</info>
+
+<title>Nastavljanje programnikov OCR</title>
+
+<p><app>OCRFeeder</app> uporablja sistemske programnike OCR za izvleko besedila iz slik. To pomeni, da lahko katerikoli programnik OCR, ki ga lahko uporabite iz ukazne vrstice, uporabite tudi v <app>OCRFeeder</app>.</p>
+
+<section>
+
+<title>Samodejno zaznavanje programnikov OCR</title>
+
+<p>Porgramniki OCR (<em>Tesseract</em>, <em>GOCR</em>, <em>Ocrad</em> in <em>Cuneiform</em>) so na večini sistemov samodejno zaznani in nastavljeni ob prvem zagonu programa <app>OCRFeeder</app>.</p>
+
+<p>V primeru da je programnik OCR nameščen po tem ko je <app>OCRFeeder</app> že nastavil programnik, ne bo samodejno nastavljen. Vendar pa lahko uporabniki za nekatere programnike v pogovornem oknu <gui>Programniki OCR</gui> izberejo <gui>Zaznaj</gui> in jih izberejo s seznama zaznanih programnikov. </p>
+
+<note style="tip"><p>Že nastavljene programnike OCR lahko znova zaznate in jih v primeru da jih ne želite odstranite oznako pred njimi in jih ne dodate.</p></note>
+
+</section>
+
+<section>
+
+<title>Ročna nastavitev</title>
+
+<p>Trenutno nastavljeni programniki OCR so prikazani v pogovornem oknu <gui>Programniki OCR</gui>, ki ga lahko odprete iz  <guiseq><gui>Orodja</gui><gui>Programniki OCR</gui></guiseq>.</p>
+
+<p>Poleg ogleda nastavljenih programnikov OCR pogovorno okno <gui>Programniki OCR</gui> omogoča dodajanje novih programnikov, urejanje ali izbris trenutnih in zaznavanje programnikov, ki so nameščeni na sistemu.</p>
+
+<p>Pri dodajanju ali urejanju programnika OCR  (s pritiskom na gumb <gui>Dodaj</gui> ali <gui>Uredi</gui>) je prikazano pogovorno okno z naslednjimi polji:</p>
+
+<list>
+    <item><p><gui>Ime</gui>: Ime programnika. To ime bo uporabljeno v uporabniškem vmesniku pri sklicevanju na programnik</p></item>
+    <item><p><gui>Vrsta slike</gui>: Vrsta slike, ki jo prepozna programnik (na primer <em>TIF</em> v primeru <em>Tesseract</em>);</p></item>
+    <item><p><gui>Niz napak</gui>: Nekateri programniki neprepoznane znake zamenjajo z drugim, preddoločenim znakom (na primer, <em>_</em> v primeru <em>GOCR</em>).</p></item>
+    <item><p><gui>Pot programnika</gui>: Pot v sistemu do izvedljive datoteke programnika (na primer <em>/usr/bin/tesseract</em>).</p></item>
+    <item><p><gui>Argumenti programnika</gui>: Argumenti, ki pošljejo sliko programniku in prepoznano besedilo pošljejo na standardni izhod. <app>OCRFeeder</app> požene programnik s temi argumenti kot da bi bil v ukazni vrstici in išče prepoznano besedilo v standardnem izhodu. Nekateri programniki kot sta na primer <em>Ocrad</em> in <em>GOCR</em>, medtem ko drugi kot je <em>Tesseract</em> zapišejo besedilo v datoteko.</p>
+    <p>Ker je pot slike za branje vedno zahtevana, je za to zagotovljen poseben argument  <em>$SLIKA</em>, ki bo bil ob zagonu programnika zamenjan s potjo slike. Za razrede, kjer je zahtevano ime datoteke, kot v predhodno omenjenem imenu, je zagotovljen poseben argument <em>$FILE</em>, ki bo bil zamenjan z začasnim imenom datoteke.</p>
+    <p>V primeru <em>Tesseract</em>  (ki prepoznano besedilo zapiše v datoteko), bi argumenti bili <em>$IMAGE $FILE; cat $FILE.txt; rm $FILE</em>.</p></item>
+
+</list>
+
+<note style="advanced"><p>Programnikova nastavitev je shranjena v lastno datoteko XML v uporabnikovi domači mapi v <em>.ocrfeeder/engines/</em>.</p></note>
+
+</section>
+
+</page>

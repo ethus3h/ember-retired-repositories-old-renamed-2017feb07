@@ -1,0 +1,3 @@
+/usr/tilegtk0.3/libtilegtk0.3.so
+/usr/tilegtk0.3/pkgIndex.tcl
+/usr/tilegtk0.3/tilegtk.tcl

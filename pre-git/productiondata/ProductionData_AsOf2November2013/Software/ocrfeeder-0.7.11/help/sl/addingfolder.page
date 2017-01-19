@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingfolder">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Dodajanje vseh slike v mapi</desc>
+</info>
+
+<title>Dodajanje mape</title>
+
+<p>Včasih je uporabno dodati vse slike iz dane mape. <app>OCRFeeder</app> zagotavlja to zmožnost v  <guiseq><gui>Datoteka</gui><gui>Dodaj mapo</gui></guiseq>.</p>
+
+</page>

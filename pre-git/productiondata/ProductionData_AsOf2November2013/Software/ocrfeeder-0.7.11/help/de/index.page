@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+<info>
+    <desc>Hilfe zum <app>OCRFeeder Dokumentumwandlungssystem</app>.</desc>
+    <title type="link">OCRFeeder Dokument-Konversionssystem</title>
+    <title type="text">OCRFeeder Dokument-Konversionssystem</title>
+    <credit type="author">
+      <name>Joaquim Rocha</name>
+      <email>jrocha@igalia.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>OCRFeeder Dokument-Konversionssystem</title>
+<p>OCRFeeder ist ein System zur Auswertung des Layouts von Dokumenten und zur optischen Zeichenerkennung.</p>
+
+<p>OCRFeeder wurde geschaffen, um dem Benutzer die einfache Umwandlung von Dokumentabbildern (z.B. ein PNG-Bild, welches Text enthält) in ein bearbeitbares Dokument (z.B. ein ODT-Dokument mit diesem Text) zu ermöglichen.</p>
+
+<p>Eine verwertbare Gliederung des Inhalts in der Dokumentvorlage vorausgesetzt, lässt sich eine Erkennung ausführen, die zwischen Grafiken und Tect unterscheidet. Es können verschiedene Formate erstellt werden, wobei als wichtigstes Format ODT zu nennen ist.</p>
+
+<p>Diese Anleitung erklärt, wie Sie OCRFeeder einrichten und verwenden.</p>
+
+<section id="images" style="2column">
+    <title>Bilder hinzufügen</title>
+</section>
+
+<section id="recognition" style="2column">
+    <title>Erkennung</title>
+</section>
+
+<section id="configuration" style="2column">
+    <title>Konfiguration</title>
+</section>
+
+<section id="projects" style="2column">
+    <title>Projekte</title>
+</section>
+
+</page>

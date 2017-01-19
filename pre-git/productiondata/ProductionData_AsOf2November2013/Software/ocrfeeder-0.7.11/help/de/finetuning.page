@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="finetuning">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Fortgeschrittene Optionen zur besseren Erkennung</desc>
+</info>
+
+<title>Feinabstimmung</title>
+
+<p><app>OCRFeeder</app> verfügt über einige erweiterte Optionen, mit denen Sie die Seitenerkennung verbessern können. Wählen Sie diese Optionen im Dialog <guiseq><gui>Bearbeiten</gui><gui>Einstellungen</gui></guiseq> im Reiter <gui>Erkennung</gui> aus.</p>
+
+<p>Die folgende Liste beschreibt die erwähnten Optionen:</p>
+<list>
+    <item><p><gui>Zeilenumbrüche und Bindestriche reparieren</gui>: OCR-Anwendungen lesen üblicherweise den Text zeilenweise ein, wobei die Zeilen durch Zeilenumbrüche getrennt werden. Das ist nicht immer sinnvoll, das der Text möglicherweise in der Mitte eines Satzes umgebrochen wird.</p>
+    <p>Wenn Sie diese Option auswählen, entfernt <app>OCRFeeder</app> die Umbruchzeichen, die einen einfachen Zeilenumbruch darstellen, nachdem der Text erkannt wurde.</p>
+    <p>Da die Entfernung von Zeilenumbrüchen in einem Text mit am Zeilenende durch Bindestriche getrennten Wörtern falsch getrennte Wörter erzeugen würde, werden diese in diesem Vorgang ebenfalls erkannt und entfernt.</p></item>
+    <item><p><gui>Fenstergröße</gui>: Der Algorithmus von <app>OCRFeeder</app> zur Erkennung des Inhalts in einem Dokumentabbild verwendet das Konzept der <em>Fenstergröße</em>, welche das Bild in kleinere Fenster zerlegt. Eine geringere Fenstergröße ermöglicht es, mehr Inhaltsbereiche zu erkennen, wobei eine zu geringe Größe dazu führt, dass zu kleine Inhaltsbereiche erzeugt werden, die eigentlich einen größeren zusammenhängenden Bereich Bilden. Andererseits verringern größere Fenster die unnötige Zerlegung des Inhalts, aber führen letztendlich zu Bereichen, die doch weiter unterteilt werden sollten.</p>
+    <p>Eine praxisgerechte Fesntergröße sollte ein wenig größer sein als der Zeilenabstand des Texts in einem Dokumentabbild.</p><p>Sie können diesen Wert automatisch festlegen, falls die automatische Einrichtung keine verwertbaren Inhaltsbereiche erzeugt. Normalerweise ist es einfacher, die automatische Variante zu nutzen und erforderliche Korrekturen direkt in den Inhaltsbereichen vorzunehmen.</p></item>
+    <item><p><gui>Spaltenerkennung verbessern</gui>: Wählen Sie diese Option, wenn <app>OCRFeeder</app> versuchen soll, die erkannten Inhaltsbereiche so trennen soll, dass Spalten entstehen. Der hier verwendete Wert zur Überprüfung des Vorhandenseins von leeren Bereichen im Inhalt kann automatisch gesetzt werden, oder auch manuell, falls die Spalten nicht korrekt erkannt werden.</p></item>
+    <item><p><gui>Adjust content areas' bounds</gui>: The detected content
+    areas sometimes have a considerable margin between their contents and
+    the areas' edges. By checking this option, <app>OCRFeeder</app> will
+    minimize those margins, adjusting the areas to its contents better.
+    Optionally, a manual value can be check to indicate the maximum value
+    of the adjusted margins.</p></item>
+</list>
+
+</page>

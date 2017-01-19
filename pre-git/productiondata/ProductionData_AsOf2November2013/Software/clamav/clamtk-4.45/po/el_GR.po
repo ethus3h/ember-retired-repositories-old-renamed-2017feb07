@@ -1,0 +1,928 @@
+# ClamTk language file
+# Copyright (c) Dave M. < dave . nerd @ gmail >, 2004-2012.
+# This file is distributed under the same license as the ClamTk package.
+# Alexandros Chatzicharalambidis <kavedel@yahoo.gr>, 2009
+# George Christofis
+# Sterios Prosiniklis
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ClamTk 4.42\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2012-10-09 10:02+0000\n"
+"Last-Translator: sterios prosiniklis <steriosprosiniklis@gmail.com>\n"
+"Language-Team: Greek<LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-11-18 16:16+0000\n"
+"X-Generator: Launchpad (build 16278)\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "Αδυναμία δημιουργίας φακέλων εκκίνησης!"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "Αδυναμία δημιουργίας γραφικής διεπαφής!"
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "Ποτέ"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "Ανίχνευση ιών..."
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "Ανιχνευτής ιών"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "Συσκευή USB"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "Δισκέτα"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "Δεν βρέθηκαν συσκευές."
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr ""
+"Αν συνδέσατε πρόσφατα μια συσκευή ίσως χρειάζεται να την προσαρτήσετε πρώτα."
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "Διαθέσιμες συσκευές"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "Επιλέξτε μία συσκευή ή πατήστε «Ακύρωση»."
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "_Ανίχνευση"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "_Προβολή"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "_Επιλογές"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "_Καραντίνα"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "_Σύνθετες επιλογές"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "_Αρχείο"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "Home (_Γρήγορα)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Home (Αναδρομικά)"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "_Φάκελος"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "Α_ναδρομικά"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "Συσκευή"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "Έ_ξοδος"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "_Ιστορικό"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "_Πληροφορίες τελευταίας ανίχνευσης"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "Καθαρισμός αποτελεσμάτων"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "_Κατάσταση"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "_Συντήρηση"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "Ά_δειασμα"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "Έλεγχος για ενημερώσεις"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "_Σχετικά"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "_Χρονοδιάγραμμα"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "Επανεκτέλεση οδηγού αρχικής _ρύθμισης"
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "Υποβολή αρχείου για ανάλυση"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Προσωπικός φάκελος"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "Ανίχνευση του αρχικού φακέλου"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "Ιστορικό"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "Προβολή προηγούμενων ανιχνεύσεων"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "Προβολή ή ρύθμιση προτιμήσεων"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "Έξοδος από το πρόγραμμα"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "Έκδοση γραφικής διεπαφής χρήστη"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "Η έκδοση του γραφικού περιβάλλοντος είναι ενημερωμένη"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "Ορισμοί antivirus"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "Οι ορισμοί antivirus είναι ενημερωμένοι"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "Μηχανή antivirus"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "Έκδοση της μηχανής antivirus"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "Διακοπή ανίχνευσης τώρα"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "Αρχεία που ανιχνεύθηκαν: "
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "Απειλές που βρέθηκαν: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "Μεταφορά και απόθεση"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "Αδυναμία ανίχνευσης (άδειες)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "Κανένα"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "Ευρετήριο εξαιρούμενο της ανίχνευσης"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "Αδυναμία ελέγχου"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "Μια καινούρια έκδοση είναι διαθέσιμη"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "Δεν βρέθηκε τίποτα"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "Ξεπερασμένο"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "Οι υπογραφές antivirus δεν είναι ενημερωμένες"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "Ενημερώθηκε"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "Επιλογή αρχείου"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "Επιλέξτε φάκελο (ανίχνευση φακέλου)"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "Επιλέξτε έναν φάκελο (αναδρομική ανίχνευση)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "Ο φάκελος δεν θα ανιχνευθεί"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "Ανίχνευση %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>Απειλές που βρέθηκαν: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "Απειλές που βρέθηκαν: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "Αρχεία που ανιχνεύθηκαν: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "Κλείσιμο παραθύρου"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "Δεν ανιχνεύτηκαν αρχεία."
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "Υπογραφές ClamAV: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "Φάκελοι που ανιχνεύθηκαν:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"Ανίχνευση: %d εν δυνάμει %s (Έλεγχος %d %s).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "απειλή"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "απειλές"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "αρχείο"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "αρχεία"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "Αδυναμία εγγραφής στο αρχείο καταγραφής. Ελέγξτε τις άδειες."
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "Ολοκλήρωση ανίχνευσης (%d υπογραφές)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr "Δεν βρέθηκαν απειλές.\n"
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "Καραντίνα"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "Αρχείο"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "Επαναφορά"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "Αποτυχία λειτουργίας."
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "Επαναφέρθηκε σαν %s."
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "Δεν υπάρχει φάκελος ιών."
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "Αδυναμία ανοίγματος φακέλου ιών."
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "Δεν υπάρχουν αντικείμενα στην καραντίνα."
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "%d αντικείμενο(α) προς το παρόν στην καραντίνα"
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "Δεν υπάρχει φάκελος καραντίνας για άδειασμα."
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "Σίγουρα θέλετε την διαγραφή όλων των αντικειμένων στην καραντίνα;"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "Δεν υπάρχουν αντικείμενα στην καραντίνα για διαγραφή."
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "Αφαιρέθηκαν %d αντικείμενα"
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr "Ιστορικό ανίχνευσης"
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "Προβολή"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "Αδυναμία διαγραφής %s!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "Προβολή %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "Πρόβλημα ανοίγματος %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "Αδυναμία κλεισίματος ΑΡΧΕΙΟΥ %s! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr "Σάρωση"
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr "Ανίχνευση κρυφών αρχείων"
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "Ανίχνευση αρχείων που αρχίζουν με τελεία (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr "Αναδρομική ανίχνευση καταλόγων"
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "Ανίχνευση όλων των αρχείων και φακέλων μέσα σε έναν φάκελο"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr "Ανίχνευση πιθανώς ανεπιθύμητων εφαρμογών"
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+"Ανίχνευση πακεταρισμένων εκτελέσιμων, εργαλείων ανάκτησης κωδικών και άλλα"
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "Ανίχνευση αρχείων πάνω από 20 MB"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr "Ανίχνευση μεγάλων αρχείων που δεν εξετάζονται συνήθως"
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr "Ανίχνευση καταλόγων σχετικών με κοινή χρήση samba"
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "Ανίχνευση φακέλων σχετιζόμενων με samba %s"
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr "Εκκίνηση"
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "Έλεγχος για ενημερώσεις γραφικής διεπαφής χρήστη"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr "Απομάκρυνση διπλών αντιτύπων βάσεων δεδομένων υπογραφών"
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "Λίστα ασφαλών φακέλων"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "Φάκελος"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "Επιλογή φακέλου"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr "Διαμεσολαβητής"
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "Χωρίς διακομιστή μεσολάβησης"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "Ρυθμίσεις περιβάλλοντος"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "Χειροκίνητα"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "Διεύθυνση IP ή όνομα:"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "Θύρα"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "Ημερομηνία τελευταίας ανίχνευσης: %s"
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr "Ημερομηνία τελευταίας γνωστής απειλής: %s"
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"Το ClamTk είναι ένα γραφικό περιβάλλον διασύνδεσης χρήστη για το  ClamAV "
+"antivirus που χρησιμοποιεί την gtk2-perl."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό· μπορείτε να το αναδιανείμετε\n"
+"και/ή να το τροποποιήσετε βάσει των όρων είτε:\n"
+"\n"
+"α) της άδειας GNU General Public License όπως δημοσιεύθηκε από\n"
+"το Free Software Foundation· είτε στην έκδοση 1, ή\n"
+"(κατόπιν επιλογής σας) σε οποιαδήποτε μεταγενέστερη έκδοση, ή\n"
+"\n"
+"β) της άδειας 'Artistic License'.\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "Αποτελέσματα ανίχνευσης"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "Βρέθηκαν πιθανές απειλές."
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "Μέτρα που πάρθηκαν"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "Βάλε το αρχείο σε καραντίνα"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "Διαγραφή αρχείου"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "Αποθήκευση ως..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "Αδυναμία αποθήκευσης του αρχείου."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "Μετακινήθηκε"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "Το αρχείο αποθηκεύτηκε."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "Το αρχείο έχει ήδη μετακινηθεί ή διαγραφεί."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "Το αρχείο μπήκε σε καραντίνα."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>Σε καραντίνα</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "Το αρχείο δεν μπορεί να μπει σε καραντίνα."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "Σίγουρα θέλετε την διαγραφή αυτού του αρχείου;"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "Το αρχείο διαγράφτηκε."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>Διαγράφηκαν</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "Αδυναμία διαγραφής αρχείου."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "Ο φάκελος της καραντίνας δεν βρέθηκε."
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "Προγραμματισμός"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "Επιλογές ανίχνευσης"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "Ανίχνευση του ... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "Προσωπικός φάκελος (προτεινόμενο)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr ""
+"Με αυτή την επιλογή θα ελεγχθεί ο προσωπικός σας φάκελος. Είναι η "
+"προτεινόμενη."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "όλο τον υπολογιστή"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"Με αυτή την επιλογή θα ελεγχθεί όλος ο υπολογιστής αλλά θα εξαιρεθούν οι "
+"φάκελοι /proc, /sys και /dev."
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "ώρα ... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "24ώρη μορφή ώρας"
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "Ώρα"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "Λεπτό"
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "Ανίχνευση των φακέλων που έχω δηλώσει ότι εμπιστεύομαι"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "Επιλογές υπογραφών Antivirus"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "Επιλογή χρόνου ενημέρωσης των υπογραφών."
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "Έχετε επιλέξει καθημερινό έλεγχο."
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "Έχει επιλεγεί καθημερινή ενημέρωση των υπογραφών."
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "Δεν έχετε επιλέξει καθημερινό έλεγχο."
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "Δεν έχετε επιλέξει καθημερινή ενημέρωση των υπογραφών."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "Όνομα"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "Email"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "Δεν επιλέχθηκε αρχείο"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "Το συνημμένο αρχείο είναι"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "Νέο επιβλαβές λογισμικό"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "Καθαρό. Επισημάνθηκε λανθασμένα."
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "Μην υποβάλετε περισσότερα από δύο αρχεία την ημέρα."
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "Πρόκειται να υποβάλετε ένα αρχείο για ανάλυση."
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "Πατήστε Εντάξει για να συνεχίσετε, ή Ακύρωση για να πάτε πίσω."
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "Επιτυχής υποβολή!"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "Το αρχείο που υποβάλλατε έχει ήδη αναγνωρισθεί"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr "Αδυναμία ολοκλήρωσης της υποβολής. Προσπαθήστε αργότερα."
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "Με αυτή την φόρμα υποβολής στοιχείων, μπορείτε:"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "Να αναφέρετε νέους ιούς που δεν εντοπίζονται"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "Να αναφέρετε καθαρά αρχεία που επισημαίνονται λανθασμένα"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "Απαραίτητη η συμπλήρωση του πεδίου"
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "Έλεγχος για ενημερώσεις"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "Επιλογή"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "Πρέπει να συνδεθείτε σαν υπερχρήστης για να το ενεργοποιήσετε."
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "Ενημερώσεις υπογραφών"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "Έλεγχος για ενημερώσεις υπογραφών antivirus"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "Μη διαθέσιμο"
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "Ενημερώσεις γραφικής διεπαφής χρήστη"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "Έλεγχος για ενημερώσεις γραφικής διεπαφής"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"Συνίσταται να μην εκτελείτε αυτή την εφαρμογή σαν υπερχρήστης.\n"
+"Δείτε την σελίδα http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "Έλεγχος..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "Η ενημέρωση απέτυχε"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "Οι υπογραφές ενημερώθηκαν"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "Ενημερώθηκε"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "Ο έλεγχος απέτυχε"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "Προσπάθεια σύνδεσης..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "Λήψη ενημερώσεων ..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "Αδυναμία σύνδεσης..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Η καθημερινή ενημέρωση υπογραφών ολοκληρώθηκε"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "Έλεγχος έκδοσης κύριας βάσης δεδομένων ιών"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "Η κύρια βάση δεδομένων ιών είναι ενημερωμένη"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "Επιλέξτε τον τρόπο ενημέρωσης των υπογραφών antivirus."
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr ""
+"Αν επιθυμείτε να κάνετε την ενημέρωση μόνοι σας, επιλέξτε Χειροκίνητα."
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "Αν ο υπολογιστής σας ενημερώνεται αυτόματα, επιλέξτε Αυτόματα."
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr "Χειροκίνητα"
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr "Αυτόματα"
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "Οι προτιμήσεις σας αποθηκεύτηκαν."

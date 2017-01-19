@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingfromscanner">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Uvažanje z naprave optičnega bralnika</desc>
+</info>
+
+<title>Uvažanje iz optičnega bralnika</title>
+
+<p>Za pomoč pri pretvorbi natisnjenega dokumenta v uredljiv dokument <app>OCRFeeder</app> ponuja uvoz slik neposredno iz optičnega bralnika.</p>
+
+<p>Za uvoz slike z optičnega bralnika uporabite meni <guiseq><gui>Datoteka</gui><gui>Uvozi stran iz optičnega bralnika</gui></guiseq> ali tipkovno bližnjico <keyseq><key>Ctrl</key><key>Dvigalka</key><key>I</key></keyseq>.</p>
+
+<p>Trenutno izbrani optični bralnik bo bil uporabljen za preiskovanje strani. V primeru da je najden več kot en optični bralnik, bo prikazano pogovorno okno z možnostmi izbire.</p>
+
+</page>

@@ -1,0 +1,52 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+CORE_ABIVERSION := $(shell sed -rn 's/^\#define[[:space:]]+CORE_ABIVERSION[[:space:]]+//p' include/core/core.h )
+
+# generated via:
+#  python -c "import compizconfig; print ','.join(compizconfig.Context().Plugins['core'].Display['active_plugins'].Value)"
+DEFAULT_PLUGINS = "core bailer detection composite opengl decor mousepoll vpswitch regex animation snap expo move compiztoolbox place grid imgpng gnomecompat wall ezoom workarounds staticswitcher resize fade scale session"
+
+override_dh_auto_configure:
+	# currently, segfault if CMAKE_BUILD_TYPE=Release
+	dh_auto_configure -- -DCOMPIZ_BUILD_WITH_RPATH=FALSE -DCOMPIZ_DEFAULT_PLUGINS=\"$(DEFAULT_PLUGINS)\" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCOMPIZ_PACKAGING_ENABLED=TRUE
+
+override_dh_install:
+	# Language packs
+	for d in $$(find debian/tmp -type f \( -name "*.desktop" -o -name "*.directory" \) ); do \
+		sed -ri '/^(Name|GenericName|Comment|X-GNOME-FullName)\[/d' $$d; \
+		echo "X-Ubuntu-Gettext-Domain=compiz" >> $$d; \
+	done; \
+    for d in $$(find debian/tmp -type f -name "*.schemas" ); do \
+		GETTEXT_DOMAIN="compiz" perl /usr/lib/cdbs/strip-schema.pl $$d > $$d.new; mv $$d.new $$d; \
+	done;
+
+	# create compiz keybindings file based on the metacity ones
+	mkdir -p $(CURDIR)/debian/tmp/usr/share/gnome-control-center/keybindings/
+	sed 's/wm_name=\"Metacity\" package=\"metacity\"/wm_name=\"Compiz\" package=\"compiz\"/'  /usr/share/gnome-control-center/keybindings/50-metacity-desktop-key.xml > $(CURDIR)/debian/tmp/usr/share/gnome-control-center/keybindings/50-compiz-desktop-key.xml
+	sed 's/wm_name=\"Metacity\" package=\"metacity\"/wm_name=\"Compiz\" package=\"compiz\"/'  /usr/share/gnome-control-center/keybindings/50-metacity-key.xml > $(CURDIR)/debian/tmp/usr/share/gnome-control-center/keybindings/50-compiz-key.xml
+	sed -i 's#key=\"/apps/metacity/general/num_workspaces\" comparison=\"gt\"##g' $(CURDIR)/debian/tmp/usr/share/gnome-control-center/keybindings/50-compiz-key.xml
+
+	# add some selected keys
+	sed -i -f debian/compiz-keybindings.sed $(CURDIR)/debian/tmp/usr/share/gnome-control-center/keybindings/50-compiz-desktop-key.xml
+
+	# cmake findcompiz_install use COMPIZ_DESTDIR and using COMPIZ_DESTDIR and
+	# DESTDIR together is completely broken upstream
+	# So, doing the same in debian/rules to find a way to install things in the
+	# right place, sorry for the kittens
+	cmake_dir=`cmake --system-information 2> /dev/null | grep "^CMAKE_ROOT " | sed -e 's/.*"\(.*\)"/\1/'` && \
+	mkdir -p debian/tmp$${cmake_dir}/Modules && cp cmake/FindCompiz.cmake debian/tmp$${cmake_dir}/Modules
+
+	dh_install --fail-missing
+	rm debian/compiz-plugins/usr/share/compiz/core.xml
+
+override_dh_gencontrol:
+	dh_gencontrol -- -Vcoreabiversion=$(CORE_ABIVERSION)
+
+
+%:
+	dh $@
+

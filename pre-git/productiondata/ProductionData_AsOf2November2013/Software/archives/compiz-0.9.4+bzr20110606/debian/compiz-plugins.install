@@ -1,0 +1,2 @@
+debian/tmp/usr/lib/compiz/lib[!k]*.so
+debian/tmp/usr/share/compiz/*xml

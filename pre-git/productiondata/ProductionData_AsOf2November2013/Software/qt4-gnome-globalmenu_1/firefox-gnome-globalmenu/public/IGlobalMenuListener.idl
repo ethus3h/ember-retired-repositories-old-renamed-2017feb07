@@ -1,0 +1,10 @@
+#include "nsISupports.idl"
+
+[scriptable, uuid(f51ec17b-2f3f-46d8-b7b8-3960e3e9ed44)]
+interface IGlobalMenuListener : nsISupports
+{
+	void onMenuEvent(in AUTF8String id);
+	void onMenuActive(in AUTF8String id);
+	void onMenuInactive(in AUTF8String id);
+};
+

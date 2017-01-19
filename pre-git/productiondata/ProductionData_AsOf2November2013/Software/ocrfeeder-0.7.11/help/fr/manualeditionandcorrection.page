@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="manualeditionandcorrection">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="addingimage"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <desc>Modifier et corriger manuellement les résultats</desc>
+</info>
+
+<title>Modification manuelle</title>
+
+<p>Vous pouvez sélectionner manuellement une portion d'image à traiter ou corriger le résultat d'une reconnaissance automatique. <app>OCRFeeder</app> vous laisse modifier manuellement et facilement chaque aspect du contenu d'un document.</p>
+
+<section>
+
+<title>Zones de contenu</title>
+
+<p>Le contenu du document sélectionné est représenté par des zones comme celles apparaissant sur l'image suivante :</p>
+<media type="image" mime="image/png" src="figures/content-areas.png" width="300px">Une image montrant deux zones de contenu avec l'une d'elles sélectionnée.</media>
+
+<p>Les attributs d'une sélection sont affichées et peuvent être modifiés à partir de la partie droite de la fenêtre principale, comme montré dans l'image suivante :</p>
+<media type="image" mime="image/png" src="figures/areas-edition.png" width="200px">Une image montrant l'interface utilisateur utilisée pour la modification des zones</media>
+
+<p>La liste suivante décrit les attributs des zones de contenu :</p>
+<list>
+    <item><p><em>Type</em> : définit la zone comme étant soit du texte, soit une image. Le type image découpe la zone de la page source et la place dans le document généré. Le type texte utilise le texte attribué à la zone et le représente comme du texte dans le document généré (les documents ODT générés possèdent des boîtes de texte lorsqu'une zone a été marquée comme étant de type texte).</p></item>
+    <item><p><em>Extrait</em> : affiche un extrait de l'original en cours qui vous permet de voir ce qu'il y a exactement dans cette zone.</p></item>
+    <item><p><em>Limites</em> : affiche les coordonnées (X et Y) du coin supérieur gauche de la zone dans l'image originale, ainsi que la largeur et la hauteur de la zone.</p></item>
+    <item><p><em>Moteur ROC</em> : laisse l'utilisateur choisir un moteur ROC pour reconnaître la zone (en cliquant sur le bouton <gui>ROC</gui>).</p>. <note type="warning"><p>L'utilisation du moteur ROC pour reconnaître le texte, attribut directement ce texte à la zone en remplaçant l'ancien texte attribué auparavant.</p></note></item>
+    <item><p><em>Texte</em> : affiche le texte attribué à cette zone et vous permet de le modifier. Cette zone est désactivée si la zone sélectionnée est du type image.</p></item>
+    <item><p><em>Style</em> : laisse le choix de la police et de sa taille, ainsi que le type d'alignement et l'espacement des caractères.</p></item>
+</list>
+
+<p>Pour sélectionner les zones de contenu, cliquez dessus ou utilisez les menus <guiseq><gui>Document</gui><gui>Sélectionner la zone précédente</gui></guiseq> et <guiseq><gui>Document</gui><gui>Sélectionner la zone suivante</gui></guiseq>. Vous pouvez aussi utiliser des raccourcis clavier pour ces actions : respectivement, <keyseq><key>Ctrl</key><key>Maj</key><key>P</key></keyseq> et <keyseq><key>Ctrl</key><key>Maj</key><key>N</key></keyseq>.</p>
+
+<p>Vous pouvez aussi sélectionner toutes les zones en utilisant le menu <guiseq><gui>Document</gui><gui>Sélectionner toutes les zones</gui></guiseq> ou <keyseq><key>Ctrl</key><key>Maj</key><key>A</key></keyseq>.</p>
+
+<p>Lorsqu'au moins une zone de contenu est sélectionnée, vous pouvez reconnaître son contenu automatiquement ou le supprimer. Cliquez respectivement sur <guiseq><gui>Document</gui><gui>Reconnaître les zones sélectionnées</gui></guiseq> et <guiseq><gui>Document</gui><gui>Supprimer les zones sélectionnées</gui></guiseq> (ou <keyseq><key>Ctrl</key><key>Maj</key><key>Suppr</key></keyseq>).</p>
+
+</section>
+
+</page>

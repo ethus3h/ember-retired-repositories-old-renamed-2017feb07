@@ -1,0 +1,1289 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+    <schemalist>
+	<schema>
+	    <key>/schemas/desktop/gnome/font_rendering/dpi</key>
+	    <applyto>/desktop/gnome/font_rendering/dpi</applyto>
+            <owner>gnome</owner>
+	    <type>float</type>
+            <locale name="C">
+	        <short>DPI</short>
+                <long>
+	          The resolution used for converting font sizes to pixel sizes, 
+                  in dots per inch.
+		</long>
+            </locale>
+
+            <locale name="ar">
+	        <short>نقطة في البوصة</short>
+                <long>الميز المستعمل لتحويل حجم الخطوط إلى حجم بكسل، بعدد النقط في البوصة.</long>
+            </locale>
+
+            <locale name="as">
+	        <short>DPI</short>
+                <long>The resolution used for converting font sizes to pixel sizes, in dots per inch.</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>DPI</short>
+                <long>Resolución qu&apos;usar para convertir tamaños de fontes a tamaños de píxel, en puntos per pulgada.</long>
+            </locale>
+
+            <locale name="be@latin">
+	        <short>DPI</short>
+                <long>Pamiery ekranu dziela kanvertavańnia pamieraŭ šryftoŭ u pamiery pikselaŭ, punktaŭ na cal.</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>DPI</short>
+                <long>Разделителната способност при преобразуване на размери на шрифтове в размери на пиксели, в точки на инч.</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>DPI</short>
+                <long>ফন্টের মাপকে পিক্সেলের মাপে পরিবর্তনের জন্য ব্যবহৃত রেসোলিউশন, প্রতি ইঞ্চে বিন্দুর সংখ্যা অনুযায়ী গণনা করা হয়েছে।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>DPI</short>
+                <long>ফন্টের মাপকে পিক্সেলের মাপে পরিবর্তনের জন্য ব্যবহৃত রেসোলিউশন, প্রতি ইঞ্চে বিন্দুর সংখ্যা অনুযায়ী গণনা করা হয়েছে।</long>
+            </locale>
+
+            <locale name="ca">
+	        <short>PPP</short>
+                <long>La resolució que s&apos;utilitzarà per convertir les mides dels tipus de lletra a mides de píxels, en punts per polzada.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>PPP</short>
+                <long>La resolució que s&apos;utilitzarà per convertir les mides dels tipus de lletra a mides de píxels, en punts per polzada.</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>DPI</short>
+                <long>Yazıtipi boyutlarını piksel boyutlarına çevirmek için kullanılan çözünürlük, inç başına nokta olarak.</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>DPI</short>
+                <long>Rozlišení užité při konverzi velikosti písem na velikost pixelů, v obrazových bodech na palec.</long>
+            </locale>
+
+            <locale name="da">
+	        <short>DPI</short>
+                <long>Opløsningen der bruges ved konvertering af skriftstørrelser til pixelstørrelser i prikker per tomme.</long>
+            </locale>
+
+            <locale name="de">
+	        <short>DPI</short>
+                <long>Die zu verwendende Auflösung, um Schriftgrößen auf Pixelgrößen umzuwandeln, Angabe erfolgt in Punkten pro Zoll.</long>
+            </locale>
+
+            <locale name="el">
+	        <short>DPI</short>
+                <long>Η ανάλυση που χρησιμοποιείται για μετατροπή μεγεθών γραμματοσειράς σε μέγεθος εικονοστοιχείων, σε κουκίδες ανά ίντσα.</long>
+            </locale>
+
+            <locale name="en@shaw">
+	        <short>·𐑛·𐑐·𐑦</short>
+                <long>𐑞 𐑮𐑧𐑟𐑩𐑤𐑵𐑖𐑩𐑯 𐑿𐑕𐑑 𐑓𐑹 𐑒𐑩𐑯𐑝𐑻𐑑𐑦𐑙 𐑓𐑪𐑯𐑑 𐑕𐑲𐑟𐑩𐑟 𐑑 𐑐𐑦𐑒𐑕𐑩𐑤 𐑕𐑲𐑟𐑩𐑟, 𐑦𐑯 𐑛𐑪𐑑𐑕 𐑐𐑻 𐑦𐑯𐑗.</long>
+            </locale>
+
+            <locale name="en_GB">
+	        <short>DPI</short>
+                <long>The resolution used for converting font sizes to pixel sizes, in dots per inch.</long>
+            </locale>
+
+            <locale name="es">
+	        <short>DPI</short>
+                <long>Resolución que usar para convertir tamaños de tipografías a tamaños de píxel, en puntos por pulgada.</long>
+            </locale>
+
+            <locale name="et">
+	        <short>DPI</short>
+                <long>Eraldusvõime, mida kasutatakse kirjasuuruste pikslitesse teisendamisel. Ühik punkti tollile.</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>DPI</short>
+                <long>Bereizmena letra-tamainak pixel-tamainetara bihurtzean erabiltzeko (puntu/hazbeteko)</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>DPI</short>
+                <long>Tarkkuus, jota käytetään muuntamaan kirjasinkoot pikselikooksi, pisteinä tuumaa kohti.</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>PPP</short>
+                <long>La résolution utilisée pour la conversion des tailles de polices en tailles pixels, en points par pouce.</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>PSO</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>PPP</short>
+                <long>A resolución que se usa para converter os tamaños dos tipos de letra en puntos por polgada.</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>DPI</short>
+                <long>ફોન્ટ માપોને પિક્સેલ માપોમાં ફેરવવા માટે વાપરવામાં આવતું રીઝોલ્યુશન, ઈંચ પ્રતિ ડોટમાં.</long>
+            </locale>
+
+            <locale name="he">
+	        <short>DPI</short>
+                <long>The resolution used for converting font sizes to pixel sizes, in dots per inch.</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>DPI</short>
+                <long>फॉन्ट आकार को पिक्सेल आकार में फॉन्ट आकार को बदलने के लिए प्रयोग.</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>DPI</short>
+                <long>A betűméretek képpontméretekké alakításához használt felbontás hüvelykenkénti képpontszámban.</long>
+            </locale>
+
+            <locale name="it">
+	        <short>DPI</short>
+                <long>La risoluzione usata per convertire le dimensioni dei tipi di carattere in dimensioni dei pixel, espressa in punti per pollice.</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>DPI</short>
+                <long>フォントの大きさをピクセル単位の大きさに変更する際に使用する解像度です。</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>DPI</short>
+                <long>ಅಕ್ಷರ ಶೈಲಿಯ ಗಾತ್ರಗಳನ್ನು ಪಿಕ್ಸೆಲ್‌ ಗಾತ್ರಗಳಾಗಿ ಬದಲಾಯಿಸಲು ಬಳಸಬೇಕಿರುವ ರೆಸಲ್ಯೂಶನ್, ಪ್ರತಿ ಇಂಚಿನಲ್ಲಿನ ಚುಕ್ಕಿಗಳ ಆಧಾರದಲ್ಲಿ.</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>DPI</short>
+                <long>글꼴 크기를 픽셀 크기로 변환할 때 사용할 해상도. 인치 당 점 개수 (DPI) 단위.</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>DPI</short>
+                <long>Raiška, naudojama verčiant šriftų dydį į dydį pikseliais, taškais į colį.</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>DPI</short>
+                <long>Izmantojamā izšķirtspēja, kad pārveido fontu izmērus uz pikseļu izmēriem. Norāda punktus collā.</long>
+            </locale>
+
+            <locale name="mai">
+	        <short>DPI</short>
+                
+            </locale>
+
+            <locale name="mk">
+	        <short>DPI</short>
+                <long>Резолуцијата користена за конверзија на големината на фонтовите во пикселни големини, во точки на инч.</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>ഡി.പി.ഐ</short>
+                <long>ലിപി-വലിപ്പങ്ങള്‍ പിക്സെല്‍ (ചിത്ര-അണു) വലിപ്പങ്ങളായി മാറ്റാനുള്ള റെസലൂഷന്‍, ഇഞ്ചില്‍ എത്ര ബിന്ദുക്കള്‍ എന്ന എണ്ണത്തില്‍ (ഡോട്സ് പര്‍ ഇഞ്ച്)</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>DPI</short>
+                <long>फॉन्ट आकारला पीक्सेल आकारात रूपांतरीत करण्याकरीता वापरण्याजोगी रेजोल्यूशन, डॉटस् दर इंच नुरूप.</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>DPI</short>
+                <long>Oppløsing som brukes for å konvertere skriftstørrelser til pikselstørrelser i punkter per tomme.</long>
+            </locale>
+
+            <locale name="nl">
+	        <short>DPI</short>
+                <long>De resolutie die gebruikt wordt voor het omrekenen van lettertypegroottes naar beeldpuntgroottes, in punten per inch.</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>DPI</short>
+                <long>Oppløysing som brukast for å konvertera skriftstorleikar til pikselstorleikar i punkt per tomme.</long>
+            </locale>
+
+            <locale name="or">
+	        <short>DPI</short>
+                <long>ଅକ୍ଷରରୂପକୁ ପିକସେଲ ଆକାରରେ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ବ୍ୟବହୃତ ବିଭେଦନ, ଇଞ୍ଚ ପ୍ରତି ଡଟଗୁଡ଼ିକ।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>DPI</short>
+                <long>ਫੋਂਟ ਸਾਈਜ਼ ਨੂੰ ਪਿਕਸਲ ਸਾਈਜ਼ &apos;ਚ ਬਦਲਣ ਲਈ ਵਰਤਣ ਜਾਣ ਵਾਲਾ ਰੈਜ਼ੋਲੂਸ਼ਨ ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ।</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>DPI</short>
+                <long>Rozdzielczość do zmiany rozmiaru czcionek na rozmiar w pikselach, w punktach na cal.</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>DPI</short>
+                <long>A resolução utilizada para converter os tamanhos das fontes em tamanhos de pixel, em pontos por polegada.</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>DPI</short>
+                <long>A resolução utilizada para converter os tamanhos das fontes em tamanhos de pixel, em pontos por polegada.</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>DPI</short>
+                <long>Rezoluția folosită pentru conversia dimeniunii fontului în dimensiunea pixelilor, în puncte pe inci.</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>DPI</short>
+                <long>Разрешение, используемое для преобразования размеров шрифтов в количество пикселов, в точках на дюйм.</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>DPI</short>
+                <long>Rozlíšenie použité na konverziu veľkostí písiem na veľkosť pixelov, v bodoch na palec.</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>DPI</short>
+                <long>Ločljivost uporabljena za pretvarjanje velikosti pisav v točkovne vrednosti (točke na inč).</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>ТПИ</short>
+                <long>Резолуција која се користи за превођење величине фонтова на величину слике (у тачкама по инчу)</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>TPI</short>
+                <long>Rezolucija koja se koristi za prevođenje veličine fontova na veličinu slike (u tačkama po inču)</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>PPT</short>
+                <long>Upplösning som används för konvertering av typsnittsstorlekar till bildpunktsstorlekar, i punkter per tum.</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>டிபிஐ (DPI)</short>
+                <long>எழுத்துரு அளவுகளை பிசெலுக்கு மாற்ற தெளிவுத்திறன். ஒரு அங்குலத்துக்கு புள்ளிகள்.</long>
+            </locale>
+
+            <locale name="te">
+	        <short>DPI</short>
+                <long>ఫాంటు పరిమాణాలు పిగ్జెల్ పరిమాణానికి మార్చుటకు ఉపయోగించిన తీవ్రత, ఒక్కో అంగుళకు బందివులలో.</long>
+            </locale>
+
+            <locale name="th">
+	        <short>DPI</short>
+                <long>ความละเอียดที่จะใช้แปลงจากขนาดแบบอักษรไปเป็นจำนวนจุด ในหน่วยจุดต่อนิ้ว</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>DPI</short>
+                <long>Yazıtipi boyutlarını piksel boyutlarına çevirmek için kullanılan çözünürlük, inç başına nokta olarak.</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>DPI</short>
+                <long>Роздільна здатність, що використовується для перетворення розмірів шрифтів на кількість пікселів, у точках на дюйм.</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>DPI</short>
+                <long>Độ phân giải được dùng để chuyển đổi kích cỡ phông chữ sang kích cỡ điểm ảnh, theo chấm mỗi insơ.</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>DPI</short>
+                <long>将字体尺寸转换为像素值时所用的分辨率，以每英寸点数为单位。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>DPI</short>
+                <long>用來將字型大小轉換為像素大小的解像度，單位為 點/每英吋。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>DPI</short>
+                <long>用來將字型大小轉換為像素大小的解析度，單位為 點/每英吋。</long>
+            </locale>
+        </schema>
+	<schema>
+	    <key>/schemas/desktop/gnome/font_rendering/antialiasing</key>
+	    <applyto>/desktop/gnome/font_rendering/antialiasing</applyto>
+            <owner>gnome</owner>
+	    <type>string</type>
+            <default>grayscale</default>
+            <locale name="C">
+	        <short>Antialiasing</short>
+                <long>
+		  The type of antialiasing to use when rendering fonts.
+                  Possible values are: "none" for no antialiasing,
+                  "grayscale" for standard grayscale antialiasing, and
+                  "rgba" for subpixel antialiasing (LCD screens only).
+		</long>
+            </locale>
+
+            <locale name="ar">
+	        <short>التنعيم</short>
+                <long>نوع التنعيم للاستخدام عند تصيير الخطوط. القيم الممكنة هي : &quot;none&quot; بدون تنعيم، &quot;grayscale&quot; تنعيم متدرج رمادي، و &quot;rgba&quot; لإزالة التسنن على مستوى جزء البكسل (فقط لشاشات LCD ).</long>
+            </locale>
+
+            <locale name="as">
+	        <short>অ্যান্ট-অ্যালায়েসিং</short>
+                <long>The type of antialiasing to use when rendering fonts. Possible values are: &quot;none&quot; for no antialiasing, &quot;grayscale&quot; for standard grayscale antialiasing, and &quot;rgba&quot; for subpixel antialiasing (LCD screens only).</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>Antialies</short>
+                <long>El tipu d&apos;antialies qu&apos;usar cuando se renderizen les fontes. Los valores dables son: &quot;none&quot; ensin antialies, &quot;grayscale&quot; pa escala de buxos antialies estándar, &quot;rgba&quot; p&apos;antialies de subpíxel (namái pa pantalles LCD).</long>
+            </locale>
+
+            <locale name="be@latin">
+	        <short>Antialiasing</short>
+                <long>Typ antialiasingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: &quot;none&quot; (biaz antialiasingu), &quot;grayscale&quot; (dla zvyčajnaha čorna-biełaha antialiasingu) i &quot;rgba&quot; (dla subpikselnaha antialiasingu; tolki dla ekranaŭ LCD).</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>Заглаждане</short>
+                <long>Видът на заглаждане при изобразяване на шрифтове. Възможни стойности са „none“ (без заглаждане), „grayscale“ (стандартно за степени на сивото) и „rgba“ (за подпикселно заглаждане — само за екрани тип LCD).</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>অ্যান্ট-অ্যালায়েসিং</short>
+                <long>ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য অ্যান্টি-অ্যালায়েসিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য &quot;none&quot;, সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য &quot;grayscale&quot;, ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) &quot;rgba&quot;।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>অ্যান্ট-অ্যালায়েসিং</short>
+                <long>ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য অ্যান্টি-অ্যালায়েসিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য &quot;none&quot;, সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য &quot;grayscale&quot;, ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) &quot;rgba&quot;।</long>
+            </locale>
+
+            <locale name="ca">
+	        <short>Suavitzat</short>
+                <long>El tipus de suavitzat que s&apos;utilitzarà per mostrar els tipus de lletra. Els valors possibles són: «none» (cap) per no aplicar cap suavitzat, «grayscale» (escala de grisos) per a suavitzat d&apos;escala de grisos estàndard i «RGBA» per a suavitzat de subpíxel (només per a pantalles LCD).</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>Suavitzat</short>
+                <long>El tipus de suavitzat que s&apos;utilitzarà per mostrar els tipus de lletra. Els valors possibles són: «none» (cap) per no aplicar cap suavitzat, «grayscale» (escala de grisos) per a suavitzat d&apos;escala de grisos estàndard i «RGBA» per a suavitzat de subpíxel (només per a pantalles LCD).</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>Yumuşatma</short>
+                <long>Yazıtipleri taranırken kullanılacak yumuşatma türü. Geçerli değerler: &quot;none&quot; - yumuşatma yok. &quot;grayscale&quot; - standart gri ölçek yumuşatma ve &quot;rgba&quot;  - alt piksel yumuşatma (sadece LCD ekranlar).</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>Vyhlazování</short>
+                <long>Typ vyhlazování užitý při vykreslování písem. Možnými hodnotami jsou: &quot;none&quot; značí žádné vyhlazování, &quot;grayscale&quot; značí standardní vyhlazování v odstínech šedi a &quot;rgba&quot; značí subpixelové vyhlazování (pouze obrazovky LCD).</long>
+            </locale>
+
+            <locale name="da">
+	        <short>Pixeludjævning</short>
+                <long>Typen af udjævning for skrifttyper. Mulige værdier er: &quot;none&quot; for ingen udjævning, &quot;grayscale&quot; for standardgråtoneudjævning, og &quot;rgba&quot; for underpixeludjævning (kun for LCD-skærme).</long>
+            </locale>
+
+            <locale name="de">
+	        <short>Kantenglättung</short>
+                <long>Die Art der Kantenglättung beim Darstellen der Schriften. Mögliche Werte sind: »none« für keine Kantenglättung, »grayscale« für Standard-Graustufenkantenglättung und »rgba« für Sub-Pixel-Kantenglättung (nur bei Flachbildschirmen).</long>
+            </locale>
+
+            <locale name="el">
+	        <short>Antialiasing</short>
+                <long>Ο τύπος του antialiasing που χρησιμοποιείται για την εμφάνιση των γραμματοσειρών. Οι πιθανές τιμές είναι: &quot;none&quot; για καθόλου antialiasing, &quot;grayscale&quot; για κανονική κλίμακα του γκρι, και &quot;rgba&quot; για subpixel antialiasing (μόνο για οθόνες LCD ).</long>
+            </locale>
+
+            <locale name="en_GB">
+	        <short>Antialiasing</short>
+                <long>The type of antialiasing to use when rendering fonts. Possible values are: &quot;none&quot; for no antialiasing, &quot;grayscale&quot; for standard greyscale antialiasing, and &quot;rgba&quot; for subpixel antialiasing (LCD screens only).</long>
+            </locale>
+
+            <locale name="es">
+	        <short>Antialias</short>
+                <long>El tipo de antialias que usar cuando se renderizen las tipografías. Los valores posibles son: &quot;none&quot; sin antialias, &quot;grayscale&quot; para escala de grises antialias estándar, &quot;rgba&quot; para antialias de subpíxel (sólo para pantallas LCD).</long>
+            </locale>
+
+            <locale name="et">
+	        <short>Sakisilumine</short>
+                <long>Kirjatüüpide renderdamisel kasutatav sakisilumise meetod. Võimalikud väärtused on: &quot;none&quot; sakisilumise keelamiseks, &quot;grayscale&quot; standardseks halltoonides sakisilumiseks ja &quot;rgba&quot; alampiksli sakisilumiseks (ainult LCD ekraanidel).</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>Antialiasing-a</short>
+                <long>Antialiasing mota letrak errendatzean erabiltzeko. Balio erabilgarriak: &quot;none&quot; (ezer ez), antialiasing gabe; &quot;grayscale&quot; (gris-eskala), gris-eskala estandarreko antialiasing-a; &quot;rgba&quot; (gbua), azpipixeleko antialiasing-a (LCD pantailetan bakarrik).</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>Antialiasointi</short>
+                <long>Kirjasinten piirtoon käytetyn antialiasoinnin tyyppi. Mahdolliset arvot ovat: &quot;none&quot; (ei antialiasointia), &quot;grayscale (tavallinen harmaasävyihin perustuva) ja &quot;rgba&quot; (alipisteiden antialiasointi, vain LCD-näytöt).</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>Anticrénelage</short>
+                <long>Le type d&apos;anticrénelage utilisé pour le rendu des polices. Les valeurs possibles sont : « none » pour aucun anticrénelage, « grayscale » pour l&apos;anticrénelage classique par niveaux de gris et « rgba » pour l&apos;anticrénelage par sous-pixels (écrans LCD uniquement).</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>Frithailiasáil</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>Suavizado</short>
+                <long>O tipo de suavizado que usar ao renderizar os tipos de letra. Os valores posíbeis son: &quot;none&quot; para usar ningún suavizado, &quot;grayscale&quot; para o suavizado estándar de escala de grises e &quot;rgba&quot; para o suavizado de subpíxeles (só para pantallas LCD).</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>એન્ટીએલિઆઝીંગ</short>
+                <long>જ્યારે ફોન્ટ રેન્ડર કરી રહ્યા હોય ત્યારે વાપરવાનો એન્ટીએલીઆઝીંગ પ્રકાર. શક્ય કિંમતો: કોઈપણ એન્ટીએલીઆઝીંગ નહિં હોય તે માટે &quot;કંઈનહિં&quot;, પ્રમાણભૂત ગ્રેસ્કેલ એન્ટીએલિઆઝીંગ માટે &quot;ગ્રેસ્કેલ&quot;, અને ઉપપિક્સેલ એન્ટીએલિઆઝીંગ માટે &quot;rgba&quot; (માત્ર LCD સ્ક્રીન જ).</long>
+            </locale>
+
+            <locale name="he">
+	        <short>Antialiasing</short>
+                <long>The type of antialiasing to use when rendering fonts. Possible values are: &quot;none&quot; for no antialiasing, &quot;grayscale&quot; for standard grayscale antialiasing, and &quot;rgba&quot; for subpixel antialiasing (LCD screens only).</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>एंटीएलियासिंग</short>
+                <long>प्रयोग के लिए एंटीएलियासिंग जब फ़ॉन्ट रेंडरिंग किया जाता है. संभावित मान हैं: &quot;none&quot; किसी एंटीएलियासिंग के लिए नहीं, &quot;grayscale&quot; मानक ग्रेस्केलिंग एंटीएलियासिंग के लिए, और &quot;rgba&quot; उपपिक्सेल एंटीएलियासिंग (LCD केवल स्क्रीन से).</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>Élsimítás</short>
+                <long>A betűkészletek megjelenítéséhez használandó élsimítás típusa. A lehetséges értékek: „none” (élsimítás kikapcsolása), „grayscale” (szürkesárnyalatos élsimítás) és „rgba” (képponton belüli élsimítás, csak LCD képernyőkhöz).</long>
+            </locale>
+
+            <locale name="it">
+	        <short>Antialiasing</short>
+                <long>Il tipo di antialiasing da usare nella resa a schermo dei tipi di caratteri. Valori ammessi sono: &quot;none&quot; per nessun antialiasing, &quot;grayscale&quot; per antialiasing standard in scala di grigi, &quot;rgba&quot; per antialiasing sul subpixel (solo per schermi LCD).</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>アンチエイリアス</short>
+                <long>フォントを描画する際に使用するアンチエイリアスの種類を指定します。利用可能な値: &quot;none&quot; はアンチエイリアスを無効にする、&quot;grayscale&quot; は標準的なグレースケールのアンチエイリアス、&quot;rgba&quot; はサブピクセルをアンチエイリアスする (LCD 画面の場合のみ)</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>ಆಂಟಿಅಲಿಯಾಸಿಂಗ್</short>
+                <long>ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ ಮಾಡುವಾಗ ಬಳಸಬೇಕಿರುವ ಬಗೆಗಳು. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: ಯಾವುದೆ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ ಬೇಡವಾದಲ್ಲಿ &quot;ಯಾವುದೂ ಇಲ್ಲ&quot;, ಮಾನ್ಯವಾದ ಗ್ರೇಸ್ಕೇಲ್ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್‌ಗಾಗಿ &quot;ಗ್ರೇಸ್ಕೇಲ್&quot;, ಹಾಗು ಸಬ್‌ಪಿಕ್ಸೆಲ್ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್‌ಗಾಗಿ &quot;rgba&quot; (ಕೇವಲ LCD ತೆರೆಗಳಿಗೆ ಮಾತ್ರ).</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>안티알리아싱</short>
+                <long>글꼴을 렌더링할 때 사용할 안티알리아싱 방법. 사용 가능한 값은: &quot;none&quot;이면 안티알리아싱 없음, &quot;grayscale&quot;이면 표준 그레이스케일 안티알리아싱, &quot;rgba&quot;이면 서브픽셀 안티알리아싱 (LCD 화면 전용).</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>Glodinimas</short>
+                <long>Glodinimo tipas naudojamas atvaizduojant šriftus. Galimos vertės: „none“ - neglodinti, „grayscale“ - standartinis glodinimas, „rgba“ - subpikselinis glodinimas (tik skystųjų kristalų vaizduokliams).</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>Kropļojumnovērse</short>
+                <long>Kāda veida kropļojumnovērsi izmantot, kad renderē fontus. Iespējamās vērtības ir: &quot;none&quot;, lai neizmantotu kropļojumnovērsi, &quot;grayscale&quot; standarta pelēktoņu kropļojumnovērsei, un &quot;rgba&quot; apakšpikseļu kropļojumnovērsei (tikai LCD ekrāniem).</long>
+            </locale>
+
+            <locale name="mai">
+	        <short>एंटीएलियासिंग</short>
+                
+            </locale>
+
+            <locale name="mk">
+	        <short>Антиалијасинг</short>
+                <long>Типот на антиалиасинг кој ќе се користи при исцртување на фонтовите: Можни вредности се: „ништо“ за без антиалиасинг, „grayscale“ за стандарден сив антиалиасинг, „rgba“ за субпиксел антиалиасинг (само за LCD екрани).</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>ആന്റി-എലയാസിങ്ങ്</short>
+                <long>ലിപികള്‍ അവതരിപ്പിക്കുംബോള്‍ ഉപയോഗിക്കേണ്ട തരം ആന്റി-എലയാസിങ്ങ്. ഉപയോഗിക്കാവുന്ന വിലകള്‍ :   &quot;none&quot;(&quot;ഒന്നും അല്ല&quot;) ആന്റി-എലയാസിങ്ങ് വേണ്ടെങ്കില്‍, &quot;grayscale&quot;(&quot;ഗ്രേസ്കേല്‍&quot;) സാധാരണ ഗ്രേസ്കേല്‍ ആന്റി-എലയാസിങ്ങിനായ്,&quot;rgba&quot;( &quot;ആര്‍.ജി.ബി.എ&quot;) സബ്-പിക്സെല്‍ (രണ്ടാം തരം ചിത്ര-അണു) എലയാസിങ്ങിനായ് (എല്‍.സി.ഡി സ്ക്രീനിനു മാത്രം).</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>ऍन्टीअलायजींग</short>
+                <long>फॉन्ट दर्शवितेवेळी वापरण्याजोगी ऍन्टीअलायसींग प्रकार. संभाव्य मुल्य खालिल नुरूप आहे: &quot;none&quot; ऍन्टीअलायसींग करीता, &quot;grayscale&quot; मानक ग्रेस्केल ऍन्टीअलायसींग करीता, व &quot;rgba&quot; उपपीक्सेल ऍन्टीअलायसींग करीता (फक्त LCD पडदा).</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>Antialiasing</short>
+                <long>Type utjevning som skal brukes ved rendring av skrifter. Mulige verdier er: «none» for ingen utjevning, «grayscale» for vanlig gråtoneutjevning og «rgba» for underpikselutjevning (kun LCD-skjermer).</long>
+            </locale>
+
+            <locale name="nl">
+	        <short>Gladmaken</short>
+                <long>Het type gladmaken (antialiasing) dat gebruikt wordt bij het weergeven van lettertekens. Mogelijke waardes zijn: ‘none’ voor niet gladmaken, ‘grayscale’ voor standaard gladmaken met grijswaarden, en ‘rgba’ voor subpixel gladmaken (alleen bij LCD-schermen).</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>Antialiasing</short>
+                <long>Type utjamning som skal brukast ved teikning av skrifter. Moglege verdiar er: «none» for inga utjamning, «grayscale» for vanleg gråtoneutjamning og «rgba» for underpikselutjamning (berre LCD-skjermer).</long>
+            </locale>
+
+            <locale name="or">
+	        <short>ଛବିମଶୃଣକରଣ</short>
+                <long>ଅକ୍ଷରରୂପ ଚିତ୍ରଣରେ ବ୍ୟବହାର କରିବାକୁ ଉପନାନକରଣ ନକିରବାର ପ୍ରକାର। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି: &quot;none&quot; ଉପନାମକରଣ ନକରିବା ପାଇଁ, &quot;grayscale&quot; ମାନକ grayscale ଉପନାମକରଣ, ଏବଂ &quot;rgba&quot; ଉପପିକସେଲ ଉପନାମକରଣ ପାଇଁ (କେବଳ LCD ପରଦା)।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>ਐਂਟੀ-ਅਲਾਈਸਿੰਗ</short>
+                <long>ਫੋਂਟ ਰੈਡਰਿੰਗ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਐਂਟੀਅਲਾਈਸਿੰਗ ਦੀ ਟਾਈਪ ਹੈ। ਸੰਭਵ ਮੁੱਲ ਹਨ: ਬਿਨਾਂ ਐਂਟੀਅਲਾਈਸਿੰਗ ਲਈ &quot;none (ਕੋਈ ਨਹੀਂ)&quot;, ਸਟੈਂਡਰਡ  ਗਰੇਸਕੇਲ ਐਂਟੀਅਲਾਈਸਿੰਗ ਵਾਸਤੇ &quot;grayscale (ਗਰੇਸਕੇਲ)&quot; ਅਤੇ ਸਬ-ਪਿਕਸਲ ਐਂਟੀਅਲਾਈਸਿੰਗ ਲਈ &quot;rgba&quot; (ਕੇਵਲ LCD ਸਕਰੀਨਾਂ ਲਈ ਹੀ)।</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>Wygładzanie krawędzi</short>
+                <long>Rodzaj wygładzania renderowanych czcionek. Możliwe wartości to: &quot;brak&quot; dla wyłączonego wygładzania, &quot;Skala szarości&quot; dla standardowego wygładzania w skali szarości oraz &quot;rgba&quot; dla wygładzania podpikselowego (tylko ekrany LCD).</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>Antialiasing</short>
+                <long>O tipo de antialiasing a utilizar ao renderizar fontes. Valores possíveis são: &quot;none&quot; nenhum antialiasing, &quot;grayscale&quot; para antialiasing padrão cinza e &quot;rgba&quot; para antialiasing de subpixel (apenas ecrãs LCD).</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>Suavização</short>
+                <long>O tipo de suavização a utilizar quando renderizar fontes. Valores possíveis são: &quot;none&quot; nenhuma suavização, &quot;grayscale&quot; para suavização padrão cinza e &quot;rgba&quot; para suavização de subpixel (apenas telas LCD).</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>Antialiasing</short>
+                <long>Tipul de antialiasing folosint la randarea fonturilor. Valori posibile sunt: „none” pentru dezactivare antialiasing, „grayscale” pentru antialiasing standard în nuanțe de gri și „rgba” pentru antialiasing pe subpixeli (doar pentru ecranele LCD).</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>Сглаживание</short>
+                <long>Тип сглаживания, используемый при растеризации шрифтов. Возможные значения: «none» - без сглаживания, «grayscale» - стандартное черно-белое сглаживание, «rgba» - субпиксельное сглаживание (только для ЖК-мониторов).</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>Vyhladzovanie</short>
+                <long>Typ vyhladzovania použitý pri vykresľovaní písma. Možné hodnoty sú: &quot;none&quot; pre žiadne vyhladzovanie, &quot;grayscale&quot; pre štandardné vyhladzovanie odtieňmi sivej a &quot;rgba&quot; pre sub-pixelové vyhladzovanie (pre obrazovky LCD).</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>Glajenje</short>
+                <long>Vrsta glajenja pisave med izrisovanjem. Mogoče vrednosti so: &quot;brez&quot; za prezrto glajenje, &quot;sivinsko&quot; za običajno glajenje sivin in &quot;rgba&quot; za točkovno glajenje (le za LCD zaslone).</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>Умекшавање ивица</short>
+                <long>Врста умекшавања ивица приликом исцртавања фонтова. Дозвољене вредности су: „none“ за искључивање умекшавања, „grayscale„ за стандардно умекшавање у сивим тоновима и „rgba„ за дотеривање испод пиксела (само за ЛЦД екране).</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>Umekšavanje ivica</short>
+                <long>Vrsta umekšavanja ivica prilikom iscrtavanja fontova. Dozvoljene vrednosti su: „none“ za isključivanje umekšavanja, „grayscale„ za standardno umekšavanje u sivim tonovima i „rgba„ za doterivanje ispod piksela (samo za LCD ekrane).</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>Kantutjämning</short>
+                <long>Typen av kantutjämning att använda när typsnitt ritas ut. Möjliga värden är: &quot;none&quot; för ingen kantutjämning, &quot;grayscale&quot; för standardkantutjämning med gråskala samt &quot;rgba&quot; för underbildpunktsutjämning (endast LCD-skärmar).</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>ஆன்டி அலயஸிங்</short>
+                <long>எழுத்துருக்களை வரையும்போது பயன்படுத்த ஆன்டி அலயசிங்க். மதிப்புகள்: &quot;ஏதுமில்லை&quot; ஆன்டி அலயசிங்க் தேவை இல்லை. &quot;சாம்பல் சாயல்&quot; செந்தர &quot;சாம்பல் சாயல் ஆன்டி அலயசிங்க்.  ஆர்ஜிபிஏ துணைபடத்துணுக்கு ஆன்டி அலயசிங்க்  (எல்சிடி திரைகளுக்கு மட்டில்.</long>
+            </locale>
+
+            <locale name="te">
+	        <short>వ్యతిరేకఉపనామకరణం</short>
+                <long>ఫాంట్లను ప్రస్పుటంచేస్తున్నప్పుడు ఉపయోగించు వ్యతిరేకఉపనామకరణం రకం. సాద్యమగు విలువలు: &quot;ఏదీకాదు&quot; వ్యతిరేకఉపనామకరణం లేదు కు, &quot;గ్రేస్కేల్&quot; ప్రామాణిక గ్రేస్కేల్ వ్యతిరేకఉపనామకరణకు, మరియు &quot;rgba&quot; ఉపపిగ్జెల్ వ్యతిరేకఉపనామకరణంకు (LCD తెరలు మాత్రమే).</long>
+            </locale>
+
+            <locale name="th">
+	        <short>การขจัดรอยหยัก</short>
+                <long>วิธีการขจัดรอยหยักเมื่อวาดตัวอักษร ค่าที่เป็นไปได้คือ: &quot;none&quot; คือไม่ทำ, &quot;grayscale&quot; คือการไล่สีเทาตามปกติ และ &quot;rgba&quot; คือใช้พิกเซลย่อย (สำหรับจอ LCD เท่านั้น)</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>Yumuşatma</short>
+                <long>Yazıtipleri taranırken kullanılacak yumuşatma türü. Geçerli değerler: &quot;none&quot; - yumuşatma yok. &quot;grayscale&quot; - standart gri ölçek yumuşatma ve &quot;rgba&quot;  - alt piksel yumuşatma (sadece LCD ekranlar).</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>Згладжування</short>
+                <long>Тип згладжування, що використовується при растеризації шрифтів. Можливі значення: &quot;none&quot; - без згладжування, &quot;grayscale&quot; - стандартне чорно-біле згладжування, &quot;rgba&quot; - субпіксельне згладжування (лише для ЖК-дисплеїв).</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>Làm trơn</short>
+                <long>Phương pháp làm trơn cần làm khi vẽ phông chữ. Giá trị có thể:
+ • none		không làm trơn
+ • grayscale	làm trơn ở mức xám tiêu chuẩn
+ • rgba		làm trơn ở mức điểm ảnh phụ (chỉ cho màn hình LCD).</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>反锯齿</short>
+                <long>绘制字形时使用的反锯齿类型。可能的设定有：“无” - 无反锯齿。“灰度” - 标准灰度反锯齿。“rgba” - 次像素反锯齿 (LCD 屏幕专用)。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>平滑化</short>
+                <long>繪製字型時所用的平滑化類型。可能的數值有：「none」為不使用平滑化，「grayscale」為標準的灰階平滑化，而「rgba」是子像素平滑化（只適用 LCD 螢幕）。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>平滑化</short>
+                <long>繪製字型時所用的平滑化類型。可能的數值有：「none」為不使用平滑化，「grayscale」為標準的灰階平滑化，而「rgba」是子像素平滑化（只適用 LCD 螢幕）。</long>
+            </locale>
+        </schema>
+	<schema>
+	    <key>/schemas/desktop/gnome/font_rendering/hinting</key>
+	    <applyto>/desktop/gnome/font_rendering/hinting</applyto>
+            <owner>gnome</owner>
+	    <type>string</type>
+            <default>medium</default>
+            <locale name="C">
+	        <short>Hinting</short>
+                <long>
+		  The type of hinting to use when rendering fonts.
+                  Possible values are: "none" for no hinting, 
+		  "slight" for basic, "medium" for moderate, and
+                  "full" for maximum hinting (may cause
+                  distortion of letter forms).
+		</long>
+            </locale>
+
+            <locale name="ar">
+	        <short>التلميحات</short>
+                <long>نوع التلميحات المستعمل عند تصيير الخطوط. القيم الممكنة هي : &quot;none&quot; بدون ه، &quot;slight&quot; بدائي، &quot;medium&quot; قليل، و &quot;full&quot; أقصى ه (يمكن أن يؤدي إلى اعوجاج شكل الحروف).</long>
+            </locale>
+
+            <locale name="as">
+	        <short>হিন্টিং</short>
+                <long>ফন্ট ৰেণ্ডাৰ কৰোঁতে ব্যৱহৃত hinting ৰ ধৰণ  । সাম্ভাব্য মান হ&apos;ল: &quot;none&quot; hinting নকৰাৰ বাবে, &quot;slight&quot; মৌলিকৰ বাবে, &quot;medium&quot; মধ্যমৰ বাবে, আৰু &quot;full&quot; সৰ্বাধিক hinting ৰ কাৰণে(আখৰৰ আকাৰ বেয়া কৰিবও পাৰে)  ।</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>Contornu</short>
+                <long>El tipu de contornu qu&apos;usar cuando se renderizen les fontes. Los valores dables son: &quot;none&quot; ensin contornu, &quot;slight&quot; pa un contornu básicu, &quot;medium&quot; pa un contornu moderáu y &quot;full&quot; pa un contornu máximo (pue distorsionar les formes de les lletres).</long>
+            </locale>
+
+            <locale name="be@latin">
+	        <short>Hinting</short>
+                <long>Typ hintingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: &quot;none&quot; (biaź hintingu), &quot;slight&quot; (prosty), &quot;medium&quot; (siaredni) i &quot;full&quot; (maksymalny hinting, moža vyklikać skryŭleńni formy litaraŭ).</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>Шрифтови подсказки</short>
+                <long>Видът на шрифтовите подсказки при изобразяване на шрифтове. Възможни стойности са „none“ (без подсказки), „slight“ (леки), „medium“ (средни) и „full“ (за пълни подсказки — възможно е да причини изкривяване на някои букви).</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>হিন্টিং</short>
+                <long>ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য হিন্টিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য &quot;none&quot;, সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য &quot;grayscale&quot;, ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) &quot;rgba&quot;।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>হিন্টিং</short>
+                <long>ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য হিন্টিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য &quot;none&quot;, সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য &quot;grayscale&quot;, ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) &quot;rgba&quot;।</long>
+            </locale>
+
+            <locale name="ca">
+	        <short>Contorn</short>
+                <long>El tipus de contorn que s&apos;utilitzarà per mostrar els tipus de lletra. Els valors possibles són: «none» (cap) cap contorn, «slight» (lleu) contorn petit, «medium» (mitjà) contorn moderat i «full» (complet) màxim contorn (pot produir distorsió en les formes de les lletres).</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>Contorn</short>
+                <long>El tipus de contorn que s&apos;utilitzarà per mostrar els tipus de lletra. Els valors possibles són: «none» (cap) cap contorn, «slight» (lleu) contorn petit, «medium» (mitjà) contorn moderat i «full» (complet) màxim contorn (pot produir distorsió en les formes de les lletres).</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>Düzeltme</short>
+                <long>Yazıtiplerinde kullanılacak düzeltme türü. Geçerli değerler &quot;none&quot; - düzeltme yok, &quot;slight&quot;, &quot;medium&quot;, ve &quot;full&quot; - mümkün olduğunca çok düzeltme (harf biçimlerinde bozulmalara sebep olabilir).</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>Hinting</short>
+                <long>Typ hintingu užitý při vykreslování písem. Možnými hodnotami jsou: &quot;none&quot; značí žádný hinting, &quot;slight&quot; značí základní, &quot;medium&quot; značí střední a &quot;full&quot; značí maximální hinting (může způsobit zkreslení jednotlivých písmen).</long>
+            </locale>
+
+            <locale name="da">
+	        <short>Skrifttype-hinting</short>
+                <long>Hinting-metode der bruges til skrifttyper. Mulige værdier er: &quot;none&quot; for ingen hinting, &quot;slight&quot; for basal, &quot;medium&quot; for moderat og &quot;full&quot; for maksimal hinting (kan forårsage forvrængning af bogstavformer).</long>
+            </locale>
+
+            <locale name="de">
+	        <short>Hinting</short>
+                <long>Die Art des Hinting, welches beim Darstellen von Schriften verwendet wird. Mögliche Werte sind: »none« für kein Hinting, »slight« für minimales, »medium« für normales und »full« für maximales Hinting (letzteres kann zum Entstellen der Buchstabenformen führen),</long>
+            </locale>
+
+            <locale name="el">
+	        <short>Εξομάλυνση</short>
+                <long>Ο τύπος του hinting που χρησιμοποιείται για την εμφάνιση των γραμματοσειρών. Οι πιθανές τιμές είναι: &quot;none&quot; για καθόλου hinting,  &quot;slight&quot; για βασικό, &quot;medium&quot; για μέτριο, και &quot;full&quot; για μέγιστο hinting (πιθανόν να προκαλέσει παραμόρφωση στις φόρμες των γραμμάτων).</long>
+            </locale>
+
+            <locale name="en@shaw">
+	        <short>𐑣𐑦𐑯𐑑𐑦𐑙</short>
+                <long>𐑞 𐑑𐑲𐑐 𐑝 𐑣𐑦𐑯𐑑𐑦𐑙 𐑑 𐑿𐑕 𐑢𐑧𐑯 𐑮𐑧𐑯𐑛𐑻𐑦𐑙 𐑓𐑪𐑯𐑑𐑕. 𐑐𐑪𐑕𐑩𐑚𐑩𐑤 𐑝𐑨𐑤𐑿𐑟 𐑸: &quot;none&quot; 𐑓𐑹 𐑯𐑴 𐑣𐑦𐑯𐑑𐑦𐑙, &quot;slight&quot; 𐑓𐑹 𐑚𐑱𐑕𐑦𐑒, &quot;medium&quot; 𐑓𐑹 𐑥𐑴𐑛𐑮𐑱𐑑, 𐑯 &quot;full&quot; 𐑓𐑹 𐑥𐑨𐑒𐑕𐑦𐑥𐑩𐑥 𐑣𐑦𐑯𐑑𐑦𐑙 (𐑥𐑱 𐑒𐑷𐑟 𐑛𐑦𐑕𐑑𐑪𐑮𐑖𐑩𐑯 𐑝 𐑤𐑧𐑑𐑼 𐑓𐑹𐑥𐑟).</long>
+            </locale>
+
+            <locale name="en_GB">
+	        <short>Hinting</short>
+                <long>The type of hinting to use when rendering fonts. Possible values are: &quot;none&quot; for no hinting, &quot;slight&quot; for basic, &quot;medium&quot; for moderate, and &quot;full&quot; for maximum hinting (may cause distortion of letter forms).</long>
+            </locale>
+
+            <locale name="es">
+	        <short>Contorno</short>
+                <long>El tipo de contorno que usar cuando se renderizen las tipografías. Los valores posibles son: &quot;none&quot; sin contorno, &quot;slight&quot; para un contorno básico, &quot;medium&quot; para un contorno moderado y &quot;full&quot; para un contorno máximo (puede distorsionar las formas de las letras).</long>
+            </locale>
+
+            <locale name="et">
+	        <short>Varjundamine</short>
+                <long>Fontide renderdamisel kasutatav varjundamise tüüp. Võimaliku väärtused on &quot;none&quot; varjundamise keelamiseks, &quot;slight&quot; lihtsa, &quot;medium&quot; keskmise ja &quot;full&quot; maksimaalse varjundamise jaoks (võib põhjustada tähekujude moondumist).</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>Hizkien tartea</short>
+                <long>Hizkien arteko tarte mota letrak errendatzean erabiltzeko. Balio erabilgarriak: &quot;none&quot; (ezer ez), hizkien arteko tarterik ez; &quot;slight&quot;, &quot;medium&quot; eta &quot;full&quot; ahalik eta hizkien arteko tarte handiena (letra-formak distortsionatzea eragin dezake).</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>Vihjeistys</short>
+                <long>Kirjasimia piirrettäessä käytettävä vihjeistystapa. Mahdolliset arvot ovat: &quot;none&quot; (ei vihjeistystä), &quot;slight&quot; (kevyt vihjeistys), &quot;medium&quot; (tavallinen vihjeistys) &quot;full&quot; (suurin mahdollinen, saattaa aiheuttaa kirjainmuotojen säröytymistä)</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>Optimisation</short>
+                <long>Le type d&apos;optimisation utilisé pour le rendu des polices. Les valeurs possibles sont : « none » pour aucune optimisation, « slight » pour le minimum, « medium » pour une optimisation moyenne et « full » pour le maximum possible (peut occasionner des distorsions sur la forme des lettres).</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>Leidiú</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>Optimización</short>
+                <long>O tipo de suavizado que usar para renderizar os tipos de letras. Os valores posíbeis son: &quot;none&quot; para non usar ningún suavizado, &quot;slight&quot; para o básico, &quot;medium&quot; para o moderado e &quot;full&quot; para o suavizado máximo (pode distorsionar as formas das letras).</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>હિંટીંગ</short>
+                <long>જ્યારે ફોન્ટ રેન્ડર કરી રહ્યા હોય ત્યારે વાપરવાનો હીંટીંગ પ્રકાર. શક્ય કિંમતો: કોઈપણ હીંટીંગ નહિં હોય તે માટે &quot;કંઈનહિં&quot;, મૂળભૂત માટે &quot;આછું&quot;, મધ્યમ માટે &quot;મધ્યમ&quot;, મહત્તમ હીંટીંગ માટે &quot;પૂર્ણ&quot; (અક્ષર સ્વરૂપોના ભંગાણનું કારણ સર્જી શકશે).</long>
+            </locale>
+
+            <locale name="he">
+	        <short>Hinting</short>
+                <long>The type of hinting to use when rendering fonts. Possible values are: &quot;none&quot; for no hinting, &quot;slight&quot; for basic, &quot;medium&quot; for moderate, and &quot;full&quot; for maximum hinting (may cause distortion of letter forms).</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>हिंटिंग</short>
+                <long>फ़ॉन्ट रेंडर किए जाने के लिए प्रयोग के लिए हिंटिंग का प्रकार. संभावित मान हैं: &quot;none&quot; हिंटिंग के लिए नहीं, &quot;slight&quot; आधारभूत के लिए, &quot;medium&quot; मध्यवर्तियों के लिए, और &quot;full&quot; अधिकतम हिंटिंग के लिए (किसी अक्षर प्रारूप के कारण विरूपता है).</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>Hinting</short>
+                <long>A betűkészletek megjelenítéséhez használandó hinting típusa. A lehetséges értékek: „none” (hinting kikapcsolása), „slight” (alapszintű), „medium” (mérsékelt) és „full” (teljes - ez torzíthatja a betűformákat).</long>
+            </locale>
+
+            <locale name="it">
+	        <short>Approssimazione</short>
+                <long>Il tipo di approssimazione (hinting) da usare nella resa a schermo dei tipi di carattere. Valori ammessi sono: &quot;none&quot; per nessuna approssimazione, &quot;slight&quot; per essenziale, &quot;medium&quot; per moderata e &quot;full&quot; per la massima approssimazione (può causare distorsioni nella forma delle lettere).</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>ヒンティング</short>
+                <long>フォントを描画する際に使用するヒンティング (線幅を補正する) の種類を指定します。利用可能な値: &quot;none&quot; はヒンティングを無効にする、&quot;slight&quot; は基本的なヒンティングのみ、&quot;medium&quot; は穏やかなヒンテイング、&quot;full&quot; は最大限のヒンテイング (文字の形状に歪みが発生する可能性あり)</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>ಹಿಂಟಿಂಗ್</short>
+                <long>ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ರೆಂಡರಿಂಗ್ ಮಾಡಲು ಬಳಸಬೇಕಿರುವ ಹಿಂಟಿಂಗ್ ಪ್ರಕಾರ. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: ಯಾವುದೆ ಹಿಂಟಿಂಗ್ ಬೇಡವಾದಲ್ಲಿ &quot;ಯಾವುದೂ ಇಲ್ಲ&quot;, ಆರಂಭಿಕ ಮಟ್ಟಕ್ಕಾಗಿ &quot;ಕೊಂಚ&quot;, ಮಧ್ಯಮ ಮಟ್ಟಕ್ಕಾಗಿ &quot;ಮಧ್ಯಮ&quot;, ಹಾಗು ಗರಿಷ್ಟ ಹಿಂಟಿಂಗ್‌ಗಾಗಿ &quot;ಸಂಪೂರ್ಣ&quot; (ಇದು ಅಕ್ಷರಗಳನ್ನು ವಿರೂಪಗೊಳಿಸಬಹುದು).</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>힌팅</short>
+                <long>글꼴을 렌더링할 때 사용할 힌팅 방법. 사용 가능한 값은: &quot;none&quot;이면 힌팅 없음, &quot;slight&quot;이면 기초적인 방법, &quot;medium&quot;이면 중간, &quot;full&quot;이면 최대 힌팅 (글자 모양이 왜곡될 수도 있습니다).</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>Taškinė korekcija</short>
+                <long>Taškinės korekcijos tipas šriftams atvaizduoti. Galimos vertės yra: „none“ - netaikyti taškinės korekcijos, „slight“ - bazinė, „medium“ - vidutinė ir „full“ - didžiausia galima (gali iškraipyti kai kurių raidžių formą).</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>Norādīšana</short>
+                <long>Kāda veida norādīšanu izmantot, kad renderē fontus. Iespējamās vērtības ir &quot;none&quot; – bez norādīšanas, &quot;slight&quot; vienkāršai, &quot;medium&quot; vidējai, &quot;full&quot; maksimālai norādīšanai (var radīt kropļojumus burtu formās).</long>
+            </locale>
+
+            <locale name="mai">
+	        <short>हिंटिंग</short>
+                
+            </locale>
+
+            <locale name="mk">
+	        <short>Совети</short>
+                <long>Типот на хинтинг кој ќе се користи за рендерирање на фонтови. Можни вредности се „none“ за без хинтинг, „slight“ основен хинтинг, „medium“ - среден хинтинг и „full“ за целосен хинтинг (кој може да предизвика искривување на формата на фонтот).</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>&lt;b&gt;ഹിന്റിങ്ങ്(നിര്‍ദ്ദേശം കൊടുക്കല്‍)&lt;/b&gt;:</short>
+                <long>ലിപികള്‍ അവതരിപ്പിക്കുംബോള്‍ ഉപയോഗിക്കേണ്ട തരം നിര്‍ദ്ദേശങ്ങള്‍. ഉപയോഗിക്കാവുന്ന വിലകള്‍ :   &quot;none&quot;(&quot;ഒന്നും അല്ല&quot;) നിര്‍ദ്ദേശങ്ങള്‍ വേണ്ടെങ്കില്‍, &quot;slight&quot;(&quot;ചെറുതായിട്ട്&quot;) അടിസ്ഥാനപരമായതിന്,&quot;medium&quot;( &quot;പരിമിതം&quot;) പരിമിതമായതിനായ് ,&quot;full&quot;( &quot;മുഴുവന്‍&quot;) ഏറ്റവും കൂടുതല്‍ നിര്‍ദ്ദേശങ്ങള്‍ക്കായ് (അക്ഷര രൂപങ്ങളില്‍ വ്യത്യാസം വരുത്തിയേക്കാം).</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>हिंटींग</short>
+                <long>फॉन्ट दर्शवितेवेळी वापरण्याजोगी हिन्टींगचा प्रकार. संभाव्य मुल्य खालिल नुरूप आहे: &quot;none&quot; शून्य हिन्टींग करीता, &quot;slight&quot; मुलभूत करीता, &quot;medium&quot; मध्य करीता, व &quot;rgba&quot; उपपीक्सेल अलायसींग करीता (फक्त LCD पडदा करीता).</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>Hinting</short>
+                <long>Type hinting som skal brukes ved rendring av skrifter. Mulige verdier er «none» for ingen hinting, «slight» for grunnleggende, «medium» for moderat, og «full» for maksimal hinting (kan forårsake forvrenging av bokstavformer).</long>
+            </locale>
+
+            <locale name="nl">
+	        <short>Hinten</short>
+                <long>Het type hinten dat gebruikt wordt bij het renderen van lettertekens. Mogelijke waarden zijn: ‘none’ voor niet hinten, ‘slight’ voor weinig, ‘medium’ voor gemiddeld, en ‘full’ voor maximaal hinten (kan vervorming van letters veroorzaken).</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>Hinting</short>
+                <long>Type hinting som skal brukast ved rendring av skrifter. Moglege verdiar er «none» for inga hinting, «slight» for grunnleggjande, «medium» for moderat, og «full» for maksimal hinting (kan forårsake forvrenging av bokstavformer).</long>
+            </locale>
+
+            <locale name="or">
+	        <short>ସଙ୍କେତ ଦେଉଅଛି</short>
+                <long>ଅକ୍ଷରରୂପ ଚିତ୍ରଣକୁ ବ୍ୟବହାର କରିବା ପାଇଁ ସୂଚନା ପ୍ରକାର। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି: &quot;none&quot; ସୂଚନା ନଥିବା ପାଇଁ, &quot;slight&quot; ମୌଳିକ ସୂଚନା ପାଇଁ, &quot;medium&quot; ମଧ୍ଯମ ସୂଚନା ପାଇଁ, ଏବଂ &quot;full&quot; ସର୍ବାଧିକ ସୂଚନା ପାଇଁ (ପରବର୍ତ୍ତୀ ଫର୍ମର ବିକୃତି ହୋଇପାରେ)।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>ਹਿੰਟਿੰਗ</short>
+                <long>ਫੋਂਟ ਰੈਡਰਿੰਗ ਕਰਨ ਦੌਰਾਨ ਹਿੰਟਿੰਗ ਦੀ ਟਾਈਪ ਹੈ। ਸੰਭਵ ਮੁੱਲ ਹਨ: ਨਾ ਹਿੰਟਿੰਗ ਲਈ &quot;none (ਕੋਈ ਨਹੀਂ)&quot;, ਬੇਸਿਕ ਲਈ &quot;slight (ਹਲਕੀ)&quot;, ਮੱਧਮ ਲਈ &quot;medium (ਮੱਧਮ)&quot; ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਹਿੰਟਿੰਗ ਲਈ &quot;full (ਪੂਰੀ)&quot; (ਅੱਖਰ ਬਣਨ ਸਮੇਂ ਕਰੂਪ ਹੋ ਸਕਦੇ ਹਨ)।</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>Hinting</short>
+                <long>Rodzaj hintingu renderowanych czcionek. Możliwe wartości to: &quot;Brak&quot; dla wyłączonego hintingu, &quot;Lekki&quot; dla podstawowego, &quot;Średni&quot; dla zaawansowanego oraz &quot;Pełny&quot; dla maksymalnego hintingu (może zniekształcać czcionki).</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>Dicas de Fonte</short>
+                <long>O tipo de dicas a utilizar ao renderizar fontes. Valores possíveis são: &quot;none&quot; para nenhumas dicas, &quot;slight&quot; para básicas, &quot;medium&quot; para moderadas, e &quot;full&quot; para dicas máximas (poderá causar distorção na forma das letras).</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>Hinting</short>
+                <long>O tipo de hinting a utilizar ao renderizar fontes. Valores possíveis são: &quot;none&quot; (nenhum), &quot;slight&quot; (discreto), &quot;medium&quot; (médio) , e &quot;full&quot; (completo) (poderá causar distorção na forma das letras).</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>Aproximare</short>
+                <long>Tipul de indiciu folosit la afișarea fonturilor. Valorile posibile sunt: „none” pentru nici un indiciu, „slight” pentru cel de bază, „medium” pentru moderat și  „full” pentru maxim (poate cauza distorsionarea formei literelor).</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>Хинтинг</short>
+                <long>Тип хинтинга, используемый при растеризации шрифтов. Возможные значения: «none» — без хинтинга, «slight» — базовый, «medium» - умеренный, «full» — максимальный хинтинг (может вызвать искажение формы символов).</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>Úprava rozostupov písmen</short>
+                <long>Typ úpravy rozostupov písmen použitej pri vykresľovaní písma. Možné hodnoty sú: &quot;none&quot; pre žiadnu úpravu, &quot;slight&quot; pre jemnú (základnú), &quot;medium&quot; na strednú a &quot;full&quot; pre úplnú úpravu (môže spôsobiť skreslenie tvarov písmen).</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>Prilagajanje pisave</short>
+                <long>Vrsta prilagoditve pisave uporabljena med izrisovanjem pisav. Mogoče vrednosti so  &quot;brez&quot; za prezrto prilagoditev, &quot;delno&quot; za osnovno, &quot;srednje&quot; za srednje in &quot;polno&quot; za napredno prilagajanje (lahko zamegli videz črk).</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>Дотеривање</short>
+                <long>Врста дотеривања приликом исцртавања фонтова. Могуће вредности су: „none“ за искључивање дотеривања, „slight“ за основно дотеривање, „medium“ за средњи ниво дотеривања и „full“ за највеће дотеривање (може да направи изобличења у формама писма).</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>Doterivanje</short>
+                <long>Vrsta doterivanja prilikom iscrtavanja fontova. Moguće vrednosti su: „none“ za isključivanje doterivanja, „slight“ za osnovno doterivanje, „medium“ za srednji nivo doterivanja i „full“ za najveće doterivanje (može da napravi izobličenja u formama pisma).</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>Hintning</short>
+                <long>Typen av hintning att använda när typsnitt ritas ut. Möjliga värden är: &quot;none&quot; för ingen hintning, &quot;slight&quot; för grundläggande, &quot;medium&quot; för medel samt &quot;full&quot; för maximal hintning (kan orsaka distortion av bokstavsformer).</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>விளிம்பு பலப்படுத்தல்</short>
+                <long>எழுத்துருக்களை வரையும் போது பயன்படுத்த விளிம்பு பலமாக்கம். மதிப்புகள்:&quot;ஏதுமில்லை&quot; பலமாக்கல் தெவை இல்லை. &quot;சற்று&quot;: அடிப்படை பலமாக்கம். &quot;நடுத்தரம்&quot; &quot;முழு&quot; அதிக பட்ச பலமாக்கம்.( எழுத்துருவே மாறிவிடலாம்.)</long>
+            </locale>
+
+            <locale name="te">
+	        <short>హింటింగ్</short>
+                <long>ఫాంట్లను ప్రస్పుటం చేస్తున్నప్పుడు ఉపయోగించవలిసిన హింటింగ్ రకం. సాధ్యమగు విలువలు: &quot;ఏదీకాదు&quot; హింటింగ్ కొరకు, &quot;స్వల్ప&quot; ప్రాదమికంకు, &quot;మద్యమం&quot; నవీనతకు, మరియు &quot;పూర్తిగా&quot; గరిష్ఠ హింటింగ్ కు (ఆక్షర రూపాల యొక్క విరూపంకు కారణం అవ్వొచ్చు).</long>
+            </locale>
+
+            <locale name="th">
+	        <short>Hinting</short>
+                <long>วิธีการ hint ที่จะใช้เมื่อวาดแบบอักษร ค่าที่เป็นไปได้คือ: &quot;none&quot; คือไม่ hint, &quot;slight&quot; คือ hint แบบพื้นฐาน, &quot;medium&quot; คือ hint แบบปานกลาง, และ &quot;full&quot; คือ hint แบบเต็มที่ (การ hint อาจทำให้รูปร่างของตัวอักษรเปลี่ยนไป)</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>Düzeltme</short>
+                <long>Yazıtiplerinde kullanılacak düzeltme türü. Geçerli değerler &quot;none&quot; - düzeltme yok, &quot;slight&quot;, &quot;medium&quot;, ve &quot;full&quot; - mümkün olduğunca çok düzeltme (harf biçimlerinde bozulmalara sebep olabilir).</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>Хінтінг</short>
+                <long>Тип хінтінгу, що використовується растеризації шрифтів. Можливі значення: &quot;none&quot; - без хінтінгу, &quot;slight&quot; - базовий, &quot;medium&quot; - помірний, &quot;full&quot; - максимальний хінтінг (може призводити до викривлення форми символів).</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>Tinh chỉnh phông</short>
+                <long>Phương pháp tinh chỉnh phông cần làm khi vẽ phông chữ. Giá trị có thể:
+ • none		không tinh chỉnh phông
+ • slight		cơ bản
+ • medium	vừa
+ • full		tối đa (có thể gây ra sự méo mó trên các mẫu chữ).</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>微调</short>
+                <long>绘制字形时使用微调的类型。可能的设定有：“无” - 无微调，“轻微”，“中等”以及“完全” - 尽量多地进行微调(可能会引起字形扭曲)。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>Hinting</short>
+                <long>繪製字型時所用的 hinting 類型。可能的數值有：「none」為不使用 hinting，「slight」為基本式，「medium」為中等程度，而「full」是最大的 hinting（可能造成字體破碎）。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>Hinting</short>
+                <long>繪製字型時所用的 hinting 類型。可能的數值有：「none」為不使用 hinting，「slight」為基本式，「medium」為中等程度，而「full」是最大的 hinting（可能造成字體破碎）。</long>
+            </locale>
+        </schema>
+	<schema>
+	    <key>/schemas/desktop/gnome/font_rendering/rgba_order</key>
+	    <applyto>/desktop/gnome/font_rendering/rgba_order</applyto>
+            <owner>gnome</owner>
+	    <type>string</type>
+            <default>rgb</default>
+            <locale name="C">
+	        <short>RGBA order</short>
+                <long>
+                  The order of subpixel elements on an LCD
+                  screen; only used when antialiasing is set to "rgba".
+                  Possible values are: "rgb" for red on left (most common),
+                  "bgr" for blue on left, "vrgb" for red on top, "vbgr" for
+                  red on bottom.
+		</long>
+            </locale>
+
+            <locale name="ar">
+	        <short>ترتيب RGBA</short>
+                <long>ترتيب عناصر أجزاء البكسل على شاشة LCD؛ يُستخدم فقط عند ضبط تنعيم إلى &quot;rgba&quot;. القيم الممكنة هي : &quot;rgb&quot; أحمر على اليسار (الأكثر انتشارا)، &quot;bgr&quot; أزرق على اليسار، &quot;vrgb&quot; أحمر على الأعلى، &quot;vbgr&quot; أحمر على الأسفل.</long>
+            </locale>
+
+            <locale name="as">
+	        <short>RGBA ক্ৰম</short>
+                <long>The order of subpixel elements on an LCD screen; only used when antialiasing is set to &quot;rgba&quot;. Possible values are: &quot;rgb&quot; for red on left (most common), &quot;bgr&quot; for blue on left, &quot;vrgb&quot; for red on top, &quot;vbgr&quot; for red on bottom.</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>Orde RGBA</short>
+                <long>L&apos;orde de los elementos subpíxel nuna pantalla LCD; namái s&apos;usa cuando l&apos;antialies ta configuráu en &quot;rgba&quot;. Los valores dables son &quot;rgb&quot; pa bermeyu a la esquierda, (el más avezáu), &quot;bgr&quot; p&apos;azul a la esquierda, &quot;vrgb&quot; pa bermeyu arriba y &quot;vbgr&quot; pa bermeyu abaxo.</long>
+            </locale>
+
+            <locale name="be@latin">
+	        <short>Paradak RGBA</short>
+                <long>Paradak subpikselnych elementaŭ na ekranie LCD; upłyvaje, tolki kali antialiasing maje vartaść &quot;rgba&quot;. Mahčymyja vartaści: &quot;rgb&quot; (čyrvony źleva, najčaściej tak), &quot;bgr&quot; (sini źleva) &quot;vrgb&quot; (čyrvony ŭviersie) &quot;vbgr&quot; (čyrvony ŭnizie).</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>Ред на RGBA</short>
+                <long>Редът на подпикселните елементи при екран тип LCD — използва се, само когато заглаждането е зададено на „rgba“. Възможни стойности са „rgb“ (за червено отляво — най-често срещано), „bgr“ (за синьо отляво), „vrgb“ (за червено отгоре) и „vbgr“ (за червено отдолу).</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>RGBA ক্রম</short>
+                <long>LCD পর্দায় উপস্থিত সাব-পিক্সেল বস্তুর অনুক্রম; অ্যান্টি-অ্যালায়েসিংয়ের মান &quot;rgba&quot; নির্ধারিত হলে এটি ব্যবহার করা হবে। সম্ভাব্য মান হল: বাঁদিকে লাল ব্যবহারের জন্য &quot;rgb&quot; (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য &quot;bgr&quot;, উপরে লাল ব্যবহারের জন্য &quot;vrgb&quot;, নীচে লাল ব্যবহারের জন্য &quot;vbgr&quot;।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>RGBA ক্রম</short>
+                <long>LCD পর্দায় উপস্থিত সাব-পিক্সেল বস্তুর অনুক্রম; অ্যান্টি-অ্যালায়েসিংয়ের মান &quot;rgba&quot; নির্ধারিত হলে এটি ব্যবহার করা হবে। সম্ভাব্য মান হল: বাঁদিকে লাল ব্যবহারের জন্য &quot;rgb&quot; (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য &quot;bgr&quot;, উপরে লাল ব্যবহারের জন্য &quot;vrgb&quot;, নীচে লাল ব্যবহারের জন্য &quot;vbgr&quot;।</long>
+            </locale>
+
+            <locale name="br">
+	        <short>Urzh RGBA</short>
+                
+            </locale>
+
+            <locale name="ca">
+	        <short>Ordre del RGBA</short>
+                <long>L&apos;ordre dels elements de subpíxel d&apos;una pantalla LCD. Només s&apos;utilitza si el suavitzat és «RGBA». Els valors possibles són: «RGB» per al vermell (R) a l&apos;esquerra (el més comú), «BGR» per al blau (B) a l&apos;esquerra, «VRGB» per al vermell a dalt, «VBGR» per al vermell a baix.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>Orde del RGBA</short>
+                <long>L&apos;orde dels elements de subpíxel d&apos;una pantalla LCD. Només s&apos;utilitza si el suavitzat és «RGBA». Els valors possibles són: «RGB» per al roig (R) a l&apos;esquerra (el més comú), «BGR» per al blau (B) a l&apos;esquerra, «VRGB» per al roig a dalt, «VBGR» per al roig a baix.</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>RGBA sırası</short>
+                <long>LCD ekranında kullanılacak alt piksel öğelerinin sırası; sadece yumuşatma &quot;rgba&quot; olarak atandığında kullanılır. Geçerli değerler: &quot;rgb&quot; - kırmızı solda (en yaygın), &quot;bgr&quot; - mavi solda. &quot;vrgb&quot;- kırmızı yukarıda. &quot;vbgr&quot; - kırmızı aşağıda.</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>Pořadí RGBA</short>
+                <long>Pořadí subpixelových prvků na obrazovce LCD; užito pouze při vyhlazování nastaveném na &quot;rgba&quot;. Možnými hodnotami jsou: &quot;rgb&quot; značí červenou vlevo (nejběžnější), &quot;bgr&quot; značí modrou vlevo, &quot;vrgb&quot; značí červenou nahoře, &quot;vbgr&quot; značí červenou dole.</long>
+            </locale>
+
+            <locale name="da">
+	        <short>RGBA-rækkefølge</short>
+                <long>Rækkefølgen af underpixelelementer på en LCD-skærm; bruges kun når pixeludjævning er sat til &quot;rgba&quot;. Mulige værdier er: &quot;rgb&quot; for rød til venstre (den mest almindelige), &quot;bgr&quot; for blå til venstre, &quot;vrgb&quot; for rød øverst, &quot;vbgr&quot; for rød nederst.</long>
+            </locale>
+
+            <locale name="de">
+	        <short>RGBA-Abfolge</short>
+                <long>Die Abfolge der Sub-Pixel-Elemente eines Flachbildschirms. Wird nur verwendet, wenn die Kantenglättung auf »rgba« gesetzt ist. Mögliche Werte sind: »rgb« für Rot auf links (am meisten verbreitet), »bgr« für Blau auf links, »vrgb« für Rot oben und »vbgr« für Rot unten.</long>
+            </locale>
+
+            <locale name="el">
+	        <short>Σειρά RGBA</short>
+                <long>Η σειρά των στοιχείων subpixel σε μια οθόνη LCD. Χρησιμοποιείται μόνο όταν η το antialiasing έχει ορισθεί σε &quot;rgba&quot;. Οι πιθανές τιμές είναι: &quot;rgb&quot; για κόκκινο στα αριστερά (το πιο κοινό), &quot;bgr&quot; για μπλε στα αριστερά, &quot;vrgb&quot; για κόκκινο στο άνω μέρος, &quot;vbgr&quot; για κόκκινο κάτω.</long>
+            </locale>
+
+            <locale name="en_GB">
+	        <short>RGBA order</short>
+                <long>The order of subpixel elements on an LCD screen; only used when antialiasing is set to &quot;rgba&quot;. Possible values are: &quot;rgb&quot; for red on left (most common), &quot;bgr&quot; for blue on left, &quot;vrgb&quot; for red on top, &quot;vbgr&quot; for red on bottom.</long>
+            </locale>
+
+            <locale name="es">
+	        <short>Orden RGBA</short>
+                <long>El orden de los elementos subpíxel en una pantalla LCD; sólo se usa cuando el antialias está configurado en &quot;rgba&quot;. Los valores posibles son &quot;rgb&quot; para rojo a la izquierda (el más común), &quot;bgr&quot; para azul a la izquierda, &quot;vrgb&quot; para rojo arriba y &quot;vbgr&quot; para rojo abajo.</long>
+            </locale>
+
+            <locale name="et">
+	        <short>RGBA järjestus</short>
+                <long>Alampikslite elementide järjestus LCD-ekraanil. Kasutatakse ainult juhul, kui sakisilumise väärtuseks on määratud &quot;rgba&quot;. Võimalikud väärtused: &quot;rgb&quot; - punane on vasakul (enimkasutatav), &quot;bgr&quot; - sinine on vasakul, &quot;vrgb&quot; - punane on üleval, &quot;vbgr&quot; - punane on all.</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>GBUA ordena</short>
+                <long>LCD pantailako azpipixel elementuen ordena, antialiasing-a &quot;rgba&quot; (gbua)balioarekin ezartzean bakarrik erabiltzen da. Balio erabilgarriak: &quot;rgb&quot; (gbu) - gorrian ezkerrean (erabiliena); &quot;bgr&quot; (ubg) - urdina ezkerrean; &quot;vrgb&quot; (bgbu) gorrian goian; &quot;vbgr&quot; (bubg) - gorria behean.</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>RGBA-järjestys</short>
+                <long>Pikselin osien järjestys LCD-näytöllä: käytetään vain, kun antialiasointi on arvossa &quot;rgba&quot;. Mahdolliset arvot ovat: &quot;rgb&quot; - punainen vasemmalla (yleisin), &quot;bgr&quot; punainen vasemmalla, &quot;vrgb&quot; punainen ylhäällä, &quot;vbgr&quot; punainen alhaalla.</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>Ordre RVBA</short>
+                <long>L&apos;ordre des éléments sous-pixels sur un écran LCD ; uniquement utilisé si l&apos;anticrénelage est défini à « rgba ». Les valeurs possibles sont « rgb » pour le rouge à gauche (le plus courant), « bgr » pour le bleu à gauche, « vrgb » pour le rouge en haut, « vbgr » pour le rouge en bas.</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>Ord RGBA</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>Orde RGBA</short>
+                <long>A orde dos elementos de subpíxeles nunha pantalla LCD; só se usa cando o suavizado se define como &quot;rgba&quot;. Os valores posíbeis son: &quot;rgb&quot; para o vermello na esquerda (o máis común), &quot;bgr&quot; para o azul na esquerda, &quot;vrgb&quot; para o vermello arriba, &quot;vbgr&quot; para o vermello abaixo.</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>RGBA ક્રમ</short>
+                <long>LCD સ્ક્રીન પર ઉપપિક્સેલ ઘટકોનો ક્રમ; માત્ર ત્યારે જ વપરાય છે જ્યારે એન્ટીએલિઆઝીંગ &quot;rgba&quot; માં સુયોજીત થયેલ હોય. શક્ય કિંમતો: ડાબી બાજુએ લાલ માટે &quot;rgb&quot; (એકદમ સામાન્ય), ડાબી બાજુએ ભૂરા માટે &quot;bgr&quot;, ટોચ પર લાલ માટે &quot;vrgb&quot;, તળિયે લાલ માટે &quot;vbgr&quot;.</long>
+            </locale>
+
+            <locale name="he">
+	        <short>RGBA order</short>
+                <long>The order of subpixel elements on an LCD screen; only used when antialiasing is set to &quot;rgba&quot;. Possible values are: &quot;rgb&quot; for red on left (most common), &quot;bgr&quot; for blue on left, &quot;vrgb&quot; for red on top, &quot;vbgr&quot; for red on bottom.</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>RGBA क्रम</short>
+                <long>किसी LCD स्क्रीन पर उपपिक्सेल तत्व के क्रम में; केवल तभी प्रयुक्त दब एंटीएलियांसिंग &quot;rgba&quot; पर सेट है. संभावित मान हैं), &quot;bgr&quot; for blue on left, &quot;vrgb&quot; for red on top, &quot;vbgr&quot; for red on bottom.</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>RGBA sorrend</short>
+                <long>Az LCD képernyő alképpont-elemeinek sorrendje; csak akkor kerül felhasználásra, ha az élsimítás típusa „rgba”. A lehetséges értékek: „rgb” (vörös a bal oldalon - a leggyakoribb), „bgr” (kék a bal oldalon), „vrgb” (vörös fent), „vbgr” (vörös lent).</long>
+            </locale>
+
+            <locale name="it">
+	        <short>Ordine RGBA</short>
+                <long>L&apos;ordine degli elementi subpixel su uno schermo LCD; usato solo quando antialiasing è impostato a &quot;rgba&quot;. Valori possibili sono: &quot;rgb&quot; per rosso a sinistra (il più comune), &quot;bgr&quot; per blu a sinistra, &quot;vrgb&quot; per rosso in alto, &quot;vbgr&quot; per rosso in basso.</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>RGBA の順番</short>
+                <long>LCD 画面でサブピクセルの各要素の順番を指定します (これは Antialiasing を &quot;rgba&quot; にセットした時にのみ適用されます)。利用可能な値: &quot;rgb&quot; は左端が赤色 (最も一般的)、&quot;bgr&quot; は左端が青色、&quot;vrgb&quot; は上端が赤色、&quot;vbgr&quot; は下端が赤色</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>RGBA ಕ್ರಮ</short>
+                <long>ಒಂದು LCD ತೆರೆಯಲ್ಲಿ ಸಬ್‌ಪಿಕ್ಸೆಲ್‌ ಘಟಕಗಳ ಕ್ರಮ; ಕೇವಲ &quot;rgba&quot; ಗೆ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ ಮಾಡುವಾಗ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: ಎಡಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ &quot;rgb&quot; (ಸರ್ವೆ ಸಾಮಾನ್ಯ), ಎಡಭಾಗದಲ್ಲಿ ನೀಲಿಗಾಗಿ &quot;bgr&quot;, ಮೇಲ್ಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ &quot;vrgb&quot;, ಅಡಿಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ &quot;vbgr&quot;.</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>RGBA 순서</short>
+                <long>LCD 화면에서 서브픽셀의 순서. 안티알리아싱이 &quot;rgba&quot;일 경우에만 사용합니다. 사용 가능한 값은: &quot;rgb&quot;이면 빨강이 왼쪽 (대부분 사용하는 값), &quot;bgr&quot;이면 파랑이 왼쪽, &quot;vrgb&quot;이면 빨강이 맨 위, &quot;vbgr&quot;이면 빨강이 맨 아래.</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>RGBA tvarka</short>
+                <long>Subpikselinių elementų tvarka skystųjų kristalų ekrane; naudojama tik tada, kai glodinimo vertė yra „rgba“. Galimos vertės: „rgb“ - raudona kairėje (dažniausiai pasitaikantis tipas), bgr - mėlyna kairėje, „vrgb“ - raudona viršuje ir ,vbgr“- raudona apačioje.</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>RGBA secība</short>
+                <long>Apakšpikseļu secība LCD ekrānā; tiek izmantots tikai, kad kropļojumnovērse ir iestatīta uz &quot;rgba&quot;. Iespējamās  vērtības ir &quot;rgb&quot;, kad pa kreisi ir sarkanā (visizplatītākā), &quot;bgr&quot;, kad pa kreisi ir zilā, &quot;vbgr&quot;, kad sarkanā ir apakšā.</long>
+            </locale>
+
+            <locale name="mk">
+	        <short>RGBA редослед</short>
+                <long>Редоследот на подпикселните елементи на LCD екранот; се користи само кога антиалијасингот е поставен на „rgba“. Можни вредности се „rgb“ за црвено на левата страна (вообичаено), „bgr“ за сино на левата страна, „vrgb“ за црвено на врвот и „vbgr“ за црвено на дното.</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>ആര്‍.ജി.ബി.എ ക്രമം</short>
+                <long>രണ്ടാം തരം പിക്സെലുകള്‍ (ചിത്ര-അണുക്കള്‍) ഒരു എല്‍.സി.ഡി സ്ക്രീനേല്‍ വരുന്ന ക്രമം; ഉപയോഗിക്കുന്നത് ആന്റി-എലയാസിങ്ങ് &quot;rgba&quot; (&quot;ആര്‍.ജി.ബി.എ&quot;) ആക്കുംബോള്‍ മാത്രം. എടുക്കാവുന്ന വിലകള്‍ : &quot;rgb&quot;(&quot;ആര്‍.ജി.ബി&quot;) ചുവപ്പ് ഇടതു വശത്തേക്കായ് (പൊതുവേ ഉള്ള തരം),&quot;bgr&quot;(&quot;ബി.ജി.ആര്‍&quot;) നീല വലതുവശത്തേക്കായ്,&quot;vrgb&quot;(&quot;വി.ആര്‍.ജി.ബി&quot;) മുകളിലായ്, &quot;vbgr&quot; (&quot;വി.ബി.ജി.ആര്‍&quot; ) ചുവപ്പ് താഴെയായ് വരാന്‍.</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>RGBA क्रमवारी</short>
+                <long>LCD पडद्यावरील उपपीक्सेल घटकांची क्रमवारी; फक्त ऍन्टीअलायसींग यास &quot;rgba&quot; करीता निश्चित केल्यावरच वापरले जाते. संभाव्य मुल्य खालिल प्रमाणे आहे: &quot;rgb&quot; डावीकडील लाल करीता (सर्वाधीक सर्वसाधारनरित्या), &quot;bgr&quot; डावीकडील नीळ्या करीता, &quot;vrgb&quot; वरील लाल करीता, &quot;vbgr&quot; तळातील लाल करीता.</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>RGBA-rekkefølge</short>
+                <long>Rekkefølge for underpikselelementer på en LCD-skjerm; brukes kun når utjevning er satt til «rgba». Mulige verdier er «rgb» for rød til venstre (mest vanlig), «bgr» for blå til venstre, «vrgb» for rød øverst, «vbgr» for rød nederst.</long>
+            </locale>
+
+            <locale name="nl">
+	        <short>RGBA-volgorde</short>
+                <long>De volgorde van subpixel-elementen op een LCD-scherm; wordt alleen gebruikt wanneer gladmaken (antialiasing) ingesteld is op ‘rgba’. Mogelijke waardes zijn: ‘rgb’ voor rood op links (meest voorkomend), ‘bgr’ voor blauw op links, ‘vrgb’ voor rood bovenop, ‘vbgr’ voor rood onderop.</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>RGBA-rekkjefølgja</short>
+                <long>Rekkjefølgja for underpikselelementer på ein LCD-skjerm; brukast berre når utjevning er sett til «rgba». Moglege verdiar er «rgb» for raud til venstre (mest vanleg), «bgr» for blå til venstre, «vrgb» for raud øvst, «vbgr» for raud nedst.</long>
+            </locale>
+
+            <locale name="or">
+	        <short>RGBA କ୍ରମ</short>
+                <long>LCD ପରଦାରେ ଉପପିକସେଲ ଉପାଦାନଗୁଡ଼ିକର କ୍ରମ; କେବଳ ଉପନାମକରଣ ନକିରବା ପାଇଁ ବ୍ୟବହୃତ ହୋଇଥାଏ &quot;rgba&quot;। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି: &quot;rgb&quot; ବାମପଟେ ଲାଲିପାଇଁ (ସାଧାରଣତଃ), &quot;bgr&quot; ବାମରେ ନିଳ ପାଇଁ, &quot;vrgb&quot; ଉପରେ ଲାଲି ପାଇଁ, &quot;vbgr&quot; ତଳେ ଲାଲି ପାଇଁ।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>RGBA ਕ੍ਰਮ</short>
+                <long>LCD ਸਕਰੀਨ ਉੱਤੇ ਸਬ-ਪਿਕਸਲ ਐਲੀਮੈਂਟ ਦਾ ਕ੍ਰਮ; ਕੇਵਲ ਤਾਂ ਹੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਜਦੋਂ ਐਂਟੀਅਲਾਸਿੰਗ ਨੂੰ &quot;rgba&quot; ਸੈੱਟ ਕੀਤਾ ਹੋਵੇ। ਸੰਭਵ ਮੁੱਲ ਹਨ: ਖੱਬੇ ਤੋਂ ਲਾਲ ਲਈ &quot;rgb&quot; (ਸਭ ਤੋਂ ਆਮ), ਖੱਬੇ ਤੋਂ ਨੀਲੇ ਲਈ &quot;bgr&quot;, ਉੱਤੇ ਤੋਂ ਲਾਲ ਲਈ &quot;vrgb&quot;, ਤਲ ਤੋਂ ਲਾਲ ਲਈ &quot;vbgr&quot;</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>kolejność RGBA</short>
+                <long>Kolejność składowych pikseli; używana tylko w wypadku wygładzania krawędzi &quot;rgba&quot;. Możliwe wartości: &quot;rgb&quot; dla czerwonego po lewej stronie (najczęściej używane), &quot;bgr&quot; dla niebieskiego po lewej, &quot;vrgb&quot; dla czerwonego na górze, &quot;vbgr&quot; dla czerwonego na dole.</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>Ordem RGBA</short>
+                <long>A ordem de elementos de subpixel num ecrã LCD; apenas utilizado quando o antialiasing está definido como &quot;rgba&quot;. Valores possíveis são: &quot;rgb&quot; para vermelho à esquerda (mais comum), &quot;bgr&quot; para azul à esquerda, &quot;vrgb&quot; para vermelho no topo, &quot;vbgr&quot; para vermelho no fundo.</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>Ordem RGBA</short>
+                <long>A ordem dos elementos de subpixel em uma tela LCD; utilizado apenas quando a suavização está definida como &quot;rgba&quot;. Valores possíveis são: &quot;rgb&quot; para vermelho à esquerda (mais comum), &quot;bgr&quot; para azul à esquerda, &quot;vrgb&quot; para vermelho no topo, &quot;vbgr&quot; para vermelho no fundo.</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>Ordine RGBA</short>
+                <long>Ordinea elementelor subpixeli dintr-un ecran LCD; folosit doar când antialiasing-ul este setat pe „rgba”. Valorile posibile sunt: „rgb” pentru roșu la stânga (cel mai comun), „bgr” pentru albastru la stânga, „vrgb” pentru roșu sus, „vbgr” pentru roșu jos.</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>Порядок RGBA</short>
+                <long>Порядок субпиксельных элементов на ЖК экране; только если установлен тип сглаживания «rgba». Возможные значения: «rgb» (красный слева, наиболее часто), «bgr» (синий слева), «vrgb» (красный сверху), «vbgr» (красный снизу).</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>Poradie RGBA</short>
+                <long>Poradie sub-pixelových elementov na obrazovke LCD; použije sa len ak je vyhladzovanie nastavené na &quot;rgba&quot;. Možné hodnoty sú: &quot;rgb&quot; pre červenú vľavo (najbežnejšie), &quot;bgr&quot; pre modrú vľavo, &quot;vrgb&quot; pre červenú hore a &quot;vbgr&quot; pre červenú dole.</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>razvrstitev RGBA</short>
+                <long>Vrstni red točkovnih elementov na LCD zaslonu: uporabno le kadar je glajenje nastavljeno kot  &quot;rgba&quot;. Mogoče vrednosti so: &quot;rgb&quot;za rdeče na levi (običajno), &quot;bgr&quot; za modro na levi, &quot;vrgb&quot; za rdečo na vrhu, &quot;vbgr&quot;  za rdečo na dnu.</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>Редослед РГБА</short>
+                <long>Редослед елемената за дотеривање испод пиксела на ЛЦД екрану. Користи се само када је умекшавање ивица постављено на „rgba“. Могуће вредности су: „rgb“ за црвену слева (најкоришћеније), „bgr“ за зелену слева, „vrgb“ за црвену одозго и „vbgr“ за црвену одоздо.</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>Redosled RGBA</short>
+                <long>Redosled elemenata za doterivanje ispod piksela na LCD ekranu. Koristi se samo kada je umekšavanje ivica postavljeno na „rgba“. Moguće vrednosti su: „rgb“ za crvenu sleva (najkorišćenije), „bgr“ za zelenu sleva, „vrgb“ za crvenu odozgo i „vbgr“ za crvenu odozdo.</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>RGBA-ordning</short>
+                <long>Ordningen för underbildpunktselementen på en LCD-skärm; används endast när kantutjämning är inställd till &quot;rgba&quot;. Möjliga värden är: &quot;rgb&quot; - röd till vänster (vanligast), &quot;bgr&quot; - blå till vänster. &quot;vrgb&quot; - röd överst. &quot;vbgr&quot; - röd nederst.</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>ஆர்ஜிபிஏ வரிசை</short>
+                <long>ஆர்ஜிபிஏ வரிசை என ஆன்டி அலயஸிங்க் ஐ அமைத்திருந்தால் மட்டும் எல்சிடி திரையில் காட்ட வேண்டிய துணை படத்துணுக்கு வரிசை. மதிப்புகள் &quot;ஆர்ஜிபி&quot; என்பது சிவப்பு இடது கோடியில் இருக்க. இதுவே அதிகமாக பயன்படுகிறது. &quot;பி ஜிஆர்&quot; நீலம் இடது கோடியில். &quot;விஆர்ஜிபி&quot; சிவப்பு மேலே இருக்க. &quot;விபிஜிஆர்&quot; சிவப்பு கீழே இருக்க.</long>
+            </locale>
+
+            <locale name="te">
+	        <short>RGBA క్రమం</short>
+                <long>LCD తెరపైన ఉపపిగ్జెల్సు మూలకాల యొక్క క్రమము; వ్యతిరేకఉపనామకరణం &quot;rgba&quot; కు అమర్చినప్పుడు మాత్రమే ఉపయోగించబడుతుంది. సాద్యమగు విలువలు: &quot;rgb&quot; ఎరుపు ఎడమవైపు ఉంచుటకు (దాదాపు సాదారణంగా), &quot;bgr&quot; బులుగు ఎడమవైపున ఉంచుటకు, &quot;vrgb&quot; ఎరుపు పైన ఉంచుటకు, &quot;vbgr&quot; ఎరుపు క్రిందన ఉంచుటకు.</long>
+            </locale>
+
+            <locale name="th">
+	        <short>ลำดับ RGBA</short>
+                <long>ลำดับของพิกเซลย่อยบนจอ LCD ซึ่งจะใช้เมื่อใช้การขจัดรอยหยักด้วยวิธี &quot;rgba&quot; ค่าที่เป็นไปได้คือ: &quot;rgb&quot; คือจุดสีแดงอยู่ซ้าย (พบมากที่สุด), &quot;bgr&quot; คือจุดสีน้ำเงินอยู่ซ้าย, &quot;vrgb&quot; คือจุดสีแดงอยู่บน, &quot;vbgr&quot; คือจุดสีแดงอยู่ล่าง</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>RGBA sırası</short>
+                <long>LCD ekranında kullanılacak alt piksel öğelerinin sırası; sadece yumuşatma &quot;rgba&quot; olarak atandığında kullanılır. Geçerli değerler: &quot;rgb&quot; - kırmızı solda (en yaygın), &quot;bgr&quot; - mavi solda. &quot;vrgb&quot;- kırmızı yukarıda. &quot;vbgr&quot; - kırmızı aşağıda.</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>Порядок RGBA</short>
+                <long>Порядок субпіксельних елементів на ЖК екрані; лише якщо встановлено тип згладжування &quot;rgba&quot;. Можливі значення: &quot;rgb&quot; (червоний ліворуч, найчастіше), &quot;bgr&quot; (синій ліворуч), &quot;vrgb&quot; (красний згори), &quot;vbgr&quot; (красний знизу).</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>Thứ tự RGBA</short>
+                <long>Thứ tự các phần tử điểm ảnh phụ trên một màn hình LCD (phẳng); chỉ được dùng khi chức năng làm trơn được đặt thành « rgba ». Giá trị có thể:
+ • rgb	màu đỏ bên trái (thường nhất)
+ • bgr	màu xanh bên trái
+ • vrgb	màu đỏ bên trên
+ • vbgr	màu đỏ bên dưới.</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>RGBA 顺序</short>
+                <long>LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb” - 红色在左侧，最常见设置。“bgr” - 蓝色在左侧。“vrgb” - 红色在上端。“vbgr” - 红色在底部。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>RGBA 順序</short>
+                <long>在 LCD 螢幕上子像素元素的順序；只有在平滑化設為「rgba」時才能使用。可能的數值有：「rgb」為紅色在左(最常用)，「bgr」為藍色在左，「vrgb」為紅色在上，「vbgr」為紅色在下。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>RGBA 順序</short>
+                <long>在 LCD 螢幕上子像素元素的順序；只有在平滑化設為「rgba」時才能使用。可能的數值有：「rgb」為紅色在左(最常用)，「bgr」為藍色在左，「vrgb」為紅色在上，「vbgr」為紅色在下。</long>
+            </locale>
+        </schema>
+    </schemalist>
+</gconfschemafile>

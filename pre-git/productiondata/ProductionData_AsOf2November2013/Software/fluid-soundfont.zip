@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Software/fluid-soundfont.zip
+## 
+130287242,e73fb2e6f7e663bcdc81e3dfaf0d2734,4ed1bb46001715bb7d33f897bd98b92f5d7de9cc,27cb7ee871088771f2dcc9ce0c832a58bd5aea5d2af143ae1d68b50db8134d7e,6e87644978c7e3554f6646ec685bf29ef9a95dbc20d01bde,baedebc8d4827e1a43866749d678b2b0edb6fa2315372558bb5eae0d922401fdb0da372af4407a40d3ca5bfe6a2d9923d540ae0a60e148715cfee64ae53a1992,/home/kyan/productiondata/ProductionData_AsOf2November2013/Software/fluid-soundfont.zip

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="finetuning">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Napredne možnosti za boljše prepoznavanje</desc>
+</info>
+
+<title>Fino nastavljanje</title>
+
+<p><app>OCRFeeder</app> ima nekaj naprednih možnosti, ki jih je mogoče uporabiti za izvajanje boljšega prepoznavanja. Te možnosti lahko izberete v pogovornem oknu  <guiseq><gui>Uredi</gui><gui>Možnosti</gui></guiseq>  v zavihku <gui>Prepoznava</gui>.</p>
+
+<p>Naslednji seznam opiše omenjene možnosti:</p>
+<list>
+    <item><p><gui>Popravi prelome vrstic in deljenje besed</gui>: Programniki optičnega prepoznavanja črk običajno besedilo preberejo vrstico za vrstico in jih med sabo ločijo s prelomom vrstice. Včasih uporabnik tega ne želi, ker je lahko besedilo pokvarjeno v sredini stavka.</p>
+    <p>Izbrana možnost določi, da <app>OCRFeeder</app> odstrani posamezne črke nove vrstice po tem, ko besedilo prepoznajo programniki.</p>
+    <p>Ker bi samo odstranjevanje novih vrstic v deljenemu besedilu povzročilo napačno ločeno besede, je v tem opravilu deljenje besed zaznano in odstranjeno.</p></item>
+    <item><p><gui>Velikost okna</gui>: <app>OCRFeeder-jev</app> algoritem za zaznavanje vsebine v sliki uporablja koncepte <em>velikosti okna</em>, ki je odsek slike v majhnih oknih. Majhna velikost okna pomeni, da bo program verjetno zaznal več področij vsebine. Premajhna velikost lahko pomeni, da je zaznana vsebina, ki je del večjega področja. Na drugi strani večja velikost okna pomeni manj razdelitev vsebine, vendar lahko dobite vsebino, ki bi morala biti razdeljena.</p>
+    <p>Dobra velikost okna bi morala biti rahlo večja kot razmik med vrsticami besedila na sliki.</p><p>Morda boste to vrednost želeli ročno nastaviti, če samodejna ne proizvede veljavnih področij vsebine. Običajno je lažje uporabiti samodejno vrednost in morebitne popravke izvesti neposredno v področjih vsebine.</p></item>
+    <item><p><gui>Izboljšaj zaznavo stolpcev</gui>: Izberite to možnost, če želite da naj <app>OCRFeeder</app> poskusi razdeliti zaznana področja vsebine vodoravno (to pomeni več stolpcev). Vrednost za preverjanje ali v vsebini obstaja prazen prostor lahko nastavite na samodejno ali ročno, ko stolpci niso pravilno zaznani.</p></item>
+    <item><p><gui>Adjust content areas' bounds</gui>: The detected content
+    areas sometimes have a considerable margin between their contents and
+    the areas' edges. By checking this option, <app>OCRFeeder</app> will
+    minimize those margins, adjusting the areas to its contents better.
+    Optionally, a manual value can be check to indicate the maximum value
+    of the adjusted margins.</p></item>
+</list>
+
+</page>

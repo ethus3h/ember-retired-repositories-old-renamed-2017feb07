@@ -1,0 +1,5 @@
+/root/appmenu-kde/CMakeFiles/dist.dir
+/root/appmenu-kde/CMakeFiles/distcheck.dir
+/root/appmenu-kde/src/CMakeFiles/plasma_applet_menubar.dir
+/root/appmenu-kde/src/CMakeFiles/plasma_applet_menubar_automoc.dir
+/root/appmenu-kde/CMakeFiles/uninstall.dir

@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+    <schemalist>
+	<schema>
+	    <key>/schemas/desktop/gnome/keybindings/allowed_keys</key>
+	    <applyto>/desktop/gnome/keybindings/allowed_keys</applyto>
+            <owner>gnome</owner>
+	    <type>list</type>
+	    <list_type>string</list_type>
+	    <default>[]</default>
+            <locale name="C">
+	        <short>Allowed keys</short>
+                <long>
+	          If non-empty, keybindings will be ignored unless their GConf 
+	          directory is in the list. This is useful for lockdown. 
+		</long>
+            </locale>
+
+            <locale name="as">
+	        <short>অনুমতি থকা চাবি</short>
+                <long>ৰিক্ত ন&apos;হ&apos;ল, keybindings আওকাণ কৰা হ&apos;ব যদিহে সিহঁতৰ GConf পঞ্জিকা তালকাত নাথাকে  । এইটো lockdown ৰ কাৰণে সুবিধাজনক  ।</long>
+            </locale>
+
+            <locale name="ast">
+	        <short>Tecles permitíes</short>
+                <long>Si nun ta baleru, los atayos de tecláu van inorase si&apos;l so direutoriu GConf nun ta na llista. Ésto ye afayadizo pa bloqueos.</long>
+            </locale>
+
+            <locale name="bg">
+	        <short>Позволени клавиши</short>
+                <long>Ако не е празен, клавишните комбинации няма да се вземат предвид, освен ако папката им за GConf е в списъка. Ползва се за ограничаване на достъпа и възможностите за промени.</long>
+            </locale>
+
+            <locale name="bn">
+	        <short>অনুমোদিত কী</short>
+                <long>ফাঁকা না হলে, তালিকার মধ্যে সংশ্লিষ্ট GConf ডিরেক্টরি উপস্থিত না থাকলে কি-বাইন্ডিংগুলি উপেক্ষা করা হবে। লক-ডাউনের ক্ষেত্রে এটি সুবিধাজনক।</long>
+            </locale>
+
+            <locale name="bn_IN">
+	        <short>অনুমোদিত কি</short>
+                <long>ফাঁকা না হলে, তালিকার মধ্যে সংশ্লিষ্ট GConf ডিরেক্টরি উপস্থিত না থাকলে কি-বাইন্ডিংগুলি উপেক্ষা করা হবে। লক-ডাউনের ক্ষেত্রে এটি সুবিধাজনক।</long>
+            </locale>
+
+            <locale name="br">
+	        <short>Alc&apos;hwezioù aotret</short>
+                
+            </locale>
+
+            <locale name="ca">
+	        <short>Tecles permeses</short>
+                <long>Si no està buit, s&apos;ignoraran les vinculacions a menys que el seu directori GConf estigui a la llista. És útil per a les restriccions.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+	        <short>Tecles permeses</short>
+                <long>Si no està buit, s&apos;ignoraran les vinculacions a menys que el seu directori GConf estiga a la llista. És útil per a les restriccions.</long>
+            </locale>
+
+            <locale name="crh">
+	        <short>İzin verilen tuşlar</short>
+                <long>Eğer boş değilse, kendi GConf  dizini listede olmadığı sürece tuş bağı yok sayılır. Bu kilitleme için kullanışlıdır.</long>
+            </locale>
+
+            <locale name="cs">
+	        <short>Povolené klávesy</short>
+                <long>Pokud není prázdné, klávesové zkratky budou ignorovány, není-li tedy jejich adresář GConf v seznamu. Užitečné pro omezení práv.</long>
+            </locale>
+
+            <locale name="da">
+	        <short>Tilladte taster</short>
+                <long>Hvis udfyldt, vil tastegenveje blive ignoreret, med mindre deres GConf-mappe er i listen. Dette er brugbart i forbindelse med låsning.</long>
+            </locale>
+
+            <locale name="de">
+	        <short>Erlaubte Tasten</short>
+                <long>Falls nicht leer, werden Tastenkürzel ignoriert, sofern deren GConf-Ordner sich in der Liste befindet. Dies ist nützlich zum Sperren.</long>
+            </locale>
+
+            <locale name="el">
+	        <short>Επιτρεπτά πλήκτρα</short>
+                <long>Αν συμπληρωθεί, θα αγνοούνται οι συνδυασμοί πλήκτρων, εκτός εάν περιέχεται στη λίστα ο δικός τους κατάλογος GConf. Χρησιμεύει στο κλείδωμα.</long>
+            </locale>
+
+            <locale name="en@shaw">
+	        <short>𐑩𐑤𐑬𐑛 𐑒𐑰𐑟</short>
+                
+            </locale>
+
+            <locale name="en_GB">
+	        <short>Allowed keys</short>
+                <long>If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown.</long>
+            </locale>
+
+            <locale name="es">
+	        <short>Teclas permitidas</short>
+                <long>Si no está vació, se ignorarán las combinaciones de teclas a menos que su directorio GConf esté en la lista. Ésto es útil para bloqueos.</long>
+            </locale>
+
+            <locale name="et">
+	        <short>Lubatud klahvid</short>
+                <long>Mittetühja väärtuse korral eiratakse neid kiirklahve, mille GConf kataloog pole nimekirjas. See on kasulik lukustamiseks.</long>
+            </locale>
+
+            <locale name="eu">
+	        <short>Baimendutako teklak</short>
+                <long>Ez badago hutsik, laster-teklei ez ikusi egingo zaie GConf direktorioa zerrendan egon arte. Oso erabilgarria da blokeatzeko.</long>
+            </locale>
+
+            <locale name="fi">
+	        <short>Sallitut näppäimet</short>
+                <long>Jos arvo ei ole tyhjä, näppäinsidekset jätetään huomioimatta, jollei niiden GConf-kansio ole luettelossa. Tämä on hyödyllinen rajattaessa käyttöä.</long>
+            </locale>
+
+            <locale name="fr">
+	        <short>Touches autorisées</short>
+                <long>Si non vide, les raccourcis sont ignorés tant que leur répertoire GConf n&apos;est pas dans la liste. Utile pour le verrouillage.</long>
+            </locale>
+
+            <locale name="ga">
+	        <short>Eochracha ceadaithe</short>
+                
+            </locale>
+
+            <locale name="gl">
+	        <short>Teclas permitidas</short>
+                <long>Se non está baleiro, as combinacións de teclas serán ignoradas a menos que o seu directorio GConf estea na lista. Isto é útil para o bloqueo.</long>
+            </locale>
+
+            <locale name="gu">
+	        <short>કીઓ ને પરવાનગી આપેલ છે</short>
+                <long>જો ખાલી-નહિં હોય, તો કીબાઈન્ડીંગો અવગણવામાં આવશે જ્યાં સુધી તેમની GConf ડિરેક્ટરી યાદીમાં નહિં હોય. આ તાળું મારવા માટે ઉપયોગી છે.</long>
+            </locale>
+
+            <locale name="he">
+	        <short>Allowed keys</short>
+                <long>If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown.</long>
+            </locale>
+
+            <locale name="hi">
+	        <short>अनुमति प्राप्त कुंजी</short>
+                <long>यदि गैर रिक्त है, कीबाइंडिंग को अनदेखा किया जाएगा जब तक उनकी GConf निर्देशिका सूची में नहीं है. यह लॉकडाउन के लिए उपयोगी है.</long>
+            </locale>
+
+            <locale name="hu">
+	        <short>Engedélyezett billentyűk</short>
+                <long>Ha nem üres, a billentyűtársítások figyelmen kívül maradnak, hacsak a GConf könyvtáruk nincs a listában. Ez zároláshoz hasznos.</long>
+            </locale>
+
+            <locale name="it">
+	        <short>Tasti ammessi</short>
+                <long>Se non vuota, le associazioni di tasti sono ignorate a meno che la loro directory GConf non sia nella lista. Ciò è utile per il lockdown.</long>
+            </locale>
+
+            <locale name="ja">
+	        <short>利用可能なキーバインディング</short>
+                <long>ここで指定した種類のキーバインディング以外は利用できなくなります (キーバインディングはこの下にあるサブディレクトリのキー名で指定します)。これは主にロックダウンで使用します。</long>
+            </locale>
+
+            <locale name="kn">
+	        <short>ಅನುಮತಿ ಇರುವ ಕೀಲಿಗಳು</short>
+                <long>ಖಾಲಿ ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ, GConf ಕೋಶವು ಪಟ್ಟಿಯಲ್ಲಿ ಇರದ ಹೊರತು ಕೀಲಿಬೈಂಡಿಂಗ್‌ಗಳನ್ನು ಆಲಕ್ಷಿಸಲಾಗುವುದು. ಇದು ಒಂದು ಉಪಯುಕ್ತ ಲಾಕ್‌ಡೌನ್ ಆಗಿರುತ್ತದೆ.</long>
+            </locale>
+
+            <locale name="ko">
+	        <short>허용할 키 목록</short>
+                <long>값이 비어 있지 않다면, 해당 GConf 디렉터리가 이 목록에 들어 있지 않은 키 바인딩은 무시합니다. 기능을 제한할 때 유용하게 쓰입니다.</long>
+            </locale>
+
+            <locale name="lt">
+	        <short>Leidžiami klavišai</short>
+                <long>Jei netuščias, klavišų susiejimai bus ignoruojami, nebent jų GConf aplankas būtų sąraše. Ši parinktis naudinga ribojimui.</long>
+            </locale>
+
+            <locale name="lv">
+	        <short>Atļautie taustiņi</short>
+                <long>Ja netukšs, taustiņu sasaite tiks ignorēta, ja vien GConf mape ir sarakstā. Tas ir noderīgi noslēgšanai.</long>
+            </locale>
+
+            <locale name="ml">
+	        <short>അനുവദിച്ചിട്ടുള്ള കീകള്‍</short>
+                <long>ശൂന്യമല്ലെങ്കില്‍, ലിസ്റ്റില്‍ GConf ഡയറക്ടറി ഇല്ലാത്തിടത്തോളം കീബൈന്‍ഡിങുകള്‍ അവഗണിക്കപ്പെടുന്നു. ഇതു് ലോക്ക്ഡൌണിനു് നല്ലതാണു്.</long>
+            </locale>
+
+            <locale name="mr">
+	        <short>स्वीकार्य किज्</short>
+                <long>रिकामे नसल्यास, किबाइन्डींग तोपर्यंत दुर्लक्ष केले जाईल जोपर्यंत त्यांची GConf डिरेक्ट्री यादीत उपल्बध आहे. lockdown करीता उपयोगी आहे.</long>
+            </locale>
+
+            <locale name="nb">
+	        <short>Tillatte taster</short>
+                
+            </locale>
+
+            <locale name="nds">
+	        <short>Tolaten Knöppe</short>
+                
+            </locale>
+
+            <locale name="nl">
+	        <short>Toegestane toetsen</short>
+                <long>Indien niet leeg zullen sneltoetsen genegeerd worden, tenzij het GConf-pad in de lijst voorkomt. Dit is handig voor het vergrendelen van bepaalde functionaliteit.</long>
+            </locale>
+
+            <locale name="nn">
+	        <short>Tillete tastar</short>
+                <long>Om ikkje-tom vil snøggtastar verta ignorert unnteken viss GConf-mappa deira er i lista. Dette er høveleg for å låsa ned maskina.</long>
+            </locale>
+
+            <locale name="or">
+	        <short>ଅନୁମୋଦିତ କିଗୁଡ଼ିକ</short>
+                <long>ଯଦି ଖାଲି ନଥାଏ, କି ବନ୍ଧନଗୁଡ଼ିକୁ ଅଗ୍ରାହ୍ୟ କରାଯିବ ଅନ୍ୟଥା ସେମାନଙ୍କର GConf ଡିରେକ୍ଟୋରୀ ତାଲିକାରେ ଥିବ। ଅପରିବର୍ତ୍ତନୀୟ କରିବା ପାଇଁ ଏହା ଉପଯୋଗୀ ହୋଇଥାଏ।</long>
+            </locale>
+
+            <locale name="pa">
+	        <short>ਮਨਜ਼ੂਰ ਸਵਿੱਚਾਂ</short>
+                <long>ਜੇ ਗ਼ੈਰ-ਖਾਲੀ ਹੋਵੇ ਤਾਂ, ਕੀਬਾਈਡਿੰਗ ਨੂੰ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਦੋਂ ਤੱਕ ਕਿ ਉਹਨਾਂ ਦੀ GConf ਡਾਇਰੈਕਟਰੀ ਲਿਸਟ ਵਿੱਚ ਨਾ ਹੋਵੇ। ਇਹ ਲਾਕ-ਕਰਨ ਲਈ ਫਾਇਦੇਮੰਦ ਹੈ।</long>
+            </locale>
+
+            <locale name="pl">
+	        <short>Klawisze dozwolone</short>
+                <long>Jeśli nie jest puste, to skróty klawiszowe będą ignorowane, chyba że ich katalog GConf znajduje się w liście. Używane przy ograniczaniu dostępu.</long>
+            </locale>
+
+            <locale name="pt">
+	        <short>Teclas permitidas</short>
+                <long>Se não-vazio, atalhos de teclado serão ignorados excepto se o seu directório GConf estiver na lista. Esta funcionalidade é útil para trancar a configuração.</long>
+            </locale>
+
+            <locale name="pt_BR">
+	        <short>Teclas permitidas</short>
+                <long>Se não-vazio, os atalhos do teclado deverão ser ignorados a menos que o diretório GConf esteja na lista. Isso é útil para bloqueios.</long>
+            </locale>
+
+            <locale name="ro">
+	        <short>Taste permise</short>
+                <long>Dacă nu este gol, scurtăturile de tastatură vor fi ignorate atât timp cât directorul lor GConf nu este în listă. Acest lucru este folosit pentru limitări.</long>
+            </locale>
+
+            <locale name="ru">
+	        <short>Разрешённые клавиши</short>
+                <long>Если список не пуст, то привязки комбинаций клавиш будут игнорироваться если их каталог GConf не будет присутствовать в этом списке. Это полезно для их блокировки.</long>
+            </locale>
+
+            <locale name="sk">
+	        <short>Povolené klávesy</short>
+                <long>Ak je neprázdne, klávesové skratky budú ignorované, pokiaľ ich GConf adresár nebude v zozname. Je to použiteľné pre uzamknutie.</long>
+            </locale>
+
+            <locale name="sl">
+	        <short>Dovoljene tipke</short>
+                <long>V primeru, da so navedene, bodo tipkovne bližnjice prezrte, če GConf mape ni na seznamu. Nastavitev je koristna pri zaklepanju.</long>
+            </locale>
+
+            <locale name="sr">
+	        <short>Дозвољени кључеви</short>
+                <long>Уколико је уписано, игнорише пречице, осим уколико је њихов Гконф директоријум унутар списка. Ово је корисно за закључавање.</long>
+            </locale>
+
+            <locale name="sr@latin">
+	        <short>Dozvoljeni ključevi</short>
+                <long>Ukoliko je upisano, ignoriše prečice, osim ukoliko je njihov Gkonf direktorijum unutar spiska. Ovo je korisno za zaključavanje.</long>
+            </locale>
+
+            <locale name="sv">
+	        <short>Tillåtna tangenter</short>
+                <long>Om icke-tom kommer tangentbindningar att ignoreras såvida inte deras GConf-katalog finns i listan. Detta är användbart för nedlåsning.</long>
+            </locale>
+
+            <locale name="ta">
+	        <short>அனுமதிக்கப்பட்ட விசைகள்</short>
+                <long>வெற்று இல்லையெனில், விசைபிணைவுகள் அதன் GConf அடைவு பட்டியலில் இல்லையெனில் தவிர்க்கப்படும். இது பூட்டுக்கு பயனுள்ளது.</long>
+            </locale>
+
+            <locale name="te">
+	        <short>అనుమతించబడిన కీలు</short>
+                <long>నాన్-యెంప్టీ, కీబైండింగ్సు వదిలివేయబడతాయి వాటి GConf డైరెక్టరీ జాబితానందు లేనంతవరకు. లాక్‌డౌన్‌కు యిది వుపయోగపడుతుంది.</long>
+            </locale>
+
+            <locale name="th">
+	        <short>ปุ่มที่อนุญาตให้ใช้</short>
+                <long>ถ้าเป็นค่าไม่ว่างเปล่า ปุ่มลัดต่างๆ จะถูกละเลย ยกเว้นปุ่มที่มีไดเรกทอรี GConf อยู่ในรายชื่อนี้ คีย์นี้เป็นประโยชน์สำหรับการจำกัดการใช้งาน</long>
+            </locale>
+
+            <locale name="tr">
+	        <short>İzin verilen tuşlar</short>
+                <long>Eğer boş değilse, kendi GConf  dizini listede olmadığı sürece tuş bağı yok sayılır. Bu kilitleme için kullanışlıdır.</long>
+            </locale>
+
+            <locale name="uk">
+	        <short>Дозволені клавіші</short>
+                <long>Якщо список не порожній, прив&apos;язки клавіш будуть ігноруватися, якщо їх каталог GConf не буде присутній у цьому списку. Це використовується для блокування функцій робочого столу.</long>
+            </locale>
+
+            <locale name="vi">
+	        <short>Phím được phép</short>
+                <long>Không trống thì tổ hợp phím bị bo qua nếu thư mục GConf tương ứng nằm trong danh sách. Trường hợp này có ích để khoá xuống.</long>
+            </locale>
+
+            <locale name="zh_CN">
+	        <short>许可键</short>
+                <long>如果非空，将忽略键绑定除非它们的 GConf 目录位于列表中。对于锁定有用处。</long>
+            </locale>
+
+            <locale name="zh_HK">
+	        <short>允許按鍵</short>
+                <long>如果為非空值，所屬 GConf 目錄不在此清單中的組合鍵都會被忽略。這在防止盜用時很有用。</long>
+            </locale>
+
+            <locale name="zh_TW">
+	        <short>允許按鍵</short>
+                <long>如果為非空值，所屬 GConf 目錄不在此清單中的組合鍵都會被忽略。這在防止盜用時很有用。</long>
+            </locale>
+        </schema>
+    </schemalist>
+</gconfschemafile>

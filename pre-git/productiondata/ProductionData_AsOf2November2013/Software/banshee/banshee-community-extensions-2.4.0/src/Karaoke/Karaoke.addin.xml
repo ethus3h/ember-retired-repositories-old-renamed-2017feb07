@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Addin 
+    id="Banshee.Karaoke"
+    version="1.0"
+    compatVersion="1.0"
+    copyright="Copyright © 2011 Frank Ziegler. Licensed under the MIT X11 license."
+    name="Karaoke"
+    category="Community Extensions"
+    description="Filter the singers voice out of songs"
+    author="Frank Ziegler"
+    url="http://banshee-project.org/"
+    defaultEnabled="false">
+
+  <Localizer type="Gettext" catalog="banshee-community-extensions" location="../../../share/locale"/>
+
+  <Dependencies>
+    <Addin id="Banshee.Services" version="1.0"/>
+    <Addin id="Banshee.ThickClient" version="1.0"/>
+  </Dependencies>
+  
+  <ConditionType id="KaraokeLyrics" type="Banshee.Karaoke.KaraokeLyricsCondition" />
+  
+  <Extension path="/Banshee/ThickClient/GtkBaseClient/PostInitializeGtk">
+     <PostInitializeGtk class="Banshee.Karaoke.KaraokeLyricsConditionConfiguration"/>
+  </Extension>
+  
+  <Extension path="/Banshee/ThickClient/ContextPane">
+  	<Condition id="KaraokeLyrics">
+	    <ContextPage class="Banshee.Karaoke.Gui.ContextPage"/>
+	</Condition>
+  </Extension>
+
+  <Extension path="/Banshee/ServiceManager/Service">
+    <Service class="Banshee.Karaoke.KaraokeService"/>
+  </Extension>
+
+</Addin>

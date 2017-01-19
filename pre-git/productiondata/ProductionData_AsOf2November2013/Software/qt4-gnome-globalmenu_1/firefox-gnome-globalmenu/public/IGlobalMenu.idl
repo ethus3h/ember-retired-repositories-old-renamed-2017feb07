@@ -1,0 +1,19 @@
+#include "nsISupports.idl"
+
+interface nsIBaseWindow;
+interface imgIContainer;
+interface IGlobalMenuListener;
+
+[scriptable, uuid(d48a8be1-34c5-4f3c-b7ea-1840ae7968c4)]
+interface IGlobalMenu : nsISupports
+{
+	attribute nsIBaseWindow window;
+	attribute IGlobalMenuListener listener;
+
+	void updateMenu(in AUTF8String xml);
+
+	ACString serializeImage(in imgIContainer image, in PRInt32 x, in PRInt32 y, in PRInt32 width, in PRInt32 height);
+
+	void debugPrint(in AUTF8String s);
+};
+

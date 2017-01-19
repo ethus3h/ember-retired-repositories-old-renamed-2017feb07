@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingimage">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <desc>Додавання зображення для розпізнавання</desc>
+</info>
+
+<title>Додавання зображення</title>
+
+<p>Додавання зображення до OCRFeeder це, як правило, перший крок перетворення документа</p>
+
+<p>Кожне додане зображення є сторінкою кінцевого документа. Зменшене зображення сторінки зображається в ділянці сторінок (ліва частина вікна <app>OCRFeeder</app>).</p>
+
+<p>Порядок сторінок у кінцевому документі буде такий самий, як і порядок зображень в ділянці сторінок. Таким чином порядок сторінок можна змінити, перетягуючи їхнє зображення в ділянці сторінок.</p>
+
+<p>Ви можете додати зображення, клацнувши <guiseq><gui>Файл</gui><gui>Додати зображення</gui></guiseq>.</p>
+
+<p>Для вилучення сторінки, клацніть <guiseq><gui>Зміни</gui><gui>Вилучити сторінку</gui></guiseq> або клацнувши правою кнопкою на зображені сторінки і вибравши <gui>Вилучити</gui>.</p>
+
+<section>
+<title>Налаштування сторінки</title>
+
+<p>To configure the page's size click in
+<guiseq><gui>Edit</gui><gui>Edit Page</gui></guiseq>
+and choose either a custom size, providing the respective
+values or a standard paper size from a list.</p>
+
+</section>
+
+</page>

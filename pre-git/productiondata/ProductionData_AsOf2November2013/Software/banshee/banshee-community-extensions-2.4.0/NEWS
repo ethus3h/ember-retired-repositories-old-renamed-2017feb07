@@ -1,0 +1,446 @@
+=================================
+Version 2.4.0 - April 6, 2012
+=================================
+
+Contributors since 2.2.0:
+Alexander Kojevnikov, Bertrand Lorentz, Chow Loong Jin, Frank Ziegler,
+Kevin Anthony, Timo Dörr
+
+New extensions since 2.2.0:
+* FolderSync: Copy and synchronize tracks from playlists into specified folders
+
+Enhancements since 2.2.0:
+* AlbumArtWriter: Allow forcing a copy of the album art into the album folders
+* AlbumArtWriter: Add configuration of the name and the type of the image file
+* DuplicateSongDetector: Use a more aggressive algorithm for detecting duplicates
+
+Notable bugs fixed since 2.2.0:
+* DuplicateSongDetector: Fix bug causing the window to be blank
+* Karaoke: Don't change the visual style of the lyrics
+* Karaoke: Disable keybindings in the context pane
+* LiveRadio: Fix crash when updating the genre list
+* LiveRadio: Disable non-functional plugins: shoutcast, magnatune, realradios
+* LiveRadio: Fix crash when live365 session stream cannot be retrieved
+* LiveRadio: Fix crash when clicking multiple genres quickly (bgo#662794)
+* Lyrics: Use HTTP proxy management provided by Banshee (bgo#664710)
+* Telepathy: Fix dllmap for cross-architecture support
+
+
+=================================
+Version 2.2.0 - September 21, 2011
+=================================
+
+Contributors since 2.0.0:
+Bertrand Lorentz, Chow Loong Jin, Frank Ziegler, Kevin Anthony, Kriss,
+Manish Sinha, Nicholas Parker, Olivier Dufour, Philipp Ittershagen,
+Raimo Radczewski
+
+New extensions since 2.0.0:
+* AlbumArtWriter: Write album art to the folder containing the music files
+* DuplicateSongDetector: Detect and remove duplicate songs in your library
+
+Enhancements since 2.0.0:
+* ClutterFlow: Major refactoring and code cleanup, for better readability.
+* DuplicateSongDetector: Add toggling by activating row
+* DuplicateSongDetector: Add a refresh and close button to the toolbar
+* Mirage: Re-enable rescan and reset methods (bgo#653826)
+* OpenVP: Add new "Spectrum Scan" and "Spectrum Rain" visualizations
+* OpenVP: Make "Scaled Voiceprint" visualization look nicer (bgo#658304)
+* OpenVP: Add a new "Scaled Voiceprint" visualization
+* Use dbus-sharp instead of ndesk-dbus. The Telepathy extension does not bundle
+  the ndesk-dbus sources anymore.
+
+Notable bugs fixed since 2.0.0:
+* ClutterFlow: Fix crash when searching (bgo#658334)
+* ClutterFlow: Fix NRE crash (bgo#647134)
+* Karaoke: add an gst_init() call to make sure gstreamer is working
+* Karaoke: fix NRE on dispose if audiokaraoke was not found
+* Karaoke: Fix crash when switching to Now Playing
+* LastfmFingerprint: Build only if enabled in the build (bgo#657013)
+* LastfmFingerprint: Don't strdup strings
+* LastfmFingerprint: Fix empty name exception (bgo#648168)
+* Lirc: Drop liblirc_client.so moduleref (lp#773686)
+* LiveRadio: Re-enable ShoutCast with request structure from RadioStationFetcher
+* Lyrics: Always update pane title when track changes (bgo#647108)
+* Lyrics: Fix crash when switching to Now Playing
+* RadioStationFetcher: Updated the shoutcast plugin to fix the IP address
+* RandomByLastfm: Do not query Last.fm when offline (bgo#634785)
+* StreamRecorder: Fix files not being split by metadata (bgo#656339)
+* ZeitgeistDataprovider: Register dataprovider in DataSource Registry (lp#691842)
+* ZeitgeistDataprovider: Differenciate between ScheduledActivity and UserActivity (lp#748120)
+
+
+=================================
+Version 2.1.4 - September 8, 2011
+=================================
+
+Contributors since 2.1.3:
+Bertrand Lorentz, Kevin Anthony, Nicholas Parker
+
+Enhancements since 2.1.3:
+* DuplicateSongDetector: Add toggling by activating row
+* DuplicateSongDetector: Add a refresh and close button to the toolbar
+* OpenVP: Add new "Spectrum Scan" and "Spectrum Rain" visualizations
+* OpenVP: Make "Scaled Voiceprint" visualization look nicer (bgo#658304)
+
+Notable bugs fixed since 2.1.3:
+* ClutterFlow: Fix crash when searching (bgo#658334)
+* StreamRecorder: Fix files not being split by metadata (bgo#656339)
+
+
+=================================
+Version 2.1.3 - August 25, 2011
+=================================
+
+Contributors since 2.1.1:
+Bertrand Lorentz, Chow Loong Jin, Kevin Anthony, Nicholas Parker,
+Philipp Ittershagen, Raimo Radczewski
+
+New extensions since 2.1.1:
+* AlbumArtWriter: Write album art to the folder containing the music files
+* DuplicateSongDetector: Detect and remove duplicate songs in your library
+
+Enhancements since 2.1.1:
+* Mirage: Re-enable rescan and reset methods (bgo#653826)
+* OpenVP: Add a new "Scaled Voiceprint" visualization
+
+Notable bugs fixed since 2.1.1:
+* RandomByLastfm: Do not query Last.fm when offline (bgo#634785)
+* LastfmFingerprint: Build only if enabled in the build (bgo#657013)
+
+
+=================================
+Version 2.1.1 - June 13, 2011
+=================================
+
+Contributors since 2.0.0:
+Bertrand Lorentz, Chow Loong Jin, Frank Ziegler, Kriss, Manish Sinha,
+Olivier Dufour
+
+Enhancements since 2.0.0:
+* Use dbus-sharp instead of ndesk-dbus. The Telepathy extension does not bundle
+  the ndesk-dbus sources anymore.
+* ClutterFlow: Major refactoring and code cleanup, for better readability.
+
+Notable bugs fixed since 2.0.0:
+* ClutterFlow: Fix NRE crash (bgo#647134)
+* Karaoke: add an gst_init() call to make sure gstreamer is working
+* Karaoke: fix NRE on dispose if audiokaraoke was not found
+* LastfmFingerprint: Don't strdup strings
+* LastfmFingerprint: Fix empty name exception (bgo#648168)
+* Lirc: Drop liblirc_client.so moduleref (lp#773686)
+* LiveRadio: Re-enable ShoutCast with request structure from RadioStationFetcher
+* Lyrics: Always update pane title when track changes (bgo#647108)
+* RadioStationFetcher: Updated the shoutcast plugin to fix the IP address
+* ZeitgeistDataprovider: Register dataprovider in DataSource Registry (lp#691842)
+* ZeitgeistDataprovider: Differenciate between ScheduledActivity and UserActivity (lp#748120)
+
+
+=================================
+Version 2.0.0 - April 6, 2011
+=================================
+
+Contributors since 1.8.0:
+Alexander Kojevnikov, Bertrand Lorentz, Chow Loong Jin, David Nielsen,
+Frank Ziegler, Gabriel Burt, Janez Troha, John Moore, Manish Sinha,
+Mathijs Dumon, Olivier Dufour, Raimo Radczewski, Rodney Dawes, Samuel Gyger
+
+New extensions since 1.8.0 :
+* Ampache: Browse and play your remote music with Ampache
+* Jamendo: Browse the Jamendo catalog, stream and download free music
+* Karaoke: Filter out the singers voice
+* LastfmFingerprint: Identify your music automatically, using the Last.fm online service
+* RandomByLastfm: Shuffle your library using information from the Last.fm online service
+* ZeitgeistDataprovider: Publish your Banshee activities into Zeitgeist
+
+Enhancements since 1.8.0:
+* AlarmClock: Improve the sleep timer configuration
+* LiveRadio: Add a module to fetch radio stations from RealRadios.com
+* Lyrics: Improve performance
+
+Notable bugs fixed since 1.8.0:
+* Fix missing unique IDs in several extension sources
+* AlarmClock: Fix sleep timer fade out duration (bgo#634200)
+* AlarmClock: Don't start playing if the alarm is disabled (bgo#637481)
+* ClutterFlow: Handle horizontal scrolling properly (bgo#644609)
+* Lirc: Fix potential memory issues
+* Lirc: Add a dllmap for lirc_client (bgo#635848)
+* LiveRadio: Fix crash when retrieving source icon (bgo#640152)
+* LiveRadio: Fix display of the source icon
+* Lyrics: Fix NullPointerException when artist is unknown
+* Lyrics: Properly trim artist name and track title and fix NRE (bgo#635616)
+* Lyrics: Change regex on LyricWiki to show only original language (bgo#635434)
+* Lyrics: Throw a NetworkUnavailableException when there is no network (bgo#634787)
+* Lyrics: Don't use lyricsplugin.com anymore (bgo#640570)
+* Magnatune: Fix display of the source icon
+* Streamrecorder: Fix recording of some streams (bgo#642933)
+* StreamRecorder: Fix write error by creating output directory if needed
+
+
+=================================
+Version 1.9.6 - March 24, 2011
+=================================
+
+Contributors:
+Alexander Kojevnikov, Bertrand Lorentz, Chow Loong Jin, Frank Ziegler,
+Gabriel Burt
+
+Enhancements:
+* Jamendo: Allow cancelling downloads
+* Karaoke: Use youtubelyric.com for optional scrolling lyrics display
+
+Bugs Fixed:
+* ClutterFlow: Handle horizontal scrolling properly (bgo#644609)
+* Streamrecorder: Fix recording of some streams (bgo#642933)
+
+=================================
+Version 1.9.5 - March 10, 2011
+=================================
+
+Contributors:
+Frank Ziegler
+
+Bugs Fixed:
+* Karaoke: fixed a potential application crash
+
+=================================
+Version 1.9.4 - March 3, 2011
+=================================
+
+Contributors:
+Bertrand Lorentz, Frank Ziegler, Olivier Dufour, Chow Loong Jin
+
+Enhancements:
+* Karaoke: added a new extension to filter out the singers voice
+
+Bugs Fixed:
+* LastfmFingerprint: Fix some exceptions
+* Fix missing unique IDs in several extension sources
+* Lirc: Fix potential memory issues
+* Lyrics: Fix NullPointerException when artist is unknown
+
+=================================
+Version 1.9.3 - February 3, 2011
+=================================
+
+Contributors:
+Bertrand Lorentz, Frank Ziegler
+
+Enhancements:
+* AlarmClock: Improve the sleep timer configuration
+* LastfmFingerprint: Only show the authentication dialog once per run
+* LiveRadio: Add a module to fetch radio stations from RealRadios.com
+
+Bugs Fixed:
+* AlarmClock: Fix sleep timer fade out duration (bgo#634200)
+* LastfmFingerprint: Update display when saving track (bgo#639721)
+* LiveRadio: Fix crash when retrieving source icon (bgo#640152)
+* LiveRadio: Fix display of the source icon
+* Lyrics: Don't use lyricsplugin.com anymore (bgo#640570)
+* Magnatune: Fix display of the source icon
+
+=================================
+Version 1.9.2 - January 12, 2011
+=================================
+
+Contributors:
+Bertrand Lorentz, David Nielsen, Frank Ziegler, John Moore, Olivier Dufour
+
+Enhancements:
+* [LastfmFingerprint] Add authentication support
+* [Lyrics] Improve performance
+
+Bugs Fixed:
+* [StreamRecorder] Fix write error by creating output directory if needed
+* [AlarmClock] Don't start playing if the alarm is disabled (bgo#637481)
+
+We now are using the Transifex tool for translations for BCE.
+
+=================================
+Version 1.9.1 - December 16, 2010
+=================================
+
+Contributors:
+Bertrand Lorentz, Chow Loong Jin, Gabriel Burt, Janez Troha, John Moore,
+Manish Sinha, Mathijs Dumon, Olivier Dufour, Rodney Dawes, Samuel Gyger
+
+New:
+* [Jamendo] Browse the Jamendo catalog, stream and download free music
+* [ZeitgeistDataprovider] Publish your Banshee activities into Zeitgeist
+
+Enhancements:
+* [LastfmFingerprint] Correct more information : album name, track number, etc.
+* [build] Various build/unit test fixes
+
+Bugs Fixed:
+* [Ampache] Improve handling of large libraries (bgo#636069)
+* [Ampache] Reduce the initial load time by loading songs on demand (bgo#636041)
+* [LastfmFingerprint] Fix NRE when fingerprint request times out (bgo#635899)
+* [Lirc] Add a dllmap for lirc_client (bgo#635848)
+* [Lyrics] Properly trim artist name and track title and fix NRE (bgo#635616)
+* [Lyrics] Change regex on LyricWiki to show only original language (bgo#635434)
+* [Lyrics] Throw a NetworkUnavailableException when there is no network (bgo#634787)
+
+The SoundMenu and UbuntuOneMusicStore extensions have been removed, as they are
+now core extensions and part of the main Banshee source tree.
+
+=================================
+Version 1.9.0 - November 10, 2010
+=================================
+
+Contributors:
+Bertrand Lorentz, John Moore, Olivier Dufour, Raimo Radczewski
+
+New:
+* [Ampache] Browse and play your remote music with Ampache
+* [LastfmFingerprint] Identify your music automatically, using the Last.fm online service
+* [RandomByLastfm] Shuffle your library using information from the Last.fm online service
+
+Bugs Fixed:
+* [SoundMenu] Fix removal of the preference checkbox (bgo#633708)
+
+==================================
+Version 1.8.0 - September 29, 2010
+==================================
+
+Contributors:
+Bertrand Lorentz, Gabriel Burt, Gianvito Cavasoli
+
+Bugs Fixed:
+* [AlarmClock] Rework synchronization to avoid an infinite loop
+* [AlarmClock] Fix a crash on exit
+* [SoundMenu] Add dependency on the MPRIS extension
+
+==================================
+Version 1.7.6 - September 15, 2010
+==================================
+
+Contributors:
+Aaron Bockover, Bertrand Lorentz, Patrick Niklaus
+
+Enhancements:
+* [Lyrics] Add a Copy button to the lyrics window
+* [Lyrics] Fix up the label in LyricsPane
+* [Lyrics] Use Banshee.WebBrowser instead of webkit-sharp
+
+Bugs Fixed:
+* [build] Bring gnome-doc-utils autofoo into the tree
+* [Lyrics] Detect a false positive from lyricsplugin.com
+* [Lyrics] Fixed LyricsWiki source
+* [U1MS] Set a TypeUniqueId for the source (bgo#626965)
+
+===============================
+Version 1.7.4 - August 14, 2010
+===============================
+
+Contributors:
+Aaron Bockover, Alex Launi, Alexander Kojevnikov, Andrés G. Aragoneses,
+Bertrand Lorentz, Chow Loong Jin, Chris Howie, Frank Ziegler, Gabriel Burt,
+Iain Lane, Ruben Vermeersch, Sense Hofstede
+
+New:
+* [OpenVP] Add various visualizations to the Now Playing source
+* [SoundMenu] Control Banshee from the sound menu available in Ubuntu
+
+Enhancements:
+* User help is now available, automatically integrated into the Banshee help pages.
+  To contribute to it, get in touch with the GNOME Documentation Project at
+  http://live.gnome.org/DocumentationProject
+* [AppIndicator] Avoid conflicts with NotificationArea by not being enabled at the same time
+
+Bugs Fixed:
+* [AppIndicator] Fix toggle state issue when the window was launched from its starter
+* [AppIndicator] Stop the notifications from lagging and stacking up (bgo#616652)
+* [AppIndicator] Use banshee-panel icon if it exists
+* [ClutterFlow] Fix crash when checking GL extensions
+* [ClutterFlow] Copy the clutter-sharp assemblies during installation
+* [LiveRadio] Fix ShoutCAST streams (lp#572819)
+* [LiveRadio] Fix crash when disabling last enabled plugin (bgo#623983)
+* [Lyrics] Follow the WriteMetadata preference
+* [Mirage] Remove the ineffective "Duplicate Search" menu entry
+* [Mirage] Explicitly link mirageaudiotest to GStreamer libs (bgo#624084)
+* [Mirage] Delay initialization to avoid slowing down Banshee's startup
+* [StreamRecorder] Use a filesink in the gstreamer pipeline (bgo#616167)
+* [Telepathy] Update Now Playing information when gapless is on
+* [UbuntuOneMusicStore] Delay initialization until actually needed
+
+==============================
+Version 1.6.0 - March 31, 2010
+==============================
+
+Contributors:
+Alex Launi, Alexander Kojevnikov, Andrés G. Aragoneses, Bertrand Lorentz,
+Frank Ziegler, Gabriel Burt, Jo Shields, Mathijs Dumon, Sense Hofstede
+
+New:
+* [AppIndicator] use the new application indicator area available in Ubuntu.
+
+Enhancements:
+* [ClutterFlow] Added an alphabet bar to the scrollbar for fast browsing
+* [Lyrics] Add www.lyricsplugin.com support
+
+Bugs Fixed:
+* [ClutterFlow] Fix shade bug when there's no shader support
+* [ClutterFlow] Fix party-mode transition, fixed wrong slider label
+* [ClutterFlow] Fix small bug, now stores user sorting setting
+* [ClutterFlow] Fix asynchronous clone creation when user clicks album currently not centered
+* [ClutterFlow] Fix fullscreen bug, fixing internationalisation strings (again)
+* [I18N] Replace all Catalog calls with calls to the Mono.Addins localizer
+* [Magnatune] Replace unicode char with \u expansion
+* [Mirage] Only load RandomBySimilar if Mirage working
+* [StreamRecorder] Added "unchanged" encoder to record streams as they are
+* [StreamRecorder] fixed encoder choose to not include plugins that are not found
+* [StreamRecorder] updated deprecated lame gstreamer plugin to lamemp3enc
+
+==============================
+Version 1.5.5 - March 10, 2010
+==============================
+
+Contributors:
+Alexander Kojevnikov, Bertrand Lorentz, David Corrales, Frank Ziegler,
+Gabriel Burt, Jo Shields, Mathijs Dumon, Max Battcher, Neil Loknath
+
+New:
+* [CoverWallpaper] new, migrated from Google Code
+* [LiveRadio] new, another way to discover internet radio stations
+* [Magnatune] new, browse and stream tracks from Magnatune
+* [Telepathy] new, browse your IM friends' music library, download or stream their tracks
+* [UbuntuOneMusicStore] new, browse and preview songs from the Ubuntu One Music Store
+
+Enhancements:
+* [ClutterFlow] Added a slide out animation when user right-clicks album so he/she can see the cover better
+* [ClutterFlow] Dragging sensitivity is now adjustable
+* [Mirage] Much more sophisticated shuffle/fill-by similar
+
+Bugs Fixed:
+* [Lyrics] Handle proxy config errors (bgo#611446)
+* [Mirage] Fix crash in RandomBySimilar (bgo#611066)
+
+Translators:
+Frank Ziegler, Gianvito Cavasoli
+
+============================
+Version 1.5.4 - Feb 24, 2010
+============================
+
+Banshee Community Extensions is a sub-project of Banshee, where the
+community can work on upcoming extensions with fewer barriers to entry.
+
+Learn more: http://banshee-project.org/download/extensions/
+
+In this first release, we have migrated nine community extensions that were
+previously hosted all over (Google Code, Gitorious, self-hosted), including
+their full commit history.  These are:
+
+  AlarmClock, Awn, ClutterFlow, LCD, Lirc, Lyrics, Mirage,
+  RadioStationFetcher, StreamRecorder
+
+Since migrating them, some changes have been made:
+
+  * Mirage now adds shuffle-by-similar and fill-by-similar modes instead
+    of adding its own automatic-playlist source.
+
+  * All extensions can be found in Preferences under the 'Community
+    Extensions' category
+
+  * All extensions are disabled by default; enable in Preferences

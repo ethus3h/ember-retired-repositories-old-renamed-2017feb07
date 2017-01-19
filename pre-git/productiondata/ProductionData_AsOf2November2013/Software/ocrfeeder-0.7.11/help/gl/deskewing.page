@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="deskewing">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Corrixindo a inclinación nas imaxes</desc>
+</info>
+
+<title>Organizando</title>
+
+<p>Algunhas imaxes, especialmente se foron engadidas desde un dispositivo de escáner, poden ser distorsionadas e isto fai máis difícil recoñecer a imaxe.</p>
+
+<p><app>OCRFeeder</app> ofrece unha forma de organizar automaticamente unha imaxe. Para organizar unha imaxe cargada, preme <guiseq><gui>Ferramentas</gui><gui>Organizador de imaxes</gui></guiseq>.</p>
+
+<p>Esta operación tamén pode ser realizada automaticamente cada que se engade unha imaxe. Para definilo, pode simplemente abrir o diálogo <gui>Preferencias</gui> desde <guiseq><gui>Editar</gui><gui>Preferencias</gui></guiseq> e marcar <gui>Imaxes organizadas</gui> na lapela <gui>Ferramentas</gui>.</p>
+
+<note type="warning"><p>En función do tamaño e as características da imaxe, organizala pode levar certo tempo.</p></note>
+
+</page>

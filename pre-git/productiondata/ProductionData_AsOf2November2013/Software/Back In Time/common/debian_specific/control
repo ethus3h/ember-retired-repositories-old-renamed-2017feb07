@@ -1,0 +1,14 @@
+Package: backintime-common
+Version: 1.0.24
+Source: backintime-common
+Section: utils
+Priority: optional
+Maintainer: BIT Team <bit-team@lists.launchpad.net>
+Homepage: http://backintime.le-web.org
+Architecture: all
+Depends: python, rsync, cron, openssh-client, sshfs, python-keyring
+Recommends: powermgmt-base
+Conflicts: backintime
+Replaces: backintime
+Description: Simple backup system (common)
+ This package contains non GUI files used by different GUI fontends.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="unpaper">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Limpiar las imágenes antes de realizar un OCR</desc>
+</info>
+
+<title>Unpaper</title>
+
+<p><em> Unpaper</em> es una herramienta para limpiar las imágenes con el fin de que sean más fáciles de leer en la pantalla. Está dirigido principalmente a las imágenes obtenidas a partir de documentos escaneados que suelen mostrar el polvo, márgenes negros u otros defectos.</p>
+
+<p><app>OCRFeeder</app> puede usar <em>Unpaper</em> para limpiar las imágenes antes de procesarlas, lo que generalmente produce un mejor reconocimiento.</p>
+
+<p><em>Unpaper</em> debe estar instalado para poder usarse. Si no está instalado, <app>OCRFeeder</app> no mostrará sus acciones en la interfaz.</p>
+
+<p>Para usar <em>Unpaper</em> en una imagen cargada, pulse en <guiseq><gui>Herramientas</gui><gui>Unpaper</gui></guiseq>. Se mostrará el diálogo <gui>Procesador de imágenes Unpaper</gui> con las opciones de <em>Unpaper</em>y un área para previsualizar los cambios antes de aplicarlos en la imagen cargada. Dependiendo del tamaño y de las características de la imagen, el uso de esta herramienta puede llevar algún tiempo.</p>
+
+<p><em>Unpaper</em> se puede configurar abriendo <guiseq><gui>Editar</gui><gui>Preferencias</gui></guiseq> y accediendo a la pestaña <gui>Herramientas</gui>. En esta área puede introducir la ruta del ejecutable de <em>Unpaper</em> (normalmente ya está configurada si <em>Unpaper</em> se instaló la primera vez que se ejecutó <app>OCRFeeder</app>). En la misma área, en <gui>Preprocesado de imagen</gui>, se puede marcar <gui>Imágenes Unpaper</gui> para hacer que <em>Unpaper</em> procese las imágenes automáticamente después de cargarlas en <app>OCRFeeder</app>. Las opciones que usa <em>Unpaper</em> cuando se le llama automáticamente después de añadir una imagen se pueden configurar pulsando en el botón <gui>Preferencias de Unpaper</gui>.</p>
+
+</page>

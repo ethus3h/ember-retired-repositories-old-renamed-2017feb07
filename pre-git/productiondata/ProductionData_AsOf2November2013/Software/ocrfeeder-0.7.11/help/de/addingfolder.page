@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="addingfolder">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Alle Bilder aus einem Ordner hinzufügen</desc>
+</info>
+
+<title>Hinzufügen eines Ordners</title>
+
+<p>Gelegentlich ist es sinnvoll, alle Bilder eines bestimmten Ordners hinzuzufügen. Wählen Sie hierzu <guiseq><gui>Datei</gui><gui>Ordner hinzufügen</gui></guiseq>.</p>
+
+</page>

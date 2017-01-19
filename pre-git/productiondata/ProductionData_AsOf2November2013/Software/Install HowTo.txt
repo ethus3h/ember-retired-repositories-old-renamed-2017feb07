@@ -1,0 +1,30 @@
+[ TubeMaster++ Installation Instructions ]
+
+=----- (1) -> System Requirements -----
+
+[+] Java SE Runtime Environment (JRE) : http://java.sun.com/javase/downloads/index.jsp
+[+] Java SE Development Kit (JDK) : http://java.sun.com/javase/downloads/index.jsp
+[+] LibPcap (Installed by default) : http://sourceforge.net/projects/libpcap/ 
+
+[+] JPcap Library : http://netresearch.ics.uci.edu/kfujii/jpcap/doc/download.html
+** You must always be sure that "libjpcap.so" is in "/usr/lib" directory. If not, move it.
+	
+[+] FFMpeg with FFPlay : 
+
+** Debian, Ubuntu : 
+- FFMpeg & FFPlay : Run Command "apt-get install ffmpeg"
+- FFMpeg Libraries : Run Command "apt-get install libavcodec-unstripped-52"
+
+** RedHat, Fedora :
+- Install RPMFusion Software Provider : http://rpmfusion.org/Configuration
+- FFMpeg & FFPlay : Run Command "yum install ffmpeg"
+
+** Mandrake : 
+- It appears that running "urpmi ffmpeg" command works but ffmpeg doesn't have all needed libraries.
+So you must be sure that FFMpeg is installed with "libxvid" and "libmp3lame".
+
+	
+=----- (2) -> Once all System Requirements are installed go to TubeMaster++ folder.
+=----- (3) -> Run tm++.jar (You must be ROOT !).
+=----- (4) -> If you have any questions, suggestions, or if you find some bugs, please contact me at : admin[at]tubemaster.net
+

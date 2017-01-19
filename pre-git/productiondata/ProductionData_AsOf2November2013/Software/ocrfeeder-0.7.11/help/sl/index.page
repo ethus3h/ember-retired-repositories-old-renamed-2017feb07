@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+<info>
+    <desc>Pomoč za <app>Sistem pretvarjanja dokumentov OCRFeeder</app>.</desc>
+    <title type="link">OCRFeeder sistem za pretvarjanje dokumentov</title>
+    <title type="text">OCRFeeder sistem za pretvarjanje dokumentov</title>
+    <credit type="author">
+      <name>Joaquim Rocha</name>
+      <email>jrocha@igalia.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>OCRFeeder sistem za pretvarjanje dokumentov</title>
+<p>OCRFeeder je sistem za preučevanje razporeditve in optično prepoznavo znakov.</p>
+
+<p>OCRFeeder je bil ustvarjen, da bi uporabnikom omogočil enostavno pretvarjanje slik dokumentov (na primer slika PNG z besedilom) v uredljive dokumente (na primer različico ODT z besedilom).</p>
+
+<p>OCRFeeder bo samodejno orisal vsebino slik, izvedel prepoznavanje znakov in ločil med tem kaj je grafika in kaj je besedilo. Ustvari več vrst datotek, pri čemer je glavna ODT.</p>
+
+<p>Ta vodič vam bo razložil kako nastaviti in uporabiti ORCFeeder.</p>
+
+<section id="images" style="2column">
+    <title>Dodajanje slik</title>
+</section>
+
+<section id="recognition" style="2column">
+    <title>Prepoznava</title>
+</section>
+
+<section id="configuration" style="2column">
+    <title>Nastavljanje</title>
+</section>
+
+<section id="projects" style="2column">
+    <title>Projekti</title>
+</section>
+
+</page>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="importingpdf">
+
+<info>
+    <link type="guide" xref="index#images"/>
+    <link type="seealso" xref="addingimage"/>
+    <desc>Importar documentos PDF</desc>
+</info>
+
+<title>Importar PDF</title>
+
+<p>Algunos documentos no son más que imágenes situadas en un documento PDF. En estos casos, <app>OCRFeeder</app> todavía puede importar un documento PDF, por lo que se convertirán en un documento editable.</p>
+
+<p>Para importar un documento PDF, pulse en <guiseq><gui>Archivo</gui><gui>Importar PDF</gui></guiseq>.</p>
+
+<p>Cada página en PDF se convertirá en una imagen y se situará en el área de páginas.</p>
+
+<note style="warning"><p>La conversión de PDF puede ser un proceso exigente yllevar algún tiempo para archivos PDF grandes.</p></note>
+
+</page>

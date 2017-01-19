@@ -1,0 +1,928 @@
+# ClamTk, Galician language file
+# Copyright (C) Dave M <dave.nerd @ gmail.com>, 2004-2012.
+# This file is distributed under the same license as the ClamTk package.
+# Román Pena Pérez <roman.pena.perez@gmail.com>, 2007.
+# Marcos Lans - Ciberirmandade <marcoslansgarza@gmail.com>
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2011.
+# Fran Diéguez, 2012
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2012
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ClamTk, 4.39\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2012-08-27 05:58+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: Marcos Lans - Ciberirmandade <marcoslansgarza@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-08-31 12:08+0000\n"
+"X-Generator: Launchpad (build 15890)\n"
+"X-Poedit-Language: Galician\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "Non foi posíbel crear os cartafoles de inicio"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "Non foi posiposíbelble crear a interface gráfica."
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "Nunca"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "Buscar virus..."
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "Analizador de virus"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "Dispositivo USB"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "Disquete"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "Non foi posíbel atopar ningún dispositivo"
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "Se ten conectado algún dispositivo, primeiro débeo montar."
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "Dispositivos dispoñibles"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "Seleccione un dispositivo e prema Cancelar"
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "A_nalizar"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "_Ver"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "_Opcións"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "_Corentena"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "_Avanzado"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_Axuda"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "Un _ficheiro"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "Cartafol persoal (_rápido)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Cartafol persoal (recursivo)"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "Un _cartafol"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "Análise _recursiva"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "Un dispositivo"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "_Saír"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "_Historial"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "_Última infomación de análises"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "Limpar a _saída"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "E_stado"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "_Mantemento"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "_Baleirar o cartafol de corentena"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "_Procurar actualizacións"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "_Acerca de"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "Pr_ogramador"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "Executar o a_sistente do antivirus"
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "Enviar un ficheiro para analizar"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Cartafol persoal"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "Analizar o cartafol persoal"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "Historial"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "Ver as súas análises anteriores"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "Estabeleza ou vexa as súas preferencias"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "Saír"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "Saír do programa"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "Versión da interface"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "A versión da IU está actualizada"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "Definicións do antivirus"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "Descoñecido"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "As definiciúns de antivirus están actualizadas"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "Motor do antivirus"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "Indica a versión do motor antivirus"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "Deter análise"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "Ficheiros analizados: "
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "Ameazas encontradas: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "Arrastrar e soltar"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "Non foi posíbel a análise (permisos)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "Ningunha"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "Cartafol excluído da análise"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "Non foi posíbel a comprobación"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "Hai unha nova versión dispoñible"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "Non atopado"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "Non actualizado"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "As sinaturas antivirus non están actualizadas"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "Actual"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "Seleccionar un ficheiro"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "Seleccionar un cartafol"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "Seleccionar un cartafol (análise recursiva)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "Non analizará este cartafol"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "A analizar %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>Ameazas encontradas: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "Ameazas encontradas: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "Ficheiros analizados: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "Pechar a xanela"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "Non se analizou ningún ficheiro."
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "Sinaturas de ClamAV: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "Cartafoles analizados:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"Atopados %d posíbeis %s (%d %s analizados).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "ameaza"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "ameazas"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "ficheiro"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "ficheiros"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "Non se puido escribir no ficheiro do rexistro. Comprobe os permisos."
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "Análise completada (%d sinaturas)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr "Non se encontraron ameazas.\n"
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "Corentena"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "Ficheiro"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "Restaurar"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "A operación fallou."
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "Restaurado como %s"
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "Non hai dispoñible un cartafol de virus."
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "Non foi posíbel abrir o cartafol de virus."
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "Actualmente non hai elementos en corentena."
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "Actualmente hai %d elemento(s) en corentena."
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "Non existe ningún cartafol de corentena que baleirar."
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "Confirma a eliminación de todos os ficheiros en corentena?"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "Non existen elementos en corentena que borrar."
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "Eliminados %d elemento(s)."
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr "Examinando o historial"
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "Ver"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "Non foi posíbel borrar %s!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "Estase a ver %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "Problemas abrindo %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "Non foi posíbel pechar o ficheiro %s! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr "Examinando"
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr "Examinar os ficheiros agochados"
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "Analizar os ficheiros que comezan cun punto (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr "Examinar os directorios de xeito recursivo"
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "Analizar todos os ficheiros e sub-cartafoles dentro dun cartafol"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr "Examinando para «Aplicativos potencialmente non desexados» (PUA)"
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+"Detectar paquetes binarios, ferramentas de recuperación de contrasinais, e "
+"máps"
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "Analizar os ficheiros maiores de 20 MB"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr "Examinar ficheiros de gran tamaño que normalmente non se examinan"
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr "Examinar directorios relacionados con samba"
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "Escanear directorios relacionados con samba %s"
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr "Inicio"
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "Procurar actualizacións para a interface"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr "Eliminar as bases de datos de sinaturas duplicadas"
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "Listaxe branca"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "Cartafol"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "Seleccionar un cartafol"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr "Proxy"
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "Sen proxy"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "Axustes do contorno"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "Establecer manualmente"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "Enderezo IP ou servidor:"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "Porto:"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "Data da última análise: %s"
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr "Data da última ameaza coñecida: %s"
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "Agarde por favor..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"ClamTk é unha interface para o antivirus ClamAV que emprega gtk2-perl."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"Este programa é software libre; vostede pode redistribuilo\n"
+"e/ou modificalo baixo algunha das seguintes licenzas:\n"
+"\n"
+"a) a Licenza pública xeral GNU publicada pola\n"
+"Free Software Foundation; na súa versión 1, ou\n"
+"(a súa elección) outra posterior, ou\n"
+"\n"
+"b) a «Artistic License».\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "Resultados da análise"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "Encontráronse posíbeis ameazas."
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "Estado"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "Acción tomada"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "Poñer en corentena este ficheiro"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "Borrar este ficheiro"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "Gardar como..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "Non se puido gardar este ficheiro."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "Movido"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "Ficheiro gardado."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "O ficheiro xa foi movido ou borrado."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "O ficheiro púxose en corentena."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>Corentena</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "Non se puido poñer o ficheiro en corentena."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "Confirma a eliminación deste ficheiro?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "O ficheiro foi borrado."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>Borrado</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "Non se puido borrar o ficheiro."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "Non existe o cartafol de corentena."
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "Programar"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "Opcións de análise"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "Analizar... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "Cartafol persoal (recomendado)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr ""
+"Esta opción analizará o cartafol persoal. Esta é a opción recomendada."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "Todo o computador"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"Esta opción fará unha análise completa do computador con excepción dos "
+"cartafoles  /proc, /sys e /dev"
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "a esta hora... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "Estableza a hora empregando o patrón de 24 horas."
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "horas"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "minutos"
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "Analizar os cartafoles das listaxes brancas"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "Opcións das sinaturas antivirus"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "Escolla unha hora para actualizar as sinaturas."
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "Hai programada unha análise diaria."
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "Hai programada unha actualización diaria das definicións."
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "Non hai programada ningunha análise diaria."
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "Non hai programada ningunha actualización diaria das definicións."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "Nome"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "Correo-e"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "Non se seleccionou ningún ficheiro"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "O ficheiro anexado é"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "Novo malware"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "Falso positivo"
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "Descrición"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "Non envíe máis de dous ficheiros por día."
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "Vai enviar un ficheiro para analizar."
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "Prema Aceptar para continuar ou Cancelar para volver."
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "Enviouse correctamente"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "O ficheiro enviado xa se recoñeceu"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr "Non foi posíbel completar o envío. Ténteo máis tarde."
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "Con este formulario, pode:"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "Informar de novos virus que non son detectados"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "Informar de ficheiros limpos que son detectados incorrectamente"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "Indica un campo necesario"
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "Comprobar actualizacións"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "Actualizacións"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "Seleccionar"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "Ten que ser administrador para activalo."
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "Actualizacións de sinaturas"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "Comprobar se hai actualizacións para as sinaturas antivirus"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "N/D"
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "Actualizacións da GUI"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "Buscar actualizacións para a interface gráfica"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"Non é recomendable executar esta aplicación como root.\n"
+"Vexa http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "A comprobar..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "Fallou a actualización"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "As sinaturas están actualizadas"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "Actualizado"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "Fallou a comprobación"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "Tentando a conexión..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "Estanse a descargar as actualizacións..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "Non é posíbel a conexión..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Actualizáronse as sinaturas diarias"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "Estase a comprobar a version da base de datos principal de virus"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "A base de datos principal é a actual"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "Escolla como actualizar as sinaturas do antivirus."
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "Se desexa actualizar as sinaturas por si mesmo, escolla Manual."
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "Se desexa actualizar automaticamente, escolla Automático."
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr "Manual"
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr "Automático"
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "Gardáronse as súas preferencias."

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="documentgeneration">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Erstellen eines bearbeitbaren Dokuments</desc>
+</info>
+
+<title>Dokumenterstellung</title>
+
+<p><app>OCRFeeder</app> currently generates three document formats:
+<em>ODT</em>, <em>HTML</em> and <em>Plain Text</em>.</p>
+
+<p>Nachdem eine Vorlage erkannt und eventuell manuell nachbearbeitet wurde, können Sie daraus ein Dokument erstellen. Wählen Sie hierzu <guiseq><gui>Datei</gui><gui>Exportieren …</gui></guiseq> und wählen Sie das gewünschte Dokumentformat aus.</p>
+
+<note style="tip"><p>Der HTML-Export erstellt einen Ordner mit den Seiten des Dokuments, wobei jede Seite durch eine HTML-Datei repräsentiert wird. In jeder Seite werden Verweise angelegt, die zur jeweils vorherigen und nächsten Seite führen. Bilder werden in einem Unterordner namens <em>images</em> gespeichert.</p></note>
+
+</page>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="documentgeneration">
+
+<info>
+    <link type="guide" xref="index#recognition"/>
+    <link type="seealso" xref="automaticrecognition"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Створення документа, придатного для редагування</desc>
+</info>
+
+<title>Породження документа</title>
+
+<p><app>OCRFeeder</app> currently generates three document formats:
+<em>ODT</em>, <em>HTML</em> and <em>Plain Text</em>.</p>
+
+<p>Після розпізнавання і, можливо, ручного редагування, можна створити документ, клацнувши <guiseq><gui>Файл</gui><gui>Експортувати…</gui></guiseq> та вибравши бажаний формат документа.</p>
+
+<note style="tip"><p>Експортування в HTML породжує теку зі сторінками документа, поданими окремими файлами HTML. На кожній сторінці є посилання для переходу до попередньої і наступної сторінок. Ділянки, що містять зображення, зберігаються в підтеку з назвою <em>images</em>.</p></note>
+
+</page>

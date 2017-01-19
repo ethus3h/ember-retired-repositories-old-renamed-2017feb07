@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="unpaper">
+
+<info>
+    <link type="guide" xref="index#configuration"/>
+    <link type="seealso" xref="manualeditionandcorrection"/>
+    <desc>Čiščenje slik pred izvajanjem prepoznave znakov</desc>
+</info>
+
+<title>Razstranjevanje</title>
+
+<p><em>Razstrani</em> je orodje za čiščenje slik, kar jih naredi lažje berljive na zaslonu. Namenjeno je predvsem za slike iz optično branih dokumentov, ki običajno pokažejo prah, črne robove ali druge napake.</p>
+
+<p><app>OCRFeeder</app> lahko uporabi <em>Razstrani</em> za čiščenje svojih slik pred njihovo obdelavo, kar običajno povzroči boljšo prepoznavo.</p>
+
+<p><em>Razstrani</em> mora biti za uporabo nameščen. V primeru da ni nameščen, <app>OCRFeeder</app> v vmesniku ne bo prikazal njegovega dejanja.</p>
+
+<p>Za uporabo orodja <em>Razstrani</em> na naloženi sliki kliknite <guiseq><gui>Orodja</gui><gui>Razstrani</gui></guiseq>. Pogovorno okno <gui>Obdelovalnik slik razstrani</gui> bo bilo prikazano z možnostmi <em>Razstrani</em> in področjem za predogled sprememb pred njihovim uveljavljanjem na naloženi sliki. Glede na velikost in značilnosti te slike, lahko uporaba tega orodja traja nekaj časa.</p>
+
+<p><em>Razstranjanje</em> je mogoče nastaviti z <guiseq><gui>Uredi</gui><gui>Možnosti</gui></guiseq> in dostopanjem do zavihka <gui>Orodja</gui>. V tem področju lahko vnesete pot do izvedljive datoteke <em>Razstrani</em> (običajno je pot nastavljena, če je bil programnik  <em>Razstrani</em> nameščen ob prvem zagonu programa <app>OCRFeeder</app>). V istem področju pod <gui>Pred obdelava slike</gui> lahko izberete  <gui>Razstrani slike</gui>. Izbrana možnost določi, da <em>Razstrani</em> slike po nalaganju v <app>OCRFeeder</app> samodejno obdela. Možnosti, ki jih <em>Razstrani</em> uporabi ob samodejnem priklicu po dodajanju slike, lahko spremenite s klikom na gumb <gui>Možnosti razstranjanja</gui>.</p>
+
+</page>

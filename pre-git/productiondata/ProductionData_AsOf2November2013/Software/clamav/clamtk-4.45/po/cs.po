@@ -1,0 +1,924 @@
+# ClamTk Czech language file
+# Copyright (C) Dave M. < dave . nerd @ gmail >, 2004-2012.
+# This file is distributed under the same license as the ClamTk package.
+# Other authors: Karel Hudan <hudan@itmanagement.cz>, 2007, Tomáš Velecký,
+# Roman Horník, Konki <pavel.konkol@seznam.cz, Martin \"sachy\" Šácha
+# Martin Lukeš, Zbyněk Schwarz, Pavel Konkol
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clamtk, 4.42\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 12:22-0500\n"
+"PO-Revision-Date: 2012-10-29 11:07+0000\n"
+"Last-Translator: Konki <pavel.konkol@seznam.cz>\n"
+"Language-Team: ITM <hudan@itmanagement.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-11-18 17:40+0000\n"
+"X-Generator: Launchpad (build 16278)\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-Language: Czech\n"
+
+#: clamtk:39
+msgid "Unable to create startup directories!"
+msgstr "Nelze vytvořit startovací složky!"
+
+#: clamtk:55
+msgid "Unable to create graphical interface!"
+msgstr "Není možné vytvořit grafické rozhraní!"
+
+#: lib/App.pm:391 lib/Prefs.pm:154
+msgid "Never"
+msgstr "Nikdy"
+
+#: lib/App.pm:441
+msgid "Scan for viruses..."
+msgstr "Hledat viry..."
+
+#: lib/Device.pm:40 lib/GUI.pm:102
+msgid "Virus Scanner"
+msgstr "Vyhledávač virů"
+
+#: lib/Device.pm:54 lib/Device.pm:314 lib/Device.pm:316
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: lib/Device.pm:55 lib/Device.pm:315
+msgid "USB device"
+msgstr "USB zařízení"
+
+#: lib/Device.pm:56 lib/Device.pm:313 lib/Device.pm:317
+msgid "Floppy disk"
+msgstr "disketa"
+
+#: lib/Device.pm:70
+msgid "No devices were found."
+msgstr "Nebyla nalezena žádná zařízení."
+
+#: lib/Device.pm:74
+msgid "If you have connected a device, you may need to mount it first."
+msgstr "Pokud máte zapojené zařízení, tak ho musíte nejdřív připojit."
+
+#: lib/Device.pm:86
+msgid "Devices available"
+msgstr "Dostupná zařízení"
+
+#: lib/Device.pm:93
+msgid "Select a device or press Cancel"
+msgstr "Vyberte zařízení, nebo stiskněte Zrušit"
+
+#: lib/GUI.pm:119
+msgid "_Scan"
+msgstr "_Prohledat"
+
+#: lib/GUI.pm:120
+msgid "_View"
+msgstr "_Zobrazit"
+
+#: lib/GUI.pm:121
+msgid "_Options"
+msgstr "_Možnosti"
+
+#: lib/GUI.pm:122
+msgid "_Quarantine"
+msgstr "_Karanténa"
+
+#: lib/GUI.pm:123
+msgid "_Advanced"
+msgstr "_Pokročilé"
+
+#: lib/GUI.pm:124
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: lib/GUI.pm:129
+msgid "A _File"
+msgstr "_Soubor"
+
+#: lib/GUI.pm:135
+msgid "Home (_Quick)"
+msgstr "Domovcký adresář (_Rychle)"
+
+#: lib/GUI.pm:141
+msgid "Home (Recursive)"
+msgstr "Domov (rekurzivně)"
+
+#: lib/GUI.pm:147
+msgid "A _Directory"
+msgstr "_Složka"
+
+#: lib/GUI.pm:153
+msgid "_Recursive Scan"
+msgstr "_Rekurzivní test"
+
+#: lib/GUI.pm:159
+msgid "A Device"
+msgstr "Zařízení"
+
+#: lib/GUI.pm:165
+msgid "E_xit"
+msgstr "K_onec"
+
+#: lib/GUI.pm:173
+msgid "_History"
+msgstr "_Historie"
+
+#: lib/GUI.pm:179
+msgid "_Last Scan Information"
+msgstr "_Informace posledního skenování"
+
+#: lib/GUI.pm:185
+msgid "Clear _Output"
+msgstr "_Vymazat výsledky"
+
+#: lib/GUI.pm:193
+msgid "_Status"
+msgstr "_Stav"
+
+#: lib/GUI.pm:199
+msgid "_Maintenance"
+msgstr "Správce _karantény"
+
+#: lib/GUI.pm:205
+msgid "_Empty Quarantine Folder"
+msgstr "_Vyprázdnit složku karantény"
+
+#: lib/GUI.pm:213
+msgid "_Check for updates"
+msgstr "_Zkrontrolovat aktualizace"
+
+#: lib/GUI.pm:219
+msgid "_About"
+msgstr "_O aplikaci"
+
+#: lib/GUI.pm:227
+msgid "_Scheduler"
+msgstr "Plánovač"
+
+#: lib/GUI.pm:233
+msgid "Rerun antivirus setup _wizard"
+msgstr "Znovu spustit průvodce nastavením antiviru."
+
+#: lib/GUI.pm:240 lib/GUI.pm:351 lib/GUI.pm:1795
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: lib/GUI.pm:246 lib/Submit.pm:59
+msgid "Submit a file for analysis"
+msgstr "Odeslat soubor k analýze"
+
+#: lib/GUI.pm:330
+msgid "Home"
+msgstr "Domov"
+
+#: lib/GUI.pm:333
+msgid "Scan your home directory"
+msgstr "Testovat domovský adresář"
+
+#: lib/GUI.pm:341 lib/GUI.pm:1616
+msgid "History"
+msgstr "Historie"
+
+#: lib/GUI.pm:343
+msgid "View your previous scans"
+msgstr "Zobrazit vaše předchozí skenování"
+
+#: lib/GUI.pm:353
+msgid "Set or view your preferences"
+msgstr "Nastavit nebo zobrazit vaše nastavení"
+
+#: lib/GUI.pm:361
+msgid "Exit"
+msgstr "Ukončit"
+
+#: lib/GUI.pm:363
+msgid "Exit this program"
+msgstr "Ukončit program"
+
+#: lib/GUI.pm:382
+msgid "GUI version"
+msgstr "Verze GUI"
+
+#: lib/GUI.pm:387 lib/GUI.pm:669 lib/GUI.pm:733
+msgid "The GUI version is up-to-date"
+msgstr "Verze GUI je aktuální"
+
+#: lib/GUI.pm:395
+msgid "Antivirus definitions"
+msgstr "Definice antiviru"
+
+#: lib/GUI.pm:396 lib/GUI.pm:408 lib/GUI.pm:717
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: lib/GUI.pm:399 lib/GUI.pm:714
+msgid "The antivirus definitions are up-to-date"
+msgstr "Definice antiviru jsou aktuální"
+
+#: lib/GUI.pm:407
+msgid "Antivirus engine"
+msgstr "Antivir"
+
+#: lib/GUI.pm:412
+msgid "Indicates the version of the antivirus engine"
+msgstr "Označuje verzi antiviru"
+
+#: lib/GUI.pm:459 lib/GUI.pm:970
+msgid "Stop scanning now"
+msgstr "Ukončit kontrolu"
+
+#: lib/GUI.pm:497 lib/GUI.pm:1201
+msgid "Files Scanned: "
+msgstr "Testované soubory: "
+
+#: lib/GUI.pm:500 lib/GUI.pm:1202
+msgid "Threats Found: "
+msgstr "Nalezené hrozby: "
+
+#: lib/GUI.pm:511 lib/GUI.pm:518 lib/GUI.pm:525
+msgid "Drag and drop"
+msgstr "Táhni a pusť"
+
+#: lib/GUI.pm:565 lib/GUI.pm:901
+msgid "Could not scan (permissions)"
+msgstr "Nelze kontrolovat (nesprávná oprávnění)"
+
+#: lib/GUI.pm:566 lib/GUI.pm:574 lib/GUI.pm:903 lib/GUI.pm:1156
+msgid "None"
+msgstr "Žádný"
+
+#: lib/GUI.pm:573
+msgid "Directory excluded from scan"
+msgstr "Adresář vynechán ze skenování"
+
+#: lib/GUI.pm:665 lib/GUI.pm:729
+msgid "Unable to check"
+msgstr "Nelze zkontrolovat"
+
+#: lib/GUI.pm:673 lib/GUI.pm:737 lib/Update.pm:235
+msgid "A newer version is available"
+msgstr "Je k dispozici novější verze"
+
+#: lib/GUI.pm:699
+msgid "None found"
+msgstr "Žádný nebyl nalezen"
+
+#: lib/GUI.pm:707
+msgid "Outdated"
+msgstr "Zastaralý"
+
+#: lib/GUI.pm:709
+msgid "The antivirus signatures are out-of-date"
+msgstr "Podpisy antiviru jsou zastaralé"
+
+#: lib/GUI.pm:712 lib/Update.pm:234 lib/Update.pm:236
+msgid "Current"
+msgstr "Aktuální"
+
+#: lib/GUI.pm:837 lib/Submit.pm:122 lib/Submit.pm:254
+msgid "Select File"
+msgstr "Vyberte soubor"
+
+#: lib/GUI.pm:839
+msgid "Select a Directory (directory scan)"
+msgstr "Vyberte adresář (kontrola adresáře)"
+
+#: lib/GUI.pm:841
+msgid "Select a Directory (recursive scan)"
+msgstr "Vyberte adresář (rekurzivní test)"
+
+#: lib/GUI.pm:902
+msgid "Will not scan that directory"
+msgstr "Nebude kontrolovat tento adresář"
+
+#: lib/GUI.pm:1111
+#, perl-format
+msgid "Scanning %s..."
+msgstr "Otestováno %s..."
+
+#: lib/GUI.pm:1163 lib/GUI.pm:1291
+#, perl-format
+msgid "<b>Threats Found: %d</b>"
+msgstr "<b>Nalezeno hrozeb: %d</b>"
+
+#: lib/GUI.pm:1165
+#, perl-format
+msgid "Threats Found: %d"
+msgstr "Nalezeno hrozeb: %d"
+
+#: lib/GUI.pm:1216 lib/GUI.pm:1288
+#, perl-format
+msgid "Files Scanned: %d"
+msgstr "Otestováno souborů: %d"
+
+#: lib/GUI.pm:1226
+msgid "Close window"
+msgstr "Zavřít okno"
+
+#: lib/GUI.pm:1231
+msgid "No files were scanned."
+msgstr "Nebyly zkontrolovány žádné soubory."
+
+#: lib/GUI.pm:1270
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr "Virové databáze ClamAV: %d\n"
+
+#: lib/GUI.pm:1271
+msgid "Directories Scanned:\n"
+msgstr "Otestované adresáře:\n"
+
+#: lib/GUI.pm:1275
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+"\n"
+"Nalezen %d pravděpodobně %s (%d %s otestováno).\n"
+"\n"
+
+#: lib/GUI.pm:1277
+msgid "threat"
+msgstr "hrozba"
+
+#: lib/GUI.pm:1277
+msgid "threats"
+msgstr "hrozby"
+
+#: lib/GUI.pm:1279
+msgid "file"
+msgstr "soubor"
+
+#: lib/GUI.pm:1279
+msgid "files"
+msgstr "soubory"
+
+#: lib/GUI.pm:1282
+msgid "Could not write to logfile. Check permissions."
+msgstr "Nelze zapisovat do logu. Zkontrolujte oprávnění."
+
+#: lib/GUI.pm:1287
+#, perl-format
+msgid "Scanning complete (%d signatures)"
+msgstr "Test ukončen (%d signatur)"
+
+#: lib/GUI.pm:1301
+msgid "No threats found.\n"
+msgstr "Nenalezeny žádné hrozby\n"
+
+#: lib/GUI.pm:1359 lib/Results.pm:224
+msgid "Quarantine"
+msgstr "Karanténa"
+
+#: lib/GUI.pm:1372 lib/Results.pm:69
+msgid "File"
+msgstr "Soubor"
+
+#: lib/GUI.pm:1381
+msgid "Restore"
+msgstr "Obnovit"
+
+#: lib/GUI.pm:1467 lib/GUI.pm:1510
+msgid "Operation failed."
+msgstr "Operace selhala."
+
+#: lib/GUI.pm:1478
+#, perl-format
+msgid "Restored as %s."
+msgstr "Obnoveno jako %s."
+
+#: lib/GUI.pm:1525
+msgid "No virus directory available."
+msgstr "Není dostupná žádná virová databáze."
+
+#: lib/GUI.pm:1531 lib/GUI.pm:1568
+msgid "Unable to open the virus directory."
+msgstr "Nelze otevřít složku s virovou databází."
+
+#: lib/GUI.pm:1539
+msgid "No items currently quarantined."
+msgstr "Karanténa je prázdná."
+
+#: lib/GUI.pm:1541
+#, perl-format
+msgid "%d item(s) currently quarantined."
+msgstr "V karanténě je %d soubor(ů)."
+
+#: lib/GUI.pm:1551
+msgid "There is no quarantine directory to empty."
+msgstr "Neexistuje žádná karanténa k vyprázdnění."
+
+#: lib/GUI.pm:1554
+msgid "Really delete all quarantined files?"
+msgstr "Opravdu chcete smazat soubory v karanténě?"
+
+#: lib/GUI.pm:1575
+msgid "There are no quarantined items to delete."
+msgstr "V karanténě nejsou žádné soubory ke smazání."
+
+#: lib/GUI.pm:1588
+#, perl-format
+msgid "Removed %d item(s)."
+msgstr "Odstraněno %d soubor(ů)."
+
+#: lib/GUI.pm:1601
+msgid "Scanning History"
+msgstr "Skenuje se historie"
+
+#: lib/GUI.pm:1650
+msgid "View"
+msgstr "Zobrazit"
+
+#: lib/GUI.pm:1709
+#, perl-format
+msgid "Unable to delete %s!"
+msgstr "Soubor %s nelze smazat!"
+
+#: lib/GUI.pm:1732
+#, perl-format
+msgid "Viewing %s"
+msgstr "Prohlíží se %s"
+
+#: lib/GUI.pm:1745
+#, perl-format
+msgid "Problems opening %s..."
+msgstr "Nelze otevřít %s..."
+
+#: lib/GUI.pm:1755
+#, perl-format
+msgid "Unable to close FILE %s! %s\n"
+msgstr "Nelze zavřít soubor %s! %s\n"
+
+#: lib/GUI.pm:1813
+msgid "Scanning"
+msgstr "Skenování"
+
+#: lib/GUI.pm:1816
+msgid "Scan hidden files"
+msgstr "Sken skrytých souborů"
+
+#: lib/GUI.pm:1818
+msgid "Scan files beginning with a dot (.*)"
+msgstr "Kontrolovat soubory začínající tečkou (.*)"
+
+#: lib/GUI.pm:1829
+msgid "Scan directories recursively"
+msgstr "Skenovat adresáře rekurzivně"
+
+#: lib/GUI.pm:1831
+msgid "Scan all files and directories within a directory"
+msgstr "Kontrolovat všechny soubory a složky v adresáři"
+
+#: lib/GUI.pm:1842
+msgid "Scan for Potentially Unwanted Applications (PUA)"
+msgstr "Sken na potenciálně nechtěné aplikace"
+
+#: lib/GUI.pm:1844
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+"Rozpoznat zabalené binární soubory, nástroje pro obnovení hesla, a další"
+
+#: lib/GUI.pm:1856
+msgid "Scan files larger than 20 MB"
+msgstr "Kontrolovat i soubory větší než 20 MB"
+
+#: lib/GUI.pm:1858
+msgid "Scan large files which are typically not examined"
+msgstr "Sken velkých souborů, které nejsou obvykle zkoumány"
+
+#: lib/GUI.pm:1872
+msgid "Scan samba-related directories"
+msgstr "Sken samba-příbuzných adresářů"
+
+#: lib/GUI.pm:1875
+#, perl-format
+msgid "Scan samba-related directories %s"
+msgstr "Kontrolovat adresáře související se Sambou %s"
+
+#: lib/GUI.pm:1888
+msgid "Startup"
+msgstr "Spuštění"
+
+#: lib/GUI.pm:1891
+msgid "Check for GUI updates"
+msgstr "Zkontrolovat aktualizace GUI"
+
+#: lib/GUI.pm:1902
+msgid "Remove duplicate signature databases"
+msgstr "Odstranit duplicitní podpisové databáze"
+
+#: lib/GUI.pm:1916
+msgid "Whitelist"
+msgstr "Bílá listina"
+
+#: lib/GUI.pm:1927
+msgid "Directory"
+msgstr "Adresář"
+
+#: lib/GUI.pm:1941
+msgid "Select a Directory"
+msgstr "Vyberte adresář"
+
+#: lib/GUI.pm:2013
+msgid "Proxy"
+msgstr "Proxy"
+
+#: lib/GUI.pm:2017
+msgid "No Proxy"
+msgstr "Žádná proxy"
+
+#: lib/GUI.pm:2023
+msgid "Environment settings"
+msgstr "Nastavení prostředí"
+
+#: lib/GUI.pm:2029
+msgid "Set manually"
+msgstr "Nastavit ručně"
+
+#: lib/GUI.pm:2036
+msgid "IP address or host:"
+msgstr "Název nebo IP hostitele"
+
+#: lib/GUI.pm:2053
+msgid "Port:"
+msgstr "Port:"
+
+#: lib/GUI.pm:2289
+#, perl-format
+msgid "Date of your last scan: %s"
+msgstr "Datum vašeho posledního skenování: %s"
+
+#: lib/GUI.pm:2294
+#, perl-format
+msgid "Date of last known threat: %s"
+msgstr "Datum posledního známého ohrožení: %s"
+
+#: lib/GUI.pm:2315 lib/Submit.pm:328
+msgid "Please wait..."
+msgstr "Čekejte prosím..."
+
+#: lib/GUI.pm:2353
+msgid "ClamTk is a GUI front-end for the ClamAV antivirus using gtk2-perl."
+msgstr ""
+"ClamTk je GUI front-end pro ClamAV antivirus používající gtk2 a perl."
+
+#: lib/GUI.pm:2357
+msgid ""
+"This program is free software; you can redistribute it\n"
+"and/or modify it under the terms of either:\n"
+"\n"
+"a) the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 1, or\n"
+"(at your option) any later version, or\n"
+"\n"
+"b) the 'Artistic License'.\n"
+"\n"
+msgstr ""
+"Tento program je volně šiřitelný; můžete jej\n"
+"kopírovat a/nebo upravovat dle podmínek:\n"
+"\n"
+"a) licence GNU General Public License vydané\n"
+"Free Software Foundation ve verzi 1, nebo\n"
+"(podle vašeho uvážení) jakékoli pozdější, nebo\n"
+"\n"
+"b) licence Artistic License.\n"
+"\n"
+
+#: lib/Results.pm:47 lib/Results.pm:51
+msgid "Scanning Results"
+msgstr "Výsledky kontroly"
+
+#: lib/Results.pm:59
+msgid "Possible threats have been found."
+msgstr "Byly nalezeny možné hrozby."
+
+#: lib/Results.pm:70 lib/Schedule.pm:191 lib/Update.pm:60
+msgid "Status"
+msgstr "Stav"
+
+#: lib/Results.pm:71
+msgid "Action Taken"
+msgstr "Provedená akce"
+
+#: lib/Results.pm:134
+msgid "Quarantine this file"
+msgstr "Odeslat soubor do karantény"
+
+#: lib/Results.pm:153
+msgid "Delete this file"
+msgstr "Smazat soubor"
+
+#: lib/Results.pm:179
+msgid "Save As..."
+msgstr "Uložit jako..."
+
+#: lib/Results.pm:192
+msgid "Could not save that file."
+msgstr "Tento soubor nelze uložit."
+
+#: lib/Results.pm:195 lib/Results.pm:330
+msgid "Moved"
+msgstr "Přesunuto"
+
+#: lib/Results.pm:198
+msgid "File saved."
+msgstr "Soubor uložen."
+
+#: lib/Results.pm:288 lib/Results.pm:304
+#, perl-format
+msgid "File has been moved or deleted already."
+msgstr "Soubor již byl přesunut nebo smazán."
+
+#: lib/Results.pm:293
+msgid "File has been quarantined."
+msgstr "Soubor byl umístěn do karantény."
+
+#: lib/Results.pm:295
+#, perl-format
+msgid "<b>Quarantined</b>"
+msgstr "<b>V karanténě</b>"
+
+#: lib/Results.pm:298
+msgid "File could not be quarantined."
+msgstr "Soubor nemohl být umístěn do karantény."
+
+#: lib/Results.pm:308
+msgid "Really delete this file?"
+msgstr "Opravdu chcete smazat soubor?"
+
+#: lib/Results.pm:320
+msgid "File has been deleted."
+msgstr "Soubor již byl smazán."
+
+#: lib/Results.pm:322
+#, perl-format
+msgid "<b>Deleted</b>"
+msgstr "<b>Smazané</b>"
+
+#: lib/Results.pm:325
+msgid "File could not be deleted."
+msgstr "Soubor nemohl být smazán."
+
+#: lib/Results.pm:374
+msgid "Quarantine directory does not exist."
+msgstr "Adresář karantény neexistuje."
+
+#: lib/Schedule.pm:50
+msgid "Schedule"
+msgstr "Plánovač"
+
+#: lib/Schedule.pm:61
+msgid "Scan options"
+msgstr "Nastavení kontroly"
+
+#: lib/Schedule.pm:71
+msgid "Scan my ... "
+msgstr "Otestovat ... "
+
+#: lib/Schedule.pm:77
+msgid "Home (recommended)"
+msgstr "domovská složka (doporučeno)"
+
+#: lib/Schedule.pm:83
+msgid ""
+"This option will scan your home directory. This is the recommended option."
+msgstr "Tímto zkontrolujete domovskou složku. Doporučuje se."
+
+#: lib/Schedule.pm:85
+msgid "entire computer"
+msgstr "celý počítač"
+
+#: lib/Schedule.pm:90
+msgid ""
+"This option will scan your entire computer but will exclude the /proc, /sys "
+"and /dev directories."
+msgstr ""
+"Tímto zkontrolujete celý počítač, s výjimkou adresářů /proc, /sys a /dev."
+
+#: lib/Schedule.pm:95
+msgid "at this time ... "
+msgstr "v tuto chvíli ... "
+
+#: lib/Schedule.pm:103 lib/Schedule.pm:157
+msgid "Set the hour using a 24 hour clock."
+msgstr "Čas ve 24h formátu."
+
+#: lib/Schedule.pm:104 lib/Schedule.pm:158
+msgid "Hour"
+msgstr "hodin a"
+
+#: lib/Schedule.pm:111 lib/Schedule.pm:164
+msgid "Minute"
+msgstr "minut."
+
+#: lib/Schedule.pm:116
+msgid "Scan my whitelisted directories"
+msgstr "Prohledat adresáře na bílé listině"
+
+#: lib/Schedule.pm:140 lib/Update.pm:512 lib/Update.pm:550
+msgid "Antivirus signature options"
+msgstr "Nastavení virové databáze"
+
+#: lib/Schedule.pm:149
+msgid "Select a time to update your signatures."
+msgstr "Vyberte čas pro aktiualizaci virové databáze:"
+
+#: lib/Schedule.pm:200 lib/Schedule.pm:266
+msgid "A daily scan is scheduled."
+msgstr "Je naplánovaná každodenní kontrola"
+
+#: lib/Schedule.pm:205 lib/Schedule.pm:309
+msgid "A daily definitions update is scheduled."
+msgstr "Je naplánována každodenní aktualizace virové databáze."
+
+#: lib/Schedule.pm:300
+msgid "A daily scan is not scheduled."
+msgstr "Každodenní kontrola není naplánovaná."
+
+#: lib/Schedule.pm:314
+msgid "A daily definitions update is not scheduled."
+msgstr "Každodenní aktualizace virové databáze není naplánovaná."
+
+#: lib/Submit.pm:82
+msgid "Name"
+msgstr "Název"
+
+#: lib/Submit.pm:100
+msgid "Email"
+msgstr "Email"
+
+#: lib/Submit.pm:118
+msgid "No file selected"
+msgstr "Nebyl vybrán žádný soubor"
+
+#: lib/Submit.pm:157
+msgid "The attached file is"
+msgstr "Vybraný soubor je"
+
+#: lib/Submit.pm:163
+msgid "New malware"
+msgstr "nový malware"
+
+#: lib/Submit.pm:166
+msgid "A false positive"
+msgstr "falešný poplach"
+
+#: lib/Submit.pm:171 lib/Update.pm:58
+msgid "Description"
+msgstr "Popis"
+
+#: lib/Submit.pm:233 lib/Submit.pm:409
+msgid "Please do not submit more than two files per day."
+msgstr "Prosíme, neodesílejte více jak dva soubory denně."
+
+#: lib/Submit.pm:277
+msgid "You are about to submit a file for analysis."
+msgstr "Chystáte se odeslat soubor k analýze."
+
+#: lib/Submit.pm:280
+msgid "Press OK to continue, or Cancel to go back."
+msgstr "Pro pokračování stiskněte Budiž, pro návrat Zrušit."
+
+#: lib/Submit.pm:369
+msgid "The submission was successful!"
+msgstr "Odeslání proběhlo v pořádku!"
+
+#: lib/Submit.pm:372
+msgid "The file you submitted is already recognized"
+msgstr "Soubor, který jste odeslali je již rozpoznán"
+
+#: lib/Submit.pm:382
+msgid "Unable to complete the submission. Please try again later."
+msgstr "Nelze dokončit odeslání. Zkuste to, prosím, později."
+
+#: lib/Submit.pm:403
+msgid "With this form, you can:"
+msgstr "V tomto okně můžete:"
+
+#: lib/Submit.pm:404
+msgid "Report new viruses which are not detected"
+msgstr "Nahlásit nové viry, které nebyly odhaleny"
+
+#: lib/Submit.pm:406
+msgid "Report clean files which are incorrectly detected"
+msgstr "Nahlásit čisté soubory, chybně označené jako viry"
+
+#: lib/Submit.pm:432
+msgid "Indicates a required field"
+msgstr "Označuje povinná pole"
+
+#: lib/Update.pm:39 lib/Update.pm:131
+msgid "Check for updates"
+msgstr "Vyhledat aktualizace"
+
+#: lib/Update.pm:57
+msgid "Updates"
+msgstr "Aktualizace"
+
+#: lib/Update.pm:59
+msgid "Select"
+msgstr "Vyberte"
+
+#: lib/Update.pm:69
+msgid "You must be root to enable this."
+msgstr "Pro povolení tohoto musíte být root."
+
+#: lib/Update.pm:87 lib/Update.pm:221
+msgid "Signature updates"
+msgstr "Aktualizace databáze"
+
+#: lib/Update.pm:88
+msgid "Check for antivirus signature updates"
+msgstr "Zkontrolovat aktualizace virové databáze"
+
+#: lib/Update.pm:89 lib/Update.pm:99 lib/Update.pm:118 lib/Update.pm:119
+msgid "N/A"
+msgstr "Nedostupné"
+
+#: lib/Update.pm:97 lib/Update.pm:230
+msgid "GUI updates"
+msgstr "Aktualizace GUI"
+
+#: lib/Update.pm:98
+msgid "Check for updates to the graphical interface"
+msgstr "Zkontrolovat aktualizace grafického rozhraní"
+
+#: lib/Update.pm:159
+msgid ""
+"It is recommended you do not run this application as root.\n"
+"Please see http://clamtk.sf.net/faq.html."
+msgstr ""
+"Nedoporučuje se spouštět tuto aplikaci jako správce.\n"
+"Navštivte http://clamtk.sf.net/faq.html."
+
+#: lib/Update.pm:222 lib/Update.pm:231
+msgid "Checking..."
+msgstr "Kontroluje se..."
+
+#: lib/Update.pm:225 lib/Update.pm:352
+msgid "Update failed"
+msgstr "Aktualizace selhala"
+
+#: lib/Update.pm:226
+msgid "Signatures are current"
+msgstr "Virová databáze je aktuální"
+
+#: lib/Update.pm:227
+msgid "Updated"
+msgstr "Aktualizováno"
+
+#: lib/Update.pm:237 lib/Update.pm:238
+msgid "Check failed"
+msgstr "Kontrola selhala"
+
+#: lib/Update.pm:314
+msgid "Trying to connect..."
+msgstr "Zkouší se připojení..."
+
+#: lib/Update.pm:319
+msgid "Downloading updates..."
+msgstr "Stahování aktualizací..."
+
+#: lib/Update.pm:324
+msgid "Cannot connect..."
+msgstr "Nelze se připojit..."
+
+#: lib/Update.pm:329
+msgid "Daily signatures have been updated"
+msgstr "Virová databáze byla aktualizována"
+
+#: lib/Update.pm:342
+msgid "Checking main virus database version"
+msgstr "Kontrola verze virové databáze"
+
+#: lib/Update.pm:347
+msgid "Main virus database is current"
+msgstr "Virová databáze je aktuální"
+
+#: lib/Update.pm:456
+msgid "Please choose how you will update your antivirus signatures."
+msgstr "Vyberte způsob aktualizace virové databáze."
+
+#: lib/Update.pm:459
+msgid "If you would like to update the signatures yourself, choose Manual."
+msgstr "Pokud chcete aktualizovat virovou databázi ručně, zvolte Ručně."
+
+#: lib/Update.pm:464
+msgid "If your computer automatically receives updates, choose Automatic."
+msgstr "Pokud počítač automaticky stahuje aktualizace, zvolte Automaticky."
+
+#: lib/Update.pm:480
+msgid "Manual"
+msgstr "Ručně"
+
+#: lib/Update.pm:491
+msgid "Automatic"
+msgstr "Automaticky"
+
+#: lib/Update.pm:545
+msgid "Your preferences were saved."
+msgstr "Nastavení byla uložena."

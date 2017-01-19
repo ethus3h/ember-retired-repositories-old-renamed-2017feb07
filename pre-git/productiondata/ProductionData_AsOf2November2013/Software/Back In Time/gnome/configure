@@ -1,0 +1,28 @@
+#!/bin/bash
+
+CHECK="--check"
+
+for arg in $*; do
+	case $arg in
+		--check | --no-check) CHECK=$arg
+	esac
+done
+
+if [ -e Makefile ]; then
+	rm Makefile;
+fi
+
+#check GNOME
+if [ $CHECK = "--check" ]; then
+	if [ -z `which gnome-session` ]; then
+		echo "ERROR: Can't find GNOME !"
+		exit 1
+	fi
+fi
+
+cp Makefile.template Makefile
+
+echo "All OK. Now run:"
+echo "    make"
+echo "    sudo make install"
+
