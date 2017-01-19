@@ -1,0 +1,5 @@
+[Default Applications]
+application/keyhole=google-earth.desktop
+application/vnd.google-earth.kml+xml=google-earth.desktop
+application/vnd.google-earth.kmz=google-earth.desktop
+application/earthviewer=google-earth.desktop

@@ -1,0 +1,5 @@
+#!/usr/bin/python
+# EASY-INSTALL-SCRIPT: 'gcovr==2.2','gcovr'
+__requires__ = 'gcovr==2.2'
+import pkg_resources
+pkg_resources.run_script('gcovr==2.2', 'gcovr')

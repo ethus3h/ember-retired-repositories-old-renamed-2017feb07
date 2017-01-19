@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.bansheeproject.CollectionIndexer
+Exec=/usr/local/bin/banshee --indexer
+

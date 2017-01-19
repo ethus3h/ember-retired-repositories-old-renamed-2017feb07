@@ -1,0 +1,1042 @@
+#!/usr/bin/ruby
+#pmatch - duplicate finder
+#Copyright (C) 2007-2008  Tomasz Muras
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#TODO: optimize partial search to limit # of open files, it will fail for many files
+#TODO: matching files by the file size is way to slow! It needs to be refactored into using hash of sizes
+#TODO: if it's a dir add / at the end ?
+# that would make sense for cache. now pmatch test and pmatch test/
+# will yield different hashes
+#TODO: handle hard and soft links. how to handle hardlinks? take first one and ignore the rest?
+#TODO: how should SC deep & shallow really work ?!
+#Windows port:
+# user home directory
+# use File.join
+#TODO: warn if last mod time in the future
+#TODO: on default logging level only tell (warn) about how many empty files were ignored
+#TODO: the same for excluded files - only give a number
+#
+#standard
+require 'optparse'
+require 'ostruct'
+require 'singleton'
+require 'pathname'
+require 'digest/md5'
+
+#optional
+require 'pp'
+#gems
+require 'rubygems'
+require 'log4r'
+
+#clear cache if it contains more than CACHE_CLEAR_IF_FILES file
+CACHE_CLEAR_IF_FILES=50
+COMMENT='#'
+STANDARD_GENERATE = '"rm #{d} #I am a duplicate of: #{o.path}"'
+STANDARD_GENERATE_NO_COMMENT = '"rm #{d}"'
+PMATCH_VERSION='0.4.0'
+
+#functions should remove > 1 result if results are equal
+class SecondaryChoice
+  attr_reader :methods
+
+  def initialize(methods, hash={})
+    @methods = []
+    hash[:add_random] = true if hash[:add_random].nil?
+    random_included = !hash[:add_random]
+
+    #check if all choices are valid
+    methods.each do |method|
+      if self.respond_to?(("choice_" + method + "!").to_sym)
+        random_included = true if method == 'random'
+        @methods << ("choice_" + method + "!").to_sym
+      else
+        $l.warn "Method #{method} does not exist."
+      end
+    end
+    @methods << :choice_random! if !random_included
+  end
+
+  #remove everything but the shortest string(s) from the array
+  def choice_short!(list)
+    return if list.length < 2
+    shortest = list.min {|a,b| a.fname.length <=> b.fname.length }
+    shortest_length = shortest.fname.length
+    list.reject! {|l| l.fname.length > shortest_length }
+  end #def choose
+
+  #remove everything but the longest string(s) from the array
+  def choice_long!(list)
+    return if list.length < 2
+    shortest = list.max {|a,b| a.fname.length <=> b.fname.length }
+    shortest_length = shortest.fname.length
+    list.reject! {|l| l.fname.length < shortest_length }
+  end #def choose
+
+  #leave only one, random element in the list
+  def choice_random!(list)
+    return if list.length < 2
+    i = rand(list.length)
+    $l.debug "Random index: #{i}"
+    Stats.instance.sc_random_used += 1
+    list.replace([list[i]])
+  end
+
+  #leave files with deepest path
+  def choice_deep!(list)
+    return if list.length < 2
+    longest = list.max {|a,b| a.dir.level <=> b.dir.level }
+    longest_length = longest.dir.level
+    list.reject! {|l| l.dir.level < longest_length }
+  end
+
+  #leave files with most shallow path
+  def choice_shallow!(list)
+    return if list.length < 2
+    shortest = list.min {|a,b| a.dir.level <=> b.dir.level }
+    shortest_length = shortest.dir.level
+    list.reject! {|l| l.dir.level > shortest_length }
+  end
+
+  #leave files that have most siblings in their directory
+  def choice_dirfull!(list)
+    return if list.length < 2
+    longest = list.max {|a,b| a.dir.files_count <=> b.dir.files_count }
+    longest_length = longest.dir.files_count
+    list.reject! {|l| l.dir.files_count < longest_length }
+  end
+
+  #leave files that have least siblings in their directory
+  def choice_dirempty!(list)
+    return if list.length < 2
+    shortest = list.min {|a,b| a.dir.files_count <=> b.dir.files_count }
+    shortest_length = shortest.dir.files_count
+    list.reject! {|l| l.dir.files_count > shortest_length }
+  end
+
+  def choose!(list)
+    @methods.each do |method|
+      break if list.length < 2
+      $l.debug "Filtering using #{method}"
+      send(method, list)
+    end
+  end
+end #class SecondaryChoice
+
+#responsible for computing hash of the file
+class UniversalHash
+  include Singleton
+
+  def initialize
+    $BUFLEN = 1024
+
+    #first of all check if path to md5path
+    if md5sum_ok?(AppConfig.instance.md5path)
+      @utility_path = AppConfig.instance.md5path
+      @method = :external_md5
+    else
+      @method = :internal_md5
+    end
+  end
+
+  def md5sum_ok? (md5sum)
+    #try to run on yourself
+    md5 = `md5sum #{escape_slash(__FILE__)}`
+    return false if $? != 0
+    return false if md5[0..31] !~ /^[a-fA-F0-9]{32}/
+    return true
+  end
+
+  #only this function is used
+  #it will wrap 'real' hashing implementation
+  def hash(path)
+    send @method, path
+  end
+
+  def escape(path)
+    return escape_slash(path)
+  end
+
+  def escape_quote(path)
+    #using $''
+    newpath = "$'" + path.gsub(/(['\\])/,%(\\\\\\1)) + "'"
+    return newpath    
+  end
+  
+  def escape_slash(path)
+    #without any quotes
+    newpath = path.gsub(/([\\'` ";\(\)&<>$#!\|\{\}])/,%(\\\\\\1))
+    return newpath
+  end
+  
+  def external_md5(path)
+    command = "#{@utility_path} #{escape_slash(path)}"
+    md5 = `#{command}`
+    if $? != 0
+      $l.error command
+      raise "md5 command quit with status #{$?}"
+    end
+    #sanity check
+    if md5.split("\n").length > 1
+      $l.error command
+      raise 'md5sum returned more than one line!'
+    end
+    #sometimes there is a \ in front of the MD5
+    if md5[0..0] == '\\'
+      return md5[1..32]
+    else
+      return md5[0..31]
+    end
+  end
+
+  def internal_md5(path)
+    md5hasher = Digest::MD5.new
+    open(path, "r") do |io|
+      while (!io.eof)
+        readBuf = io.readpartial($BUFLEN)
+        md5hasher.update(readBuf)
+      end
+    end
+    return md5hasher.hexdigest
+  end
+end
+
+class MFile
+  attr_reader :md5, :dir, :mtime, :path, :handle, :digest_partial
+  attr_accessor :completion
+  def initialize(path)
+    @path = path
+    @size = File.size(path)
+    @mtime = File.mtime(path)
+    @md5 = false
+    @dir = PMDirectoryManager.instance.for_file(path)
+    @digest_partial = Digest::MD5.new()
+    @handle = nil
+    @partial = false
+    @completion = nil
+  end
+  
+  def handle
+    if !@handle
+      @handle = File.open @path
+    end
+    @handle
+  end
+
+  def final_completion
+    return nil if !@completion
+    f = self
+    while f.completion != nil
+      f = f.completion
+    end
+    return f
+  end
+  
+  def partial?
+    @partial
+  end
+  
+  def partial= bool
+    if bool
+      @partial = true
+    else
+      @partial = false
+    end
+  end
+  
+  def size
+    @size
+  end
+
+  def to_s
+    UniversalHash.instance.escape(@path)
+  end
+
+  def fullpath
+    return UniversalHash.instance.escape(@dir.realpath.to_s + '/' + fname)
+  end
+
+  def calculate_md5
+    return @md5 if @md5
+    #change ' to \'
+    @md5 = UniversalHash.instance.hash(@path)
+    return @md5
+  end
+
+  def fname
+    return File.basename(@path)
+  end
+
+  def inside? path
+    @path =~ %r|^#{Regexp.escape(path)}|
+  end
+  
+  def close
+    @digest_partial = nil
+    @handle.close if @handle
+    @handle = nil
+  end
+end #MFile
+
+#sometimes decision will be made based on the directory
+#the file is in
+class PMDirectory < Pathname
+  attr_reader :level
+  def initialize(path, hash=[])
+    super(path)
+
+    if !directory?
+      raise "#{path} is not a directory!"
+    end
+    #initialize @files_count but only
+    #if need_files_count
+    @files_count = -1
+    @level = path.count('/')
+  end
+
+  #no of files inside this directory
+  def files_count
+    if @files_count == -1
+      @files_count = 0
+      Pathname.glob("#{self}/*") do |name|
+        @files_count += 1 if File.file? name
+      end
+    end
+
+    return @files_count
+  end #def files_count
+
+end
+
+class PMDirectoryManager
+  include Singleton
+
+  def initialize
+    @directories = {}
+  end
+
+  #gets directory (MDirectory) for a given file
+  def for_file(file_path)
+    #should be always a file
+    if !File.file? file_path
+      raise "#{file_path} is not a file, quitting"
+    end
+
+    #TODO: portability, speed
+    dir_path = file_path.sub(/(.*)\/(.*)$/,'\1')
+    #    pp @directories
+    if !@directories[dir_path]
+      parent = PMDirectory.new(dir_path)
+      @directories[dir_path] = parent
+    end
+    return @directories[dir_path]
+  end #def for_file
+end #class PMDirectoryManager
+
+class Manager
+  attr_reader :group_by_hash, :remove_by_hash, :lucky_by_hash, :group_by_size, :uniq
+
+  def initialize(cfg)
+    #path => MFile
+    @files = {}
+    #groups
+    #MD5 => [file1,file2,...]
+    @group_by_hash = {}
+    @remove_by_hash = {}
+    @lucky_by_hash = {}
+    @group_by_size = {}
+    @partials = []
+    @from_cache = false
+    @max_mtime = Time.at(0)
+    @uniq = []
+
+    #create Secondary Choice object for me
+    @sc = SecondaryChoice.new(cfg.secondary)
+    @dir_manager = PMDirectoryManager.instance
+    @cache = Cache.new
+
+    #those will always get executed, so we will check
+    #latest mtime of all files and dirs
+    add_dirs(cfg.directories)
+    add_files(cfg.files)
+
+    #see if the cache can be used
+    if @cache.hit?(@max_mtime)
+      cache = @cache.get
+      @group_by_hash = cache[:group_by_hash]
+      @partials = cache[:partials]
+      @from_cache = true
+      $l.warn "Using cached information"
+    else
+      @cache.clear
+      if cfg.partials
+        find_partials
+      end
+      find_same_sizes
+      $l.warn "Finding MD5 sums of the selected files"
+      group_by_size.each do |k,v|
+        find_same_MD5(v)
+      end
+    end
+
+    $l.warn "Finding files that can be removed"
+    find_safe_to_remove
+    
+    #generate statistics
+    Stats.instance.files = @files.length
+
+    close_all
+#    pp @group_by_hash
+    @cache.save({:group_by_hash=>@group_by_hash,:partials=>@partials}) if !@from_cache
+    @cache.clear(true) if cfg.clear_cache
+  end #def initialize
+
+  def close_all
+    @files.each {|key,f| f.close}
+    @partials.each {|f| f.close}
+  end
+  
+  def add_dirs(dirs)
+    cfg = AppConfig.instance
+    dirs = [dirs] if !dirs.respond_to? 'each'
+    dirs.each do |dir|
+      #only for tracking time of last mod
+      #puts "checking #{dir}"
+      @max_mtime = File.mtime(dir) if File.mtime(dir) > @max_mtime
+      #get all the files from directory
+      #it will not follow symlinks - good
+      last_displayed = 0
+      Dir.glob(dir + '/**/*') do |fname|
+        if last_displayed != Stats.instance.files_read && Stats.instance.files_read % 1000 == 0
+          $l.warn "Read #{Stats.instance.files_read} files"
+          last_displayed = Stats.instance.files_read
+        end
+        ignore = false
+        #symlinks are always ignored for now
+        if !cfg.slinks && File.symlink?(fname)
+          $l.info "Ignoring symbolic link: '#{fname}'"
+          next
+        end
+        @max_mtime = File.mtime(fname) if File.mtime(fname) > @max_mtime
+        if File.directory?(fname)
+          Stats.instance.dirs += 1
+          next
+        end
+
+        if File.file? fname
+          Stats.instance.files_read += 1
+          if @files.has_key? fname
+            raise "File already parsed: '#{fname}'!"
+          end
+          if File.size(fname) <= 0
+            $l.info "Ignoring empty file: '#{fname}'"
+            next
+          end
+          #check if file should be excluded
+          cfg.exclude.each do |re|
+            if fname =~ re
+              $l.warn "File excluded: #{fname}"
+              ignore = true
+              break
+            end
+          end
+
+          next if ignore
+
+          #finally, add file to our structure
+          @files[fname] = MFile.new(fname)
+          #@max_mtime = @files[fname].mtime if @files[fname].mtime > @max_mtime
+        end
+      end
+    end #dirs.each
+
+  end #add_dirs
+
+  def add_files(files)
+    files = [files] if !files.respond_to? 'each'
+    files.each do |fname|
+      if @files.has_key? fname
+        $l.error "File already parsed: '#{fname}', quitting!"
+        exit 1
+      end
+      if File.size(fname) <= 0
+        $l.warn "Ignoring empty file: '#{fname}'"
+        next
+      end
+      @files[fname] = MFile.new(fname)
+    end
+  end
+
+  def find_same_sizes
+    percent_checks = [0.01,0.05,0.1,1,2,5,10,20,30,40,80,100]
+    index = 0
+    #first group them by size
+    #shallow copy of the list
+    files = @files.dup
+    #get the keys
+    keys = files.keys
+    i=0
+    $l.warn "Comparing file sizes"
+    while i < keys.length
+      percent = i * 100.0 / keys.length
+#      puts percent
+      if percent > percent_checks[index]
+        $l.warn percent_checks[index].to_s + '% done'
+        index += 1
+      end
+#      if i>0 && i % 100 == 0
+#       puts i
+#        puts percent
+#      end
+
+      size = files[keys[i]].size
+      j = i + 1
+      uniq = true
+      while j < keys.length
+        if size == files[keys[j]].size
+          uniq = false
+          @group_by_size[size] ||= []
+          @group_by_size[size] << files[keys[j]]
+          #remove second file from list
+          keys.delete_at j
+          j -= 1
+        end
+        j += 1
+      end
+      #if it was a duplicate, also add file number i
+      if !uniq
+        @group_by_size[size] << files[keys[i]]
+        #and remove it from the list
+        keys.delete_at i
+        i -= 1
+      end
+      i += 1
+    end #external while
+    #    pp @group_by_size
+    #    pp keys
+    #whatever is left in keys is uniq
+    @uniq += keys
+  end #find_same_sizes
+
+  def find_partials
+    #sort by size
+    sorted = @files.values.sort {|a,b| a.size <=> b.size}
+    @partials = []
+    current_size = 0
+    
+    while sorted.length > 0
+        increment = sorted[0].size - current_size
+        current_size = sorted[0].size
+       #get all files with 'size'
+        complete = []
+        i=0
+        while i < sorted.length && sorted[i].size == current_size
+          complete << sorted[i]
+          i += 1
+        end
+
+        incomplete = sorted - complete
+
+        break if incomplete.length == 0 || complete.length == 0
+       
+        #update digest
+        sorted.each do |f|
+          f.digest_partial << f.handle.read(increment)
+        end
+
+        complete.each do |f1|
+#          puts "Find my completion - #{f1.digest_partial}"
+#          pp incomplete
+          #find my more complete alter-ego!
+          #found = false
+          incomplete.each do |f2|
+            if f2.digest_partial == f1.digest_partial
+              f1.completion = f2
+              #found = true
+              @partials << f1
+              break
+            end
+          end
+#          puts "I'm unique ;)" if !found
+        end #complete.each
+
+        #remove all complete files from sorted
+        sorted -= complete
+    end #while sorted.length > 0
+    
+    @partials.each do |f|
+      @files.delete f.path
+    end
+ #   pp @partials
+    $l.info "Removed #{@partials.length} partials"
+    Stats.instance.partials += @partials.length
+#    exit
+  end
+  
+  #Updates @grouped_by_hash and @uniq
+  def find_same_MD5(files)
+    #no of links to the same inode
+    #File.stat("testfile").nlink
+    groups = {}
+    files.each do |f|
+      f.calculate_md5
+      groups[f.md5] ||= []
+      groups[f.md5] << f
+    end
+
+    uniq = []
+    groups.each do |k,v|
+      if v.length > 1 #more than 1 the same file
+        Stats.instance.duplicates += v.length
+        #how much space will we save?
+        Stats.instance.space_reclaim += (v.length-1)*v[0].size
+        @group_by_hash[k] ||= []
+        @group_by_hash[k] += v
+      else
+        uniq << v
+      end
+    end
+    @uniq += uniq
+    return uniq
+  end #find_same_MD5
+
+  def find_safe_to_remove
+    cfg = AppConfig.instance
+    #by default prioritize by the order of paths given on commandline
+    @group_by_hash.each do |md5,files|
+      lucky = []
+      cfg.priority.each do |prior|
+        #always iterate all files for given priority directory
+        #to find more than one file from the same (sub)directory
+        files.each do |file|
+          if file.inside? prior #stop on first match
+            #        puts "Maybe will not remove: #{file}"
+            lucky << file
+          end
+        end
+        break if lucky.length > 0
+      end #cfg.priority.each
+      #pp lucky
+      #make the decision about removing files
+
+      lucky = files.dup if lucky.length == 0 #if none then all ;)
+
+      if lucky.length == 1
+        #the choice is simple!
+        lucky.replace [lucky[0]]
+      elsif lucky.length > 1
+        #secendary mechanism for choosing files
+        #        puts "Before:"
+        #        pp lucky
+        @sc.choose!(lucky)
+        #        puts "After:"
+        #        pp lucky
+      else
+        #ops
+        raise "Something went wrong while processing #{files}"
+      end
+      if lucky.length > 1
+        raise "More than 1 'original' file"
+      end
+      @lucky_by_hash[md5]  = lucky[0]
+      #remove lucky guy from the list
+      @remove_by_hash[md5] = files - lucky
+    end #m.group_by_hash.each
+
+  end #def find_safe_to_remove
+
+  def generate_output
+    cfg = AppConfig.instance
+    @partials.each do |d|
+        out = "rm #{d}"
+        if cfg.comments
+          out = out + " " + COMMENT + "bigger version of me: #{d.final_completion.path}"
+        end
+        cfg.outfile.puts(out)
+    end
+    
+    @remove_by_hash.each do |md5, files|
+      files.each do |d|
+        o = @lucky_by_hash[md5]
+        out = eval(cfg.generate)
+        cfg.outfile.puts(out)
+      end
+    end
+
+    #display stats at the very end
+
+    if @from_cache
+      cfg.outfile.puts COMMENT + "No scan done, cache used"
+    else
+      cfg.outfile.puts Stats.instance.summary(COMMENT)
+    end
+  end #def generate_output
+
+end
+
+class AppConfig
+  include Singleton
+
+  def all_options
+    @options
+  end
+
+  def method_missing(name, *args)
+    return @options.send(name) if @options.respond_to? name
+    raise "Missing method #{name} in OptParser"
+  end
+
+  #
+  # Return a structure describing the options.
+  #
+  def parse(args = ARGV)
+    # The options specified on the command line will be collected in *options*.
+    # We set default values here.
+    @options = OpenStruct.new
+    @options.verbose = false
+    @options.recursive = true
+    @options.slinks = false
+    @options.hlinks = false
+    @options.directories = []
+    @options.files = []
+    @options.priority = []
+    @options.secondary = []
+    @options.generate = STANDARD_GENERATE
+    @options.outfile = $stdout
+    @options.exclude = []
+    @options.md5path = 'md5sum'
+    @options.by_inode = false
+    @options.cache = :on
+    @options.clear_cache = false
+    @options.cache_force = false
+    @options.partials = false
+    @options.comments = true
+
+    options = OptionParser.new do |opts|
+      opts.banner = "Usage: #{$0} [options] dir1 dir2 dir3 ...
+Or:    #{$0} -C clear"
+
+      opts.separator ""
+      opts.separator "Specific options:"
+
+      opts.on("-v", "--verbose", "Run verbosely") do |v|
+        @options.verbose = v
+      end
+=begin NOT IMPLEMENTED YET
+      opts.on("-l", "--soft-links", "Don't ignore soft links") do |v|
+        @options.slinks = v
+      end
+
+      opts.on("-L", "--hard-links", "Don't ignore hard links") do |v|
+        @options.hlinks = v
+      end
+=end
+      opts.on("-q", "--quiet", "Run quietly") do |v|
+        @options.quiet = v
+      end
+
+      opts.on("-p", "--partials", "Find partial files") do |v|
+        @options.partials = true
+      end
+
+      opts.on("-e", "--exclude PATTERN", Array,
+        "Exclude files matched by regular expressions") do |v|
+        @options.exclude << /#{v}/i
+      end
+
+      opts.on("-n", "--no-comments", "Do not add comments at the end of each line") do |v|
+        @options.comments = false
+      end
+
+=begin NOT IMPLEMENTED YET
+      opts.on("-r", "--[no-]recursive", "Follow directories recursively") do |v|
+        @options.recursive = v
+      end
+
+      opts.on("-a", "--analyze", "Analyze mode") do |v|
+        @options.analyze = v
+      end
+=end
+
+      # List of arguments.
+      #      opts.on("--list x,y,z", Array, "Example 'list' of arguments") do |list|
+      #        options.list = list
+      #      end
+
+      # Optional argument with keyword completion.
+      opts.on("-s","--secondary-choice x,y,z", Array,
+        "Which files should I prefer? Possible values: " +
+          "short, long, deep, shallow, dirfull, dirempty, random") do |v|
+        @options.secondary = v
+      end
+
+      opts.on("-c","--command COMMAND","Command to display for every (but one) non-unique file") do |v|
+        @options.generate = "\"#{v}\""
+      end
+
+      opts.on("-f","--outfile FILE","File to save generated statements. Will overwrite existing file!") do |v|
+        @options.outfile = File.new(v,'w')
+      end
+
+      opts.on("--md5-path PATH","Path to md5sum utility") do |v|
+        @options.md5path = v
+      end
+
+      opts.on("-C","--cache OPTION", [:clear,:on,:off,:force],
+        "Available OPTIONs: clear, off, on, force. Default: on.") do |v|
+        @options.cache = v
+        @options.clear_cache = true if v == :clear
+        @options.cache_force = true if v == :force
+      end
+=begin NOT IMPLEMENTED YET
+      opts.on("-i","--use-inodes","Use it if you have problems with weird file names") do |v|
+        @options.by_inode = v
+      end
+=end
+    end
+
+    options.parse!(args)
+    if args.length < 1
+      #maybe use want to clear cache only?
+      if @options.cache==:clear
+        puts "Clearing the cache and exitting"
+        cache = Cache.new
+        cache.clear(true)
+        exit 0
+      end
+      puts "Provide at least one directory"
+      puts options
+      exit 1
+    end
+
+    $l.level = Log4r::DEBUG if @options.verbose
+    $l.level = Log4r::ERROR if @options.quiet
+
+    args.each do |path|
+      if !File.exist? path
+        $l.warn "Can't read '#{path}', I'm ignoring it."
+        next
+      end
+      if File.directory? path
+        if dup = dir_child?(path)
+          $l.warn "Adding dir and sub-dir in this order doesn't make any sense."
+          $l.warn "Ignoring '#{path}' because of '#{dup}'"
+        elsif  dup = dir_parent?(path)
+          #remove subfolder, add it's parent
+          @options.priority << path
+          $l.debug "Using '#{path}' for priority only"
+          @options.directories.delete dup
+          @options.directories << path
+        else #totaly different
+          @options.directories << path
+          @options.priority << path
+        end
+      end
+      @options.files << path if File.file? path
+    end #'?'
+
+    if !@options.comments && @options.generate == STANDARD_GENERATE
+        @options.generate = STANDARD_GENERATE_NO_COMMENT
+    end
+  end  # initialize()
+
+  def dir_child? path
+    @options.directories.each do |dir|
+      if path =~ %r|^#{Regexp.escape(dir)}|
+        return dir
+      end
+    end
+    return false
+  end #dir_child?
+
+  def dir_parent? path
+    @options.directories.each do |dir|
+      if dir =~ %r|^#{Regexp.escape(path)}|
+        return dir
+      end
+    end
+    return false
+  end #dir_child?
+end  # class OptparseExample
+
+#gathering some basic statistics during script execution
+#generating summary
+class Stats
+  include Singleton
+  attr_accessor :sc_random_used, :dirs, :files, :files_read
+  attr_accessor :duplicates, :space_reclaim, :partials
+
+  def initialize
+    @dirs = 0
+    @files = 0
+    @files_read = 0
+    @sc_random_used = 0
+    @duplicates = 0
+    @space_reclaim = 0
+    @partials = 0
+  end
+
+  def summary(prefix='')
+    str = ""
+    str += prefix+"Files scanned:\t\t#{@files}\n" if @files
+    str += prefix+"Directories scanned:\t#{@dirs}\n" if @dirs
+    str += prefix+"Duplicates found:\t#{@duplicates}\n" if @duplicates
+    str += prefix+"Partials found:\t#{@partials}\n" if @partials
+    str += prefix+"Space to reclaim:\t#{@space_reclaim.to_s.gsub(/(\d)(?=(\d\d\d)+(?!\d))/, "\\1,")} B\n" if @space_reclaim
+    str += prefix+"Random choice used:\t#{@sc_random_used} time(s)\n" if @sc_random_used
+  end
+end #class Stats
+
+
+#the same cache can be used if following opitons match:
+#cwd, recursive, hlinks, slinks, directories, files, exclude
+class Cache
+  def initialize
+    @dump_struct = {}
+    @check_options =[:recursive,:hlinks,:slinks,:directories,:files,:partials]
+    @cache_dir = ENV["HOME"]+"/.pmatch"
+    @digest = hash_options
+    @cfg = AppConfig.instance
+    @l = Log4r::Logger.new 'cache'
+#    @l.outputters = Log4r::FileOutputter.new('file',:filename=>'cache.log',:truncate=>true)
+    @l.level = Log4r::DEBUG
+
+    if @cfg.cache == :off
+      @enabled = false
+      return
+    end
+
+    #do the new directory if one doesn't exist
+    if File.writable?(@cache_dir) && File.directory?(@cache_dir)
+      #all OK
+      @enabled = true
+    else
+      if File.exists?(@cache_dir) #oops
+        @l.error "I can't write to #{@cache_dir}. Cache disabled."
+        @enabled = false
+      else
+        Dir.mkdir(@cache_dir)
+        @enabled = true
+      end
+    end
+    @l.debug "Cache init, @enabled=#{@enabled}"
+  end
+
+  #scans all directories to see if they changed
+  #since cacheing time
+  def checkFS
+  end
+
+  #saves object and metadata
+  def save(cache)
+    metadata = {:exclude=>@cfg.exclude}
+    fullcache = {:cache=>cache,:metadata=>metadata}
+    file = File.new(@cache_dir + "/" + @digest,'w')
+    file.write(Marshal.dump(fullcache))
+    file.close
+  end
+
+  #returns already grouped list
+  def get
+    filter = @cfg.exclude - @fullcache[:metadata][:exclude]
+    filter.each do |re|
+      @fullcache[:cache][:group_by_hash].each do |k,group|
+        group.reject! { |mfile| mfile.path =~ re }
+      end
+      @fullcache[:cache][:partials].reject! {|mfile| mfile.path =~ re }
+    end
+
+    @fullcache[:cache][:group_by_hash].reject! {|k,v| v.length < 2}
+
+    return @fullcache[:cache]
+  end
+
+  def hit?(latest_fs_change)
+    @l.debug "Is cache hit?"
+    if !@digest || !@enabled
+      return false
+    end
+    @l.debug "@digest and @enabled true"
+
+    #check in user's home directory
+    if !File.exist? @cache_dir + "/" + @digest
+      @l.debug "No cache file: #{@cache_dir}/#{@digest}"
+      return false
+    end
+    @l.debug "File #{@cache_dir}/#{@digest} exists"
+
+    file = File.new(@cache_dir + "/" + @digest)
+    @fullcache = Marshal.restore(file)
+    file.close
+
+    #check excludes - maybe something was excluded when cache was saved
+    #but it's not excluded now
+    cache_excludes =  @fullcache[:metadata][:exclude]
+    if (cache_excludes - @cfg.exclude).length > 0
+      return false
+    end
+    @l.debug "No excludes in cached version that are not used now"
+
+    cache_time = File.mtime(@cache_dir + "/" + @digest)
+    @l.debug "latest_fs_change=#{latest_fs_change}, cache_time=#{cache_time}"
+    if latest_fs_change >= cache_time
+      return false if @cfg.cache != :force
+      #cache was forced and FS have changed!
+      $l.warn "I've detected some changes in scanned directories but you forced using cache"
+    end
+
+    #SUCCESS
+    @l.debug "Success: cache hit!"
+    @l.debug @fullcache
+    return true
+  end
+
+  #clears cache if directory contains more than CACHE_CLEAR_IF_FILES files
+  #or clear option is given
+  def clear(force=false)
+    files = Dir.glob(@cache_dir+"/"+"[a-f0-9]"*32)
+
+    if force || files.length > CACHE_CLEAR_IF_FILES
+      files.each {|f| File.delete(f)}
+    end
+  end #def clear
+
+  #create short hash from all given options
+  def hash_options()
+    digest = Digest::MD5.new
+    digest << Dir.pwd
+    #because of the excludes number of files will differ
+    #    digest << files_count.to_s
+
+    @check_options.each do |option|
+      digest << AppConfig.instance.send(option).to_s
+    end
+
+    return digest.hexdigest
+  end
+end
+
+if __FILE__ =~ /#{$0}$/
+  $l = Log4r::Logger.new 'main'
+  $l.outputters = Log4r::Outputter.stderr
+  $l.level = Log4r::WARN
+
+  cfg = AppConfig.instance
+  cfg.parse
+
+  m = Manager.new(cfg)
+  m.generate_output
+end
