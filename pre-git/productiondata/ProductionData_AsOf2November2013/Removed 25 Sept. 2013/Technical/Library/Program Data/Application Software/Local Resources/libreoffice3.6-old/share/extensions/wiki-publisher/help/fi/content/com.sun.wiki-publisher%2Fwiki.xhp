@@ -1,0 +1,57 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+laajennukset;MediaWiki
+extensions;MediaWiki
+
+Wiki Publisher
+Käsiteltävä Writerin tekstiasiakirja on kopioitavissa MediaWiki-palvelimelle ohjelmalla Wiki Publisher. Kopioinnin jälkeen kaikki Wiki-käyttäjät voivat lukea tämän asiakirjan Wiki-sivustolta.
+
+Valitse Tiedosto - Lähetä - MediaWikiin käsiteltävän Writer-asiakirjan kopioimiseksi MediaWiki-palvelimelle.
+Järjestelmävaatimukset
+Java-ajoympäristö
+
+Wiki-tunnus tuetulla MediaWiki-palvelimella
+
+
+Asennetaan Wiki Publisher
+Ennen Wiki Publisher -ohjelman käyttämistä varmistetaan, että %PRODUCTNAME käyttää Java-ajoympäristöä (JRE). JRE:n tilan tarkistamiseksi valitaan Työkalut - Asetukset - %PRODUCTNAME - Java. Varmistetaan, että "Käytä Java-ajoympäristöä" on merkitty ja että Java-ajoympäristön kansio on valittuna suuressa luetteloruudussa. Jos mitään JRE:tä ei ole aktiivisena, niin aktivoidaan JRE 1.4 tai uudempi versio ja käynnistetään uudestaan %PRODUCTNAME.
+Wikiin yhdistäminen
+Käyttäjä voi tallentaa kaikille asiaankuuluville valintaikkunoille käyttäjätunnuksensa ja salasanansa %PRODUCTNAMEn sisällä. Salasana säilötään suojatulla tavalla, jossa pääsyyn vaaditaan pääsalasana. Pääsalasanan käyttöönottamiseksi valitaan Työkalut - Asetukset - %PRODUCTNAME - Suojaus.
+Jos nettiin ollaa yhteydessä välityspalvelinta käyttäen, välityspalvelimen tiedot syötetään Työkalut - Asetukset - Internet - Välityspalvelin -välilehdellä ja ohjelmisto käynnistetään uudestaan.
+Avaa Writer-asiakirja ja valitse Työkalut - Asetukset - Internet - MediaWiki.
+
+Asetukset-valintaikkunassa napsauta Lisää.
+
+MediaWiki-valintaikkunassa syötä Wiki-sivuston tunnustiedot.
+
+
+URL-tekstiruudussa syötä yhdistettävän Wiki-sivuston tiedot.
+URL-osoite voidaan kopioida www-selaimesta ja liittää tekstiruutuun.
+
+Käyttäjätunnus-ruutuun syötä Wiki-tilillä käyttämäsi nimi.
+Jos Wiki-sivusto sallii nimettömän kirjautumisen, käyttäjätunnus- ja salasanakentät voidaan jättää tyhjiksi.
+
+Salasanaruudussa kirjoita Wiki-tilin salasanasi ja hyväksy sitten OK:lla.
+
+
+Vaihtoehtoisesti merkitään "Tallenna salasana" salasanan säilyttämiseksi istuntojen välilläkin. Pääsalasanaa käytetään tallennettuihin salasanoihin käsiksi pääsemiseen. Valitaan Työkalut - Asetukset - %PRODUCTNAME - Suojaus pääsalasanan käyttämiseksi. "Tallenna salasana" ei ole saatavilla, jos pääsalasana ei ole otettu käyttöön.
+Uuden Wiki-sivun luominen
+Avaa Writer-asiakirja.
+
+Kirjoita Wiki-sivun sisältö. Käytettävissä on muotoiluja kuten tekstin muotoilu, otsikot, alaviitteet, ynnä muuta. Katso tuettujen muotoilujen luetteloa.
+
+Valitse Tiedosto - Lähetä - MediaWikiin.
+
+Lähetä MediaWikiin -valintaikkunassa määritä kirjauksesi asetukset.
+
+
+MediaWiki-palvelin: Valitse Wiki-sivusto.
+Otsikko: Kirjoita sivusi otsikko. Jo olemassa olevan sivun otsikko kirjoitetaan, kun sivun teksti korvataan käsiteltävän asiakirjan tekstillä. Kirjoittamalla uusi otsikko luodaan uusi sivu Wiki-sivustolle.
+Yhteenveto: Anna valinnainen lyhyt tiivistelmä sivustasi.
+Tämä on täydennys: Merkitsemällä tämän ruudun merkitset kopioitavan sivun jo samalla otsikolla olevan sivun täydennykseksi.
+Näytä www-selaimessa: Merkitsemällä tämän ruudun avaat järjestelmän www-selaimen, jossa näkyy kopioitu Wiki-sivu.
+Napsauta Lähetä-painiketta.
+
+
+

@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensies;MediaWiki
+
+Wiki Publisher
+Door de Wiki Publisher te gebruiken kunt u uw huidige Writer-tekstdocument uploaden naar een MediaWiki-server. Na het uploaden kunnen alle wiki-gebruikers uw document op de wiki lezen.
+
+KiesBestand- Verzenden- Naar MediaWiki om uw huidige Writerdocument te uploaden naar een MediaWiki-server.
+Systeemvereisten
+Java Runtime Environment
+
+Een wiki-account op een ondersteunde MediaWiki-server
+
+
+Installeren van Wiki Publisher
+Verzeker u ervan voordat u de Wiki Publisher gebruikt, dat %PRODUCTNAME een Java Runtime Environment (JRE) gebruikt. Kies, om de status van de JRE te controleren Extra - Opties - %PRODUCTNAME - Java. Verzeker u dat "Gebruik een Java runtime environment" is gemarkeerd en dat een Java runtime map is geselecteerd in de grote vak daaronder. Als geen JRE was geactiveerd, activeer dan een JRE 1.4 of later en herstart %PRODUCTNAME.
+Met een wiki verbinden
+Opmerking: U kunt uw gebruikersnaam en wachtwoord voor alle afzonderlijke dialoogvensters binnen %PRODUCTNAME opslaan. Het wachtwoord zal op een beveiligde wijze worden opgeslagen, waarbij de toegang wordt beheerd door een hoofdwachtwoord. Kies Extra - Opties - %PRODUCTNAME - Veiligheid om het hoofdwachtwoord in te schakelen.
+Opmerking: Indien u verbinding maakt met het web door middel van een proxy-server, voer de proxy-informatie dan in bij Extra- Opties - Internet - Proxy en herstart de software.
+Open een Writerdocument en kies Extra- Opties - Internet - MediaWiki.
+
+Klik in het dialoogvenster Opties op Toevoegen.
+
+Voer in het dialoogvenster MediaWiki de accountinformatie in voor de Wiki.
+
+
+Voer, in het tekstvak URL, het adres van een wiki in, waarmee u verbinding wilt maken.
+U kunt de URL uit een webbrowser kopiëren en die in het tekstvak plakken.
+
+Voer, in het vak Gebruikersnaam, uw gebruikers-ID in voor uw wiki-account.
+U kunt de vakken Gebruikersnaam en Wachtwoord leeg laten als de wiki anonieme schrijftoegang toestaat.
+
+Voer, in het vak Wachtwoord, het wachtwoord voor uw wiki-account in en klik dan op OK.
+
+
+Schakel, optioneel, "Wachtwoord opslaan" in om het wachtwoord tussen sessies op te slaan. Een hoofdwachtwoord wordt gebruikt om de toegang te beheren tot alle opgeslagen wachtwoorden. Kies Extra - Opties - %PRODUCTNAME - Veiligheid om het hoofdwachtwoord in te schakelen. "Wachtwoord opslaan" is niet beschikbaar als het hoofdwachtwoord niet is ingeschakeld.
+Een nieuwe wikipagina maken
+Open een Writerdocument.
+
+Schrijf de inhoud van de Wiki pagina. U kunt opmaak gebruiken zoals tekstopmaak, kopteksten, voetnoten en meer. Zie lijst met ondersteunde opmaken op .
+
+Kies Bestand- Verzenden - Naar MediaWiki.
+
+In het dialoogvenster Sturen naar MediaWiki specificeert u de instellingen voor uw invoer.
+
+
+MediaWiki-server: Selecteer de wiki.
+Titel: Typ de titel van uw pagina. Typ de titel van een bestaande pagina om die pagina te overschrijven met de inhoud van uw huidige tekstdocument. Typ een nieuwe titel om een nieuwe pagina op de wiki te maken.
+Samenvatting: Voer een optionele korte samenvatting van uw pagina in.
+Dit is een kleine bewerking: Markeer dit vak om de geüploadde pagina te markeren als een kleine bewerking van de reeds bestaande pagina met dezelfde titel.
+In webbrowser tonen: Markeer dit vakje om uw systeemwebbrowser te openen en de geüploadde wikipagina weer te geven.
+Klik op Verzenden.
+
+
+

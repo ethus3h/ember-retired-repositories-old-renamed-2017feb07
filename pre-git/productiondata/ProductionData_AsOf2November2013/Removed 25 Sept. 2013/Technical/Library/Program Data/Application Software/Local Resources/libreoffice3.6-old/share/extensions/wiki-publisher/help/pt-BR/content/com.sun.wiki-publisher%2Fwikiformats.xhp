@@ -1,0 +1,31 @@
+
+Formatos do MediaWiki
+A lista abaixo fornece uma visão geral dos formatos de textos que o Wiki Publisher pode gravar no servidor Wiki.
+O formato OpenDocument utilizado pelo Writer e o formato WikiMedia são bastante diferentes. Somente um subconjunto de todas as características podem ser transformado de um formato para o outro.
+Títulos
+Aplica um estilo de parágrafo de título para os títulos de seu documento Writer. O Wiki mostrará os estilos de títulos com a mesma estrutura de tópicos, formatado de acordo com os padrões do servidor Wiki.
+Hyperlinks
+Os hyperlinks nativos do OpenDocument serão transformados em vínculos Wiki "externos". Portanto, o recurso interno de vinculação do OpenDocument deve somente ser utilizado para criar vínculos que apontem para sites externos ao Wiki. Para criar vínculos Wiki que apontem para outros assuntos no mesmo domínio Wiki, utilize os vínculos Wiki.
+Listas
+As listas podem ser exportadas quando a lista inteira utiliza um estilo de lista consistente. Utilize o ícone Numeração ou Marcadores para gerar uma lista no Writer. Se você necessitar de uma lista sem numeração ou marcadores, utilize Formatar - Marcadores e Numeração para definir e aplicar o respectivo estilo de lista.
+Parágrafos
+Alinhamento
+Alinhamentos explícitos de texto não deveriam ser utilizados em artigos Wiki. Entretanto, os alinhamentos de texto à esquerda, centralizados e à direita são suportados.
+Texto pré-formatado
+Um estilo de parágrafo com fontes de largura fixa será transformado em texto pré-formatado. Textos pré-formatados serão mostrados no Wiki em uma caixa com uma borda.
+Estilos de caracteres
+Estilos de caracteres alteram a aparência de partes de um parágrafo. As transformações possíveis são negrito, itálico, negrito itálico, subscrito, sobrescrito. Todas as fontes de largura fixa serão transformadas no estilo máquina de datilografar do Wiki.
+Notas de rodapé
+Nota: A transformação utiliza o novo estilo de notas de rodapé com tags <ref> e <references> que necessitam a instalação da extensão Cite.php no MediaWiki. Se aparecerem essas tags no texto transformado, solicite ao administrador do Wiki  a instalação dessa extensão.
+Imagens
+Imagens não podem ser exportadas por uma transformação que produza um único arquivo de texto Wiki. Entretanto, se a imagem estiver já carregada no domínio do Wiki de destino (e.g. WikiMedia Commons), então a transformação produzirá uma tag válida de imagem que inclui a imagem. As legendas das imagens também são suportadas.
+Tabelas
+Tabelas simples são bem suportadas. Cabeçalhos de tabela são traduzidos nos seus correspondentes estilos de cabeçalhos de tabelas Wiki. Todavia, a formatação personalizada de bordas de tabela, tamanho de colunas e cores do plano de fundo serão ignorados.
+Células mescladas
+O OpenDocument e o LibreOffice em especial, representam tabelas que possuem células mescladas cobrindo várias linhas, como tabelas contendo tabelas aninhadas. Por outro lado, o modelo de tabela do wiki é de declarar com expansão de colunas e linhas, as tais celulas mescladas. 
+Se forem mescladas somente colunas da mesma linha, o resultado da transformação será muito parecido com o documento de origem.
+Bordas
+Independentemente dos estilos de borda e plano de fundos de tabela, uma tabela é sempre exportada como "prettytable", e processada no Wiki com bordas simples e cabeçalho em negrito.
+Conjuntos de caracteres e caracteres especiais
+O conjunto de caracteres da transformação será sempre UTF-8. Dependendo de seu sistema, isso pode não ser o conjunto de caracteres padrão. Pode ocorrer que "caracteres especiais" apareçam errados quando mostrados com as configurações padrão. Todavia, você pode mudar seu editor para a codificação UTF-8 para acertar isso. Se seu editor não puder trocar de conjunto de caracteres, você pode exibir os resultados da transformação no navegador Firefox e alterar a codificação de caracteres ali. Copie e cole o resultado da transformação em seu programa preferido.
+

@@ -1,0 +1,1 @@
+Ĉi tiu aldonaĵo integriĝas en Kalkulilon kaj provizas novajn modulojn uzeblajn por optimumigi modelojn de nelineara programado.

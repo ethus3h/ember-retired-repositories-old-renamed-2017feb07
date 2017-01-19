@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+Estensioni;MediaWiki
+
+Wiki Publisher
+Utilizzando Wiki Publisher potete caricare su un server MediaWiki il vostro documento Writer. Dopo il caricamento, tutti gli utenti wiki potranno leggere il documento nel wiki.
+
+Per caricare il documento Writer attivo nel server MediaWiki, scegliete File - Invia - A MediaWiki.
+Requisiti di sistema
+Java Runtime Environment
+
+Un account wiki valido su un server supportato MediaWiki
+
+
+Installazione di Wiki Publisher
+Prima di utilizzare Wiki Publisher, accertatevi che %PRODUCTNAME stia utilizzando un ambiente di runtime Java ("Java Runtime Environment" o "JRE"). Per verificare lo stato del JRE, scegliete Strumenti - Opzioni - %PRODUCTNAME - Java. Controllate che la casella "Usa un ambiente runtime Java" sia selezionata e che nella casella di riepilogo sia presente almeno una cartella contenente il runtime Java. Se non è attivato alcun JRE, installate JRE in versione 1.4 o successiva e riavviate %PRODUCTNAME.
+Connettersi al wiki
+Nota: potete memorizzare il vostro nome utente e password per tutte le relative finestre all'interno di %PRODUCTNAME. La password sarà memorizzata con sistema sicuro, mentre l'accesso sarà  controllato da una password principale. Per attivare la password principale, scegliete Strumenti - Opzioni - %PRODUCTNAME - Sicurezza.
+Nota: se vi collegate al web utilizzando un server proxy, digitate le informazioni del proxy in Strumenti - Opzioni - Internet - Proxy, e riavviate il programma.
+Aprite un documento Writer e scegliete Strumenti - Opzioni - Internet - MediaWiki.
+
+Nella finestra di dialogo Opzioni, fai clic Aggiungi.
+
+Nella finestra di dialogoMediaWiki, inserite le informazioni dell'account per il wiki.
+
+
+Nella casella URL digitate l'indirizzo del wiki al quale desiderate connettervi.
+Potete copiare l'URL da un browser web e incollarlo all'interno della casella.
+
+Nella casella Nome utente digitate l'identificativo utente per il vostro account wiki.
+Se il wiki consente l'accesso anonimo, potete lasciare vuote le caselle nome utente e password.
+
+Nella casella password digitate la password del vostro account wiki, quindi fate clic su OK.
+
+
+Potete facoltativamente attivare "Salva password" per salvare la password tra una sessione e l'altra. La password principale è utilizzata per controllare l'accesso a tutte le vostre password salvate. Per attivare la password principale, scegliete Strumenti - Opzioni - %PRODUCTNAME - Sicurezza. "Salva password" non è disponibile se la password principale non è attiva.
+Creare una nuova pagina wiki
+Aprite un documento Writer.
+
+Scrivete il contenuto della pagina wiki. Potete usare le formattazioni quali i formati di testo, le intestazioni, le note a piè di pagina e altro. Consultate l'elenco dei formati supportati.
+
+Scegliete File - Invia - A MediaWiki.
+
+Nella finestra di dialogo Invia a MediaWiki, specificate le impostazioni della voce.
+
+
+Server MediaWiki: selezionate il wiki.
+Titolo: digitate il titolo della pagina. Digitate il titolo di una pagina esistente per sovrascriverla col documento di testo attivo. Digitate un nuovo titolo per creare una nuova pagina sul wiki.
+Descrizione: immettete una breve descrizione, facoltativa, della vostra pagina.
+Questa è una modifica secondaria: spuntate questa casella per contrassegnare la pagina caricata come modifica secondaria della pagina già presente con lo stesso titolo.
+Mostra in browser web: spuntate questa casella per aprire il vostro browser web predefinito e visualizzare la pagina wiki caricata.
+Fate clic su Invia.
+
+
+

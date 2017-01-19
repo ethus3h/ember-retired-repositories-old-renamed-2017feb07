@@ -1,0 +1,89 @@
+2013/06/23 14:38:56.093 15104 3074792192  0   UpdateOnlineState newOnlineValue 0
+2013/06/23 14:38:56.107 15104 3074792192  0!! ParseTextfile: Unknown header in settings file: ']]S', Errorcode=2
+2013/06/23 14:38:56.108 15104 3074792192  0   Generating new RSA private/public key pair
+2013/06/23 14:38:56.698 15104 3074792192  0   UpdateOnlineState newOnlineValue 1
+                    
+                    
+                    
+Start:              2013/06/23 14:38:56.706
+Version:            8.0.17147
+ID:                 0
+License:            0
+Server:             master3.teamviewer.com
+IC:                 1156878036
+CPU:                Unknown
+OS:                 Lx Wreathe 7: Elegy (32-bit)
+IP:                 192.168.1.45
+MID:                0x0016d3319f0e_65318bfd_07dc7a51d35b05ee
+MIDv:               0
+Proxy-Settings:     Type=1 IP= User=
+
+2013/06/23 14:38:56.708 15104 3074792192 S0   Using IPC-Port 5939
+2013/06/23 14:38:56.859 15104 3074792192 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:38:56.861 15104 3074792192 S0   UpdateOnlineState newOnlineValue 1
+2013/06/23 14:38:56.861 15104 3074792192 S0   TeamViewer is going online!
+2013/06/23 14:38:56.861 15104 3053583216 S0   KeepAliveThread started
+2013/06/23 14:38:56.861 15104 3064073072 S0   ObserverThread: watching /var/run/utmp
+2013/06/23 14:38:57.209 15104 3053583216 S0   CT1 CT.Send.CMD_PING From=0 To=0 L=4
+2013/06/23 14:38:57.310 15104 3053583216 S0   CT1 CT.Receive.CMD_PINGOK From=0 To=0 L=4
+2013/06/23 14:38:57.367 15104 3053583216 S0   NetWatchdog: Ping successful!
+2013/06/23 14:38:57.368 15104 3053583216 S0   NetWatchdog: Internet is now connected
+2013/06/23 14:38:57.549 15104 3053583216 S0   CT2 CT.Send.CMD_MASTERCOMMAND From=0 To=0 L=291
+2013/06/23 14:38:57.704 15104 3053583216 S0   CT2 CT.Receive.CMD_MASTERRESPONSE From=0 To=0 L=11
+2013/06/23 14:38:57.704 15104 3053583216 S0   CT2 CT.Disconnect
+2013/06/23 14:38:57.705 15104 3053583216 S0!  MC.Reg f=Reg&ic=1156878036&id=0&iguid={c853a6ea-c3e2-4fd4-96af-5e02d9592c10}&logging=1&mac=0x0016d3319f0e_65318bfd_07dc7a51d35b05ee&mid=0x0016d3319f0e_65318bfd_07dc7a51d35b05ee&midf=0&midhistory=0x0016d3319f0e_65318bfd_07dc7a51d35b05ee&midv=0&os=Lx Wreathe 7: Elegy&rhash=&smidv=0&sro=0&v=8.0.17147 - 0#925294697
+2013/06/23 14:38:57.705 15104 3053583216 S0   Generating new RSA private/public key pair
+2013/06/23 14:38:58.066 15104 3053583216 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:38:58.328 15104 3053583216 S0   CT3 CT.Send.CMD_MASTERCOMMAND From=925294697 To=0 L=271
+2013/06/23 14:38:58.588 15104 3053583216 S0   CT3 CT.Receive.CMD_MASTERRESPONSE From=0 To=925294697 L=4
+2013/06/23 14:38:58.588 15104 3053583216 S0   CT3 CT.Disconnect
+2013/06/23 14:38:58.854 15104 3053583216 S0   CT4 CT.Send.CMD_MASTERCOMMAND From=925294697 To=0 L=274
+2013/06/23 14:38:59.102 15104 3053583216 S0   CT4 CT.Receive.CMD_MASTERRESPONSE From=0 To=925294697 L=4
+2013/06/23 14:38:59.102 15104 3053583216 S0   CT4 CT.Disconnect
+2013/06/23 14:38:59.358 15104 3053583216 S0   CT5 CT.Send.CMD_MASTERCOMMAND From=925294697 To=0 L=462
+2013/06/23 14:38:59.621 15104 3053583216 S0   CT5 CT.Receive.CMD_MASTERRESPONSE From=0 To=925294697 L=113
+2013/06/23 14:38:59.622 15104 3053583216 S0   CT5 CT.Disconnect
+2013/06/23 14:38:59.622 15104 3053583216 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TV&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=1156878036&id=925294697&iguid={c853a6ea-c3e2-4fd4-96af-5e02d9592c10}&keepalive=1&language=&licensetype=0&logging=1&mid=0x0016d3319f0e_65318bfd_07dc7a51d35b05ee&midf=0&midhistory=0x0016d3319f0e_65318bfd_07dc7a51d35b05ee&midv=0&noofactivekeepalive=0&os=Lx Wreathe 7: Elegy&port443out=0&rhash=&runtime=3&smidv=0&sro=0&supportedfeatures=3046365&tcpout=1&v=8.0.17147 - 0#OK_10000_-_2__178.255.155.19:5938_33315_1_-1_0.0.0.0__178.77.120.101_178.77.120.100_0_925294697_1_0_0_0_261929_
+2013/06/23 14:38:59.623 15104 3053583216 S0   local license differs from master license
+2013/06/23 14:38:59.893 15104 3053583216 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:38:59.896 15104 3053583216 S0   CT6 CT.TM_WaitAtGateway.178.255.155.19:5938 - CT6 - S6
+2013/06/23 14:38:59.897 15104 3053583216 S0   CT6 CT.Connect.178.255.155.19:5938
+2013/06/23 14:39:00.153 15104 3053583216 S0   CT6 CT.Connected
+2013/06/23 14:39:00.160 15104 3043093360 S0   CT6 CT.Run
+2013/06/23 14:39:00.160 15104 3043093360 S0   CT6 CT.Send.CMD_IDENTIFY From=925294697 To=0 L=32
+2013/06/23 14:39:00.160 15104 3043093360 S0   CT6 CT.Send.CMD_REQUESTKEEPALIVE2 From=925294697 To=0 L=24
+2013/06/23 14:39:00.160 15104 3043093360 S0   CConnectionThread::PingRouter(): Router Ping started
+2013/06/23 14:39:00.447 15104 3043093360 S0   CT6 Activating support for ccmdV2
+2013/06/23 14:39:00.447 15104 3043093360 S0   CT6 CT.Receive.CMD_SESSIONID From=0 To=925294697 L=8
+2013/06/23 14:39:00.452 15104 3043093360 S0   CT6 CT.Receive.CMD_IDENTIFY From=0 To=925294697 L=32
+2013/06/23 14:39:01.514 15104 3043093360 S0   CT6 CConnectionThread::CmdPingRouter(): Router Pong Received with following Hops: 925294697 794227109
+2013/06/23 14:39:01.514 15104 3043093360 S0   CKeepAliveThreadServer::SyncClients(): Clients: 
+2013/06/23 14:39:01.514 15104 3043093360 S0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=74
+2013/06/23 14:39:24.127 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:40:42.259 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:41:59.577 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:42:00.739 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:42:02.856 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:42:10.971 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:49:24.589 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:51:55.311 15104 3064073072 S0!  XServer: Unable to open XAuthority file "/var/run/gdm/auth-for-gdm-g8WRAM/database"
+2013/06/23 14:52:08.302 15104 3074792192 S0   TeamViewer_Service received SIGTERM
+2013/06/23 14:52:08.302 15104 3074792192 S0   ShutdownDynGate
+2013/06/23 14:52:08.314 15104 3064073072 S0   ObserverThread: thread_interrupted
+2013/06/23 14:52:08.357 15104 3074792192 S0   TeamViewer is going offline!
+2013/06/23 14:52:08.357 15104 3074792192 S0   Offline() StopListening.WT
+2013/06/23 14:52:08.376 15104 3074792192 S0   CT6 CT.Send.CMD_ENDSESSION From=925294697 To=794227109 L=4
+2013/06/23 14:52:08.378 15104 3074792192 S0   CConnectionThread::Terminate(): Sent EndSession with reason: 11
+2013/06/23 14:52:08.650 15104 3043093360 S0   CT6 CT.Receive.CMD_DISCONNECT From=794227109 To=925294697 L=4
+2013/06/23 14:52:08.652 15104 3074792192 S0   CT6 CT.Disconnect
+2013/06/23 14:52:08.653 15104 3043093360 S0   CT6 CT.Run.LoopEnd
+2013/06/23 14:52:08.660 15104 3053583216 S0   KeepAliveThread ended
+2013/06/23 14:52:08.910 15104 3074792192 S0   CT.Disconnect.TM_WaitAtGateway finished
+2013/06/23 14:52:08.910 15104 3074792192 S0   CT6 CT.Term.TM_WaitAtGateway: SendQueueThread stopped
+2013/06/23 14:52:08.910 15104 3074792192 S0   CT6 CT.Term.TM_WaitAtGateway: Terminated
+2013/06/23 14:52:08.910 15104 3074792192 S0   MainApp.Shutdown.GWS.Disconnect n=0
+2013/06/23 14:52:08.910 15104 3074792192 S0   Offline() CT.Terminate
+2013/06/23 14:52:08.910 15104 3074792192 S0   Offline() Shutdown.WT
+2013/06/23 14:52:08.913 15104 3074792192 S0   TeamViewer_Service Stop
+
+

@@ -1,0 +1,1 @@
+Tillägget import av PDF låter dig importera och ändra PDF-dokument. Bäst resultat med 100% korrekt layout får med formatet "PDF/ODF hybrid", vilket detta tillägg också aktiverar. En PDF/ODF-hybridfil är en PDF som innehåller källfilen i formatet ODF. En PDF/ODF-hybridfil öppnas i LibreOffice som ODF utan några förändringar av layouten.

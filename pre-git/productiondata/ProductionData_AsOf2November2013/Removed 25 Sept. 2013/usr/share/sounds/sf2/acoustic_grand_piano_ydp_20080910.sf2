@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Removed 25 Sept. 2013/usr/share/sounds/sf2/acoustic_grand_piano_ydp_20080910.sf2
+## 
+138627388,d568b2bdee099db5d0647852428fd759,acb3295eeee875bda8e9064e77b24d5c9e115d54,8daab3c933edba50bdaec179c086a34285f21997ddfd40b142106f38c7050461,3769ca29a4b1ec0fce0a8cfc0021e6808e0d0ffeb7f742ad,70519d8857c06af6ffd858c46e4901bded7c6cea98658dfb41b89d3c1e20024c3415fab3789bea06240d3083b1fb46020ab1a00082c0ed7d1ab0c9c502c37080,/home/kyan/productiondata/ProductionData_AsOf2November2013/Removed 25 Sept. 2013/usr/share/sounds/sf2/acoustic_grand_piano_ydp_20080910.sf2

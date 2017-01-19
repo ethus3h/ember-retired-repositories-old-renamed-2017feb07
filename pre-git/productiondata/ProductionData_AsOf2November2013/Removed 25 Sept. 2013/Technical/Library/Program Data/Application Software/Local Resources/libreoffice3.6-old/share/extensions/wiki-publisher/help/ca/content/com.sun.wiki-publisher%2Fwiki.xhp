@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+Amb l'extensió Wiki Publisher podeu pujar el document de text del Writer a un servidor MediaWiki. Després de pujar-lo, tots els usuaris de la Wiki podran llegir el document a la mateixa Wiki.
+
+Trieu Fitxer - Envia - A MediaWiki per pujar el document actual del Writer a un servidor MediaWiki.
+Requeriments del sistema
+Entorn d'execució de Java
+
+Un compte Wiki en un servidor MediaWiki compatible
+
+
+Instal·lació de l'extensió Wiki Publisher
+Abans d'utilitzar el Wiki Publisher, assegureu-vos que el %PRODUCTNAME utilitza un entorn d'execució de Java (JRE). Per comprovar l'estat del JRE, seleccioneu Eines - Opcions - %PRODUCTNAME - Java. Assegureu-vos que "Utilitza un entorn d'execució de Java" està marcat i que la carpeta de l'entorn d'execució de Java està seleccionada a la llista. Si no hi ha cap JRE activat, activeu un JRE 1.4 o posterior i reeinicieu el %PRODUCTNAME.
+Per connectar-vos a una Wiki
+Nota: Podeu emmagatzemar el nom d'usuari i la contrasenya per a tots els diàlegs del %PRODUCTNAME. La contrasenya es desarà de manera segura, amb accés restringit mitjançant una contrasenya mestra. Per habilitar la contrasenya mestra, trieu Eines - Opcions - %PRODUCTNAME - Seguretat.
+Nota: Si us connecteu a la xarxa a través d'un servidor intermediari, introduïu la informació de l'intermediari a Eines - Opcions - Internet - Servidor intermediari, i reinicieu l'aplicació.
+Obriu un document del Writer i trieu Eines - Opcions - Internet - MediaWiki.
+
+Al diàleg d'Opcions, cliqueu Afegeix.
+
+Al diàleg MediaWiki, introduïu la informació del compte per a la Wiki.
+
+
+Al quadre de text URL, introduïu l'adreça de la Wiki a la qual voleu connectar-vos.
+Podeu copiar l'URL d'un navegador web i enganxar-lo al quadre de text.
+
+Al quadre Nom d'usuari, introduïu l'identificador d'usuari del vostre compte Wiki.
+Si la Wiki permet l'accés anònim per a escriptura, podeu deixar en blanc els quadres Nom d'usuari i Contrasenya.
+
+Al quadre Contrasenya, introduïu la contrasenya del vostre compte Wiki, llavors feu clic a D'acord.
+
+
+Opcionalment, habiliteu "Desa la contrasenya" per desar la contrasenya entre sessions. Per mantenir l'accés a totes les contrasenyes desades s'utilitza una contrasenya mestra. Trieu Eines - Opcions - %PRODUCTNAME - Seguretat per habilitar la contrasenya mestra. L'opció "Desa la contrasenya" no està disponible si la contrasenya mestra no està habilitada.
+Per crear una pàgina wiki nova
+Obriu un document del Writer.
+
+Escriviu el contingut de la pàgina wiki.  Podeu utilitzar diverses opcions de formatació per al text, encapçalaments, notes a peu de pàgina i d'altres. Vegeu la llista de formats compatibles.
+
+Trieu Fitxer - Envia - A MediaWiki.
+
+En el diàleg Envia a MediaWiki, especifiqueu els paràmteres de la vostra entrada.
+
+
+Servidor MediaWiki: Seleccioneu la Wiki.
+Títol: Escriviu el títol de la pàgina. Escriviu el títol d'una pàgina existent per sobreescriure la pàgina amb el document de text actual. Escriviu un títol nou per crear una pàgina nova a la Wiki.
+Resum: Introduïu un resum curt opcional de la pàgina.
+Aquesta és una edició menor: Marqueu aquesta casella per indicar que la pàgina pujada és una edició menor de la pàgina que ja existeix amb el mateix títol.
+Mostra-ho al navegador web: Marqueu aquesta casella per obrir el navegador web del sistema i mostrar la pàgina Wiki pujada.
+Feu clic a Envia.
+
+
+

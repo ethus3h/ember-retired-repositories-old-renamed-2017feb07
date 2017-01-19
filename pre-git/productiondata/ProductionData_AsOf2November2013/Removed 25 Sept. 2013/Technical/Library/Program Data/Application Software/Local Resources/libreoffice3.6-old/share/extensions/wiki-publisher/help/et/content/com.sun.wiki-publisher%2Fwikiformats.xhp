@@ -1,0 +1,31 @@
+
+MediaWiki vormindus
+Järgnev loetelu annab ülevaate tekstivormingutest, mida wikis avaldamise laiendus saab üles laadida wiki-serverisse.
+Writeri poolt kasutatav OpenDocument-vorming ja WikiMedia vorming on üsna erinevad. Ühest vormingust teise saab teisendada ainult teatud osa võimalustest.
+Pealkirjad
+Rakenda pealkirja lõigustiil oma Writeri dokumendi pealkirjadele. Wiki kuvab pealkirjade stiile vastavalt liigendustasemele ja vormindatuna vastavalt wiki-mootori sätetele.
+Hüperlingid
+Tavalised OpenDocumenti hüperlingid teisendatakse "välisteks" wiki-linkideks. Seetõttu tuleks OpenDocumenti sisseehitatud linkimise võimalust kasutada ainul nende linkide loomiseks, mis viitavad teistele veebilehtedele väljaspool wikit. Wiki-linkide loomiseks, mis viitavad teistele samas wiki domeenis asuvatele subjektidele, tuleb kasutada wiki-linke.
+Loendid
+Loendeid saab korrektselt eksportida, kui kogu loend kasutab püsivat loendistiili. Kasuta loendi loomiseks Writeris nummerduse ja täppide ikooni. Kui vajad ilma nummerduse ja täppideta loendit, kasuta loendistiili määramiseks ja rakendamiseks käsku Vormindus - Nummerdus ja täpid.
+Lõigud
+Joondus
+Wiki-artiklites ei tohiks kasutada teksti otsest joondamist. Sellegipoolest on toetatud teksti vasakule, keskele ja paremale joondamine.
+Eelvormindatud tekst
+Fikseeritud laiusega fondiga lõigustiilid teisendatakse eelvormindatud tekstiks. Eelvormindatud teksti kuvatakse wikis äärisega teksti ümber.
+Märgistiilid
+Märgistiilid muudavad lõigu osade vormindust. Teisendus toetab paksu kirja, kaldkirja, paksu kaldkirja, üla- ja alakirja. Kõik fikseeritud laiusega fondid teisendatakse wiki "masinakirja" stiiliks.
+Allmärkused
+Märkus: teisendus kasutab uut allmärkuste stiili <ref> ja <references> siltidega, mis vajab, et Cite.php laiendus oleks MediaWikisse paigaldatud. Kui teisenduse tulemusena kuvatakse neid silte tavalise tekstina, palu wiki administraatoril see laiendus paigaldada.
+Pildid
+Pilte ei saa eksportida teisendusega, mis väljastab ühe wiki teksti faili. Kui pilt on juba wiki domeeni (näiteks WikiMedia Commons) üles laaditud, siis loob teisendus korrektse pildi sildi, mis kaasab ka pildi. Toetatud on ka piltide pealdised.
+Tabelid
+Lihttabelite tugi on hea. Tabelipäised teisendatakse vastava wiki-stiiliga tabelipäisteks. Paraku eiratakse kohandatud vormindusega tabelite ääriseid, veergude laiusi ja taustavärve.
+Ühendatud lahtrid
+OpenDocument ja eriti LibreOffice esitavad üle mitme rea ühendatud lahtritega tabeleid kui põimitud tabelitega tabeleid. Seevastu wiki tabelimudel selliste ühendatud lahtrite puhul on määrata veergude ja ridade ulatus. 
+Kui ühendatakse ainult sama rea veerud, siis on teisenduse tulemus võrreldes lähtedokumendiga väga hea.
+Äärised
+Sõltumata tabeli ääriste ja tausta kohandatud stiilidest eksporditakse tabel alati kui "prettytable", mida wiki-mootor näitab lihtsate ääriste ja paksus kirjas päistega.
+Märgistik ja erimärgid
+Teisenduse tulemuse märgistik on alati UTF-8. Sõltuvalt sinu süsteemist ei pruugi see olla vaikimisi märgistik. Seetõttu võib vaikesätetega vaatamisel tunduda, et "erimärgid" on katki. Vaate parandamiseks võid lülitada oma tekstiredaktori UTF-8 peale. Kui sinu redaktor ei toeta märgistiku vahetamist, võid teisenduse tulemust vaadata Firefoxi veebibrauseriga ja lülitada seal märgistiku UTF-8 peale. Nüüd võid sa teisenduse tulemuse kopeerida ja asetada vabalt valitud rakendusse.
+

@@ -1,0 +1,31 @@
+
+Formate MediaWiki
+Lista care urmează oferă o prezentare generală a formatelor de text pe care Wiki Publisher le poate încărca pe serverul Wiki.
+Formatul OpenDocument folosit de Writer e diferit de formatul WikiMedia. Se pot transforma doar o parte din funcționalități de la un format la celălalt.
+Titluri
+Aplicați un stil de paragraf titlurilor din documentul dumneavoastră Writer. Wiki va prezenta stilurile de titluri pentru același nivel de aliniere, cu formatările definite de motorul Wiki.
+Legături web
+Legăturile web OpenDocument native sînt transformate în legături Wiki "externe". De aceea, facilitatea de a crea legături inclusă în OpenDocument ar trebui folosită numai pentru crearea legăturilor care duc înspre saituri aflate în afara web-ului Wiki. Pentru crearea de legături Wiki care duc spre alte subiecte din același domeniu Wiki, folosiți legături Wiki.
+Liste
+Listele se vor exporta în siguranță, numai dacă se utilizează în întregime un stil de listă consistent. Folosiți Numerele sau Semne de Enumerare pentru generarea unei liste în Writer. Dacă aveți nevoie de o listă fără numere sau semne de enumerare, folosiți Format - Semne de Enumerare pentru a defini și aplica stilul de listă respectiv.
+Paragrafe
+Aliniere
+Alinierea explicită a textului nu ar trebui folosită în articolele Wiki. Cu toate acestea, este suportată alinierea textului la stânga, la dreapta sau centrat.
+Text preformatat
+Un stil de paragraf cu fonte de lărgime fixă este tratat ca text pre-formatat. Texte pre-formatate sînt afișate în Wiki cu o bordură în jurul textului.
+Stiluri de caractere
+Stilurile de caracter modifică aspectul unor părți ale unui paragraf. Modificările suportate sunt aldin, cursiv, aldin/cursiv, poziție inferioară și superioară. Toate fonturile cu lățime fixă sunt transformate în stil dactilografic Wiki.
+Note de subsol
+Notă: Transformarea folosește noul stil de note de subsol cu tagurile <ref> și <references>, care necesită instalarea extensiei Cite.php în MediaWiki. Dacă aceste taguri apar ca text simplu după transformare, cereți administratorului Wiki să instaleze extensia.
+Imagini
+Nu se pot exporta imagini printr-o transformare care produce un singur fișier de text Wiki. Totuși, dacă imaginea se află deja în domeniul Wiki țintă (de ex. WikiMedia Commons), atunci transformarea produce un marcaj imagine valid care include imaginea. Sînt preluate și textele asociate imaginilor.  
+Tabele
+Tabelele simple se bucură de un suport bun. Capetele de tabel sînt traduse în capetele de tabel stil Wiki corespunzătoare. Totuși, se ignoră orice modificări particulare ale bordurilor tabelelor, mărimii coloanelor și culorilor de fundal.
+Celule reunite
+OpenDocument și îndeosebi LibreOffice reprezintă tabelele care au celule reunite ce cuprind mai multe linii ca tabele cu tabele imbricate. Spre deosebire de aceasta, modelul wiki pentru un tabel declară coloanele și rândurile cuprinse în astfel de celule reunite. 
+Dacă se reunesc doar coloane de pe o aceeași linie, atunci rezultatul transformării seamănă foarte bine cu documentul sursă.
+Margini
+Indiferent de stilurile particulare de tabele referitoare la bordură și fundal pe Wiki for fi exportate ca "prettytable", care în motorul de Wiki se vede ca un table su bordură simplă și antet aldin.
+Set de caractere și caractere speciale
+Setul de caractere pentru rezultatul transformării este setat la UTF-8. În funcție de sistemul pe care îl folosiți, e posibil ca acesta să nu fie setul de caractere implicit. În acest caz „caracterele speciale” pot fi afișate cu erori când sunt vizualizate folosind setările implicite. Puteți însă comuta codarea editorului la UTF-8 pentru a rezolva problema. Dacă editorul pe care îl folosiți nu permite comutarea codării, puteți afișa rezultatul transformării în navigatorul Firefox și să comutați acolo codarea la UTF-8. Apoi, puteți decupa și lipi rezultatul transformării în orice program doriți.
+

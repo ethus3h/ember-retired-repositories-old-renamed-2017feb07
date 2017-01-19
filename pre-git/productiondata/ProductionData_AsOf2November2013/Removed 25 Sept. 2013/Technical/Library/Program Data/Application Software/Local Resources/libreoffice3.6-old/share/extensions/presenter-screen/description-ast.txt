@@ -1,0 +1,2 @@
+La estensión Consola de presentación dispón d'un meyor control sobre les tos presentaciones, tales como la posiblidá de ver la diapositiva siguiente, les tos notes, y un cronómetru non visible pola audiencia.
+Pa evitar la confusión d'amosar un gran númberu d'elementos na presentación, la estensión amuesa los elementos en trés visualizaciones distintes, fácilmente intercambiables.

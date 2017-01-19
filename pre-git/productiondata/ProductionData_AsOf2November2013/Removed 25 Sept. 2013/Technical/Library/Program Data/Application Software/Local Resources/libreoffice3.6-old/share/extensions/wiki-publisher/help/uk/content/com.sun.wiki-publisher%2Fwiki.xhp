@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+розширення;MediaWiki
+
+Wiki Publisher
+Використовуючи Wiki Publisher ви можете вивантажувати текстовий документ Writer на сервер MediaWiki. Після вивантаження, усі користувачі Wiki зможуть читати Ваш документ у Wiki.
+
+Для вивантаження документу Writer до сервера MediaWiki виберіть Файл - Надіслати - До MediaWiki.
+Системні вимоги
+Java Runtime Environment
+
+Обліковий рахунок Wiki на підтримуваному сервері MediaWiki
+
+
+Встановлення Wiki Publisher
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Для з'єднання з Wiki
+Примітка: Ви можете зберегти своє ім'я користувача та пароль для всіх відповідних діалогів StarOffice/OpenOffice.org. Пароль буде збережено у захищеному місці, доступ до якого обмежений за допомогою майстер-паролю. Для вмикання майстер-пароля виберіть Сервіс - Параметри - StarOffice/OpenOffice.org - Безпека.
+Примітка: Якщо ви використовуєте проксі-сервер для з'єднання з інтернетом, введіть відомості про проксі-сервер у Сервіс - Параметри - Інтернет - Проксі та перезапустіть програму.
+Відкрийте документ Writer та виберіть Сервіс - Параметри - Інтернет - MediaWiki.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+У текстовому полі URL введіть адресу сервера Wiki, до якого треба приєднатися.
+Можна скопіювати адресу з веб-навігатора та вставити його у текстове поле.
+
+У полі Ім'я користувача введіть ідентифікатор вашого облікового запису Wiki.
+Якщо Wiki дозволяє анонімний запис, то поля і'мя користувача та пароль можна не заповнювати.
+
+У полі Пароль введіть пароль облікового запису Wiki та натисніть «Гаразд».
+
+
+Увімкніть функцію «Зберегти пароль» для запам'ятовування паролю між сеансами. Майстер-пароль забезпечує доступ до усіх збережених паролів. Виберіть Сервіс - Параметри - StarOffice/OpenOffice.org - Безпека для вмикання майстер-паролю. Якщо майстер-пароль не введений, функція «Зберегти пароль» недоступна.
+Для створення нової сторінки Wiki
+Відкрийте новий документ.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Виберіть Файл - Надіслати - MediaWiki.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+Сервер MediaWiki: виберіть Wiki.
+Заголовок: введіть заголовок сторінки. Для перезапису тексту вже існуючої сторінки введіть її заголовок. Для створення нової сторінки Wiki введіть новий заголовок.
+Короткий опис: Введіть необов'язковий короткий опис сторінки.
+Незначна зміна: Виберіть цей параметр для позначення завантаженої сторінки як незначної зміни вже існуючої сторінки.
+Показати у веб-навігаторі: Позначте цей параметр для відкриття веб-навігатора та показу завантаженої Wiki-сторінки.
+Натисніть «Надіслати».
+
+
+

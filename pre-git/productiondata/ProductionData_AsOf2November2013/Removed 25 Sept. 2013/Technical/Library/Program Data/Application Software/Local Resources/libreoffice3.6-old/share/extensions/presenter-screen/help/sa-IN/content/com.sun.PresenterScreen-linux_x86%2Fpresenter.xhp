@@ -1,0 +1,92 @@
+
+Presenter Console shortcuts
+
+Presenter Console Keyboard Shortcuts
+When running a slide show using the Presenter Console, you can use the following keys:
+Action
+
+Key or Keys
+
+
+अग्रिमस्लैड्, अथवा अग्रिमप्रभावः
+
+Left click, right arrow, down arrow, spacebar, page down, enter, return, 'N'
+
+
+पूर्वतनस्लैड्, अथवा पूर्वतनप्रभावः
+
+Right click, left arrow, up arrow, page up, backspace, 'P'
+
+
+प्रथनस्लैड्
+
+गृहम् 
+
+
+अन्तिमस्लैड् 
+
+End
+
+
+प्रभावैः विना पूर्वतनस्लैड्  
+
+Alt+Page Up
+
+
+प्रभावैः विना अग्रिमस्लैड् 
+
+Alt+Page Down
+
+
+Black/Unblack the screen
+
+'B', '.'
+
+
+White/Unwhite the screen
+
+'W', ','
+
+
+स्लैड्दर्शनम् पिधत्स्व 
+
+Esc, '-'
+
+
+Go to slide number
+
+निवेशनेन संख्या अनुकृतम् 
+
+
+टिप्पणीफोण्ट्स् एतस्य वर्धनं/सङ्कुञ्चनं च
+
+'G', 'S'
+
+
+टिप्पण्यः उपरि/अधः स्क्रोल् कुरु 
+
+'A', 'Z'
+
+
+Move caret in notes view backward/forward
+
+'H', 'L'
+
+
+Show the Presenter Console
+
+Ctrl-'1'
+
+
+Show the Presentation Notes
+
+Ctrl-'2'
+
+
+Show the Slides Overview
+
+Ctrl-'3'
+
+
+
+

@@ -1,0 +1,56 @@
+
+Wiki;Wiki-izdajatelj
+Wiki-izdajatelj
+razširitve;MediaWiki
+
+Wiki-izdajatelj
+Če uporabljate razširitev Wiki-izdajatelj, lahko prenesete svoj trenutni dokument z besedilom iz Writerja na strežnik MediaWiki. Po prenosu lahko vsi uporabniki Wikija preberejo vaš dokument na Wikiju.
+
+Izberite Datoteka - Pošlji - Na MediaWiki, če želite prenesti trenutni dokument na strežnik MediaWiki.
+Sistemske zahteve
+Javansko izvajalno okolje JRE
+
+Račun Wiki na podprtem strežniku MediaWiki
+
+
+Nameščanje Wiki-izdajatelja
+Preden uporabite Wiki-izdajatelja, zagotovite, da %PRODUCTNAME uporablja izvajalno okolje Java (JRE). Če želite preveriti stanje JRE, izberite Orodja - Možnosti - %PRODUCTNAME - Java. Zagotovite, da je polje "Uporabi izvajalno okolje Java" potrjeno in da je v velikem seznamskem polju izbrana mapa izvajalnega okolja Java. Če ni izbrano nobeno izvajalno okolje JRE, potem aktivirajte JRE 1.4 ali novejše in ponovno zaženite %PRODUCTNAME.
+Povezava z Wikijem
+Opomba: Svoje uporabniško ime in geslo lahko shranite za vsa ustrezna pogovorna okna v %PRODUCTNAME. Geslo bo shranjeno na varen način, dostop pa ščiti glavno geslo. Če želite omogočiti glavno geslo, izberite Orodja - Možnosti - %PRODUCTNAME - Varnost.
+Opomba: Če se v splet povezujete prek posredovalnega strežnika, vnesite podatke o posredovalnem strežniku v Orodja - Možnosti - Internet - Posredovalni strežniki in ponovno zaženite program.
+Odprite dokument programa Writer in izberite Orodja - Možnosti - Internet - MediaWiki.
+
+V pogovornem oknu Možnosti kliknite Dodaj.
+
+V pogovornem oknu MediaWiki vnesite podatke o računu za Wiki.
+
+
+V polje z besedilom URL vnesite naslov wikija, s katerim se želite povezati.
+URL lahko kopirate iz spletnega brskalnika in ga prilepite v polje z besedilom.
+
+V polje Uporabniško ime vnesite svoje uporabniško ime za račun Wiki.
+Če Wiki dovoli anonimni dostop in pisanje, lahko pustite polji Uporabniško ime in Geslo prazni.
+
+V polje Geslo vnesite geslo svojega računa Wiki, nato kliknite V redu.
+
+
+Po potrebi potrdite "Shrani geslo", če želite shraniti geslo med sejami. Glavno geslo uporabljamo za ohranjanje dostopa do vseh shranjenih gesel. Izberite Orodja - Možnosti - %PRODUCTNAME - Varnost, če želite omogočiti glavno geslo. "Shrani geslo" ni na voljo, če glavno geslo ni omogočeno.
+Ustvarjanje nove strani wiki
+Odprite dokument programa Writer.
+
+Napišite vsebino wiki-strani. Uporabite lahko oblikovanje, kot so oblikovanje samega besedila, naslovi, sprotne opombe in druge. Oglejte si seznam podprtega oblikovanja.
+
+Izberite Datoteka - Pošlji - Na MediaWiki.
+
+V pogovornem oknu Pošlji na MediaWiki določite nastavitve za svoj vnos.
+
+
+Strežnik MediaWiki: Izberite Wiki.
+Naslov: Vnesite naslov svoje strani. Vnesite naslov obstoječe strani, če jo želite prepisati z vsebino trenutnega dokumenta z besedilom. Vnesite nov naslov, če želite ustvariti novo stran Wiki.
+Povzetek: Vnesite neobvezen kratek povzetek svoje strani.
+To je manjši popravek: Označite to polje, če želite označiti preneseno stran kot manjši popravek že obstoječe istoimenske strani.
+Pokaži v spletnem brskalniku: Označite to polje, če želite odpreti svoj spletni brskalnik in si v njem ogledati preneseno stran Wiki.
+Kliknite Pošlji.
+
+
+

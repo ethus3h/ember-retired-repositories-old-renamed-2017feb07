@@ -1,0 +1,1 @@
+Adiciona suporte ao Python, utilizando a "Scripting Framework", para ativar os scripts Python nas áreas do usuário, do sistema de uma instalação LibreOffice,  e de documentos carregados.

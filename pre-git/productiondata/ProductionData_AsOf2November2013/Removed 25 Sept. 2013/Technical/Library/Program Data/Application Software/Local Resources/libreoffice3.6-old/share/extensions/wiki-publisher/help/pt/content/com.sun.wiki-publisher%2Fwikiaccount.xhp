@@ -1,0 +1,15 @@
+
+MediaWiki
+Utilize a caixa de diálogo do MediaWiki para adicionar ou editar as definições da conta MediaWiki.
+
+Introduza o URL de um servidor MediaWiki, começando por http://
+
+Introduza o seu nome de utilizador no servidor MediaWiki. Deixe este campo em branco para aceder de forma anónima.
+
+Introduza a palavra-passe no servidor MediaWiki. Deixe este campo em branco para aceder de forma anónima.
+
+Ative para guardar a palavra-passe entre sessões. Para ver se a palavra-passe principal está ativa, veja Ferramentas - Opções - %PRODUCTNAME - Segurança.
+Indique o endereço do servidor Wiki. Por exemplo: http://wiki.documentfoundation.org ou copie o URL a partir do navegador web.
+Se o Wiki permitir o acesso anónimo, pode deixar as caixas de texto da conta em branco. Caso contrário, introduza o seu nome de utilizador e palavra-passe.
+Se ativou a opção Palavra-passe principal no separador Segurança da caixa de diálogo Ferramentas - Opções - %PRODUCTNAME, a aplicação pode armazenar a sua palavra-passe automaticamente e inseri-la sempre que necessário. Ative a opção "Guardar palavra-passe" para armazenar a palavra-passe.
+

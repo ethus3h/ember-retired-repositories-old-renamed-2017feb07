@@ -1,0 +1,7 @@
+Datrysydd ar gyfer Problemau Anlinol;Defnydd
+
+Defnydd
+Heb ystyried p'un a ydych yn defnyddio DEPS neu SCO, byddwch yn dechrau drwy fynd i Offer → Datrysydd a gosod y Gell i'w hoptimeiddio, y cyfeiriad (lleihau, mwyhau) a'r celloedd i'w haddasu i gyrraedd y nod. Yna byddwch yn mynd at y Dewisiadau a nodi'r Datrysydd i'w ddefnyddio ac os oes angen addasu'r paramedrau.
+Ceir hefyd restr o gyfyngiadau gallwch eu defnyddio i gyfyngu ar ystod o atebion posibl neu i gosbi amodau penodol. Fodd bynnag, yn achos y datryswyr esblygol DEPS a SCO, mae'r cyfyngiadau hyn yn cael eu defnyddio hefyd i nodi ffinio ar newidynnau'r broblem. Oherwydd natur hap yr algorithmau, mae'n cael ei argymell yn gryf i wneud hynny a rhoi ffin uchaf (ac yn achos "Tybio Newidynnau Negyddol" yn cael ei ddiffodd ar yr isaf). Nid oes rhaid bod yn agos i'r ateb go iawn (sydd yn ôl pob tebyg anhysbys), ond dylai rhoi arwydd bras o'r maint disgwyliedig (0 ≤ var ≤ 1 neu efallai -1000000 ≤ var ≤ 1000000).
+Mae terfynau yn cael eu pennu drwy ddewis un neu fwy o newidynnau (fel ystod) ar yr ochr chwith a chynnig gwerth rhifiadol (nid cell neu fformiwla) ar yr ochr dde. Os gwnewch hyn gallwch hefyd ddewis un neu fwy o newidynnau i fod yn Gyfanrif neu Ddeuaidd yn unig.
+

@@ -1,0 +1,1 @@
+Ondersteuning voor Python toevoegen via het Scripting Framework om de Python scripts te activeren in de gebruikers en share mappenfolders van een LibreOffice installatie, maar ook in geladen documenten.

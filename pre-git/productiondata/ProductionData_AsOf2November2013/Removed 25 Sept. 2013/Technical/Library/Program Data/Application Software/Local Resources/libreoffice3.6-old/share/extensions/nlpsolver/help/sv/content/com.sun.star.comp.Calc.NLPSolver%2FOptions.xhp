@@ -1,0 +1,96 @@
+Problemlösare för icke-linjära problem;Alternativ
+
+Allmänna alternativ
+Svärmens storlek
+
+... anger antalet deltagare i lärandeprocessen. Varje deltagare hittar sina egna lösningar och bidrar till den delade kunskapen.
+
+
+Lärandecykler
+
+... anger hur många upprepningar algoritmen ska göra. I varje upprepning presenterar deltagarna en gissning på den bästa lösningen och delar med sig av sin kunskap.
+
+
+Gissa variabelgränser
+
+Om aktiverat (standard), kommer algoritmen att försöka hitta lämpliga variabelgränser genom att titta på startvärdena.
+
+
+Tröskelvärde för variabelgränser
+
+När variabelgränser gissas specificerar detta tröskelvärde hur startvärdena förändras för att skapa gränserna. För ett exempel på hur dessa värden beräknas, besök manualen i wikin.
+
+
+Använd ACR-jämförare
+
+Om inaktiverad (standard), används BCH-jämföraren. Den jämför två individer genom att först titta på deras gränsöverträdelser och ifall dessa är lika, mäter deras aktuella lösning.
+Om aktiverad, används ACR-jämföraren. Den jämför två individer beroende på den aktuella iterationen och mäter deras godhet med kunnande om bibliotekets minst kända lösningar (med tanke på deras gränsöverträdelser).
+
+
+Använd slumpmässig startpunkt
+
+Om aktiverat så väljer biblioteket slumpmässigt valda punkter.
+Om inaktiverat så används de nuvarande värdena (inmatade av användaren) i biblioteket som referenspunkt.
+
+
+Stagnationsgräns
+
+Om det här antalet deltagare hittat lösningar inom ett litet område, stoppas upprepningarna och det bästa av dessa värden väljs som optimalt.
+
+
+Stagnationstolerans
+
+Definierar inom vilket område lösningar betraktas som "liknande".
+
+
+Visa avancerad status för problemlösaren
+
+Om aktiveratså visas en extra dialogruta under lösningsprocessen vilken ger information om den pågående processen, stagnationsnivån, den just nu bästa kända lösningen såväl som möjligheten att stoppa eller återuppta lösningsprocessen.
+
+
+
+DEPS-specifika alternativ
+Skiftfrekvens för agent
+
+Anger sannolikheten för att en individ ska välja Differential Evolution-strategin.
+
+
+DE: Sannolikhet för korsning
+
+... definierar sannolikheten att individen blir kombinerad med den globalt bästa punkten. Om korsning inte används sätts punkten samman utifrån individens eget minne.
+
+
+DE: Skalningsfaktor
+
+Under korsning anger skalningsfaktorn "hastigheten" för rörelsen.
+
+
+PS: Begränsningskoefficient
+
+... definierar hastigheten med vilken partiklar/individer rör sig mot varandra.
+
+
+PS: Kognitiv konstant
+
+... anger vikten av det egna minnet (speciellt den bästa uppnådda punkten hittills).
+
+
+PS: Social konstant
+
+... anger vikten av den globalt bästa punkten mellan alla individer/partiklar.
+
+
+PS: Sannolikhet för mutation
+
+... definierar sannolikheten som istället för att flytta en komponent av partikeln mot den bästa punkten slumpmässigt väljer ett nytt värde från det giltiga intervallet för den variabeln.
+
+
+
+SCO-specifika alternativ
+Bibliotekets storlek
+
+... anger informationsmängden som ska sparas i det publika biblioteket. Varje individ sparar kunskap där och frågar efter informationer.
+
+
+
+

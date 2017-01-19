@@ -1,0 +1,17 @@
+
+Küldés MediaWikire
+A Küldés MediaWikire párbeszédablakban adja meg az aktuális wikifeltöltés beállításait.
+
+Válassza ki a MediaWiki-kiszolgálót, ahol publikálni szeretné a dokumentumot. Ha a listába új kiszolgálót szeretne felvinni, kattintson a Hozzáadás gombra.
+
+Írja be a wikibejegyzés címét. Ez a wikibejegyzés fő címsora. Új bejegyzés esetén a címnek egyedinek kell lennie ezen a wikin. Ha létező címet ír be, a feltöltéssel felülírja a meglévő wikibejegyzést.
+
+Írja be az oldal rövid összefoglalását vagy egy megjegyzést. Lásd: http://meta.wikimedia.org/wiki/Help:Edit_summary.
+
+Ez egy kis módosítás: Ha a feltöltött dokumentum egy meglévő, ugyanilyen című oldal kis mértékű módosítása, jelölje be ezt a négyzetet.
+
+Megjelenítés a böngészőben: Ha bejelöli ezt a négyzetet, megnyílik a rendszer webböngészője, és megjeleníti a feltöltött wikioldalt.
+
+
+
+

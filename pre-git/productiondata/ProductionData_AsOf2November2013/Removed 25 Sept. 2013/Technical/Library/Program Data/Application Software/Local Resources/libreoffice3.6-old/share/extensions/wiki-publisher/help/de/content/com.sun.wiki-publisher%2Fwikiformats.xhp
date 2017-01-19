@@ -1,0 +1,31 @@
+
+MediaWiki-Formate
+Die folgende Liste gibt einen Überblick über die Textformate, die der Wiki Publisher auf einem Wiki-Server bereitstellen kann.
+Das OpenDocument-Format, welches von Writer benutzt wird, und das MediaWiki-Format sind recht unterschiedlich. Nur ein Teil der Formatierungen und Funktionen kann von einem in das andere Format überführt werden.
+Überschriften
+Weisen Sie den Überschriften in Writer entsprechende Überschriften-Absatzvorlagen zu. Im Wiki werden dann Überschriften der entsprechenden Gliederungsebene dargestellt. Die Formatierung erfolgt wie im WIki-System eingestellt.
+Hyperlinks
+OpenDocument-Hyperlinks werden in "externe" Wiki-Links umgewandelt. Deshalb sollten Links innerhalb von OpenDocument-Dateien nur verwendet werden, um auf Seiten außerhalb des Wiki-Servers zu verweisen. Um Wiki-Links zu erzeugen, die auf andere Seiten im gleichen Wiki verweisen, verwenden Sie Wiki-Links.
+Listen
+Listen können dann korrekt exportiert werden, wenn die komplette Liste eine einheitliche Listenvorlage verwendet. Benutzen Sie die Schaltfläche Nummerierung oder Aufzählungszeichen, um eine Liste in Writer zu erzeugen. Wenn Sie eine Liste ohne Nummerierung oder Aufzählungszeichen benötigen, wählen Sie Format - Nummerierung und Aufzählungszeichen..., um das gewünschte Listenformat zuzuweisen.
+Absätze
+Ausrichtung
+Explizite Textausrichtung sollte in Wikis nicht benutzt werden. Trotzdem werden die Ausrichtungen Links, Zentriert und Rechts unterstützt.
+Vorformatierter Text
+Eine Absatzvorlage mit nicht-proportionaler Schrift wird zu vorformatiertem Text konvertiert. Vorformatierter Text wird im Wiki mit einem Rahmen dargestellt.
+Zeichenformate
+Zeichenformate ändern das Aussehen von Teilbereichen eines Absatzes. Die Konvertierung unterstützt fett, kursiv, fett/kursiv, tiefgestellt und hochgestellt. Alle nicht-proportionalen Schriftarten werden im Wiki in den Schreibmaschinenstil umgewandelt.
+Fußnoten
+Hinweis: Die Konvertierung benutzt die neue Art von Fußnoten mit <ref> und <references> Tags, welche voraussetzt, dass die Cite.php-Extension im MediaWiki-Server installiert ist. Falls diese Tags als Text im Ergebnis der Konvertierung zu sehen sind, fragen Sie den Wiki-Administrator, ob diese Extension installiert werden kann.
+Grafiken
+Grafiken können von einer Konvertierung, die nur eine einzelne Wiki-Textdatei erzeugt nicht exportiert werden. Falls aber die Grafik bereits auf das Ziel-Wiki hochgeladen wurde (z.B. WikiMedia Commons), erzeugt die Konvertierung ein korrektes Grafik-Tag, um die Grafik einzubinden. Beschriftungen werden ebenfalls unterstützt.
+Tabellen
+Einfache Tabellen werden gut unterstützt.Tabellenköpfe werden in entsprechende Wiki-Format Tabellenköpfe konvertiert. Allerdings werden weiterreichende Formatierungen von Tabellenrändern, Spaltenbreiten und Hintergrundfarben ignoriert.
+Verbundene Zellen
+OpenDocument und vor allem LibreOffice stellt Tabellen mit verbundenen Zellen, die sich über mehrere Zeilen einer Tabelle erstrecken, wie verschachtelte Tabellen dar. Im Gegensatz dazu ist es beim Wiki-Modell einer Tabelle schwer zu erklären, wie sich Spalte und Zeile über solche verbundenen Zellen erstrecken.
+Sofern nur Zellen innerhalb der gleichen Zeile verbunden werden, entspricht das Konvertierungsergebnis weitgehend dem Original.
+Umrandung
+Unabhängig von benutzerdefinierten Tabellenstilen für Umrandung und Hintergrund, wird eine Tabelle immer als "prettytable" exportiert, die in der Wiki-Engine mit einfacher Umrandung und fetter Tabellenüberschrift dargestellt wird.
+Zeichensatz und Sonderzeichen
+Der Zeichensatz des Konvertierungsergebnisses ist auf UTF-8 festgelegt. In Abhängigkeit von Ihrem System ist das evtl. nicht der Standardzeichensatz. Das kann dazu führen, dass Sonderzeichen falsch dargestellt werden, wenn sie mit Standardeinstellungen angezeigt werden. Sie können aber Ihren Editor auf UTF-8 umstellen, um das Problem zu beheben. Falls Ihr Editor keine Zeichensatzumschaltung unterstützt, können Sie das Ergebnis der Konvertierung in Firefox anzeigen und dort den Zeichensatz auf UTF-8 stellen. Jetzt können Sie das Konvertierungsergebnis kopieren und in die Anwendung Ihrer Wahl einfügen.
+

@@ -1,0 +1,7 @@
+መፍትሄ ሰጪ ቀጥተኛ ላልሆኑችግሮች ፡ አጠቃቀም
+
+አጠቃቀም
+ለማንኛውም ይህን ከተጠቀሙ የ DEPS ወይንም SCO, እዚህ በመሄድ ይጀምሩ መሳሪያዎች → መፍትሄ ሰጪ እና አጥጋቢ ክፍሉን ማሰናጃ ፡ የሚሄድበት አቅጣጫ (ዝቅተኛ ፡ ከፍተኛ) እና የሚሻሻሉት ክፍሎች ግቡን እንዲመቱ ፡ ከዚያ ወደ ምርጫ ይሂዱ እና ይወስኑ መፍትሄ ሰጪውን ይጠቀሙ እንደሆን እንደ አስፈላጊነቱ ያስተካክሉ parameters.
+There is also a list of constraints you can use to restrict the possible range of solutions or to penalize certain conditions. However, in case of the evolutionary solvers DEPS and SCO, these constraints are also used to specify bounds on the variables of the problem. Due to the random nature of the algorithms, it is highly recommended to do so and give upper (and in case "Assume Non-Negative Variables" is turned off also lower) bounds for all variables. They don't have to be near the actual solution (which is probably unknown) but should give a rough indication of the expected size (0 ≤ var ≤ 1 or maybe -1000000 ≤ var ≤ 1000000).
+መዝለያ የሚወሰነው አንድ ወይንም ከዚያ በላይ ተለዋዋጮችን በመምረጥ ነው (እንደ መጠን) በግራ በኩል እና የቁጥር ዋጋ በማስገባት (ክፍሎች ወይንም formula አይደለም) በቀኝ በኩል ፡ ስለዚህ መምረጥ ይችላሉ አንድ ወይንም ከዚያ በላይ ተለዋዋጮችን ወደ Integer ወይንም Binary ብቻ
+

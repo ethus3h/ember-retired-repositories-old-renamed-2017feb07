@@ -1,0 +1,31 @@
+
+Format MediaWiki
+Daftar berikut adalah gambaran format teks yang dapat diunggah oleh Wiki Publisher ke server Wiki.
+Format OpenDocument yang digunakan oleh Writer dan format WikiMedia cukup berbeda. Hanya sebagian dari fitur yang dapat ditransformasikan dari satu format ke format yang lain.
+Tajuk
+Menerapkan gaya paragraf pada dokumen Writer Anda. Wiki akan menampilkan gaya tajuk dari tingkat susunan yang sama, sesuai format yang dipunyai oleh Wiki.
+Taut
+Taut natif OpenDocument akan diubah menjadi taut "eksternal" Wiki. Oleh karenanya, fasilitas taut bawaan OpenDocument harus digunakan untuk membuat taut yang menunjuk pada situs lain di luar web Wiki. Untuk menciptakan taut Wiki yang mengarah pada subjek lain pada domain Wiki yang sama, gunakan taut Wiki.
+Senarai
+Senarai atau daftar dapat diekspor dengan sangat baik apabila seluruh senarai menggunakan gaya yang konsisten. Pakailah Penomoran atau ikon Bulatan untuk menghasilkan sebuah senarai pada Writer. Apabila Anda memerlukan senarai tanpa penomoran atau bulatan, klik Format - Bulatan dan Penomoran untuk mendefinisikan dan menerapkan gaya senarai atau daftar yang Anda ingini.
+Paragraf
+Perataan
+Perataan teks secara eksplisit tidak seharusnya dipakai pada artikel Wiki. Hanya perataan kiri, tengah, dan kanan yang didukung.
+Teks praformat
+Gaya paragraf dengan lebar fonta yang tetap akan diubah sebagai teks praformat. Teks praformat pada Wiki ditunjukkan dengan bingkai di sekeliling teks.
+Gaya karakter
+Gaya karakter mengubah tampilan bagian dari paragraf. Gaya yang didukung adalah cetak tebal, miring, tebal/miring, subskrip, dan superskrip. Semua fonta berukuran tetap akan diubah ke gaya mesin ketik oleh Wiki.
+Catatan kaki
+Catatan: Transformasi menggunakan gaya baru dari catatan kaki dengan tag <ref> dan <references> yang memerlukan ekstensi Cite.php yang harus dipasang pada MediaWiki. Jika tag tersebut muncul sebagai teks biasa dalam hasil transformasi, tanyakan administrator Wiki untuk memasang ekstensi ini.
+Gambar
+Gambar tidak bisa diekspor sebagai berkas tunggal teks Wiki. Namun, jika gambar sudah diunggah pada domain Wiki yang dituju (mis. WikiMedia Commons), maka transformasi akan menghasilkan tag gambar yang benar yang menyertakan gambar. Keterangan gambar juga didukung.
+Tabel
+Tabel sederhana juga didukung. Tajuk tabel diterjemahkan menjadi tajuk tabel gaya Wiki. Namun, format tambahan dari bingkai tabel, ukuran kolom, dan warna latar belakang akan diabaikan.
+Sel Gabungan
+OpenDocument dan khususnya LibreOffice menyajikan tabel yang memiliki sel tergabung yang melingkupi beberapa baris sebagai tabel dengan tabel bersusun. Sebaliknya, model wiki dari tabel adalah dengan menyatakan cakupan kolom dan baris bagi sel tergabung tersebut. 
+Jika hanya kolom dari baris yang sama yang digabungkan, hasil dari transformasi mencerminkan sumber dokumen dengan baik.
+Bingkai
+Tanpa memandang gaya tabel gubahan bagi batas dan latar belakang, suatu tabel selalu diekspor sebagai "prettytable", yang merender di mesin Wiki dengan batas sederhana dan tajuk tebal.
+Set karakter dan karakter khusus
+Set karakter dari hasil transformasi selalu UTF-8. Tergantung dari sistem Anda, mungkin saja bukan set karakter yang baku. Hal ini mungkin menimbulkan "karakter khusus" tampak rusak ketika dilihat dengan pengaturan baku. Namun, Anda bisa mengganti penyunting Anda ke enkode UTF-8 untuk memperbaiki hal ini. Apabila penyunting Anda tidak mendukung perubahan enkode, Anda bisa menampilkan hasil dari transformasi pada penelusur Firefox dan ganti enkodenya menjadi UTF-8. Sekarang, Anda bisa melakukan operasi potong dan tempel hasil transformasi pada program pilihan Anda.
+

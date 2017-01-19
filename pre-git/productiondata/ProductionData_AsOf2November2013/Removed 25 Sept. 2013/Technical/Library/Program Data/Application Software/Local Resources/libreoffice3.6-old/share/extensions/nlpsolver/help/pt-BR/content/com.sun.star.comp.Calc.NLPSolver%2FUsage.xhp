@@ -1,0 +1,7 @@
+Solver para problemas não lineares;Utilização
+
+Utilização
+Independente da utilização do DEPS ou SCO, inicie em Ferramentas -> Solver e defina a célula a otimizar, o tipo (minimização ou maximização), e as células a modificar para atingir a meta. Depois, ative as Opções e especifique o solver a utilizar e, se necessário, ajuste de acordo com os parâmetros.
+Há também uma lista de restrições que pode ser utilizada para restringir o intervalo de soluções possíveis ou para penalizar algumas das condições. Todavia, no caso dos algoritmos evolucionários DEPS e SCO, essas restrições também serão usadas para especificar os limites das variáveis do problema. Devido à natureza aleatória dos algoritmos, é fortemente recomendado proceder desta maneira e fornecer os limites superiores das variáveis (e no caso em que "Assumir valores não negativos" estiver desmarcada, fornecer os valores dos limites inferiores). Não há necessidade que sejam próximos da solução atual (que provavelmente é desconhecida) mas deve dar uma indicação do tamanho esperado (0 ≤ var ≤ 1 ou talvez -1000000 ≤ var ≤ 1000000).
+Os limites são especificados ao selecionar uma ou mais variáveis (como num intervalo) no lado esquerdo e inserindo valores numéricos (não pode ser uma referência de célula nem uma fórmula) no lado direito. Desta forma pode-se escolher também se uma ou mais variáveis devem ser somente Inteiras ou Binárias.
+

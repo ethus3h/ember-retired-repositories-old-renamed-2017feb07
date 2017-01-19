@@ -1,0 +1,15 @@
+
+MediaWiki
+Použite dialógové okno MediaWiki pre pridanie alebo úpravu vašich nastavení MediaWiki.
+
+Zdajte URL servera MediaWiki, začínajúcu s http://
+
+Zadajte vaše používateľské meno pre server MediaWiki. Nechajte pole prázdne v prípade anonymného prístupu.
+
+Zadajte vaše heslo pre server MediaWiki. Nechajte pole prázdne v prípade anonymného prístupu.
+
+Zapnite ukladanie hesla medzi sedeniami. Hlavné heslo musí byť zapnuté. Pozrite sa na Nástroje - Možnosti - %PRODUCTNAME - Bezpečnosť.
+Zadajte internetovú adresu Wiki servera vo formáte ako http://wiki.documentfoundation.org alebo skopírujte URL z prehliadača.
+Ak Wiki dovoľuje anonymný prístup, môžete nechať textové polia účtu prázdne. V opačnom prípade zadajte vaše používateľské meno a heslo.
+Ak ste povolili hlavné heslo na záložke Bezpečnosť v dialógovom okne Nástroje - Možnosti - %PRODUCTNAME, tak program uchováva vaše heslá a automaticky ich podľa potreby vkladá, kam treba. Na ukladanie hesiel povoľte možnosť "Uložiť heslo",
+

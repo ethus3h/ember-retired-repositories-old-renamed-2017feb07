@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+rozšírenia;MediaWiki
+
+Wiki Publisher
+S použitím Wiki Publisher môžete odoslať váš aktuálny textový dokument na server MediaWiki. Po odoslaní môžu všetci používatelia wiki čítať váš dokument na Wiki.
+
+Pre odoslanie aktuálneho dokumentu Writer do MediaWiki zvoľte Súbor - Odoslať - Do MediaWiki.
+Systémové požiadavky
+Java Runtime Environment
+
+Wiki účet na podporovanom MediaWiki serveri
+
+
+Inštalujem Wiki Publisher
+Predtým ako použijete Wiki Publisher, sa uistite, že %PRODUCTNAME používa Java Runtime Environment (JRE).  Stav JRE overíte tak, že zvolíte Nástroje - Možnosti - %PRODUCTNAME - Java. Overte si, či je možnosť  "Použiť Java runtime environment" zaškrtnutá a či je v zozname vybratá niektorá verzia JRE. Ak žiadne JRE nie je aktivované, tak aktivujte JRE 1.4 alebo novšie a reštartujte %PRODUCTNAME.
+Pre pripojenie na Wiki
+Poznámka: Pre všetky príslušné dialógové okná si môžete uložiť vaše používateľské meno a heslo v %PRODUCTNAME. Heslo bude uložené bezpečným spôsobom, kde je prístup chránený hlavným heslom. Pre zapnutie hlavného hesla, zvoľte Nástroje - Možnosti - %PRODUCTNAME - Bezpečnosť.
+Poznámka: V prípade, že pre prístup k webu používate proxy server, zadajte informácie o proxy do Nástroje - Možnosti - Internet - Proxy a reštartuje softvér.
+Otvorte dokument Writer-a a zvoľte Nástroje - Možnosti - Internet - MediaWiki.
+
+V dialógovom okne Možnosti, kliknite na "Pridať".
+
+V dialógovom okne MediaWiki, zadajte informácie o účte pre Wiki.
+
+
+V textovom poli URL zadajte adresu Wiki, ku ktorému sa chcete pripojiť.
+Môžete kopírovať adresu URL z webového prehliadača a vložiť ju do textového poľa.
+
+V poli Používateľské meno zadajte vaše používateľské ID pre váš Wiki účet.
+V prípade, že Wiki dovoľuje anonymný prístup, môžete nechať polia Používateľské meno a Heslo prázdne.
+
+V poli Heslo zadajte heslo pre váš Wiki účet a potom kliknite na OK.
+
+
+Môžete taktiež zapnúť "Uložiť heslo" pre uloženie heslo medzi sedeniami. Pre prístup ku všetkým uloženým heslám sa používa hlavné heslo. Zvoľte Nástroje - Možnosti - %PRODUCTNAME - Bezpečnosť pre zapnutie hlavného hesla. Možnosť "Uložiť heslo" nie je dostupná v prípade, keď nie je zapnuté hlavné heslo.
+Pre vytvorenie novej Wiki Strany
+Otvorte dokument Writer-a.
+
+Napíšte obsah Wiki stránky. Môžete použiť rôzne formáty textu,  hlavičku, pätu a ďalšie.  Pozrite si zoznam podporovaných formátov.
+
+Zvoľte  Súbor - Odoslať - do MediaWiki.
+
+V dialógovom okne  Poslať do MediaWiki, zadajte nastavenia pre svoj text.
+
+
+MediaWiki server: Vyberte Wiki.
+Nadpis: Napíšte nadpis vašej strany. Napíšte nadpis už existujúcej strany pre prepísanie nadpisu strany s nadpisom vašeho aktuálneho textového dokumentu. Napíšte nový nadpis pre vytvorenie novej strany na Wiki. 
+Súhrn: Zadajte voliteľný stručný súhrn vašej strany.
+Toto je menšia úprava: Zakliknite toto pole pre označenie posielanej strany ako menšej úpravy už existujúcej strany s rovnakým nadpisom.
+Zobraziť vo webovom prehliadači: Zakliknite toto pole pre otvorenie vášho systémového prehliadača a zobrazenie posielanej Wiki strany.
+Kliknite na Odoslať.
+
+
+

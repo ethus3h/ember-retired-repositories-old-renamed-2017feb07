@@ -1,0 +1,15 @@
+
+MediaWiki
+A MediaWiki párbeszédablak használatával hozhatja létre, illetve szerkesztheti a MediaWiki-fiók beállításait.
+
+Írja be a MediaWiki-kiszolgáló URL-jét http:// előtaggal kezdve.
+
+Adja meg a MediaWiki-kiszolgálón használt felhasználónevét. Anonim hozzáférés esetén hagyja üresen a mezőt.
+
+Adja meg a MediaWiki-kiszolgálón használt jelszavát. Anonim hozzáférés esetén hagyja üresen a mezőt.
+
+Engedélyezze, ha tárolni akarja a jelszavát a munkamenetek között. A mesterjelszónak engedélyezve kell lennie, lásd: Eszközök - Beállítások - %PRODUCTNAME - Biztonság.
+Adja meg egy wikikiszolgáló internetcímét http://wiki.documentfoundation.org formában, vagy a webböngészőből másolja át az URL-t.
+Ha a wiki engedélyez anonim hozzáférést, akkor a fiók szövegmezőit üresen hagyhatja. Egyéb esetben adja meg a felhasználónevét és a jelszavát.
+Ha az Eszközök - Beállítások - %PRODUCTNAME párbeszédablak Biztonság panellapján engedélyezte a mesterjelszó funkciót, akkor a szoftver tárolni tudja a jelszavát, és automatikusan beilleszti az adatokat, ahová szükséges. A jelszó tárolásához jelölje be a „Jelszó mentése” jelölőnégyzetet.
+

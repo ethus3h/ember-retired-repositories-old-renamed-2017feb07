@@ -1,0 +1,31 @@
+
+Dhangiiwwan MiidiyaaWiki
+Tarreen armaan gadii dhangiiwwan barruu kaadimaa Wiki Publishertti olfe'amuu danda'anii agarsiisa.
+Dhangiin OpenDocument Barreessaa fi dhangiin WikiMiidiyaa garagarummaa guddaa qaba. Amaloota mara keessaa muraasa qofatu dhangii tokkoa irraa gara kaanitti dabarfamuu danda'a.
+Matadureewwan
+Matadureewwan galmee barreessaa kee keessatti haalata mataduree keewwataa fayyadami. Wikichi haalata mataduree sadarkaa walfakkaatuu fi dhangii injinii Wikichaan murtaayee agarsiisa.
+Geessituuwwan
+Geessituuwwan OpenDocument gara geessituuwwan "alaa" Wikitti muuxatu. Kanaafuu, mijatni geessituu waljaartuu OpenDocument geessituuwwan gara fuulota Wikin alatti xiyyeeffatan qofaaf fayyaduu qaba. Geessituuwwan Wiki dhimmoota Wiki qayee walfakkaaataniitti xiyyeeffatan uumuuf geessituuwwan Wiki fayyadami.
+Tarreewwan
+Tarree marti yoo haalata tarree walsimaa fayyadamaniiru ta'e tarreewwan haala amansiisaa ta'een alergamuu danda'u. Barreessaa keessatti tarree uumuuf sajoo Lakkaawwii ykn Rasaasaa kana fayyadami. Yoo tarree lakkaawwii ykn rasaasa malee feete, haalata tarree fayyadamtuu Dhangii - Rasaasaa fi Lakkaawwii gargaaramuun murteessi.
+Keewwatoota
+Hiriira
+Barreeffamoota Wiki keessatti hirirri barruu ifatti faayidarra ooluu hin qabu. Ta'uyyuu, hirirri barruu bitaa, wiirtahaa, fi mirgaa ni deeggarama.
+Barruu dura-dhangifame
+Haalatni keewwataa bocquu yabbina-dhaabbataa qbauu gara barruu dura-dhangifameetti muxata. Barruun dura-dhangifame Wikirratti barruu naannoonsaa handaara qabu ta'ee mul'ifama.
+Haalatoota arfiilee
+Haalatootni arfii danaa gamisa keewwataa jijjiiru. Muxachuun kuni yabbuu, migada, yabbuu/mirgada, jalarfii fi irrarfii ni deeggara. Bocquuwwan yabbina-dhaabbataa marti gara haalata Wiki typewriter tti muuxatu.
+Miiljaleewwan
+Yaadadhu: Muaxachuun haalata haaraa miiljaleewwanii iyyaatoo <ref> fi <references> waliin fayyadamu dheertoon Cite.php akka MiidiyaaWiki keessatti qidaawu barbaada. Yoo iyyaatowwan kanneen bu'aa muxataa keessatti akka barquutti mul'atan, bulchaan Wikichaa akka dheertoo kana akka qindeessu gaafadhu.
+Calaqqeewwan
+Calaqqeewwan muxata faayilii tokko umuun gara barruu Wiki ala-hin-ergaman. Haata'u malee, yoo caliqqichi durumayyuu gara galtee qeyee Wikichaa (fkn. WikiMedia Commons) olfe'ameera ta'e, muxatichi iyyaatoo calaqqee sirrii kan calqqicha of keessaa qabu uuma. Goodayyaawwan calaqqees ni deeggaramu.
+Gabateewwan
+Gabateewwan sasalphoon haalan deeggaramu. Matadureewwan gabatee gara haalata matadureewwn Wiki walfakkaataniitti geeddaramu. Haata'u malee, dhangiin maamiloo handaara gabatee, hammaamtaan tarjaa fi halluun dubbee ni tuffatamu.
+Man'eewwan Walqabatan
+OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. 
+Yoo tarjaaleen tarree walfakkaatanii qofti walqabatan, bu'aan muxataa madda galmee sirriitti fakkaata.
+Handaarota
+Irrespective of custom table styles for border and background, a table is always exported as "prettytable", which renders in the Wiki engine with simple borders and bold header.
+Taattoowwanii fi arfiilee addayyaa
+Gurmuun arfii bu'aa muxataa UTF-8 akka ta'utti mutaa'eera. Sirna keetirratti hundaa'uun, gurmuun arfii kun durtii kee ta'uu baachuu danda'a. Kun immoo "arfiilee addayyaa" kan ciccitan fakkaatanii akka mul'atan gochuu mala. Haa ta'u malee, gulaalaa barruu kee akka UTF-8 fayyadamu gochuu dandeessa. Yoo gulaalaan barruu kee UTF-8tti jijjiiruu hin deeggaru ta'e, muxaticha arguuf iyyaafataa firefox keessatti banuun achumatti jijjiiruu dandeessa. Kana booda, bu'aa muxatichaa murtee sagantaa barbaadde keessatti maxxansuu dandeessa.
+

@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+Bằng cách sử dụng Wiki Publisher, bạn có thể tải tài liệu văn bản Writer hiện tại lên một máy chủ MediaWiki. Sau khi tải lên thì mọi người dùng Wiki đều có thể đọc tài liệu của bạn trên Wiki đó.
+
+Chọn Tập tin > Gửi > Cho MediaWiki để tải tài liệu hiện tại lên một máy chủ  MediaWiki.
+Yêu cầu Hệ thống
+Môi trường chạy Java
+
+Một tài khoản Wiki trên một máy chủ MediaWiki được hỗ trợ.
+
+
+Cài đặt Wiki Publisher
+Trước khi sử dụng Wiki Publisher, đảm bảo rằng %PRODUCTNAME sử dụng Java Runtime Environment (JRE). Để kiểm tra trạng thái của JRE, chọn Công cụ - Tùy chọn- %PRODUCTNAME - Java. Đảm bảo rằng đã chọn "Sử dụng môi trường chạy Java" và thư mục chạy Java được chọn trong danh sách mẹ. Nếu JRE chưa được kích hoạt, hãy kích hoạt JRE phiên bản mới hơn 1.4 và khởi động lại %PRODUCTNAME.
+Kết nối tới một Wiki
+Ghi chú : bạn có thể lưu lại tên người dùng và mật khẩu cho tất cả các hộp thoại tương ứng bên trong StarOffice/OpenOffice.org. Mật khẩu sẽ được cất giữ bằng một cách bảo mật, truy cập được bảo vệ bằng một mật khẩu chủ. Để bật mật khẩu chủ, chọn mục trình đơn Công cụ > Tùy chọn > StarOffice/OpenOffice.org > Bảo mật.
+Ghi chú : nếu bạn kết nối tới Web qua máy phục vụ ủy nhiệm, nhập thông tin về máy phục vụ ủy nhiệm dưới Công cụ > Tùy chọn > Internet > Ủy nhiệm, sau đó khởi chạy lại phần mềm.
+Mở một tài liệu Writer, sau đó chọn mục trình đơn Công cụ - Tùy chọn - Internet -> MediaWiki.
+
+Trong Tùy chọn, nhấn Thêm
+
+Trong MediaWiki, nhập thông tin tài khoản Wiki.
+
+
+Trong hộp văn bản URL, gõ địa chỉ của một Wiki tới đó bạn muốn kết nối.
+Bạn cũng có thể sao chép địa chỉ URL từ trình duyệt Web, sau đó dán nó vào hộp văn bản.
+
+Trong hộp Tên người dùng, gõ tên người dùng của tài khoản Wiki của bạn.
+Nếu Wiki cho phép truy cập ghi nặc danh, bạn có thể bỏ trống hai hộp Tên người dùng và Mật khẩu.
+
+Trong hộp Mật khẩu, gõ mật khẩu của tài khoản Wiki của bạn, sau đó bấm nút OK.
+
+
+Bạn cũng có thể bật tùy chọn "Lưu mật khẩu" để lưu lại mật khẩu giữa hai buổi đăng nhập. Một mật khẩu chủ được sử dụng để điều khiển truy cập vào các mật khẩu đã lưu. Chọn mục trình đơn Công cụ > Tùy chọn > StarOffice/OpenOffice.org > Bảo mật để bật mật khẩu chủ. Không bật mật khẩu chủ thì không thể sử dụng tùy chọn "Lưu mật khẩu" này.
+Tạo một trang Wiki mới
+Mở một tài liệu Writer.
+
+Viết nội dung của trang Wiki. Bạn có thể dùng định dạng text, heading, footer vv... Xem danh sách định dạng được hỗ trơ.
+
+Chọn mục trình đơn Tập tin > Gửi > Cho MediaWiki.
+
+Trong Gửi tới MediaWiki, chỉ định thiết lập của bạn.
+
+
+Máy phục vụ MediaWiki: chọn Wiki.
+Tựa đề: gõ tựa đề của bài của bạn. Gõ tựa đề của một trang đã có, để ghi đề lên nó bằng tài liệu văn bản hiện tại. Gõ một tựa đề mới để tạo một trang mới trong Wiki.
+Tóm tắt: (tùy chọn) tóm tắt trang của bạn.
+Sửa đổi nhỏ : bật tùy chọn này để ngụ ý trang được tải lên chỉ sửa đổi một ít trang đã có cùng tên.
+Hiện trong trình duyệt Web: bật tùy chọn này để mở trình duyệt Web trên máy của bạn và hiển thị trang Wiki vừa mới tải lên.
+Bấm nút Gửi.
+
+
+

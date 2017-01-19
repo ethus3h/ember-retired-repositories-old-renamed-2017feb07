@@ -1,0 +1,96 @@
+dBWP‖Solver for Nonlinear Problems;Options
+
+gskT‖General Options
+RAfA‖Size of Swarm
+
+oHEG‖… defines the number of individuals to participate in the learning process. Each individual finds its own solutions and contributes to the overall knowledge.
+
+
+k3pr‖Learning Cycles
+
+FyPs‖… defines the number of iterations, the algorithm should take. In each iteration, all individuals make a guess on the best solution and share their knowledge.
+
+
+yNQK‖Variable Bounds Guessing
+
+r#6e‖If enabled (default), the algorithm tries to find variable bounds by looking at the starting values.
+
+
+f9X5‖Variable Bounds Threshold
+
+WRoS‖When guessing variable bounds, this threshold specifies, how the initial values are shifted to build the bounds. For an example how these values are calculated, please refer to the Manual in the Wiki.
+
+
+g0g2‖Use ACR Comparator
+
+XjiS‖If disabled (default), the BCH Comparator is used. It compares two individuals by first looking at their constraint violations and only if those are equal, it measures their current solution.
+zX4K‖If enabled, the ACR Comparator is used. It compares two individuals dependent on the current iteration and measures their goodness with knowledge about the libraries worst known solutions (in regard to their constraint violations).
+
+
+eXge‖Use Random Starting Point
+
+#eFJ‖If enabled, the library is simply filled up with randomly chosen points.
+S0xw‖If disabled, the currently present values (as given by the user) are inserted in the library as reference point.
+
+
+jZU4‖Stagnation Limit
+
+nmYr‖If this number of individuals found solutions within a close range, the iteration is stopped and the best of these values is chosen as optimal.
+
+
+sC2A‖Stagnation Tolerance
+
+j9bT‖Defines in what range solutions are considered “similar”.
+
+
+5w9g‖Show Enhanced Solver Status
+
+iXkm‖If enabled, an additional dialog is shown during the solving process which gives informations about the current progress, the level of stagnation, the currently best known solution as well as the possibility, to stop or resume the solver.
+
+
+
+fRgp‖DEPS-specific Options
+ewAY‖Agent Switch Rate
+
+GldP‖Specifies the probability for an individual to choose the Differential Evolution strategy.
+
+
+x6ek‖DE: Crossover Probability
+
+Fdvy‖… defines the probability of the individual being combined with the globally best point. If crossover is not used, the point is assembled from the own memory of the individual.
+
+
+rUf7‖DE: Scaling Factor
+
+CoMT‖During crossover, the scaling factor decides about the “speed” of movement.
+
+
+mtAM‖PS: Constriction Coefficient
+
+dKLB‖… defines the speed at which the particles/individuals move towards each other.
+
+
+DOix‖PS: Cognitive Constant
+
+Y_7H‖… sets the importance of the own memory (in particular the best reached point so far).
+
+
+yCwU‖PS: Social Constant
+
+O6Ng‖… sets the importance of the global best point between all particles/individuals.
+
+
+dMa0‖PS: Mutation Probability
+
+73qb‖… defines the probability, that instead of moving a component of the particle towards the best point, it randomly chooses a new value from the valid range for that variable.
+
+
+
+2mNG‖SCO-specific Options
+k1FN‖Size of Library
+
+yzmR‖… defines the amount of informations to store in the public library. Each individual stores knowledge there and asks for informations.
+
+
+
+

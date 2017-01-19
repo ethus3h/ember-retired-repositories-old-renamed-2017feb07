@@ -1,0 +1,1 @@
+A extensión "Import PDF" permite importar e modificar documentos PDF. Obtéñense os mellores resultados ao utilizar o formato híbrido "PDF/ODF", que esta extensión tamén activa. Un ficheiro híbrido "PDF/ODF", é un ficheiro PDF que contén en si mesmo o documento orixe en formato ODF. Os ficheiros híbridos PDF/ODF, abriranse na LibreOffice sen ningunha alteración no deseño.

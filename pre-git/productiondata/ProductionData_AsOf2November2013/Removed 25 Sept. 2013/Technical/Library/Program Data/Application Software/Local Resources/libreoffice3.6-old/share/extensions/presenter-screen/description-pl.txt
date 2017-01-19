@@ -1,0 +1,2 @@
+Rozszerzenie Konsola Prezentera zapewnia większą kontrolę nad prezentacją pokazu slajdów, takich jak zdolność widzenia następnych slajdów, notatek slajdów i czasu prezentacji, podczas gdy na widowni widzą tylko bieżący slajd.
+Aby uniknąć nieporozumień, wyświetlając wiele elementów prezentacji Konsola Prezentera wyświetla elementy na trzy różne widoki można łatwo zmieniać.

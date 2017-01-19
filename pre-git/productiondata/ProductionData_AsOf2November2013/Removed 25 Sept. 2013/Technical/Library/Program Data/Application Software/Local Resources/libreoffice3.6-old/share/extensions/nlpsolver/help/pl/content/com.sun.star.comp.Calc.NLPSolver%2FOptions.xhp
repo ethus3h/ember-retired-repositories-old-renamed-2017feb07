@@ -1,0 +1,96 @@
+Solver dla nieliniowych problemów;Opcje
+
+Opcje ogólne
+Wielkość roju
+
+... określa liczbę jednostek biorących udział w procesie uczenia. Każda jednostka szuka rozwiązania samej siebie i uzupełnia ogólny stan wiedzy.
+
+
+Cykle uczenia się
+
+... określa liczbę iteracji które algorytm powinien podjąć. W każdej iteracji, wszystkie jednostki szacują najlepsze rozwiązanie i udostępniają swoją wiedzę.
+
+
+Zmienne granice szacowania
+
+Jeśli włączone (domyślnie), algorytm podejmie próbę odnalezienia zmiennych granic, zaczynając od wartości początkowych.
+
+
+Próg zmiennych granic
+
+W trakcie szacowania zmiennych granic, próg ten, określa jak wartości są przesunięte do tworzenia granic. Przykłady sposobu w jaki te wartości są obliczane można znaleźć w Instrukcji w Wiki.
+
+
+Użyj komparatora ACR
+
+Jeśli wyłączone (domyślnie), używany jest komparator BCH. Porównuje dwie jednostki najpierw poszukując naruszeń ich ograniczeń i tylko, jeśli są równe, dokonuje pomiaru aktualnego rozwiązania.
+Jeśli włączone, używany jest komparator ACR. Porównuje dwie jednostki zależne od aktualnej iteracji i dokonuje pomiaru ich zgodności, korzystając z bibliotek najgorszych znanych rozwiązań (w odniesieniu do naruszeń ich ograniczeń).
+
+
+Użyj losowego punku początkowego
+
+Jeśli włączone, biblioteka jest zwyczajnie wypełniana losowymi punktami.
+Jeśli wyłączone, aktualne wartości (podane przez użytkownika) są wstawiane do biblioteki jako punkt odniesienia.
+
+
+Granica stagnacji
+
+Jeśli ta liczba jednostek odnajdzie rozwiązanie w zamkniętym zakresie, iteracja zostanie zatrzymana i najlepsza z wartości zostanie wybrana jako optymalna.
+
+
+Tolerancja stagnacji
+
+Określa w jakim zakresie rozwiązania są rozpatrywane jako “podobne”.
+
+
+Wyświetl rozszerzony status Solvera
+
+Jeśli włączone, wyświetlane będzie dodatkowe okno w trakcie procesu rozwiązywania problemu, wyświetlające informacje o postępie, stopniu stagnacji, aktualnym najlepszym rozwiązaniu, oraz umożliwiające wstrzymanie i wznowienie solvera.
+
+
+
+Opcje związane z DEPS
+Wskaźnik przełączania agenta
+
+Określa prawdopodobieństwo, że jednostka wybierze strategię ewolucji różnicowej.
+
+
+DE: Prawdopodobieństwo podziału
+
+... określa prawdopodobieństwo, że jednostka połączy się z globalnym najlepszym punktem. Jeśli podział nie jest używany, punkt zostanie złożony z pamięci własnej jednostki.
+
+
+DE: Współczynnik skalowania
+
+W trakcie podziału, współczynnik podziału decyduje o “szybkości” przesunięcia.
+
+
+PS: Współczynnik zawężania
+
+... określą szybkość z jaką cząsteczki/jednostki zbliżają się do siebie.
+
+
+PS: Stała poznawcza
+
+... ustawia znaczenia własnej pamięci (w szczególności najlepszy dotychczas osiągnięty punkt).
+
+
+PS: Stała społeczna
+
+... ustawia znaczenie globalnego najlepszego punktu pomiędzy wszystkimi cząsteczkami/jednostkami.
+
+
+PS: Prawdopodobieństwo mutacji
+
+... określa prawdopodobieństwo, że zamiast przeniesienia składnika cząsteczki w stronę najlepszego punktu, wybierze on losową nową wartość z poprawnego zakresu tej zmiennej.
+
+
+
+Opcje specyficzne dla SCO
+Wielkość biblioteki
+
+... określa liczbę informacji przechowywanych w bibliotece publicznej. Każda jednostka zachowuje swoją wiedzę w tej bibliotece i wysyła zapytania o informacje.
+
+
+
+

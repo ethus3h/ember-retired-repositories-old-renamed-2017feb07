@@ -1,0 +1,96 @@
+Mittelineaarsete probleemide lahendaja; sätted
+
+Üldised sätted
+Sülemi suurus
+
+Määrab õppimisprotsessis osalevate indiviidide arvu. Iga indiviid leiab omaenda lahendused ja panustab üldisesse teadmusse.
+
+
+Õppimistsüklite arv
+
+Määrab iteratsioonide arvu, mille algoritm peaks võtma. Iga iteratsiooniga teevad kõik indiviidid parima lahenduse oletuse ja jagavad oma teadmisi.
+
+
+Muutujapiiride oletamine
+
+Märkimisel (vaikimisi) üritab algoritm muutujapiire leida algusväärtusi vaadates.
+
+
+Muutujapiiride lävi
+
+See lävi määrab muutujapiiride oletamisel, kuidas algseid väärtusi piiride ehitamiseks nihutatakse. Näide nende väärtuste arvutamisest leidub wikis olevas käsiraamatus.
+
+
+ACR komparaatori kasutamine
+
+Kui see on välja lülitatud (vaikimisi), kasutatakse BCH komparaatorit. See võrdleb kaht indiviidi vaadates esmalt nendepoolseid piirangute rikkumisi ja ainult siis, kui nood on võrdsed, mõõdab indiviidide hetkelist lahendust.
+Kui see on sisse lülitatud, kasutatakse ACR komparaatorit. See võrdleb kaht indiviidi sõltuvalt käimasolevast iteratsioonist ja mõõdab nende headust teadmistega teekide kõige halvemini teadaolevate lahenduste kohta (nendepoolsete piirangurikkumiste suhtes).
+
+
+Juhusliku alguspunkti kasutamine
+
+Kui see on sisse lülitatud, siis täidetakse teek lihtsalt juhuslikult valitud punktidega.
+Kui see on välja lülitatud, siis sisestatakse teeki viitepunktina parajasti olemasolevad väärtused (nagu kasutaja need andis).
+
+
+Seisakuraja
+
+Kui siin määratud arv indiviide leiab lähedased lahendused, siis iteratsioon peatatakse ja parim neist väärtustest valitakse välja kui optimaalne.
+
+
+Seisakutolerants
+
+Määrab, mis vahemikus lahendusi peetakse "sarnasteks".
+
+
+Lahendaja täiendatud oleku kuvamine
+
+Märkimisel näidatakse lahendamisprotsessi ajal lisadialoogi, mis kuvab edenemist, seisakutaset ja parimat hetkel teadaolevat lahendust ning võimaldab lahendamist peatada või jätkata.
+
+
+
+DEPSi-spetsiifilised sätted
+Agentide lülituskiirus
+
+Määrab indiviidi tõenäosuse valida diferentsiaalse evolutsiooni (DE) strateegia.
+
+
+DE: ristumistõenäosus
+
+Määrab indiviidi tõenäosuse kombineeruda globaalse parima punktiga. Kui ristumist ei kasutata, koostatakse punkt indiviidi enda mälust.
+
+
+DE: skaleerimistegur
+
+Ristumise ajal otsustab skaleerimistegur liikumise "kiiruse" üle.
+
+
+PS: ahenemiskoefitsient
+
+Määrab kiiruse, millega osakesed/indiviidid üksteise poole liiguvad.
+
+
+PS: kognitiivsuskonstant
+
+Määrab oma mälu (eriti seni saavutatud parima punkti) tähtsuse.
+
+
+PS: sotsiaalkonstant
+
+Määrab kõigi osakeste/indiviidide vahelise globaalse parima punkti tähtsuse.
+
+
+PS: mutatsioonitõenäosus
+
+Määrab tõenäosuse, et komponendi parimas suunas liigutamise asemel valib osake juhuslikult uue väärtuse selle muutuja jaoks kehtivates piirides.
+
+
+
+SCO-spetsiifilised sätted
+Teegi suurus
+
+Määrab avalikus teegis hoitavate infoühikute arvu. Iga indiviid salvestab sinna teadmust ja küsib sealt infoühikuid.
+
+
+
+

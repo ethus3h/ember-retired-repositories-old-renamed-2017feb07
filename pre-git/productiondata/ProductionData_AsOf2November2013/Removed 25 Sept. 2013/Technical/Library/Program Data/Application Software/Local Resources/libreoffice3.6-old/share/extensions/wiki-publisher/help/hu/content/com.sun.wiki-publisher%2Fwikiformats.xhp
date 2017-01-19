@@ -1,0 +1,31 @@
+
+MediaWiki formátumok
+Az alábbi lista áttekintést ad azokról a szöveges formátumokról, amelyeket a Wiki Publisher fel tud tölteni a wikikiszolgálóra.
+A Writer által használt OpenDocument formátum és a WikiMedia formátum igen különböző. A formázási lehetőségeknek csak egy része alakítható át egyik formátumból a másikba.
+Címsorok
+Alkalmazzon címsor-bekezdésstílusokat a Writer-dokumentum címsoraihoz. A Wiki a címsorstílusokat ugyanazon a vázlatszinten jeleníti meg a Wiki megjelenítőmotorja által meghatározott formázással.
+Hiperhivatkozások
+A natív OpenDocument-hiperhivatkozások „külső” wikihivatkozásokká alakulnak át. Ezért az OpenDocument beépített hivatkozásait csak a wikiweben kívülre mutató hivatkozások létrehozására lehet használni. A wikitartományon belüli célokra mutató hivatkozások létrehozásához használjon wikihivatkozásokat.
+Listák
+A listák megbízhatóan exportálhatók, ha az egész lista egységes listastílust használ. A Writerben lista létrehozásához használja a Számozás vagy a Felsorolás ikont. Ha számozás vagy felsorolásjel nélküli listára van szüksége, használja a Formátum - Felsorolás és számozás menüparancsot a kívánt listastílus definiálásához és alkalmazásához.
+Bekezdések
+Igazítás
+Explicit szövegigazítás nem használható a wikicikkekben. Ennek ellenére, a balra, középre és jobbra igazított szöveg támogatva van.
+Előformázott szöveg
+A rögzített szélességű karaktereket használó bekezdésstílusok előformázott szöveggé alakulnak át. Az előformázott szöveg a wikiben egy keretben jelenik meg.
+Karakterstílusok
+A karakterstílusok a bekezdés részeinek megjelenését módosítják. Az átalakítás támogatja a félkövér, dőlt, félkövér és dőlt, alsó és felső index stílusokat. Minden rögzített szélességű betű a wiki typewriter (írógép) stílusává alakul át.
+Lábjegyzetek
+Megjegyzés: Az átalakítás a lábjegyzetek új stílusát használja a <ref> és <references> kódokkal, amihez a MediaWikire telepíteni kell a Cite.php kiterjesztést. Ha az átalakítás után ezek a kódok egyszerű szövegként jelennek meg, kérje meg a wikiadminisztrátort, hogy telepítse ezt a kiterjesztést.
+Képek
+A képek nem exportálhatók olyan átalakítással, amelynek eredménye egyetlen, wikiszöveget tartalmazó fájl. Mindazonáltal, ha a kép már fel van töltve a cél-wikitartományra (például WikiMedia Commons), akkor az átalakítás a képet tartalmazó érvényes képhivatkozást hoz létre. A képfeliratok is támogatva vannak.
+Táblázatok
+Az egyszerű táblázatokat a rendszer támogatja. A táblázatfejléceket a megfelelő wikistílusú táblázatfejlécekké alakulnak át. Mindazonáltal az egyedien formázott táblázatszegélyeket, oszlopméreteket és háttérszíneket a szoftver figyelmen kívül hagyja.
+Egyesített cellák
+Az OpenDocument és különösen a LibreOffice a több soron átnyúló egyesített cellákat tartalmazó táblázatokat beágyazott táblázatot tartalmazó táblázatként reprezentálja. Ezzel szemben a wiki táblázatmodellje az egyesített cellákat átnyúló oszlopokkal és sorokkal határozza meg. 
+Ha ugyanabban a sorban van több oszlop egyesítve, akkor az átalakított táblázat igen jól adja vissza az eredetit.
+Szegélyek
+A szegélyre és a háttérre vonatkozó egyedi táblázatstílustól függetlenül a táblázat mindig „prettytable”-ként exportálódik, amelyet a wiki megjelenítőmotorja egyszerű szegélyekkel és félkövér fejléccel jelenik meg.
+Karakterkészlet és különleges karakterek
+Az átalakított dokumentum karakterkódolása mindig UTF-8. A rendszertől függően nem biztos, hogy ez az alapértelmezett karakterkódolás. Ezért a „különleges karakterek” az alapértelmezett beállításokkal hibásan jelenhetnek meg. Mindemellett a szövegszerkesztő átkapcsolható UTF-8 kódolásra, így a probléma megoldódik. Ha a szerkesztő nem támogatja a kódolás átkapcsolását, az átalakítás eredménye megjeleníthető Firefox böngészőben, és a kódolás ott UTF-8 lesz. Ezután az átalakítás eredménye átmásolható egy tetszőleges programba.
+

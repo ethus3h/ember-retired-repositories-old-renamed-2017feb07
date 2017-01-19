@@ -1,0 +1,96 @@
+Nelineāru uzdevumu risinātājs;Opcijas
+
+Vispārīgas opcijas
+Spieta izmērs
+
+… definē indivīdu skaitu, kas piedalās mācīšanās procesā. Katrs indivīds atrod savu risinājumu un to dod kopīgajām zināšanām.
+
+
+Mācīšanās cikli
+
+… definē iterāciju skaitu, kas jāveic algoritmam. Katrā iterācijā visi indivīdi min, kāds varētu būt labākais risinājums, un dalās ar savām zināšanām.
+
+
+Mainīgā robežu minēšana
+
+Ja aktivēts (noklusējums), algoritms mēģina atrast mainīgo robežas, apskatot sākuma vērtības.
+
+
+Mainīgā robežu slieksnis
+
+Kad min mainīgā robežas, šis slieksnis norāda, kā sākotnējās vērtības tiek nobīdītas, lai izveidotu robežas. Lai redzētu, kā šīs vērtības tiek aprēķinātas, apskatiet rokasgrāmatu viki lapās.
+
+
+Lietot ACR komparatoru
+
+Ja deaktivēts (noklusējums), tiek lietots BCH komparators. Tas salīdzina divus indivīdus, vispirms apskatot to ierobežojumu pārkāpumus un tikai tad, ja tie ir vienādi, izmēra to pašreizējos risinājumus.
+Ja aktivēts, tiks lietots ACR komparators. Tas salīdzina divus indivīdus atkarībā no pašreizējās iterācijas un mēra to labumu, ar zināšanām par bibliotēkai sliktāko zināmo risinājumu (attiecībā pret to ierobežojumu pārkāpumiem).
+
+
+Lietot nejaušu sākuma punktu
+
+Ja aktivēts, bibliotēka tiek vienkārši aizpildīta ar nejauši izvēlētiem punktiem.
+Ja deaktivēts, pašlaik esošās vērtības (kādas ir norādījis lietotājs) tiek ievietotas bibliotēkā kā atskaites punkti.
+
+
+Stagnācijas limits
+
+Ja šāds indivīdu skaits ir atradis risinājumu tuvā diapazonā, iterācija tiek apturēta un labākā no šīm vērtībām tiek izvēlēta kā optimālā.
+
+
+Stagnācijas tolerance
+
+Definē, kāda apgabala risinājumi tiek uzskatīti par līdzīgiem.
+
+
+Rādīt uzlabotu risinātāja statusu
+
+Ja aktivēts, risināšanas laikā tiek rādīti papildu dialogi, kas dod informāciju par pašreizējo progresu, stagnācijas līmeni, pašlaik labāko zināmo risinājumu, kā arī varbūtību, lai apturētu vai turpinātu risinātāju.
+
+
+
+DEPS specifiskas opcijas
+Aģenta pārslēgšanas biežums
+
+Norāda varbūtību indivīdam izvēlēties diferencētu evolūcijas stratēģiju.
+
+
+DE: pārejas varbūtība
+
+… definē varbūtību, ka indivīds tiks apvienots ar globāli labāko punktu. Ja pāreja netiek izmantots, punkts tiek salikts no paša indivīda atmiņas.
+
+
+DE: mērogošanas koeficients
+
+Parejas laikā mērogošanas koeficients nosaka kustības ātrumu.
+
+
+PS: sašaurināšanās koeficients
+
+… definē ātrumu, kādā daļiņas/indivīdi kustās viens otra virzienā.
+
+
+PS: kognitīvā konstante
+
+… iestata paša atmiņas svarīgumu (precīzāk — tik tālu labāko sasniegto punktu).
+
+
+PS: sociālā konstante
+
+… iestata globālā labākā punkta starp visām daļiņām/indivīdiem svarīgumu.
+
+
+PS: mutācijas varbūtība
+
+… definē varbūtību, ka tā vietā, lai pārvietotu daļiņas komponenti uz labāko punktu, tā nejauši izvēlas jaunu vērtību no derīga apgabala šim mainīgajam.
+
+
+
+SCO specifiskas opcijas
+Bibliotēkas izmērs
+
+… definē informācijas apjomu, ko glabāt publiskajā bibliotēkā. Katrs indivīds glabā tur glabā zināšanas un tur prasa informāciju.
+
+
+
+

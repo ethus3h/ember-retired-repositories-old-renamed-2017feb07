@@ -1,0 +1,17 @@
+
+Enviar para o MediaWiki
+Na caixa de diálogo Enviar para o MediaWiki, especifique as definições do envio para o Wiki.
+
+Selecione o servidor MediaWiki onde pretende publicar o documento. Clique em Adicionar para adicionar um novo servidor à lista.
+
+Indique o título da entrada Wiki. Este corresponde ao título superior da entrada Wiki. Para uma nova entrada, o título tem de ser único neste Wiki. Se indicar um título existente, o envio irá substituir a entrada existente.
+
+Indique um breve comentário ou resumo. Consulte http://meta.wikimedia.org/wiki/Help:Edit_summary.
+
+Esta é uma edição secundária: selecione esta caixa para assinalar a página enviada como correção a uma página já existente com o mesmo título.
+
+Mostrar no navegador web: selecione esta caixa para abrir o navegador web e mostrar a página enviada.
+
+
+
+

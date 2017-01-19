@@ -1,0 +1,2 @@
+A extensão Console do apresentador disponibiliza um melhor controle sobre as suas apresentações, tais como a possibilidade de ver o slide seguinte, as suas notas e um cronômetro não visível pela audiência.
+Para evitar a confusão ao exibir os diversos elementos da apresentação, a extensão exibe os elementos em três visualizações distintas facilmente intercambiáveis.

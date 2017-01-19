@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+Með því að nota Wiki Publisher geturðu sent Writer textaskjalið sem þú ert að vinna í inn á MediaWiki-þjón. Eftir innsendinguna geta allir notendur kvikunnar (Wiki) lesið skjalið þitt á kvikuvefnum.
+
+Veldu Skrá - Senda - Á MediaWiki til að senda þetta Writer skjal á MediaWiki miðlara.
+Kerfiskröfur
+Java keyrsluumhverfi JRE
+
+Wiki aðgangur á studdum MediaWiki þjóni
+
+
+Setja upp Wiki Publisher
+Áður en þú setur inn Wiki Publisher, gakktu þá úr skugga um að %PRODUCTNAME sé að nota Java keyrsluumhverfni (JRE). Til að athuga stöðu JRE, veldu Verkfæri - Valkostir - %PRODUCTNAME - Java. Gakktu úr skugga um að hakað sé við "Nota Java keyrsluumhverfi" og að mappa fyrir Java keyrsluumhverfi sé valin í stóra listareitnum. Ef ekkert JRE er þegar virkt, virkjaðu þá JRE 1.4 eða nýrri útgáfu og endurræstu síðan %PRODUCTNAME.
+Hvernig á að tengjast við Wiki
+Athugið: Þú getur geymt notandanafn og lykilorð fyrir alla glugga í %PRODUCTNAME. Lykilorðin verða geymd á öruggan hátt, þannig að aðgangur er háður aðallykilorði. Til að virkja aðallykilorðið, veldu Verkfæri - Valkostir - %PRODUCTNAME - Öryggi.
+Athugaðu: Ef þú tengist vefnum í gegnum vefsel/milliþjón, settu þá inn slíkar upplýsingar í Verkfæri - Valkostir - Internetið - Milliþjónn, og endurræstu hugbúnaðinn.
+Opnaðu Writer skjal og veldu Verkfæri - Valkostir - Internet - MediaWiki.
+
+Í glugganum fyrir Valkosti, smelltu á "Bæta við".
+
+Í MediaWiki glugganum, sláðu þar inn upplýsingar um reikninginn fyrir Wiki.
+
+
+Settu í slóðareitinn slóðina (URL) á Wiki-svæðið sem þú vilt tengjast.
+Þú getur afritað vefslóð frá vafra og límt hana í textasvæðið.
+
+Í svæðinu fyrir notandanafna, sláðu inn notandaauðkennið fyrir Wiki reikninginn þinn.
+Ef Wiki leyfir nafnlausan aðgang, þá geturðu haft notandanafn og lykilorð tóm.
+
+Í svæðinu fyrir lykilorð, sláðu inn lykilorðið fyrir Wiki reikninginn þinn, smelltu svo á Í lagi.
+
+
+Þú getur líka virkjað "Vista lykilorð" til að vista lykilorð á milli seta. Þá er notað aðallykilorð til að halda utan um öll vistuð lykilorð. Veldu Verkfæri - Valkostir - %PRODUCTNAME - Öryggi til að virkja aðallykilorðið. "Vista lykilorð" er ekki tiltækt nema þegar aðallykilorð er virkt.
+Hvernig á að búa til nýja Wiki síðu
+Opna Writer textaskjal.
+
+Skrifaðu meginefni Wiki-síðunnar. Þú getur notað ýmis snið á borð við textasnið, fyrirsagnir, neðanmálsgreinar og fleira. Skoðaðu listann yfir þau snið sem eru studd.
+
+Veldu Skrá - Senda - Á MediaWiki.
+
+Í Senda á MediaWiki glugganum, tiltaktu stillingarnar fyrir færsluna.
+
+
+MediaWiki þjónn: Veldu Wiki.
+Titill: Settu inn titil á síðuna þína. Ef þú setur inn titil sem þegar er til staðar muntu skrifa yfir þá Wiki-síðu með innihaldi textaskjalsins þíns. Settu inn nýjan titil til að búa til nýja síðu á Wiki-svæðinu.
+Yfirlit: Settu ef til vill inn stutt yfirlit um hvert efni síðunnar er.
+Þetta er minniháttar breyting: Hakaðu við þennan reit til að merkja síðuna sem minniháttar breytingu á síðu með sama titli sem þegar er til staðar.
+Birta í vafra: Hakaðu við þennan reit til að ræsa kerfisstillta vefskoðarann og sýna upphlöðnu kvikusíðuna í honum.
+Smelltu á senda.
+
+
+

@@ -1,0 +1,96 @@
+Solver für nichtlineare Probleme; Optionen
+
+Allgemeine Optionen
+Schwarmgröße
+
+... definiert die Anzahl der Individuen, die in den Lernprozess einbezogen werden sollen. Jeder einzelne findet seine eigene Lösung und trägt zur allgemeinen Kenntnis bei.
+
+
+Lernzyklen
+
+... definiert die Anzahl der Wiederholungen, die der Algorithmus nehmen soll. In jedem Zyklus machen alle Individuen eine Vermutung über die beste Lösung und teilen ihr Wissen.
+
+
+Variable Schranken erraten
+
+Wenn aktiviert (Standard), versucht der Algorithmus, variable Grenzen zu finden, indem er die Startwerte auswertet.
+
+
+Schwelle für variable Grenzen
+
+Wenn die Option "Variable Grenzen erraten" aktiviert ist, legt diese Schwelle fest, wie weit die ursprünglichen Werte verschoben werden dürfen, um die Grenzen festzulegen. Ein Beispiel für die Berechnung dieser Werte entnehmen Sie bitte der Anleitung im Wiki.
+
+
+ARC-Vergleich verwenden
+
+Wenn diese Option deaktiviert ist (Standard), wird der BCH-Vergleich verwendet. Er vergleicht zwei Individuen, indem er zunächst ihre Einschränkungen vergleicht, und nur, wenn diese gleich sind, schätzt er die aktuelle Lösung.
+Wenn diese Option aktiviert ist, wird der ACR-Vergleich verwendet. Er vergleicht zwei Individuen abhängig von der aktuellen Iteration und misst deren Güte mit dem Wissen über die Bibliotheken der schlimmsten bekannten Lösungen (in Bezug auf ihre Einschränkungsverletzungen).
+
+
+Zufällige Startpunkte verwenden
+
+Wenn diese Option aktiviert ist, wird die Bibliothek mit zufälligen Startpunkten gefüllt.
+Wenn diese Option deaktiviert ist, werden die von Ihnen vorgegebenen Werte als Startpunkte verwendet.
+
+
+Stagnationsgrenze
+
+Wenn die gefundene Lösung innerhalb der Stagnationsgrenze bleibt, wird die Wiederholung angehalten und die bis dahin beste gefundene Lösung als optimal ausgegeben.
+
+
+Stagnationstoleranz
+
+Legt fest, in welchem Rahmen Lösungen als "ähnlich" angesehen werden.
+
+
+Den verbesserten Solverstatus anzeigen
+
+Wenn diese Option aktiviert ist, wird während des Lösungsprozesses ein zusätzlicher Dialog eingeblendet, der Informationen zum aktuellen Prozessverlauf, zum Stagnationslevel und die bis dahin beste Lösung zeigt sowie die Möglichkeit, den Solver manuell zu unterbrechen oder abzubrechen.
+
+
+
+DEPS-spezifische Optionen
+Wechselratenagent
+
+Gib einem Individuum die Möglichkeit, zwischen den verschiedenen Evolutionsstrategien zu wählen.
+
+
+DE: Wechselwahrscheinlichkeit
+
+... legt die Wahrscheinlichkeit des Individuums fest, mit der es den besten Punkt erreicht. Wenn kein Wechsel erlaubt ist, wird der Punkt aus der eigenen Erinnerung des Individuums zusammengesetzt.
+
+
+DE: Skalierungsfaktor
+
+Während des Wechsels entscheidet der Skalierungsfaktor über die "Geschwindigkeit" der Bewegung.
+
+
+PS: Verengungskoeffizient
+
+... legt die Geschwindigkeit fest, mit der sich die Individuen aufeinander zu bewegen.
+
+
+PS: kognitive Konstante
+
+... gibt die Bedeutung des eigenen Speichers vor (insbesondere den vermutlich am besten zu erreichenden Punkt).
+
+
+PS: soziale Konstante
+
+... gibt die Bedeutung des global besten Punktes zwischen aller Individuen vor.
+
+
+PS: Mutationswahrscheinlichkeit
+
+... legt die Wahrscheinlichkeit fest, mit der ein zufälliger neuer Wert aus dem gültigen Bereich dieser Variable gewählt wird, anstatt der zielgerichteten Bewegungskomponente des Individuums zu folgen.
+
+
+
+SCO-spezifische Optionen
+Bibliotheksgröße
+
+... legt die Menge der Informationen fest, die in der öffentlichen Bibliothek gespeichert werden sollen. Jedes einzelne Individuum speichert dort sein Wissen und ruft seine Informationen ab.
+
+
+
+

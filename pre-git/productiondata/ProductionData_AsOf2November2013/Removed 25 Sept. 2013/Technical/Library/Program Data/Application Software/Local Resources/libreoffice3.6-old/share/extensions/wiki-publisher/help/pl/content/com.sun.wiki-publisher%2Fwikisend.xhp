@@ -1,0 +1,17 @@
+
+Wyślij do MediaWiki
+W oknie dialogowym Wyślij do MediaWiki należy określić ustawienia dla przesyłania do serwera Wiki.
+
+Wybierz serwer MediaWiki, na którym chcesz opublikować swój dokument. Kliknij Dodaj, aby dodać nowy serwer do listy.
+
+Wprowadź tytuł artykułu Wiki. Będzie to nagłówek artykułu. W przypadku nowego artykułu, tytuł musi być unikalny w danym serwerze Wiki. Jeśli zostanie wprowadzony istniejący tytuł, przesłany dokument zastąpi istniejący artykuł Wiki.
+
+Możesz wprowadzić krótkie podsumowanie lub komentarz. Patrz http://meta.wikimedia.org/wiki/Help:Edit_summary.
+
+Wprowadzono drobne zmiany: Zaznacz to pole wyboru, aby oznaczyć przesyłaną stronę jako stronę już istniejącą pod tym samym tytułem, z niewielkimi zmianami.
+
+Wyświetl w przeglądarce internetowej: Zaznacz to pole, aby otworzyć systemową przeglądarkę internetową i wyświetlić wysłaną stronę Wiki.
+
+
+
+

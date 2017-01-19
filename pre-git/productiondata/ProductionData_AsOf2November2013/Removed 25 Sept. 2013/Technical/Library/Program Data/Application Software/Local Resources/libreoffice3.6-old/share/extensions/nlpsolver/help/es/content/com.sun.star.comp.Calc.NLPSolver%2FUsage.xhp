@@ -1,0 +1,7 @@
+Solucionador de problemas no lineales;Utilización
+
+Utilización
+Independientemente de que utilice DEPS o SCO, comience yendo a Herramientas → Solucionador e indique la celda a optimizar, la dirección de avance (minimización, maximización) y las celdas que se deben modificar para alcanzar el objetivo. Luego vaya a las Opciones y especifique el tipo de solucionador que se va a usar, y finalmente ajuste adecuadamente los parámetros si fuera necesario.
+También hay una lista de restricciones que puede utilizar para reducir el intervalo posible de soluciones, o para penalizar ciertas condiciones. Sin embargo, en el caso de los solucionadores evolutivos DEPS y SCO, las restricciones se utilizan también para especificar límites a los valores de las variables del problema. Debido a la naturaleza aleatoria de los algoritmos, es altamente recomendable hacerlo y establecer límites superiores para todas las variables (y cuando la opción "Asumir variables no negativas" está desactivado también límites inferiores). No es necesario que los valores estén cerca de la solución real (probablemente desconocida) pero debería dar una indicación aproximada del tamaño esperado (0 ≤ var ≤ 1 o quizás -1000000 ≤ var ≤ 1000000).
+Los límites son especificados seleccionando una o más variables (como rango) en el lado izquierdo e introduciendo un valor numérico (no una celda o una fórmula) en el lado derecho. De esta forma, usted puede tambien escoger una o más variables que sea entero o binario solamente.
+

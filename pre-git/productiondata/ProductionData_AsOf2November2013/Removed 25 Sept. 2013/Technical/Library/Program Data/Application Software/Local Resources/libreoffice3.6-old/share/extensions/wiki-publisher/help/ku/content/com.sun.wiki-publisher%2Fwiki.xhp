@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+pêvek;MediaWiki
+
+Wiki Publisher
+Bi bikaranîna Wiki Publisher re hun dikarin belgeya nivîsa Writer bar bikin li pêşkêşkera MediaWiki. Piştî barkirinê, hemû bikarhênerên Wiki dikarin belgeya we di Wiki de bixwînin.
+
+Ji bo barkirina belgeya Writer li pêşkêşkera MediaWiki, Pel - Bişîne - MediaWiki re hilbijêrin.
+Pêdiviyên Pergalê
+Java Runtime Environment
+
+Hisabekî Wiki ya tê piştgirîdan di pêşkêşkera MediaWiki de
+
+
+Wiki Publisher tê sazkirin
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Girêdana bi Wiki re
+Nîşe: Hun dikarin navê bikarhêner û nasnav ji bo hemû paceyên di %PRODUCTNAME de tomar bikin. Nasnav bi riyekî ewle tê tomarkirin, gihîştina cihê vê bi makenasnav tê parastin. Ji bo çalakkirina makenasnav, Amûr - Vebijêrk - %PRODUCTNAME - Ewlehî hilbijêrin.
+Nîşe: Heke hun bi bikaranîna pêşkêşkerekî cîgir re bikevin înternetê, agahiyên cîgir li vir têkevin; Amûr - Vebijêrk - Înternet - Proxy, û nivîsbariyê nûve bidin destpêkirin.
+Belgeyekî Writer vekin, û Amûr - Vebijêrk - Înternet - MediaWiki hilbijêrin.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+Di qutiya nivîsan ya URL de navnîşana Wiki ya hun bi re daxwaza girêdanê dikin, têkevin.
+Hun dikarin URL yê ji geroka torê jiber bigirin û di qutiya nivîs de pêve bikin.
+
+Di qutiya Bikarhêner de, IDya bikarhêner ya hisaba Wiki têkevin.
+Heke Wiki gihîştina nivîsînê ya gelêrî dide, hun dikarin qutiyên Navê Bikarhêner û Nasnav vala bihêlin.
+
+Di qutiya nasnav de, nasnava xwe ya hisaba Wiki têkevin, û pêl Temam bikin.
+
+
+Hun dikarin "Nasnav tomar bike" çalak bikin ku navbera danişînan de nasnav were tomarkirin. Makenasnavek ji bo parastina hemû nasnavan tê bikaranîn. Ji bo çalakkirina makenasnav Amûr - Vebijêrk - %PRODUCTNAME - Ewlehî hilbijêrin. Heke makenasnav neçalak be, "Nasnav tomar bike" tune dibe.
+Ji bo Afirandina Rûpelekî Nû ya Wîkî
+Belgeyeke Writerê veke.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Hilbijêre Pel - Bişîne - MediaWiki re.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+Pêşkêşkarê MediaWiki: Wîkiyê hilbijêre.
+Sernav: Sernava rûpela xwe binivîsin. Sernavê rûpelekî heyî binivîsin ku li ser de belgeya nivîsa we were nivîsîn. Sernavekî nû binivîsin ku di wiki de rûpelekî nû biafirînin.
+Kurtasî: Heke daxwaz dikin, kurtasiyekî rûpela xwe binivîsin.
+Ev guherînekî biçûk e: Heke rûpela barkirî guherînekî bîçûk ya rûpelekî heyî bi eynî sernavê be, vê qutiyê nîşan bikin.
+Di geroka torê de nîşan bide: Ji bo vekirina geroka torê ya di pergala we de û nîşandana rûpela Wiki ya barkirî, vê qutiyê nîşan bikin.
+Pêl Bîşîne bikin.
+
+
+

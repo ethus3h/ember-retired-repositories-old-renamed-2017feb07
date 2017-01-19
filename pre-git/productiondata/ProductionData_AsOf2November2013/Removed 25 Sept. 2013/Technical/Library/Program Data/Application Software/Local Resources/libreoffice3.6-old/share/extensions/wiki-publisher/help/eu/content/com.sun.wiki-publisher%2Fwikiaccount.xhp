@@ -1,0 +1,15 @@
+
+MediaWiki
+Erabili MediaWiki elkarrizketa-koadroa zure MediaWiki kontuaren ezarpenak gehitzeko edo editatzeko.
+
+Sartu MediaWiki zerbitzariaren URLa, 'http://'-rekin hasiz.
+
+Sartu erabiltzaile-izena MediaWiki zerbitzarian. Utzi hutsik sarbide anonimoa erabiltzean.
+
+Sartu pasahitza MediaWiki zerbitzarian. Utzi hutsik sarbide anonimoa erabiltzean. 
+
+Gaitu pasahitza saioen artean gordetzea. Pasahitz maisua gaitu behar da, ikusi Tresnak - Aukerak - %PRODUCTNAME - Segurtasuna.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Wiki-ak sarbide anonimoa baimentzen badu, utzi kontuaren testu-koadroak hutsik. Bestela, sartu erabiltzaile-izena eta pasahitza.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

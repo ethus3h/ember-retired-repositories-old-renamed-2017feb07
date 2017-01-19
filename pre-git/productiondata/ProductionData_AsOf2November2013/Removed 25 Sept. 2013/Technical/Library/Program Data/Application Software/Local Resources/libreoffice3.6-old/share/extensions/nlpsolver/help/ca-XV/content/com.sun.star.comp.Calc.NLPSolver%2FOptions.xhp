@@ -1,0 +1,96 @@
+Solucionador de problemes no lineals;Opcions
+
+Opcions generals
+Mida de l'eixam
+
+…defineix el nombre total d'individus que participen en el procés d'aprenentatge. Cada individu troba la seua solució pel seu compte i contribueix al coneixement general.
+
+
+Cicles d'aprenentatge
+
+…definex el nombre d'iteracions que l'algorisme ha de realitzar. En cada iteració tots els individus intenten esbrinar la millor solució i compartir el seu coneixement.
+
+
+Endevinar els límits de variables
+
+Si està activat (per defecte), l'algorisme intenta trobar els límits de les variables tot analitzant els valors incials.
+
+
+Llindar dels límits de variables
+
+Quan s'intenta endevinar els límits de les variables, este llindar especifica com es desplacen els valors inicials de les variables per construir els limits. Per veure un exemple de com es calculen estos valors, consulteu el manual a la Wiki.
+
+
+Utilitza el comparador ACR
+
+Si està desactivat (per defecte), s'utilitza el comparador BCH. Compara dos individus mirant primer les violacions de les seues restriccions i, només si estes són iguals, mesura la seua solució actual.
+Si està activat, s'utilitza el comparador ACR. Compara dos individus dependents de l'iteració actual i mesura la seua viabilitat amb el coneixement sobre les biblioteques de pitjors solucions conegudes (independenment de les violacions de restriccions).
+
+
+Utilitza un punt d'inici aleatori
+
+Si està habilitat, la biblioteca s'omple amb punts triats de manera aleatòria.
+Si està desactivat, els valors presents actualment (tal com els ha introduït l'usuari) s'insereixen a la biblioteca com a punt de referència.
+
+
+Limit d'estancament
+
+Si este nombre d'individus ha trobat una solució dins d'un rang curt, la iteració s'para i es tria el millor d'estos valors com a òptim.
+
+
+Tolerància d'estancament
+
+Defineix en quin rang les solucions es consideren "similars".
+
+
+Mostra l'estat avançat del solucionador
+
+Si està activat, es mostra un quadre de diàleg durant el procés de resolució que mostra informació sobre el procés actual, el nivell d'estancament, la millor solució coneguda actualment, així com la possibilitat d'parar o continuar el solucionador.
+
+
+
+Opcions específiques de DEPS
+Ràtio de canvi d'agents
+
+Especifica la probabilitat d'un individu de triar l'estratègia d'evolució diferencial.
+
+
+DE: Probabilitat d'encreuament
+
+…defineix la probabilitat que es combini un individu amb el millor punt global. Si no s'utilitza l'encreuament, el punt s'assembla des de la memòria pròpia de l'individu.
+
+
+DE: Factor d'escalat
+
+Durant l'encreuament, el factor d'escalat decidex la "velocitat" del moviment.
+
+
+PS: Coeficient de constricció
+
+…defineix la velocitat a la qual les partícules o els individus es mouen els uns cap als altres.
+
+
+PS: Constant cognitiva
+
+…estableix la importància de la memòria pròpia (en particular, el millor punt obtingut fins ara).
+
+
+PS: Constant social
+
+…estableix la importància del millor punt global entre totes les partícules/individus.
+
+
+PS: Probabilitat de mutació
+
+…defineix la probabilitat que, en lloc de moure un component de la partícula cap al punt millor, trie un nou valor aleatori dins l'interval vàlid per a aquella variable.
+
+
+
+Opcions específiques de SCO
+Mida de la biblioteca
+
+…defineix la quantitat d'informació que s'emmagatzemarà a la biblioteca pública. Cada individu hi emmagatzema coneixement i en consulta informació.
+
+
+
+

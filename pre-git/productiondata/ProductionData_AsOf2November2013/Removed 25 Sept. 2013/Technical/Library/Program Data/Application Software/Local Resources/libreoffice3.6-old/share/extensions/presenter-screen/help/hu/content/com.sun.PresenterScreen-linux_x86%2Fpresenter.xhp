@@ -1,0 +1,92 @@
+
+Presenter Console billentyűparancsai
+
+A Presenter Console billentyűparancsai
+Ha a Presenter Console használatával adja elő a bemutatót, akkor a következő billentyűparancsokat használhatja.
+Művelet
+
+Billentyűparancs
+
+
+Következő dia vagy következő hatás
+
+Bal kattintás, jobbra vagy lefelé nyíl, szóköz billentyű, Page Down, Enter, Return, 'N'
+
+
+Előző dia vagy előző hatás
+
+Jobb kattintás, balra vagy felfelé nyíl, Page Up, Backspace, 'P'
+
+
+Első dia
+
+Home
+
+
+Utolsó dia
+
+End
+
+
+Előző dia hatások nélkül
+
+Alt+Page Up
+
+
+Következő dia hatások nélkül
+
+Alt+Page Down
+
+
+A képernyő váltása feketére/vissza
+
+'B', '.'
+
+
+A képernyő váltása fehérre/vissza
+
+'W', ','
+
+
+Diavetítés vége
+
+Esc, '-'
+
+
+Ugrás diára
+
+Szám, amelyet Enter követ
+
+
+A jegyzetek betűméretének növelése/csökkentése
+
+'G', 'S'
+
+
+A jegyzetek görgetése fel/le
+
+'A', 'Z'
+
+
+A kurzort előre/hátra mozgatása a jegyzetnézetben
+
+'H', 'L'
+
+
+A Presenter Console megjelenítése
+
+Ctrl-'1'
+
+
+A bemutatóhoz fűzött jegyzetek megjelenítése
+
+Ctrl-'2'
+
+
+A diaáttekintő megjelenítése
+
+Ctrl-'3'
+
+
+
+

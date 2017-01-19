@@ -1,0 +1,15 @@
+
+MediaWiki
+Utilisez la boîte de dialogue MediaWiki pour ajouter ou éditer les paramètres de votre compte MediaWiki.
+
+Saisissez l'URL du serveur MediaWiki, commençant par http://
+
+Saisissez votre nom d'utilisateur sur le serveur MediaWiki. Laissez le champ vide pour un accès anonyme.
+
+Saisissez votre mot de passe pour le serveur MediaWiki. Laissez le champ vide pour un accès anonyme.
+
+Activez pour stocker votre mot de passe entre des sessions. Le mot de passe principal doit être activé, voir Outils - Options - %PRODUCTNAME - Sécurité.
+Saisissez l'adresse Internet du serveur de Wiki sous la forme http://wiki.documentfoundation.org ou copiez l'URL à partir du navigateur Web.
+Si le Wiki autorise un accès anonyme, vous pouvez laisser les champs de compte vides. Sinon, saisissez votre nom d'utilisateur et votre mot de passe.
+Si vous avez activé la fonction de mot de passe principal sur l'onglet Sécurité de la boîte de dialogue Outils - Options - %PRODUCTNAME, alors le logiciel peut enregistrer votre mot de passe et insérer automatiquement les données lorsque nécessaire. Activez la case à cocher "Enregistrer le mot de passe" pour stocker le mot de passe.
+

@@ -1,0 +1,15 @@
+
+MediaWiki
+Koristite dijalog MediaWiki za dodavanje ili uređivanje postavki vašeg korisničkog računa za MediaWiki.
+
+Unesite URL od MediaWiki poslužitelja koji počinje sa http://
+
+Unesite korisničku oznaku za vaš MediaWiki poslužitelj. Ostavite prazno za anonimni pristup.
+
+Unesite vašu lozinku za MediaWiki poslužitelj. Ostavite prazno za anonimni pristup.
+
+Omogućuje spremanje vaših lozinki izmđu sesija. Glavna lozinka mora biti omogućena, vidite Alati - Odrednice - %PRODUCTNAME - Sigutnost.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Ukoliko wiki omoućava anonimni pristup, polja za upisivanje podataka o korsničkom računu možete ostaviti prazna.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

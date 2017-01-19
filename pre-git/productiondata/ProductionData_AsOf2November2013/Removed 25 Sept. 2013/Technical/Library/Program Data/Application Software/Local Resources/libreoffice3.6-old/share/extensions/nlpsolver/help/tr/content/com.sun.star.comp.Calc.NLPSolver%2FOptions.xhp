@@ -1,0 +1,96 @@
+Lineer Olmayan Sorular için Çözücü;Ayarlar
+
+Genel Seçenekler
+Küme Boyutu
+
+... öğrenme sürecine katılan bireylerin sayısını belirler. Her birey kendi çözümünü bulur ve toplam bilgiye katkı sağlar.
+
+
+Öğrenme Döngüleri
+
+... algoritmanın alacağı yinelemelerin sayısını belirler. Her yinelemede, her birey en iyi çözüm için tahminde bulunur ve bilgi birikimlerini paylaşır.
+
+
+Değişken Bağlar Tahmin Ediliyor
+
+Etkinse (varsayılan), algoritma başlangıç değerlerini inceleyerek değişken bağımlılığınıı bulmayı dener.
+
+
+Değişken Bağlılıkları Eşiği
+
+Bu eşik ile, değişken bağlılıkları seçilirken,başlangıç değerlerinin bağlılıkları kurmak için nasıl değiştirileceğini belirlenir. Değer hesaplamalarını incelemek için lütfen Wiki Yardım kısmına bakınız.
+
+
+ACR Karşılaştırıcısı kullan
+
+Eğer devre dışı(öntanımlı) ise, BCH Karşılaştırıcısı kullanılacaktır. Bu iki tekili ilk önce bunların kısıt ihlallerine bakmakta ve sadece bunlar eşitse; mevcut çözümlerini ölçmektedir.
+Etkin ise, ACR Karşılaştırıcısı kullanılır. Mevcut yinelemeye bağlı olan iki bireyi karşılaştırır ve bireylerin uygunluğunu kütüphanelere dair bilinen en kötü çözümler hakkındaki bilgileri ile ölçer.
+
+
+Rasgele Başlangıç Noktası Kullan
+
+Etkin ise, kitaplık rastgele seçilmiş noktalar ile doldurulur.
+Etkin değil ise, halihazırda mevcut değerler (kullanıcı tarafından verildiği şekilde) kütüphaneye başvuru noktası olarak eklenir.
+
+
+Yanıtsızlık Sınırı
+
+Bu kadar sayıda birey yakın aralıkta çözüm bulduysa, yineleme durdurulur ve bu değerlerin en iyisi eniyi olarak seçilir.
+
+
+Yanıtsızlık Toleransı
+
+Çözümlerin hangi aralıkla “benzer“ olarak tanımlanacağını belirler.
+
+
+Gelişmiş Çözüm Durumunu Göster
+
+Etkin ise, çözme sürecinde çözücüyü durdurmak ya da kaldığı yerden devam ettirmek için mevcut ilerleme, durma düzeyi, bilinen en iyi çözüm ve bu çözümün olabilirliği hakkında bilgi veren ek bir iletişim arayüzü gösterilir.
+
+
+
+DEPS'e özgü Seçenekler
+Aracı Değiştirme Oranı
+
+Bireyin Diferansiyel Evrim yöntemini belirlemesi için gerekli olasılığı belirtir.
+
+
+DE: Çaprazlama Olasılığı
+
+... bireyin genel en iyi nokta ile birleştirilme olasılığını tanımlar. Çaprazlama kullanılmazsa nokta, bireyin kendi belleğinden toplanır.
+
+
+DE: Ölçekleme Katsayısı
+
+Çaprazlama sırasında, ölçekleme katsayısı hareketin "hızı"nı belirler.
+
+
+PS: Daralma Katsayısı
+
+... parçacıkların/bireylerin birbirlerine doğru hareket etme hızlarını tanımlar.
+
+
+PS: Bilişsel Sabit
+
+... kendi hafızasının önemini belirler (özellikle o ana kadar erişilmiş en iyi nokta).
+
+
+PS: Sosyal Sabit
+
+Tüm arçacıklar/bireyler arasındaki küresel en iyi noktanın önemini kurar.
+
+
+PS: Mutasyon Olasılığı
+
+... parçacık bileşenin en iyi noktaya hareketinden ziyade değişken için geçerli aralıktan rastgele yeni değer seçilme olasılığını tanımlar.
+
+
+
+SCO'ya özgü Seçenekler
+Kitaplık Boyutu
+
+... ortak kitaplıkta saklanacak bilgi miktarını tanımlar. Her birey bilgisini orada saklar ve oradan bilgi ister.
+
+
+
+

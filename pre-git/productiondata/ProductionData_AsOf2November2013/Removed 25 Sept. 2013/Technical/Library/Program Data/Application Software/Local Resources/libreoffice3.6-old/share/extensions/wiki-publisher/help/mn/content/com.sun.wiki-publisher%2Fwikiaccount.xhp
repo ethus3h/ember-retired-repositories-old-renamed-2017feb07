@@ -1,0 +1,15 @@
+
+МедиаВики
+МедиаВики бүртгэлээ нэмэх эсвэл засварлах бол МедиаВики диалогийг хэрэглэ.
+
+http:// ээр эхэлсэн МедиаВики серверийн хаягийг (URL) оруулна уу
+
+МедиаВики сервер дэх өөрийн хэрэглэгчийн нэрээ оруулна уу. Нуугдмал эрхээр бол хоосон орхи.
+
+МедиаВики сервер дэх өөрийн нууц үгээ оруулна уу. Нуугдмал эрхээр бол хоосон орхи.
+
+Нууц үг тогтмол хадгалах бол идэвхжүүлнэ үү. Мастер нууц үг өгөгдөх ёстой ба, Хэрэгсэл - Тохиргоо - StarOffice/OpenOffice.org - Хамгаалалт үзнэ үү.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Хэрвээ Вики бүртгэлгүй хандалтыг зөвшөөрдөг бол бүртгэлийн бичвэр хайрцгуудыг хоосон орхиж болно. Үгүй бол өөрийн хэрэглэгчийн нэр болон нууц үгээ оруул.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

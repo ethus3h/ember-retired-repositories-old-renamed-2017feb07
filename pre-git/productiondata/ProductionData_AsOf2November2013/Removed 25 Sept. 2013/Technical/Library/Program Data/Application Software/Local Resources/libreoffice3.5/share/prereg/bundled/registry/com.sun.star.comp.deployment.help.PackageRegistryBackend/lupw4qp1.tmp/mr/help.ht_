@@ -1,0 +1,18 @@
+36 com.sun.star.wiki.MediaWiki.SendToMediaWiki.MinorCheck 161 अपलोड केलेल्या पानास आधिपासूनच अस्तित्वातील समान शिर्षक असलेले पानाशी किर्कोळ संपादन नुरूप चिन्हाकृत करण्याकरीता हा पर्याय निवडा.
+37 com.sun.star.wiki.MediaWiki.SendToMediaWiki.CommentText 8f एक वैक्लपीक लहानसे सारांश किंवा टिपण्णी प्रविष्ट करा.
+37 com.sun.star.wiki.MediaWiki.SendToMediaWiki.ArticleText 20b Wiki नोंदणीचे शिर्षक प्रविष्ट करा. हे Wiki नोंदणीचे उच्च शिर्षक आहे. नविन नोंदणी करीता, Wiki वरील शिर्षक एकमेव असायला हवे. अस्तित्वातील शिर्षक प्रविष्ट केल्यास, अपलोड वर्तमान Wiki नोंदणीला खोडून पुन्हा लिहीतो.
+34 com.sun.star.wiki.MediaWiki.SendToMediaWiki.WikiList ff दस्तऐवज प्रकाशीत करण्याजोगी MediaWiki सर्वर निवडा. यादीत नविन सर्वर जोडायचे असल्यास जोडावर क्लिक करा.
+22 vnd.com.sun.star.wiki%3AsendDialog ff दस्तऐवज प्रकाशीत करण्याजोगी MediaWiki सर्वर निवडा. यादीत नविन सर्वर जोडायचे असल्यास जोडावर क्लिक करा.
+38 com.sun.star.wiki.MediaWiki.SendToMediaWiki.BrowserCheck e9 प्रणाली वेब ब्राऊजर उगडण्याकरीता व अपलोड केलेले Wiki पान दर्शविण्याकरीता या पर्याय निवडा.
+31 com.sun.star.wiki.MediaWiki.Settings.RemoveButton 62 यादीतून निवडलेले नोंदणी काढूण टाकतो.
+2d com.sun.star.wiki.MediaWiki.Settings.WikiList 1f3 नविन Wiki सर्वर जोडण्याकरीता जोडावर क्लिक करा.नोंदणी निवडा व खाते संयोजना संपादीत करण्याकरीता संपादन करा वर क्लिक करा.यादीतून नोंदणीस काढूण टाकण्याकरीता नोंदणी निवडा व काढूण टाका क्लिक करा.
+2f com.sun.star.wiki.MediaWiki.Settings.EditButton 8e निवडलेली नोंदणी संपादीत करण्याकरीता MediaWiki संवाद उघडतो.
+20 vnd.com.sun.star.wiki%3Asettings 1f3 नविन Wiki सर्वर जोडण्याकरीता जोडावर क्लिक करा.नोंदणी निवडा व खाते संयोजना संपादीत करण्याकरीता संपादन करा वर क्लिक करा.यादीतून नोंदणीस काढूण टाकण्याकरीता नोंदणी निवडा व काढूण टाका क्लिक करा.
+2e com.sun.star.wiki.MediaWiki.Settings.AddButton 7f नविन नोंदणी यादीत जोडण्याकरीता MediaWiki संवाद उघडतो.
+1f vnd.com.sun.star.wiki%3Aaccount 8a http:// पासून सुरू होणारे MediaWiki सर्वर करीता, URL प्रविष्ट करा.
+2f com.sun.star.wiki.MediaWiki.EditSetting.SaveBox 15d सत्र अंतर्गत पासवर्ड प्रविष्ट करण्याकरीता कार्यान्वीत करा. मुख्य पासवर्ड कार्यान्वीत असायला हवे, साधने - पर्याय - %PRODUCTNAME - सुरक्षा पहा.
+35 com.sun.star.wiki.MediaWiki.EditSetting.PasswordField c0 MediaWiki सर्वरवर वापरकर्ता नाव प्रविष्ट करा. निनावी प्रवेश करीता रिकामे सोडा.
+35 com.sun.star.wiki.MediaWiki.EditSetting.UsernameField c0 MediaWiki सर्वरवर वापरकर्ता नाव प्रविष्ट करा. निनावी प्रवेश करीता रिकामे सोडा.
+30 com.sun.star.wiki.MediaWiki.EditSetting.UrlField 8a http:// पासून सुरू होणारे MediaWiki सर्वर करीता, URL प्रविष्ट करा.
+1c vnd.com.sun.star.wiki%3Asend dd वर्तमान Writer दस्तऐवजला MediaWiki सर्वरवर अपलोड करायचे असल्यास MediaWiki करीता - फाइल - पाठवा निवडा.
+20 vnd.com.sun.star.wiki%3Aaboutbox 165 Wiki Publisher चा वापर करून तुम्ही वर्तमान Writer पाठ्य दस्तऐवज MediaWiki सर्वरवर अपलोड करू शकता. अपलोडींग नंतर, सर्व Wiki वापरकर्ता Wiki वरील दस्तऐवज वाचू शकता.

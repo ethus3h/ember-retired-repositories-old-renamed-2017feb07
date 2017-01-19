@@ -1,0 +1,1 @@
+Mae'r Estyniad Mewnforio PDF yn caniatau i chi fewforio a newid dogfennau PDF. Mae'r canlyniadau gorau i'w cael gyda llwyddiant 100%, gyda fformat "ffeil hybrid PDF/ODF", y mae'r estyniad yn ei ganiatau. Ffeil PDF sy'n cynnwys ffeil ffynhonnell ODF mewnosodedig. Mae modd agor ffeiliau hybrid PDF/ODF yn LibreOffice fel ffeil ODF heb newidiadau yn eu cynllun.

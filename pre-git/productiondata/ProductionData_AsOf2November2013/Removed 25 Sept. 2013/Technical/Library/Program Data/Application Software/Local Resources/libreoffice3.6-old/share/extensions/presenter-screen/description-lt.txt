@@ -1,0 +1,2 @@
+Pranešėjo pulto plėtinys suteikia daugiau pateikties demonstravimo valdymo galimybių: galima matyti kitą skaidrę, skaidrės pastabas ir demonstravimo laikmatį, kai tuo tarpu klausytojai mato tik veikiamąją skaidrę.
+Kad nepasimestumėte tarp daugybės pateikties elementų, pranešėjo pulte lengvai galima pasirinkti vieną iš trijų rodymo būdų.

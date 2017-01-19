@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+Extensions;MediaWiki
+
+Wiki Publisher
+Mithilfe des Wiki Publisher können Sie Ihr Writer-Textdokument direkt auf einem MediaWiki-Server bereitstellen. Nach dem Bereitstellen können alle Benutzer des Wikis Ihr Dokument lesen.
+
+Wählen Sie Datei - Senden - An MediaWiki, um das aktuelle Writer-Dokument auf einem MediaWiki-Server bereitzustellen.
+Systemanforderungen
+Java Runtime Environment
+
+Ein Wiki-Konto auf einem unterstützten MediaWiki-Server
+
+
+Wiki Publisher installieren
+Bevor Sie mit Wiki Publisher arbeiten, überprüfen Sie, ob %PRODUCTNAME die Java Runtime Environment (JRE) nutzt. Um den Status von JRE zu überprüfen, wählen Sie Extras - Optionen... - %PRODUCTNAME - Java. Die Option "Eine Java-Laufzeitumgebung (Java runtime environment) verwenden" muss markiert sein und ein Java Runtime-Verzeichnis muss in dem Listenfeld ausgewählt sein. Wenn keine JRE aktiviert ist, aktivieren Sie JRE 1.4 oder höher und starten %PRODUCTNAME neu.
+So stellen Sie eine Verbindung zu einem Wiki her:
+Hinweis: Sie können Ihren Benutzernamen und Ihr Kennwort für alle entsprechenden Dialoge in %PRODUCTNAME speichern. Das Kennwort wird verschlüsselt gespeichert, wobei der Zugriff über ein Master-Kennwort möglich ist. Um das Master-Kennwort einzuschalten, wählen Sie Extras - Optionen... - %PRODUCTNAME - Sicherheit.
+Hinweis: Falls Sie einen Proxy-Server für Ihre Internetverbindung benutzen, geben Sie die Informationen zum Proxy unter Extras - Optionen - Internet - Proxy ein und starten die Software neu.
+Öffnen Sie ein Writer-Dokument und wählen dann Extras - Optionen - Internet - MediaWiki.
+
+Klicken Sie im Dialog Optionen auf Hinzufügen.
+
+Geben Sie im Dialog MediaWiki die Zugangsdaten für das Wiki ein.
+
+
+Geben Sie die Adresse des Wikis, mit dem Sie verbinden möchten, im Textfeld URL ein.
+Sie können die URL aus Ihrem Browser kopieren und in das Textfeld einfügen.
+
+Geben Sie die Nutzerkennung Ihres Wiki-Kontos im Feld Nutzername ein.
+Falls das Wiki anonymen Zugriff gestattet, können Sie die Felder Nutzername und Kennwort frei lassen.
+
+Geben Sie das Kennwort Ihres Wiki-Kontos im Kennwortfeld ein und klicken Sie auf OK.
+
+
+Optional können Sie "Kennwort speichern" aktivieren, um das Kennwort dauerhaft zu speichern. Für den Zugriff auf alle gespeicherten Kennwörter wird ein Master-Kennwort verwendet. Um das Master-Kennwort einzuschalten, wählen Sie Extras - Optionen... - %PRODUCTNAME - Sicherheit. "Kennwort speichern" ist nicht verfügbar, wenn das Master-Kennwort nicht aktiviert ist.
+So erstellen Sie eine neue Wiki-Seite
+Öffnen Sie ein Writer-Dokument.
+
+Schreiben Sie die Inhalte der Wiki-Seite. Sie können Formatierungen wie Text, Überschriften, Fußnoten und mehr dazu verwenden. Vergleichen Sie auch die Liste der unterstützten Formate.
+
+Wählen Sie Datei - Senden - An MediaWiki.
+
+Geben Sie im Dialog An MediaWiki senden die Einstellungen für Ihren Eintrag ein.
+
+
+MediaWiki-Server: Wählen Sie das Wiki.
+Titel: Geben Sie den Titel Ihrer Seite ein. Geben Sie den Titel einer existierenden Seite ein, um diese mit Ihrem aktuellen Textdokument zu überschreiben. Geben Sie einen neuen Titel ein, um eine neue Seite im Wiki zu erstellen.
+Zusammenfassung: Optional können Sie eine kurze Zusammenfassung Ihrer Seite eingeben.
+Geringfügige Änderung: Aktivieren Sie dieses Markierfeld, um die hochzuladende Seite als geringfügige Änderung einer vorhandenen Seite mit gleichem Titel zu kennzeichnen.
+Im Webbrowser anzeigen: Aktivieren Sie dieses Markierfeld, um den Browser Ihres Systems zu öffnen und die hochgeladene Wiki-Seite anzuzeigen.
+Klicken Sie auf Senden.
+
+
+

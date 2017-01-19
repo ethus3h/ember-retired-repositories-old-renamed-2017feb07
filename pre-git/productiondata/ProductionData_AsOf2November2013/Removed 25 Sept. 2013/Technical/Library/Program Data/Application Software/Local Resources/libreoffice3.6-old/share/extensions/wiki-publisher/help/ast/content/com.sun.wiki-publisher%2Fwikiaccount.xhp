@@ -1,0 +1,15 @@
+
+MediaWiki
+Usar el dialogu de MediaWiki p'amestar o editar la configuración de la to cuenta en MediaWiki.
+
+Poner l'URL d'un sirvidor MediaWiki, entamando con http://
+
+Poner el nome d'usuariu nel sirvidor MediaWiki. Dexalu baleru p'accesu anonimu.
+
+Pon la to conseña del sirvidor de MediaWiki. Dexala balera p'accesu anónimu.
+
+Activar pa guardar la conseña ente sesiones. La conseña maestra tien de tar activada, mira Ferramientes - Opciones - %PRODUCTNAME - Seguridá.
+Escribi la direición del sirvidor Wiki nun formatu como http://wiki.documentfoundation.org o copia la URL del navegador web.
+Si'l Wiki permite accesu anónimu, pues dexar baleres les caxelles de testu de la cuenta. Si non, pon el to nome d'usuariu y la to conseña.
+Si activasti la opción de conseña maestra na páxina de la llingüeta Seguridá del diálogu Ferramientes - Opciones - %PRODUCTNAME el programa pue guardar la to conseña y escribir los datos automáticamente cuando se necesite. Marca la caxella "Guardar conseña" p'archivar la to conseña.
+

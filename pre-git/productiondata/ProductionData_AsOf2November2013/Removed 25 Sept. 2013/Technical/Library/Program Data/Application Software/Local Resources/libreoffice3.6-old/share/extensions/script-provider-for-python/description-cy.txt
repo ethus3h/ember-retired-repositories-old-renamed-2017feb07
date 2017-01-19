@@ -1,0 +1,1 @@
+Ychwanegu sefnogaeth ar gyfer Python yn y Fframwaith Sgriptio i alluogi sgriptiau Python yng gnhyfeiriadau defnyddiwr a rhannu mewn gosodiad LibreOffice a hefyd mewn dogfennau sydd wedi eu llwytho.

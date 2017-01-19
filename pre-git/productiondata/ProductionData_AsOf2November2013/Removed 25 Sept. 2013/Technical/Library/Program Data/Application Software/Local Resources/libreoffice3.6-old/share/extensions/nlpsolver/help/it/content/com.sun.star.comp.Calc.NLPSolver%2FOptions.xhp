@@ -1,0 +1,96 @@
+Risolutore di problemi non-lineari;Opzioni
+
+Opzioni generali
+Dimensione dello sciame
+
+... definisce il numero di individui che partecipano al processo di apprendimento. Ogni individuo trova le proprie soluzioni e contribuisce alla conoscenza complessiva.
+
+
+Cicli di apprendimento
+
+... definisce il numero di iterazioni che l'algoritmo dovrebbe effettuare. In ciascuna iterazione tutti gli individui cercano di indovinare la soluzione migliore e condividono le loro conoscenze.
+
+
+Stima dei limiti delle variabili
+
+Se attivata (impostazione predefinita), l'algoritmo cerca di indovinare i limiti delle variabili guardando i loro valori iniziali.
+
+
+Soglia dei limiti delle variabili
+
+Quando si cerca di indovinare i limiti delle variabili, questa soglia specifica come i valori iniziali vengono spostati per costruire i limiti. Per un esempio, consultate il manuale nel Wiki.
+
+
+Usa metodo di confronto ACR
+
+Se disattivato (impostazione predefinita), viene usato il metodo di confronto BCH. Confronta due individui analizzando prima quali vincoli violano e, solo quando questi vincoli sono i medesimi, misura la loro soluzione corrente.
+Se attivato, viene usato il metodo di confronto ACR. Confronta due individui in funzione dell'iterazione corrente e misura la bontà delle loro soluzioni sfruttando la conoscenza delle peggiori soluzioni note (secondo le violazioni dei vincoli).
+
+
+Usa punto di partenza casuale
+
+Se attivato, la libreria parte semplicemente con punti presi a caso.
+Se disattivato, la libreria parte prendendo come riferimento i valori attuali (forniti dall'utente).
+
+
+Limite di stagnazione
+
+Se questo numero di individui ha trovato soluzioni tra loro vicine, l'iterazione si ferma e il migliore di questi valori è scelto come valore ottimale.
+
+
+Tolleranza di stagnazione
+
+Definisce l'intervallo per considerare "simili" due soluzioni.
+
+
+Mostra stato esteso del risolutore
+
+Se attivato, durante la procedura di risoluzione viene mostrata un'ulteriore finestra di dialogo con informazioni sullo stato corrente, il livello di stagnazione, la soluzione migliore al momento attuale e la possibilità di fermare o riprendere il calcolo.
+
+
+
+Opzioni specifiche DEPS
+Probabilità di cambio agente
+
+Specifica la probabilità che un individuo scelga la strategia DE (Evoluzione Differenziale).
+
+
+DE: Probabilità di incrocio
+
+... definisce la probabilità che l'individuo venga combinato con il punto migliore trovato su scala globale. Se non si usa l'incrocio, il punto viene determinato in base alla memoria dell'individuo.
+
+
+DE: Fattore di scala
+
+Durante l'incrocio, il fattore di scala determina la "velocità" di movimento.
+
+
+PS: Coefficiente di avvicinamento
+
+... definisce la velocità a cui le particelle/individui viaggiano uno verso l'altro.
+
+
+PS: Costante cognitiva
+
+... imposta l'importanza della memoria individuale (in particolare il miglior punto raggiunto finora).
+
+
+PS: Costante sociale
+
+... imposta l'importanza del miglior punto globale tra tutte le particelle/individui.
+
+
+PS: Probabilità di mutazione
+
+... definisce la probabilità che, invece di spostare un componente della particella verso il punto migliore, venga scelto un nuovo valore casuale compreso nell'intervallo valido di quella variabile.
+
+
+
+Opzioni specifiche SCO
+Dimensione della libreria
+
+... definisce la quantità di informazioni da archiviare nella libreria pubblica, utilizzata da ciascun individuo per memorizzare e recuperare informazioni.
+
+
+
+

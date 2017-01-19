@@ -1,0 +1,96 @@
+Ei-lineaarisen yhtälöryhmien ratkaisin;Asetukset
+
+Yleisasetukset
+Parven koko
+
+... määrittelee oppimisprosessiin osallistuvien yksilöiden lukumäärän. Jokainen yksilö etsii oman ratkaisunsa ja osallistuu siten kokonaisratkaisun muodostamiseen.
+
+
+Oppimissyklit
+
+... määrittelee algoritmin iteraatioiden määrän. Jokaisessa iteraatiossa yksilöt esittävät arvauksen parhaasta ratkaisusta ja jakavat tietonsa.
+
+
+Arvaa muuttujien rajat
+
+Jos valittu (oletus), algoritmi yrittää arvata muuttujien rajat lähtöarvojen perusteella.
+
+
+Muuttujarajojen kynnysarvo
+
+Kun muuttujien rajoja arvataan, tämä kynnysarvo määrää, kuinka lähtöarvoista johdetaan muuttujien rajat. Esimerkki näiden arvojen laskennasta löytyy Wikissä olevasta ohjeesta.
+
+
+Käytä ACR-vertailijaa
+
+Jos ei valittu (oletus), käytetään BCH-vertailijaa. Se vertailee yksilöitä ensisijaisesti sen mukaan, kuinka pahasti ne rikkovat rajoitteita. Vain jos rajoitteiden rikkomisessa ei ole eroa, vertaillaan ratkaisun hyvyyttä.
+Jos valittu, käytetään ACR-vertailijaa. Se vertailee yksilöitä nykyisen iteraation pohjalta ja arvioi ratkaisujen hyvyyttä vertaamalla niitä kirjaston huonoimpiin tunnettuihin ratkaisuihin (rajoitteiden rikkoutumisen mukaan).
+
+
+Käytä satunnaista aloituspistettä
+
+Jos valittu, kirjasto täytetään satunnaisilla aloituspisteillä.
+Jos ei valittu, nykyisiä (käyttäjän antamia) arvoja käytetään kirjaston aloituspisteinä.
+
+
+Pysähtymisraja
+
+Jos näin monta yksilöä löysi ratkaisun pieneltä alueelta, iteraatio keskeytetään ja paras näistä ratkaisuista valitaan optimaaliseksi.
+
+
+Pysähtymisen sieto
+
+Määrää, kuinka pienellä alueella olevia ratkaisua pidetään samankaltaisina.
+
+
+Näytä ratkaisimen tila laajasti
+
+Jos valittu, ratkaisuprosessin aikana näytetään valintaikkuna, joka kertoo tietoja ratkaisuprosessin vaiheesta, pysähtyneisyyden tasosta ja parhaasta siihenastisesta ratkaisusta. Lisäksi valintaikkunassa on mahdollista keskeyttää ja jatkaa ratkaisujen hakua.
+
+
+
+DEPS-asetukset
+Agentin vaihtoaste
+
+Määrää todennäköisyyden, jolla yksilö valitsee differentiaalievoluutiostrategian.
+
+
+DE: Sekoitustodennäköisyys
+
+... määrittelee todennäköisyyden, jolla yksilö yhdistetään globaalisti parhaaseen pisteeseen. Jos sekoitusta ei käytetä, piste muodostetaan yksilön oman historian perusteella.
+
+
+DE: Skaalaustekijä
+
+Tämä skaalaustekijä määrää sekoituksen siirtymänopeuden.
+
+
+PS: Supistumisvakio
+
+... määrää nopeuden, jolla yksilöt liikkuvat toisiaan kohti.
+
+
+PS: Kognitiivinen vakio
+
+... määrää yksilön oman historian (erityisesti parhaan saavutetun pisteen) merkityksellisyyden.
+
+
+PS: Sosiaalinen vakio
+
+... määrää yksilöiden globaalin parhaan pisteen merkityksellisyyden.
+
+
+PS: Mutaatiotodennäköisyys
+
+... määrää todennäköisyyden, jolla yksilön komponentille valitaan satunnainen arvo muuttujan arvoalueelta sen sijaan että siirryttäisiin kohti optimaalisena pidettyä pistettä.
+
+
+
+SCO-asetukset
+Kirjaston koko
+
+... määrää yleisessä kirjastossa säilytettävän tiedon määrän. Jokainen yksilö tallentaa ja käyttää siellä olevaa tietoa.
+
+
+
+

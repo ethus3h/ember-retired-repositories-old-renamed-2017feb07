@@ -1,0 +1,31 @@
+
+MediaWiki Formats
+የሚቀጥለው ዝርዝር የጽሁፍ አቀራረብ ባጠቃላይ የዊኪ አታሚ በዊኪ ሰርቨር ላይ የሚጭነውን ያሳያል
+የ OpenDocument format ለመጻፊያ የሚጠቀሙበት እና የ WikiMedia format በጣም የተለያዩ ናቸው ፡ ግማሽ ገጽታዎች ብቻ ናቸው ከአንዱ አቀራረብ ወደ ሌላው አቀራረብ ሊቀያየሩ የሚችሉት
+ራስጌዎች
+የአርእስት አንቀጽ ዘዴ ለእርእስቶቹ በመጻፊያው ሰነድ ውስጥ ያስገቡ ፡ ዊኪ ተመሳሳይ የአርእስት ዘዴዎች በተመሳሳይ ረቂቅ ያሳያል ፡ በዊኪ አቀራረብ አገላለጽ
+Hyperlinks
+Native OpenDocument hyperlinks are transformed into "external" Wiki links. Therefore, the built-in linking facility of OpenDocument should only be used to create links that point to other sites outside the Wiki web. For creating Wiki links that point to other subjects of the same Wiki domain, use Wiki links.
+ዝርዝሮች
+አስተማማኝ ዝርዝሮችን መላክ ይቻላል ለሁሉም ዝርዝር ተስማሚ የዝርዝር ዘዴ ሲጠቀሙ ፡ ይጠቀሙ ቁጥር መስጫ ወይንም የነጥቦችን ምልክት በመጻፊያ ውስጥ ለማመንጨት ፡ ዝርዝር ብቻ ከፈለጉ ያለ ቁጥር መስጫ ወይንም ነጥቦችን ፡ ይጠቀሙ አቀራረብ - ነጥቦች እና ቁጥር መስጫ የእያንዳንዱን ዝርዝር ዘዴ ለመግለጽ እና ለመፈጸም
+አንቀጾች
+ማሰለፊያ
+ግልጽ የጽሁፍ ማሰለፊያ ለዊክ ጽሁፎች መጠቀም የለብዎትም ፡ የሆነ ሆኖ የጽሁፍ ማሰለፊያው የተደገፈ ነው ለ ግራ በኩል ፡ ለ መሀከል እና ለ ቀኝ ጽሁፎች ማሰለፊያ
+Pre-formatted ጽሁፍ
+የአንቀጽ ዘዴ በተወሰነ-ስፋት ፊደል ይቀየራል እንደ pre-formatted ጽሁፍ ፡ Pre-formatted text በዊኪ ላይ ጽሁፉ በድንበር ተከቦ ይታያል
+የባህሪ ዘዴዎች
+የባህሪ ዘዴዎች የአንቀጹን ክፍል አቀራረቡን ያሻሽላሉ ፡ የተቀየረው ማድመቅን ፡ ማዝመምን ፡ ትንሽ ከፍ ብሎ መጻፍን ፡ በትንንሽ ፊደል መጻፍን ይደግፋል ፡ ሁሉንም የተወሰነ ስፋት ያላቸው ፊደሎች ወደ ዊኪ የአጻጻፍ ዘዴ ይቀየራሉ
+የግርጌ ማስታወሻዎች
+ማስታወሻ : መቀየሪያው አዲሱን የግርጌ ማስታወሻን ዘዴ ይጠቀማል ከ <ref> እና <references> tags that requires the Cite.php extension to be installed into MediaWiki. If those tags occur እንደ መደበኛ ጽሁፍ ከተገኙ በመቀየሪያው ውጤት ውስጥ የዊኪ አስተዳዳሪውን ተጨማሪዎቹን እንዲገጥም ይጠይቁ
+ምስሎች
+ምስሎችን መላክ አይቻልም በመቀየሪያው ነጠላ ፋይል እንዲፈጥሩ በዊክ ጽሁፍ ላይ ፡ ነገር ግን ምስሉ ቀደም ብሎ ተጭኖ ከሆነ ወደ ኢላማው ዊኪ ግዛት (ለምሳሌ WikiMedia Commons ) ከዚያ መቀየሪያው ዋጋ ያለው የምስል ቁራጭ (tag) ምስሉን ያካተተ ይፈጥራል ፡ የምስል መግለጫዎችም የተደገፉ ናቸው
+ሰንጠረዦች
+ቀላል ሰንጠረዦች የተደገፉ ናቸው ፡ የሰንጠረዥ ራስጌዎች ይቀየራሉ ወደ ተስማሚው የዊኪ ዘዴ ሰንጠረዥ ራስጌ ፡ ነገር ግን custom formatting የሰንጠረዥ ድንበሮች ፡ አምዶች መጠኖች እና የመደቦች ቀለም ይተዋሉ
+የተጋጠሙ ክፍሎች
+OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. 
+አምዶች ብቻ ከተመሳሳይ ረድፎች ጋር ከተጋጠሙ ፡ የለውጡ ውጤቱ በጣም የሰነዱን ምንጭ ይመስላል
+ድንበሮች
+Irrespective of custom table styles for border and background, a table is always exported as "prettytable", which renders in the Wiki engine with simple borders and bold header.
+Charset and የተለዩ ባህሪዎች
+The charset of the transformation result is fixed to UTF-8. Depending on your system, this might not be the default charset. This might cause "special characters" to look broken when viewed with default settings. However, you can switch your editor to UTF-8 encoding to fix this. If your editor does not support switching the encoding, you can display the result of the transformation in the Firefox browser and switch the encoding to UTF-8 there. Now, you can cut and paste the transformation result to your program of choice.
+

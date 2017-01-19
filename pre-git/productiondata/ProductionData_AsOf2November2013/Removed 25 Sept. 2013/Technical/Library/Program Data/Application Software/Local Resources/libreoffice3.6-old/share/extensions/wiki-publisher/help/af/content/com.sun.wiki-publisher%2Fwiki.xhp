@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+Deur die Wiki Publisher te gebruik kan jy jou huidige Writer-teksdokumente na 'n MediaWiki-bediener oplaai. Nadat jy dit opgelaai het, kan alle wikigebruikers jou dokument op die wiki lees.
+
+Kies Lêer- Stuur - Na MediaWiki om die huidige Writer-dokument na 'n MediaWiki-bediener op te laai.
+Stelselvereistes
+Java Runtime Environment
+
+'n Wiki-rekening op 'n ondersteunde MediaWiki-bediener
+
+
+Installeer van Wiki Publisher
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Om aan 'n wiki te koppel
+Let wel: U kan u gebruikernaam en wagwoord vir al die onderskeie dialoë in %PRODUCTNAME stoor. Die wagwoord word op 'n veilige manier bewaar waar toegang deur 'n meesterwagwoord beheer word. Om die meesterwagwoord te aktiveer, kies Nuts - Opsies - %PRODUCTNAME - Sekuriteit.
+Let wel: As jy aan die web koppel met 'n instaanbediener, tik die instaanbedienerinligting by Nuts - Opsies - Internet - Instaan, en herbegin die sagteware.
+Open 'n Writer-dokument en kies Nuts - Opsies - Internet - MediaWiki.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+Tik die adres van 'n wiki in die URL-tekskassie in waaraan u wil koppel.
+U kan die URL uit 'n webblaaier kopieer en dit in die tekskassie plak.
+
+Tik u gebruiker-ID vir u wikirekening in die gebruikersnaamveld in.
+As die wiki kan anonieme skryftoegang toelaat, kan jy die gebruikernaam- en wagwoordvelde leeg laat.
+
+Tik die wagwoord van u wikirekening in die wagwoordveld, en kliek OK.
+
+
+Aktiveer opsioneel "Stoor wagwoord" om die wagwoord tussen sessies te stoor. 'n Meesterwagwoord word gebruik om toegang tot alle gestoorde wagwoorde te verkry. Kies Nuts - Opsies - %PRODUCTNAME - Sekuriteit  om die meesterwagwoord te aktiveer. "Stoor wagwoord" werk nie wanneer daar nie 'n meesterwagwoord is nie.
+Om nuwe wikibladsy te skep
+Open 'n Writer-dokument.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Kies Lêer - Stuur - Na MediaWiki.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+MediaWiki-bediener: Kies die wiki.
+Titel: Tik die titel van jou bladsy. Tik die titel van 'n bestaande bladsy om oorheen te skryf met jou huidige teksdokument. Tik 'n nuwe titel om 'n nuwe bladsy op die wiki te skep.
+Opsomming: Tik 'n opsionele kort opsomming van jou bladsy in.
+Dit is 'n klein redigering: Merk hierdie blokkie om die opgelaaide bladsy as 'n klein redigering van die reeds bestaande bladsy met dieselfde titel te merk.
+Wys in webblaaier: Merk hierdie blokkie om jou rekenaar se webblaaier te open en die opgelaaide wikibladsy te wys.
+Kliek Stuur.
+
+
+

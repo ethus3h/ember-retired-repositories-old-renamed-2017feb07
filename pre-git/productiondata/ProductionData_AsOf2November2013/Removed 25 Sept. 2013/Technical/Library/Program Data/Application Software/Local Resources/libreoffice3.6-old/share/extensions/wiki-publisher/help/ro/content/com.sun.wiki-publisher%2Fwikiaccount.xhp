@@ -1,0 +1,15 @@
+
+MediaWiki
+Folosiți dialogul MediaWiki pentru a adăuga sau edita setările contului dumneavoastră MediaWiki.
+
+Introduceți URL-ul serverului MediaWiki, începînd cu http://
+
+Introduceți numele dumneavoastră de utilizator al serverului MediaWiki. Lăsați gol pentru acces anonim.
+
+Introduceți parola cu care lucrați pe serverul MediaWiki. Lăsați gol pentru acces anonim.
+
+Bifați pentru ca parola dumneavoastră să fie reținută între sesiuni. Parola generală trebuie să fie activată, accesați Unelte - Opțiuni - %PRODUCTNAME - Securitate.
+Introduceți adresa de pe internet a serverului Wiki în formatul http://wiki.documentfoundation.org sau copiați adresa dintr-un navigator web.
+Dacă Wiki permite acces anonim, puteți lăsa goale căsuțele de text ale contului. Altfel, introduceți numele de utilizator și parola.
+Dacă ați activat utilizarea parolei generale din fila „Securitate” a dialogului Unelte - Opțiuni - %PRODUCTNAME, atunci programul poate memora parola dumneavoastră și să insereze automat datele atunci când este nevoie. Bifați căsuța „Salvează parola” pentru a memora parola.
+

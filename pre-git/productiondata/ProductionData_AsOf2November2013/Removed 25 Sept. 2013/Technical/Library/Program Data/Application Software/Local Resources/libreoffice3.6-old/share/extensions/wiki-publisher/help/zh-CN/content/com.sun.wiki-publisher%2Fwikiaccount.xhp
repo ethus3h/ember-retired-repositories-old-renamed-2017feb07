@@ -1,0 +1,15 @@
+
+MediaWiki
+使用 MediaWiki 对话框可添加或编辑您的 MediaWiki 帐户设置。
+
+输入以 http:// 开头的 MediaWiki 服务器 URL
+
+输入您的 MediaWiki 服务器用户名。保留为空可进行匿名访问。
+
+输入您的 MediaWiki 服务器密码。保留为空可进行匿名访问。
+
+启用会话期间密码保存。必须启用主密码，请参见工具 - 选项 - %PRODUCTNAME - 安全性。
+输入 Wiki 服务器的 Internet 地址，如 http://wiki.documentfoundation.org，或从 web 浏览器中复制 URL。
+如果 Wiki 允许匿名访问，则您可以将帐户文本框保留为空。否则，请输入您的用户名和密码。
+如果您在 工具 - 选项 - %PRODUCTNAME 对话框的“安全”标签页启用了主密码功能，软件将储存您的密码，并在需要的时候自动插入数据。启用“保存密码”复选框可储存密码。
+

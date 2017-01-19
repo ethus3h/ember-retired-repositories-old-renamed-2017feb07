@@ -1,0 +1,31 @@
+
+MediaWiki-format
+Listan nedan ger en översikt över de textformat som kan laddas upp till wikiservern med Wiki Publisher.
+OpenDocument-formatet, som används i Writer, och MediaWiki-formatet är ganska olika. Endast vissa undergrupper av egenskaper kan överföras från det ena formatet till det andra.
+Rubriker
+Använd en rubrikformatmall under styckeformatmallarna till dina rubriker i Writer-dokumentet. På wikin visas rubrikformatmallarna för samma kapitelnivå, formaterade på det sätt som angetts i wikimotorn.
+Länkar
+Länkar i OpenDocument-format görs om till "externa" wikilänkar. Därför bör OpenDocument-formatets inbyggda länkningsfunktion endast användas för att länka till andra webbplatser utanför wikin. Använd wikilänkar om du vill länka till andra ämnen inom samma wikidomän.
+Listor
+Det går att exportera en lista korrekt om ett listformat används konsekvent genom hela listan. Skapa en lista med ikonen Punktuppställningstecken i Writer. Om du vill ha en lista utan numrering eller punkter går du till Format - Punktuppställningstecken, och anger och tillämpar respektive listformat.
+Stycken
+Justering
+Explicit textjustering bör inte användas i wikiartiklar. Det finns dock stöd för vänsterställd, centrerad och högerställd textjustering.
+Förformaterad text
+En styckeformatmall med ett teckensnitt med fast bredd omvandlas till förformaterad text. I wikin visas förformaterad text med en ram runt.
+Teckenformatmallar 
+Teckenformatmallar ändrar utseende på delar av ett stycke. Omvandlingen till wikiformat stöder fet, kursiv, fet + kursiv, nedsänkt och upphöjd text. Alla teckensnitt med fast bredd omvandlas till wikins skrivmaskinsstil.
+Fotnoter
+OBS! Vid omvandlingen används den nya sortens fotnoter med <ref>slut<references>taggar som kräver att paketet Cite.php har installerats på MediaWiki. Om taggarna visas som normal text på den omvandlade sidan, ber du den som administrerar wikin att installera paketet.
+Bilder
+Det går inte att exportera bilder med hjälp av omvandling och skapa en enskild wikitextfil. Om bilden däremot redan finns uppladdad till wikidomänen där du laddar upp filen (t.ex. WikiMedia Commons), skapas en bildtagg vid omvandlingen och bilden inkluderas. Det finns också stöd för bildtexter.
+Tabeller
+Enkla tabeller stöds också. Tabellrubriker återges i samma stil som motsvarande wikitabellrubriker. Anpassade format för tabellramar, kolumnstorlekar och bakgrundsfärger ignoreras dock.
+Kopplade celler
+OpenDocument och speciellt LibreOffice beskriver tabeller med sammanfogade celler som går över flera rader som tabeller inuti varandra. Wiki-modellen av en tabell deklarerar istället kolumn- och radområden för sådana sammanfogade celler.
+Om endast kolumner från samma rad kopplas, återger resultatet av omvandlingen källdokumentet väl.
+Inramning
+Utan hänsyn till skräddarsydda tabellstilar för kanter och bakgrund så exporteras en tabell alltid som "prettytable". Detta visas på wikin med enkla kanter och fet rubrik.
+Teckenuppsättningar och specialtecken
+Teckenuppsättningen för omvandlingsresultatet är fastställt till UTF-8. Beroende på systemet, är det här eventuellt inte standardteckenuppsättningen. Det här kan medföra att "specialtecken" kan få ett korrupt utseende när de visas med standardinställningar. Men du kan byta till UTF-8-kodning i redigeraren för att rätta till det här. Om du inte kan ändra kodning i redigeraren, kan du visa resultatet av omvandlingen i webbläsaren Firefox och byta till UTF-8-kodning där. Nu kan du klippa ut och klistra in omvandlingsresultatet i det program du föredrar.
+

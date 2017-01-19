@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+நீங்கள் Wiki Publisher ஐப் பயன்படுத்தி உங்கள் நடப்பு Writer உரை ஆவணத்தை MediaWiki சேவையகம் ஒன்றில் பதிவேற்ற முடியும். பதிவேற்றிய பிறகு, Wiki பயனர்கள் அனைவரும் Wiki இல் உங்கள் ஆவணத்தைப் படிக்க முடியும்.
+
+நடப்பு Writer ஆவணத்தை MediaWiki சேவையகத்திற்கு பதிவேற்ற கோப்பு - அனுப்பு - MediaWiki க்கு என்பதைத் தேர்வு செய்யவும்.
+கட்டகத் தேவைகள்
+ஜாவா ஓட்டநேரச் சூழல் 1.4
+
+ஒரு ஆதரவளிக்கப்பட்ட MediaWiki சேவையகத்திலுள்ள ஒரு விகி கணக்கு
+
+
+Wiki Publisher நிறுவப்படுகிறது
+Wiki Publisher ஐப் பயன்படுத்தும் முன்பு, %PRODUCTNAME ஒரு Java இயங்குநேரச் சூழலைப் (JRE) பயன்படுத்துகிறதா என நிச்சயித்துக்கொள்ளவும். JRE இன் நிலையைக் கண்டறிய, கருவிகள் - விருப்பங்கள் - %PRODUCTNAME - Java என்பதைத் தேர்வு செய்யவும். "ஒரு Java இயங்குநேரச் சூழலைப் பயன்படுத்து" என்பது தேர்வு செய்யப்பட்டுள்ளதா எனவும் பெரிய பட்டியல் பெட்டியில் Java இயங்குநேர கோப்புறை தேர்ந்தெடுக்கப்பட்டுள்ளதா எனவும் நிச்சயப்படுத்திக் கொள்ளவும். JRE செயல்படுத்தப்படாமல் இருந்தால், ஒரு JRE 1.4 அல்லது சமீபத்திய பதிப்பைச் செயல்படுத்தி %PRODUCTNAME ஐ மறுதொடக்கம் செய்யவும்.
+ஒரு விக்கிக்கு இணைக்க
+குறிப்பு: %PRODUCTNAME இல் உள்ள அந்தந்தத் தேவைக்கான அனைத்து உரையாடல்களின் பயனர் பெயரையும் கடவுச்சொல்லையும் நீங்கள் சேமிக்க முடியும். கடவுச்சொல் பாதுகாப்பான முறையில் வைக்கப்படும், இந்த முறையில் கடவுச்சொற்களுக்கான அணுகல் ஒரு மூலக் கடவுச்சொல்லால் நிர்வகிக்கப்படும். மூலக் கடவுச்சொல்லைச் செயல்படுத்த, கருவிகள் - விருப்பங்கள் - %PRODUCTNAME - பாதுகாப்பு என்பதைத் தேர்வு செய்யவும்.
+Note: If you connect to the web using a proxy server, enter the proxy information to Tools - Options - Internet - Proxy, and restart the software.
+Open a Writer document, and choose Tools - Options - Internet - MediaWiki.
+
+விருப்பங்கள் உரையாடலில், சேர் என்பதைக் கிளிக் செய்யவும்.
+
+MediaWiki உரையாடலில், Wiki க்கான கணக்கு விவரங்களை உள்ளிடவும்.
+
+
+In the URL textbox, enter the address of a Wiki that you want to connect to.
+நீங்கள் உலாவியிலிருந்து வலைச்சுட்டியை  நகலெடுத்து அதனை உரைப்பெட்டியில் ஒட்டலாம்.
+
+உங்கள் விகி கணக்கிற்கான பயனர் ID ஐ பயனர்பெயர் பெட்டியில் உள்ளிடுக.
+If the Wiki allows anonymous write access, you can leave the Username and Password boxes empty.
+
+In the Password box, enter the password for your Wiki account, then click OK.
+
+
+விரும்பினால் ஒவ்வொரு அமர்வுகளிலும் கடவுச்சொல்லைச் சேமிக்க "கடவுச்சொல்லைச் சேமி" அம்சத்தைச் செயல்படுத்தவும். சேமிக்கப்பட்ட அனைத்து கடவுச்சொற்களுக்கான அணுகலையும் நிர்வகிக்க ஒரு மூலக் கடவுச்சொல் பயன்படுத்தப்படுகிறது. மூலக் கடவுச்சொல்லைச் செயல்படுத்த கருவிகள் - விருப்பங்கள் - %PRODUCTNAME - பாதுகாப்பு என்பதைத் தேர்வு செய்யவும். மூலக் கடவுச்சொல்லை செயல்படுத்தாத போது "கடவுச்சொல்லைச் சேமி" அம்சம் கிடைக்க்காது.
+ஒரு புதிய விக்கி பக்கத்தை உருவாக்க
+ஒரு ரைட்டர் ஆவணத்தை திற.
+
+Wiki பக்கத்தின் உள்ளடக்கத்தை எழுதவும். உரை வடிவமைப்புகள், தலைப்புகள், அடிக்குறிப்புகள் போன்ற பல வடிவமைப்புகளைப் பயன்படுத்தலாம். ஆதரிக்கப்படும் வடிவமைப்புகளின் பட்டியலை பார்க்கவும்.
+
+Choose File - Send - To MediaWiki.
+
+MediaWiki க்கு அனுப்பு உரையாடலில், உங்கள் உள்ளீட்டுக்கான அமைப்புகளைக் குறிப்பிடவும்.
+
+
+MediaWiki server: விக்கியை தேர்ந்தெடு.
+Title: Type the title of your page. Type the title of an existing page to overwrite the page with your current text document. Type a new title to create a new page on the Wiki.
+Summary: Enter an optional short summary of your page.
+This is a minor edit: Check this box to mark the uploaded page as a minor edit of the already existing page with the same title.
+Show in web browser: Check this box to open your system web browser and show the uploaded Wiki page.
+அனுப்பு என்பதை சொடுக்கு
+
+
+

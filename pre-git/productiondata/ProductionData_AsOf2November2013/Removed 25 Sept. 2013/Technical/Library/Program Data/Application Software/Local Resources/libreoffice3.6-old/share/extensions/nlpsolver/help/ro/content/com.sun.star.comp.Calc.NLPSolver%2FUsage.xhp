@@ -1,0 +1,7 @@
+Rezolvator pentru probleme non lineare;Opțiuni
+
+Mod de utilizare
+Indiferent că utilizați DEPS sau SCO, din meniul Utilitare → Rezolvator trebuie pornit, și trebuie aleasă celula de optimizat, direcția de pornire (minimalizare, maximalizare), și celula care trebuie modificată la obținerea rezultatului. După acesta la Opțiuni puteți selecta rezolvatorul preferat, și în caz de nevoie se poate modifica parametri necesari.
+Cu lista de restrângeri se poate restrânge intervalul rezolvărilor posibile, sau unele stadii se pot penaliza. Cu toate că în cazul rezolvatorilor DEPS sau SCO, aceste restrângeri sunt folosite la setarea variabilelor problemei. Din natura aleatoare a algoritmilor este foarte recomandat să setați limita maximă și (dacă „Presupunerea variabilelor pozitive” este inactiv) setarea limitei minime la fiecare variabilă. Acestea nu trebuie să fie în apropierea rezultatului final (probabil necunoscut), dar aproximativ trebuie să semneze limitele rezultatului (0 ≤ variabilă ≤ 1 sau -1000000 ≤ variabilă ≤ 1000000).
+Pentru specificarea limitelor alegeți măcar o variabilă (ca interval) pe partea stângă și introduceți o valoarea numerică (nu celulă sau formulă) pe partea dreaptă. Așa puteți seta ca variabilele pot fi numai Întregi sau Binari.
+

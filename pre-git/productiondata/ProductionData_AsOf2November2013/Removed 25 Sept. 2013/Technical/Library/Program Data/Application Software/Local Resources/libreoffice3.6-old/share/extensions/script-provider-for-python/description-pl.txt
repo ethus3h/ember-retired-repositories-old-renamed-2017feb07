@@ -1,0 +1,1 @@
+Dodaj obsługę języka Python przez Scripting Framework, aby włączyć skrypty pythona w katalogach użytkownika i współdzielonych instalacji LibreOffice, oraz we wczytanych dokumentach.

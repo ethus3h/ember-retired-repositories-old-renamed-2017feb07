@@ -1,0 +1,2 @@
+Ekran za izlagača olakšava upravljanje tokom prezentacije jer možete videti naredni slajd, beleške i vreme dok publika vidi samo trenutni slajd.
+Kako vas ne bi zbunjivao komplikovanim sučeljem, ekran za izlagača prikazuje sadržaj u tri lako izmenjiva pogleda.

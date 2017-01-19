@@ -1,0 +1,2 @@
+A Presenter Console kiterjesztés az előadót segíti előadás közben. Saját monitorján láthatja a következő diát, az aktuális diához fűzött megjegyzéseket és az órát. A kivetítőn eközben csak az aktuális dia jelenik meg.
+Hogy ne legyen zavaróan túlzsúfolt az előadói konzol, három nézet közül lehet választani. A nézetek között könnyen át lehet váltani előadás közben.

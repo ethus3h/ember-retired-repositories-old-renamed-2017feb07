@@ -1,0 +1,7 @@
+Ei-lineaarisen yhtälöryhmien ratkaisin;Käyttö
+
+Käyttö
+Riippumatta siitä käytetäänkö DEPS- vai SCO-menetelmää, lähdetään liikkeelle Työkalut → Ratkaisin -toiminnolla. Valitaan optimoitava solu, optimoinnin suunta (minimointi tai maksimointi) ja solut, joita muokataan tavoitteen saavuttamiseksi. Lopuksi siirrytään asetuksiin ja valitaan käytettävä ratkaisin sekä tarvittaessa säädetään parameterit ohjeen mukaisesti.
+Ratkaisuja voi rajata asettamalla rajoitteita ratkaisun arvoille tai määrittämällä tiettyjä tilanteita ei-toivottaviksi. Evoluutioalgoritmeihin perustuvissa DEPS- ja SCO-ratkaisimissa rajoitteet määräävät myös ongelmaan liittyvien muuttujien arvoalueet. Koska nämä algoritmit perustuvat satunnaisuuteen, on erittäin suositeltavaa asettaa ylärajat (ja, mikäli "Oleta muuttujat ei-negatiivisiksi" ei ole valittuna, myös alarajat) kaikille muuttujille. Niiden ei tarvitse olla lähellä todellista optimiratkaisua (sitähän ei todennäköisesti tunneta), mutta niiden tulee antaa karkea vaihteluväli oletetulle optimiratkaisun arvolle (esimerkiksi 0 ≤ muuttuja ≤ 1 tai -1000000 ≤ muuttuja ≤ 1000000).
+Rajat asetetaan valitsemalla yksi tai useampia muuttujia vasemmalta ja syöttämällä lukuarvo (ei soluviitettä tai kaavaa) oikealle puolelle. Samalla voit rajata muuttujia kokonaisluvuiksi tai binääriarvoiksi.
+

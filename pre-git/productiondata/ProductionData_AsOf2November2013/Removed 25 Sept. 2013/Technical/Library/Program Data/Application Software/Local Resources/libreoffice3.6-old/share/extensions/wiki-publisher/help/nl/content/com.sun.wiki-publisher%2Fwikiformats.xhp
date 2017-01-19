@@ -1,0 +1,31 @@
+
+Opmaak voor MediaWiki
+De volgende lijst geeft een overzicht van de tekstopmaak die de Wiki Publisher kan uploaden naar de wiki-server.
+De OpenDocument-opmaak die wordt gebruikt door Writer en de WikiMedia-opmaak zijn zeer verschillend. Alleen een deelverzameling van alle mogelijkheden kan worden getransformeerd van de ene opmaak naar de andere.
+Koppen
+Pas een alinea-opmaakprofiel voor koppen toe op de koppen in uw Writerdocument. De wiki zal de kopstijlen het hetzelfde overzichtsniveau laten zien, opgemaakt zoals is gedefinieerd door de wiki-instellingen.
+Hyperlinks
+Eigen OpenDocument-hyperlinks worden getransformeerd naar "externe" wikikoppelingen. Daarom zou de ingebouwde mogelijkheid van OpenDocument alleen moeten worden gebruikt om koppelingen te maken die verwijzen naar andere sites buiten het wikiweb. Gebruik wikikoppelingen voor het maken van wikikoppelingen die verwijzen naar andere onderwerpen binnen hetzelfde wikidomein.
+Lijsten
+Lijsten kunnen vertrouwd worden geëxporteerd als de gehele lijst een consistent opmaakprofiel voor lijsten gebruikt. Gebruik het pictogram Nummering aan/uit of Opsommingstekens aan/uit om een lijst in Writer te genereren. In dien u een lijst zonder nummering of opsommingstekens nodig heeft, gebruikt u Opmaak - Nummering/opsommingstekens om een afzonderlijk opmaakprofiel voor lijsten te definiëren en toe te passen.
+Alinea's
+Uitlijning
+Expliciete tekstuitlijning zou niet in wiki-artikelen moeten worden gebruikt. Niet tegenstaande dat wordt tekstuitlijning ondersteund voor links, gecentreerd en rechts uitlijnen van tekst.
+Vooraf opgemaakte tekst
+Een alinea-opmaakprofiel met een lettertype met vaste breedte wordt  getransformeerd naar vooraf opgemaakte tekst. Vooraf opgemaakte tekst wordt op de wiki weergegeven met een rand rondom de tekst.
+Tekenopmaakprofielen
+Tekenopmaakprofielen passen de weergave van gedeelten van een alinea aan. De transformatie ondersteunt vet, cursief, vet/cursief, subscript en superscript. Alle lettertypen met vaste breedte worden getransformeerd naar het opmaakprofiel voor de wikitypemachine.
+Voetnoten
+Opmerking: De transformatie gebruikt het nieuwe opmaakprofiel voor voetnoten met de tags <ref> en <references> dat vereist dat de extensie Cite.php is geïnstalleerd in MediaWiki. Als deze tags als platte tekst verschijnen in het resultaat van de transformatie, vraagt u de wiki-administrator om deze extensie te installeren.
+Afbeeldingen
+Afbeeldingen kunnen niet worden geëxporteerd door een tansformatie die één enkel bestand of wikitekst produceert. Echter, als de afbeelding al is geüpload naar het doel-wikidomein (bijvoorbeeld WikiMedia Commons), dan produceert de transformatie een geldige tag voor de afbeelding, waarin die afbeelding is opgenomen. Bijschriften van afbeeldingen worden ook ondersteund.
+Tabellen
+Eenvoudige tabellen worden goed ondersteund. Tabelkoppen worden vertaald naar overeenkomstige opmaakprofielen voor tabelkoppen in wikistijl. Echter, gebruikergedefinieerde opmaak van tabelranden, kolomgrootten en achtergrondkleuren wordt genegeerd.
+Samengevoegde cellen
+OpenDocument en in het bijzonder LibreOffice maken tabellen, die samengevoegde cellen hebben die zich over meerdere rijen uitstrekken als tabellen met geneste tabellen. Tegengesteld daaraan dient in het wikimodel van een tabel de overspanning van kolommen en rijen te worden gedeclareerd voor zulke samengevoegde cellen.
+Indien alleen kolommen van dezelfde rij worden samengevoegd, lijken het resultaat van de transformatie en het brondocument goed op elkaar.
+Randen
+Ongeacht de gebruikergedefinieerde tabelopmaak voor randen en achtergrond wordt een tabel altijd geëxporteerd als "prettytable", wat er in de wikimachine uitziet als eenvoudige randen en vette kop.
+Tekenset en speciale tekens
+De tekenset van het transformatieresultaat is vastgesteld op UTF-8. Dit zou, afhankelijk van uw systeem, niet de standaard tekenset behoeven te zijn. Dit zou er toe kunnen leiden dat "speciale tekens" er verminkt uitzien als zij worden bekeken met standaardinstellingen. U kunt echter uw tekstbewerker omschakelen naar UTF-8-codering om dit te repareren. Als uw tekstbewerker het omschakelen van de codering niet ondersteunt, kunt u het resultaat van de transformatie weergeven in de browser Firefox en dan daar de codering omschakelen naar UTF-8. Nu kunt u met knippen en plakken het resultaat van de transformatie overbrengen naar het programma van uw keuze.
+

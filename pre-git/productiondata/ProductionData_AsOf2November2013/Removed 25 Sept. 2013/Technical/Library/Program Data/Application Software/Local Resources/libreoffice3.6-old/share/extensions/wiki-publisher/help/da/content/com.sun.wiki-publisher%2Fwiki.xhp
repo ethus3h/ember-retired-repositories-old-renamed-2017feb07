@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+udvidelser;MediaWiki
+
+Wiki Publisher
+Ved at bruge Wiki Publisher kan du sende dit aktuelle tekstdokument til en MediaWiki-server. Efter det er sendt, kan alle Wiki-brugere læse dit dokument på Wikien.
+
+Vælg Filer - Send - Til MediaWiki for at sende dit aktuelle dokument til en MediaWiki-server.
+Systemkrav
+Java-afviklingsmiljø
+
+En Wiki-konto på en understøttet MediaWiki-server
+
+
+Installerer Wiki Publisher
+Før du bruger Wiki Publisher skal du sikre, at %PRODUCTNAME bruger et Java Runtime Environment (Java-afviklingsmiljø, JRE). For at kontrollere status for JRE skal du vælge Funktioner - Indstillinger - %PRODUCTNAME - Java. Sørg for, at "Anvend et Java-afviklingsmiljø" er markeret, og at en Java-afviklingsmappe er valgt i det store listefelt. Hvis intet JRE blev aktiveret skal du aktivere et JRE, version1.4 eller senere, og genstarte %PRODUCTNAME.
+For at forbinde til en Wiki
+Bemærk: Du kan gemme dit brugernavn og adgangskode for alle dialoger inde i %PRODUCTNAME. Adgangskoden vil blive opbevaret på en sikker måde, hvor adgang til adgangskoden er sikret af din hovedadgangskode. For at aktivere hovedadgangskoden skal du vælge Funktioner - Indstillinger - %PRODUCTNAME - Sikkerhed.
+Bemærk: Hvis du har adgang til internettet ved hjælp af en proxyserver, intast da proxyinformation i Funktioner - Indstillinger - Internet - Proxy, og genstart programmet.
+Åbn et Writerdokument og vælg Funktioner - Indstillinger - Internet - MediaWiki.
+
+klik Tilføj i dialogen Indstillinger .
+
+Indtast kontooplysningerne for Wiki'en i dialogen MediaWiki.
+
+
+I URL-tekstboksen, indtast adressen for en Wiki, som du vil forbinde til.
+Du kan kopiere URLen fra en webbrowser og indsætte den i tekstboksen.
+
+I boksen Brugernavn, indtast dit brugerID for din Wiki konto.
+Hvis Wikien tillader anonym skriveadgang, kan du efterlade boksene Brugernavn og Adgangskode tomme.
+
+I boksen Adgangskode, indtast adgangskoden for din Wiki konto, og klik så OK.
+
+
+Aktiver eventuelt "Gem adgangskode" for at gemme adgangskoden fra session til session. En hovedadgangskode bruges til at sikre adgangen til alle de gemte adgangskoder. Vælg Funktioner - Indstillinger - %PRODUCTNAME - Sikkerhed for at aktivere hovedadgangskoden. "Gem adgangskode" er ikke tilgængelig, så længe hovedadgangskoden ikke er aktiveret.
+For at oprette en ny Wiki-side
+Åbner et Writer dokument.
+
+Skriv indholdet af wikisiden. Du kan bruge formatering såsom tekstformatering, overskrifter, fodnoter m.m.. Se listen over understøttede formateringer.
+
+Vælg Filer - Send - Til MediaWiki.
+
+I dialogen Send til MediaWiki kan du angive indstillingerne for dit indlæg.
+
+
+MediaWiki-server: Marker Wikien.
+Titel:Skriv titlen på din side. Skriv titlen på en eksisterende side for at overskriv siden med dit aktuelle tekstdokument. Skriv en ny titel for at oprette en ny side på Wikien.
+Sammenfatning:Skriv en valgfri kort opsummering af din side.
+Dette er en mindre ændring:Kryds dette felt af for at markere den sendte side som som en mindre ændring af den allerede eksisterende side med samme titel.
+Vis i webbrowser:Kryds dette felt af for at åbne din webbrowser og vise den sendte Wikiside.
+Klik Accepter.
+
+
+

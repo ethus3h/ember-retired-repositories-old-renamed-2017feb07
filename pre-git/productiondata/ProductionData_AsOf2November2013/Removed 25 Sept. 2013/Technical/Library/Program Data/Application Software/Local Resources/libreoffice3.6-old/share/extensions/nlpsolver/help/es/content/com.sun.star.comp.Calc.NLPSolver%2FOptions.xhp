@@ -1,0 +1,96 @@
+Solucionador de problemas no lineales;Opciones
+
+Opciones generales
+Tamaño del enjambre
+
+… define el numero de individuos que participan en el proceso de aprendizaje. Cada individuo encuentra sus propias soluciones y contribuye al conocimiento general.
+
+
+Ciclos de aprendizaje
+
+… define el número de iteraciones que debe realizar el algoritmo. En cada iteración todos los individuos estiman la mejor solución y comparten sus conocimientos.
+
+
+Estimación de los límites de la variable
+
+Si está activada (opción predeterminada), el algoritmo intenta encontrar los límites de la variable a partir de los valores iniciales.
+
+
+Umbral de los límites de la variable
+
+Cuando se estiman los límites de la variable, este umbral especifica de qué manera los valores iniciales se modifican para construir los límites. Para ver un ejemplo que muestra cómo se calculan estos valores, refiérase al manual disponible en la wiki.
+
+
+Utilizar el comparador ACR
+
+Cuando está deshabilitado (predeterminado), se usa el comparador BCH. Compara dos individuos tomando en cuenta primero sus violaciones de las restricciones, y únicamente cuando éstas son iguales, mide sus soluciones actuales.
+Cuando está activado, se usa el comparador ACR. Compara dos individuos que dependen de la iteración actual y mide sus niveles de calidad utilizando el conocimiento que posee la biblioteca sobre las peores soluciones conocidas (en cuanto a sus violaciones de las restricciones).
+
+
+Usar un punto de inicio aleatorio
+
+Cuando está activado, la biblioteca se rellena con puntos seleccionados al azar.
+Cuando está deshabilitado, los valores presentes (según los ha introducido el usuario) se insertan en la biblioteca como puntos de referencia.
+
+
+Límite de estancamiento
+
+Si esta cantidad de individuos encuentra soluciones dentro de un intervalo ajustado, la iteración se detiene y el mejor de estos valores se elige como valor óptimo.
+
+
+Tolerancia de estancamiento
+
+Define en qué intervalo las soluciones se consideran “similares”.
+
+
+Mostrar el estado detallado del solucionador
+
+Cuando está activado, se muestra un cuadro de diálogo adicional durante el proceso de resolución en el cual se brinda información sobre el progreso actual, el nivel de estancamiento y la mejor solución conocida hasta ahora, y que también otorga la posibilidad de detener y reanudar el solucionador.
+
+
+
+Opciones específicas de DEPS
+Tasa de cambio del agente
+
+Especifica la probabilidad de que un individuo escoja la estrategia de "evolución diferencial" (DE).
+
+
+DE: Probabilidad de cruce
+
+... define la probabilidad de que se combine al individuo con el mejor punto global. Si no se usa el cruce, el punto se construye desde la propia memoria del individuo.
+
+
+DE: Factor de escala
+
+Durante el cruce, el factor de escala decide la "velocidad" del movimiento.
+
+
+PS: Coeficiente de constricción
+
+... define la velocidad con la cual las partículas/individuos se mueven hacia otra.
+
+
+PS: Constante cognitiva
+
+... establece la importancia de la memoria propia (particularmente el mejor punto alcanzado hasta ahora).
+
+
+PS: Constante social
+
+... establece la importancia del mejor punto global entre todas las particulas/individuos.
+
+
+PS: Probabilidad de mutación
+
+... define la probabilidad con la cual, en vez de mover un componente de la particula hacia el mejor punto, se selecciona aleatoriamente un nuevo valor dentro del intervalo de valores válidos de esa variable.
+
+
+
+Opciones específicas de SCO
+Tamaño de la biblioteca
+
+... define la cantidad de información que se almacenará en la biblioteca pública. Cada individuo almacena allí su conocimiento y solicita información.
+
+
+
+

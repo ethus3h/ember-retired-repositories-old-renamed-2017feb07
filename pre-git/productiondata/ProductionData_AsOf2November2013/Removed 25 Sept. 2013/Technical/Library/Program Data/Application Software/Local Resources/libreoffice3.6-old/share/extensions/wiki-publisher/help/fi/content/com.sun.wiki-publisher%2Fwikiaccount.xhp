@@ -1,0 +1,15 @@
+
+MediaWiki
+MediaWiki-valintaikkunassa lisätään tai muokataan MediaWiki-tilin asetuksia.
+
+Kirjoita MediaWiki-palvelimen URL-osoite aloittaen http://
+
+Kirjoita MediaWiki-palvelimen käyttäjätunnuksesi. Nimettömästi käyttäessäsi jätä tyhjäksi.
+
+Kirjoita MediaWiki-palvelimen salasanasi. Nimettömästi käyttäessäsi jätä tyhjäksi.
+
+Sallitaan salasanan säilöminen istuntojen välillä. Pääsalasana pitää olla käytössä, katso Työkalut - Asetukset - %PRODUCTNAME - Suojaus.
+Syötetään Wiki-palvelimen Internet-osoite muodossa http://wiki.documentfoundation.org tai kopioidaan URL-osoite www-selaimesta.
+Jos Wiki-sivusto sallii nimettömänä kirjoittamisen, tilin eli tunnuksen tekstiruudut voi jättää tyhjiksi. Muutoin syötetään käyttäjätunnus ja salasana.
+Jos pääsalasana-ominaisuus on otettu käyttöön Työkalut - Asetukset - %PRODUCTNAME -valintaikkunan Suojaus-välilehdellä, niin ohjelmisto voi säilöä salasanan ja automaattisesti lisätä tiedot tarvittaessa. Merkitään "Tallenna salasana" -valintaruutu salasanan säilömiseksi.
+

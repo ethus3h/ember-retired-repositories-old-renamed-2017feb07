@@ -1,0 +1,7 @@
+Solver dla nieliniowych problemów;Użycie
+
+Użycie
+Niezależnie od tego, czy używany jest DEPS czy SCO, zaczynasz od menu Narzędzia → Solver i wskazujesz komórkę do zoptymalizowania, kierunek (minimalizacja, maksymalizacja) i komórki które mają zostać zmodyfikowane, aby osiągnąć cel. Następnie wejdź w Opcje i wskaż Solver, który ma zostać użyty i jeśli jest to wymagane, dostosuj stosowneparametry.
+Jest tam również lista ograniczeń, których można użyć, aby zawęzić zakres rozwiązań lub wykluczyć pewne warunki. Natomiast, w odniesieniu do solverów ewolucyjnych DEPS i SCO, te ograniczenia są również wykorzystywane do określania granic zmiennych problemu. Ze względu na losowy charakter algorytmów, jest wysoce zalecane, aby to zrobić i wskazać górną (i jeśli opcja "Założenie nieujemnych zmiennych" jest wyłączona, również dolną) granicę wszystkich zmiennych. Nie powinny one być bliskie rzeczywistemu rozwiązaniu (które jest prawdopodobnie nieznane), ale powinny być twardym ograniczeniem oczekiwanej wielkości (0 ≤ zmienna ≤ 1 lub, może -1000000 ≤ zmienna ≤ 1000000).
+Granice określa się wybierają jedną lub więcej zmiennych (jako zakres) z lewej strony i wprowadzając wartość numeryczną (nie komórkę lub formułę) z prawej. W ten sposób, można również wybrać jedną lub więcej zmiennych będących wyłącznie liczbą całkowitą lub binarną.
+

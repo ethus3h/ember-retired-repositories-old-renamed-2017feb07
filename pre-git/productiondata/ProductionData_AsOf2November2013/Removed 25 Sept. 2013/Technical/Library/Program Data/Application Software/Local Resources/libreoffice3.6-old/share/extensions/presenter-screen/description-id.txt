@@ -1,0 +1,2 @@
+Ekstensi Konsol Penyaji menyediakan kendali lebih atas penyajian salindia Anda, seperti misalnya kemampuan untuk melihat slide selanjutnya, catatan slide, dan pewaktu presentasi, sementara pemirsa hanya melihat slide kini.
+Untuk menghindari kebingungan karena menampilkan sejumlah besar elemen presentasi, Konsol Penyaji menampilkan elemen pada tiga tilikan berbeda yang dapat diubah dengan mudah.

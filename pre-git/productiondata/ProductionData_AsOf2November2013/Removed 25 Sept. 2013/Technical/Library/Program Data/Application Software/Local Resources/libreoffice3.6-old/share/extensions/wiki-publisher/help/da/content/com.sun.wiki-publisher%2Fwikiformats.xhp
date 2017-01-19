@@ -1,0 +1,31 @@
+
+MediaWiki formater
+Den følgende liste giver et overblik over tekstformater, som Wiki Publisher kan sende til Wiki-serveren.
+OpenDocument-formatet brugt af Writer og WikiMedia-formatet er ret forskellige. Kun en delmængde af alle egenskaber kan omdannes fra det ene format til det andet.
+Overskrifter
+Anvend en overskriftstypografi til overskrifterne i dit Writerdokument. Wikien vil vise overskriftstypografierne for det samme dispositionsniveau formateret som defineret af wiki-maskinen.
+Hyperlinks
+OpenDocument hyperlinks konverteres til "eksterne" wiki-links. Derfor bør den indbyggede link-funktion i OpenDocument kun bruges til at oprette links,  som peger på eksterne lokationer udenfor wikien. For at oprette wiki-links, som peger på emner indenfor wikiens domæne, bruges wiki-links.
+Lister
+Lister kan eksporteres pålideligt, hvis hele liste bruger en konsistent listetypografi. Brug nummererings- eller punktopstillingsikonet for at opstille en liste i Writer. Hvis du har brug for en liste uden nummererings- eller eller punkttegn, brug Formater - Punktopstilling for at definere og anvende den ønskede listetypografi.
+Afsnit
+Justering
+Eksplicit tekstjustering bør ikke bruges i wiki-artikler; dog er venstre- højre- og centerstilling af tekst understøttet.
+Præformateret tekst
+En afsnitstypografi med fastbredde-skrifttype konverteres til præformateret tekst. Præformateret tekst vises på den wikien med en ramme omkring teksten.
+Tegntypografier
+Tegntypografier modificerer udseendet for dele af et afsnit. Konverteringen understøtter fed, kursiv, fed/kursiv, sænket skrift og hævet skrift. Alle fastbredde-skrifttyper konverteres til Wiki-typografien Typewriter.
+Fodnoter
+Bemærk: konverteringen bruger den nye typografi for fodnoter med <ref>- og <references>-mærkater , som kræver udvidelsen Cite.php installeret i MediaWiki. Hvis disse mærkater forekommer som simpel tekst i konverteringsresultatet, bør du bede den wiki-administratoren om at installere denne udvidelse.
+Billeder
+Billeder kan ikke eksporteres med en konvertering, der producerer en enkelt fil med wiki-tekst. Der vil dog, hvis billedet allerede er uploadet til wiki-domænet (f. eks. WikiMedia Commons), dannes en gyldig billedmærkat som indeholder billedet. Billedtekster er også understøttet.
+Tabeller
+Simple tabeller er godt understøttede. Tabelhoveder oversættes til tilsvarende wiki-tabelhoveder. Dog ignoreres brugerdefineret formatering af tabelrammer, kolonnebredder og baggrundsfarver.
+Flettede celler
+OpenDocument og især LibreOffice repræsenterer tabeller med sammenknyttede celler, der spænder over rækker, som tabeller med indlejrede tabeller. I modsætning hertil er wiki-modellen for tabeller at definere søjler og rækker, der spænder over sådanne sammenknyttede celler.
+Hvis kun kolonner af samme række er forenet, vil resultatet af konverteringen ligne kildedokumentet meget.
+Kanter
+uanset tilpassede tabeltypografier for kanter og baggrund, eksporteres en tabel altid som "prettytable", som vises i Wiki'en med simple kanter og fed overskrift.
+Tegnsæt og specialtegn
+Konverteringsresultatets tegnsæt vil altid være UTF-8. Afhængigt af dit system kan dette være forskelligt fra standardtegnsættet. Det kan forårsage, at visse tegn bliver vist forkert i en editor, når det vises med standardindstillinger. Formentlig kan du dog nemt ændre indstillingen for din editor til UTF-8-tegnsæt og dermed løse problemet. Hvis din editor ikke understøtter ændring af tegnsæt, kan du kan få vist resultatet af konverteringen i Firefox-browseren ved at skifte tegnsæt til UTF-8 der. Derefter kan du kopiere og indsætte resultatet i din editor.
+

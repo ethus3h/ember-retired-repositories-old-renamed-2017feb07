@@ -1,0 +1,2 @@
+Rozšírenie Obrazovka prednášajúceho umožňuje rozšírené ovládanie prezentácie snímok, ako napríklad možnosť zobraziť nasledujúcu snímku, poznámky snímky a časovač prezentácie, pričom obecenstvo vidí len snímku.
+Aby sa vylúčili nejasnosti, ktoré by mohli vyplynúť zo zobrazovania veľkého množstva prvkov prezentácie, Obrazovka prednášajúceho zobrazuje prvky v troch navzájom zameniteľných náhľadoch.

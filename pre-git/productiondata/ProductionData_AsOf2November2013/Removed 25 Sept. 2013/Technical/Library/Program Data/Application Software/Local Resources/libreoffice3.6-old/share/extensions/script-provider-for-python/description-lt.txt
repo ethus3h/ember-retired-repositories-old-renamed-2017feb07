@@ -1,0 +1,1 @@
+Pridedamas „Python“ suderinamumas, kad „LibreOffice“ aplankuose „user“ ir „share“ bei įkeliamuose dokumentuose būtų galima naudoti „Python“ scenarijus.

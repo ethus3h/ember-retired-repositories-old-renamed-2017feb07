@@ -1,0 +1,1 @@
+Hinzufügen von Unterstützung für Python über das Scripting Framework, um die Ausführung von Python-Skripten in Benutzer- und Freigabe-Verzeichnissen einer LibreOffice-Installation und in geladenen Dokumenten zu ermöglichen.

@@ -1,0 +1,2 @@
+A extensão Consola do apresentador disponibiliza um melhor controlo sobre as suas apresentações, tais como a possibilidade de ver o diapositivo seguinte, as notas e um cronómetro não visível pela audiência.
+Para evitar a confusão ao exibir os diversos elementos da apresentação, a extensão disponibiliza três visualizações distintas.

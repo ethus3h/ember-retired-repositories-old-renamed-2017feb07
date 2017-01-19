@@ -1,0 +1,1 @@
+Python betiklerini, LibreOffice kurulumunun kullanıcı ve paylaşımlı sözlüklerde ve ayrıca yüklenen belgelerde kullanılabilir kılmak için Python'a Betik Çatısı(Scripting Framework) desteği ekle.

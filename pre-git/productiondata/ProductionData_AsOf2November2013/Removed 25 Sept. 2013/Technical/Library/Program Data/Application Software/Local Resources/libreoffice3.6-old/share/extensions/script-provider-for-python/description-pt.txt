@@ -1,0 +1,1 @@
+Adicionar suporte a Python, utilizando a "Scripting Framework", para ativar os <i>scripts</i> Python e partilhar diretórios da instalação LibreOffice e a documentos carregados.

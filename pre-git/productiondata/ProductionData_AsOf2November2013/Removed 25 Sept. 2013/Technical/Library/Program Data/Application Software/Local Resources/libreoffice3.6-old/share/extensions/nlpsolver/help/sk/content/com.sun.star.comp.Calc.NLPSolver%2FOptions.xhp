@@ -1,0 +1,96 @@
+Riešič nelineárnych problémov;Možnosti
+
+Všeobecné možnosti
+Veľkosť populácie
+
+… určuje počet jedincov, ktorí sa zúčastnia procesu učenia. Každý jedinec hľadá vlastné riešenie a prispieva k celkovej znalosti.
+
+
+Učiace cykly
+
+… určuje počet iterácií, ktoré algoritmus vykoná. V každej iterácii všetci jedinci odhadujú najlepšie riešenie a poskytujú svoje znalosti.
+
+
+Odhad hraničných hodnôt premenných
+
+Ak je zapnuté (prednastavené nastavenie), algoritmus sa snaží nájsť hraničné hodnoty premenných na základe počiatočných hodnôt.
+
+
+Medzné hodnoty hraničných hodnôt premenných
+
+Pri odhade hraničných hodnôt premenných medzná hodnota určuje, ako budú posúvané počiatočné hodnoty. Príklad, ako sa tieto hodnoty počítajú, nájdete v manuáli na Wiki stránke.
+
+
+Použiť porovnávač ACR
+
+Ak nie je povolené (predvolená hodnota), použije sa komparátor BCH. Ten porovná dve indivíduá tak, že skontroluje ich ohraničenia a len ak sú rovnaké, zhodnotí ich aktuálne riešenie.
+Ak je povolené, použije sa komparátor ACR.  Ten porovnáva dva prvky na základe aktuálnej iterácie a meria ich kvalitu porovnávaním s najhoršími riešeniami z databázy (vzhľadom na narušenie ohraničenia)
+
+
+Použiť náhodný štartovací bod
+
+Ak je povolené, knižnica sa zaplní náhodne vybranými bodmi.
+Ak nie je povolené, aktuálne hodnoty (tak ako boli zadané používateľom) sa vložia do knižnice ako referenčné body.
+
+
+Hranica stagnácie
+
+Ak tento počet indivíduí nájde navzájom blízke riešenie, tak iteračný proces sa ukončí a najlepšia z týchto hodnôt sa vyberie ako optimálna. 
+
+
+Tolerancia stagnácie
+
+Definuje rozsah, v ktorom sú riešenia považované za "podobné".
+
+
+Ukázať rozšírený status riešiča
+
+Ak je zapnuté, tak počas procesu riešenia sa otvorí dialógové okno, ktoré zobrazí informácie o priebehu riešenia, o úrovni stagnácie o aktuálne najlepšom riešení a súčasne umožní zastavenie procesu.
+
+
+
+Možnosti špecifické pre DEPS
+Rýchlosť prepínania agenta
+
+Pre indivíduum zadáva pravdepodobnosť výberu diferenciálnej evolučnej stratégie
+
+
+DE: pravdepodobnosť kríženia
+
+... pre indivíduum zadáva pravdepodobnosť kombinácie s globálne najlepším bodom. Ak sa kríženie nepoužíva, tak bod sa vytvorí z vlastnej pamäte indivídua.
+
+
+DE: škálovací koeficient
+
+Počas kríženia škálovací koeficient rozhoduje o "rýchlosti" pohybu.
+
+
+PS: koeficient zmršťovania
+
+... definuje rýchlosť, s ktorou sa častice/indivíduá pohybujú k sebe.
+
+
+PS: kognitívna konštanta
+
+... nastavuje významnosť vlastnej pamäte (najmä doposiaľ najlepší dosiahnutú bod).
+
+
+PS: sociálna konštanta
+
+... nastavuje významnosť najlepšieho bodu medzi všetkými časticami/indivíduami.
+
+
+PS: pravdepodobnosť mutácie
+
+... definuje pravdepodobnosť, že namiesto pohybu smerom k najlepšiemu budu, sa častici priradí náhodná hodnota z rozsahu hodnôt platných pre danú premennú.
+
+
+
+Možnosti špecifické pre SCO
+Veľkosť knižnice
+
+... definuje množstvo informácií na uloženie vo verejnej knižnici. Každé indivíduum sem ukladá znalosti a žiada odtiaľto informácie.
+
+
+
+

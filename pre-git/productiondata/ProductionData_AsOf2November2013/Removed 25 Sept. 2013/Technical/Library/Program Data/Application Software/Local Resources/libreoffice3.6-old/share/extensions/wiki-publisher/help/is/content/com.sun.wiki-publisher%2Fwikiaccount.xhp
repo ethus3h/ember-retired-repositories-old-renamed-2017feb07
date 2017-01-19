@@ -1,0 +1,15 @@
+
+MediaWiki
+Notaðu MediaWiki-gluggann til að bæta við eða breyta stillingum á MediaWiki-aðgöngum.
+
+Settu inn slóð á MediaWiki-þjón, slóð sem byrjar með http://
+
+Settu inn notandanafnið þitt á MediaWiki-þjóninum. Hafðu þetta autt fyrir nafnlausan aðgang (anonymous).
+
+Settu inn lykilorðið þitt á MediaWiki-þjóninum. Hafðu þetta autt fyrir nafnlausan aðgang (anonymous).
+
+Virkjaðu að geyma lykilorð á milli lota. Aðallykilorðið verður að vera virkt, kíktu á Verkfæri - Valkostir - %PRODUCTNAME - Öryggi.
+Sláðu inn vefslóð fyrir Wiki-þjón á sniðinu http://wiki.documentfoundation.org eða afritaðu slóðina frá vafra.
+Ef wiki-vefurinn leyfir nafnlausan aðgang, getuðu skilið textareitina fyrir aðgangsupplýsingar eftir auða. Annars seturðu inn notandanafn og lykilorð.
+Ef þú ert búin(n) að virkja aðallykilorð á flipanum Öryggi undir Verkfæri - Valkostir - %PRODUCTNAME glugganum, Þá getur hugbúnaðurinn geymt fyrir þig lykilorðið og sett það inn þegar á þarf að halda. Virkjaðu þarna "Vista lykilorð" reitinn til að geyma lykilorðið.
+

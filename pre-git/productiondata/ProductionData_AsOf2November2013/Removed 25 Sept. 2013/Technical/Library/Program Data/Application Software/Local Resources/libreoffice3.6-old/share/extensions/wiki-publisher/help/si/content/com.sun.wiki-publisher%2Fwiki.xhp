@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+Wiki Publisher භාවිතයෙන් ඔබගේ වත්මන් රයිටර් ‍පෙළ ලේඛණය ඔබට මීඩියාවිකි සේවාදායකයකට අපගත කල හැක. අපගත කිරීමෙන් පසු, විකියේ සියළු විකි පරිශීලකයන් හට ඔබගේ ලේඛනය කියවිය හැක.
+
+වර්තමාන රයිටර් ලේඛනය මීඩියාවිකි සේවාදායකයක් වෙත අපගත කිරීමට File - Send - To MediaWiki තෝරන්න.
+පද්ධති අවශ්‍යතා
+Java Runtime Environment
+
+MediaWiki සේවාදායකය අනුග්‍රහ ඇති විකි ගිණුමක්.
+
+
+Wiki Publisher ස්ථාපනය වෙමින්
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+විකියට සම්බන්ධ වෙන්න වීමට
+සටහන: ඔබගේ පරිශීලක නම සහ මුරපදය %PRODUCTNAME ට අදාල සියළු කවුළු සඳහා ගබඩා කල හැක. මුරපදය ප්‍රධාන මුරපදය මගින් පරිශීලනය අාරක්ෂා කරන සුරක්ෂිත ක්‍රමයෙන් ගබඩා වනු ඇත. ප්‍රධාන මුරපදය සක්‍රිය කිරීමට, Tools - Options - %PRODUCTNAME - Security. තෝරන්න.
+සටහන: ඔබ අන්තර්ජාලයට සම්බන්ධවන්නේ ප්‍රොක්සි සේවාදායකයක් හරහා නම් Tools - Options - Internet - Proxy වෙත ප්‍රොක්සි තොරතුරු ඇතුලත් කර මෘදුකාංගය නැවත අරඹන්න.
+Open a Writer document, and choose Tools - Options - Internet - MediaWiki.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+ඔබට සම්බන්ධ වීමට අවශ්‍ය විකියේ ලිපිනය URL පාඨකොටුව තුලට ඇතුලත් කරන්න.
+ඔබට වෙබ් බ්‍රවුසරයෙන් URL පිටපත් කර textbox තුලට ඇලවීම කල හැක
+
+Username  කොටුව තුල ඔබේ ඔබේ විකි ‍ගිණුම සඳහා වූ පරිශීලක ID ඇතුලත් කරන්න.
+විකිය නිර්නාමික ලිවීමේ ප්‍රවේශ අනුමත කරයි නම්, ඔබට පරිශීලක නම සහ මුරපද කොටු හිස්ව තැබිය හැක.
+
+මුරපද කොටුව තුල, ඔබගේ විකි ගිණුම සඳහා වූ මුරපදය ඇතුලත් කරන්න. ඉන්පසු OK ක්ලික් කරන්න.
+
+
+සැසි අතර මුරපදය සුරැකීමට "Save password" විකල්පය සක්‍රිය කරන්න. සියළු සුරකින ලද මුරපද ආරක්ෂා කිරීමට ප්‍රධාන මුරපදයක් භාවත කරයි. ප්‍රධාන මුරපදය සක්‍රිය කිරීමට Tools - Options - %PRODUCTNAME - Security තෝරන්න. ප්‍රධාන මුරපදය සකසා ‍නොමැති විට "Save password" භාවිතයට නොමැත.
+නව විකි පිටුවක් සාදන්න
+රයිටර් ලේඛනයක් විවෘත කරන්න.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+File - Send - To MediaWiki තෝරන්න.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+MediaWiki සේවාදායක: විකිය තෝරන්න.
+මාතෘකාව: ඔබේ පිටුවේ මාතෘකාව යතුරුලියනය කරන්න. ඔබේ වර්තමාන පාඨ ලේඛනය සමග පිටුව මතලිවීමට පවත්නා පිටුවේ මාතෘකාව යතුරුලියනය කරන්න.
+සාරාංශයර: ඔබගේ පිටුවේ විකල්ප කෙටි සාරාංශයක් ඇතුළු කරන්න.
+මෙය සුළු සැකසීමකි: එකම මාතෘකා සහිත දැනට පවත්නා අපගත පිටු සුළු සැකසීම් ලෙස සලකුණු කිරීමට  මෙම කොටුව සලකුණු කරන්න.
+අන්තර්ජාල ගවේශකය තුල පෙන්වන්න: ඔබේ පද්ධතියේ අන්තර්ජාල ගවේශකය විවෘත කර අපගත කල විකි පිටුව පෙන්විමට මෙම කොටුව සලකුණු කරන්න.
+යවන්න ක්ලික් කරන්න.
+
+
+

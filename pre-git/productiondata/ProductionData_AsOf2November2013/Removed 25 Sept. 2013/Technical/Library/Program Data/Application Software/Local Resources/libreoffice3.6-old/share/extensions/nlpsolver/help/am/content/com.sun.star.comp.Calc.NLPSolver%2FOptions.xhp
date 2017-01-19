@@ -1,0 +1,96 @@
+ቀጥተኛ ላልሆነ ችግር መፍትሄ ሰጪ ; ምርጫዎች 
+
+ባጠቃላይ ምርጫዎች
+የመንጋው መጠን
+
+… የእያንዳንዱን ተሳታፊ ቁጥር በመማሪያ ሂደት ውስጥ ይወስናል ፡ እያንዳንዱ ተሳታፊ የራሱን መፍትሄ ያገኛል እና ለጠቅላላ እውቀት የበኩሉን አስተዋፅኦ ያበረክታል
+
+
+የመማሪያ ሂደቶች
+
+… የድግግሞሽ ቁጥርን መግለጫ ፡ algorithm የሚወሰደውን ፡ በየአንዳንዱ ድግግሞሽ ፡ ሁሉም ግለሰቦች ጥሩውን መፍትሄ ይገምታሉ እና እውቀትን ይካፈላሉ
+
+
+ተለዋዋጭ መዝለያ መገመቻ
+
+ካስቻሉት (በነባር) algorithm ተለዋዋጭ መዝለያዎችን ለማግኘት ይሞክራል ፡ የመጀመሪያ ዋጋዎችን በመመልከት
+
+
+የተለዋዋጭ መዝለያ መግቢያዎች
+
+ተለዋዋጭ መዝለያ በሚገምቱ ጊዜ ፡ ይህ መግቢያ የሚወስነው የመጀመሪያው ዋጋ ለግንባታ መዝለያ እንዴት እንደተቀየረ ነው ፡ ለምሳሌ እነዚህ ዋጋዎች እንዴት እንደሚሰሉ ፡ እባክዎን የዊኪን መመሪያ ይመልከቱ
+
+
+Use ACR Comparator
+
+ይህ ከተሰናከለ (በነባር), የ BCH Comparator is used. ሁለት ግለሰቦችን ያወዳድራል በመጀመሪያ ግዴታ የጣስውን እና እነዚህ እኩል ከሆኑ የአሁኑን ሁኔታ ይለካል
+ይህ ከተቻለ, የ ACR Comparator is used. ሁለት ግለሰቦችን ያወዳድራል ጥገኛ የሆኑ በአሁኑ ድግግሞሽ እና መለከያዎች ፡ ጥሩነታቸውን እውቀታቸውን ስለ መጻህፍት ቤት መጥፎ መፍትሄ (ቋሚ የማያቋርጥ ህግ መጣስ).
+
+
+በነሲብ የመጀመሪያ ነጥብ መጠቀሚያ
+
+ይህን ካስቻሉ መጻህፍት ቤቱ በነሲብ በተመረጡ ነጥቦች ይሞላል
+ይህን ካሰናከሉት አሁን ያሉት ዋጋዎች (በተጠቃሚው የሚሰጠው) በመጻህፍት ቤቱ ውስጥ እንደ መነሻ ነጥብ ይገባሉ
+
+
+የማስተኛ መጠን
+
+ይህን ያህል ቁጥር ያላቸው ሰዎች በተቀራረበ መጠን መፍትሄውን ካገኙ ፡ ድግግሞሹ ይቆማል እና በጣም ጥሩ የሆኑት ዋጋዎች እንደ አጥጋቢ ይመረጣሉ
+
+
+የማስተኛ ገደብ
+
+መፍትሄው በምን ደረጃ ላይ “ተመሳሳይ” እንደሚባል ይግለጹ
+
+
+የመፍትሄ መጨመሪያ ሁኔታዎችን ማሳያ
+
+ይህን ካስቻሉት, ተጨማሪ ንግግር ይታያል በመፍትሄው ሂደት ውስጥ የአሁኑን ሂደት የማስተኛ ገደብ ፡ አሁን ለጊዜው ያለውን መፍትሄ እንዲሁም የሚቻለውን ያሳያል ፡ መፍትሄ መፈለጉን ላቁም ወይንስ ልቀጥል
+
+
+
+DEPS-የተወሰኑ ምርጫዎች
+የወኪል መቀየሪያ መጠን
+
+Specifies the probability for an individual to choose the Differential Evolution strategy.
+
+
+DE: Crossover Probability
+
+… defines the probability of the individual being combined with the globally best point. If crossover is not used, the point is assembled from the own memory of the individual.
+
+
+DE: Scaling Factor
+
+በሚያቋርጥ ጊዜ የመመጠኛ አካል ይወስናል “ፍጥነትን” ለእንቅስቃሴው
+
+
+PS: Constriction Coefficient
+
+… እያንዳንዱ / ቅንጣት ወደ እርስ በራሳቸው የሚያደርጉትን ጉዞ ፍጥነትን ይገልጻል
+
+
+PS: Cognitive Constant
+
+… sets the importance of the own memory (in particular the best reached point so far).
+
+
+PS: Social Constant
+
+… sets the importance of the global best point between all particles/individuals.
+
+
+PS: Mutation Probability
+
+… defines the probability, that instead of moving a component of the particle towards the best point, it randomly chooses a new value from the valid range for that variable.
+
+
+
+SCO-የተወሰኑ ምርጫዎች
+የመጻህፍት ቤቱ መጠን
+
+… በሕዝብ መጻህፍት ቤት ውስጥ የሚቀመጠውን የመረጃዎች መጠን ይወስናል ፡ እያንዳንዱ ግለሰብ እውቀቶችን ያስቀምጣል እና መረጃዎችን ይጠይቃል
+
+
+
+

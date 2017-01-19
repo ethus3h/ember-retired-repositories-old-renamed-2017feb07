@@ -1,0 +1,7 @@
+Řešitel nelineárních problémů;Použití
+
+Použití
+Nezávisle na tom, zda použijete DEPS nebo SCO, začnete vždy zvolením Nástroje → Řešitel... a nastavením buňky, která má být optimalizována, směru optimalizace (minimalizace, maximalizace) a buněk, které mají být upraveny pro dosažení cíle. Poté přejdete do Možností a zvolíte, který řešitel má být použit a pokud je to nutné, přizpůsobíte potřebné parametry.
+K dispozici je také seznam omezení, které lze použít k omezení možného rozsahu řešení, nebo penalizaci určitých podmínek. Při použití evolučních řešitelů DEPS a SCO však tato omezení slouží také ke stanovení mezí proměnných problému. Vzhledem k nahodilé povaze algoritmů je výrazně doporučeno nastavit horní (a v případě, že je vypnuto "Předpokládat nezáporné proměnné" i dolní) meze všech proměnných. Nemusejí být v blízkosti aktuálního řešení (které je pravděpodobně neznámé), ale měli by přibližně udávat očekávanou velikost (0 ≤ var ≤ 1 nebo možná -1 000 000 ≤ var ≤ 1 000 000).
+Meze jsou určeny výběrem jedné nebo více (rozsahu) proměnných na levé straně a zadáním číselné hodnoty (ne buňky nebo vzorce) na straně pravé. Stejně můžete zvolit zda bude jedna nebo více proměnných pouze celé číslo nebo binární číslo.
+

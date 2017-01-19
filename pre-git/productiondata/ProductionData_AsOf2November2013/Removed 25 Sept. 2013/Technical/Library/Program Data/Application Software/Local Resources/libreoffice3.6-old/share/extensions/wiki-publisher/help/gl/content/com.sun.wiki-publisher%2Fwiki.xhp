@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensións;MediaWiki
+
+Wiki Publisher
+Usando Wiki Publisher vostede pode subir o seu documento de texto de Writer a un servidor MediaWiki. Despois de subilo, todos os usuarios do Wiki poderán ler o contido do seu documento no Wiki.
+
+Elixa Ficheiro - Enviar a MediaWiki para subir o documento actual a un servidor MediaWiki.
+Requirimentos do sistema
+Java Runtime Environment
+
+Unha conta de Wiki nun servidor MediaWiki admitido
+
+
+Instalando Wiki Publisher
+Antes de instalar o Wiki Publisher, comprobe que %PRODUCTNAME utiliza un Java Runtime Environment (JRE). Para comprobar o estado do JRE, escolla Ferramentas - Opcións - %PRODUCTNAME - Java. Asegúrese de que a opción "Usar un entorno de execución de Java (JRE)" está activa e que aparece o cartafol de Java na caixa de abaixo. Se o JRE está inactivo, actíve o JRE 1.4 ou posterior e reinicie o %PRODUCTNAME.
+Para conectar a un Wiki
+Nota: Pode gardar o seu nome de usuario e contrasinal para todos os cadros de diálogo relacionados en %PRODUCTNAME. O contrasinal gardarase de modo seguro, cun acceso asegurado mediante un contrasinal mestre. Para activar o contrasinal mestre, escolla Ferramentas - Opcións - %PRODUCTNAME - Seguranza.
+Nota: Se se conecta á Internet usando un proxy, introduza a información do proxy en Ferramentas - Opcións - Internet - Proxy, e reinicie o software.
+Abra un documento de Writer e elixa Ferramentas - Opcións - Internet - MediaWiki.
+
+Na caixa de diálogo Opcións. Prema Engadir
+
+Na caixa de diálogo MediaWiki , insira os datos conta da Wiki.
+
+
+Na caixa de texto do URL, introduza o enderezo do Wiki ao que quere conectarse.
+Pode copiar o URL desde o seu navegador e pegala na caixa de texto.
+
+Na caixa de Nome de usuario, introduza o seu identificador de usuario para a súa conta do Wiki.
+Se o Wiki permite a escritura a usuarios anónimos, pode deixar os campos Nome de usuario e Contrasinal baleiros.
+
+Na caixa de Contrasinal, introduza o contrasinal para a súa conta do Wiki, despois prema OK.
+
+
+Opcionalmente active «Gardar contrasinal» para gardar o contrasinal entre sesións. Un contrasinal mestre usarase para ter acceso a todos os contrasinais gardados. Escolla Ferramentas - Opcións - %PRODUCTNAME - Seguranza para activar o contrasinal mestre. «Gardar contrasinal» non é unha opción dispoñíbel cando o contrasinal mestre non está activado.
+Para crear unha nova páxina no Wiki
+Abrir un documento de Writer.
+
+Escriba o contido da páxina da Wiki. Pode usar formatado, títulos, notas de rodapé e mesmo máis. Consulte a lista de formatos admitidos.
+
+Elixa Ficheiro - Enviar a MediaWiki.
+
+Na caixa de diálogo Enviar a MediaWiki, especifique a configuración da súa entrada.
+
+
+Servidor MediaWiki: Elixar o Wiki.
+Título: Escriba o título da súa páxina. Escriba o título dunha páxina existente para sobrescribila co contido actual do seu documento. Escriba un novo título para crear unha nova páxina no Wiki.
+Resumo: Opcionalmente, introduza un breve resumo da súa páxina.
+Esta é unha edición menor: Prema nesta caixa de selección para marcar a páxina subida como unha edición menor da páxina xa existente co mesmo título.
+Amosar no navegador web: Prema nesta caixa de selección para abrir o seu navegador e amosar a páxina subida no Wiki.
+Prema enviar.
+
+
+

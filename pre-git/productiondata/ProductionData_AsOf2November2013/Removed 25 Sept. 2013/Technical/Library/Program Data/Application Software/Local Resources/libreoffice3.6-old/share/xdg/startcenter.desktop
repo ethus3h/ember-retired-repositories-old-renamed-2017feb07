@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=libreoffice3.6-startcenter
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other;
+Exec=libreoffice3.6 %U
+MimeType=application/vnd.openofficeorg.extension;
+Name=LibreOffice 3.6 
+GenericName=Office 
+GenericName[zu]=Ihhovisi
+Comment=The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+Comment[zu]=The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.

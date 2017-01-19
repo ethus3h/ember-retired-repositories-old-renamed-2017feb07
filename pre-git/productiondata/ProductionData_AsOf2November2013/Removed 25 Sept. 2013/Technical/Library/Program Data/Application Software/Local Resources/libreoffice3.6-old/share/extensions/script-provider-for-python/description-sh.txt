@@ -1,0 +1,1 @@
+Dodaje podršku za piton kroz sistem skriptovanja. Omogućava piton skriptove u korisničkoj i deljenim fasciklama Libreofis instalacije, kao i u učitanim dokumentima.

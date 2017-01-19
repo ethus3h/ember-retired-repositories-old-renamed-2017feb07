@@ -1,0 +1,31 @@
+
+Formats MediaWiki
+La lista seguenta balha un apercebut dels formats de tèxte que Wiki Publisher pòt metre en linha sul servidor Wiki.
+Lo format OpenDocument utilizat per Writer e lo de  WikiMedia son un briu diferents. Sonque de sosensemble de totas las foncionalitats pòt èsser transformat d'un format cap a l'autre.
+Títols
+Aplicatz un estil de paragraf títol als títols dins lo document Writer. Lo Wiki aficharà los estils de títols al meteis nivèl de plan, formatat coma definit pel motor del Wiki.
+Iperligams
+Los iperligams OpenDocument natius son transformats en ligams Wiki "extèrnes". E mai la facilitat intèrna de ligam oferta per OpenDocument deu èsser utilizada sonque per crear de ligams que puntan sus d'autres sites en defòra del web Wiki. Per crear de ligams Wiki que puntan cap a d'autres subjèctes del meteis domeni Wiki, utilizatz los ligams Wiki.
+Listas
+Las listas se pòdon exportar en tota fisança quora la lista complèta utiliza un estil de lista coerent. Utilizatz l'icòna Piuses e numerotacions per generir una lista dins Writer. S'avètz besonh d'una lista sens numerotacions o piuses, utilizatz Format - Piuses e numerotacions per definir e aplicar l'estil de lista respectiu.
+Paragrafes
+Alinhament
+L'alinhament de tèxte explicit deu pas èsser utilizat dins los articles de Wiki. Pasmens, l'alinhament del tèxte es suportat per l'alinhament a esquèrra, central e a drecha del tèxte.
+Tèxte preformatat
+Un estil de paragraf amb una poliça de largor fixa es transformada en tèxte preformatat. Lo tèxte preformatat es afichat sul Wiki amb un bordadura a l'entorn del tèxte.
+Estils de caractèrs
+Los estils de caractèr modifican l'aparéncia de las partidas d'un paragraf. La transformacion supòrta lo gras, l'italica, l'italica gras, l'expausant e l'indici. Totas las poliças fixas son transformadas dins l'estil maquina d'escriure Wiki.
+Nòtas de pè de pagina
+Nòta : La transformacion utiliza l'estil de nòta de pè de pagina novèl amb las etiquetas <ref> e <references> qu'an besonh de l'extension Cite.php installada dins MediaWiki. S'aquestas etiquetas apareisson coma tèxte plen dins lo resultat transformat, vos cal demandar l'installacion d'aquesta extension per l'administrator del Wiki.
+Imatges
+Las imatges se  pòdon pas exportar per una transformacion que produirà un sol fichièr de tèxte Wiki. Mas se l'imatge ja es cargada del domeni Wiki (ex. WikiMedia Commons), alara la transformacion produtz una etiqueta d'imatge valida que inclutz l'imatge ela metaissa. Las legendas de l'imatge tanben son suportadas.
+Tablèus
+Los tablèus simples son preses en carga plan. Las entèstas de tablèus son transformadas en entèstas que correspondon amb l'estil Wiki. Totun, lo formatatge personalizat de las taulas per las bordaduras, la talha de colomas e las colors de fons son ignoradas.
+Cellulas juntas
+OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. 
+Se sonque las colomnas d'una meteissa linha son juntas, lo resultat de la transformacion se sembla fòrça al document font.
+Bordaduras
+Irrespective of custom table styles for border and background, a table is always exported as "prettytable", which renders in the Wiki engine with simple borders and bold header.
+Jòc de caractèrs e caractèrs especials
+Lo jòc de caractèrs del resultat de la transformacion es fixat en UTF-8. En foncion de vòstre sistèma operatiu, benlèu qu'aqueste darrièr es pas lo jòc de caractèrs per defaut. Los "caractèrs especials" semblaràn copats quand seràn afichats amb los paramètres per defaut. Çaquelà, podètz reglar vòstre editor sus un encodatge UTF-8 per corregir aquò. Se vòstre editor supòrta pas un cambiament d'encodatge, podètz afichar lo resultat de la transformacion dins lo navigador Firefox e reglar l'encodatge sus UTF-8 ici. Ara, podètz copar e empegar lo resultat de la transformacion dins lo programa qu'auretz causit.
+

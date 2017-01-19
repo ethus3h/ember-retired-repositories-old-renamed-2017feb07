@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description
+
+  xmlns="http://openoffice.org/extensions/description/2006"
+  xmlns:dep="http://openoffice.org/extensions/description/2006"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <identifier value="com.sun.PresenterScreen-linux_x86" />
+
+  <dependencies>
+    <OpenOffice.org-minimal-version value="3.3" dep:name="OpenOffice.org 3.3"/>
+  </dependencies>
+
+  <version value="1.1.1" />
+
+  <platform value="linux_x86" />
+
+  <publisher>
+      <name xlink:href="http://www.documentfoundation.org" lang="en-US">The Document Foundation</name>
+  </publisher>
+
+  <display-name>
+    <name lang="en-US">Presenter Console</name>
+        <name lang="af">Voorleggerkonsole</name>
+        <name lang="am">የማቅረቢያ መቆጣጠሪያ ክፍል</name>
+        <name lang="ar">وحدة تحكم المقدم</name>
+        <name lang="as">প্ৰদৰ্শক কনচৌল</name>
+        <name lang="ast">Consola de presentación</name>
+        <name lang="be">Пульт прэзентацыі</name>
+        <name lang="bg">Presenter Console</name>
+        <name lang="bn">উপস্থাপক কনসোল</name>
+        <name lang="bn-IN">উপস্থাপক কনসোল</name>
+        <name lang="bo">Presenter Console</name>
+        <name lang="br">Penel ar c'hinniger</name>
+        <name lang="brx">Presenter Console</name>
+        <name lang="bs">Presenter Console</name>
+        <name lang="ca">Consola del presentador</name>
+        <name lang="ca-XV">Consola del presentador</name>
+        <name lang="cs">Obrazovka přednášejícího</name>
+        <name lang="cy">Consol Cyflwynydd</name>
+        <name lang="da">Præsentationskonsol</name>
+        <name lang="de">Presenter Console</name>
+        <name lang="dgo">Presenter Console</name>
+        <name lang="dz">Presenter Console</name>
+        <name lang="el">Κονσόλα παρουσίασης</name>
+        <name lang="en-GB">Presenter Console</name>
+        <name lang="en-ZA">Presenter Console</name>
+        <name lang="eo">Prezentila Konzolo</name>
+        <name lang="es">Consola de presentación</name>
+        <name lang="et">Ettekandjakuva</name>
+        <name lang="eu">Aurkezlearen kontsola</name>
+        <name lang="fa">Presenter Console</name>
+        <name lang="fi">Esittäjän apunäyttö</name>
+        <name lang="fr">Presenter Console</name>
+        <name lang="ga">Consól an Láithreora</name>
+        <name lang="gd">Consoil an liubhraiche</name>
+        <name lang="gl">Presenter Console</name>
+        <name lang="gu">પ્રસ્તુતકર્તા કન્સોલ</name>
+        <name lang="he">מסוף המציג</name>
+        <name lang="hi">प्रजेन्टर कंसोल</name>
+        <name lang="hr">Prezentacijska konzola</name>
+        <name lang="hu">Presenter Console</name>
+        <name lang="id">Konsol Presenter</name>
+        <name lang="is">Kynningarstjórnskjár</name>
+        <name lang="it">Console presentazione</name>
+        <name lang="ja">Presenter Console</name>
+        <name lang="ka">Presenter Console</name>
+        <name lang="kk">Presenter Console</name>
+        <name lang="km">កុងសូល​កម្មវិធី​បង្ហាញ</name>
+        <name lang="kn">ಪ್ರಸ್ತುತಿಗಾರನ ಕನ್ಸೋಲ್</name>
+        <name lang="ko">발표자 콘솔</name>
+        <name lang="kok">Presenter Console</name>
+        <name lang="ks">Presenter Console</name>
+        <name lang="ku">Presenter Console</name>
+        <name lang="lb">Presenter Console</name>
+        <name lang="lo">Presenter Console</name>
+        <name lang="lt">Pranešėjo pultas</name>
+        <name lang="lv">Prezentētāja konsole</name>
+        <name lang="mai">Presenter Console</name>
+        <name lang="mk">Presenter Console</name>
+        <name lang="ml">പ്രസന്റര്‍ കണ്‍സോള്‍</name>
+        <name lang="mn">Presenter Console</name>
+        <name lang="mni">Presenter Console</name>
+        <name lang="mr">प्रस्तुतकर्त्याचे कंसोल्</name>
+        <name lang="my">တင်ဆက်သူအတွက်အထောက်အကူပြုသည့်အရာ</name>
+        <name lang="nb">Presentasjonsskall</name>
+        <name lang="ne">Presenter Console</name>
+        <name lang="nl">Presentatieconsole</name>
+        <name lang="nn">Presentasjonsskal</name>
+        <name lang="nr">Presenter Console</name>
+        <name lang="nso">Presenter Console</name>
+        <name lang="oc">Consòla de presentacion</name>
+        <name lang="om">Bugaatoo Dhiheessaa</name>
+        <name lang="or">ଉପସ୍ଥାପକ କୋନସୋଲ</name>
+        <name lang="pa-IN">ਪਰਿਜੈੱਟੇਸ਼ਨ ਕਨਸੋਲ</name>
+        <name lang="pl">Konsola Prezentera</name>
+        <name lang="pt">Consola do apresentador</name>
+        <name lang="pt-BR">Console do apresentador</name>
+        <name lang="qtz">#00m‖Presenter Console</name>
+        <name lang="ro">Prezentare consolă</name>
+        <name lang="ru">Presenter Console</name>
+        <name lang="rw">Presenter Console</name>
+        <name lang="sa-IN">Presenter Console</name>
+        <name lang="sat">Presenter Console</name>
+        <name lang="sd">Presenter Console</name>
+        <name lang="sh">Ekran za izlagača</name>
+        <name lang="si">Presenter Console</name>
+        <name lang="sk">Obrazovka prednášajúceho</name>
+        <name lang="sl">Upravljalni zaslon govorca</name>
+        <name lang="sq">Mundësitë e konsolit të rrjetit</name>
+        <name lang="sr">Екран за излагача</name>
+        <name lang="ss">Presenter Console</name>
+        <name lang="st">Presenter Console</name>
+        <name lang="sv">Presentationskonsol</name>
+        <name lang="sw-TZ">Presenter Console</name>
+        <name lang="ta">வழங்குநர் சாதனம்</name>
+        <name lang="te">సమర్పకి తెర</name>
+        <name lang="tg">Presenter Console</name>
+        <name lang="th">Presenter Console</name>
+        <name lang="tn">Presenter Console</name>
+        <name lang="tr">Sunucu Konsolu</name>
+        <name lang="ts">Presenter Console</name>
+        <name lang="tt">Presenter Console</name>
+        <name lang="ug">رىياسەتچى تىزگىن سۇپىسى</name>
+        <name lang="uk">Presenter Console</name>
+        <name lang="uz">Presenter Console</name>
+        <name lang="ve">Presenter Console</name>
+        <name lang="vi">Presenter Console</name>
+        <name lang="xh">Presenter Console</name>
+        <name lang="zh-CN">讲师终端</name>
+        <name lang="zh-TW">演講者主控臺</name>
+        <name lang="zu">Presenter Console</name>
+  </display-name>
+
+  <icon>
+    <default xlink:href="bitmaps/extension_32.png" />
+  </icon>
+
+  <extension-description>
+    <src xlink:href="description-en-US.txt" lang="en-US" />
+        <src xlink:href="description-af.txt" lang="af" />
+        <src xlink:href="description-am.txt" lang="am" />
+        <src xlink:href="description-ar.txt" lang="ar" />
+        <src xlink:href="description-as.txt" lang="as" />
+        <src xlink:href="description-ast.txt" lang="ast" />
+        <src xlink:href="description-be.txt" lang="be" />
+        <src xlink:href="description-bg.txt" lang="bg" />
+        <src xlink:href="description-bn.txt" lang="bn" />
+        <src xlink:href="description-bn-IN.txt" lang="bn-IN" />
+        <src xlink:href="description-bo.txt" lang="bo" />
+        <src xlink:href="description-br.txt" lang="br" />
+        <src xlink:href="description-brx.txt" lang="brx" />
+        <src xlink:href="description-bs.txt" lang="bs" />
+        <src xlink:href="description-ca.txt" lang="ca" />
+        <src xlink:href="description-ca-XV.txt" lang="ca-XV" />
+        <src xlink:href="description-cs.txt" lang="cs" />
+        <src xlink:href="description-cy.txt" lang="cy" />
+        <src xlink:href="description-da.txt" lang="da" />
+        <src xlink:href="description-de.txt" lang="de" />
+        <src xlink:href="description-dgo.txt" lang="dgo" />
+        <src xlink:href="description-dz.txt" lang="dz" />
+        <src xlink:href="description-el.txt" lang="el" />
+        <src xlink:href="description-en-GB.txt" lang="en-GB" />
+        <src xlink:href="description-en-ZA.txt" lang="en-ZA" />
+        <src xlink:href="description-eo.txt" lang="eo" />
+        <src xlink:href="description-es.txt" lang="es" />
+        <src xlink:href="description-et.txt" lang="et" />
+        <src xlink:href="description-eu.txt" lang="eu" />
+        <src xlink:href="description-fa.txt" lang="fa" />
+        <src xlink:href="description-fi.txt" lang="fi" />
+        <src xlink:href="description-fr.txt" lang="fr" />
+        <src xlink:href="description-ga.txt" lang="ga" />
+        <src xlink:href="description-gd.txt" lang="gd" />
+        <src xlink:href="description-gl.txt" lang="gl" />
+        <src xlink:href="description-gu.txt" lang="gu" />
+        <src xlink:href="description-he.txt" lang="he" />
+        <src xlink:href="description-hi.txt" lang="hi" />
+        <src xlink:href="description-hr.txt" lang="hr" />
+        <src xlink:href="description-hu.txt" lang="hu" />
+        <src xlink:href="description-id.txt" lang="id" />
+        <src xlink:href="description-is.txt" lang="is" />
+        <src xlink:href="description-it.txt" lang="it" />
+        <src xlink:href="description-ja.txt" lang="ja" />
+        <src xlink:href="description-ka.txt" lang="ka" />
+        <src xlink:href="description-kk.txt" lang="kk" />
+        <src xlink:href="description-km.txt" lang="km" />
+        <src xlink:href="description-kn.txt" lang="kn" />
+        <src xlink:href="description-ko.txt" lang="ko" />
+        <src xlink:href="description-kok.txt" lang="kok" />
+        <src xlink:href="description-ks.txt" lang="ks" />
+        <src xlink:href="description-ku.txt" lang="ku" />
+        <src xlink:href="description-lb.txt" lang="lb" />
+        <src xlink:href="description-lo.txt" lang="lo" />
+        <src xlink:href="description-lt.txt" lang="lt" />
+        <src xlink:href="description-lv.txt" lang="lv" />
+        <src xlink:href="description-mai.txt" lang="mai" />
+        <src xlink:href="description-mk.txt" lang="mk" />
+        <src xlink:href="description-ml.txt" lang="ml" />
+        <src xlink:href="description-mn.txt" lang="mn" />
+        <src xlink:href="description-mni.txt" lang="mni" />
+        <src xlink:href="description-mr.txt" lang="mr" />
+        <src xlink:href="description-my.txt" lang="my" />
+        <src xlink:href="description-nb.txt" lang="nb" />
+        <src xlink:href="description-ne.txt" lang="ne" />
+        <src xlink:href="description-nl.txt" lang="nl" />
+        <src xlink:href="description-nn.txt" lang="nn" />
+        <src xlink:href="description-nr.txt" lang="nr" />
+        <src xlink:href="description-nso.txt" lang="nso" />
+        <src xlink:href="description-oc.txt" lang="oc" />
+        <src xlink:href="description-om.txt" lang="om" />
+        <src xlink:href="description-or.txt" lang="or" />
+        <src xlink:href="description-pa-IN.txt" lang="pa-IN" />
+        <src xlink:href="description-pl.txt" lang="pl" />
+        <src xlink:href="description-pt.txt" lang="pt" />
+        <src xlink:href="description-pt-BR.txt" lang="pt-BR" />
+        <src xlink:href="description-qtz.txt" lang="qtz" />
+        <src xlink:href="description-ro.txt" lang="ro" />
+        <src xlink:href="description-ru.txt" lang="ru" />
+        <src xlink:href="description-rw.txt" lang="rw" />
+        <src xlink:href="description-sa-IN.txt" lang="sa-IN" />
+        <src xlink:href="description-sat.txt" lang="sat" />
+        <src xlink:href="description-sd.txt" lang="sd" />
+        <src xlink:href="description-sh.txt" lang="sh" />
+        <src xlink:href="description-si.txt" lang="si" />
+        <src xlink:href="description-sk.txt" lang="sk" />
+        <src xlink:href="description-sl.txt" lang="sl" />
+        <src xlink:href="description-sq.txt" lang="sq" />
+        <src xlink:href="description-sr.txt" lang="sr" />
+        <src xlink:href="description-ss.txt" lang="ss" />
+        <src xlink:href="description-st.txt" lang="st" />
+        <src xlink:href="description-sv.txt" lang="sv" />
+        <src xlink:href="description-sw-TZ.txt" lang="sw-TZ" />
+        <src xlink:href="description-ta.txt" lang="ta" />
+        <src xlink:href="description-te.txt" lang="te" />
+        <src xlink:href="description-tg.txt" lang="tg" />
+        <src xlink:href="description-th.txt" lang="th" />
+        <src xlink:href="description-tn.txt" lang="tn" />
+        <src xlink:href="description-tr.txt" lang="tr" />
+        <src xlink:href="description-ts.txt" lang="ts" />
+        <src xlink:href="description-tt.txt" lang="tt" />
+        <src xlink:href="description-ug.txt" lang="ug" />
+        <src xlink:href="description-uk.txt" lang="uk" />
+        <src xlink:href="description-uz.txt" lang="uz" />
+        <src xlink:href="description-ve.txt" lang="ve" />
+        <src xlink:href="description-vi.txt" lang="vi" />
+        <src xlink:href="description-xh.txt" lang="xh" />
+        <src xlink:href="description-zh-CN.txt" lang="zh-CN" />
+        <src xlink:href="description-zh-TW.txt" lang="zh-TW" />
+        <src xlink:href="description-zu.txt" lang="zu" />
+  </extension-description>
+
+</description>

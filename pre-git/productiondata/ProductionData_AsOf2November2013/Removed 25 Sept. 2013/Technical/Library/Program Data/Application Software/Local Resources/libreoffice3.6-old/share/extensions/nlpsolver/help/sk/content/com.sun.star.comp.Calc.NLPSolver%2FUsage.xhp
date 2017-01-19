@@ -1,0 +1,7 @@
+Riešič nelineárnych problémov;Použitie
+
+Použitie
+Bez ohľadu na to, či použijete DEPS alebo SCO, začnite prostredníctvom Nástroje → Riešič... a nastavte cieľovú bunku, ktorú chcete optimalizovať. Ďalej nastavte smer optimalizácie (maximalizácia, minimalizácia) a bunky, ktoré sa kvôli tomu majú meniť. Potom otvorte Možnosti... a zadajte typ riešiča a, ak treba,  nastavte potrebné parametre.
+Môžete tiež zadať sadu podmienok na obmedzenie možného rozsahu riešení alebo na penalizáciu istých podmienok. V prípade evolučných riešičov DEPS a SCO sa tieto podmienky využívajú aj na špecifikáciu hraníc premenných riešeného problému. Kvôli stochastickému charakteru týchto algoritmov sa špecifikácia obmedzujúcich podmienok veľmi odporúča, rovnako ako aj zadanie horných (a v prípade zapnutej podmienky "Predpokladať nezáporné premenné" aj dolných) hraníc všetkých premenných. Nemusia byť blízke riešeniu (ktoré je pravdepodobne neznáme), majú však približne určiť očakávaný rozsah (napríklad 0 ≤ var ≤ 1 alebo možno -1000000 ≤ var ≤ 1000000).
+Hranice sa špecifikujú výberom jednej alebo viacerých premenných (ako rozsahu) na ľavej strane a zadaním číselnej hodnoty (nie bunky alebo vzorca) na pravej strane. Tak tiež môžete špecifikovať, že  jedna alebo viaceré  premenné sú len celočíselné alebo binárne.
+

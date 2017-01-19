@@ -1,0 +1,1 @@
+Legger til støtte for Python ved hjelp av rammeverket for skripting. Dette rammeverket gjør det mulig å bruke Python-skript i brukermapper, systemmapper som tilhører LibreOffice, og i innlastede dokumenter.

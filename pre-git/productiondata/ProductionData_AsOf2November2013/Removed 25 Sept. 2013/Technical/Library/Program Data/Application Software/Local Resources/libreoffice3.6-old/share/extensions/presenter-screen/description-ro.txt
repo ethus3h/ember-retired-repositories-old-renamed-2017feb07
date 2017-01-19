@@ -1,0 +1,2 @@
+Extensia Presenter Console ajută prezentatorul în timpul prezentării. Pe monitorul propriu poate vizualiza următorul diapozitiv, comentariile despre actualul diapozitiv și ora. Pe videoproiector între timp apare doar diapozitivul actual.
+Ca să nu fie prea încărcat consola de prezentare, se poate alege între trei moduri de vizualizare. Aceste vizualizări se pot seta și în timpul prezentării.

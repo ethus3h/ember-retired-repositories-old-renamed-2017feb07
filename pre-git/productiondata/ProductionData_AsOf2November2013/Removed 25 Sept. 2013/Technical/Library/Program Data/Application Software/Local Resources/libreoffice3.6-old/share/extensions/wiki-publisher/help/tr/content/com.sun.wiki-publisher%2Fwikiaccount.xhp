@@ -1,0 +1,15 @@
+
+MediaWiki
+MediaWiki hesap ayarlarını düzenlemek ya da eklemek için MediaWiki penceresini kullanın.
+
+MediaWiki sunucusunun adresini girin, http:// ile başlayın
+
+MediaWiki sunucusu için kullanıcı adı girin. Anonim erişim için boş bırakın.
+
+MediaWiki sunucusu için parolanızı girin. Anonim erişim için boş bırakın.
+
+Oturumlar arasında parola saklamayı aktif hale getirin. Ana parola aktif edilmiş olmalıdır. Bunun için Araçlar - Seçenekler - %PRODUCTNAME - Güvenlik seçeneğine bakın.
+Bir Wiki sunucusunun internet adresini http://wiki.documentfoundation.org gibi girin veya bir web tarayıcıdan URL adresini kopyalayın.
+Eğer Wiki anonim erişimlere izin veriyorsa, hesap ile ilgili kutucukları boş bırakabilirsiniz. Başka kullanıcı adı ve parola girin.
+Eğer Araçlar - Seçenekler -%PRODUCTNAME penceresindeki güvenlik sekmesinde ana parola özellikleri aktifleştirilmişse, yazılım şifrelerinizi saklayabilir ve gereltiği yerde bu veriyi otomatik olarak yazabilir. Parolanızı saklamak için "Parolayı kaydet" kutucuğunu işaretleyiniz.
+

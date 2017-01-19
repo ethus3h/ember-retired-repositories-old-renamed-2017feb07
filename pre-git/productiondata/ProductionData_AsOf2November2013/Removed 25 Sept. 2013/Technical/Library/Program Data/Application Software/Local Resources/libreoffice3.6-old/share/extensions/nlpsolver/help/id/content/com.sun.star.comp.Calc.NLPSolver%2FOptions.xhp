@@ -1,0 +1,96 @@
+Pemecah Masalah-masalah Nonlinier;Opsi
+
+Opsi Umum
+Ukuran Gerombolan
+
+... menentukan banyaknya individu yang berpartisipasi dalam proses belajar. Setiap individu menemukan solusinya sendiri dan menyumbang ke pengetahuan secara keseluruhan.
+
+
+Siklus Belajar
+
+... menentukan banyaknya iterasi yang mesti dijalankan oleh algoritma. Dalam setiap iterasi, semua individu membuat sebuah tebakan atas solusi terbaik dan membagikan pengetahuan mereka.
+
+
+Tebakan Batas Variabel
+
+Bila diaktifkan (bawaan), algoritma mencoba mencari batas variabel dengan melihat nilai awalan.
+
+
+Ambang Batas Variabel
+
+Ketika menebak batas variabel, ambang ini menyatakan, bagaimana nilai awal digeser untuk membangun batas-batas. Untuk contoh bagaimana nilai-nilai ini dihitung, silakan mengacu ke Manual di Wiki.
+
+
+Pakai Pembanding ACR
+
+Bila dinonaktifkan (bawaan), Pembanding BCH dipakai. Ini membandingkan dua individu dengan pertama kali melihat ke pelanggaran pembatasan dan hanya bila mereka sama, itu mengukur solusi mereka saat ini.
+Bila diaktifkan, Pembanding ACR dipakai. Ini membandingkan dua individu bergantung kepada iterasi saat ini dan mengukur kebaikannya dengan pengetahuan tentang pustaka solusi terburuk yang diketahui (berkaitan dengan pelanggaran pembatasan).
+
+
+Gunakan Titik Awal Acak
+
+Bila diaktifkan, pustaka sekedar dipenuhi dengan titik-titik yang dipilih secara acak.
+Bila dinonaktifkan, nilai yang kini ada (yang diberikan oleh pengguna) disisipkan dalam pustaka sebagai titik acuan.
+
+
+Batas Stagnasi
+
+Bila sejumlah individu ini menemukan solusi dalam suatu jangkauan yang pendek, iterasi dihentkan dan yang terbaik dari nilai-nilai ini dipilih sebagai optimal.
+
+
+Toleransi Stagnasi
+
+Menentukan dalam jangkauan apa solusi-solusi dianggap "mirip".
+
+
+Tampilkan Status Pemecah Yang Ditingkatkan
+
+Bila diaktifkan, dialog tambahan ditampilkan selama proses pemecahan yang memberikan informasi tentang kemajuan kini, tingkat stagnasi, solusi terbaik yang saat ini diketahui, dan juga kemungkinan, untuk menghentikan atau melanjutkan pemecah.
+
+
+
+Opsi spesifik DEPS
+Laju Perpindahan Agen
+
+Menyatakan probabilitas bagi suatu individu untuk memilih strategi Evolusi Diferensial.
+
+
+DE: Probabilitas Crossover
+
+... menentukan probabilitas dari individu yang sedang digabung dengan titik terbaik secara global. Bila crossover tak dipakai, titik dirakit dari memori miliki individu.
+
+
+DE: Faktor Penskalaan
+
+Selama crossover, faktor penskalaan menentukan "kecepatan" pergerakan.
+
+
+PS: Koefisien Konstriksi
+
+... menentukan kecepatan pegerakan partikel/individu ke arah satu sama lain.
+
+
+PS: Konstanta Kognitif
+
+... menata tingkat kepentingan memori sendiri (khususnya titik terbaik yang dicapai sampai saat ini).
+
+
+PS: Konstanta Sosial
+
+... menata tingkat kepentingan dari titik terbaik global antara semua partikel/individu.
+
+
+PS: Probabilitas Mutasi
+
+... menentukan probabilitas, yang daripada menggerakkan suatu komponen dari partikel menuju titik terbaik, ia memilih secara acak suatu nilai baru dari jangkauan yang valid bagi variabel tersebut.
+
+
+
+Opsi Spesifik SCO
+Ukuran Pustaka
+
+... menentukan banyaknya informasi yang disimpan dalam pustaka publik. Setiap individu menyimpan pengetahuan di sana dan meminta informasi.
+
+
+
+

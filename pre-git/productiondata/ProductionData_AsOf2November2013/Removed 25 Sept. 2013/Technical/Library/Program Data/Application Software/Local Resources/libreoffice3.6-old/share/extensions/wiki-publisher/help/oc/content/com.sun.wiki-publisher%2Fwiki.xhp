@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+En utilizant lo Wiki Publisher podètz cargar vòstre document tèxte Escriure actual dins un servidor MediaWiki. Aprèp lo cargament, totes los utilizaires Wiki pòdon legir vòstre document sul Wiki.
+
+Causir Fichièr - Mandar - A MediaWiki per encargar lo document Escriure actual dins un servidor MediaWiki.
+Besonhs sistèma
+Java Runtime Environment
+
+Un compte Wiki sus un servidor suportat MediaWiki
+
+
+Installacion d'Wiki Publisher
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Per se connectar a un wiki
+Remarca : podètz estocar vòstre nom d'utilizaire e vòstre senhal per totas las bóstias de dialòg respectivas dins %PRODUCTNAME. Lo senhal serà estocat d'un biais securizat e son accès es gerit per un senhal principal. Per activar lo senhal principal, causissètz Espleches - Opcions - %PRODUCTNAME - Seguretat.
+Notar : Se vos connectatz a internet amb un servidor intermediari o proxy, picatz las informacions del servidor intermediari dins Espleches - Opcions - Internet - Servidor intermediari, e tornatz aviar lo logicial.
+Dobrissètz un document Writer e causissètz Espleches - Opcions - Internet - MediaWiki.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+Dins l'airal del tèxte URL, picatz l'adreça del Wiki al qual vos volètz connectar.
+Podètz copiar l'URL a partir d'un navigador web e l'empegar dins l'airal de tèxte.
+
+Dins l'airal Nom d'utilizaire, picatz vòstre ID d'utilizaire pel compte Wiki.
+Se lo Wiki autoriza d'accèsses en escritura anonima, podètz daissar voidas los airals Nom d'utilizaire e Senhal.
+
+Dins l'airal Senhals, picatz lo senhal per vòstre compte Wiki, puèi clicatz sus OK.
+
+
+Facultativament, activatz "Enregistrar lo senhal" per enregistrar lo senhal entre doas sesilhas. Un senhal principal es utilizat per manténer l'accès a totes los senhals enregistrats. Causissètz Espleches - Opcions - StarOffice/OpenOffice.org - Seguretat per activar lo senhal principal. "Enregistrar lo senhal" n'es pas disponible se lo senhal principal es pas activat.
+Per crear una pagina de wiki novèla
+Dobrissètz un document Writer.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Causissètz Fichièr - Mandar - A MediaWiki.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+Servidor MediaWiki: seleccionatz lo Wiki.
+Títol: Picatz lo títol de vòstra pagina. Picatz lo títol d'una pagina existenta per espotir la pagina amb lo document tèxte actiu. Picatz un títol novèl per crear una pagina novèla dins lo Wiki.
+Resumit: picatz un resumit brèu facultatiu de vòstra pagina.
+Es un edicion menora: marcatz aquela casa per marcar la pagina mesa en linha coma una edicion menora per la pagina existenta amb lo meteis títol.
+Afichar dins lo navigador web: marcatz aquela casa per dobrir lo navigador web del sistèma e afichatz la pagina Wiki mesa en linha.
+Clicatz sus Mandar.
+
+
+

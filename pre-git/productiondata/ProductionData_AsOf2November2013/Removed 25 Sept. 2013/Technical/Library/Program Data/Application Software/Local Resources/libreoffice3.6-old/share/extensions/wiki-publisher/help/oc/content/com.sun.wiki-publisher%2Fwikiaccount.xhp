@@ -1,0 +1,15 @@
+
+MediaWiki
+Utilizatz la bóstia de dialòg MediaWiki per apondre o editar los paramètres de vòstre compte MediaWiki.
+
+Picatz l'URL del servidor MediaWiki, en començar amb http://
+
+Picatz vòstre nom d'utilizaire sul servidor MediaWiki. Daissatz le camp void per un accès anonime.
+
+Picatz vòstre senhal pel servidor MediaWiki. Daissatz lo camp void per un accès anonime.
+
+Activatz per estocar vòstre senhal entre doas sesilhas. Lo senhal principal deu èsser activat, vejatz Espleches - Opcions - StarOffice/OpenOffice.org - Seguretat.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Se lo Wiki autoriza un accès anonime, podètz daissar los airals de dialòg pel compte voids. Siquenon picatz-i vòstre nom d'utilizaire e vòstre senhal.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

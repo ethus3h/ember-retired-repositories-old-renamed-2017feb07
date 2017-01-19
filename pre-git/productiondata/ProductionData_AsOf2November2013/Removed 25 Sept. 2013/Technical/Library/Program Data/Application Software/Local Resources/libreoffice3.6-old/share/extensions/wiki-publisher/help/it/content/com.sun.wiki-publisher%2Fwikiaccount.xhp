@@ -1,0 +1,15 @@
+
+MediaWiki
+Usate la finestra MediaWiki per aggiungere o modificare le impostazioni del vostro account MediaWiki.
+
+Digitate l'URL di un server MediaWiki iniziando con http://
+
+Digitate il vostro nome utente sul server MediaWiki. Lasciate vuoto per l'accesso anonimo.
+
+Digitate la vostra password sul server MediaWiki. Lasciate vuoto per l'accesso anonimo.
+
+Attiva la memorizzazione della password tra una sessione e l'altra. Verificate in Strumenti - Opzioni - %PRODUCTNAME - Sicurezza che la password principale sia attiva.
+Inserite l'indirizzo internet di un server wiki in un formato tipo http://wiki.documentfoundation.org, oppure copiate l'URL dal browser web.
+Se il wiki consente l'accesso anonimo, potete lasciare vuote le caselle dell'account. In caso contrario, digitate i vostri nome utente e password.
+Se avete attivato la password principale nella scheda Sicurezza della finestra Strumenti - Opzioni - %PRODUCTNAME, allora il programma sarà in grado di memorizzare le vostre password, inserendole automaticamente quando necessario. Per memorizzare le password, attivate la casella "Salva password".
+

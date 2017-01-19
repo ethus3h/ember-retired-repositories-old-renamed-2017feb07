@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+Extensions;MediaWiki
+
+Wiki Publisher
+En utilisant Wiki Publisher vous pouvez télécharger le document Writer actif sur un serveur MediaWiki. Après le téléchargement, tous les utilisateurs du Wiki pourront lire votre document sur le wiki.
+
+Choisissez Fichier - Envoyer - À MediaWiki pour télécharger le document Writer actif sur le serveur MediaWiki.
+Besoins système
+Java Runtime Environment
+
+Un compte Wiki sur un serveur MediaWiki pris en charge
+
+
+Installation de Wiki Publisher
+Avant d'utiliser le Wiki Publisher, assurez-vous que %PRODUCTNAME utilise un environnement d'exécution Java (JRE). Pour vérifier l'état du JRE, choisissez Outils - Options - %PRODUCTNAME - Java. Assurez-vous que "Utiliser un environnement Java" est coché et qu'un répertoire d'environnement Java est sélectionné dans la grande zone de liste. Si aucun JRE n'est activé, alors activez un JRE 1.4 ou ultérieur et redémarrez %PRODUCTNAME.
+Pour se connecter à un Wiki
+Remarque : vous pouvez stocker votre nom d'utilisateur et votre mot de passe pour toutes les boîtes de dialogue respectives dans %PRODUCTNAME. Le mot de passe sera stocké de façon sécurisée et son accès est géré par un mot de passe principal. Pour activer le mot de passe principal, choisissez Outils - Options - %PRODUCTNAME - Sécurité.
+Remarque : si vous vous connectez au Web en utilisant un serveur de proxy, saisissez les informations du proxy dans Outils - Options - Internet - Proxy et redémarrez le logiciel.
+Ouvrez un document Writer et choisissez Outils - Options - Internet - MediaWiki.
+
+Dans la boîte de dialogue Options cliquez sur Ajouter.
+
+Dans la boîte de dialogue MediaWiki saisissez les informations de compte du Wiki.
+
+
+Dans la zone de texte de l'URL, saisissez l'adresse du Wiki auquel vous voulez vous connecter.
+Vous pouvez copier l'URL à partir d'un navigateur web et le coller dans la zone de texte.
+
+Dans la zone Nom d'utilisateur, saisissez l'ID utilisateur de votre compte Wiki.
+Si le Wiki autorise des accès en écriture anonymes, vous pouvez laisser vides les zones Nom d'utilisateur et Mot de passe.
+
+Dans la zone Mot de passe, saisissez le mot de passe de votre compte Wiki, puis cliquez sur OK.
+
+
+Facultativement, activez "Enregistrer le mot de passe" pour enregistrer le mot de passe entre les sessions. Un mot de passe principal est utilisé pour gérer l'accès à tous les mots de passe enregistrés. Choisissez Outils - Options - %PRODUCTNAME - Sécurité pour activer le mot de passe principal. "Enregistrer le mot de passe" n'est pas disponible si le mot de passe principal n'est pas activé.
+Pour créer une nouvelle page de Wiki
+Ouvrez un document Writer.
+
+Écrivez le contenu de la page Wiki. Vous pouvez utiliser des formatages tels que les formats texte, les en-têtes, les notes de bas de page et plus encore. Voir la liste des formats pris en charge à list of supported formats.
+
+Choisissez Fichier - Envoyer - À MediaWiki.
+
+Dans la boîte de dialogue Send to MediaWiki, indiquez les paramètres de votre saisie.
+
+
+Serveur MediaWiki : sélectionnez le Wiki.
+Titre : saisissez le titre de la page. Saisissez le titre d'une page existante pour écraser la page avec le document texte actif. Saisissez un nouveau titre pour créer une nouvelle page de Wiki.
+Résumé : facultativement, saisissez un court résumé de votre page.
+C'est une édition mineure : marquez cette case pour marquer la page téléchargée comme une édition mineure d'une page existante ayant le même titre.
+Afficher dans le navigateur Web : marquez cette case pour ouvrir le navigateur Web du système et afficher la page de Wiki téléchargée.
+Cliquez sur Envoyer.
+
+
+

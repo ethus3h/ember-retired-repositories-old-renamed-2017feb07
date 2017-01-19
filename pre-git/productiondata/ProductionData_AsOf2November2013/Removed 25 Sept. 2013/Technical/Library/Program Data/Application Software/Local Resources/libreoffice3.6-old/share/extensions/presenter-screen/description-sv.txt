@@ -1,0 +1,2 @@
+Tillägget presentationskonsol erbjuder mer kontroll över presentationsvisning. Exempelvis ges möjligheten att se nästkommande bild, bildanteckningar, och en presentationstimer när publiken endast ser den aktuella bilden.
+För att undvika förvirring vid visning av ett stort antal presentationselement visar presentationskonsolen elementen på tre lättutbytta vyer.

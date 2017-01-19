@@ -1,0 +1,15 @@
+
+MediaWiki
+Utilitzeu el diàleg MediaWiki per afegir o editar paràmetres del vostre compte MediaWiki.
+
+Introduïu l'URL d'un servidor MediaWiki, començant amb http://
+
+Introduïu el nom d'usuari per al servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.
+
+Introduïu la vostra contrasenya per al servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.
+
+Habiliteu-ho per emmagatzemar la vostra contrasenya entre sessions. Cal habilitar prèviament la contrasenya mestra, vegeu Eines - Opcions - %PRODUCTNAME - Seguretat.
+Introduïu l'adreça d'Internet d'un servidor Wiki en un format del tipus http://wiki.documentfoundation.org o copieu l'URL d'un navegador web.
+Si la Wiki permet l'accés anònim, podeu deixar els quadres de text del compte en blanc. Si no, introduïu el vostre nom d'usuari i la contrasenya.
+Si heu habilitat la contrasenya mestra a la pestanya Seguretat del diàleg Eines - Opcions - %PRODUCTNAME, l'aplicació pot emmagatzemar la vostra contrasenya i inserir-la automàticament allà on siga necessari. Habiliteu la casella "Alça la contrasenya" per emmagatzemar la vostra contrasenya.
+

@@ -1,0 +1,1 @@
+A Scripting Frameworkön keresztül lehetővé teszi Python nyelvek írt programok futtatását a felhasználó könyvtárából és a megosztott könyvtárból, valamint a betöltött dokumentumokból.

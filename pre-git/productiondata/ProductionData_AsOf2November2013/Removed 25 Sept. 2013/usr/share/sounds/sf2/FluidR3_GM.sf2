@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Removed 25 Sept. 2013/usr/share/sounds/sf2/FluidR3_GM.sf2
+## 
+148398306,af289497caf8c76d97fdc67ec8409f05,4fd467afcb45c8b4cfd1eadac9372a819e35d46d,74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0,d7cc68ebf9307faa70a2f3ad123a385e4f92c8f5bb54d59d,56a03a1cbcf8cce30b3bfa76c57028c2151f22c48033ce7ffb0cf4b225eae3347a12837d44b8a3e4ba6cd3f82a22b57de2291442dfe48fbed4bd4c461abdd5dc,/home/kyan/productiondata/ProductionData_AsOf2November2013/Removed 25 Sept. 2013/usr/share/sounds/sf2/FluidR3_GM.sf2

@@ -1,0 +1,31 @@
+
+MediaWikin muotoilut
+Oheinen luettelo antaa yleiskuvan niistä tekstimuotoiluista, jotka Wiki Publisher voi kopioida Wiki-palvelimelle.
+OpenDocument-tiedostomuoto, jota Writer käyttää ja WikiMedia-tiedostomuoto ovat hyvin erilaisia. Vain piirteiden osajoukko on muunnettavissa tiedostomuodosta toiseen.
+Otsikot
+Writerin asiakirjan otsikoihin käytetään otsikko-kappaletyyliä. Wiki esittää saman jäsennystason otsikkotyylit, jotka muotoillaan Wiki-ohjelman määritysten mukaan.
+Hyperlinkit
+Alkuperäiset OpenDocument-hyperlinkit muunnetaan "ulkoisiksi" Wiki-linkeiksi. Tämän vuoksi ODF:n sisäänrakennettua linkkiominaisuutta pitäisi käyttää vain luotaessa linkkejä, jotka osoittavat Wiki-verkon ulkopuolisiin sivustoihin. Luotaessa Wiki-linkkejä, jotka osoittavat samalle Wiki-alueelle, käytetään Wiki-linkkejä.
+Luettelot
+Luetelmat voidaan viedä luotettavasti, kun koko luettelo käyttää samaa luetelmatyyliä. Writerin luetelmien tuottamiseen käytetään Numerointi- tai Luettelomerkit-kuvaketta. Mikäli tarvitaan luetelmaa ilman numerointia tai luetelmamerkkejä, käytetään Muotoilu - Luettelomerkit ja numerointi -toimintoa sopivan luetelmatyylin määrittämiseen.
+Kappaleet
+Tasaus
+Wiki-artikkeleissa ei tulisi käyttää tiettyä tasausta. Tekstin tasauksista on kuitenkin tuettuina vasen, keskitetty ja oikea tasaus.
+Esimuotoiltu teksti
+Tasaleveää fonttia käyttävä kappaletyyli muunnetaan esimuotoilluksi tekstiksi, joka esitetään Wikissä kehystettynä.
+Merkkityylit
+Merkkityylit muuntavat kappaleen osan ulkonäköä. Muunnos tukee lihavointia, kursivointia, lihavoitua kursivointia, alaindeksiä ja yläindeksiä. Kaikki tasaleveät fontit muunnetaan Wikin konekirjoitustyyliksi.
+Alaviitteet
+Muunnos käyttää uutta alaviitetyyliä <ref>- ja <references>-muotoilukoodein. Vaatimuksena on, että MediaWikiin on asennettu Cite.php-laajennus. Jos muotoilukoodit esiintyvät pelkkänä tekstinä muunnostuloksessa, Wiki-ylläpitoa pitää pyytää asentamaan tarvittava laajennus.
+Kuvat
+Kuvia ei voida viedä muunnoksessa, joka tuottaa yksittäisen Wiki-tekstin tiedoston. Jos kuitenkin kuva on jo kopioitu kohteena olevan Wikin alueelle (esim. kohteeseen WikiMedia Commons), muunnos tuottaa tällöin kelvollisen kuvamuotoilukoodin, johon kuva sisältyy. Myös kuvatekstit ovat tuettuja.
+Taulukot
+Yksinkertaisten taulukkojen tuki on kattava. Taulukkojen otsikot muunnetaan vastaaviksi Wiki-tyylin mukaisiksi taulukkojen otsikoiksi. Mukautetut taulukkojen reunojen, sarakeleveyksien ja taustavärien muotoilut kuitenkin ohitetaan.
+Yhdistetyt solut
+OpenDocument (ODF) ja erityisesti LibreOffice esittävät taulukot, joissa on yhdistettyjä, rivien yli ulottuvia, soluja, sisäkkäisinä taulukoina. Wiki-taulukkomallissa taas määritetään sarakkeiden ja rivien ylitykset tämäntapaisille yhdistetyille soluille. 
+Jos vain yhden rivin sarakkeet yhdistetään, muunnoksen tulos muistuttaa tarkasti lähdeasiakirjaa.
+Reunat
+Riippumatta reunojen ja taustan mukautetuista taulukkotyyleistä taulukko viedään aina "prettytable"-määritteisenä, jonka Wiki-ohjelma piirtää yksinkertaisin reunoin ja lihavoiduin otsikoin.
+Merkistö ja erikoismerkit
+Muunnoksen tuloksen merkistöksi on vakioitu UTF-8. Järjestelmästä riippuen tämä voi olla oletusmerkistö tai ei ole sitä. Tämä voi aiheuttaa "erikoismerkkien" näkymisen rikkinäisinä oletusasetuksin tarkasteltaessa. Muokkaimen voi kuitenkin vaihtaa UTF-8 -koodaustavalle tämän korjaamiseksi. Jos muokkaimesi ei tue koodaustavan vaihtoa, muunnoksen tulosta voi tarkastella Firefox-selaimessa vaihtaen merkistökoodauksen  UTF-8:een. Tämän jälkeen muunnoksen tulos on leikattavissa ja liitettävissä käyttäjän valitsemaan ohjelmaan.
+

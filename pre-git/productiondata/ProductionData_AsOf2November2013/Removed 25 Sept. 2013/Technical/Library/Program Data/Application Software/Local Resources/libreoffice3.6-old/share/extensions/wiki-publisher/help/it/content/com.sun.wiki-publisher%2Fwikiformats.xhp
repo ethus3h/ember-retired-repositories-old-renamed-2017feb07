@@ -1,0 +1,31 @@
+
+Formati MediaWiki
+L'elenco seguente fornisce una panoramica dei formati di testo che Wiki Publisher è in grado di caricare nel server wiki.
+Il formato OpenDocument utilizzato da Writer e quello utilizzato da WikiMedia sono abbastanza diversi. Solo una parte delle caratteristiche possono essere trasformate da un formato all'altro.
+Intestazioni
+Applica uno stile di paragrafo intestazione alle intestazioni del documento Writer. Il Wiki mostrerà gli stili di intestazione dello stesso livello di struttura, formattati in base alla definizione del motore wiki.
+Collegamenti
+I collegamenti ipertestuali nativi di OpenDocument sono trasformati in collegamenti wiki "esterni". La funzione incorporata per i collegamenti di OpenDocument deve essere utilizzata, quindi, solo per la creazione di collegamenti a siti al di fuori dell'area web wiki. Per creare collegamenti wiki che puntano ad altri oggetti dello stesso dominio wiki, utilizzate i collegamenti wiki.
+Elenchi
+Potete esportare in modo affidabile gli elenchi se l'intero elenco utilizza uno stile di elenco coerente. Per creare un elenco in Writer, fate clic sull'icona degli elenchi numerati o puntati. Se vi serve un elenco non numerato o puntato, usate l'opzione Formato - Elenchi puntati e numerati... per definire e applicare il relativo stile di elenco.
+Paragrafi
+Allineamento
+L'allineamento esplicito del testo non dovrebbe essere usato negli articoli wiki. E' supportato, tuttavia, l'allineamento sinistro, destro e centrato.
+Testo preformattato
+Uno stile di paragrafo con carattere di larghezza fissa viene trasformato in testo preformattato. Il testo preformattato viene mostrato nel wiki con un bordo intorno al testo.
+Stili di carattere
+Gli stili di carattere modificano l'aspetto di parti di un paragrafo. La trasformazione supporta grassetto, corsivo, grassetto e corsivo, apice e pedice. Tutti i caratteri a larghezza fissa vengono trasformati nello stile di scrittura wiki.
+Note a piè pagina
+Nota: la trasformazione utilizza il nuovo stile delle note a piè pagina con i tag <ref> e <references>, che richiedono l'installazione dell'estensione Cite.php all'interno di MediaWiki. Se tali tag appaiono come normale testo dopo la trasformazione, chiedete di installare questa estensione all'amministratore del wiki.
+Immagini
+Le immagini non possono essere esportate tramite trasformazione che produca un singolo file di testo wiki. Tuttavia, se l'immagine è già caricata nel dominio wiki di destinazione (ad es. WikiMedia Commons), allora la trasformazione produce un tag immagine valido che include l'immagine. Sono supportate anche le didascalie immagine.
+Tabelle
+Le tabelle semplici sono pienamente supportate. Le intestazioni delle tabelle sono tradotte nelle corrispondenti tabelle in stile wiki. Viene ignorata, tuttavia, la formattazione personalizzata di bordi, dimensione delle colonne e colori di sfondo.
+Unione di celle
+OpenDocument e in special modo LibreOffice rappresentano come tabelle con tabelle nidificate le tabelle contenenti unioni di celle che contengono righe. Al contrario, il modello wiki di tabella è dichiarare gli intervalli di colonna e riga per tali unioni di celle. 
+Se vengono unite solo le colonne della stessa riga, il risultato della trasformazione rispecchierà fedelmente il documento di origine.
+Bordi
+Indipendentemente dagli stili personalizzati del bordo e dello sfondo, la tabella è sempre esportata come "prettytable", e viene interpretata dal motore wiki con bordi semplici e intestazione in grassetto.
+Set di caratteri e caratteri speciali
+Il set di caratteri della trasformazione stabilito è UTF-8. A seconda del sistema, questo potrebbe non essere il set di caratteri predefinito. Ciò potrebbe determinare la visualizzazione corrotta dei "caratteri speciali" se utilizzate le impostazioni predefinite. Potete, comunque, impostare la codifica UTF-8 nel vostro editor per risolvere questo problema. Se l'editor non supporta la modifica della codifica, potete visualizzare il risultato della trasformazione nel browser Firefox e qui cambiare la codifica in UTF-8. A questo punto, potete copiare e incollare il risultato della trasformazione nel programma da voi scelto.
+

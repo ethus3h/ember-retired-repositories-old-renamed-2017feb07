@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+extensions;MediaWiki
+
+Wiki Publisher
+使用 Wiki Publisher，您可以将当前的 Writer 文本文档上载至 MediaWiki 服务器。上载之后，所有 Wiki 用户都可以在 Wiki 中阅读您的文档。
+
+选择文件 - 发送 - 发送至 MediaWiki 可将当前的 Writer 文档上载至 MediaWiki 服务器。
+系统要求
+Java 运行时环境
+
+受支持的 MediaWiki 服务器中的 Wiki 帐户
+
+
+正在安装 Wiki Publisher
+安装 Wiki Publisher 之前请确保 %PRODUCTNAME 使用了 Java 运行时环境 (JRE)。要检查 JRE 状态，请选择 工具- 选项 - %PRODUCTNAME - Java。请确保“使用 Java 运行时环境”处于选中状态，且大列表框中选择了 Java 运行时目录。如果无可用 JRE，请启用 JRE 1.4 或更高版本并重新启动 %PRODUCTNAME。
+连接至 Wiki
+注: 您可以为 %PRODUCTNAME 中各相应对话框储存用户名与密码。密码将加密储存，存取由主密码维护。要启用主密码，请选择 工具 - 选项 - %PRODUCTNAME - 安全。
+注意：如果您使用代理服务器连接至 Web，请在工具 - 选项 - Internet - 代理中输入代理信息，然后重新启动软件。
+打开 Writer 文档，然后选择工具 - 选项 - Internet - MediaWiki。
+
+在“选项”对话框中点击“添加”。
+
+在 MediaWiki 对话框中输入 Wiki 账号信息。
+
+
+在 "URL" 文本框中，输入要连接的 Wiki 地址。
+您可以从 Web 浏览器中复制 URL 并将其粘贴到文本框中。
+
+在“用户名”框中，输入您的 Wiki 帐户的用户 ID。
+如果 Wiki 允许匿名写入访问，您可以将“用户名”和“密码”框保留为空。
+
+在“密码”框中，输入您的 Wiki 帐户的密码，然后单击“确定”。
+
+
+可选择启用“保存密码”以保存会话间的密码。主密码用来保持对所有已保存密码的访问。选择 工具 -选项  - %PRODUCTNAME - 安全性启用主密码。当主密码没有启用时，“保存密码”不可用。
+创建新的 Wiki 页面
+打开 Writer 文档。
+
+撰写 Wiki 页面内容。您可以使用文本格式、标题、脚注等格式。参见支持的格式列表。
+
+选择文件 - 发送 - 发送至 MediaWiki。
+
+在“发送到 MediaWiki”对话框中，指定所撰写条目的设置。
+
+
+MediaWiki 服务器：选择 Wiki。
+标题：键入页面标题。键入现有页面的标题可使用当前文本文档覆盖该页面。键入新标题可创建新的 Wiki 页面。
+摘要：输入页面的可选简短摘要。
+这是次要编辑：选中此框可将上载的页面标记为现有同标题页面的次要编辑。
+在 Web 浏览器中显示：选中此框可打开您的系统 Web 浏览器，并显示已上载的 Wiki 页面。
+单击“发送”。
+
+
+

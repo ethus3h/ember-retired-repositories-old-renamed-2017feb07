@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Exec=libreoffice3.6 --writer %U
+MimeType=application/x-aportisdoc;application/x-pocket-word;application/x-pocket-excel;
+Name=LibreOffice 3.6 Small Device Format Importer
+GenericName=Small Device Format Importer
+GenericName[zu]=Small Device Format Importer
+NoDisplay=true

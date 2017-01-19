@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+paket;MediaWiki
+
+Wiki Publisher
+Med hjälp av Wiki Publisher kan du ladda upp ditt aktuella Writer-textdokument till en MediaWiki-server. När du har laddat upp dokumentet kan samtliga wikianvändare läsa det på wikiservern.
+
+Välj Arkiv - Skicka - Till MediaWiki om du vill ladda upp det aktuella Writer-dokumentet till en MediaWiki-server.
+Systemkrav
+Java runtime environment
+
+Ett wikikonto på en kompatibel MediaWiki-server
+
+
+Installera Wiki Publisher
+Innan du använder Wiki Publisher måste du försäkra dig om att %PRODUCTNAME använder Java (JRE). För att bekräfta detta väljer du Verktyg - Alternativ - %PRODUCTNAME - Java. Se till att "Använd Java" är ikryssad och att en mapp för JRE är markerad i den stora listan. Om inget JRE var aktiverat, aktivera ett av version 1.4 eller senare och starta sedan om %PRODUCTNAME.
+Så här ansluter du till en wiki
+Obs! Du kan spara användarnamn och lösenord för de olika dialogrutorna i %PRODUCTNAME. Lösenordet sparas på ett säkert sätt och kan nås via ett huvudlösenord. Om du vill aktivera huvudlösenordet, väljer du Verktyg - Alternativ - %PRODUCTNAME - Säkerhet.
+OBS! Om du ansluter till webben med en proxyserver, anger du proxyinformationen i Verktyg - Alternativ- Internet - Proxy och startar om programmet.
+Öppna ett Writer-dokument och välj Verktyg - Alternativ - Internet - MediaWiki.
+
+I menyn Alternativ, klicka på Lägg till.
+
+I menyn MediaWiki, fyll i kontoinformation för Wikin.
+
+
+Ange adressen till en wiki du vill ansluta till i URL-textrutan.
+Du kan kopiera URL:en från en webbläsare och klistra in den i textrutan.
+
+I fältet för användarnamn anger du användar-ID för wikikontot.
+Om det är tillåtet att vara anonym och skriva till wikin du valt, behöver du inte fylla i användarnamn och lösenord.
+
+Ange lösenord för wikikontot i lösenordsfältet och klicka sedan på OK.
+
+
+Om du vill att lösenordet sparas mellan sessionerna aktiverar du "Spara lösenord" (valfritt). Ett huvudlösenord används för att skydda alla sparade lösenord. Om du vill aktivera huvudlösenordet väljer du Verktyg - Alternativ - %PRODUCTNAME - Säkerhet. "Spara lösenord" är inte tillgängligt när huvudlösenordet inte har aktiverats.
+Så här skapar du en ny wikisida
+Öppna ett Writer-dokument.
+
+Skriv innehållet till wiki-sidan. Du kan använda formatering såsom textformat, sidhuvud, fotnoter med mera. Klicka för en lista på stödda format.
+
+Välj Arkiv - Skicka - Skapa HTML-dokument.
+
+I dialogen Skicka till MediaWiki, fyll i inställningarna för din post.
+
+
+MediaWiki-server: Markera wikin.
+Rubrik: Skriv in sidans rubrik. Om du vill skriva över en befintlig sida med det aktuella dokumentet anger du den befintliga sidans rubrik. Om du vill skapa en ny wikisida skriver du in en ny rubrik.
+Sammanfattning: Skriv en kort sammanfattning av din sida (valfritt).
+Det här är en mindre redigering: Markera den här rutan om du vill ange att den uppladdade sidan är en mindre ändring av en befintlig sida med samma rubrik.
+Visa i webbläsare: Markera den här rutan om du vill att standardwebbläsaren ska öppnas och visa uppladdade wikisidan.
+Klicka på Skicka.
+
+
+

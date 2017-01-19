@@ -1,0 +1,1 @@
+Pridať podporu jazyka Python v priečinkoch user a share inštalácie LibreOffice, ako aj v načítaných dokumentoch.

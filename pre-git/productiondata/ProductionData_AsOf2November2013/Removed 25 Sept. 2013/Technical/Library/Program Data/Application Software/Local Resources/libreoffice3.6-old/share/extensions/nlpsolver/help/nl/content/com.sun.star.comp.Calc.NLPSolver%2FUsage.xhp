@@ -1,0 +1,7 @@
+Oplosser voor niet-lineaire vraagstukken; gebruik
+
+Gebruik
+Ongeacht of u DEPS of SCO gebruikt, u begint door naar Extra → Oplosser te gaan en stelt cel in die moet worden geoptimaliseerd, de richting ervan (minimalisering, maximalisatie) en de cellen die moeten worden gewijzigd om het doel te bereiken. U gaat dan naar de Opties en geeft aan om de Oplosser te gebruiken en indien nodig past u de overeenkomstige parameters aan.
+Er is ook een lijst met beperkingen die u gebruiken kunt om het bereik van de mogelijke oplossingen te beperken of bepaalde voorwaarden op te leggen. Echter, in het geval van de evolutionaire oplossers DEPS en SCO, worden deze beperkingen ook gebruikt om grenzen van de variabelen van het probleem op te geven. Vanwege de willekeurige aard van de algoritmen, is het zeer raadzaam om dit te doen en geef bovengrenzen aan (en in het geval "Uitgaan van niet-negatief variabelen" is uitgeschakeld ook ondergrenzen) voor alle variabelen. Deze hoeven niet in de buurt te liggen van de werkelijke oplossing (die is waarschijnlijk onbekend), maar moeten een ruwe indicatie van de verwachte omvang (0 ≤ var ≤ 1 of misschien -1000000 ≤ var ≤ 1000000) geven.
+Grenzen worden opgegeven door één of meer variabelen (als bereik) te selecteren aan de linkerkant en een numerieke waarde (niet een cel of een formule) in te voeren aan de rechterkant. Op die manier kunt u ook één of meer variabelen alleen als Integer of Binary kiezen.
+

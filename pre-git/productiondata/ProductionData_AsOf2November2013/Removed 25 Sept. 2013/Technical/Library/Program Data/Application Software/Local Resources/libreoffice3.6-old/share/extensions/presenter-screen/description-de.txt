@@ -1,0 +1,2 @@
+Die Erweiterung Presenter Console bietet mehr Kontrolle über Ihre Diashow, wie die Fähigkeit, die bevorstehenden Diashow, die Folie Notizen und ein Präsentations-Timer zu sehen, während die Zuschauer nur die aktuelle Folie sehen.
+Zur Vermeidung von Verwechslungen durch die Anzeige einer Vielzahl von Präsentations-Elementen, zeigt die Presenter Console die Elemente in drei verschiedenen, leicht auswechselbaren Ansichten.

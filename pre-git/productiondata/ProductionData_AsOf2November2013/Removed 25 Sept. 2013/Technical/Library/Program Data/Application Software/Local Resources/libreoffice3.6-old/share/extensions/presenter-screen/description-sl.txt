@@ -1,0 +1,2 @@
+Razširitev Upravljalni zaslon govorca ponuja več nadzora nad vašo predstavitvijo, med drugim možnost ogledovanja naslednje prosojnice, opomb prosojnice in časovnika predstavitve, medtem ko občinstvo vidi le trenutno prosojnico.
+V izogib zmedi s prikazovanjem velikega števila elementov predstavitve prikazuje upravljalni zaslon govorca elemente v treh različnih, enostavno prilagodljivih pogledih.

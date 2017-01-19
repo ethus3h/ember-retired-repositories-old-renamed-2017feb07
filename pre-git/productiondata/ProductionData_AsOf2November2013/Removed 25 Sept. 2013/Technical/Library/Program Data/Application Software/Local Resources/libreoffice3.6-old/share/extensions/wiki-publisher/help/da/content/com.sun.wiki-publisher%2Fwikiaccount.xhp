@@ -1,0 +1,15 @@
+
+MediaWiki
+Brug dialogen MediaWiki til at tilføje eller redigere dine MediaWiki kontoindstillinger.
+
+Indtast URL'en til en MediaWiki-server startende med http://
+
+Indtast dit brugernavn på MediaWiki Serveren. Efterlad feltet tomt for at få anonym adgang.
+
+Indtast din adgangskode på MediaWiki Serveren. Efterlad feltet tomt for at opnå anonym adgang.
+
+Aktiver for at gemme din adgangskode fra session til session. Hovedadgangskoden skal være aktiveret, se Funktioner - Indstillinger - %PRODUCTNAME - Sikkerhed.
+Indtast internetadressen for wikiserveren i formatet http://wiki.documentfoundation.org eller kopier URL'en fra din internetbrowser.
+Hvis Wikien tillader anonym adgang, kan du efterlade boksen konto tom. Ellsers skal du indtastet dit brugernavn og adgangskode.
+Hvis du aktiverer hovedkodeordet på fanen sikkerhed i dialogen Funktioner - Indstillinger - %PRODUCTNAME, kan programmet gemme dine kodeord og automatisk udfylde brugernavn og kodeord i de rette felter. Aktiver "Gem kodeord" for at gemme kodeordet.
+

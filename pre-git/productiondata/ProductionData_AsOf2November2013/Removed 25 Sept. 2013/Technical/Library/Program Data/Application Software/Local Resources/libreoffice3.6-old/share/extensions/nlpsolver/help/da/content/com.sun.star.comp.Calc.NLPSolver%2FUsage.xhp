@@ -1,0 +1,7 @@
+Problemløser for ikke-lineære problemer;Indstillinger
+
+Brug
+Uanset om du vil benytte DEPS eller SCO, starter du med at vælge Funktioner - Problemløser og der sætte den celle der skal optimeres, sætte hvilken retning (minimering eller maksimering) og sætte hvilke celler der skal ændres for at nå målet. Derefter vælger du Indstillinger og angiver hvilken problemløser der skal benyttes, og om nødvendigt, justerer de relevante parametre.
+Der er også en liste over begrænsninger du kan benytte for at afgrænse det mulige område af løsninger eller for at forbyde/undgå bestemte betingelser. I tilfældet med de evolutionære problemløsere  DEPS og SCO, bliver disse begrænsninger dog også brugt til at definere grænser hvad angår problemets variable. Som følge af beregningsmetodernes tilfældige natur, er det kraftigt anbefalet at gøre dette og angive øvre (og i tilfælde af at "Antager ikke-negative variable" er fravalgt. også nedre) grænser for alle variable. De behøver ikke være tæt på den faktiske løsning (som sandsynligvis er ukendt) men bør give en grov indikation af den forventede størrelse (0 ≤ var ≤ 1 eller måske -1000000 ≤ var ≤ 1000000).
+Grænser defineres ved at vælge en eller flere variable (som område) i venstre side og indtaste en numerisk værdi (ikke en celle eller en formel) i højre side. På samme måde kan du også vælge en eller flere variable til kun at være heltal eller binære.
+

@@ -1,0 +1,31 @@
+
+Medijaviki formati
+Oblikovanja teksta koje dodatak Objavi na vikiju može da otpremi na viki server su navedena u sledećem spisku.
+Vikimedija format i otvoreni dokument-format koje koristi Pisac su prilično različiti. Samo deo opcija može biti preveden iz jednog formata u drugi.
+Zaglavlja
+Primenite stil pasusa za zaglavlje u zaglavlju Piščevog dokumenta. Viki će prikazati stil zaglavlja istog nivoa, onako kako je podešeno u Vikiju.
+Hiperveze
+Izvorne veze u otvorenom dokument-formatu (ODF) se prevode u „spoljne“ veze na vikiju. Zbog toga koristite veze u ODF-u samo za veze koje vode do stranica van vikija. Za izradu viki veza koje vode na druge članke unutar istog viki domena, koristite viki veze.
+Liste
+Liste mogu biti pravilno izvezene kada cela lista koristi dosledan stil. Koristite ikonicu za nabrajanje i numerisanje u Piscu za izradu spiska ili liste. Ukoliko vam je potrebna lista bez nabrajanja, koristite „Format - Numerisanje i nabrajanje“ kako biste izabrali željeni stil.
+Pasusi
+Poravnanje
+Zadato poravnanje teksta nije poželjno u Viki člancima. Ipak, levo, centrirano i desno poravnanje teksta je podržano.
+Preformatirani tekst
+Stil pasusa sa zadatom širinom fonta se prevodi u preformatirani tekst. Preformatirani tekst se prikazuje na Vikiju sa ivicom oko teksta.
+Stil znakova
+Stil znakova menja izgled delova pasusa. Podržan je podebljan tekst, kurziv, podebljani kurziv, tekst u eksponentu i tekst u indeksu. Sve zadate širine fontova se prevode u Viki stil.
+Fusnote
+Primedba: Prevođenje koristi novi stil fusnota sa oznakama <ref> i <references> koje zahtevaju da  na Medijaviki bude instalirano proširenje Cite.php. Ukoliko se ove oznake pojave kao običan tekst u prevedenom rezultatu, zahtevajte od administratora Viki stranice da instalira proširenje.
+Slike
+Slike se ne mogu izvesti transformacijom u datoteku Viki teksta. Međutim, ukoliko je slika već otpremljena na ciljni Viki domen (npr. WikiMedia Commons) biće napravljena ispravna oznaka za uključivanje slike. Naslovi slika su takođe podržani.
+Tabele
+Jednostavne tabele su dobro podržane. Zaglavlja tabele se prevode u odgovarajući Viki stil zaglavlja. Međutim, proizvoljno formatirane ivice tabela, veličina kolona i boja pozadine će biti zanemarene.
+Spojene ćelije
+Otvoreni dokument format (ODF), a pre svega Libreofis, predstavlja tabele sa spojenim ćelijama kao tabele sa ugneždenim tabelama. S druge strane, Viki definiše spajanje kolona i redova za takve ćelije.
+Ukoliko su spojene samo kolone istog reda, rezultat prevođenja će biti sličan izvornom dokumentu.
+Ivice
+Zanemarujući prilagođene stilove tabele za granice i pozadinu tabele, ona se uvek izvozi kao „lepa tabela“, što se u Vikiju prikazuje kao tabela sa jednostavnim ivicama i podebljanim zaglavljem.
+Kodiranje i posebni znaci
+Znaci prevedenog rezultata su zadati kao UTF-8. U zavisnosti od vašeg sistema, ovo ne mora biti podrazumevano kodiranje, pa „posebni znaci“ mogu izgledati drugačije. U uređivaču teksta možete prebaciti kodiranje na UTF-8. Ukoliko uređivač ne podržava promenu kodiranja, možete otvoriti rezultat transformacije u Fajerfoks pregledaču i odatle prebaciti kodiranje na UTF-8. Tada u željeni program možete ubaciti rezultat transformacije.
+

@@ -1,0 +1,56 @@
+
+Wiki;Publicação Wiki
+Publicação Wiki
+extensões;MediaWiki
+
+Publicação Wiki
+Se utilizar a Publicação Wiki, pode enviar o atual documento de texto do Writer para um servidor MediaWiki. Após enviar o documento, todos os utilizadores do Wiki podem ler o seu documento.
+
+Escolha Ficheiro - Enviar - Para o MediaWiki para enviar o atual documento do Writer para um servidor MediaWiki.
+Requisitos do sistema
+Java Runtime Environment
+
+Uma conta Wiki num servidor MediaWiki suportado
+
+
+Instalar Publicação Wiki
+Antes de instalar a Publicação Wiki, verifique se o %PRODUCTNAME está a utilizar um Java Runtime Environment (JRE). Para verificar o estado do JRE, escolha Ferramentas - Opções - %PRODUCTNAME - Java. Certifique-se que a opção "Utilizar um Java runtime environment" está ativa e que aparece a pasta do Java na caixa abaixo da opção. Se o JRE estiver inativo, ative o JRE 1.4 ou posterior e reinicie o %PRODUCTNAME.
+Para estabelecer ligação a um Wiki
+Nota: pode armazenar o nome de utilizador e a palavra-passe de todas as caixas de diálogo respetivas no %PRODUCTNAME. A palavra-passe será armazenada de forma segura, na qual o acesso é mantido através de uma palavra-passe principal. Para ativar a palavra-passe principal, escolha Ferramentas - Opções - %PRODUCTNAME - Segurança.
+Nota: se estabelecer ligação à web através de um servidor proxy, introduza as informações do proxy em Ferramentas - Opções - Internet - Proxy e, em seguida, reinicie o programa.
+Abra um documento do Writer e escolha Ferramentas - Opções - Internet - MediaWiki.
+
+Na caixa de diálogo Opções, clique Adicionar.
+
+Na caixa de diálogo MediaWiki, indique as informações da conta Wiki.
+
+
+Na caixa de texto URL, indique o endereço de um Wiki ao qual pretende estabelecer ligação.
+Pode copiar o URL a partir de um navegador web e colá-lo na caixa de texto.
+
+Na caixa Nome de utilizador, introduza o ID de utilizador para a conta Wiki.
+Se o Wiki permitir o acesso de escrita anónimo, pode deixar as caixas Nome de utilizador e Palavra-passe em branco.
+
+Na caixa Palavra-passe, introduza a palavra-passe da conta Wiki e, em seguida, clique Aceitar.
+
+
+Opcionalmente, pode ativar a opção "Guardar palavra-passe" para guardar a palavra-passe entre sessões. É utilizada uma palavra-passe principal para manter o acesso a todas as palavras-passe guardadas. Escolha Ferramentas - Opções - %PRODUCTNAME - Segurança para ativar a palavra-passe principal. A opção "Guardar palavra-passe" não está disponível, se a palavra-passe principal não estiver ativa.
+Para criar uma nova página Wiki
+Abra um documento do Writer.
+
+Escreva o conteúdo da página Wiki. Pode utilizar formatações, títulos, notas de rodapé e muito mais. Consulte a lista de formatos suportados.
+
+Escolha Ficheiro - Enviar - Para o MediaWiki.
+
+Na caixa de diálogo Enviar para MediaWiki, especifica as definições da entrada.
+
+
+Servidor MediaWiki: selecione o Wiki.
+Título: escreva o título da página. Escreva o título de uma página existente para a substituir pelo atual documento de texto. Escreva um novo título para criar uma nova página Wiki.
+Resumo: Introduza um breve resumo da sua página.
+Esta é uma edição secundária: selecione esta caixa para assinalar a página enviada como uma correção a uma página já existente com o mesmo título.
+Mostrar no navegador web: selecione esta caixa para abrir o navegador web e mostrar a página enviada.
+Clique em Enviar.
+
+
+

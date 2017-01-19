@@ -1,0 +1,31 @@
+
+Formatos MediaWiki
+A seguinte lista ofrece unha vista xeral dos formatos de texto que Wiki Publisher pode subir ao servidor Wiki.
+O formato OpenDocument usado por Writer e o formato WikiMedia son bastante distintos. Só un subconxunto de todas as características pode ser transformado dun cara ao outro formato.
+Títulos
+Aplicar un estilo de parágrafo Título aos títulos do seu documento de Writer. O Wiki amosará os estilos de Título ao mesmo nivel do esquema, formateados como defina o motor do Wiki.
+Hiperligazóns
+As hiperligazóns nativas de OpenDocument son transformadas en ligazóns «externas» ao Wiki. Polo tanto, a creación de ligazóns no formato OpenDocument só debe ser usada para crear ligazóns que apunten a outros sitios web fóra do Wiki. Para crear ligazóns wiki que apunten a outros asuntos dentro do mesmo dominio do Wiki, use as ligazóns wiki.
+Listas
+As listas poden ser exportadas con fiabilidade se toda a lista usa un estilo consistente. Use a icona Viñetas e numeración para xerar unha lista en Writer. Se necesita unha lista sen viñetas ou numeracións, use Formato - Viñetas e numeración para definir e aplicar o estilo de lista respectivo.
+Parágrafos
+Aliñamento
+O aliñamento explícito do texto non debe ser usado nos artigos de Wiki. Con todo, o aliñamento de texto á esquerda, ao centro e á dereita admítese.
+Texto pre-formateado
+Un estilo de parágrafo cunha largura de tipo de letra fixa transformarase nun texto preformatado. O texto preformatado amosarase no Wiki cun borde ao redor do texto.
+Estilos de letra
+Os estilos de letra modifican a aparencia de partes dun parágrafo. A transformación admiten grosa, cursiva, cursiva grosa, subíndice e superíndice. Todos os tipos de letra con tipo fixo transfórmanse como estilo de máquina de escribir do Wiki.
+Notas a rodapé
+Nota: A transformación usa o novo estilo de notas a rodapé coas etiquetas <ref> e <references> que requiren a instalación da extensión Cite.php no servidor MediaWiki. Se esas etiquetas aparecen como texto simple como resultado da transformación, pídalle ao administrador do Wiki que instale a extensión.
+Imaxes
+As imaxes non se poden exportar á un simple ficheiro de texto Wiki. No entanto, se a imaxe xa está subida ao dominio Wiki obxectivo (p. ex. WikiMedia Commons), entón a transformación produce unha etiqueta de imaxe correcta que inclúe a imaxe. As lendas das imaxes tamén se admiten.
+Táboas
+As táboas simples están admítense ben. As cabeceiras das táboas correspóndense coas cabeceiras das táboas con estilo Wiki. No entanto, os formatados personalizados dos bordos, tamaños de columnas e cores de fondo ignóranse.
+Celas unidas
+O OpenDocument e, especialmente, a LibreOffice representan as táboas que posúen celas expandidas que abranguen varias liñas como táboas con outras táboas aniñadas. Pola contra, no modelo de táboa do wiki enténdese que unha columna e unha fila se expanden neses casos de celas unidas. 
+Se só se unen columnas da mesma fila, o resultado da transformación do documento orixinal é moi bo.
+Bordos
+Malia os estilos personalizados para bordos de táboa ou fondo, unha táboa expórtase sempre como "prettytable", que se renderiza no motor do Wiki con bordos simples e cabeceira en grosa.
+Caracteres especiais e conxunto de caracteres
+O conxunto de caracteres da transformación está fixado como UTF-8. Dependendo do seu sistema, este pode non ser o conxunto predeterminado. Isto pode causar que os "caracteres especiais" non se vexan ben coa configuración predeterminada. No entanto, pode cambiar o seu editor para que use UTF-8 e arranxar isto. Se o seu editor non admite cambio na codificación, pode presentar o resultado da transformación no navegador Firefox e cambiar a codificación a UTF-8 alí. Agora, pode copiar e pegar o resultado da transformación para o programa que desexe.
+

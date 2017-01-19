@@ -1,0 +1,15 @@
+
+MediaWiki
+Za pomocą okna dialogowego MediaWiki dodaj lub edytuj ustawienia swojego konta MediaWiki.
+
+Wprowadź adres URL serwera MediaWiki, zaczynając od http://
+
+Wprowadź swoją nazwę użytkownika na serwerze MediaWiki. Pozostaw to pole puste, aby uzyskać dostęp anonimowy.
+
+Wprowadź swoje hasło na serwerze MediaWiki. Pozostaw to pole puste, aby uzyskać dostęp anonimowy.
+
+Włącz zachowywanie hasła między sesjami. Aby skorzystanie z tej funkcji było możliwe, konieczne jest włączenie hasła głównego – patrz Narzędzia – Opcje – %PRODUCTNAME – Bezpieczeństwo.
+Należy wprowadzić adres internetowy serwera Wiki w formacie http://wiki.documentfoundation.org lub skopiować go z przeglądarki internetowej.
+Jeśli strona Wiki zezwala na dostęp anonimowy, pola tekstowe konta mogą pozostać puste. W przeciwnym razie wprowadź swoją nazwę użytkownika i hasło.
+Jeśli funkcja hasła głównego została włączona na karcie Bezpieczeństwo w oknie Narzędzia - Opcje - %PRODUCTNAME, to oprogramowanie może zachować Twoje hasło i automatycznie wstawiać je tam, gdzie zajdzie taka potrzeba. Zaznacz pole "Zapisz hasło", aby je zapisać.
+

@@ -1,0 +1,2 @@
+A extensión Presenter Console proporciona un mellor control das presentacións, tales como a posibilidade de ver o diapositiva seguinte, as súas notas e un cronómetro non visíbel para a audiencia.
+Para evitar a confusión ao amosar os diversos elementos da presentación, a extensión amosa os elementos em tres visualizacións distintas facilmente intercambiábeis.

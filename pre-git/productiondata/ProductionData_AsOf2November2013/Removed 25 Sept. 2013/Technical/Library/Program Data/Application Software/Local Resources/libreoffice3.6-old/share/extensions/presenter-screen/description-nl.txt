@@ -1,0 +1,2 @@
+De extensie Presentatieconsole biedt meer controle over uw diashow, zoals de mogelijkheid om de volgende dia, de dianotities en een presentatietimer te zien, terwijl het publiek alleen de huidige dia ziet.
+Om verwarring bij het weergeven van een groot aantal presentatie-elementen te voorkomen, kan de Presentatieconsole de elementen weergeven op drie verschillende gemakkelijk te wijzigen manieren.

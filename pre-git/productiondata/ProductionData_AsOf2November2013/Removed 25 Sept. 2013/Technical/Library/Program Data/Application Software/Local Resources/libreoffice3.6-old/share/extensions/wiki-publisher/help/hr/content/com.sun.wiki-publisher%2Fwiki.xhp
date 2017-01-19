@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+dodaci;MediaWiki
+
+Wiki Publisher
+Koristeći Wiki Publisher možete vaš trenutni tekstualni dokument u Writeru otpremiti na MediaWiki poslužitelj. Nakon otpremanja, svi korisnici Wikija mogu vaš dokument čitati na Wikiju.
+
+Izaberite Datoteka-Pošalji - U MediaWiki za slanje trenutnog Writer dokumenta na poslužitelj MediaWiki-a.
+Zahtjevi prema sustavu
+Java Runtime Environment
+
+Wiki korisnički račun na poslužitelju koji poslužuje MediaWiki 
+
+
+Instaliram Wiki Publisher
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Za spajanje na Wiki
+Napomena: Možete spremiti vaše korisničko ime i lozinku za sve potrebne dijaloge unutar  %PRODUCTNAME.  Lozinka će biti pohranjena na siguran način gdje se pristup dobija glavnom lozinkom. Kako bi uključili glavnu lozinku, odaberite  Alati - Opcije - %PRODUCTNAME - Sigurnost.
+Napomena: ukoliko se spajate na web korištenjem proxy poslužitelja, unesite informacije o proxyju u Alati - Odrednice - internet - Proxy, te ponovo pokrenite program.
+Otvorite dokument programa Writer, te izaberite Alati - Odrednice - internet - MediaWiki.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+U unosu za tekst URL-a, unesite adresu Wikija na koji se želite spojiti.
+Možete kopirati URL iz web preglednika i zalijepiti ga ovdje u unos. 
+
+U unos za korisničku oznaku, unesite vašu korisničku oznaku za vaš Wiki račun.
+Ukoliko Wiki dozvoljava anonimno pisanje, možete ostaviti unose za korisnika i lozinku praznima.
+
+U unosu za lozinku, unesite lozinku za vaš Wiki račun, tada pritisnite U redu.
+
+
+Prema izboru uključite "Spremi lozinku" za spremanje lozinki između sesija. Glavna lozinka se koristi za glavni pristup svim spremljenim lozinkama. Odaberite  Alati - Odrednice - %PRODUCTNAME - Sigurnost za uključivanje glavne lozinke. "Spremi lozinku" je nedostupno kada glavna lozinka nije omogućena.
+Kako bi napravili novu wiki stranicu
+Otvori Writer dokument.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Izaberite Datoteka - Pošalji - U MediaWiki.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+MediaWiki poslužitelj: Odaberite Wiki.
+Naslov: Upišite naslov vaše stranice. Upišite naslov postojeće stranice ukoliko želite osvježiti stranicu s vašim trenutnim dokumentom. Upišite novi naslov ukoliko želite stvoriti novu stranicu na Wiki-u.
+Sažetak: Unesite opcionalan kratak sažetak vaše stranice.
+Ovo je manja izmjena: Označite ovu kučicu za označavanje otpremljene stranice kao manjom izmjenom već postojeće stranice s istim naslovom.
+Prikaži u web pregledniku: Označite ovu kućicu kako bi otvorili vaš web preglednik na sustavu prikazajuću poslanu Wiki stranicu.
+Kliknite Pošalji.
+
+
+

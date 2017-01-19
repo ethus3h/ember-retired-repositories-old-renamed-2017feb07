@@ -1,0 +1,56 @@
+
+Viki;Objavi na vikiju
+Objavi na vikiju
+dodaci;Medijaviki
+
+Objavi na vikiju
+Koristeći dodatak Objavi na vikiju možete da otpremite tekst iz Pisca na Medijaviki server. Po objavljivanju svi će moći da pročitaju dokument na Vikiju.
+
+Izaberite Datoteka - Pošalji - Na Medijaviki kako biste otpremili trenutni dokument na Medijaviki server.
+Sistemski zahtevi
+Javino radno okruženje
+
+Viki nalog na podržanom Medijaviki serveru
+
+
+Instalacija dodatka Objavi na viki
+Pre nego što instalirate dodatak Objavi na vikiju, proverite da li %PRODUCTNAME koristi Java radno okruženje (JRE). Za proveru stanja Java radnog okruženja izaberite Alatke - Podešavanja - %PRODUCTNAME - Java. Proverite da li je uključeno „Koristi Javino radno okruženje“ i da li je Javin radni direktorijum izabran u priloženom polju. Ukoliko radno okruženje nije aktivno, uključite JRE 1.4 ili novije izdanje i ponovo pokrenite %PRODUCTNAME.
+Za povezivanje na Viki
+Napomena: Možete sačuvati svoje korisničko ime i lozinku zasebno za sve %PRODUCTNAME prozorčiće. Lozinka se čuva na siguran način i njoj se pristupa glavnom lozinkom. Za omogućavanje glavne lozinke izaberite Alatke - Podešavanja - %PRODUCTNAME - Sigurnost.
+Primedba: Ukoliko se povezujete na mrežu kroz posrednički server, unesite podatke o posredniku u Alatke - Podešavanja - Interent - Posrednik i ponovo pokrenite program.
+Otvorite dokument Pisca i izaberite Alatke - Podešavanja - Internet - Medijaviki.
+
+U prozorčetu Opcije kliknite na Dodaj.
+
+U prozorčetu Medijaviki unesite podatke o nalogu na vikiju.
+
+
+U polju za adresu unesite adresu Vikija na koji želite da se povežete.
+Možete kopirati adresu iz veb pregledača i ubaciti je u tekstualno polje.
+
+U polju Korisničko ime unesite korisničko ime Viki naloga.
+Ukoliko Viki dozvoljava anonimni pristup za upis, polja „Korisničko ime“ i „Lozinka“ možete ostaviti prazna.
+
+U polju „Lozinka“ unesite lozinku naloga na vikiju i kliknite „U redu“.
+
+
+Opciono uključite „Sačuvaj lozinku“ ukoliko želite pamćenje lozinke između sesija. Glavna lozinka se upotrebljava za pristup svim sačuvanim lozinkama. U meniju Alatke - Podešavanja - %PRODUCTNAME - Sigurnost omogućite glavnu lozinku. Stavku „Sačuvaj lozinku“ je moguće aktivirati tek po postavljanju glavne lozinke.
+Izrada nove viki stranice
+Otvori dokument Pisca.
+
+Napišite sadržaj Viki stranice. Možete koristiti formatiranja kao što su oblik teksta, zaglavlja, fusnote i drugo. Pogledajte spisak podržanih formata.
+
+Izaberite Datoteka - Pošalji - Na Medijaviki.
+
+U prozorčetu Pošalji na Medijaviki navedite podešavanja svoj unos.
+
+
+Medijaviki server: Izaberite viki.
+Naslov: Upišite naslov svoje stranice. Upišite naslov već postojeće stranice ukoliko želite da je zameniti trenutnim dokumentom. Upišite novi naslov za izradu nove stranice na vikiju.
+Sažetak: Možete uneti kratak sažetak svoje stranice.
+Ovo je mala izmena: Označite ovo da biste otpremili stranicu kao malu izmenu postojeće stranice sa istim nazivom.
+Prikaži u veb pregledaču: Uključite da otvorite otpremljenu viki stranicu u veb pregledaču koji je instaliran na računaru.
+Kliknite na „Pošalji“.
+
+
+

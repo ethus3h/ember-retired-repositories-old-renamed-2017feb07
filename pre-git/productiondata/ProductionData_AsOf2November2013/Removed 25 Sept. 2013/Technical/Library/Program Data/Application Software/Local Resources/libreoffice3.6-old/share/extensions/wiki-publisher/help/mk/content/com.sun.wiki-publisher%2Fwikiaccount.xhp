@@ -1,0 +1,15 @@
+
+MediaWiki
+Користете го дијалогот MediaWiki за да ги додадете или уредите поставките на вашата сметка за MediaWiki.
+
+Внесете URL на MediaWiki серверот, почнувајќи со http://
+
+Внесете ги вашето корисничко име за MediaWiki серверот. Оставете го празно за анонимен пристап.
+
+Внесете ја лозинката на MediaWiki серверот. Оставете празно за анонимен пристап.
+
+Овозможете за да ја снимате лозинка помеѓу сесиите. Главната лозинка мора да биде овозможена, видете Алатки - Опции - StarOffice/OpenOffice.org - Безбедност.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Ако Вики ви овозможува анонимен пристап, можете да ги оставите празни полињата за сметка. Ако не, внесете го вашето корисничко име и лозинка.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

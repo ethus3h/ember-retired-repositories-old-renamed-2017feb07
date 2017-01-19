@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=libreoffice3.6-printeradmin
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;
+Exec=libreoffice3.6-printeradmin
+Name=LibreOffice 3.6 Printer Administration
+Name[zu]=LibreOffice 3.6 Ukuphathwa komshicileli
+

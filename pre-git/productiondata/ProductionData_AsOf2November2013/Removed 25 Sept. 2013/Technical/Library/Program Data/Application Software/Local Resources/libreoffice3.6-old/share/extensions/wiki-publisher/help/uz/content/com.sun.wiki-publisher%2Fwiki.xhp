@@ -1,0 +1,56 @@
+
+Wiki;Wiki Publisher
+Wiki Publisher
+kengaytmalar;MediaWiki
+
+Wiki Publisher
+Wiki Publisher yordamida Writer matn hujjatini MediaWiki serveriga joylashtirishingiz mumkin. Hujjat joylashtirilgandan keyin uni barcha Wiki foydalanuvchilari oʻqishlari mumkin.
+
+Joriy Writer hujjatini MediaWiki serveriga joylashtirish uchun Fayl - Joʻnatish - MediaWiki'ga bandini tanlang.
+Tizim talabi
+Java Runtime Environment
+
+Wiki hisobini qoʻllaydigan MediaWiki serveri
+
+
+Wiki Publisher oʻrnatilmoqda
+Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose Tools - Options - %PRODUCTNAME - Java. Ensure that "Use a Java runtime environment" is marked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE 1.4 or later and restart %PRODUCTNAME.
+Wiki bilan boʻglanish uchun
+Izoh: StarOffice/OpenOffice.org dialoglari uchun foydalanuvchi va maxfiy soʻzni saqlashingiz mumkin. Maxfiy soʻz master maxfiy soʻz bilan himoyalangan xavfsiz joyda saqlanadi. Master maxfiy soʻzni yoqish uchun menyudan Vositalar - Parametrlar - StarOffice/OpenOffice.org - Xavfsizlik bandini tanlang.
+Izoh: Agar siz internetga proxy orqali ulansangiz, menyudan Vositalar - Parametrlar - Internet - Proxi bandida proxi maʻlumtorlarini kiriting va dasturni qaytadan ishga tushiring.
+Writer hujjatini oching va menyudan Vositalar - Parametrlar - Internet - MediaWiki bandini tanlang.
+
+In the Options dialog, click Add.
+
+In the MediaWiki dialog, enter the account information for the Wiki.
+
+
+URL maydoniga ulanish kerak boʻlgan Wiki manzilini kiriting.
+Veb brauzerdan URL nusxasini olib ushbu maydonga qoʻyishingiz mumkin.
+
+Wiki hisobingiz nomini foydalanuvchi maydoniga kiriting.
+Agar Wiki anonim yozish huquqini bersa, foydalanuvchi va maxfiy soʻz oʻrnini boʻsh qoldirishingiz mumkin.
+
+Wiki hisobingiz maxfiy soʻzini maxfiy soʻz maydoniga kiriting va OK tugmasini bosing.
+
+
+Optionally enable "Save password" to save the password between sessions. A master password is used to maintain access to all saved passwords. Choose Tools - Options - %PRODUCTNAME - Security to enable the master password. "Save password" is unavailable when the master password is not enabled.
+Yangi Wiki sahifasi yaratish uchun
+Writer hujjatini ochish.
+
+Write the content of the Wiki page. You can use formatting like text formats, headings, footnotes, and more. See the list of supported formats.
+
+Fayl - Joʻnatish - MediaWiki bandini tanlang.
+
+In the Send to MediaWiki dialog, specify the settings for your entry.
+
+
+MediaWiki server: Wiki ni tanlang.
+Title: Type the title of your page. Type the title of an existing page to overwrite the page with your current text document. Type a new title to create a new page on the Wiki.
+Summary: Enter an optional short summary of your page.
+This is a minor edit: Check this box to mark the uploaded page as a minor edit of the already existing page with the same title.
+Show in web browser: Check this box to open your system web browser and show the uploaded Wiki page.
+Joʻnatishni bosing.
+
+
+

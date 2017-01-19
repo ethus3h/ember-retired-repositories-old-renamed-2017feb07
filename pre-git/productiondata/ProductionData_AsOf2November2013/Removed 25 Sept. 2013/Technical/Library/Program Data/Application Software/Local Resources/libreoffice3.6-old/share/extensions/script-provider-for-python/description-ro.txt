@@ -1,0 +1,1 @@
+Prin Scripting Framework este posibilă rularea programelor scris în limbaj Python din directorul utilizatorului sau partajat, sau din documentul deschis.

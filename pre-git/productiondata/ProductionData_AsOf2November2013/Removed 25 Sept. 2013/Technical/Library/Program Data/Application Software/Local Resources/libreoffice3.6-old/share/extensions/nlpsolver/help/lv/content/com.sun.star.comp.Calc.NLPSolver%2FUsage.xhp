@@ -1,0 +1,7 @@
+Nelineāru uzdevumu risinātājs;Lietojums
+
+Lietojums
+Neatkarīgi no tā, vai izvēlaties DEPS vai SCO, jūs sākat ar Rīki → Risinātājs un iestatāt šūnu, ko optimizēt, virzienu, kurā iet (minimizācija, maksimizācija) un šūnas, kuras mainīt, lai sasniegtu mērķi. Tad jūs dodaties uz Opcijām un norādiet, kuru risinātāju izmantot un, ja nepieciešams, pieregulēt atbilstošos parametrus.
+Ir arī saraksts ar ierobežojumiem, ko varat izmantot, lai ierobežotu iespējamo risinājumu diapazonu un sodīt noteiktus nosacījumus. Bet evolucionāro risinātāju (DEPS un SCO) gadījumā šie ierobežojumi tiek izmantoti, lai norādītu robežas mainīgajiem uzdevumā. Dēļ nejaušās algoritmu dabas, ir ļoti ieteicams to darīt un dot augšējās robežas visiem mainīgajiem ("Pieņemt vērtības kā nenegatīvas" gadījumā arī apakšējās tiek izslēgtas). Tām robežām nav jābūt tuvām pašam risinājumam (kurš droši vien nav zināms), bet tam vajadzētu dot aptuvenu norādi, kāds ir sagaidāmais izmērs (0 ≤ mainīgais ≤ 1 vai varbūt -1000000 ≤ mainīgais ≤ 1000000).
+Robežas tiek norādītas, izvēloties vienu vai vairākus mainīgos (kā apgabalu) kreisajā pusē un ievadot skaitlisku vērtību (nevis šūnu vai formulu) labajā pusē. Šādā veidā jūs varat izvēlēties vienu vai vairākus mainīgos, kas var būt tikai veseli vai bināri skaitļi.
+

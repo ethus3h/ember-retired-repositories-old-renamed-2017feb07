@@ -1,0 +1,7 @@
+Solvilo por Neliniaj Problemoj;Uzado
+
+Uzado
+Sendepende de ĉu vi uzas je DEPS aŭ SCO, vi komencu irante al Iloj → Solvilo, kaj agordos la ĉelon optimumigotan, la direkton irotan (minimumon, maksimumon) kaj la ĉelojn ŝanĝotajn por atingi la celon. Tiam iru al Agordaro por agordi la solvilon uzotan kaj se necese adapti la rilatajn parametrojn.
+Ekzistas ankaŭ listo de restriktoj kiujn vi povas uzi por restrikti la eblan amplekson de solvoj aŭ por malavantaĝi al specifaj kondiĉoj. Tamen, en la kazo de la evoluaj solviloj DEPS kaj SCO, tiuj restriktoj ankaŭ uzeblas por agordi limesojn de la variabloj de la problemo. Pro la hazarda karaktero de la algoritmoj, ni forte rekomendas fari tion kaj agordi supran (kaj en la kazo ke "Supozi nenegativajn variablojn" estas elŝaltita, ankaŭ malsupran) limesojn por ĉiuj variabloj. Ne necesas ke ili estu proksimaj al la vera solvo (kiu eble estas nekonata) sed devus doni proksimuman indikon de la atendata grando (0 ≤ var ≤ 1 aŭ eble -1000000 ≤ var ≤ 1000000).
+Oni agordas limesojn elektante unu aŭ pliajn variablojn (kiel amplekson) ĉe la maldekstra flanko kaj enigante numeran valoron (ne ĉelon aŭ formulon) ĉe la dekstra flanko. Tiel vi povas ankaŭ elekti unu aŭ pliajn variablojn esti nur entjeraj aŭ duumaj.
+

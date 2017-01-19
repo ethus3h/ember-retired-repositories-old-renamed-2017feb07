@@ -1,0 +1,96 @@
+Oplosser voor Niet-lineaire Problemen;Opties
+
+Algemene opties
+Grootte van Swarm
+
+… definieert het aantal individuen die deelnemen aan het leerproces. Elk individu vindt zijn eigen oplossingen en draagt bij tot de algehele kennis.
+
+
+Leercycli
+
+... definieert het aantal iteraties, die het algorithme moet maken. In elke iteratie maken alle individuen een gok voor de beste oplossing en delen hun kennis.
+
+
+Variabele grenzen raden
+
+Als ingeschakeld (standaard), probeert het algoritme de variabele grenzen te vinden door te kijken naar de beginwaarden.
+
+
+Grenswaarde voor variabele grenzen
+
+Wanneer variabele grenzen worden geraden, bepaalt deze drempel hoe de beginwaarden verplaatst worden om de grenzen te bouwen. Raadpleeg, om een voorbeeld te krijgen hoe deze waarden worden berekend, de handleiding in de Wiki.
+
+
+ACR-vergelijking gebruiken
+
+Als disabled (standaard), wordt de BCH-vergelijking gebruikt. Het vergelijkt twee individuen door eerst te zoeken naar hun beperkte scheidingen en alleen als die gelijk zijn, meet het hun huidige oplossing
+Als enabled wordt de ACR-vergelijking gebruikt. Het vergelijkt twee individuen afhankelijk van de huidige iteratie en meet hun correctheid met kennis over de in bibliotheken slechtste oplossingen (in functie van hun beperkte schendingen).
+
+
+Willekeurig beginpunt gebruiken
+
+Als ingeschakeld wordt de bibliotheek gewoon gevuld met willekeurig gekozen punten.
+Als uitgeschakeld worden de huidige aanwezige waarden (zoals ingegeven door de gebruiker) ingevoegd in de bibliotheek als referentiepunt
+
+
+Stagnatielimiet
+
+Als dit aantal individuen oplossingen heeft gevonden binnen een korte afstand, wordt de iteratie gestopt en wordt de beste van de waarden gekozen als optimaal.
+
+
+Stagnatietolerantie
+
+Bepaalt in welk bereik oplossingen worden beschouwd als "gelijksoortig".
+
+
+Verbeterde oplosserstatus weergeven
+
+Als ingeschakeld wordt een extra dialoogvenster weergegeven, tijdens het probleemoplossend proces, dat informatie geeft over de huidige voortgang, het niveau van stagnatie, de; op dit moment, best bekende oplossing evenals de mogelijkheid om de oplosser te stoppen of te hervatten.
+
+
+
+DEPS-specifieke opties
+Schakelsnelheid van agent
+
+Specificeert de waarschijnlijkheid voor een individu om te kiezen voor de Differentiaal Ontwikkelingsstrategie
+
+
+DE: Overspraakwaarschijnlijkheid
+
+… definieert de waarschijnlijkheid van het individuele type dat wordt gecombineerd met het wereldwijd beste punt. Als overspraak niet wordt gebruikt, wordt het punt samengesteld uit het eigen geheugen van het individuele type.
+
+
+DE: Schaalfactor
+
+Tijdens overspraak beslist de schaalfactor over de "snelheid" van de beweging.
+
+
+PS: Beperkingscoëfficient
+
+… definieert de snelheid waarmee de deeltjes/individuen zich ten opzichte van elkaar verplaatsen.
+
+
+PS: Cognitieve constante
+
+… stelt de belangrijkheid van het eigen geheugen in (in het bijzonder het beste bereikte punt tot nu toe).
+
+
+PS: Sociale constante
+
+… stelt de belangrijkheid van het globale beste punt in tussen alle deeltjes/individuen.
+
+
+PS: Mutatiewaarschijnlijkheid
+
+… definieert de waarschijnlijkheid, dat in plaats van een component van een deeltje te verplaatsen naar het beste punt, het willekeurig een nieuwe waarde kiest voor het geldige bereik van die variabele.
+
+
+
+SCO-specifieke opties
+Grootte van de bibliotheek
+
+… definieert de hoeveelheid informatie die in de openbare bibliotheek wordt opgeslagen. Elk individue slaat daar kennis op en vraagt er naar informatie.
+
+
+
+

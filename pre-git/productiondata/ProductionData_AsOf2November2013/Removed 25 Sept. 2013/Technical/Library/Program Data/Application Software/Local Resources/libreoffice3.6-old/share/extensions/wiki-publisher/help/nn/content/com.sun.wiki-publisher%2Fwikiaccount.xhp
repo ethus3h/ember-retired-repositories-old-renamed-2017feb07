@@ -1,0 +1,15 @@
+
+MediaWiki
+I dialogvindauget MediaWiki kan du leggja til eller endra innstillingar for MediaWiki-kontoane dine.
+
+Skriv inn nettadressa til ein MediaWiki-tenar. Ta med http://
+
+Skriv inn brukarnamnet ditt på MediaWiki-tenaren. La boksen stå tom dersom du ikkje vil logga inn.
+
+Skriv inn passordet ditt på MediaWiki-tenaren. La boksen stå tom dersom du ikkje vil logga inn.
+
+Slå på lagring av passordet ditt mellom øktene. Hovudpassord må vera i bruk, sjå Verktøy → Innstillingar →  %PRODUCTNAME → Tryggleik.
+Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser.
+Dersom wikien tillèt anonym tilgang, kan du la vere å skriva noko i boksane med kontoinformasjon. Dersom ikkje, skriv inn brukarnamnet og passordet ditt.
+If you have enabled the master password feature on the Security tab page of the Tools - Options - %PRODUCTNAME dialog, then the software can store your password and automatically insert the data where necessary. Enable the "Save password" checkbox to store your password.
+

@@ -1,0 +1,7 @@
+Solver pa problemes non lliniales;Utilización
+
+Utilización
+Lo mesmo si uses DEPS como SCO, entra en Ferramientes → Solver y establez la caxella qu'ameyorar, la direición (a menor, a mayor) y les caxelles a camudar pa llegar al oxetivu. Llueu entra en Opciones y conseña'l solver que s'utilizará y, si fai falta, axusta los parámetros rellacionaos.
+Tamién hai una llista de restricciones que se puen utilizar pa llendar l'intervalu de soluciones posibles o pa penalizar ciertes condiciones. Sicasí, nel casu de los solvers evolutivos DEPS y SCO, eses restricciones tamién s'usen pa conseñar llendes nes variables del problema. Darréu de la naturaleza al debalu de los algoritmos, ye enforma recomendable facelo y marcar llendes superiores a les variables (y tamién inferiores nel casu de que «Asumir variables non negatives» tea desactivao). Nun tienen por qué tar cerca de la solución real (que probablemente ye desconocida) pero tendría de dar una aproximación al tamañu esperáu (0 ≤ var ≤ 1 o seique -1000000 ≤ var ≤ 1000000).
+Les llendes se conseñen seleicionando una o más variables (como intervalu) nel llau izquierdu y escribiendo un valor numbéricu (non una caxella nin una fórmula) nel llau drechu. D'esa manera, tamién se pue escoyer qu'una o más variables seyan Enteros o Binarios namái.
+

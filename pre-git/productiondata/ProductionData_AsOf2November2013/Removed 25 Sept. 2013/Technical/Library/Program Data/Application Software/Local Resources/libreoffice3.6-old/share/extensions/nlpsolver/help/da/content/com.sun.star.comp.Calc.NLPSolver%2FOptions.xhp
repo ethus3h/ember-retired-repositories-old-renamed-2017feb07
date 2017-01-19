@@ -1,0 +1,96 @@
+Problemløser for ikke-lineære problemer;Indstillinger
+
+Generelle indstillinger
+Sværmens størrelse
+
+... definerer antallet af individer som kan deltage i læringsprocessen. Hvert individ finder sin egen løsning og bidrage til den samlede viden.
+
+
+Læringscyklus
+
+...definerer antallet af iterationer, som algoritmen skal gennemløbe. I hver iteration foretager hvert individ et gæt på den bedste løsning, og deler deres viden.
+
+
+Variabelafgrænset gæt
+
+Hvis aktiveret (standard), forsøger algoritmen at finde variabelafgrænsninger ved at kigge på startværdierne.
+
+
+Tærskel for variabelafgrænsning
+
+Når der gættes på variabelgrænser, angiver denne tærskel, hvordan startværdien ombyttes for at bygge grænser. For et eksempel på hvordan disse værdier beregnes, henvises du til manualen på Wiki'en.
+
+
+Brug ACR sammenligner
+
+Hvis deaktiveret (standard), bruges BCH sammenligneren. Den sammenligner to individer ved først at se på deres overtrædelser af begrænsninger, og kun hvis de er ens beregnes den aktuelle løsning.
+Hvis aktiveret, benyttes ACRsammenligner. Den sammenligner to individer afhængig af den aktuelle iteration og måler hvor gode de er ud fra viden om bibliotekets værst kendte løsning (med hensyn til overtrædelse af deres begrænsninger).
+
+
+Brug tilfældigt startpunkt
+
+Hvis aktiveret, fyldes biblioteket simpelthen op med tilfældigt valgte punkter.
+Hvis deaktiveret, vil de aktuelle værdier (som givet af brugeren) blive indsat i biblioteket som referencepunkter.
+
+
+Stagnationsgrænse
+
+Hvis dette antal af individer som fandt løsninger i et lukket område, stoppes iterationerne og den bedste af disse værdier vælges som optimal.
+
+
+Stagnationstolerance
+
+Definerer i hvilket interval løsninger betragtes som "lignende".
+
+
+Viser status for udvidet problemløser
+
+Hvis aktiveret vises en ekstra dialog under løsningsprocessen med oplysninger om fremgang, stagnationsniveau og hidtil bedste kendte løsning samt muligheden for at standse eller genoptage løsningen.
+
+
+
+DEPS-specifikke valgmuligheder
+Agentens skiftefrekvens
+
+Angiver sandsynligheden for at et individ skal vælge Differential Evolution (DE) strategien.
+
+
+DE: Sandsynlighed for krydsning
+
+… definerer sandsynligheden for at et individ kombineres med det globalt bedste punkt. Hvis overkryds ikke bruges, beregnes punktet ud fra individets egen hukommelse.
+
+
+DE: Skaleringsfaktor
+
+I forbindelse med overkrydsning bestemmer skaleringsfaktoren "hastigheden" af bevægelsen.
+
+
+PS: Begrænsningskoefficient
+
+… definerer den hastighed, som partikler/individer nærmer sig hinanden med.
+
+
+PS: Kognitiv konstant
+
+...sætter vigtigheden af egen hukommelse (særligt for bedste punkt indtil videre).
+
+
+PS: Social konstant
+
+...sætter vigtigheden af det globalt bedste punkt mellem alle partikler/individer.
+
+
+PS: Sandsynlighed for mutation
+
+... definerer sandsynligheden for, at der tilfældigt vælges en ny værdi fra det gyldige område for denne variabel i stedet for at en del af partiklen flyttes mod det bedste punkt.
+
+
+
+SCO-specifikke valgmuligheder
+Bibliotekets størrelse
+
+… definerer mængden af oplysninger, der skal gemmes i det offentlige bibliotek. Hvert individ gemmer viden der og spørger efter informationer.
+
+
+
+

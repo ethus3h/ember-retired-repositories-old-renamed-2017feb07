@@ -1,0 +1,17 @@
+
+Envia a MediaWiki
+Al diàleg Envia a MediaWiki, especifiqueu els paràmetres de l'article Wiki que voleu pujar.
+
+Seleccioneu el servidor MediaWiki on voleu publicar el document. Feu clic a Afegeix per afegir un servidor nou a la llista.
+
+Introduïu el títol de l'entrada Wiki. Aquest és l'encapçalament principal de l'entrada. Per a una entrada nova, cal que el títol sigui únic a aquesta Wiki. Si introduïu un títol existent, aquesta pujada sobreescriurà l'entrada Wiki que ja té aquest títol.
+
+Introduïu un resum o comentari curt opcional. Vegeu http://meta.wikimedia.org/wiki/Help:Edit_summary.
+
+Aquesta és una edició menor: marqueu aquesta casella per indicar que la pàgina pujada és una edició menor de la pàgina existent amb el mateix títol.
+
+Mostra-ho al navegador web: marqueu aquesta casella per obrir el navegador web del sistema i mostrar la pàgina Wiki pujada.
+
+
+
+
