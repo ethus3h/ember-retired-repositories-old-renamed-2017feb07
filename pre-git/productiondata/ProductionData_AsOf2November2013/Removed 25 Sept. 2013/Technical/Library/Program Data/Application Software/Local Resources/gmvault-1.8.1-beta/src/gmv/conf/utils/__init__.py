@@ -1,1 +1,0 @@
-""" gmv.conf.utils module """

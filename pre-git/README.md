@@ -2,7 +2,7 @@
 
 This directory contains Wreathe development data from before it began happening in Git.
 
-These files were retrieved from https://archive.org/download/ProductionDataAsOf2November2013.7z/ProductionData_AsOf2November2013.7z between 2017-January-18 and 2017-January-19. Files over 100MB have had their contents replaced by their checksums on 2017-January-19.
+These files were retrieved from https://archive.org/download/ProductionDataAsOf2November2013.7z/ProductionData_AsOf2November2013.7z between 2017-January-18 and 2017-January-19. On 2017-January-19, files over 100MB had their contents replaced by their checksums, and directories named ".git" were renamed to ".git.disabled".
 
 The following files were modified in this manner:
 ```
@@ -28,6 +28,20 @@ The following files were modified in this manner:
 ./ProductionData_AsOf2November2013/Software/LibO_3.6.1_Linux_x86_install-deb_en-US.tar.gz
 ./ProductionData_AsOf2November2013/Software/fluid-soundfont.zip
 ./ProductionData_AsOf2November2013.7z
+```
+
+The following directories were modified in this manner:
+```
+./ProductionData_AsOf2November2013/Removed 25 Sept. 2013/Technical/Library/Program Data/Application Software/Palaver/.git
+./ProductionData_AsOf2November2013/python-dvdvideo/.git
+./ProductionData_AsOf2November2013/Software/qt4-gnome-globalmenu_1/firefox-gnome-globalmenu/.git
+./ProductionData_AsOf2November2013/Software/qt4-gnome-globalmenu_1/.git
+./ProductionData_AsOf2November2013/Software/qt4-gnome-globalmenu/firefox-gnome-globalmenu/.git
+./ProductionData_AsOf2November2013/Software/qt4-gnome-globalmenu/.git
+./ProductionData_AsOf2November2013/Software/appmenu/.git
+./ProductionData_AsOf2November2013/Software/git/appmenu/.git
+./ProductionData_AsOf2November2013/Software/mutter/Incomplete/libvisual/.git
+./ProductionData_AsOf2November2013/Software/mutter/Incomplete/mutter/.git
 ```
 
 ProductionData_AsOf2November2013.7z file information:
