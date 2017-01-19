@@ -1,0 +1,130 @@
+# translation of switchdesk.HEAD.po to Korean
+#
+# Michelle Kim <mkim@redhat.com>, 2002.
+# root <hkim@hostway.co.kr>, 2004.
+# David Sungmin Joo <djoo@redhat.com>, 2004.
+# Michelle J Kim <mkim@redhat.com>, 2004.
+# Eunju Kim <eukim@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 18:53-0400\n"
+"PO-Revision-Date: 2008-04-02 22:22+1000\n"
+"Last-Translator: Eunju Kim <eukim@redhat.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: backend.py.in:46
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various Desktops that they have installed.\n"
+"\n"
+"Please select the default desktop for the system."
+msgstr ""
+"Desktop Switcher 은 사용자들이 설치해 놓은 다양한 Desktop들을 쉽게 교체할수 "
+"있도록 해주는 \n"
+"도구 입니다 \n"
+"시스템을 위한 기본 desktop을 선택해 주시기 바랍니다."
+
+#: backend.py.in:48
+msgid ""
+"Your desktop configuration has successfully been updated,\n"
+"but you must restart the X Window System for the changes\n"
+"to take effect.\n"
+msgstr ""
+"데스크탑이 설정이 성공적으로 변경되었습니다.\n"
+"변경하신 데스크탑을 사용하시려면,\n"
+"X 윈도우즈를 재시작 하셔야 합니다.\n"
+
+#: backend.py.in:52
+msgid ""
+"Your desktop configuration cannot be updated, please make sure that the "
+"package switchdesk has correctly been installed on the machine.\n"
+msgstr ""
+"desktop 환경설정을 update할수 없습니다.machine에 switchdesk package가 올바르"
+"게 설치되었는지 확인해 주시기 바랍니다.\n"
+
+#: backend.py.in:54
+msgid ""
+"You may not want your new settings to apply\n"
+"globally, but only to this current computer.\n"
+"(Your home directory may be NFS mounted, or\n"
+"you might be sitting at a slow computer, etc.)"
+msgstr ""
+"새로운 설정이 전체에 적용되지 않고 \n"
+"현재 컴퓨터에만 적용되길 원하실 경우가 있습니다. \n"
+"(홈 디렉토리가 NFS 마운트되었거나, 또는 \n"
+"사용하시는 컴퓨터가 매우 느릴 경우, 등)"
+
+#: switchdesk.glade.h:1
+msgid "F_luxbox"
+msgstr "F_luxbox"
+
+#: switchdesk.glade.h:2
+msgid "_Change only applies to current display"
+msgstr "변경 사항을 현재 화면에만 적용(_C)"
+
+#: switchdesk.glade.h:3
+msgid "_Enlightenment"
+msgstr "_Enlightenment"
+
+#: switchdesk.glade.h:4
+msgid "_FVWM"
+msgstr "_FVWM"
+
+#: switchdesk.glade.h:5
+msgid "_GNOME"
+msgstr "_GNOME"
+
+#: switchdesk.glade.h:6
+msgid "_IceWM"
+msgstr "_IceWM"
+
+#: switchdesk.glade.h:7
+msgid "_KDE"
+msgstr "_KDE"
+
+#: switchdesk.glade.h:8
+msgid "_System defaults"
+msgstr "시스템 기본값(_S) "
+
+#: switchdesk.glade.h:9
+msgid "_TWM"
+msgstr "_TWM"
+
+#: switchdesk.glade.h:10
+msgid "_WindowMaker"
+msgstr "_WindowMaker"
+
+#: switchdesk.glade.h:11
+msgid "_XFce"
+msgstr "_XFce"
+
+#: switchdesk.desktop.in.h:1
+msgid "Desktop Switching Tool"
+msgstr "데스크탑 교체 도구"
+
+#: switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"desktop 환경들 또는 window 관리자들을 다른 것으로(machine에 설치된 다른 "
+"desktop환경  또는 window관리자) 전환 해준다."
+
+#: switchdesk-gui.py:118
+msgid "Desktop Switcher"
+msgstr "데스크탑 교체 관리자"
+
+#: switchdesk-gui.py:120
+msgid "Available Desktops"
+msgstr "사용가능한 데스크탑들"
+
+#: switchdesk-gui.py:121
+msgid "Change only applies to current display"
+msgstr "현재 시스템에만 적용"

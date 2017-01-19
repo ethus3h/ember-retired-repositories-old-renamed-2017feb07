@@ -1,0 +1,4 @@
+backend.py.in
+switchdesk.glade
+switchdesk.desktop.in
+switchdesk-gui.py

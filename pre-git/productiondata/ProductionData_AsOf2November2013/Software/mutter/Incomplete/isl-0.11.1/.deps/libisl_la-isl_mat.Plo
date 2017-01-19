@@ -1,0 +1,179 @@
+libisl_la-isl_mat.lo: isl_mat.c isl_ctx_private.h include/isl/ctx.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h include/isl/int.h include/isl/hash.h \
+ include/isl/stdint.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/bits/string3.h \
+ /usr/include/gmp.h include/isl/blk.h include/isl/arg.h \
+ include/isl/config.h include/isl/space.h include/isl/id.h \
+ include/isl/printer.h include/isl/seq.h isl_mat_private.h \
+ include/isl/mat.h include/isl/vec.h isl_map_private.h include/isl/set.h \
+ include/isl/map_type.h include/isl/aff_type.h include/isl/list.h \
+ include/isl/point.h include/isl/dim.h include/isl/local_space.h \
+ include/isl/constraint.h include/isl/set_type.h include/isl/union_map.h \
+ include/isl/union_map_type.h include/isl/union_set.h \
+ include/isl/polynomial_type.h include/isl/map.h isl_reordering.h \
+ isl_space_private.h
+
+isl_ctx_private.h:
+
+include/isl/ctx.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.4.5/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.4.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/bits/stdio2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib.h:
+
+include/isl/int.h:
+
+include/isl/hash.h:
+
+include/isl/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/bits/string3.h:
+
+/usr/include/gmp.h:
+
+include/isl/blk.h:
+
+include/isl/arg.h:
+
+include/isl/config.h:
+
+include/isl/space.h:
+
+include/isl/id.h:
+
+include/isl/printer.h:
+
+include/isl/seq.h:
+
+isl_mat_private.h:
+
+include/isl/mat.h:
+
+include/isl/vec.h:
+
+isl_map_private.h:
+
+include/isl/set.h:
+
+include/isl/map_type.h:
+
+include/isl/aff_type.h:
+
+include/isl/list.h:
+
+include/isl/point.h:
+
+include/isl/dim.h:
+
+include/isl/local_space.h:
+
+include/isl/constraint.h:
+
+include/isl/set_type.h:
+
+include/isl/union_map.h:
+
+include/isl/union_map_type.h:
+
+include/isl/union_set.h:
+
+include/isl/polynomial_type.h:
+
+include/isl/map.h:
+
+isl_reordering.h:
+
+isl_space_private.h:

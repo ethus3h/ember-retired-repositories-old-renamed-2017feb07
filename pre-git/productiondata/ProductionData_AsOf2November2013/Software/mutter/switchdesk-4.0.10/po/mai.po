@@ -1,0 +1,126 @@
+# translation of switchdesk.HEAD.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 18:53-0400\n"
+"PO-Revision-Date: 2008-02-29 16:57+0530\n"
+"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
+"Language: mai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: backend.py.in:46
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various Desktops that they have installed.\n"
+"\n"
+"Please select the default desktop for the system."
+msgstr ""
+"डेस्कटॉप स्विचक एकटा अओजार अछि जे उपभोक्तासभकेँ विभिन्न डेस्कटाप क' बीच आसानीसँ स्विच "
+"करए योग्य बनबैत अछि जकरा ओ अधिष्ठापित कएलक अछि.\n"
+"\n"
+"कृप्या सिस्टम क' लेल मूलभूत डेस्कटाप चुनू."
+
+#: backend.py.in:48
+msgid ""
+"Your desktop configuration has successfully been updated,\n"
+"but you must restart the X Window System for the changes\n"
+"to take effect.\n"
+msgstr ""
+"अहाँक डेस्कटाप बिन्यास सफलतापूर्वक अद्यतन कएल गेल,\n"
+"मगर परिवर्तनकेँ जीवंत करए क' लेल अहाँक X विन्डो सिस्टमकेँ\n"
+"अवश्य पुन:आरंभ कएनाइ अछि.\n"
+
+#: backend.py.in:52
+msgid ""
+"Your desktop configuration cannot be updated, please make sure that the "
+"package switchdesk has correctly been installed on the machine.\n"
+msgstr ""
+"अहाँक डेस्कटाप बिन्यास अद्यतन नहि कएल जाए सकैत अछि. कृप्या ई निश्चित करू जे संकुल स्विचडेस्क "
+"मसीन पर सही ढ़ंग सँ अधिष्ठापित अछि.\n"
+
+#: backend.py.in:54
+msgid ""
+"You may not want your new settings to apply\n"
+"globally, but only to this current computer.\n"
+"(Your home directory may be NFS mounted, or\n"
+"you might be sitting at a slow computer, etc.)"
+msgstr ""
+"अहाँ ई नहि चाहैत अछि जे अपन नवीन जमावटकेँ वैश्विक\n"
+"रूपसँ प्रयोग हुए, मगर सिर्फ एहि कंप्यूटर पर करू.\n"
+"(अहाँक 'गृह' निर्देशिका NFS आरोहित अछि,अछवा अहाँ एकटा\n"
+"धीमा कंप्यूटर क' प्रयोग कए रहल अछि. आदि)"
+
+#: switchdesk.glade.h:1
+msgid "F_luxbox"
+msgstr "फ्लक्सबाक्स (_l)"
+
+#: switchdesk.glade.h:2
+msgid "_Change only applies to current display"
+msgstr "परिवर्तन सिर्फ वर्तमान प्रदर्शन क' लेल लागू अछि (_C)"
+
+#: switchdesk.glade.h:3
+msgid "_Enlightenment"
+msgstr "पुनर्जागरण (_E)"
+
+#: switchdesk.glade.h:4
+msgid "_FVWM"
+msgstr "FVWM (_F)"
+
+#: switchdesk.glade.h:5
+msgid "_GNOME"
+msgstr "_GNOME"
+
+#: switchdesk.glade.h:6
+msgid "_IceWM"
+msgstr "_IceWM"
+
+#: switchdesk.glade.h:7
+msgid "_KDE"
+msgstr "_KDE"
+
+#: switchdesk.glade.h:8
+msgid "_System defaults"
+msgstr ""
+
+#: switchdesk.glade.h:9
+msgid "_TWM"
+msgstr "_TWM"
+
+#: switchdesk.glade.h:10
+msgid "_WindowMaker"
+msgstr "_WindowMaker"
+
+#: switchdesk.glade.h:11
+msgid "_XFce"
+msgstr "_XFce"
+
+#: switchdesk.desktop.in.h:1
+msgid "Desktop Switching Tool"
+msgstr "डेस्कटॉप स्विचिंग उपकरण"
+
+#: switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "विभिन्न डेस्कटोप वातावरण अथवा विंडो प्रबंधक क' बीच स्विच करैत अछि"
+
+#: switchdesk-gui.py:118
+msgid "Desktop Switcher"
+msgstr "डेस्कटोप स्विचक"
+
+#: switchdesk-gui.py:120
+msgid "Available Desktops"
+msgstr "उपलब्ध डेस्कटोप"
+
+#: switchdesk-gui.py:121
+msgid "Change only applies to current display"
+msgstr "सिर्फ वर्तमान प्रदर्शन क' लेल परिवर्तन अछि"

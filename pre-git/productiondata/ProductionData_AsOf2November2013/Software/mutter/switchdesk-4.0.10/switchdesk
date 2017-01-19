@@ -1,0 +1,18 @@
+#! /bin/bash
+
+echo "Red Hat Linux `basename $0` 4.0"
+echo "Copyright (C) 1999-2010 Red Hat, Inc"
+echo "Redistributable under the terms of the GNU General Public License"
+
+if [ -n "$DISPLAY" -a -z "$1" ] ; then
+	if [ -x /usr/share/switchdesk/switchdesk-gui.py ] ; then
+		exec /usr/share/switchdesk/switchdesk-gui.py
+	else
+		echo "Desktop Switcher GUI is unavailable."
+		echo "Please install the switchdesk-gui package or use"
+		echo "switchdesk desktopname."
+		exit 1
+	fi
+fi
+
+exec switchdesk-helper $1

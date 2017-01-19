@@ -1,0 +1,16 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=
+# includedir is builddir because it is used to find gstconfig.h in places
+includedir=/media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs
+girdir=/media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs/gst/audio
+typelibdir=/media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs/gst/audio
+
+Name: GStreamer Audio Library, Uninstalled
+Description: Audio helper functions and base classes, uninstalled
+Version: 1.0.8
+Requires: gstreamer-1.0 gstreamer-base-1.0
+Libs: /media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs/gst/audio/libgstaudio-1.0.la
+Cflags: -I/media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs -I/media/MyBook/gstreamer/gst-plugins-base-1.0.8/gst-libs
+

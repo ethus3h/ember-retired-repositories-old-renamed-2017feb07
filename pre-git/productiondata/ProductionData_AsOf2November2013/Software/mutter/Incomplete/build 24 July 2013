@@ -1,0 +1,35 @@
+24 July 2013
+
+mutter
+clutter
+glib DONE
+Cogl ≥ 1.14.0
+JSON-GLib ≥ 0.12.0
+Atk ≥ 2.5.3
+Cairo ≥ 1.10
+PangoCairo ≥ 1.30
+GDK-Pixbuf ≥ 2.0
+GStreamer 1.0
+gobject-introspection-1.36.0  DONE
+Gsl-1.16 DONE
+GTK-Doc-1.19 SKIPPING
+Valgrind SKIPPING
+Switchdesk DONE
+ORC DONE
+gst-plugins-base
+gst-plugins-good
+gst-plugins-bad
+gst-plugins-ugly
+gst-libav
+cdparanoia DONE
+libvorbis DONE
+libvisual
+gcc
+libxv-dev 2:1.0.5-1 DONE
+x11proto-video-dev 2.3.0-1 DONE
+GNAT DONE
+ISL DONE
+CLooG DONE
+GMP DONE
+MPFR DONE
+MPC DONE

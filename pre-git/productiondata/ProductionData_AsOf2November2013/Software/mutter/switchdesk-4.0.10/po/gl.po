@@ -1,0 +1,124 @@
+# translation of gl.po to 
+# translation of gl.po to
+# Paul Gampe <pgampe@redhat.com>, 2003, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 18:53-0400\n"
+"PO-Revision-Date: 2006-07-19 20:23+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <gl@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: backend.py.in:46
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various Desktops that they have installed.\n"
+"\n"
+"Please select the default desktop for the system."
+msgstr ""
+"O Cambiador de Escritorio é unha ferramenta que lle permite ós usuarios "
+"cambiar fácilmente entre os diferentes escritorios que ten instalados.\n"
+"\n"
+"Seleccione o escritorio predeterminado do sistema."
+
+#: backend.py.in:48
+msgid ""
+"Your desktop configuration has successfully been updated,\n"
+"but you must restart the X Window System for the changes\n"
+"to take effect.\n"
+msgstr ""
+"A súa configuración de escritorio actualizouse correctamente,\n"
+"pero terá que reiniciar o Sistema X Window para que as\n"
+"modificacións teñan efecto.\n"
+
+#: backend.py.in:52
+msgid ""
+"Your desktop configuration cannot be updated, please make sure that the "
+"package switchdesk has correctly been installed on the machine.\n"
+msgstr ""
+"Non se puido actualizar a configuración do seu escritorio, asegúrese de que "
+"o paquete switchdesk está instalado correctamente nesta máquina.\n"
+
+#: backend.py.in:54
+msgid ""
+"You may not want your new settings to apply\n"
+"globally, but only to this current computer.\n"
+"(Your home directory may be NFS mounted, or\n"
+"you might be sitting at a slow computer, etc.)"
+msgstr ""
+"Pode ser que non queira que a nova configuración\n"
+"se aplique de xeito global, e só a este ordenador.\n"
+"(Pode ser que o seu directorio persoal estea\n"
+"montado por NFS, ou pode ser que estea nun\n"
+"ordenador lento, etc.)"
+
+#: switchdesk.glade.h:1
+msgid "F_luxbox"
+msgstr "F_luxbox"
+
+#: switchdesk.glade.h:2
+msgid "_Change only applies to current display"
+msgstr "_A modificación só afecta ó display actual"
+
+#: switchdesk.glade.h:3
+msgid "_Enlightenment"
+msgstr "_Enlightenment"
+
+#: switchdesk.glade.h:4
+msgid "_FVWM"
+msgstr "_FVWM"
+
+#: switchdesk.glade.h:5
+msgid "_GNOME"
+msgstr "_GNOME"
+
+#: switchdesk.glade.h:6
+msgid "_IceWM"
+msgstr "_IceWM"
+
+#: switchdesk.glade.h:7
+msgid "_KDE"
+msgstr "_KDE"
+
+#: switchdesk.glade.h:8
+msgid "_System defaults"
+msgstr ""
+
+#: switchdesk.glade.h:9
+msgid "_TWM"
+msgstr "_TWM"
+
+#: switchdesk.glade.h:10
+msgid "_WindowMaker"
+msgstr "_WindowMaker"
+
+#: switchdesk.glade.h:11
+msgid "_XFce"
+msgstr "_XFce"
+
+#: switchdesk.desktop.in.h:1
+msgid "Desktop Switching Tool"
+msgstr "Ferramenta de Cambio de Escritorio"
+
+#: switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"Cambia entre os diferentes ambientes de escritorio ou xestores de ventás"
+
+#: switchdesk-gui.py:118
+msgid "Desktop Switcher"
+msgstr "Cambiador de Escritorio"
+
+#: switchdesk-gui.py:120
+msgid "Available Desktops"
+msgstr "Escritorios Dispoñibles"
+
+#: switchdesk-gui.py:121
+msgid "Change only applies to current display"
+msgstr "A modificación só afecta ó display actual"

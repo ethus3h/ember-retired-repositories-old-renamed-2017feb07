@@ -1,0 +1,124 @@
+# translation of pl.po to Polish
+# Grzegorz Rajda <marius@w9.pl>, 2004.
+# Andrzej Olszewski <andrzej.olszewski@ifj.edu.pl>, 2004.
+# Piotr Drąg <piotrdrag@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 18:53-0400\n"
+"PO-Revision-Date: 2009-09-22 22:23+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <fedora-trans-pl@redhat.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: backend.py.in:46
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various Desktops that they have installed.\n"
+"\n"
+"Please select the default desktop for the system."
+msgstr ""
+"Przełącznik środowisk jest narzędziem, które pozwala użytkownikom na łatwe "
+"przełączanie między różnymi zainstalowanymi środowiskami graficznymi.\n"
+"\n"
+"Proszę wybrać domyślne środowisko dla systemu."
+
+#: backend.py.in:48
+msgid ""
+"Your desktop configuration has successfully been updated,\n"
+"but you must restart the X Window System for the changes\n"
+"to take effect.\n"
+msgstr ""
+"Konfiguracja środowisk została pomyślnie zmieniona.\n"
+"Należy ponownie uruchomić system X Window, aby wprowadzone\n"
+"zmiany zostały uwzględnione.\n"
+
+#: backend.py.in:52
+msgid ""
+"Your desktop configuration cannot be updated, please make sure that the "
+"package switchdesk has correctly been installed on the machine.\n"
+msgstr ""
+"Konfiguracja środowisk nie została zmieniona. Proszę upewnić się, że pakiet "
+"Przełącznika środowisk jest poprawnie zainstalowany.\n"
+
+#: backend.py.in:54
+msgid ""
+"You may not want your new settings to apply\n"
+"globally, but only to this current computer.\n"
+"(Your home directory may be NFS mounted, or\n"
+"you might be sitting at a slow computer, etc.)"
+msgstr ""
+"Można nie zastosowywać nowych ustawień\n"
+"globalnie, a jedynie do tego komputera\n"
+"(katalog domowy może być zamontowany przez\n"
+"NFS lub może komputer jest wolny itp.)."
+
+#: switchdesk.glade.h:1
+msgid "F_luxbox"
+msgstr "F_luxbox"
+
+#: switchdesk.glade.h:2
+msgid "_Change only applies to current display"
+msgstr "_Zastosuj zmiany tylko dla bieżącej sesji"
+
+#: switchdesk.glade.h:3
+msgid "_Enlightenment"
+msgstr "_Enlightenment"
+
+#: switchdesk.glade.h:4
+msgid "_FVWM"
+msgstr "_FVWM"
+
+#: switchdesk.glade.h:5
+msgid "_GNOME"
+msgstr "_GNOME"
+
+#: switchdesk.glade.h:6
+msgid "_IceWM"
+msgstr "_IceWM"
+
+#: switchdesk.glade.h:7
+msgid "_KDE"
+msgstr "_KDE"
+
+#: switchdesk.glade.h:8
+msgid "_System defaults"
+msgstr ""
+
+#: switchdesk.glade.h:9
+msgid "_TWM"
+msgstr "_TWM"
+
+#: switchdesk.glade.h:10
+msgid "_WindowMaker"
+msgstr "_WindowMaker"
+
+#: switchdesk.glade.h:11
+msgid "_XFce"
+msgstr "_Xfce"
+
+#: switchdesk.desktop.in.h:1
+msgid "Desktop Switching Tool"
+msgstr "Narzędzie przełączania środowisk"
+
+#: switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"Przełączanie między różnymi środowiskami graficznymi lub menedżerami okien"
+
+#: switchdesk-gui.py:118
+msgid "Desktop Switcher"
+msgstr "Przełącznik środowisk"
+
+#: switchdesk-gui.py:120
+msgid "Available Desktops"
+msgstr "Dostępne środowiska"
+
+#: switchdesk-gui.py:121
+msgid "Change only applies to current display"
+msgstr "Zastosowanie zmian tylko dla bieżącego ekranu"

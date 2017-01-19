@@ -1,0 +1,18 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=/media/MyBook/gstreamer/gstreamer-1.0.8/gst
+# includedir is builddir because it is used to find gstconfig.h in places
+includedir=/media/MyBook/gstreamer/gstreamer-1.0.8
+toolsdir=/media/MyBook/gstreamer/gstreamer-1.0.8/tools
+pluginsdir=/media/MyBook/gstreamer/gstreamer-1.0.8
+girdir=/media/MyBook/gstreamer/gstreamer-1.0.8/gst
+typelibdir=/media/MyBook/gstreamer/gstreamer-1.0.8/gst
+
+Name: GStreamer Uninstalled
+Description: Streaming media framework, Not Installed
+Version: 1.0.8
+Requires: glib-2.0, gobject-2.0, gmodule-no-export-2.0, gthread-2.0
+Libs: /media/MyBook/gstreamer/gstreamer-1.0.8/gst/libgstreamer-1.0.la
+# FIXME: the libs dir doesn't really belong here
+Cflags: -I/media/MyBook/gstreamer/gstreamer-1.0.8 -I/media/MyBook/gstreamer/gstreamer-1.0.8/libs -I/media/MyBook/gstreamer/gstreamer-1.0.8 -I/media/MyBook/gstreamer/gstreamer-1.0.8/libs

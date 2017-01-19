@@ -1,0 +1,47 @@
+#ifndef __LV_CONFIG_H__
+#define __LV_CONFIG_H__
+
+#define VISUAL_VERSION     "@LV_VERSION@"
+#define VISUAL_PLUGIN_PATH "@LV_PLUGIN_DIR_FULL@"
+
+#cmakedefine VISUAL_BIG_ENDIAN    1
+#cmakedefine VISUAL_LITTLE_ENDIAN 1
+
+typedef unsigned @VISUAL_SIZE_TYPE@ visual_size_t;
+
+#cmakedefine VISUAL_SIZE_T_FORMAT "@VISUAL_SIZE_T_FORMAT@"
+
+#cmakedefine VISUAL_RANDOM_FAST_FP_RNG
+
+#cmakedefine VISUAL_ARCH_MIPS
+#cmakedefine VISUAL_ARCH_ALPHA
+#cmakedefine VISUAL_ARCH_SPARC
+#cmakedefine VISUAL_ARCH_X86
+#cmakedefine VISUAL_ARCH_X86_64
+#cmakedefine VISUAL_ARCH_POWERPC
+#cmakedefine VISUAL_ARCH_ARM
+#cmakedefine VISUAL_ARCH_UNKNOWN
+
+#cmakedefine VISUAL_OS_POSIX
+
+#cmakedefine VISUAL_OS_LINUX
+#cmakedefine VISUAL_OS_WIN32
+#cmakedefine VISUAL_OS_HPUX
+#cmakedefine VISUAL_OS_AIX
+#cmakedefine VISUAL_OS_BEOS
+#cmakedefine VISUAL_OS_OSF
+#cmakedefine VISUAL_OS_IRIX
+#cmakedefine VISUAL_OS_SUNOS
+#cmakedefine VISUAL_OS_SOLARIS
+#cmakedefine VISUAL_OS_SCO
+#cmakedefine VISUAL_OS_FREEBSD
+#cmakedefine VISUAL_OS_NETBSD
+#cmakedefine VISUAL_OS_OPENBSD
+#cmakedefine VISUAL_OS_DARWIN
+#cmakedefine VISUAL_OS_ANDROID
+#cmakedefine VISUAL_OS_UNKNOWN
+
+#cmakedefine VISUAL_WITH_CYGWIN
+#cmakedefine VISUAL_WITH_MINGW
+
+#endif /* LV_CONFIG_H */

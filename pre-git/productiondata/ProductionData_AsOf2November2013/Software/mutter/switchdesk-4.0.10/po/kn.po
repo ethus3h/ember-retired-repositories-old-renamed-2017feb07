@@ -1,0 +1,128 @@
+# translation of switchdesk.HEAD.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# shankar Prasad <svenkate@redhat.com>, 2006.
+# Shankar Prasad <svenkate@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 18:53-0400\n"
+"PO-Revision-Date: 2008-03-28 18:36+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"\n"
+
+#: backend.py.in:46
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various Desktops that they have installed.\n"
+"\n"
+"Please select the default desktop for the system."
+msgstr ""
+"ಡೆಸ್ಕ್ ಟಾಪ್ ಸ್ವಿಚರ್ ಅನುಸ್ಥಾಪಿತವಾದ ವಿವಿಧ ಗಣಕತೆರೆಗಳ ನಡುವೆ ಸುಲಭವಾಗಿ ಪರಸ್ಪರ ಬದಲಾಯಿಸಲು "
+"ಅನುವು ಮಾಡಿಕೊಡುವ ಒಂದು ಉಪಕರಣ.\n"
+"\n"
+"ವ್ಯವಸ್ಥೆಗೆ ದಯವಿಟ್ಟು ಡೀಫಾಲ್ಟ್‍  ಗಣಕತೆರೆಯೊಂದನ್ನು ಆರಿಸಿ."
+
+#: backend.py.in:48
+msgid ""
+"Your desktop configuration has successfully been updated,\n"
+"but you must restart the X Window System for the changes\n"
+"to take effect.\n"
+msgstr ""
+"ನಿಮ್ಮ ಗಣಕತೆರೆ ಸಂರಚನೆಯು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕೃತಗೊಂಡಿದೆ,\n"
+"ಆದರೆ ಈ ಬದಲಾವಣೆಗಳು ಕಾರ್ಯಪೃವತ್ತವಾಗ ಬೇಕೆಂದರೆ X ವಿಂಡೋ ವ್ಯವಸ್ಥೆಯನ್ನು ಮರು "
+"ಪ್ರಾರಂಭಿಸಬೇಕು.\n"
+
+#: backend.py.in:52
+msgid ""
+"Your desktop configuration cannot be updated, please make sure that the "
+"package switchdesk has correctly been installed on the machine.\n"
+msgstr ""
+"ನಿಮ್ಮ ಗಣಕತೆರೆ ಸಂರಚನೆಗಳನ್ನು ನವೀಕೃತಗೊಳಿಸಲಾಗಿಲ್ಲ, ಗಣಕದಲ್ಲಿ ಸ್ವಿಚ್ ಡೆಸ್ಕ್ ಪ್ಯಾಕೇಜ್ ಸರಿಯಾಗಿ "
+"ಅನುಸ್ಥಾಪನೆಗೊಂಡಿದೆಯೇ ಎಂದು ದಯವಿಟ್ಟು ಪರೀಕ್ಷಿಸಿ.\n"
+
+#: backend.py.in:54
+msgid ""
+"You may not want your new settings to apply\n"
+"globally, but only to this current computer.\n"
+"(Your home directory may be NFS mounted, or\n"
+"you might be sitting at a slow computer, etc.)"
+msgstr ""
+"ನಿಮ್ಮ ಹೊಸ ಹೊಂದಾಣಿಕೆಗಳು ಪ್ರಸ್ತುತ ಗಣಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯವಾಗಿ,\n"
+"ವ್ಯಾಪಕವಾಗಿ ಅನ್ವಯವಾಗುವುದು ಬೇಡದಿರಬಹುದು.\n"
+"(ನಿಮ್ಮ ನೆಲೆಕೋಶಕ್ಕೆ NFS ಆರೋಹಿತವಾಗಿರಬಹುದು, ಅಥವ \n"
+"ನೀವು ಒಂದು ನಿಧಾನ ಗತಿಯ ಗಣಕವನ್ನು ಉಪಯೋಗಿಸುತ್ತಿರಬಹುದು, ಇತರೆ)"
+
+#: switchdesk.glade.h:1
+msgid "F_luxbox"
+msgstr "ಫ್ಲಕ್ಸ್ ಪೆಟ್ಟಿಗೆ (_l)"
+
+#: switchdesk.glade.h:2
+msgid "_Change only applies to current display"
+msgstr "ಬದಲಾವಣೆಗಳು ಪ್ರಸ್ತುತ ಪ್ರದರ್ಶಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ (_C)"
+
+#: switchdesk.glade.h:3
+msgid "_Enlightenment"
+msgstr "ಅರಿವು (_E)"
+
+#: switchdesk.glade.h:4
+msgid "_FVWM"
+msgstr "_FVWM"
+
+#: switchdesk.glade.h:5
+msgid "_GNOME"
+msgstr "_GNOME"
+
+#: switchdesk.glade.h:6
+msgid "_IceWM"
+msgstr "_IceWM"
+
+#: switchdesk.glade.h:7
+msgid "_KDE"
+msgstr "_KDE"
+
+#: switchdesk.glade.h:8
+msgid "_System defaults"
+msgstr "ಗಣಕ ಡೀಫಾಲ್ಟ್‍ ಗಳು(_S)"
+
+#: switchdesk.glade.h:9
+msgid "_TWM"
+msgstr "_TWM"
+
+#: switchdesk.glade.h:10
+msgid "_WindowMaker"
+msgstr "ವಿಂಡೋಮೇಕರ್ (_W)"
+
+#: switchdesk.glade.h:11
+msgid "_XFce"
+msgstr "_XFce"
+
+#: switchdesk.desktop.in.h:1
+msgid "Desktop Switching Tool"
+msgstr "ಗಣಕತೆರೆ ಬದಲಾವಣ ಉಪಕರಣ"
+
+#: switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "ವಿವಿಧ ಗಣಕತೆರೆ ಪರಿಸರಗಳ ನಡುವೆ ಅಥವ ವಿಂಡೊ ವ್ಯವಸ್ಥಾಪಕಗಳ ನಡುವೆ ಬದಲಾಯಿಸುತ್ತದೆ"
+
+#: switchdesk-gui.py:118
+msgid "Desktop Switcher"
+msgstr "ಡೆಸ್ಕ್ ಟಾಪ್ ಸ್ವಿಚರ್"
+
+#: switchdesk-gui.py:120
+msgid "Available Desktops"
+msgstr "ಲಭ್ಯವಿರುವ ಗಣಕತೆರೆಗಳು"
+
+#: switchdesk-gui.py:121
+msgid "Change only applies to current display"
+msgstr "ಬದಲಾವಣೆಗಳು ಪ್ರಸ್ತುತ ಪ್ರದರ್ಶಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ"
