@@ -1,0 +1,6 @@
+# fcfonts - local font translation
+# format:
+#      "other font" = "local font"
+#
+"Verdana" = "Avantgarde"
+"Courier New" = "Courier [Adobe]"

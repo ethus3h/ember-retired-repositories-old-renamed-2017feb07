@@ -1,0 +1,29 @@
+# fcapps - Tells FirstClass(tm) Client how to launch external applications
+#
+# specify URLS by preceeding with a ':' as follows...
+#
+:nntp:=/usr/bin/konqueror
+:http:=/usr/bin/konqueror
+:https:=/usr/bin/konqueror
+:ftp:=/usr/bin/konqueror
+:mailto:=fcc
+#
+# specify FILES as .<type>,.<type>,<etc...> = <path>/<app> <flags> %f
+#
+#.bmp,.BMP,.png,.PNG,.pcx,.PCX,.JPG,.GIF,.jpg,.xpm,.gif,.pict,.tif,.tiff,.xbm=gimp %f
+#.PDF,.pdf					=xpdf %f
+.HTML,.HTM,.htm,.html		=konqueror %f
+#.Z,.z,.tgz,.TGZ,.ZIP,.zip	=ark %f
+#.TXT,.txt,.TEXT,.text		=kwrite %f
+#.WAV,.wav,.snd,.au,.audio	=kmedia %f
+#.mv,.MV,.mov,.MOV,.mp3,.MP3,.avi,.AVI,.mpg,.MPG    	=xine %f
+#
+# StarOffice(tm) 3.1 Documents
+#
+#.doc						=kword %f
+#.ppt						=kpresenter %f
+#.sdc,.SDC,.wks,.WKS,.xls,.XLS,.xlw,.XLW,.xlt,.XLT,.dbf,.DBF	=kspead %f
+#
+# files that don't fit anywhere else...
+#
+.*	= kfmclient exec file:%f

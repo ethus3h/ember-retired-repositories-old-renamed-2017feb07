@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Release/WREATHE5_FLASH_DRIVE.dd
+## 
+4004511744,39b38bd314a44f807c567f1ff02b3985,4da2e2e2d8165273342e36a3f2f480104ba521c2,b9666d14670a3a08f869fed467ec0f9e7bf5e7b8f4b1f86d5622d26153173bf5,6312aab80796b5b7cd2d0bd4db57703a1484053979fd5adc,6450af2c7423add413af019a964252f70ca5ae366e2cb185534b9f676b16a402aad18a15942a6b095311bf8d744eb441ab9ce443336c09d2c8bafdcecba5befb,/home/kyan/productiondata/ProductionData_AsOf2November2013/Release/WREATHE5_FLASH_DRIVE.dd
