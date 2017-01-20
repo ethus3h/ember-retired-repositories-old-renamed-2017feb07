@@ -1,1 +1,0 @@
-Tilføj understøttelse for Python vha. skriptleverandør for at aktivere Python skripts i brugerbiblioteket og det delte bibliotek samt i åbnede dokumenter.

@@ -1,7 +1,0 @@
-Lösare för ickelinjära problem;Användning
-
-Användning
-Oberoende av om du använder DEPS eller SCO så startar du genom att gå till Verktyg → Problemlösaren och väljer cellen som ska optimeras, riktningen att gå mot (minimering, maximering) och cellerna som ska ändras för att uppnå målet. Sedan går du till Alternativen och specificerar problemlösaren som ska användas och justerar de aktuella parametrarna.
-Det finns också en lista med restriktioner du kan använda för att begränsa de möjliga intervall av lösningar eller för att straffa vissa specifika villkor. Om du använder evolutionslösare som DEPS och SCO så kan dessa användas för att välja intervaller på problemets variabler. På grund av den slumpmässiga naturen hos algoritmerna så är det högst rekommenderat att göra det och ge övre (och ifall "Förutsätt ej negativa variabler" är av, även lägre) gränser för alla variabler. De måste inte vara nära den aktuella lösningen (som antagligen är okänd) men bör ge en grovhuggen indikation på den förväntade storleken (0 ≤ var ≤ 1 eller kanske -1000000 ≤ var ≤ 1000000).
-Gränser är specificerade genom att en eller flera variabler (som område) markeras på den vänstra sidan och ett numeriskt värde (inte en cell eller formel) fylls i på den högra sidan. På så sätt kan du också välja att en eller flera variabler ska vara Heltal eller Binär endast.
-

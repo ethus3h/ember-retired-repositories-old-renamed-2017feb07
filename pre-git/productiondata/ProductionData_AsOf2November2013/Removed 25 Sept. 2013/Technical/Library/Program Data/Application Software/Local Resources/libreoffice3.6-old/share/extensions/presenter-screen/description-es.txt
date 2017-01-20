@@ -1,2 +1,0 @@
-La extensión Consola de presentación proporciona más control sobre su presentación de diapositivas, como la capacidad de ver las próximas diapositivas, las notas del presentador y un temporizador, mientras la audiencia solo ve la diapositiva actual.
-Para evitar confusiones al mostrar un gran número de elementos de presentación, la Consola de presentación mostrará los elementos en tres vistas diferentes y fácilmente cambiables.

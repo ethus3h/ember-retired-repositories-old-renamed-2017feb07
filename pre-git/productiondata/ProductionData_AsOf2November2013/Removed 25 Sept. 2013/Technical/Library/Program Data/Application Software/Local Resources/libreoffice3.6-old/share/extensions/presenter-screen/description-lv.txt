@@ -1,2 +1,0 @@
-Prezentētāja konsoles paplašinājums piedāvā vairāk kontroles pār jūsu slīdrādes prezentāciju, piemēram, spēja redzēt nākamo slaidu, slaida piezīmes un prezentācijas taimeris, turpretim skatītāji redz tikai pašreizējo slaidu.
-Lai izvairītos no neskaidrības, kas rodas no iela skaita prezentācijas elementu, prezentācijas konsole rāda elementus trīs dažādos, viegli konfigurējamos skatos.

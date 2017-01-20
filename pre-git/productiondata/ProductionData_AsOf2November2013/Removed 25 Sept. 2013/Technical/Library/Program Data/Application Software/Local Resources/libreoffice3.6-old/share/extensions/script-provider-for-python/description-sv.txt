@@ -1,1 +1,0 @@
-Lägger till stöd för Python via Scripting Framework för att möjliggöra pythonskript i användarkataloger och i delade kataloger av en LibreOffice-installation, och även i inläst dokument

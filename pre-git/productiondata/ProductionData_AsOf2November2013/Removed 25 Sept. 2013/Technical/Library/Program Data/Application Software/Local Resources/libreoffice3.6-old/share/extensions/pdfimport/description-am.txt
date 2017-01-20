@@ -1,1 +1,0 @@
-የ PDF ማምጫ ተጨማሪ የሚያስችለው የ PDF ሰነዶችን ለማምጣት እና ለማሻሻል ነው ፡ ጥሩ ውጤት በ 100% እቅድ እርግጠኛነት ማግኘት ይቻላል "PDF/ODF hybrid file" format, ይህ ተጨማሪ ያስችላል ፡ A hybrid PDF/ODF file is a PDF file that contains an embedded ODF source file. Hybrid PDF/ODF files በቀላሉ ይከፈታሉ በነፃነት ቢሮ እንደ ODF file ያለምንም እቅድ ለውጦች 

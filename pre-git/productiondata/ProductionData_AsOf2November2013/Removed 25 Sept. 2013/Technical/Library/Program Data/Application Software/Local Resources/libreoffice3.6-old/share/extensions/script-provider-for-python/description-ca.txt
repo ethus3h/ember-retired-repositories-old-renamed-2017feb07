@@ -1,1 +1,0 @@
-Afegeix compatibilitat amb el Python a través de l'entorn d'scripts per tal de permetre els scripts Python al directori de l'usuari i al directori compartit d'una instal·lació del LibreOffice, així com també als documents carregats.

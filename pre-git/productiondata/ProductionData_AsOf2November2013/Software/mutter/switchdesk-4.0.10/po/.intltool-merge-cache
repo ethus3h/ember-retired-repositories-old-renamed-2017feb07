@@ -1,1015 +1,0 @@
-maiDesktop Switching Toolडेस्कटॉप स्विचिंग उपकरणmai_GNOME_GNOMEid_TWM_TWMmai_Enlightenmentपुनर्जागरण (_E)da_IceWM_IceWMja_WindowMakerWindowMaker(_W)paSwitches between different desktop environments or window managersਵੱਖੋ-ਵੱਖਰੇ ਡੈਸਕਟਾਪਾਂ ਜਾਂ ਝਰੋਖਾ-ਪ੍ਰਬੰਧਕਾਂ ਵਿੱਚ ਤਬਦੀਲ ਹੋਣ ਲਈbs_GNOME_GNOMEnlYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)U zou wellicht uw nieuwe instellingen niet globaal
-willen toepassen, maar alleen op deze machine.
-(Uw persoonlijke map zou een NFS-mount kunnen zijn, of u
-zou wellicht met een langzame computer kunnen werken, etc.)bg_WindowMaker_WindowMakermai_WindowMaker_WindowMakeresYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Su configuración de escritorio no puede ser actualizada, por favor asegúrese de que el paquete switchdesk ha sido instalado correctamente en la máquina.
-fi_KDE_KDEitF_luxboxF_luxboxbg_XFce_XFcesrF_luxboxF_luxboxpt_BR_Change only applies to current displayA _alteração se aplica somente ao display atualel_FVWM_FVWMbeF_luxboxF_luxboxtaThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.பணிமேடை மாற்றி என்பது, பயனர் நிறுவி இருக்கும் பல்வேறு பணிமேடைகளை மாற்றிக்கொள்ள பயன்படும் ஒரு கருவியாகும்
-
-உங்கள் கணினிக்கு முன்னிருப்பு பணிமேடையை தேர்ந்தெடுக்கவும்.ltThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Darbastalio Ketimo Įrankis lengvai leis vartotojams perjungti tarp įvairiausių Darbastalio tipų, kurie yra įdiegti.
-
-Prašau pasirinkti įprastinį darbastalį sistemai.mkYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Можеби не сакате новите подесувања да важат
-глобално, туку само на овој компјутер.
-(Можеби домашниот директориум е монтиран на
-мрежа или користите бавен компјутер, итн.)etChange only applies to current displayMuuda ainult käesolevas vaates lisatudgl_GNOME_GNOMEsl_GNOME_GNOMEplDesktop Switching ToolNarzędzie przełączania środowiskms_Change only applies to current displayPenukaran hanya bertindak ke atas paparan semasaen_GBYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Your desktop configuration cannot be updated. Please make sure that the package 'switchdesk' has been correctly installed on the machine.
-gl_TWM_TWMpaDesktop Switching Toolਡੈਸਕਟਾਪ ਸਵਿੱਚਿੰਗ ਟੂਲkn_Enlightenmentಅರಿವು (_E)csYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Vaše nastavení prostředí pracovní plochy nemůže být změněno, přesvědčte se prosím, že byl v počítači správně nainstalován balíček switchdesk.
-slYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Prikrojitev vašega namizja ne more biti osvežena, preverite pravilnost namestitve paketa switchdesk.
-it_FVWM_FVWMhr_XFce_XFcecyYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Ni ellir diweddaru'ch cyfluniad penbwrdd, sicrhewch bod y pecyn switchdesk wedi'i arsefydlu'n gywir ar y peiriant os gwelwch yn dda.
-csF_luxboxF_luxboxmkSwitches between different desktop environments or window managersМенува различни работни околини и менаџер на прозорциnl_WindowMaker_WindowMakeres_KDE_KDEes_WindowMaker_WindowMakerknAvailable Desktopsಲಭ್ಯವಿರುವ ಗಣಕತೆರೆಗಳುhrYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Nije moguće ažurirati vašu konfiguraciju radne površine. Provjerite da li je paket 'switchdesk' ispravno instaliran na vašem računalu.
-etAvailable DesktopsVõimalikud töölauadko_Change only applies to current display변경 사항을 현재 화면에만 적용(_C)nb_KDE_KDEitDesktop SwitcherSelettore desktopit_System defaultsImpostazioni predefinite di _sistemacaF_luxboxF_luxboxmkAvailable DesktopsДостапни работни околиниbg_TWM_TWMzh_TW_WindowMaker_WindowMakerzh_TW_FVWM_FVWMas_TWM_TWMes_FVWM_FVWMasChange only applies to current displayবৰ্ত্তমান প্ৰদৰ্শণতহে সলনি প্ৰযোজ্য হয়ar_XFce_XFcebe_TWM_TWMca_System defaults_Predeterminat del sistemaviAvailable DesktopsCác Desktop hiện cóbn_IceWMআইসডাব্লুএম (_আ)plYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Konfiguracja środowisk została pomyślnie zmieniona.
-Należy ponownie uruchomić system X Window, aby wprowadzone
-zmiany zostały uwzględnione.
-zh_CN_FVWM_FVWMteSwitches between different desktop environments or window managersవిభిన్న desktop వాతావరణాలు లేదా window managerల మధ్య మార్పుdeThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher ist ein Hilfsmittel, um einfach zwischen verschiedenen installierten Desktops zu wechseln.
-
-Bitte wählen Sie den Standard-Desktop für Ihr System.esSwitches between different desktop environments or window managersConmuta entre diferentes entornos de escritorio o entre gestores de ventanasilo_Enlightenment_Enlightenmentde_Enlightenment_Enlightenmentru_System defaults_По умолчаниюet_KDE_KDEhe_Change only applies to current displayעדכון ישים רק ל_צג הנוכחיhr_Change only applies to current displayIzmjena se odnosi samo na trenutni zaslonda_Change only applies to current display_Ændringer gør sig kun gældende på nuværende skærmtrAvailable DesktopsKullanılabilir Masaüstleriru_IceWM_IceWMheThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.מחליף שולחנות העבודה הוא כלי המאפשר למשתמשים להחליף בקלות בין שולחנות עבודה שהותקנו.
-
-יש לקבוע את שולחן העבודה שישמש כברירת מחדל.jaSwitches between different desktop environments or window managers異なるデスクトップ環境、又はウィンドウマネージャ間での切り替えnb_Change only applies to current display_Endringene gjelder bare denne skjermenuk_FVWM_FVWMbs_WindowMaker_WindowMakerbe_WindowMaker_WindowMakersrYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Можда не желите да Ваша нова подешавања
-примењујете глобално, већ само на овом рачунару.
-(Ваш лични директоријум је можда монтиран кроз NFS,
-или можда седите за спорим рачунаром, итд.)itYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-La configurazione del desktop è stata aggiornata con 
-successo, ma è necessario riavviare il sistema X Window
-affinché le modifiche abbiano effetto.
-cs_FVWM_FVWMnbDesktop Switching ToolSkrivebordsvelgerel_TWM_TWMsv_Change only applies to current display_Ändringen gäller endast aktuell displayfr_GNOME_GNOMEcaYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Potser no voleu que s'apliquin els nous paràmetres
-a tot arreu, sinó només en l'ordinador actual.
-(Potser el directori d'usuari està muntat amb NFS, o
-esteu treballant amb un ordinador lent, etc.)tr_FVWM_FVWMfrDesktop Switching ToolOutil de commutation de bureauidYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Anda mungkin tidak menginginkan settingan yang baru ini diberlakukan
-secara global, tapi hanya berlaku untuk komputer ini saja.
-(direktori home anda mungkin dimount mempergunakan NFS, atau
-anda mungkin memiliki komputer yang lambat, dan lain sebagainya.)huDesktop SwitcherAsztalváltópl_FVWM_FVWMel_KDE_KDEfr_WindowMaker_WindowMakerlv_IceWM_IceWMtaDesktop Switcherபணிமேடை மாற்றிas_KDE_KDEgl_XFce_XFceteDesktop SwitcherDesktop SwitcherelF_luxboxF_luxboxheYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-לא ניתן לעדכן את הגדרות שולחן העבודה שלך. יש לבדוק שהחבילה switchdesk הותקנה כראוי.
-te_Enlightenmentవిస్థరణ (_E)bsF_luxboxF_luxboxja_System defaultsシステム標準 (_S)et_FVWM_FVWMorThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତକ ଟି ଗୋଟିଏ ଏପରି ସାଧନ ଯାହାକି ଚାଳକ ସ୍ଥାପନ କରିଥିବା ବିଭିନ୍ନ ଡେସ୍କଟପ୍ ମଦ୍ଧ୍ଯ ରେ ପରିବର୍ତ୍ତନକରିବା ପାଇଁ ଚାଳକ କୁ ସାମର୍ଥିକରଣ ପ୍ରଦାନ କରିଥାଏ 
-
-ଦୟାକରି ତନ୍ତ୍ର ଟି ପାଇଁ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଡେସ୍କଟପ୍ କୁ ଚୟନ କରନ୍ତୁca_TWM_TWMfi_FVWM_FVWMfi_Change only applies to current display_Muutos vaikuttaa vain nykyiseen näyttöönte_KDE_KDEsl_WindowMaker_WindowMakerja_FVWMFVWM(_F)cs_GNOME_GNOMEbn_INChange only applies to current displayপরিবর্তনগুলি শুধুমাত্র বর্তমান প্রদর্শনের ক্ষেত্রে প্রযোজ্যis_TWM_TWMml_IceWM_IceWMmai_XFce_XFcelt_IceWM_IceWMdeYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Ihre Desktop-Konfiguration kann nicht aktualisiert werden. Bitte stellen Sie sicher, dass das Paket switchdesk korrekt auf Ihrem System installiert ist.
-etYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Töölaua seaded muudeti edukalt, kuid sa pead X-i 
-Akna süsteemi uuesti laadima muudatuste
- rakendamiseks.
-pl_WindowMaker_WindowMakerid_WindowMaker_WindowMakerbgSwitches between different desktop environments or window managersПревключва между различни десктопи или мениджъри на прозорциpl_Enlightenment_Enlightenmentpt_BRThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.O comutador de ambientes de trabalho é uma ferramenta que permite aos usuários alternar facilmente entre os diversos ambientes de trabalho instalados.
-
-Por favor, selecione o ambiente de trabalho padrão para o seu sistema.srAvailable DesktopsДоступна радна окружењаmsDesktop SwitcherPenukar DesktopkoYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-desktop 환경설정을 update할수 없습니다.machine에 switchdesk package가 올바르게 설치되었는지 확인해 주시기 바랍니다.
-te_GNOME_GNOMEltDesktop Switching ToolDarbastalio Pakeitimo Įrankissl_IceWM_IceWMnlYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Uw desktopconfiguratie kon niet worden bijgewerkt, wees er zeker van dat het pakket switchdesk op een juiste manier is geïnstalleerd op het systeem.
-bsAvailable DesktopsRaspoložive radne površineteThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher ఒక సాధనం వినియోగదారులు సంస్థాపిచుకున్న పెక్కు Desktopల మధ్య తేలికగా మారటానికి వీలుపడుతుంది.
-
-దయచేసి కంప్యూటరుకోసం సిద్ధ desktopను ఎన్నుకోండి.en_GBSwitches between different desktop environments or window managersSwitches between different desktop environments or window managersmkChange only applies to current displayПромените важат само за тековниот дисплејfrAvailable DesktopsBureaux disponiblesasF_luxboxফ্লাক্সবক্স (_l)es_TWM_TWMroYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Configuraţia spaţiului dumneavoastră de lucru nu poate fi actualizată; vă rugăm să vă asiguraţi că pachetul switchdesk a fost corect instalat pe această maşină.
-bg_System defaultsПодразбрани настройкиbeYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Наладка вашага стальца была пасьпяхова абноўлена,
-але мы павінны перазапусьціць X Window·System для
-зьдзяйсьненьня зьменаў.
-he_IceWM_IceWMpaF_luxboxਫਲੱਕਸਬਾਕਸ(_L)deYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Sie möchten Ihre neuen Einstellungen eventuell nicht
-global anwenden, sondern nur auf diesen Computer.
-(Es mag ein NFS-Mount auf Home bestehen, oder
-Sie sitzen an einem langsamen Computer, usw.)heAvailable Desktopsשולחנות עבודה זמיניםzh_CN_WindowMaker_WindowMakerbsChange only applies to current displayIzmjene se odnose samo na trenutni zaslonlv_Change only applies to current displayIzmaiņas skar tikai aktīvo sesijuru_Change only applies to current display_Изменения касаются только текущего дисплеяas_GNOME_GNOMEmaiYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)अहाँ ई नहि चाहैत अछि जे अपन नवीन जमावटकेँ वैश्विक
-रूपसँ प्रयोग हुए, मगर सिर्फ एहि कंप्यूटर पर करू.
-(अहाँक 'गृह' निर्देशिका NFS आरोहित अछि,अछवा अहाँ एकटा
-धीमा कंप्यूटर क' प्रयोग कए रहल अछि. आदि)svDesktop SwitcherSkrivbordsbytareiloDesktop SwitcherPagsukat ti Eskritoriohe_XFce_XFceid_IceWM_IceWMkn_IceWM_IceWMzh_CN_Change only applies to current display改变只应用于当前显示(_C)svAvailable DesktopsTillgängliga skrivbordkaChange only applies to current displayცვილებები ეხება მხოლოდ მიმდინარე ეკრანსbnChange only applies to current displayপরিবর্তনগুলো শুধুমাত্র বর্তমান ডিসপ্লের ক্ষেত্রে প্রযোজ্যmkYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Конфигурацијата за работаната околина не е ажурирана, проверете дали пакетот 'switchdesk' е правилно инсталиран на овој компјутер.
-ukChange only applies to current displayЗміни стосуються лише поточного дисплеюslYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Prikrojitev vašega namizja je bila uspešno osvežena,
-a preden spremembe začnejo zares veljati, morate
-znova zagnati Okna X.
-asYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-আপোনাৰ ডেষ্কট'প বিন্যাসক বৰ্ত্তমানলৈ আনিব পৰা নাযায়, অনুগ্ৰহ কৰি switchdesk সৰঞ্জাম আপোনাৰ যন্ত্ৰত শুদ্ধকৈ সংস্থাপন হোৱাতো সুনিৰ্দ্দিষ্ট কৰক । 
-ilo_IceWM_IceWMhrDesktop Switching ToolAlat za prebacivanje radnih površinagl_IceWM_IceWMca_Enlightenment_EnlightenmentroSwitches between different desktop environments or window managersComută între diverse spaţii de lucru sau managere de ferestrehuSwitches between different desktop environments or window managersÁtváltás különböző grafikus környezetek és ablakkezelők közöttfrThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Le commutateur de bureau est un outil permettant aux utilisateurs d'alterner entre les différents bureaux installés sur leur système.
-
-Veuillez sélectiopnner le bureau par défaut pour votre système.bn_INAvailable Desktopsউপস্থিত ডেস্কটপukYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Можливо, ви бажаєте застосувати зміни не глобально,
-а лише для цього комп'ютера (наприклад, якщо ваш
-домашній каталог підключений по NFS, або ви
-працюєте на повільному комп'ютером, та т.і.)ko_KDE_KDEhuYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Az asztalbeállítás frissítése megtörtént, de a újra kell
-indítani az X ablakrendszert, hogy a változások életbe
-lépjenek.
-kaF_luxboxF_luxboxzh_CN_KDE_KDEbsYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Nije moguće ažurirati vašu konfiguraciju radne površine. Provjerite da li je paket 'switchdesk' ispravno instaliran na vašem računalu.
-hr_KDE_KDEpt_Change only applies to current displayA alteração só se apli_ca ao ecrã actualde_Change only applies to current displayÄ_nderungen nur in Bezug auf aktuelle AnzeigeruThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Переключатель рабочих столов - это утилита, которая позволяет пользователям легко переключаться между различными рабочими столами, которые были установлены.
-
-Выберите рабочий стол по умолчанию.csDesktop Switching ToolVýběr prostředí pracovní plochynl_System defaults_Systeemstandaardsk_KDE_KDEroThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Comutatorul de spaţii de lucru este o unealtă ce permite utilizatorilor să comute uşor între diverse spaţii de lucru pe care le au instalate.
-
-Vă rugăm alegeţi spaţiul de lucru implicit pentru sistem.hr_GNOME_GNOMEetF_luxboxF_luxboxtr_Enlightenment_Enlightenmentet_Enlightenment_Enlightenmentca_WindowMaker_WindowMakerbn_IN_KDE_KDEru_WindowMaker_WindowMakerelYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Δεν είναι δυνατόν να ενημερωθεί η διαμόρφωση της επιφάνεια εργασίας, παρακαλούμε σιγουρευτείτε ότι το πακέτο switchdesk έχει εγκατασταθεί επιτυχώς.
-is_WindowMaker_WindowMakerelChange only applies to current displayΗ αλλαγή αφορά μόνο την τρέχουσα οθόνηetYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Sa võib-olla ei taha rakendada seadeid mitmel
-, vaid ainult sellel arvutil.
-(Sinu kodukataloog võib olla NFS ühenduses, või
-sa oled aeglase arvuti taga, vms.)etYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Töölaua seadeid ei saa uuendada, kontrolli kas pakett switchdesk on korralikult installeeritud.
-ro_Change only applies to current displayS_chimbările se aplică doar afişajului curentmaiSwitches between different desktop environments or window managersविभिन्न डेस्कटोप वातावरण अथवा विंडो प्रबंधक क' बीच स्विच करैत अछिms_KDE_KDEfrSwitches between different desktop environments or window managersAlterne entre différents environnements de bureau ou gestionnaires de fenêtre. de_WindowMaker_WindowMakerisThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Skjáborðsskiptirinn er tól sem gerir notendum kleyft að skipta á einfaldann hátt milli þeirra skjáborðsumhverfa sem eru uppsett.
-
-Vilsamlega veldu sjálfgefið skjáborð fyrir þessa vél.fr_Enlightenment_Enlightenmentfr_TWM_TWMlvYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Iespējams, Jūs nevēlaties, lai izmaiņas stātos
-spēkā globāli, bet tikai uz šī datora.
-(Piemēram, ja Jūsu pamatkatalogs ir pieslēgts,
-izmantojot NFS un Jūs izmantojat mazjaudīgu
-datoru un tml).ka_TWM_TWMptThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.A Mudança de Ambiente de Trabalho é uma ferramenta que permite aos utilizadores mudarem facilmente entre os vários Ambientes de Trabalho que tem instalados.
-
-Por favor escolha o ambiente de trabalho por omissão do sistema.hi_Enlightenmentपुनर्जागरण (_E)deDesktop Switching ToolDesktop-WechselwerkzeuglvYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Jūsu darbvirsmas iestatījumus jaunināt nav iespējams, lūdzu, pārliecinieties, ka pakotne switchdesk ir korekti uzstādīta.
-da_Enlightenment_Enlightenmentta_IceWM_IceWMorSwitches between different desktop environments or window managersବିଭିନ୍ନ ଡେସ୍କଟପ୍ ପରିବେଶ କିମ୍ବା ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ ମଦ୍ଧ୍ଯ ରେ ପରିବର୍ତ୍ତନ କରୁଅଛିel_System defaultsΠ_ροεπιλογές συστήματοςbn_INYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-ডেস্কটপ কনফিগারেশন আপডেট করা যায়নি। অনুগ্রহ করে switchdesk প্যাকেজটি সঠিকভাবে ইনস্টল করা হয়েছে কিনা পরীক্ষা করুন।
-bs_KDE_KDEpt_BR_KDE_KDEms_WindowMaker_WindowMakerzh_CN_Enlightenment_Enlightenmentas_XFce_XFcesv_XFce_XFcetaDesktop Switching Toolபணிமேடை மாற்றும் கருவிca_GNOME_GNOMEmsYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Anda mungkin tidak mahu tetapan baru anda diterapkan
-keseluruhannya, tetapi hanya pada komputer semasa.
-(Direktori rumah anda mungkin dilekapkan NFS, atau
-anda mungkin menggunakan komputer perlahan, dsb.)nbYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Skrivebordskonfigurasjonen din er oppdatert, men du må
-starte X på nytt for at endringene skal tre i kraft.
-ilo_GNOME_GNOMEmlYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-നിങ്ങളുടെ ഡസ്ക്-ടോപ്പ് കോണ്‍ഫിഗറേഷന്‍ വിജയകരമായി പുതുക്കിയിരിക്കുന്നു.
-താങ്ങള്‍ വരുത്തിയിരിക്കുന്ന മാറ്റങ്ങള്‍ നിലവില്‍ വരുവാന്‍ X വിന്‍ഡോ
-വീണ്ടും ആരംഭിക്കുക. 
-ro_TWM_TWMmsF_luxboxF_luxboxorYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)ଆପଣ ଆପଣଙ୍କ ର ନୂତନ ବିନ୍ଯାସ କୁ ସାମଗ୍ରିକ ଭାବେ ପ୍ରୟୋଗ କରିବା ପାଇଁ ଚାହିଁ ନ ପାରନ୍ତି,
-କିନ୍ତୁ କେବଳ ଏହି କମ୍ପ୍ଯୁଟର ପାଇଁ (ଆପଣଙ୍କ ର ହୋମ୍ ଡିରେକ୍ଟୋରି ଟି NFS ଦ୍ବାରା ସ୍ଥାପିତ ହୋଇଥାଇ ପାରେ, 
-କିମ୍ବା ଆପଣ ଗୋଟିଏ ମନ୍ଥର କମ୍ପ୍ଯୁଟର ରେ ବସିଛନ୍ତି, ଇତ୍ଯାଦି)orF_luxboxଲକ୍ସ ବାକ୍ସ (_l)hi_XFce_XFcehuDesktop Switching ToolAsztalváltó eszközteYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-మీ desktop ఆకృతీకరణ నవీకరించబడలేదు, package switchdesk మీ కంప్యూటరులో సరిగ్గా సంస్థాపించబడిందో లేదో చూసుకోండి.
-jaDesktop Switcherデスクトップ切替えzh_TWYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)您也許不會想要您的新設定套用到全域性的環境，
-而只是套用到目前這部電腦。
-（您的家目錄也許是經由 NFS 掛載的，
-或者您也許正在使用一部速度較慢的電腦。）bsThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher (prebacivanje desktop) je alat koji korisnicima omogućuje jednostavnu izmjenu između desktopa.
-
-Odaberite zadanu radnu površinu za vaš sistem.pt_BRF_luxboxF_luxboxmr_FVWMFVWM (_F)zh_CN_XFce_XFcekaDesktop Switcherგარემოს გადამრთველიcyYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Diweddarwyd eich cyfluniad penbwrdd yn llwyddiannus,
-ond mae rhaid i chi ailgychwyn y System Ffenestri X er
-mwyn i'r newidiadau ddod i rym.
-be_KDE_KDEzh_TW_System defaults_System defaultselYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Οι ρυθμίσεις της επιφάνειας εργασίας σας ενημερώθηκαν με
-επιτυχία, όμως για να εφαρμοστούν πρέπει να επανεκκινήσετε
-το X Window System.
-bn_IN_TWM_TWMis_KDE_KDEgl_FVWM_FVWMbgYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Може би не искате новите настройки да са
-валидни глобално, а само за този компютър.
-(личната директория може да е на NFS, да
-се случи да ползвате бавен компютър и т.н.)nlThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktopwisselaar is een hulpmiddel dat gebruikers in staat stelt om gemakkelijk tussen verschillende geïnstalleerde desktops te schakelen.
-
-Selecteer de standaard desktop voor het systeem.hr_Enlightenment_EnlightenmentteYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)మీరు మీ కొత్త అమర్పులను 
- అంతటా అనువర్తించ దలచుకోపోవచ్చు, కానీ ఈ ప్రస్తుత కంప్యూటరుకే కావచ్చు.
-(మీ home directory NFSచే మరల్చబడింది కావచ్చు, లేదా
-మీరు నెమ్మదిగా నడుస్తున్న కంప్యూటరు వాడుతుండవచ్చు, మొ.)gl_WindowMaker_WindowMakerru_KDE_KDEskSwitches between different desktop environments or window managersPrepína medzi rôznymi prostrediami praconých plôch alebo správcami okienbn_FVWMএফভিডাব্লুএম (_ফ)msSwitches between different desktop environments or window managersMenukar antara persekitaran desktop atau pengurus tetingkap berbezahe_GNOME_GNOMEuk_Change only applies to current display_Зміни стосуються лише поточного дисплеюfrYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Vous ne souhaitez peut-être pas que vos nouveaux paramètres soient appliqués
-globalement, mais seulement à l'ordinateur courant.
-(Il se peut que votre répertoire personnel soit monté via NFS ou
-vous vous trouvez peut-être devant un ordinateur lent, etc.)hi_KDE_KDEit_TWM_TWMsk_Change only applies to current display_Zmena sa prejaví len na aktuálnej obrazovkegl_Change only applies to current display_A modificación só afecta ó display actualkoChange only applies to current display현재 시스템에만 적용elAvailable DesktopsΔιαθέσιμες επιφάνειες εργασίαςmk_WindowMaker_WindowMakerpaAvailable Desktopsਉਪਲੱਬਧ ਡੈਸਕਟਾਪlt_KDE_KDEviChange only applies to current displayThay đổi chỉ áp dụng cho display hiện tạiskF_luxboxF_luxboxro_FVWM_FVWMsr_IceWM_IceWMpt_XFce_XFcemlChange only applies to current displayനിലവില്‍ ദൃശ്യമാകുന്നതിന് മാത്രമേ മാറ്റം ബാധകമാകൂsv_IceWM_IceWMesDesktop Switching ToolHerramienta de Conmutación escritoriozh_TWDesktop Switching Tool桌面環境轉換程式ptYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-A configuração do ambiente de trabalho foi actualizada,
-mas tem que reiniciar o X para as alterações tomarem
-efeito.
-beYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Вы не жадаеце, каб вашыя наладкі ўзьдзейнічалі
-на іншыя сыстэмы, а толькі на гэты кампутар.
-(Ваша хатняя стэчка прымацоўваецца праз NFS,
-альбо вы сядзіце за павольным кампутарам ці інш.)hiSwitches between different desktop environments or window managersविभिन्न डेस्कटॉप वातावरण या विंडो प्रबंधक के बीच स्विच करता हैmk_TWM_TWMmai_TWM_TWMisDesktop Switching ToolSkjáborðsbreytircsYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Vaše nastavení prostředí pracovní plochy bylo úspěšně
-změněno, ale aby se změny projevily, musíte restartovat
-X Window System.
-pt_BRYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Você pode querer que suas novas configurações
-não se apliquem globalmente, mas apenas
-para este computador. (Seu diretório home
-pode ser montado com NFS ou pode estar
-localizado em um computador lento, etc.)bg_Change only applies to current displayПромените се отнасят само за текущия дисплейte_XFce_XFcezh_TWYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-您的桌面環境設定已成功地變更了,
-您必須重新啟動 X 視窗系統
-變更才會生效。
-hiYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-आपका डेस्कटॉप विन्यास सफलतापूर्वक अद्यतन किया गया,
-मगर परिवर्तनों को जीवंत करने के लिए आपको X विन्डो सिस्टम को
-अवश्य पुन:आरंभ करना है.
-srYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Подешавање Вашег радног окружења је ажурирано,
-али морате поново покренути Икс систем прозора како
-би промене прешле у дејство.
-knYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-ನಿಮ್ಮ ಗಣಕತೆರೆ ಸಂರಚನೆಗಳನ್ನು ನವೀಕೃತಗೊಳಿಸಲಾಗಿಲ್ಲ, ಗಣಕದಲ್ಲಿ ಸ್ವಿಚ್ ಡೆಸ್ಕ್ ಪ್ಯಾಕೇಜ್ ಸರಿಯಾಗಿ ಅನುಸ್ಥಾಪನೆಗೊಂಡಿದೆಯೇ ಎಂದು ದಯವಿಟ್ಟು ಪರೀಕ್ಷಿಸಿ.
-ja_Change only applies to current display現在の画面のみに変更を適用(_C)pt_BR_WindowMaker_WindowMakerde_GNOME_GNOMEcaThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.El canviador d'escriptori és una eina que facilita als usuaris el canvi entre escriptoris instal·lats.
-
-Seleccioneu l'escriptori per defecte d'aquest sistema.as_Enlightenmentইনলাইট্ন্ম্যান্ট (_E)de_TWM_TWMbn_KDEকেডিই (_ক)el_Enlightenment_Enlightenmentkn_FVWM_FVWMda_TWM_TWMltYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Jūsų darbastalio nustatymų negalima atnaujinti, prašau patikrinti, ar switchdesk paketas teisingai įdiegtas.
-paYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-ਤੁਹਾਡੀ ਡੈਸਕਟਾਪ ਸੰਰਚਨਾ ਦਾ ਸਫਲਤਾਪੂਰਕ ਨਵੀਨੀਕਰਨ ਨਹੀਂ ਹੋ ਸਕਿਆ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾ ਲਵੋ ਕਿ switchdesk ਪੈਕੇਜ ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਤੇ ਇੰਸਟਾਲ ਹੈ।
-ca_Change only applies to current displayEl _canvi només s'aplica a la pantalla actualskYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Vaša konfigurácia pracovnej plochy bola úspešne aktualizovaná,
-ale aby sa zmeny prejavili, musíte reštartovať X Window System.
-arYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-تم تحديث تخصيصات سطح المكتب خاصتك بنجاح, 
- لكن يجب عليك أن تعيد تشغيل نظام النوافذ X 
- لكي تصبح التغيرات سارية. 
-sv_KDE_KDEka_IceWM_IceWMkoDesktop Switcher데스크탑 교체 관리자nnAvailable DesktopsTilgjengelege skrivebordbs_XFce_XFceidAvailable DesktopsDesktop yang tersediabe_IceWM_IceWMsrSwitches between different desktop environments or window managersПребацује између разних радних окружења или управљача прозораsk_IceWM_IceWMpt_GNOME_GNOMEmaiDesktop Switcherडेस्कटोप स्विचकhuF_luxboxF_luxboxplF_luxboxF_luxboxbsSwitches between different desktop environments or window managersPrebacivanje između različitih okruženja desktopa ili upravljača prozorimamkThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Менувачот на работна околина е алатка која овозможува лесен премин од една работна околина во друга.
-
-Одберете ја основната околина за вашиот систем.zh_TW_Enlightenment_Enlightenmenthi_WindowMaker_WindowMakeras_IceWMIceWMpt_BRDesktop SwitcherComutador de ambientes de trabalhoitChange only applies to current displayApplica modifiche solo al display attualecyThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Erfyn yw'r Newidydd Penbwrdd, sy'n galluogi defnyddwyr i newid yn hwylus rhwng Benbyrddau amrywiol y maent wedi'u arsefydlu.
-
-Dewiswch y penbwrdd rhagosodedig ar gyfer y system.knSwitches between different desktop environments or window managersವಿವಿಧ ಗಣಕತೆರೆ ಪರಿಸರಗಳ ನಡುವೆ ಅಥವ ವಿಂಡೊ ವ್ಯವಸ್ಥಾಪಕಗಳ ನಡುವೆ ಬದಲಾಯಿಸುತ್ತದೆilo_XFce_XFcepaYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-ਤੁਹਾਡੀ ਡੈਸਕਟਾਪ ਸੰਰਚਨਾ ਸਫਲਤਾਪੂਰਕ ਨਵੀਨੀਕਰਨ ਹੋ ਗਈ ਹੈ,
-ਪਰ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰਨ ਲਈ X ਝਰੋਖਾ ਸਿਸਟਮ ਨੂੰ ਮੁੜ
-ਚਾਲੂ ਕਰਨਾ ਪਵੇਗਾ।
-ukSwitches between different desktop environments or window managersПеремикає між різними робочими середовищами або віконними менеджерамиpt_IceWM_IceWMhu_GNOME_GNOMEar_TWM_TWMarF_luxboxفْ_لَكْسبُكْسasDesktop Switcherডেষ্কট'প চ্ৱিচ্চাৰbs_FVWM_FVWMms_TWM_TWMhe_KDE_KDEknChange only applies to current displayಬದಲಾವಣೆಗಳು ಪ್ರಸ್ತುತ ಪ್ರದರ್ಶಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆetDesktop SwitcherTöölaua vahetajaptDesktop SwitcherMudança de Ambiente de TrabalhoslAvailable DesktopsDostopna namizjafiDesktop SwitcherTyöpöytävaihdincaDesktop Switching ToolCanviador d'escriptorinnDesktop SwitcherSkrivebordsbytterfrYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-La mise à jour de votre configuration de bureau est réussie,
-mais vous devez redémarrer le système X Window pour que les changements
-apportés soient appliqués.
-lt_WindowMaker_WindowMakeridYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Konfigurasi desktop anda tidak dapat diperbarui, pastikan bahwa paket switchdesk telah terinstal dengan benar di mesin ini.
-pt_BRChange only applies to current displayA alteração se aplica somente ao display atualtr_IceWM_IceWMen_GB_FVWM_FVWMid_GNOME_GNOMEel_IceWM_IceWMbn_INYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)নতুন বৈশিষ্ট্যাবলীগুলি সম্পূর্ণ সিস্টেমে প্রয়োগ না করে শুধুমাত্র,
-এই কম্পিউটারে প্রয়োগ করতে ইচ্ছুক হতে পারেন।
-(সম্ভবত, আপনার ব্যক্তিগত অর্থাৎ home ডিরেক্টরি NFS-এ মাউন্ট করা হয়েছে অথবা
-আপনি ধীর গতির কম্পিউটার ব্যবহার করছেন, ইত্যাদি।)ko_WindowMaker_WindowMakernlChange only applies to current displayVeranderingen zijn alleen van toepassing op de huidige displayor_System defaultsତନ୍ତ୍ର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ବିନ୍ଯାସଗୁଡିକ(_S)fi_WindowMaker_WindowMakerukYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Конфігурація графічного середовища не може бути оновлена, перевірте, що пакет switchdesk коректно встановлений у системи.
-pl_Change only applies to current display_Zastosuj zmiany tylko dla bieżącej sesjics_Enlightenment_Enlightenmentes_Change only applies to current displayEl _cambio solo afecta a la pantalla actualmrAvailable Desktopsउपलब्ध डेस्कटॉप्स्sk_Enlightenment_Enlightenmentmk_GNOME_Гномta_GNOME_GNOMEgl_KDE_KDEzh_TWChange only applies to current display變更只適用於本次的桌面顯示ml_Enlightenmentഎന്‍ലൈറ്റ്മെന്‍റ്(_E)or_IceWMଆଇସ୍.ଡବଲ୍ଯୁ.ଏମ୍.(_I)roChange only applies to current displaySchimbările se aplică doar afişajului curentzh_CN_System defaults系统默认（_S）mk_Enlightenment_Enlightenmentpa_XFce_XFcezh_TWYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-無法更改您的桌面環境設定，請確定 switchdesk 套件已經正確地安裝在系統中。
-ja_GNOMEGNOME(_G)ko_IceWM_IceWMid_Change only applies to current displayPer_ubahan hanya berlaku untuk tampilan inimai_IceWM_IceWMjaYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)新しい設定をグローバルには適用しないで、
-現在のコンピュータだけに適用も出来ます。
-(ホームディレクトリはNFSマウントとか、
-又は遅いコンピュータの使用もあり得ます)。trThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Masaüstü Değiştiricisi, kullanıcıların yükledikleri masaüstleri arasında geçiş yapmasını sağlayan bir araçtır.
-
-Lütfen sistem için varsayılan bir masaüstü seçin.ta_XFce_XFcear_WindowMaker_ويندوميكّرْisF_luxboxF_luxboxzh_TWF_luxboxF_luxboxtaYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-உங்கள் பணிமேடை கட்டமைப்பு வெற்றிகரமாக மேம்படுத்தப்பட்டது,
-ஆனால் அதன் மாற்றங்களை கொண்டு வர X விண்டோ அமைப்பை
-மீண்டும் துவக்க வேண்டும்.
-hr_IceWM_IceWMid_FVWM_FVWMtrDesktop Switching ToolMasaüstü Değiştirici Aracıda_FVWM_FVWMnl_FVWM_FVWMcaChange only applies to current displayEl canvi només s'aplica a la pantalla actualesThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.El conmutador de escritorio es una herramienta que posibilita a los usuarios finales cambiar fácilmente entre los distintos escritorios instalados.
-
-Por favor, seleccione el escritorio por defecto para el sistema.hu_KDE_KDEptDesktop Switching ToolFerramenta de Mudança de Ambiente de TrabalhoarDesktop Switcherمحوّل سطح المكتبda_GNOME_GNOMEidF_luxboxF_luxboxskDesktop Switching ToolNástroj na prepínanie pracovných plôchhe_TWM_TWMda_KDE_KDEhu_Enlightenment_EnlightenmentnlDesktop SwitcherDesktopwisselaarpt_KDE_KDEcs_KDE_KDEbn_IN_GNOME_GNOMEmrThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.डेस्कटॉप स्विचर उपकरन वापरकर्त्याला प्रणालीवरील प्रतिष्ठापीत विविध डेस्कटॉप बदलवण्यास परवानगी देतो.
-
-कृपया प्रणालीकरीता पूर्वनिर्धारीत डेस्कटॉप नीवडा.plChange only applies to current displayZastosowanie zmian tylko dla bieżącego ekranukaYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-თქვენი სამუშაო გარემოს კონფიგურაციის განახლება შეუძლებელია, გთხოვთ დარწმუნდეთ რომ switchdesk პაკეტი სწორადაა ჩადგმული.
-heYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)יתכן שאין ברצונך להחיל את ההגדרות באופן גורף, אלא להגבילן למחשב זה בלבד.
-(יתכן שתיקיית הבית שלך משותפת בין כמה מחשבים בעזרת NFS,או שברשותך מחשב חלש, וכו')en_GB_Enlightenment_EnlightenmentdaChange only applies to current displayÆndringer gør sig kun gældende på nuværende skærmkaSwitches between different desktop environments or window managersახდენს გადართვას სხვადასხვა სამუშაო გარემოებსა და ფანჯრების მმართველებს შორისor_WindowMakerଓ୍ବିଣ୍ଡୋ ର ସ୍ରଷ୍ଟା(_W)koDesktop Switching Tool데스크탑 교체 도구ka_Enlightenment_EnlightenmentknDesktop Switcherಡೆಸ್ಕ್ ಟಾಪ್ ಸ್ವಿಚರ್it_Change only applies to current displayLe modifi_che vengono applicate solo al display attualees_GNOME_GNOMEcyDesktop SwitcherNewidydd Penbwrddcs_TWM_TWMms_IceWM_IceWMkoYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-데스크탑이 설정이 성공적으로 변경되었습니다.
-변경하신 데스크탑을 사용하시려면,
-X 윈도우즈를 재시작 하셔야 합니다.
-daDesktop Switching ToolVærktøj til skift af skrivebordsmiljøfr_Change only applies to current displayLe _changement s'applique uniquement à l'affichage actuelhu_TWM_TWMelThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Το εργαλείο εναλλαγής επιφάνειας εργασίας σας δίνει τη δυνατότητα εύκολης μετάβασης ανάμεσα σε διαφορετικές επιφάνειες εργασίας που είναι εγκατεστημένες στο σύστημα σας.
-
-Παρακαλώ ορίστε την προεπιλεγμένη επιφάνεια εργασίας για το σύστημα.daYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Indstillingerne af dit skrivebord kunne ikke opdateres, tjek om pakken switchdesk er korrekt installeret på din computer.
-paThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ਡੈਸਕਟਾਪ ਸਵਿੱਚਰ ਇੱਕ ਸੰਦ ਹੈ, ਜੋ ਕਿ ਉਪਭੋਗਤਾ ਨੂੰ ਵੱਖੋ-ਵੱਖਰੇ ਡੈਸਕਟਾਪਾਂ ਵਿੱਚ, ਜੋ ਕਿ ਇੰਸਟਾਲ ਕੀਤੇ ਹਨ, ਵਿੱਚ ਤਬਦੀਲਹੋਣ ਦੀ ਸਹੂਲਤ ਦਿੰਦਾ ਹੈ।
-
-ਕਿਰਪਾ ਕਰਕੇ ਸਿਸਟਮ ਦਾ ਮੂਲ ਡੈਸਕਟਾਪ ਨਿਰਧਾਰਿਤ ਕਰੋ।fr_FVWM_FVWMesAvailable DesktopsEscritorios disponiblespt_BR_IceWM_IceWMesYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-La configuración de su escritorio ha sido actualizada con éxito,
-aunque deberá reiniciar el sistema X Window para que los cambios
-surtan efecto.
-csThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Přepínač prostředí pracovní plochy je nástroj, který uživatelům umožňuje přepínat mezi různými nainstalovanými prostředími pracovní plochy.
-
-Vyberte prosím implicitní prostředí pracovní plochy systému.isYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Þú vilt kanski ekki virkja nýju stillingarnar
-víðvært heldur einungis á þessari vél.
-(Heimasvæðið þitt er ef til vill NFS tengt eða
-þú stir við hæga tölvu.)ru_XFce_XFcebn_GNOMEগুনোম (_গ)lvDesktop Switching ToolDarbvirsmas Pārslēgšanas Rīksbn_TWMটিডাব্লুএম (_ট)uk_Enlightenment_Enlightenmentnb_IceWM_IcwWMid_Enlightenment_EnlightenmentbgChange only applies to current displayПромените са само за текущия дисплейgu_GNOMEજીનોમ (_G)idChange only applies to current displayPerubahan hanya berlaku untuk tampilan inibeAvailable DesktopsНаяўныя стальцыesDesktop SwitcherConmutador de escritoriohuAvailable DesktopsElérhető asztalokiloDesktop Switching ToolRamit a Pagsukat ti Eskritoriosr_TWM_TWMorYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-ଆପଣଙ୍କ ଡେସ୍କଟପ୍  ର ବିନ୍ଯାସ ସଫଳତା ର ସହିତ ଅଦ୍ଯତନ ହୋଇଛି ,
-କିନ୍ତୁ ପରିବର୍ତ୍ତନ ଟି ଦ୍ରୁଷ୍ଟବ୍ଯ ହେବା ପାଇଁ ଆପଣ X ଓ୍ବିଣ୍ଡୋ ତନ୍ତ୍ର କୁ
-ପୁନଃପ୍ରାରମ୍ଭ କରିବା ଉଟିତ
-hiThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.डेस्कटॉप स्विचक एक उपकरण है जो उपभोक्ताओं को विभिन्न डेस्कटॉप के बीच आसानी से स्विच करने योग्य बनाता है जिसे उन्होंने अधिष्ठापित किया है.
-
-कृपया सिस्टम के लिए मूलभूत डेस्कटॉप चुनें.bn_INDesktop SwitcherDesktop SwitchersvChange only applies to current displayÄndringen gäller endast aktuell displayuk_KDE_KDEukAvailable DesktopsНаявні середовищаbg_Enlightenment_EnlightenmentjaChange only applies to current display現在の画面のみに変更を適用be_Enlightenment_Enlightenmentfi_XFce_XFcept_FVWM_FVWMpt_BRYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-A sua configuração do ambiente de trabalho não pôde ser atualizada, por favor, certifique-se de que o pacote switchdesk foi corretamente instalado na máquina.
-da_WindowMaker_WindowMakerlvSwitches between different desktop environments or window managersPārslēdz starp dažādām darbvirmas vidēm vai logu pārvaldniekiemisSwitches between different desktop environments or window managersSkiptir á milli mismunandi skjáborðsumhverfa og gluggastjórabn_Enlightenmentএনলাইটমেন্ট [Enlightenment] (_ন)ta_System defaultsகணினி முன்னிருப்புகள் (_S)bnYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)আপনি নতুন বৈশিষ্ট্যাবলীগুলি সামগ্রিক ভাবে প্রয়োগ না করে শুধুমাত্র,
-এই কম্পিউটারে প্রয়োগ করতে ইচ্ছুক হতে পারেন।
-(সম্ভবত, আপনার home ডিরেক্টরি NFS-এ মাউন্ট করা রয়েছে, অথবা
-আপনি ধীরগতি সম্পন্ন কম্পিউটার ব্যবহার করছেন, ইত্যাদি।)ar_KDE_كيديteF_luxboxF_luxపెట్టిbgThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Превключвателя на десктопи е инструмент, които позволява на потребителите да превключват между поддържаните типове, инсталирани на системата десктопи (WM).
-
-Моля, изберете десктоп по подразбиране за системата.nlSwitches between different desktop environments or window managersWisselen tussen verschillende desktopomgevingen of window managersbeDesktop SwitcherПераключальнік стальцоўru_GNOME_GNOMEhe_WindowMaker_WindowMakerbn_IN_WindowMaker_WindowMakerbe_XFce_XFcecy_Change only applies to current display_Newid yn weithredol ar y dangosydd cyfredol yn unigsl_TWM_TWMjaYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-このデスクトップの設定を更新できません。マシン上に正しいswitchdeskパッケージが インストールされていることを確認して下さい。
-bn_INF_luxboxF_luxboxknYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-ನಿಮ್ಮ ಗಣಕತೆರೆ ಸಂರಚನೆಯು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕೃತಗೊಂಡಿದೆ,
-ಆದರೆ ಈ ಬದಲಾವಣೆಗಳು ಕಾರ್ಯಪೃವತ್ತವಾಗ ಬೇಕೆಂದರೆ X ವಿಂಡೋ ವ್ಯವಸ್ಥೆಯನ್ನು ಮರು ಪ್ರಾರಂಭಿಸಬೇಕು.
-mkDesktop Switching ToolАлатка за промена на работната околинаmrF_luxboxFluxbox (_l)ruDesktop SwitcherПереключатель рабочих столовroDesktop SwitcherComputator spaţii de lucrumsAvailable DesktopsDesktop yang adadeSwitches between different desktop environments or window managersWechselt zwischen verschiedenen Desktop-Umgebungen und Fenster-ManagernhiYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)आप यह नहीं चाहते कि अपनी नई जमावट को वैश्विक
-रूप से प्रयोग हो, मगर सिर्फ इस कंप्यूटर पर करें.
-(आपकी 'गृह' निर्देशिका NFS आरोहित है,या आप एक
-धीमा कंप्यूटर का प्रयोग कर रहा है, आदि)glThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.O Cambiador de Escritorio é unha ferramenta que lle permite ós usuarios cambiar fácilmente entre os diferentes escritorios que ten instalados.
-
-Seleccione o escritorio predeterminado do sistema.te_FVWM_FVWMdaYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Det er ikke sikkert du ønsker, at dine nye indstillinger
-træder i kraft globalt, men kun på denne computer.
-(Din hjemmemappe er muligvis NFS monteret, eller
-du sidder måske ved en langsom computer, eller lignende.)glF_luxboxF_luxboxhu_System defaults_Rendszer alapértelmezésuk_XFce_XFceptYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Não foi possível actualizar a configuração do ambiente de trabalho, por favor verifique que o pacote switchdesk for correctamente instalado na máquina.
-maiThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.डेस्कटॉप स्विचक एकटा अओजार अछि जे उपभोक्तासभकेँ विभिन्न डेस्कटाप क' बीच आसानीसँ स्विच करए योग्य बनबैत अछि जकरा ओ अधिष्ठापित कएलक अछि.
-
-कृप्या सिस्टम क' लेल मूलभूत डेस्कटाप चुनू.zh_TW_IceWM_IceWMjaThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.デスクトップ切り替えはインストールされている各デスクトップ間を簡単に切り替え（移動）するのに使用できるツールです。
-
-システム用にデフォルトのデスクトップを選択して下さい。roDesktop Switching ToolComutator spaţii de lucrunlYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Uw desktopconfiguratie is succesvol bijgewerkt, maar u moet
-het X Window Systeem herstarten om de veranderingen
-toe te passen.
-uk_WindowMaker_WindowMakerslF_luxboxF_luxboxsk_FVWM_FVWMte_TWM_TWMbgDesktop Switching ToolИнструмент за превключване на десктопиte_System defaultsసిస్టమ్ అప్రమేయాలు(_S)mr_WindowMakerWindowMaker (_W)ta_WindowMaker_WindowMakernbYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Du vil kanskje ikke at de nye innstillingene
-skal gjelde globalt, men kun på denne maskinen
-(I tilfelle NFS-montert hjemmekatalog, eller en
-treg datamaskinmaskin osv).ar_GNOME_جينومkn_TWM_TWMfiYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Työpöytäasetukset on onnistuneesti päivitetty, mutta 
-X-ikkunointijärjestelmä on käynnistettävä uudelleen, jotta
-muutokset tulevat voimaan.
-hrThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher (prebacivanje radnih površina) je alat koji korisnicima omogućuje jednostavnu izmjenu između radnih površina.
-
-Odaberite zadanu radnu površinu za vaš sustav.zh_CNDesktop Switcher桌面切换器isAvailable DesktopsTiltæk skjáborðsumhverfitr_Change only applies to current display_Değişiklik sadece bu oturuma uygulanırhrAvailable DesktopsRaspoložive radne površineen_GB_GNOME_GNOMEhiAvailable Desktopsउपलब्ध डेस्कटॉपmlF_luxboxഫ്ലക്സ്ബോക്സ്(_l)gu_TWM_TWMteChange only applies to current displayమార్పు ప్రస్తుత ప్రదర్శనకు మామె అనువర్తించబడుతుందిas_FVWM_FVWMms_FVWM_FVWMsv_TWM_TWMltDesktop SwitcherDarbastalio KeitikliscaYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-No es pot actualitzar la configuració de l'escriptori, assegureu-vos que el paquet switchdesk hagi estat correctament instal·lat.
-hi_System defaultsसिस्टम मूलभूत (_S)ro_GNOME_GNOMEgu_KDE_KDEhrSwitches between different desktop environments or window managersPrebacivanje između različitih okruženja radnih površina ili upravljača prozorimaslChange only applies to current displaySprememba se nanaša le na trenutni zaslontrChange only applies to current displayDeğişiklik sadece bu oturuma uygulansınroF_luxboxF_luxboxfiF_luxboxF_luxboxtr_GNOME_GNOMEbgAvailable DesktopsНалични ДесктопиbnSwitches between different desktop environments or window managersবিভিন্ন ডেক্সটপ এনভায়ারনমেন্ট অথবা উইন্ডো ম্যানেজারের মধ্যে পরিবর্তনকারীsr_FVWM_FVWMkaDesktop Switching Toolსამუშაო გარემოს გადამრთველიfiThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Työpöytävaihdin on työkalu, jolla käyttäjät voivat helposti vaihtaa käytettävää työpöytää.
-
-Valitse järjestelmän oletustyöpöytä.itThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Il selettore del desktop è uno strumento che consente agli utenti di cambiare facilmente fra i diversi desktop installati.
-
-Selezionare il desktop predefinito per il sistema.as_System defaultsব্যৱস্থাপ্ৰণালীৰ অবিকল্পিত (_S)hiDesktop Switching Toolडेस्कटॉप स्विचिंग उपकरणltYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Jūsų darbastalio nustatymai sėkmingai atnaujinti. 
-bet jūs turite perkraut X Window Sistema, kad pakeitimai
-aktyvuotųsi.
-es_System defaultsPredeterminados del _Sistemanb_WindowMaker_WindowMakerhi_TWM_TWMelDesktop Switching ToolΕργαλείο εναλλαγής επιφάνειας εργασίαςtr_KDE_KDEbgF_luxboxF_luxboxorYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-ଆପଣଙ୍କ ଡେସ୍କଟପ୍  ର ବିନ୍ଯାସ ଅଦ୍ଯତନ ହୋଇ ପାରିବ ନାହିଁ, ଦୟାକରି ଏହା ନିଶ୍ଚିତ ହୁଅନ୍ତୁ ଯେପ୍ଯାକେଜ୍ ସୁଇଚ୍ ଡେସ୍କ ଟି ତନ୍ତ୍ର ରେ ସଠିକ ଭାବରେ ସ୍ଥାପନ ହୋଇଛି
-hu_Change only applies to current displayA módosítás csak az _aktuális monitorra legyen érvényesbn_IN_IceWM_IceWMml_KDE_KDEru_TWM_TWMsk_WindowMaker_WindowMakerorAvailable Desktopsଉପଲବ୍ଧ ଡେସ୍କଟପ୍bnF_luxboxফ্লাক্সবক্স (_ক)frChange only applies to current displayLe changement s'applique uniquement à l'affichage actuelkoAvailable Desktops사용가능한 데스크탑들beYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Наладка вашага стальца ня можа быць абноўлена, калі ласка,упэўніцеся, што пакет switchdesk правільна ўсталяваны ў сыстэме.
-de_IceWM_IceWMptAvailable DesktopsAmbientes de trabalho disponíveisml_GNOME_GNOMEfiAvailable DesktopsSaatavilla olevat työpöydätteYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-మీ desktop ఆకృతీకరణ విజయవంతంగా నవీకరించబడింది,
-కానీ ప్రభావితమయ్యే 
- మార్పులకోసం మీరు తప్పక X Windowni పునఃప్రారంభించాలి.
-guSwitches between different desktop environments or window managersવિવિધ ડેસ્કટોપ પર્યાવરણો અથવા વિન્ડો વ્યવસ્થાપકો વચ્ચે ફેરબદલી કરે છેpt_BR_System defaultsPadrões do _sistemaen_GBDesktop Switching ToolDesktop Switching ToolmrChange only applies to current displayफक्त सध्याच्या डिसप्लेकरीताच बदल लागू होतोes_IceWM_IceWMnl_KDE_KDEen_GB_WindowMaker_WindowMakermsYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Konfigurasi desktop anda telah berjaya dikemaskini,
-tetapi anda mesti mengulangmula Sistem X Window untuk membolehkan
-perubahan berlaku.
-mk_IceWM_IceWMro_IceWM_IceWMglYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-A súa configuración de escritorio actualizouse correctamente,
-pero terá que reiniciar o Sistema X Window para que as
-modificacións teñan efecto.
-trSwitches between different desktop environments or window managersFarklı masaüstleri yada pencere yöneticileri arasında geçiş yaparroYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Configuraţia spaţiului dumneavoastră de lucru a fost actualizată cu succes,
-dar trebuie să reporniţi Sistemul de Ferestre X pentru ca 
-schimbările să aibă efect.
-pt_TWM_TWMja_EnlightenmentEnlightenment(_E)ltAvailable DesktopsGalimi Darbastaliaipt_BR_GNOME_GNOMEzh_CNThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.桌面切换器是一个可以使用户在已安装的不同桌面间轻松切换的工具。
-
-请为系统选择默认的桌面。sr_WindowMaker_WindowMakerkn_WindowMakerವಿಂಡೋಮೇಕರ್ (_W)cyAvailable DesktopsPenbyrddau Ar Gaelbe_FVWM_FVWMelDesktop SwitcherΕναλλαγή επιφάνειας εργασίαςbgYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Десктоп конфигурацията беше обновена успешно, но е
-нужно да рестартирате X системата за да може
-промените да се вземат подвнимание.
-mr_KDEKDE (_K)nb_System defaultsForvalg for _systemetzh_CN_GNOME_GNOMEnb_TWM_TWMml_FVWM_FVWMfi_TWM_TWMpa_Enlightenmentਇੰਲਾਈਟਨਮੈਂਟ(_E)fi_IceWM_IceWMasSwitches between different desktop environments or window managersডেষ্কট'প পৰিবেশ বা পৰ্দ্দা পৰিচালকৰ মাজত সলনি কৰে ।mlSwitches between different desktop environments or window managersഅനവധി ഡസ്ക്-ടോപ്പ് എന്‍വിറോണ്‍മെന്‍റുകളിലേക്ക് അല്ലെങ്കില്‍ വിന്‍ഡോ മാനേജറുകളിലേക്ക് മാറുവാന്‍ സഹായിക്കുന്നുfiChange only applies to current displayMuutos vaikuttaa vain nykyiseen näyttöönet_IceWM_IceWMhr_WindowMaker_WindowMakerpa_GNOMEਗਨੋਮ(_G)pl_IceWM_IceWMit_WindowMaker_WindowMakerpt_BR_XFce_XFcegu_Enlightenmentએનલાઈટમેન્ટ (_E)it_KDE_KDEcs_XFce_XFcecs_WindowMaker_WindowMakerpaDesktop Switcherਡੈਸਕਟਾਪ ਸਵਿੱਚਰnb_XFce_XFcemk_XFce_XFcelvF_luxboxF_luxboxmai_FVWMFVWM (_F)asDesktop Switching Toolডেষ্কট'প চ্ৱিচ্চ কৰা সৰঞ্জামেzh_TWThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.桌面環境轉換程式是一個讓使用者可以輕易轉換已安裝之不同桌面環境的工具。
-
-請選擇系統的預設桌面環境。idDesktop Switching ToolDesktop Switching Toolel_XFce_XFcehrChange only applies to current displayIzmjene se odnose samo na trenutni zaslonen_GB_KDE_KDEknYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)ನಿಮ್ಮ ಹೊಸ ಹೊಂದಾಣಿಕೆಗಳು ಪ್ರಸ್ತುತ ಗಣಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯವಾಗಿ,
-ವ್ಯಾಪಕವಾಗಿ ಅನ್ವಯವಾಗುವುದು ಬೇಡದಿರಬಹುದು.
-(ನಿಮ್ಮ ನೆಲೆಕೋಶಕ್ಕೆ NFS ಆರೋಹಿತವಾಗಿರಬಹುದು, ಅಥವ 
-ನೀವು ಒಂದು ನಿಧಾನ ಗತಿಯ ಗಣಕವನ್ನು ಉಪಯೋಗಿಸುತ್ತಿರಬಹುದು, ಇತರೆ)viYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Bạn có thể không muốn áp dụng thiết lập mới trên
-toàn hệ thống mà chỉ áp dụng cho máy tính hiện tại.
-(Thư mục nhà của bạn có thể được liên kết dạng NFS,
-hoặc bạn có thể đang sử dụng một máy tính yếu, v.v..)bgYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Десктоп конфигурацията не може да бъде обновена, моля проверете дали пакета switchdesk е коректно инсталиран на компютъра.
-deChange only applies to current displayÄnderungen nur in Bezug auf aktuelle AnzeigeiloAvailable DesktopsMaar-aramat nga EskritoriomrYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)तुम्हाला नवीन रचना जागतीकपणे लागू करायचे नाही,
-फक्त सध्याच्या संगणकावर लागू करायचे आहे.
-(तुमची होम डिरक्टरी कदाचीत NFS माऊंण्टेड असेल, किंवा
-संगणक हळू चालत असावे, इत्यादी.)ko_GNOME_GNOMEmsDesktop Switching ToolAlatan Penukar DesktopdeAvailable DesktopsVerfügbare Desktopspt_BR_TWM_TWMmlYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)നിങ്ങള്‍ക്ക് നിങ്ങളുട കംപ്യൂട്ടറില്‍ മാത്രം ഈ പുതിയ മാറ്റങ്ങള്‍
-വരുത്തിയാല്‍ മതിയാകും. (നിങ്ങളുടെ ഹോം ഡയറക്ടറി
-ഒന്നുകില്‍ NFS മൌണ്ട് ചെയ്തിട്ടുണ്ടാവാം അല്ലെങ്കില്‍
-നിങ്ങളുടെ കംപ്യൂട്ടറിന്‍റെ വേഗത കുറവാകാം.).roAvailable DesktopsSpaţii de lucru disponibileko_System defaults시스템 기본값(_S) be_Change only applies to current display_Зьмены датычацца толькі бягучага дысплэюidSwitches between different desktop environments or window managersMengganti lingkungan desktop yang berbeda atau window managernlAvailable DesktopsBeschikbare desktopsglDesktop Switching ToolFerramenta de Cambio de EscritoriomlAvailable Desktopsലഭ്യമായ ഡസ്ക്ടോപുകള്‍teAvailable Desktopsఅందుబాటులోని Desktopలుml_TWM_TWMzh_CNChange only applies to current display改变只应用于当前显示fiYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Työpöytäasetuksia ei voida päivittää, varmista, että paketti switchdesk on asennettu järjestelmään oikein.
-slDesktop SwitcherPreklopnik med namizjibeDesktop Switching ToolСродак зьмены стальцоўlt_FVWM_FVWMnbDesktop SwitcherSkrivebordsvelgertrYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Masaüstü ayarlarınız güncellenemiyor, lütfen switchdesk paketinin sistemde doğru olarak yüklü olup olmadığını kontrol edin.
-orDesktop Switcherଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତକukDesktop Switching ToolПеремикач графічних середовищpa_IceWM_IceWMmr_Enlightenmentज्ञान (_E)mr_TWMTWM (_T)lvThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Darbvirsmas Pārslēgs ir rīks, ar kura palīdzību lietotājs var pārslēgties starp dažādiem logu pārvaldniekiem.
-
-Lūdzu, norādiet sistēmas noklusēto darbvirsmu.pa_Change only applies to current displayਤਬਦੀਲੀ ਕੇਵਲ ਮੌਜੂਦਾ ਦਿੱਖ ਲਈ ਹੈ(_C)beThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Пераключальнік стальцоў - гэта сродак, які дазваляе карыстальніку лёгка пераключацца паміж рожнымі ўсталяванымі Стальцамі.
-
-Калі ласка, вылучыце дапомны сталец для сыстэмы.is_GNOME_GNOMEruAvailable DesktopsДоступные рабочие столыgu_Change only applies to current displayબદલાવો માત્ર વર્તમાન ડિસ્પ્લે પર જ લાગુ પડે છે (_C)huChange only applies to current displayA módosítás csak az jelenlegi képernyőre érvényeslt_Change only applies to current display_Pakeitimai aktyvuosis tik einamąjam ekranuijaF_luxboxFluxbox(_L)gu_WindowMakerવિન્ડો બનાવનાર (_W)ar_IceWMآ_يسوِمْbg_GNOME_GNOMEnbThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Skrivebordsvelgeren er et verktøy som lar brukere bytte mellom forskjellige installerte skrivebordsmiljøer på en enkel måte.
-
-Velg forvalgt skrivebord for systemet.it_Enlightenment_EnlightenmentglAvailable DesktopsEscritorios Dispoñiblessv_Enlightenment_EnlightenmentorChange only applies to current displayପରିବର୍ତ୍ତନ ଟି କେବଳ ବର୍ତମାନ ର ପ୍ରଦର୍ଶନ ପାଇଁ ପ୍ରୟୋଗ ହୋଇଛିka_WindowMaker_WindowMakerja_KDEKDE(_K)ja_TWMTWM(_T)daThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Skrivebordsmiljø-skifteren er et værktøj som gør brugere i stand til let at skifte mellem forskellige skrivebordsmiljøer de har installeret.
-
-Vælg venligst standard skrivebordsmiljøet for dit system.fi_GNOME_Gnomeja_IceWMIceWM(_I)maiChange only applies to current displayसिर्फ वर्तमान प्रदर्शन क' लेल परिवर्तन अछिis_FVWM_FVWMbn_INYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-ডেস্কটপ কনফিগারেশন সাফল্যের সাথে পরিবর্তিত হয়েছে।
-এই পরিবর্তনগুলি প্রয়োগ করার জন্য
-X Window সিস্টেম পুনরায় আরম্ভ করা আবশ্যক।
-guYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-તમારુ ડેસ્કટોપ રુપરેખાંકન સફળતાપૂર્વક સુધારાઈ ગયું,
-પરંતુ તમારે બદલાવોને અસરકારક બનાવવા માટે X વિન્ડો
-સિસ્ટમ ચલાવવી જ પડશે.
-is_XFce_XFceitSwitches between different desktop environments or window managersCambia fra diversi ambienti desktop o gestori di finestrehrYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Možda ne želite globalnu primjenu vaših novih
-postavki, već samo na ovom računalu.
-(Vašoj se mapi 'home' možda pristupa putem
-NFS-a ili sjedite za sporijim računalo, itd.)sv_FVWM_FVWMuk_IceWM_IceWMroYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Aţi putea dori să nu aplicaţi noile setări global,
-ci doar calculatorului curent.
-(Dosarul dumneavoastră de utilizator ar putea fi montat prin 
-NFS sau poate staţi la un calculator mai slab, etc.)et_Change only applies to current display_Muuda ainult käesolevas vaates lisatudsl_Enlightenment_Enlightenmenthe_Enlightenment_Enlightenmentkn_GNOME_GNOMEis_IceWM_IceWMmr_XFceXFce (_X)ka_GNOME_GNOMEhiF_luxboxफ्लक्सबाक्स (_l)daSwitches between different desktop environments or window managersSkifter mellem forskellige skrivebordsmiljøer eller vindueshåndteringercy_KDE_KDEguDesktop Switching Toolડેસ્કટોપ બદલતું સાધનpaChange only applies to current displayਤਬਦੀਲੀ ਕੇਵਲ ਮੌਜੂਦਾ ਦਿੱਖ ਲਈ ਹੈro_KDE_KDEnbYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Skrivebordskonfigurasjonen din kunne ikke oppdateres. Sjekk at pakken «switchdesk» er installert på maskinen.
-zh_CNYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)您可能不想让您的新设置被全局应用，
-而只是应用到当前的计算机上。
-(您的主目录可能是 NFS 挂载的，或者
-您的计算机可能比较慢，等等。)ms_GNOME_GNOMEml_Change only applies to current displayനിലവില്‍ ദൃശ്യമാകുന്നതിന് മാത്രമേ മാറ്റം ബാധകമാകൂ(_C)ro_XFce_XFcegl_Enlightenment_EnlightenmentesF_luxboxF_luxboxetThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Töölaua Vahetaja on vahend, mis võimaldab kasutajatel lihtsalt vahetada erinevate töölaudade vahel, mis on süsteemi installeeritud.
-
-Palun vali vaike töölaud süsteemile.bn_IN_Change only applies to current displayপরিবর্তনগুলি শুধুমাত্র বর্তমান প্রদর্শনের ক্ষেত্রে প্রযোজ্য (_C)ko_XFce_XFcegu_FVWM_FVWMguF_luxboxફ્લક્સબોક્સ (_l)bn_IN_Enlightenment_Enlightenmentde_System defaults_System-StandardukF_luxboxF_luxboxkn_Change only applies to current displayಬದಲಾವಣೆಗಳು ಪ್ರಸ್ತುತ ಪ್ರದರ್ಶಕಕ್ಕೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ (_C)fiDesktop Switching ToolTyöpöydänvaihtotyökaluar_FVWM_FVWMnl_IceWM_IceWMfrYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-La configuration de votre bureau ne peut pas être mise à jour ; veuillez vous assurer que le paquetage switchdesk a été correctement installé sur l'ordinateur.
-tr_XFce_XFcezh_TWDesktop Switcher桌面環境轉換程式mrSwitches between different desktop environments or window managersविविध डेस्कटॉप पर्यावरण किंवा पटल व्यवस्थापक बदलवतोtrDesktop SwitcherMasaüstü DeğiştiricisifiSwitches between different desktop environments or window managersVaihtaa työpöytäympäristöä tai ikkunointiohjelmaaasAvailable Desktopsউপস্থিত ডেষ্কট'পdaAvailable DesktopsTilgængelige skrivebordsmiljøersr_Enlightenment_Enlightenmentta_Change only applies to current displayமாற்றம் தற்போதைய காட்சிக்கு மட்டும் பொருந்தும் (_C)knThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ಡೆಸ್ಕ್ ಟಾಪ್ ಸ್ವಿಚರ್ ಅನುಸ್ಥಾಪಿತವಾದ ವಿವಿಧ ಗಣಕತೆರೆಗಳ ನಡುವೆ ಸುಲಭವಾಗಿ ಪರಸ್ಪರ ಬದಲಾಯಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುವ ಒಂದು ಉಪಕರಣ.
-
-ವ್ಯವಸ್ಥೆಗೆ ದಯವಿಟ್ಟು ಡೀಫಾಲ್ಟ್‍  ಗಣಕತೆರೆಯೊಂದನ್ನು ಆರಿಸಿ.knF_luxboxಫ್ಲಕ್ಸ್ ಪೆಟ್ಟಿಗೆ (_l)as_Change only applies to current displayবৰ্ত্তমান প্ৰদৰ্শণতহে সলনি প্ৰযোজ্য হয় (_C) isYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Ekki er hægt að breyta stillingum skjáborðsins. Vinsamlegast gaktu úr skugga um að switchdesk pakkinn sé rétt uppsettur.
-idDesktop SwitcherDesktop SwitchertrYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Özellikle bu makinada yeni ayarların genele
-uygulanmasını istemeyebilirsiniz. (Ev dizininiz
-NFS üzerinden bağlanmış ya da yavaş bir makinanın
-başına oturmak zorunda kalabilirsiniz, v.s)srDesktop Switching ToolАлат за промену радног окружењаzh_CN_TWM_TWMes_XFce_XFceplThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Przełącznik środowisk jest narzędziem, które pozwala użytkownikom na łatwe przełączanie między różnymi zainstalowanymi środowiskami graficznymi.
-
-Proszę wybrać domyślne środowisko dla systemu.jaAvailable Desktops使用できるデスクトップ環境daF_luxboxF_luxboxnb_Enlightenment_EnlightenmentsvF_luxboxF_luxboxpt_BR_FVWM_FVWMlv_GNOME_GNOMEca_FVWM_FVWMhiDesktop Switcherडेस्कटॉप स्विचकmkYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Конфигурацијата за работната околина е ажурирана, но мора
-да го превчитате X серверот за да бидат аплицирани новите
-промени.
-heDesktop Switching Toolכלי להחלפת שולחנות עבודהruSwitches between different desktop environments or window managersПозволяет выбрать графическую среду или оконный менеджерnb_GNOME_GNOMEmrDesktop Switcherडेस्कटॉप स्विचरpt_WindowMaker_WindowMakerlv_TWM_TWMzh_CNF_luxboxF_luxboxlv_KDE_KDEor_GNOMEଜି.ନୋମ୍.(_G)sr_Change only applies to current displayПро_мена се примењује само на текући приказpt_Enlightenment_Enlightenmentlt_GNOME_GNOMEviDesktop SwitcherTrình chuyển đổi DesktoptaAvailable Desktopsஇருக்கும் பணிமேடைகள்bsYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Možda ne želite globalnu primjenu vaših novih
-postavki, već samo na ovom računalu.
-(Vašoj se mapi 'home' možda pristupa putem
-NFS-a ili sjedite za sporijim računalo, itd.)et_XFce_XFcehr_FVWM_FVWMcsAvailable DesktopsDostupná prostředí pracovní plochyda_XFce_XfceisDesktop SwitcherSkjáborðsbreytirmkDesktop SwitcherМенувач на работната околинаruYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Параметры рабочего стола не могут быть обновлены, убедитесь, что пакет switchdesk правильно установлен на машине.
-cy_IceWM_IceWMbeSwitches between different desktop environments or window managersПераключае паміж рожнымі працоўнымі асяродзьдзямі ці кіраўнікамі вокнаўsvYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Din skrivbordskonfiguration kan inte uppdateras. Försäkra dig om att paketet switchdesk är korrekt installerat på maskinen.
-skYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Vašu konfiguráciu pracovnej plochy sa nepodarilo aktualizovať. Prosím, uistite sa, že balík switchdesk je na počítači správne nainštalovaný.
-or_TWMଟି.ଡବଲ୍ଯୁ.ଏମ୍.(_T)ja_XFceXFce(_X)ka_KDE_KDEmrYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-तुमचे डेस्कटॉप कॉनफिग्युरेशन अद्ययावत होउ शकत नाही, कृपया switchdesk पॅकेज योग्यरित्या मशीनवर प्रतिष्ठापीत झाले आहे याची खात्री करा.
-bnYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-আপনার ডেস্কটপ কনফিগারেশন সফলভাবে পরিবর্তিত হয়েছে।
-কিন্তু এই পরিবর্তনগুলো প্রয়োগ করার জন্য আপনাকে অবশ্যই 
-X Window সিস্টেম পুনরায় চালু করতে হবে।
-nbF_luxboxF_luxboxruF_luxboxF_luxboxsvDesktop Switching ToolVerktyg för skrivbordsbyteguChange only applies to current displayબદલાવો માત્ર વર્તમાન ડિસ્પ્લેને લાગુ પડે છેbsDesktop SwitcherPrebacivanje desktopapl_GNOME_GNOMEsr_GNOME_GNOMEptChange only applies to current displayA alteração só se aplica ao ecrã actualmr_GNOMEGNOME (_G)hrF_luxboxF_luxboxltYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Jūs galite nenorėti, kad nauji nustatymai visur
-aktyvuoti, bet tik šiam kompiuteriui.
-(Pvz.: Jūsų namų direktorija NFS prijungta, ar
- jūsų yra lėtas kompiuteris)svYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Du kanske inte vill att dina inställningar ska
-tillämpas globalt utan endast på den aktuella
-datorn. (Din hemkatalog kan vara NFS-monterad,
-eller så kan du sitta vid en långsam dator, osv.)mkF_luxboxF_luxboxslThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Preklopnik med omizji je orodje za preprosto preklaplanje med različnimi nameščenimi namizji.
-
-Izberite privzeto namizje.fr_XFce_XFceilo_Change only applies to current display_Panagbaliw ket ikapet laeng ti agdinama a displayhi_FVWMFVWM (_F)en_GBDesktop SwitcherDesktop Switchermai_Change only applies to current displayपरिवर्तन सिर्फ वर्तमान प्रदर्शन क' लेल लागू अछि (_C)lv_XFce_XFcemr_Change only applies to current displayफक्त सध्याच्या डिसप्लेकरीताच बदल लागू होइल (_C)en_GBThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.The Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.taYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-உங்கள் பணிமேடை கட்டமைப்பை மேம்படுத்த முடியவில்லை, எனவே, switchdesk தொகுப்பு உங்கள் கணினியில் சரியாக நிறுவப்பட்டுள்ளதா என சரிபார்க்கவும்.
-csChange only applies to current displayZměny provést jen pro aktuální displejbnAvailable Desktopsউপস্হিত ডেস্কটপসমূহnlDesktop Switching ToolDesktopwisselaaren_GBYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)You may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)zh_CNSwitches between different desktop environments or window managers在不同的桌面环境或者窗口管理器之间切换heSwitches between different desktop environments or window managersמחליף בין סביבות עבודה שונות או מנהלי חלונות שוניםfrF_luxboxF_luxboxpa_TWM_TWMen_GB_IceWM_IceWMka_XFce_XFcezh_TW_KDE_KDEhe_FVWM_FVWMfi_System defaults_Järjestelmän oletuksethu_WindowMaker_WindowMakeruk_GNOME_GNOMEdaYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Indstillingerne af dit skrivebord er blevet opdateret med succes,
-men du skal genstarte X vinduesystemet for at ændringerne
-træder i kraft.
-sl_XFce_XFcearAvailable Desktopsأسطح المكتب المتوفّرةde_FVWM_FVWMorDesktop Switching Toolଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତନ ର ସାଧନarYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)قد لا تريد أن تُطبّق إعداداتك الجديدة
-بشكل عامّ، ولكن فقط على هذا الحاسوب.
-(يمكن أن يكون دليلك الموطن مجهّزاً على NFS، أو
-ربّما تكون مستخدماً لحاسوب بطيء، إلخ)mrDesktop Switching Toolडेस्कटॉप बदलण्याचे साधनcy_FVWM_FVWMcy_GNOME_GNOMEarDesktop Switching Toolأداة تبديل سطح المكتبasYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)আপোনাৰ নতুন পছন্দসমূহ ব্যাপক ভাবে প্ৰয়োগ কৰিব'লৈ ইচ্ছা ন'ক'ৰিবও পাৰে,
-কিন্তু বৰ্ত্তমানৰ এই কম্পিউটাৰটোলৈহে ।
-(আপোনাৰ ঘৰৰ পঞ্জিকা NFS-ৰ যোগেদি তুলি লোৱা হ'ব পাৰে, বা
-আপুনি এটা মন্দগতিৰ কম্পিউটাৰ ব্যৱহাৰ কৰিছে , ইত্যাদি ।)ilo_FVWM_FVWMtrYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Masaüstü ayarlarınız başarıyla güncellendi, ancak 
-değişikliklerin etkin hale gelmesi için X Window
-sisteminin yeniden başlatılması gerekiyor.
-maiYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-अहाँक डेस्कटाप बिन्यास अद्यतन नहि कएल जाए सकैत अछि. कृप्या ई निश्चित करू जे संकुल स्विचडेस्क मसीन पर सही ढ़ंग सँ अधिष्ठापित अछि.
-pa_WindowMakerਵਿੰਡੋਮੇਕਰ(_W)te_WindowMaker_WindowMakerar_Change only applies to current displayال_تغيير يطبّق على العرض الحالي فقطor_FVWMଏଫ୍.ଭି.ଡବଲ୍ଯୁ.ଏମ୍.(_F)es_Enlightenment_Enlightenmentsr_System defaultsПодразумеване _системске вредностиptSwitches between different desktop environments or window managersMuda entre ambientes de trabalho e gestores de janelas diferenteszh_CNYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-您的桌面设置无法更新，请确认这台机器上已经正确安装了switchdesk软件包。
-glDesktop SwitcherCambiador de EscritoriohrYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Konfiguracija vaše radne površine uspješno je ažurirana.
-Da bi izmjene imale učinak morate ponovo pokrenuti
-sustav X prozora.
-ar_Enlightenmentإ_نلايتْمَنْتpt_System defaultsValores por omissão do _SistemaplDesktop SwitcherPrzełącznik środowiskpt_BRYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-A configuração do seu ambiente de trabalho foi atualizada com sucesso,
-mas você deve reiniciar o sistema X Window para que as alterações tenham
-efeito.
-en_GB_Change only applies to current display_Change applies only to current displayglYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Non se puido actualizar a configuración do seu escritorio, asegúrese de que o paquete switchdesk está instalado correctamente nesta máquina.
-mlDesktop Switcherഡസ്ക് ടോപ് സ്വിച്ചറ്‍ko_Enlightenment_EnlightenmentcaYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-La configuració de l'escriptori s'ha actualitzat amb èxit, 
-però heu de tornar a iniciar el sistema de finestres X perquè
-els canvis tinguin efecte.
-glYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Pode ser que non queira que a nova configuración
-se aplique de xeito global, e só a este ordenador.
-(Pode ser que o seu directorio persoal estea
-montado por NFS, ou pode ser que estea nun
-ordenador lento, etc.)fr_IceWM_IceWMslYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Morda novih nastavitev ne boste želeli uveljaviti
-globalno, pač pa le v tem računalniku. (Lahko
-imate domači imenik priklopljen prek NFS, ali
-imate počasen računalnik ... )svYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Din skrivbordskonfiguration har uppdaterats utan problem,
-men du måste starta om X Window-systemet för att ändringarna
-ska börja gälla.
-cySwitches between different desktop environments or window managersNewida rhwng amgylcheddau penbwrdd neu drefnyddion ffenestri gwahanolzh_TWSwitches between different desktop environments or window managers在不同的桌面環境或是視窗管理員間轉換ukDesktop SwitcherПеремикач графічних середовищbn_XFceএক্সএফসি (_এ)zh_TW_XFce_XFcelvChange only applies to current displayIzmaiņas attiecas tikai uz aktīvo sesijubn_IN_System defaultsসিস্টেমের ডিফল্ট মান (_S)ukThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Перемикач графічних середовищ - утиліта, яка дозволяє зручно перемикатись міжрізними встановленими у системі графічними середовищами.
-
-Виберіть типову графічне середовище системи.sv_WindowMaker_WindowMakercsSwitches between different desktop environments or window managersPřepíná mezi různými prostředími pracovní plochy nebo správci okensr_XFce_XFceelSwitches between different desktop environments or window managersΕναλλαγή μεταξύ διαφορετικών διαχειριστών παραθύρων ή επιφανειών εργασίαςsk_System defaults_Predvolené systémové nastaveniakaAvailable Desktopsხელმისაწვდომი გარემოებიml_System defaults_സിസ്റ്റം ഡീഫോള്‍ട്ടുകള്‍daDesktop SwitcherSkrivebordsmiljøskifteras_WindowMakerপৰ্দ্দা স্ৰষ্টা (_W)zh_CNDesktop Switching Tool桌面切换工具ta_KDE_KDEka_Change only applies to current display_ცვილებები ეხება მხოლოდ მიმდინარე ეკრანსet_WindowMaker_WindowMakerkn_System defaultsಗಣಕ ಡೀಫಾಲ್ಟ್‍ ಗಳು(_S)ruYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Возможно, вы хотите, чтобы изменения
-были применены не глобально, а только
-к этому компьютеру (например, если ваш
-домашний каталог подключен по NFS и вы
-сидите за медленным компьютером и тд.)en_GBYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Your desktop configuration has successfully been updated.
-You must restart the X Window System for the changes
-to take effect.
-bnYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-আপনার ডেস্কটপ কনফিগারেশন আপডেট করা যায় নি। অনুগ্রহ করে switchdesk প্যাকেজটি সঠিকভাবে ইনস্টল করা হয়েছে কিনা তা পরীক্ষা করুন।
-elYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Υπάρχει η δυνατότητα οι νέες ρυθμίσεις να εφαρμοστούν γενικά, αλλά μόνο στον τρέχων σύστημα.
-(Ο αρχικός κατάλογος μπορεί να είναι ανεβασμένος σε NFS ή
-μπορεί το υπάρχων σύστημα να είναι αργό, κτλ).sk_TWM_TWMit_GNOME_GNOMEplYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Można nie zastosowywać nowych ustawień
-globalnie, a jedynie do tego komputera
-(katalog domowy może być zamontowany przez
-NFS lub może komputer jest wolny itp.).cs_System defaults_Implicitní nastavení systémuilo_KDE_KDEnl_Enlightenment_Enlightenmentor_KDEକେ.ଡି.ଇ.(_K)glChange only applies to current displayA modificación só afecta ó display actualzh_CNAvailable Desktops可用的桌面ro_EnlightenmentEnlightenmentsv_System defaults_SystemstandardtaYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)உங்கள் புதிய அமைவுகளை முழுவதும் பயன்படுத்த தேவையில்லை,
-ஆனால் தற்போதைய கணினிக்கு பயன்படுத்தியாக வேண்டும்
-(உங்கள் இல்ல அடைவில் NFS ஏற்றப்பட்டிருக்கலாம் அல்லது 
-நீங்கள் மெதுவாக இயங்கும் கணினியைப் பயன்படுத்தலாம்)hu_IceWM_IceWMpl_TWM_TWMhuYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Talán nem akarják az új beállításokat globálisan
-alkalmazni, csak erre a gépre.
-(A saját mappa lehet NFS csatolás, vagy
-lassú a számítógép, stb.)mai_KDE_KDElt_XFce_XFcejaYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-デスクトップの設定の更新に成功しました。変更を反映するには 
-X Window Systemを再起動する
-必要があります。
-gu_IceWM_IceWMmlDesktop Switching Toolഡസ്ക്ടോപ് സ്വിച്ചിംഗ് ടൂള്‍tr_TWM_TWMbsYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Konfiguracija vaše radne površine uspješno je ažurirana.
-Da bi izmjene imale učinak morate ponovo pokrenuti
-sistem X prozora.
-ruDesktop Switching ToolПереключатель рабочих столовbgDesktop SwitcherДесктоп Превключвателbn_INThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher-র সাহায্যে ব্যবহারকারীরা সিস্টেমে ইনস্টল করা বিভিন্ন ডেস্কটপের মধ্যে সহজে অদল বদল করতে পারেন।।
-
-অনুগ্রহ করে সিস্টেমের জন্য ডিফল্ট ডেস্কটপ নির্বাচন করুন।slDesktop Switching ToolPreklopnik Med NamizjilvDesktop SwitcherDarbvirsmu PārslēgsptYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Pode não querer que esta nova configuração
-seja aplicada globalmente, mas apenas a este
-computador. (A sua directoria pessoal pode estar
-localizada num servidor NFS ou pode estar a
-utilizar um computador lento, etc.)skYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Možno nechcete, aby sa vaše nové nastavenia
-prejavili globálne, ale len na tomto počítači.
-(Váš domovský priečinok može byť pripojený cez
-NFS, alebo môžete sedieť za pomalým počítačom, atď.)el_GNOME_GNOMEbs_Enlightenment_EnlightenmentpaYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)ਤੁਸੀਂ ਆਪਣੀ ਵਿਵਸਥਾ ਗਲੋਬਲ ਨਹੀਂ ਲਾਗੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ,
-ਬਲਕਿ ਸਿਰਫ ਮੌਜੂਦਾ ਕੰਪਿਊਟਰ ਤੇ ਹੀ ਲਾਗੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।
-(ਤੁਹਾਡੀ ਘਰ ਡਾਇਰੈਕਟਰੀ NFS ਵਿੱਚ ਮਾਊਂਟ ਹੋ ਸਕਦੀ ਹੈ, ਜਾਂ
-ਤੁਸੀਂ ਇੱਕ ਹੌਲੀ ਕੰਪਿਊਟਰ ਤੇ ਬੈਠੇ ਹੋ ਸਕਦੇ ਹੋ ਆਦਿ)cy_XFce_XFcehiChange only applies to current displayसिर्फ वर्तमान प्रदर्शन के लिए ही परिवर्तन हैca_KDE_KDEskThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Prepínanie pracovných plôch je nástroj, ktorý umožňuje používateľom jednoducho prepínať medzi rôznymi pracovnými plochami, ktoré majú nainštalované.
-
-Prosím vyberte predvolenú pracovnú plochu pre systém.bn_IN_FVWM_FVWMid_XFce_XFcesvSwitches between different desktop environments or window managersByter mellan olika skrivbordsmiljöer eller fönsterhanteraremk_Change only applies to current display_Промената нека важи само за таковниот дисплејetDesktop Switching ToolTöölaua vahetaja vahendbnThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ডেস্কটপ পরিবর্তনকারী ব্যবহারকারীদের কে ইনস্টলকৃত বিভিন্ন ডেস্কটপের মধ্যে সহজে পরিবর্তন করার ব্যবস্থা করে।
-
-অনুগ্রহ করে সিস্টেমের জন্য ডিফল্ট ডেস্কটপ বাছাই করুন।caAvailable DesktopsEscriptoris disponiblesltSwitches between different desktop environments or window managersPerjungia tarp įvairių darbastalių ar ekrano menedžeriųglSwitches between different desktop environments or window managersCambia entre os diferentes ambientes de escritorio ou xestores de ventásarChange only applies to current displayالتغيير يطبّق على العرض الحالي فقطka_FVWM_FVWMen_GBF_luxboxF_luxboxhu_FVWM_FVWMsrDesktop SwitcherМењач радних окружењаsrChange only applies to current displayПромена се примењује само на текући приказbs_TWM_TWMsr_KDE_KDEte_Change only applies to current displayమార్పు ప్రస్తుత ప్రదర్శనకు మాత్రమే అనువర్తించు (_C)beChange only applies to current displayЗьмены датычацца толькі бягучагы дысплэюpa_KDEਕੇਡੀਈ(_K)taF_luxboxF_luxboxtrF_luxboxF_luxboxnl_XFce_XFcemk_KDE_КДЕsl_Change only applies to current display_Sprememba se nanaša le na trenutni zaslonde_KDE_KDEmr_IceWMIceWM (_I)te_IceWM_IceWMfr_System defaultsParamètres par défaut du _systèmenlF_luxboxF_luxboxknDesktop Switching Toolಗಣಕತೆರೆ ಬದಲಾವಣ ಉಪಕರಣzh_TWAvailable Desktops可選擇的桌面環境cyYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Gall na'ch bod am i'ch gosodiadau newydd fod yn
-weithredol yn eang, ond dim ond ar y cyfrifiadur cyfredol.
-(Gall bod eich cyfeiriadur wedi'i osod drwy NFS, neu
-gallech fod yn eistedd wrth gyfrifiadur araf, ayb.)hr_TWM_TWMmaiAvailable Desktopsउपलब्ध डेस्कटोपid_System defaultsStandar _Sistemlt_TWM_TWMheDesktop Switcherמחליף שולחנות עבודהmlThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ഇന്‍സ്റ്റോള്‍ ചെയ്തിട്ടുളള അനവധി ഡസ്ക്-ടോപ്പുകളിലേക്ക് ആയാസമായി മാറുന്നതിന് ഉപയോക്താക്കളെ സഹായിക്കുന്ന ഒരു സംവിധാനമാണ് ഡസ്ക്-ടോപ്പ് സ്വിച്ചര്‍.
-
-ദയവായി കംപ്യൂട്ടറ്‍ നിശ്ചയിച്ചിട്ടുളള ഡസ്ക്-ടോപ്പ് തിരഞ്ഞെടുക്കുക.is_Enlightenment_EnlightenmentskAvailable DesktopsDostupné pracovné plochycaDesktop SwitcherCanviador d'escriptoripa_FVWM_FVWMdeF_luxboxF_luxboxet_TWM_TWMor_XFceଏକ୍ସ.ଏଫ୍.ସି.(_X)zh_TW_Change only applies to current display變更（_C）只適用於本次的桌面顯示koThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher 은 사용자들이 설치해 놓은 다양한 Desktop들을 쉽게 교체할수 있도록 해주는 
-도구 입니다 
-시스템을 위한 기본 desktop을 선택해 주시기 바랍니다.nl_Change only applies to current display_Veranderingen zijn alleen van toepassing op de huidige displayarYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-تهيئة سطح المكتب الخاصّة بك لا يمكنك تحديثها، رجاءً تأكّد من أنّ الحزمة switchdesk تم تثبيتها بشكل صحيح على هذه الماكينة.
-deDesktop SwitcherDesktop Switcherta_FVWM_FVWMbn_INSwitches between different desktop environments or window managersবিভিন্ন ডেক্সটপ এনভাইরনমেন্ট অথবা উইন্ডো পরিচালনব্যবস্থার মধ্যে পরিবর্তন করতে ব্যবহৃতbn_WindowMakerউইন্ডোমেকার (_উ)msThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher adalah alat yang membolehkan pengguna untuk menukar dengan mudah antara pelbagai Desktop yang telah mereka pasang.
-
-Sila pilih desktop default untuk sistem.plAvailable DesktopsDostępne środowiskacyF_luxboxBlwchffl_wcsbn_Change only applies to current displayপরিবর্তনগুলো শুধুমাত্র বর্তমান ডিসপ্লের ক্ষেত্রে প্রযোজ্য (_প)pt_BR_Enlightenment_EnlightenmentkoYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)새로운 설정이 전체에 적용되지 않고 
-현재 컴퓨터에만 적용되길 원하실 경우가 있습니다. 
-(홈 디렉토리가 NFS 마운트되었거나, 또는 
-사용하시는 컴퓨터가 매우 느릴 경우, 등)kn_KDE_KDEskDesktop SwitcherPrepínanie pracovných plôchplSwitches between different desktop environments or window managersPrzełączanie między różnymi środowiskami graficznymi lub menedżerami okienpl_XFce_XfcecyDesktop Switching ToolErfyn Newid Penbwrddsk_GNOME_GNOMEmaiF_luxboxफ्लक्सबाक्स (_l)uk_TWM_TWMcs_IceWM_IceWMhe_System defaultsברירות מ_חדל של המערכתsv_GNOME_GNOMEml_WindowMakerജാലകസൃഷ്ടാവ്(_W)heChange only applies to current displayהשינוי חל רק על הצג הנוכחיda_System defaults_System standarderor_Change only applies to current displayପରିବର୍ତ୍ତନ(_C) ଟି କେବଳ ବର୍ତମାନ ର ପ୍ରଦର୍ଶନ ପାଇଁ ପ୍ରୟୋଗ ହୋଇଛିhi_Change only applies to current displayपरिवर्तन सिर्फ वर्तमान प्रदर्शन के लिए लागू है (_C)hrDesktop SwitcherPrebacivanje radnih površinamk_FVWM_FVWMguAvailable Desktopsઉપ્લબ્ધ ડેસ્કટોપcy_Enlightenment_GoleuedigaethhuYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Az asztalbeállítás nem frissíthető. Kérem bizonyosodjon meg arról, hogy a switchdesk csomagot megfelelően telepítették!
-zh_CN_IceWM_IceWMesYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Puede que no desee aplicar sus nuevas configuraciones
-globalmente, únicamente al computador actual.
-(Su directorio principal podría estar montado con NFS, o
-podría ser que tiene una computadora lenta, etc.)be_GNOME_GNOMEiloSwitches between different desktop environments or window managersSukatan a baet ti aglawlaw ti eskritorio wenno mangimaton ti tawtawadeYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Ihre Desktopkonfiguration ist erfolgreich aktualisiert worden,
-aber Sie müssen das X Window-System neu starten, damit die
-Änderungen aktiv werden.
-lv_Enlightenment_Enlightenmentpt_BRSwitches between different desktop environments or window managersAlterna entre diferentes ambientes de trabalho ou gerenciadores de janelaslv_FVWM_FVWMitDesktop Switching ToolStrumento di selezione del desktopesChange only applies to current displayEl cambio solo afecta a la pantalla actualtr_WindowMaker_WindowMakerkn_XFce_XFceiloF_luxboxF_luxboxcyChange only applies to current displayNewid yn weithredol ar y dangosydd cyfredol yn unigruChange only applies to current displayИзменения касаются только текущего дисплеяhi_IceWM_IceWMjaDesktop Switching Toolデスクトップ切替えツールnl_GNOME_GNOMEnbSwitches between different desktop environments or window managersBytter mellom ulike skrivebordsmilj� eller vindush�ndtererepl_KDE_KDEitYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-La configurazione del desktop non può essere aggiornata, assicurasi che il pacchetto switchdesk sia correttamente installato nel sistema.
-slSwitches between different desktop environments or window managersPreklaplja med različnimi namizji ali upravljalniki okenhiYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-आपका डेस्कटॉप विन्यास अद्यतन नहीं किया जा सकता है, कृपया यह निश्चित करें कि संकुल स्विचडेस्क मशीन पर सही ढ़ंग से अधिष्ठापित है.
-koF_luxboxF_luxboxbn_INDesktop Switching Toolডেস্কটপ পরিবর্তনকারী টুলnbChange only applies to current displayEndringene gjelder bare denne skjermende_XFce_XFceilo_TWM_TWMheF_luxboxF_luxboxltF_luxboxF_luxboxcy_TWM_TWMzh_TW_GNOME_GNOMEsvThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Skrivbordsbytaren är ett verktyg som enkelt låter användare byta mellan olika skrivbord som finns installerade.
-
-Välj standardskrivbordet för systemet.itYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Si potrebbe non desiderare che le nuove impostazioni vengano 
-applicate globalmente, ma soltanto su questo computer.
-(La directory home dell'utente potrebbe essere montata via NFS,
-oppure il computer attualmente in uso è lento, ecc.)en_GB_XFce_XFceml_XFce_XFceel_Change only applies to current displayΗ α_λλαγή αφορά μόνο την τρέχουσα οθόνηca_XFce_XFcebg_FVWM_FVWMsl_KDE_KDEbg_IceWM_IceWMarSwitches between different desktop environments or window managersيحوّل بين مدراء النوافذ أو بيئات سطح المكتب المختلفة fiYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Et ehkä halua uusien asetusten tulevan käyttöön
-yleisesti, vaan vain tällä tietokoneella.
-(Kotihakemisto voi olla NFS-liitetty, tai käytettävä
-tietokone voi olla hidas, jne.)nl_TWM_TWMcsDesktop SwitcherPřepínač prostředí pracovní plochytaChange only applies to current displayமாற்றங்கள் தற்போதைய காட்சிக்கு மட்டுமே பொருந்தும்guThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ડેસ્કટોપ બદલનાર સાધન કે જે વપરાશકર્તાઓને વિવિધ ડેસ્કટોપ વચ્ચે બદલવા માટે સક્રિય કરે છે કે જેઓ સ્થાપિત હોય.
-
-મહેરબાની કરીને સિસ્ટમ માટે મૂળભૂત ડેસ્કટોપ પસંદ કરો.msChange only applies to current displayPenukaran hanya bertindak ke atas paparan semasazh_CNYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-您的桌面设置已经成功更新。
-
-但是您必须重启 X 窗口系统使改变生效。
-lt_Enlightenment_Enlightenmenten_GBChange only applies to current displayChange only applies to current displaybs_IceWM_IceWMcsYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)Možná nechcete, aby se nová nastavení projevila
-globálně, ale jen na tomto počítači. (Váš domovský
-adresář může být připojen přes NFS nebo sedíte
-u pomalého počítače atd.)or_Enlightenmentଆଲୋକପାତ(_E)asYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-আপোনাৰ ডেষ্কট'পৰ বিন্যাস সফল ভাবে বৰ্ত্তমানলৈ অনা হৈছে,
-কিন্তু আপুনি X পৰ্দ্দা প্ৰণালী পুনৰাৰম্ভ কৰিব লাগিব যাতে সলনিসমূহ প্ৰযোজ্য হয় ।
-
-gu_XFce_XFceid_KDE_KDEsrYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Подешавање Вашег радног окружења не може бити ажурирано, проверите да ли је пакет switchdesk исправно инсталиран на машини.
-fr_KDE_KDEsl_FVWM_FVWMit_XFce_XFcemlYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-നിങ്ങളുടെ ഡസ്ക്ക്ടോപ്പ് കോണ്‍ഫിഗറേഷന്‍ പരിഷ്കരിക്കുവാന്‍ സാധിക്കുന്നില്ല, സ്വിച്ച്ഡസ്ക്ക് എന്ന പാക്കേജ് നിങ്ങളുടെ കംപ്യൂട്ടറില്‍ ശരിയായി ഇന്‍സ്റ്റോള്‍ ചെയ്തിരിക്കുന്നു എന്ന് ഉറപ്പ് വരുത്തുക.
-ptF_luxboxF_luxboxltChange only applies to current displayPakeitimai aktyvuosis tik einamąjam ekranuiko_FVWM_FVWMasThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.ডেষ্কট'প চ্ৱিচ্চাৰ সৰঞ্জামে ব্যৱহাৰকৰ্তাক সংস্থাপন কৰা বিভিন্ন ডেষ্কট'প সহজে সলাই ল'বলৈ সক্ষম কৰে ।
-
-আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ বাবে অবিকল্পিত ডেষ্কট'প নিৰ্ব্বাচন কৰক ।ko_TWM_TWMen_GBAvailable DesktopsAvailable DesktopsnbAvailable DesktopsTilgjengelige skrivebordsmiljøfi_Enlightenment_EnlightenmentplYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Konfiguracja środowisk nie została zmieniona. Proszę upewnić się, że pakiet Przełącznika środowisk jest poprawnie zainstalowany.
-srThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Мењач радних окружења је алат који омогућава корисницима да се лако пребацују између инсталираних радних окружења.
-
-Изаберите подразумевано радно окружење за Ваш систем.ru_FVWM_FVWMbsDesktop Switching ToolAlat za prebacivanje desktopabs_Change only applies to current displayIzmjena se odnosi samo na trenutni zaslonca_IceWM_IceWMhu_XFce_XFcecy_WindowMaker_WindowMakerskChange only applies to current displayZmena sa prejaví len na aktuálnej obrazovkept_BRDesktop Switching ToolComutador de Ambientes de Trabalhoet_GNOME_GNOMEcs_Change only applies to current display_Změnit jen pro aktuální displejisYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Stillingum og val skjáborðs hefur verið breytt, en 
-þú verður að endurræsa X gluggakerfið til að breytingarnar 
-taki gildi.
-ms_XFce_XFceta_Enlightenmentதெளிவுபடுத்துதல் (_E)ilo_WindowMaker_WindowMakerlvAvailable DesktopsPieejamās darbvirsmasfrDesktop SwitcherCommutateur de bureauzh_TW_TWM_TWMitAvailable DesktopsDesktop disponibilikoSwitches between different desktop environments or window managersdesktop 환경들 또는 window 관리자들을 다른 것으로(machine에 설치된 다른 desktop환경  또는 window관리자) 전환 해준다.is_Change only applies to current display_Breytingin á einungis við núverandi skjáhuThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Az Asztalválasztó segítségével könnyen át lehet váltani a rendszerben rendelkezésre álló Asztalok között.
-
-Válasszon alapértelmezett asztalt a rendszer számára!sk_XFce_XFcebg_KDE_KDEpt_BRAvailable DesktopsAmbientes de trabalho disponíveisru_Enlightenment_EnlightenmentlvYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Jūsu darbvirsmas iestatījumi ir atjaunināti,
-taču Jums ir jāpārstartē X Window sistēma, lai
-izmaiņas stātos spēkā.
-isChange only applies to current displayBreytingin á einungis við núverandi skjátaSwitches between different desktop environments or window managersபல்வேறு பணிமேடை சூழல்கள் அல்லது சாளர மேலாளர்களுக்குள் மாற்றுகிறதுit_IceWM_IceWMro_WindowMaker_WindowMakercaSwitches between different desktop environments or window managersCanvia entre diferents entorns d'esciptori o gestors de finestresguYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-તમારું ડેસ્કટોપ રુપરેખાંકન સુધારી શકાતું નથી, મહેરબાની કરીને ખાતરી કરો કે પેકેજ switchdesk તમારા મશીન પર યોગ્ય રીતે સ્થાપિત છે ને.
-bnDesktop Switcherডেস্কটপ পরিবর্তনকারীlv_WindowMaker_WindowMakeren_GB_TWM_TWMidYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Konfigurasi desktop anda telah berhasil diperbarui,
-akan tetapi anda harus me-restart X Window System agar
-perubahan dapat berlaku.
-heYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-הגדרות שולחן העבודה שלך עודכנו,
-אולם עליך להפעיל מחדש את מערכת החלונאות X בכדי שהשינויים
-יבואו לידי ביטוי.
-ukYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Конфігурацію графічного середовища успішно оновлено але
-вам необхідно перевантажити графічну систему X для того,
-щоб зміни вступили в силу.
-etSwitches between different desktop environments or window managersVaheta erinevate töölaua keskkondade või aknahaldurite vahelgu_System defaultsસિસ્ટમ મૂળભૂતો (_S)mrYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-तुमचे डेस्कटॉप कॉनफिग्युरेशन यशस्वीरित्या अद्ययावत झालेले आहे,
-परंतु बदल लागू होण्यासाठी तुम्हाला X विंडो प्रणाली
-पुन:सुरु करावी लागेल.
-ruYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-Конфигурация вашего рабочего стола была успешно обновлена.
-Чтобы изменения вступили в силу, необходимо перезапустить
-систему X Window.
-arThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.محوّل سطح المكتب أداة تسمح للمستخدم أن يحوّل بين أسطح المكتب المثبته. 
-
-الرجاء تحديد سطح المكتب الافتراضي للنظام.hi_GNOME_GNOMEidThe Desktop Switcher is a tool which enables users to easily switch between various Desktops that they have installed.
-
-Please select the default desktop for the system.Desktop Switcher adalah alat bantu agar user dapat berpindah secara mudah antara berbagai Desktop yang telah terinstal.
-
-Pilihlah desktop default untuk sistem.ta_TWM_TWMmaiYour desktop configuration has successfully been updated,
-but you must restart the X Window System for the changes
-to take effect.
-अहाँक डेस्कटाप बिन्यास सफलतापूर्वक अद्यतन कएल गेल,
-मगर परिवर्तनकेँ जीवंत करए क' लेल अहाँक X विन्डो सिस्टमकेँ
-अवश्य पुन:आरंभ कएनाइ अछि.
-guDesktop Switcherડેસ્કટોપ બદલનારbn_IN_XFce_XFcems_Enlightenment_EnlightenmentbnDesktop Switching Toolডেস্কটপ পরিবর্তনকারী টুলmsYour desktop configuration cannot be updated, please make sure that the package switchdesk has correctly been installed on the machine.
-Konfigurasi desktop anda tidak dapat dikemaskini, sila pastikan pakej switchdesk telah dipasang dengan betul pada mesin.
-nb_FVWM_FVWMteDesktop Switching ToolDesktop మార్పు సాధనంel_WindowMaker_WindowMakerguYou may not want your new settings to apply
-globally, but only to this current computer.
-(Your home directory may be NFS mounted, or
-you might be sitting at a slow computer, etc.)તમે તમારા નવા સુયોજનો લાગુ કરી શકતા નથી,
-પરંતુ માત્ર આ કમ્પ્યુટર પર જ.
-(તમારી ઘર ડિરેક્ટરી NFS થી માઉન્ટ થયેલી હશે, અથવા
-તમે ધીમા કમ્પ્યુટર આગળ બેઠા હશો, વગેરે.)

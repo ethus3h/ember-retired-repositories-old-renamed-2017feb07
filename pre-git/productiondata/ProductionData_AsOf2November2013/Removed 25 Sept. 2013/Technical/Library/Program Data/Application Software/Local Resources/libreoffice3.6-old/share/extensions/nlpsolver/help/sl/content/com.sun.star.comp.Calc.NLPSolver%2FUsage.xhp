@@ -1,7 +1,0 @@
-reševalec za nelinearne probleme;raba
-
-Raba
-Ne glede na to, ali uporabljate DEPS ali SCO, začnite z ukazom Orodja - Reševalec in določite celico, ki naj bo optimizirana, smer (minimizacija, maksimizacija) in celice, ki naj se spreminjajo, da bo cilj dosežen. Nato pojdite v Možnosti in določite reševalca, ki ga želite uporabiti, in, če je potrebno, prilagodite ustrezne parametre.
-Uporabite lahko tudi seznam omejitev in sicer za omejitev možnega obsega rešitev ali za kaznovanje nekaterih pogojev. Vendar pa se v primeru evolucijskih reševalcev DEPS in SCO te omejitve uporabljajo tudi za določitev meja na spremenljivkah problema. Zaradi naključnostne narave algoritmov je toplo priporočeno, da to storite in podate zgornjo (ter v primeru izključene možnosti "Domnevaj nenegativne spremenljivke" tudi spodnjo) mejo za vse spremenljivke. Ni potrebno, da so blizu dejanske rešitve (ki je običajno neznana), vendar podajajo grobo oceno pričakovane velikosti (0 ≤ var ≤ 1 ali morda -1000000 ≤ var ≤ 1000000).
-Meje so določene z izborom ene ali več spremenljivk (kot obseg) na levi strani in z vnosom številske vrednosti (ne celice ali formule) na desni strani. Na ta način lahko izberete tudi eno ali več spremenljivk, da so le Integer (celoštevilske) ali Binary (dvojiške).
-

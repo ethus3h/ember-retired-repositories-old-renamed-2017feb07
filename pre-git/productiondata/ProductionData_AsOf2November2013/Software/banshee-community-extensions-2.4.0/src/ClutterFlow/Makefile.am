@@ -1,1 +1,0 @@
-SUBDIRS =  ClutterFlow Banshee.ClutterFlow

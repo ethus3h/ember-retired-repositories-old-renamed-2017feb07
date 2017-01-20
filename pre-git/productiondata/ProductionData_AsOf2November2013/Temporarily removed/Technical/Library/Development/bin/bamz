@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-MONO_PATH=/usr/local/lib/banshee exec -a bamz mono /usr/local/lib/banshee/Extensions/Banshee.AmazonMp3.exe $@

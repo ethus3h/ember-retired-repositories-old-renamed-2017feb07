@@ -1,2 +1,0 @@
-L'extensió Consola del presentador us dóna més control sobre les presentacions de diapositives, com per exemple, la possibilitat de veure la diapositiva següent, les notes i un cronòmetre, mentre que l'audiència només veu la presentació actual.
-Per tal d'evitar confusions en mostrar un gran nombre d'elements de presentació, la Consola de presentació mostra els elements en tres vistes que són fàcilment intercanviables.

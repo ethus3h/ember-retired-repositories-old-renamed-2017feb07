@@ -1,2 +1,0 @@
-/usr/local/lib/kde4/krunner_appmenu.so
-/usr/local/share/kde4/services/appmenu.desktop

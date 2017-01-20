@@ -1,6 +1,0 @@
-%%%% HASHDEEP-1.0
-%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
-## Invoked from: /home/kyan/productiondata
-## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Software/LibO_3.6.1_Linux_x86_install-deb_en-US.tar.gz
-## 
-157402899,ad13d1cadcab5ba6d2c4220d24fd2408,d6f340844d5b0f2ed37178d031ce17d4f1d957a0,474e88ca307e0bd9b4be1fa6b3eac2257cff04f080df455aff0cf5071b1e320a,b6e72a89847ad638eb2bff44690c1650f771aa6c5a0620e6,201576c7280f869a421a1fb372a343c4ae0c04b7607b4bb8233d75bed77a190e589f2f0dab774dc04f20a3670aa7a7a981b8b22dd0e8d81667c3fd9eea2b1550,/home/kyan/productiondata/ProductionData_AsOf2November2013/Software/LibO_3.6.1_Linux_x86_install-deb_en-US.tar.gz

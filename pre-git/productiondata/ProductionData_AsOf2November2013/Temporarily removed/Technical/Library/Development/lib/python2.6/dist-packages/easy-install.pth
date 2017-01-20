@@ -1,8 +1,0 @@
-import sys; sys.__plen = len(sys.path)
-./antlr_python_runtime-3.1.2-py2.5.egg
-./gcovr-2.2-py2.6.egg
-./hgtools-3.0.2-py2.6.egg
-./keyring-1.4-py2.6.egg
-./closure_linter-2.3.10-py2.6.egg
-./python_gflags-2.0-py2.6.egg
-import sys; new=sys.path[sys.__plen:]; del sys.path[sys.__plen:]; p=getattr(sys,'__egginsert',0); sys.path[p:p]=new; sys.__egginsert = p+len(new)

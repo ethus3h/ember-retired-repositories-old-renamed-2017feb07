@@ -1,7 +1,0 @@
-Mittelineaarsete probleemide lahendaja; kasutamine
-
-Kasutamine
-Olenemata sellest, kas kasutad DEPS-i või SCO-d, alustamiseks vali Tööriistad → Lahendaja ning määra optimeeritav lahter, liikumissuund (minimeerimine, maksimeerimine) ja eesmärgi saavutamiseks muudetavad lahtrid. Seejärel ava sätted ja määra kasutatav lahendaja ning vajadusel määra selle parameetrid.
-On ka nimekiri piirangutest, mida saab kasutada, et kitsendada erinevate lahenduste võimalikku vahemikku või muuta teatud tingimused karistatavaks. Evolutsiooniliste lahendajate DEPS-i ja SCO puhul kasutatakse neid piiranguid ka probleemi muutujatele piiride määramiseks. Algoritmide juhusliku loomuse tõttu on väga soovitatav anda kõigi muutujate jaoks ülemised (ja kui "Mittenegatiivsete muutujate eeldamine" on välja lülitatud, siis ka alumised) piirid. Need ei pea olema lähedal tegelikule lahendusele (mis on ilmselt teadmata), kuid peaksid andma ligikaudse eeldatava suuruse (0 ≤ var ≤ 1 või ehk -1000000 ≤ var ≤ 1000000).
-Piiride määramiseks vali vasakul pool vähemalt üks muutuja (vahemikuna) ja sisesta paremale poole arvväärtus (mitte lahter või valem). Sel viisil saab mõne muutuja ka ainult täisarvuks või kahendarvuks määrata.
-

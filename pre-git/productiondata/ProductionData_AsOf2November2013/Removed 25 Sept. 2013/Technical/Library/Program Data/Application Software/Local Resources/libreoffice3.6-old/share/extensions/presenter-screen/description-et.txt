@@ -1,2 +1,0 @@
-Ettekandjakuva laiendus pakub slaidiesitluse üle suuremat kontrolli, nt võimalust näha järgmist slaidi, slaidimärkmeid, ja ettekande kestust, samas kui publik näeb üksnes aktiivset slaidi.
-Et vältida segadust, mis võib tekkida, kui paljud esitluse elemendid on korraga näha, näitab ettekandjakuva neid elemente kolmes hõlpsasti vahetatavas vaates.

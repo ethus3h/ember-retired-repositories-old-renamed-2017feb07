@@ -1,1 +1,0 @@
-Rozšíření Import PDF přidává podporu pro načítání a úpravy PDF souborů. Nejlepších výsledků je možné dosáhnout při použití hybridního formátu PDF/ODF, což je jedna z funkcí přidaných tímto rozšířením. Hybridní PDF/ODF soubor je PDF soubor s vloženým zdrojovým souborem ODF. Hybridní PDF/ODF soubory je možné v LibreOffice otevřít bez jakýchkoliv nežádoucích změn formátování.

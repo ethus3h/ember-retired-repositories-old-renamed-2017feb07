@@ -1,6 +1,6 @@
 # pre-git
 
-This directory contains Wreathe development data from before it began happening in Git.
+This directory contains Wreathe development data from before it began happening in Git. Since there's no compelling reason to keep all this unpacked in the repository all the time, its contents are stored at tag 0.1 (commit 264e6dcad96b2b7376968d7a6d074c20d64eeb4a); check out that commit to unpack this data.
 
 These files were retrieved from https://archive.org/download/ProductionDataAsOf2November2013.7z/ProductionData_AsOf2November2013.7z between 2017-January-18 and 2017-January-19. On 2017-January-19, to facilitate adding this copy of the files to this repository, files over 100MB had their contents replaced by their checksums, and directories named ".git" were renamed to ".git.disabled".
 

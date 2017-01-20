@@ -1,7 +1,0 @@
-Problèmes de solveur non linéaire;utilisation
-
-Utilisation
-Que vous utilisiez DEPS ou SCO, vous commencez par vous rendre sous Outils → Solveur et définissez la cellule à optimiser, la direction dans laquelle aller (minimiser, maximiser) et les cellules à modifier pour atteindre le but. Puis vous allez dans les Options et spécifiez le solveur à utiliser et si nécessaire ajustez les paramètres correspondants.
-Il y a aussi une liste de contraintes que vous pouvez utiliser pour restreindre la plage de solutions possible ou pour pénaliser certaines conditions. Cependant, dans le cas des solveurs d'évolution DEPS et SCO, ces contraintes sont aussi utilisées pour spécifier les limites des variables du problème. En raison de la nature aléatoire des algorithmes, il est fortement recommandé de faire ainsi et de donner (et dans le cas où "Assumer des variables non négatives" est désactivé ou diminué) des limites pour toutes les variables. Elles n'ont pas à être près de la solution actuelle (qui est probablement inconnue) mais doivent donner une indication grossière de la taille attendue (0 ≤ var ≤ 1 ou peut-être -1000000 ≤ var ≤ 1000000).
-Les limites sont spécifiées en sélectionnat une ou plusieurs variables (comme plage) sur le côté gauche et en saisissant une valeur numérique (non une cellule ou une formule) sur le côté droit. De cette façon, vous pouvez également choisir une ou plusieurs variables qui soient un entier ou binaire uniquement.
-

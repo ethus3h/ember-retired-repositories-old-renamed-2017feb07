@@ -1,2 +1,0 @@
-Utvidelsen «Presentasjonsskall» gir deg mer kontroll ved lysbildeframvisninger. Presentasjonsskallet gjør det mulig å se neste lysbilde, lysbildemerknader, og en tidtaker, samtidig som publikum kun ser det gjeldende arket.
-For å unngå forvirring ved visning av et større antall presentasjonselementer, vil presentasjonsskallet vise elementene på tre forskjellige og lett byttbare visninger.

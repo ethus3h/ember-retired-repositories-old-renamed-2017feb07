@@ -1,1 +1,0 @@
-Ajoute la prise en charge de Python via le Scripting Framework pour activer les scripts Python dans les répertoires user et share d'une installation LibreOffice ainsi que dans les documents chargés.

@@ -1,2 +1,0 @@
-Sunucu Konsolu Eklentisi slayt gösteri sunumunda gelen slaydı görmek, slayt notları ve geçerli slaytta sadece izleyicilerin göreceği bir sunum zamanlayıcı gibi daha fazla kontrol sağlar.
-Sunum öğlerinin büyük bir rakamla gösterilerek karışıklıktan kaçınmak için Sunucu Konsolu kolayca değişebilir üç farklı görünümde elemanları gösterir.

@@ -1,1 +1,0 @@
-Doda podporo za jezik Python z ogrodjem za skripte (Scripting Framework) in tako omogoči izvedbo skriptov Python v mapah user in share v namestitvi paketa LibreOffice ter v naloženih dokumentih.

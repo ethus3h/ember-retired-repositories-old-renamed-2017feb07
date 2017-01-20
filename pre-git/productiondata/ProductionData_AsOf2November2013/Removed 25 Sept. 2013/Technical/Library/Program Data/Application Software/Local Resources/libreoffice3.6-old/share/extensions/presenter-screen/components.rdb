@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<components xmlns="http://openoffice.org/2010/uno-components"><component loader="com.sun.star.loader.SharedLibrary" uri="./PresenterScreen.uno.so"><implementation name="com.sun.star.comp.Draw.framework.PresenterScreenJob"><service name="com.sun.star.drawing.framework.PresenterScreenJob"/></implementation><implementation name="vnd.sun.star.sdext.presenter.PresenterProtocolHandler"><service name="com.sun.star.frame.ProtocolHandler"/></implementation></component></components>

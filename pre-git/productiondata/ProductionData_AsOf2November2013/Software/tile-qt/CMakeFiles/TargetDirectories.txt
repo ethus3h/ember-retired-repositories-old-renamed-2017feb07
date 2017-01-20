@@ -1,1 +1,0 @@
-/home/kyan/tile-qt/CMakeFiles/tileqt0.5.dir

@@ -1,2 +1,0 @@
-L'extension Presenter Console fournit des contrôles supplémentaires pour la présentation tels que la possibilité de voir la diapo à venir, les notes et une temporisation de la diapo alors que l'audience ne voit que la diapo active.
-Pour éviter un certain désordre en affichant un grand nombre d'éléments de présenttion, l'extension Presenter Console affiche les éléments dans trois vues facilement modifiables.

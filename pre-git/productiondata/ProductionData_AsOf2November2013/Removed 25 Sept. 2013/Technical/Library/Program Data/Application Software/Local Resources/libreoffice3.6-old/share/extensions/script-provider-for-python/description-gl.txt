@@ -1,1 +1,0 @@
-Engade a dispoñibilidade de Python a través marco de traballo de programación (Scripting Framework) para activar os scripts Python nas áreas de usuario, de cartafoles compartidos dunha instalación LibreOffice e de documentos cargados.

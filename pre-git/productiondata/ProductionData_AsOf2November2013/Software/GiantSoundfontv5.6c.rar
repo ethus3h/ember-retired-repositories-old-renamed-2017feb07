@@ -1,6 +1,0 @@
-%%%% HASHDEEP-1.0
-%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
-## Invoked from: /home/kyan/productiondata
-## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Software/GiantSoundfontv5.6c.rar
-## 
-207321640,c28281d2cc4e5c6f8c4380e05abac03d,2388b4a794ae35d5c5e0e64a847dbf1a8ecb3cc6,4ad7762328d0a5edd6f6a3cd74741618274bbd3f5865b5e90d9b64c98a5d024e,31f9adb827fdd7abe791a8b34020c22cc1da97c7de187465,f14da4c842f25f65dd17478cff79735b130c6a31d4bda7e9c97c6c810ad315fbaeaa5b4e237e64bc6d6774de6e31369be20c02a11e018635eb9ad57d77220435,/home/kyan/productiondata/ProductionData_AsOf2November2013/Software/GiantSoundfontv5.6c.rar

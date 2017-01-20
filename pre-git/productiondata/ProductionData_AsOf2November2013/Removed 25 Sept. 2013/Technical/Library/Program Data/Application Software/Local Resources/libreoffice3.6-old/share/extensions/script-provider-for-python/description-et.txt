@@ -1,1 +1,0 @@
-Lisab skriptimisraamistiku kaudu Pythoni toetuse. See annab võimaluse kasutada Pythoni skripte LibreOffice'i paigalduskataloogi alamkataloogides "user" ja "share" ning ka dokumentides.

@@ -1,7 +1,0 @@
-Pemecah bagi Masalah Nonlinier;Cara pakai
-
-Cara Pakai
-Tanpa peduli apakah Anda memakai DEPS atau SCO, Anda memulai dari Perkakas → Pemecah dan menata Sell yang akan dipotimasi, arah pergi (minimisasi, maksimisasi), dan sel yang akan diubah untuk mencapai tujuan. Lalu Anda pergi ke Opsi dan menyatakan pemecah yang akan dipakai dan bila perlu menyetel parameter yang bersesuaian.
-Juga ada daftar konstrain yang dapat Anda pakai untuk membatasi jangkauan yang mungkin dari solusi atau untuk mempenalti kondisi tertentu. Namun, dalam kasus pemecah evolusioner DEPS dan SCO, konstrain ini juga dipakai untuk menyatakan batas pada variabel masalah. Karena sifat alami algoritma yang acak, sangat dianjurkan untuk melakukan hal itu dan memberikan batas atas (dan dalam kasus "Asumsikan Variabel Non-Negatif" dimatikan juga batas bawah) bagi semua variabel. Mereka tidak harus dekat dengan solusi sebenarnya (yang mungkin tak diketahui) tapi mesti memberikan petunjuk kasar atas ukuran yang diharapkan (0 ≤ var ≤ 1 atau mungkin -1000000 ≤ var ≤ 1000000).
-Batas dinyatakan dengan memilih satu variabel atau lebih (sebagai jangkauan) pada sisi kiri dan memasukkan suatu nila numerik (bukan suatu sel atau rumus) pada sisi kanan. Dengan cara itu Anda juga dapt memilih satu variabel atau lebih agar hanya berupa Bilangan Bulat atau Biner.
-

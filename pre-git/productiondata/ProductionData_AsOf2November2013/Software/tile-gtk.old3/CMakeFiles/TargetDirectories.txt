@@ -1,1 +1,0 @@
-/home/kyan/tile-gtk/CMakeFiles/tilegtk0.3.dir

@@ -1,1 +1,0 @@
-Añadir compatibilidad para Python a través de Scripting Framework para permitir dichos scripts en el usuario y compartir directorios de una instalación de LibreOffice, y también en documentos cargados.

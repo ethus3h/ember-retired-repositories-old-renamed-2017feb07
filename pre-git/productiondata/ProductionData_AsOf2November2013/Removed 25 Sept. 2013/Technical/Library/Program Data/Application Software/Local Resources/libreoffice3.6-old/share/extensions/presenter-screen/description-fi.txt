@@ -1,2 +1,0 @@
-Esittäjän apunäyttö helpottaa esitelmien pitämistä. Näet tulevat diat, muistiinpanosi ja esityskellon toiselta näytöltä samaan aikaan kun yleisö näkee vain nykyisen diasi.
-Apunäytön sisällölle voi valita kolme selkeää näkymää, ja niiden välillä on helppo siirtyä.

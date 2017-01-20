@@ -1,1 +1,0 @@
-Pievienojiet Python atbalstu, izmantojot Scripting Framework, lai aktivētu Python skriptus lietotāja un koplietotajās LibreOffice instalācijas mapēs, kā arī ielādētajos dokumentos.

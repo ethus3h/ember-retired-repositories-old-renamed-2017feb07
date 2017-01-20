@@ -1,1 +1,0 @@
-Do skriptovacího rozhraní přidává podporu pro Python a umožňuje tak použití Python skriptů v user a share adresářích instalace LibreOffice a také v otevřených dokumentech.

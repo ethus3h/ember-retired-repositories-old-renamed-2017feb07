@@ -1,1 +1,0 @@
-Bæta við stuðningi við Python í skriftukerfinu þannig að Python skriftur verði virkar í notendamöppum og deilimöppum LibreOffice uppsetningar, auk þess að virka í opnum skjölum.

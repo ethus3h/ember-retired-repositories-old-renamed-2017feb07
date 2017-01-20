@@ -1,1 +1,0 @@
-PDF-i importimise laiendus võimaldab importida ja muuta PDF-dokumente. Parimad tulemused ja 100%-se küljendustäpsuse annab PDF/ODF-hübriidvorming, mille toe see laiendus lisab. PDF/ODF-hübriidfail on PDF-fail, millesse on põimitud ODF-lähtefail. PDF/ODF-hübriidfailid avanevad LibreOffice'is tavaliste ODF-failidena ilma mingite muutusteta dokumendi küljenduses.

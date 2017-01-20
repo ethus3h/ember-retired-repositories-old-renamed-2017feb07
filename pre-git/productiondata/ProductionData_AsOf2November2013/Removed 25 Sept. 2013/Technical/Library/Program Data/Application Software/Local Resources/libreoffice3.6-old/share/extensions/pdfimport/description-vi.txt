@@ -1,1 +1,0 @@
-Phần mở rộng Nhập PDF sẽ nhập tài liệu PDF, cho kết quả tốt nhất, chính xác 100% trình bày nếu dùng định dạng "Tệp hỗn hợp PDF/ODF" mà phần mở rộng này cho phép dùng. Tệp PDF/ODF hỗn hợp là một tệp PDF chứa tệp nguồn PDF được nhúng vào. Tệp PDF/ODF sẽ được mở trong LibreOffice như là một tệp ODF không đòi hỏi thay đổi layout.

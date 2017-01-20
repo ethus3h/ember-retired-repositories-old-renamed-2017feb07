@@ -1,7 +1,0 @@
-Løser for ikke-lineære problemer;bruk
-
-Bruk
-Uavhengig om du velger DEPS eller SCO, kan du starte ved å gå til «Verktøy → Løser» og velge cella som skal optimeres, retningen å gå (minimering, maksimering), og cellene som skal endres for å nå målet. Deretter går du til «Innstillinger» og velger metoden som skal brukes, og hvis nødvendig, justere de relaterte parameterne.
-Det er også en liste med begrensninger du kan bruke til å begrense eventuelle områder med løsninger, eller til å straffe visse vilkår. Men med de evolusjonære løserne DEPS og SCO blir disse begrensningene også brukt til å spesifisere grenser for variablene til problemet. På grunn av de naturlige tilfeldighetene til algoritmene, anbefales det å gi øvre (hvis «Anta at variabler ikke er negative» er avslått, også lavere) grenser for alle variabler. De trenger ikke å være i nærheten av selve løsningen (som trolig er ukjent), men bør gi en grov indikasjon på forventet størrelse (0 ≤ var ≤ 1 eller kanskje -1.000.000 ≤ var ≤ millioner).
-Grenser spesifiseres ved å velge en eller flere variabler (som område) på venstre side, og ved å skrive inn en numerisk verdi (ikke en celle eller en formel) på høyre side. På den måten kan du også velge at en eller flere variabler skal være heltall eller bare binære.
-

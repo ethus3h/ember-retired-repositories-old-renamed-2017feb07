@@ -1,1 +1,0 @@
-Amestar sofitu pa Python, usando Scripting Framework p'activar los scripts Python y compartir direutorios d'una instalación de LibreOffice, y tamién en documentos cargaos.

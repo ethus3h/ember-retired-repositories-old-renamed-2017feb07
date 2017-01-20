@@ -1,7 +1,0 @@
-#!/bin/bash
-#Tika wrapper. Version 1, 10 December 2012. For Wreathe.
-
-tika-app-1.2.jar -d -z -x $1 > "`printf '%q\n' $1`.extracted.`date +%Y.%m.%d.%H.%M.%S.%N.%z`.xhtml";
-
-Run Start-Document-Editor "`printf '%q\n' $1`.extracted.`date +%Y.%m.%d.%H.%M.%S.%N.%z`.xhtml";
-

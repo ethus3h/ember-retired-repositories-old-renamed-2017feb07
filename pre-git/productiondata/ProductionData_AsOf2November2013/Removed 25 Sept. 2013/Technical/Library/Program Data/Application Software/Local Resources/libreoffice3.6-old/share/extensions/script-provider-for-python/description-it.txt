@@ -1,1 +1,0 @@
-Aggiunge supporto per Python tramite l'infrastruttura per lo scripting e abilita gli script nelle directory utente e condivise di un'installazione LibreOffice, come pure nei documenti caricati.

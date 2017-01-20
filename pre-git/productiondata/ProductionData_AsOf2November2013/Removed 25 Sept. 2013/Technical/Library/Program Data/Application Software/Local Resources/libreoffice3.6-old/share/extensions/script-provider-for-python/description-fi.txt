@@ -1,1 +1,0 @@
-Lisää tuen Python-komentokielen käytölle komentosarjoissa, jotka sijaitsevat LibreOffice-asennuksen user- tai share-kansioissa tai asiakirjoissa.

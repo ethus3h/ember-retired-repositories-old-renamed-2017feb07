@@ -1,7 +1,0 @@
-Solver para problemas non lineares;Utilización
-
-Utilización
-Tanto se usa DEPS ou SCO, comece indo a Ferramentas → Solver e estabeleza que cela optimizar, o sentido (minimización, maximización) e as celas modificábeis para atinxir o obxectivo. Logo, vaia a Opcións e especifique o solver que se utilizará e, caso de ser necesario, axuste os parámetros en conformidade.
-Tamén hai unha lista de restricións que se poden utilizar para restrinxir dentro do posíbel o intervalo de solucións ou para penalizar certas condicións. No entanto, no caso dos solvers DEPS e SCO, esas restricións tamén se usan para especificar límites nas variábeis do problema. Debido á natureza aleatoria dos algoritmos, resulta moi recomendábel proceder así e marcar límites superiores ás variábeis (e no caso de que "Asumir variábeis non negativas" estea desconectada, proporcionar tamén os inferiores). Non teñen por que estar preto da solución actual (probabelmente descoñecida) mais debería dar unha aproximación ao tamaño esperábel (0 ≤ var ≤ 1 ou quizais -1000000 ≤ var ≤ 1000000).
-Os límites especifícanse ao seleccionar unha ou máis variábeis (como intervalo) na banda esquerda e introducindo un valor numérico (non unha cela nin unha fórmula) na banda dereita. Desa maneira, tamén pode escoller se unha ou máis variábeis serán Enteiras ou Binarias unicamente.
-

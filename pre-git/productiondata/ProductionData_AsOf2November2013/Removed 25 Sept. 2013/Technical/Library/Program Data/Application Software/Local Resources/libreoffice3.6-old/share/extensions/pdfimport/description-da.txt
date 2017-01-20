@@ -1,1 +1,0 @@
-Udvidelsen PDF Import tillader dig at importere og redigere PDF-dokumenter. Det bedste resultat med 100% præcist layout kan opnås med "PDF/ODF hybridfiler, som udvidelsen også gør dig i stand til at lave. En hybrid PDF/ODF er en PDF fil som indeholder en indbygget ODF-version. Hybride PDF/ODF filer kan åbnes med LibreOffice helt uden kvalitetstab.

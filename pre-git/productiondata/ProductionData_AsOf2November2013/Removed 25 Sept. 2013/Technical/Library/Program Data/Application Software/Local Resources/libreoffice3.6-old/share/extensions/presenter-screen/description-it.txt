@@ -1,2 +1,0 @@
-L'estensione Console presentazione offre maggior controllo sulle presentazioni di diapositive, la capacità di osservare la diapositiva successiva, le note e un timer, nel caso in cui il pubblico veda solo la diapositiva attiva.
-Per evitare confusioni nella visualizzazione di un alto numero di elementi della presentazione, la Console presentazione mostra gli elementi in tre viste differenti, facilmente intercambiabili.

@@ -1,3 +1,0 @@
-wfscan-help.txt : Wreathe File Scanner Documentation version 4.0 (4 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
-
-To use this script, run wfscan with the one argument the file path. Your output will be ~/.Wreathe-File-Scanner/output.scdat

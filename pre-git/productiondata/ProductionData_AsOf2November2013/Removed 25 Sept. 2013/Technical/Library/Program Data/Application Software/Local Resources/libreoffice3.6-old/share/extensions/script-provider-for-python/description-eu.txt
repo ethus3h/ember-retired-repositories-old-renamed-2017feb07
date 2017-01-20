@@ -1,1 +1,0 @@
-Python-entzako sostengua gehitu ezazu Scripting Framework-a erabiliz, LibreOffice-en instalazioko user-/share-direktorioetako eta baita dokumentuetako Python script-ak gaitzeko.

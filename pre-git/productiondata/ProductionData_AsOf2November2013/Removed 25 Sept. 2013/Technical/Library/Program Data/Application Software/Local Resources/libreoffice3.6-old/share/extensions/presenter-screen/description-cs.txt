@@ -1,2 +1,0 @@
-Obrazovka přednášejícího přidává funkce rozšiřující možnosti ovládání prezentací, jako je například možnost vidět následující snímek, poznámky a časomíru, zatímco posluchači vidí pouze aktuální snímek.
-Aby se zabránilo nepřehlednosti způsobené zobrazením velkého množství položek, nabízí Obrazovka přednášejícího tři rozdílné režimy zobrazení, mezi kterými lze snadno přepínat.

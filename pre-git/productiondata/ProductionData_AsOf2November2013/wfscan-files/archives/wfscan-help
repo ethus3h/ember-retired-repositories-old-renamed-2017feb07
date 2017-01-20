@@ -1,3 +1,0 @@
-#!/bin/sh
-#wfscan-help : Wreathe File Scanner Documentation Script version 4.0 (4 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
-nano /usr/share/doc/wfscan-help.txt

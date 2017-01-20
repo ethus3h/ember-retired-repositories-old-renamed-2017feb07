@@ -1,7 +1,0 @@
-Sistema de resolução para programação não linear;Utilização
-
-Utilização
-Independentemente de utilizar os métodos DEPS ou SCO, para iniciar a resolução vá até Ferramentas -> Sistema de resolução e defina as células a otimizar, o tipo (minimização ou maximização) e as células a modificar para atingir o objetivo. Posteriormente, vá às Opções, defina o tipo de resolução a utilizar e, se necessário, ajuste os parâmetros.
-Há também uma lista de restrições que pode ser utilizada para restringir o intervalo de soluções possíveis ou para penalizar algumas condições. No entanto, no caso dos algoritmos DEPS e SCO, essas restrições também serão usadas para especificar os limites das variáveis do problema. Devido à natureza aleatória dos algoritmos, é fortemente recomendado proceder desta forma e fornecer os limites superiores das variáveis (e no caso em que "Assumir valores não negativos" estiver desmarcada, fornecer os valores dos limites inferiores). Não há necessidade que sejam próximos da solução atual (que provavelmente é desconhecida) mas deve dar uma indicação do tamanho esperado (0 ≤ var ≤ 1 ou talvez -1000000 ≤ var ≤ 1000000).
-Os limites são especificados ao selecionar uma ou mais variáveis (como intervalo) no lado esquerdo e introduzindo um valor numérico (não pode utilizar uma célula ou fórmula) no lado direito. Desta forma, pode escolher que uma ou mais variáveis possam ser Inteiras ou Binárias.
-

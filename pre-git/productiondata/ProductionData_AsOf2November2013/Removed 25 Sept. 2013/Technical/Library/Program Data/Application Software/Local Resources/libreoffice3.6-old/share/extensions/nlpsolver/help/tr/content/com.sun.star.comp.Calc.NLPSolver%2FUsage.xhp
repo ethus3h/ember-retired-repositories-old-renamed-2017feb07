@@ -1,7 +1,0 @@
-Doğrusal Olmayan Problemler için Çözücü;Kullanım
-
-Kullanım
-DEPS ya da SCO algoritmalarını kullanmanızdan bağımsız olarak Araçlar → Çözücü yolu ile başlarsınız ve en iyi değeri bulunacak Hücreyi, eniyilemenin yönünü (enküçükleme, enbüyükleme) ve hedefe ulaşmak için değiştirilecek hücreleri belirlersiniz. Devamında Seçenekler'e gidersiniz ve kullanılacak çözücüyü berlirtirsiniz; gerekirse ilgili parametreleri ayarlayınız.
-Ayrıca olası çözüm aralığını sınırlamak ya da belirli koşulları cezalandırmak için kullanabileceğiniz bir kısıtlar listesi de bulunmaktadır. Ancak, evrimsel çözücüler olan DEPS ve SCO için bu kısıtlar aynı zamanda problemin değişkenleri üzerinde sınırlar belirlemek için de kullanılmaktadır. Algoritmaların rassal doğası nedeniyle bu şekilde kullanmak ve tüm değişkenler için üst sınır ("Değişkenlerin Negatif Olmadığını Varsay" seçilmemişse alt sınır) vermek şiddetle önerilmektedir. Bu sınırlar gerçek (büyük olasılıkla bilinmeyen) çözüme yakın olmak zorunda değildir ancak değişkenlerin beklenen büyüklüğü ile ilgili kabaca bir fikir vermelidir (0 ≤ var ≤ 1 ya da belki -1000000 ≤ var ≤ 1000000).
-Sınırlar sol tarafta bir ya da daha fazla değişkenin (aralık için) seçilip sağ tarafa nümerik bir değerin (hücre ya da bağıntı değil) girilmesi ile belirtilir. Bu şekilde bir ya da daha fazla değişken Tam sayı ya da yalnızca İkili olarak da belirtilebilir.
-

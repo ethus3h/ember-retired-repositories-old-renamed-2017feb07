@@ -1,1 +1,0 @@
-Esta extensión está integrada en Calc y ofrece nuevos algoritmos para Solver que permiten optimizar modelos de programación no lineal.

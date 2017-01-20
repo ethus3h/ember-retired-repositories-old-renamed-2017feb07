@@ -1,3 +1,0 @@
-libisl_la-isl_version.lo: isl_version.c gitversion.h
-
-gitversion.h:

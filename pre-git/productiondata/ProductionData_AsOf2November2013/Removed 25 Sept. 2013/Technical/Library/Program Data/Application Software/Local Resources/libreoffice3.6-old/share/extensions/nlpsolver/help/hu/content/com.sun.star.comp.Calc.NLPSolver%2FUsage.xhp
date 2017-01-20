@@ -1,7 +1,0 @@
-Megoldó nemlineáris programozási feladatokhoz;Használat
-
-Használat
-Függetlenül attól, hogy a DEPS-et vagy SCO-t használja, az Eszközök → Megoldó menüpontból kell indulnia, és ki kell választania az optimalizálandó cellát, a haladási irányt (minimalizálás, maximalizálás), valamint a cél eléréséhez módosítandó cellákat. Ezután a Beállítások alatt megadhatja a használni kívánt megoldót, és szükség esetén módosíthatja a megfelelő paramétereket.
-A rendelkezésre álló megszorítások listájával korlátozhatja a megoldások lehetséges tartományát, vagy bizonyos állapotokat büntethet. Azonban a DEPS és SCO evolúciós megoldók esetén ezek a megszorítások a probléma változóinak határainak megadására is szolgálnak. Az algoritmusok véletlenszerű természete miatt erősen javasolt így tenni, és megadni felső (és a „Nem negatív változók feltételezése” kikapcsolása esetén alsó) határt minden változónak. Ezeknek nem kell a tényleges (és valószínűleg ismeretlen) megoldás közelében lenniük, de durván jelezniük kell a várt méretet (0 ≤ változó ≤ 1 vagy -1000000 ≤ változó ≤ 1000000).
-A határok megadásához válasszon legalább egy változót (tartományként) a bal oldalon, és adjon meg egy számértéket (nem pedig cellát vagy képletet) a jobb oldalon. Így megadhatja azt is, hogy egy-egy változó csak egész vagy bináris lehet.
-

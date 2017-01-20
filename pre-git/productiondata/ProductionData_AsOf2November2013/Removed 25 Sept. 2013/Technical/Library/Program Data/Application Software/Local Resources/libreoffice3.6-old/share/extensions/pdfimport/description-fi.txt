@@ -1,1 +1,0 @@
-PDF-tuonnin avulla voit avata ja muokata PDF-asiakirjoja. Paras tulos ilman vääristymiä asiakirjan asettelussa saavutetaan käyttämällä PDF/ODF-yhdistelmätiedostoa. PDF/ODF-yhdistelmätiedosto on PDF-tiedosto, jonka sisälle on upotettu ODF-tiedosto. PDF/ODF-tiedostot avataan LibreOfficessa ODF-tiedostona, jolloin mitään asiakirjan sisältämää tietoa ei menetetä.

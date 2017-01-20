@@ -1,7 +1,0 @@
-override ARCH = x86
-override KERNELRELEASE = 3.4.0-7.dmz.1-liquorix-686
-CCACHE = ccache
-CC = $(if $(DEBIAN_KERNEL_USE_CCACHE),$(CCACHE)) $(CROSS_COMPILE)gcc-4.6
-ifneq ($(DEB_BUILD_ARCH),$(DEB_HOST_ARCH))
-override CROSS_COMPILE = $(DEB_HOST_GNU_TYPE)-
-endif

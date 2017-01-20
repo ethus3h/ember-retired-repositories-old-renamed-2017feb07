@@ -1,2 +1,0 @@
-binary-component libglobalmenu.so
-category profile-after-change uGlobalMenuLoader @canonical.com/globalmenu-loader;1

@@ -1,3 +1,0 @@
-#!/usr/bin/python
-from picard.tagger import main; main('/usr/share/locale', True)
-

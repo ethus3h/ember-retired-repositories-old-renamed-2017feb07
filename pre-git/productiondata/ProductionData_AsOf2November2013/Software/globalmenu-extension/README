@@ -1,1 +1,0 @@
-Build options: --enable-application=extensions --enable-extensions=globalmenu --with-libxul-sdk=/usr/lib/xulrunner-devel-2.0b8 --disable-libnotify --disable-crashreporter --disable-tests --disable-webm --disable-ogg --disable-alsa --disable-strip --disable-strip-libs

@@ -1,6 +1,0 @@
-%%%% HASHDEEP-1.0
-%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
-## Invoked from: /home/kyan/productiondata
-## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Software/Chandler/Chandler_src_1.0.3.tar.gz
-## 
-209999653,9900d8ca45b09535d715904e75483782,5f9ac03c5ee36ebbdb223baabd8535e9d39faf8e,5db8c8911ed9d0fc612534ccf9c7cdbbbba9b06995d9129faa897c203349da18,68cff2bbb165ec5065fd204469b8cea3f2f3ccae16cac744,fa22a23053c9baa9640573582b86bcc441c9d40471e2a2f4a5700596802b38142bada8a67e4dd818281e9188d0d8512a3b709073e1ae71498eb8ed7ef1ee8382,/home/kyan/productiondata/ProductionData_AsOf2November2013/Software/Chandler/Chandler_src_1.0.3.tar.gz

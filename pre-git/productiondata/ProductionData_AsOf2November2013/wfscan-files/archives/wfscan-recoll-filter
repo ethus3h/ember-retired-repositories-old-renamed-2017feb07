@@ -1,4 +1,0 @@
-#!/bin/sh
-#wfscan-recoll : Wreathe File Scanner for Recoll version 4.0 (4 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/ Changes in this version : First version.
-wfscan $1
-cat ~/.Wreathe-File-Scanner/output.scdat | stdout

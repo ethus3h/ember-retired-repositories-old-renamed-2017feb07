@@ -1,1 +1,0 @@
-Viki-Publikigilo ebligas al vi krei viki-artikolojn sur MediaWiki-serviloj sen la neceso scii la sintakson de la MediWiki markolingvo. Publikigu viajn novajn kaj ekzistantajn dokumentojn per Verkilo al vikipaĝo.

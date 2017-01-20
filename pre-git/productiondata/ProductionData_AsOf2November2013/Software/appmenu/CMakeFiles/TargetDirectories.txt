@@ -1,3 +1,0 @@
-/media/MyBook/appmenu/src/CMakeFiles/krunner_appmenu.dir
-/media/MyBook/appmenu/src/CMakeFiles/krunner_appmenu_automoc.dir
-/media/MyBook/appmenu/CMakeFiles/uninstall.dir
