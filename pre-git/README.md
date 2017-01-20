@@ -2,7 +2,7 @@
 
 This directory contains Wreathe development data from before it began happening in Git.
 
-These files were retrieved from https://archive.org/download/ProductionDataAsOf2November2013.7z/ProductionData_AsOf2November2013.7z between 2017-January-18 and 2017-January-19. On 2017-January-19, files over 100MB had their contents replaced by their checksums, and directories named ".git" were renamed to ".git.disabled".
+These files were retrieved from https://archive.org/download/ProductionDataAsOf2November2013.7z/ProductionData_AsOf2November2013.7z between 2017-January-18 and 2017-January-19. On 2017-January-19, to facilitate adding this copy of the files to this repository, files over 100MB had their contents replaced by their checksums, and directories named ".git" were renamed to ".git.disabled".
 
 The following files were modified in this manner:
 ```
