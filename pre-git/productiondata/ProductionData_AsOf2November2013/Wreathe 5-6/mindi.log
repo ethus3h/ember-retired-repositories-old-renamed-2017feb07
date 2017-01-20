@@ -1,0 +1,1263 @@
+mindi v2.0.4-r2045
+i686 architecture detected
+mindi called with the following arguments:
+
+Start date : Thu Aug  9 11:06:36 EDT 2012
+-----------------------------
+MONDO_SHARE = 
+MINDI_LIB = /usr/lib/mindi
+MINDI_SBIN = /usr/sbin
+MINDI_CONF = /etc/mindi
+Found isolinux.bin at /usr/lib/syslinux/isolinux.bin
+LVM set to v2
+----------
+mount result:
+-------------
+/dev/sda5 on / type ext4 (rw,errors=remount-ro)
+proc on /proc type proc (rw,noexec,nosuid,nodev)
+none on /sys type sysfs (rw,noexec,nosuid,nodev)
+fusectl on /sys/fs/fuse/connections type fusectl (rw)
+none on /sys/kernel/debug type debugfs (rw)
+none on /sys/kernel/security type securityfs (rw)
+none on /dev type devtmpfs (rw,mode=0755)
+none on /dev/pts type devpts (rw,noexec,nosuid,gid=5,mode=0620)
+none on /dev/shm type tmpfs (rw,nosuid,nodev)
+none on /var/run type tmpfs (rw,nosuid,mode=0755)
+none on /var/lock type tmpfs (rw,noexec,nosuid,nodev)
+/dev/loop0 on /mondo.tmp.qsBxrb/mnt1 type ext2 (rw)
+/dev/loop1 on /mondo.tmp.4oPjqh/mnt1 type ext2 (rw)
+-------------
+-------------
+cat /proc/cmdline:
+-------------
+BOOT_IMAGE=/boot/vmlinuz-2.6.35-32-generic root=UUID=3a803f9b-d9d3-45f4-a881-46304414b15d ro single nosplash
+-------------
+cat /proc/swaps:
+-------------
+Filename				Type		Size	Used	Priority
+/dev/sda6                               partition	2596860	0	-1
+-------------
+cat /proc/partitions:
+-------------
+major minor  #blocks  name
+
+   7        0      81920 loop0
+   7        1      81920 loop1
+   8        0  156290904 sda
+   8        1     102400 sda1
+   8        2   88846247 sda2
+   8        3          1 sda3
+   8        4    4818944 sda4
+   8        5   59923456 sda5
+   8        6    2596864 sda6
+   8       16    3910656 sdb
+   8       17    3910624 sdb1
+-------------
+cat /proc/filesystems:
+-------------
+nodev	sysfs
+nodev	rootfs
+nodev	bdev
+nodev	proc
+nodev	cgroup
+nodev	cpuset
+nodev	tmpfs
+nodev	devtmpfs
+nodev	debugfs
+nodev	securityfs
+nodev	sockfs
+nodev	pipefs
+nodev	anon_inodefs
+nodev	devpts
+	ext3
+	ext2
+	ext4
+nodev	ramfs
+nodev	hugetlbfs
+nodev	ecryptfs
+nodev	fuse
+	fuseblk
+nodev	fusectl
+nodev	mqueue
+	msdos
+	vfat
+-------------
+lsmod result:
+-------------
+Module                  Size  Used by
+vfat                    9201  0 
+msdos                   6436  0 
+fat                    48240  2 vfat,msdos
+parport_pc             26058  0 
+ppdev                   5556  0 
+dm_crypt               11385  0 
+snd_hda_codec_analog    59649  1 
+snd_hda_intel          22235  0 
+snd_hda_codec          87552  2 snd_hda_codec_analog,snd_hda_intel
+snd_hwdep               5040  1 snd_hda_codec
+thinkpad_acpi          67627  0 
+snd_pcm                71475  2 snd_hda_intel,snd_hda_codec
+snd_seq_midi            4588  0 
+snd_rawmidi            17783  1 snd_seq_midi
+arc4                    1165  2 
+snd_seq_midi_event      6047  1 snd_seq_midi
+pcmcia                 35973  0 
+snd_seq                47174  2 snd_seq_midi,snd_seq_midi_event
+snd_timer              19067  2 snd_pcm,snd_seq
+snd_seq_device          5744  3 snd_seq_midi,snd_rawmidi,snd_seq
+iwl3945                85349  0 
+iwlcore               127415  1 iwl3945
+snd                    49102  10 snd_hda_codec_analog,snd_hda_intel,snd_hda_codec,snd_hwdep,thinkpad_acpi,snd_pcm,snd_rawmidi,snd_seq,snd_timer,snd_seq_device
+yenta_socket           21518  0 
+lp                      7342  0 
+mac80211              231959  2 iwl3945,iwlcore
+usb_storage            40492  0 
+pcmcia_rsrc            10566  1 yenta_socket
+tpm_tis                 7658  0 
+soundcore                880  1 snd
+parport                31492  3 parport_pc,ppdev,lp
+snd_page_alloc          7120  2 snd_hda_intel,snd_pcm
+irda                  179179  0 
+cfg80211              144758  3 iwl3945,iwlcore,mac80211
+pcmcia_core            14657  3 pcmcia,yenta_socket,pcmcia_rsrc
+psmouse                59027  0 
+crc_ccitt               1351  1 irda
+serio_raw               4022  0 
+tpm                    13835  1 tpm_tis
+nvram                   6342  1 thinkpad_acpi
+tpm_bios                5310  1 tpm
+raid10                 22394  0 
+raid456                53482  0 
+async_raid6_recov       4883  1 raid456
+async_pq                3038  2 raid456,async_raid6_recov
+raid6_pq               80029  2 async_raid6_recov,async_pq
+async_xor               2298  3 raid456,async_raid6_recov,async_pq
+async_memcpy            1045  2 raid456,async_raid6_recov
+async_tx                2135  5 raid456,async_raid6_recov,async_pq,async_xor,async_memcpy
+raid1                  20969  0 
+raid0                   8547  0 
+multipath               5955  0 
+linear                  3822  0 
+dm_raid45              81721  0 
+xor                    15136  2 async_xor,dm_raid45
+i915                  296139  2 
+drm_kms_helper         30200  1 i915
+drm                   168124  2 i915,drm_kms_helper
+sdhci_pci               6633  0 
+sdhci                  15922  1 sdhci_pci
+firewire_ohci          21330  0 
+firewire_core          46675  1 firewire_ohci
+led_class               2633  2 thinkpad_acpi,sdhci
+i2c_algo_bit            5168  1 i915
+crc_itu_t               1383  1 firewire_core
+e1000e                132956  0 
+intel_agp              26566  2 i915
+video                  18712  1 i915
+agpgart                32011  2 drm,intel_agp
+output                  1883  1 video
+ramzswap                9555  0 
+lzo_compress            1865  1 ramzswap
+FORCE_MODS:
+-------------
+
+-------------
+DENY_MODS:
+-------------
+kqemu
+-------------
+df result:
+----------
+Filesystem    Type   1K-blocks      Used Available Use% Mounted on
+/dev/sda5     ext4    58981548  50275284   5710092  90% /
+none      devtmpfs     1534360       268   1534092   1% /dev
+none         tmpfs     1543428         0   1543428   0% /dev/shm
+none         tmpfs     1543428        44   1543384   1% /var/run
+none         tmpfs     1543428         0   1543428   0% /var/lock
+/dev/loop0    ext2       76767      1538     74410   3% /mondo.tmp.qsBxrb/mnt1
+/dev/loop1    ext2       76767      1538     74410   3% /mondo.tmp.4oPjqh/mnt1
+-------------
+Liste of extra modules is:
+ht st osst ide-tape ide_tape ide ide-floppy floppy ide-generic ide-detect ide-mod ide-disk ide_disk ide-cd ide_cd ide_cd_mod ide-cd_mod ide-cs ide-core ide_core edd paride ata_generic ata_piix libata dock via82cxxx generic nvidia ahci sata_nv cmd64x pata_amd pata_marvell pata_serverworks pata_sis amd74xx sis5513 usb-storage usb-ohci usb-uhci usbcore usb_storage input hid uhci_hcd ehci_hcd uhci-hcd ehci-hcd ohci-hcd ohci_hcd usbkbd usbhid keybdev mousedev libusual scsi_mod pcmcia_core ds yenta_socket 3w-xxxx 3w_xxxx 3w_9xxx 3w-9xxx 53c7,8xx a100u2w a320raid aacraid adpahci advansys aha152x aha1542 aha1740 aic79xx aic79xx_mod aic7xxx aic7xxx_mod aic7xxx_old AM53C974 atp870u BusLogic cciss cpqfc dmx3191d dpt_i2o dtc eata eata_dma eata_pio fdomain gdth g_NCR5380 i2o_block i2o_core ide-scsi ieee1394 imm in2000 initio ips iscsi isp megaraid megaraid_mm megaraid_mbox megaraid_sas mptbase mptscsih mptsas mptspi mptfc mptscsi mptctl NCR53c406a ncr53c8xx nsp32 pas16 pci2000 pci2220i pcmcia ppa psi240i qla1280 qla2200 qla2300 qla2400 qla2xxx qla2xxx_conf qlogicfas qlogicfc qlogicisp raw1394 scsi_debug scsi_mod scsi_transport_sas scsi_transport_spi sd_mod seagate sg sim710 sr_mod sym53c416 sym53c8xx sym53c8xx_2 t128 tmscsim u14-34f ultrastor wd7000 vmhgfs intermodule sunrpc nfs nfs_acl lockd fscache loop mii 3c59x e100 bcm5700 bnx2 e1000 eepro100 ne2k-pci tg3 pcnet32 8139cp 8139too 8390 forcedeth vmxnet vmnet exportfs af_packet cdrom isocd isofs inflate_fs nls_iso8859-1 nls_base nls_cp437 nls_utf8 sg sr_mod zlib_inflate iso9660 vfat fat loop md-mod linear raid0 raid1 xor raid5 raid456 lvm-mod dm-mod dm-snapshot dm-zero dm-mirror jfs xfs xfs_support pagebuf reiserfs ext2 ext3 minix nfs nfs_acl nfsd lockd sunrpc jbd mbcache
+-------------
+Mindi Linux mini-distro generator v2.0.4-r2045
+Latest Mindi is available from http://www.mondorescue.org
+BusyBox sources are available from http://www.busybox.net
+------------------------------------------------------------------------------
+Mindi-BusyBox v1.2.1 (2009.06.02-07:09+0000) multi-call binary
+insmod: can't read '/lib/modules/2.6.35-32-generic/*/*/misc/aes.*o.gz': No such file or directory
+insmod: can't read 'loop': No such file or directory
+insmod: can't read 'cdrom': Is a directory
+insmod: can't read 'ide-cd': No such file or directory
+insmod: can't read 'isofs': No such file or directory
+insmod: can't read 'linear': No such file or directory
+insmod: can't read 'raid0': No such file or directory
+insmod: can't read 'raid1': No such file or directory
+insmod: can't read 'raid5': No such file or directory
+DIFFERENTIAL = 
+INTERNAL TAPE BLOCK SIZE = 
+NOT_BOOT = ''
+Your kernel is /boot/vmlinuz-2.6.35-32-generic (v2.6.35-32-generic)
+Mindi's temp dir = /tmp/mindi.5xv6VQlWIo 
+Mindi's output dir=/var/cache/mindi
+---------------------------------
+List of dependencies:             
+---------------------------------
+/bin/afio
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/bunzip2
+/lib/libbz2.so.1.0
+/lib/libbz2.so.1.0
+/lib/libbz2.so.1.0.4
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/bzip2
+/lib/libbz2.so.1.0
+/lib/libbz2.so.1.0
+/lib/libbz2.so.1.0.4
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/loadkeys
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/lsmod
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/mount
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libselinux.so.1
+/lib/libselinux.so.1
+/lib/libsepol.so.1
+/lib/libsepol.so.1
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/bin/nano
+/lib/libncursesw.so.5
+/lib/libncursesw.so.5
+/lib/libncursesw.so.5.7
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/bin/uname
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/etc/conf.modules
+WARNING - /etc/conf.modules does not exist; cannot be LDD'd.
+/etc/fstab
+/etc/host.conf
+/etc/hosts
+/etc/hosts.allow
+/etc/hosts.deny
+/etc/lvm/lvm.conf
+WARNING - /etc/lvm/lvm.conf does not exist; cannot be LDD'd.
+This warning only affects you if you are using LVM.
+I don't think you are, so don't worry about it.
+/etc/mdadm
+/etc/mdadm.conf
+WARNING - /etc/mdadm.conf does not exist; cannot be LDD'd.
+/etc/mdadm/mdadm.conf
+/etc/mke2fs.conf
+/etc/modprobe.conf
+WARNING - /etc/modprobe.conf does not exist; cannot be LDD'd.
+/etc/modprobe.d
+/etc/modules.conf
+WARNING - /etc/modules.conf does not exist; cannot be LDD'd.
+/etc/modules.conf.local
+WARNING - /etc/modules.conf.local does not exist; cannot be LDD'd.
+/etc/nsswitch.conf
+/etc/resolv.conf
+/lib/hdparm
+/lib/init/fstab
+/lib/udev/hdparm
+/sbin/badblocks
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/ctrlaltdel
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/e2label
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/fdisk
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/fsck
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/fsck.ext2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/fsck.ext3
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/fsck.reiserfs
+/sbin/hdparm
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/insmod
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/ldconfig
+/sbin/lsmod
+/sbin/lsmod is softlink
+/sbin/MAKEDEV
+/sbin/mdadm
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkdosfs
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mke2fs
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkfs
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkfs.ext2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkfs.ext3
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkfs.reiserfs
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkfs.vfat
+/sbin/mkfs.vfat is softlink
+/sbin/mkreiserfs
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mkswap
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libselinux.so.1
+/lib/libselinux.so.1
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/sbin/modprobe
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mount.cifs
+WARNING - /sbin/mount.cifs does not exist; cannot be LDD'd.
+/sbin/mount.cifs3
+WARNING - /sbin/mount.cifs3 does not exist; cannot be LDD'd.
+/sbin/mount.fuse
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/mount.nfs
+WARNING - /sbin/mount.nfs does not exist; cannot be LDD'd.
+/sbin/mount.nfs4
+WARNING - /sbin/mount.nfs4 does not exist; cannot be LDD'd.
+/sbin/mount.smb
+WARNING - /sbin/mount.smb does not exist; cannot be LDD'd.
+/sbin/mount.smb3
+WARNING - /sbin/mount.smb3 does not exist; cannot be LDD'd.
+/sbin/mount.smbfs
+WARNING - /sbin/mount.smbfs does not exist; cannot be LDD'd.
+/sbin/mount.smbfs3
+WARNING - /sbin/mount.smbfs3 does not exist; cannot be LDD'd.
+/sbin/parted
+/lib/libparted.so.0
+/lib/libparted.so.0
+/lib/libparted.so.0.0.1
+/lib/libreadline.so.6
+/lib/libreadline.so.6
+/lib/libreadline.so.6.1
+/lib/libncurses.so.5
+/lib/libncurses.so.5
+/lib/libncurses.so.5.7
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/lib/libdevmapper.so.1.02.1
+/lib/libdevmapper.so.1.02.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/lib/libselinux.so.1
+/lib/libselinux.so.1
+/sbin/reiserfstune
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/sbin/tune2fs
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2
+/lib/libext2fs.so.2.4
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2
+/lib/libcom_err.so.2.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1
+/lib/libblkid.so.1.1.0
+/lib/libuuid.so.1
+/lib/libuuid.so.1
+/lib/libuuid.so.1.3.0
+/lib/libe2p.so.2
+/lib/libe2p.so.2
+/lib/libe2p.so.2.3
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/buffer
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/file
+/usr/lib/libmagic.so.1
+/usr/lib/libmagic.so.1
+/usr/lib/libmagic.so.1.0.0
+/lib/libz.so.1
+/lib/libz.so.1
+/lib/libz.so.1.2.3.4
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/gawk
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/lib/libm.so.6
+/lib/libm.so.6
+/lib/libm-2.12.1.so
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/ldd
+/usr/bin/loadkeys
+/usr/bin/loadkeys is softlink
+/usr/bin/lshw
+/usr/local/lib/libstdc++.so.6
+/usr/local/lib/libstdc++.so.6
+/usr/local/lib/libstdc++.so.6.0.17
+/usr/local/lib/libgcc_s.so.1
+/usr/local/lib/libgcc_s.so.1
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libm.so.6
+/lib/libm.so.6
+/lib/libm-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/lzop
+/usr/lib/liblzo2.so.2
+/usr/lib/liblzo2.so.2
+/usr/lib/liblzo2.so.2.0.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/nano
+/usr/bin/nano is softlink
+/usr/bin/perl
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/lib/libm.so.6
+/lib/libm.so.6
+/lib/libm-2.12.1.so
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libcrypt.so.1
+/lib/libcrypt.so.1
+/lib/libcrypt-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/bin/strace
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/games/petris
+WARNING - /usr/games/petris does not exist; cannot be LDD'd.
+/usr/sbin/mondorestore
+/usr/lib/libnewt.so.0.52
+/usr/lib/libnewt.so.0.52
+/usr/lib/libnewt.so.0.52.11
+/lib/libpthread.so.0
+/lib/libpthread.so.0
+/lib/libpthread-2.12.1.so
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/libslang.so.2
+/lib/libslang.so.2
+/lib/libslang.so.2.2.2
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/lib/libdl.so.2
+/lib/libdl.so.2
+/lib/libdl-2.12.1.so
+/lib/libm.so.6
+/lib/libm.so.6
+/lib/libm-2.12.1.so
+/usr/sbin/ntfsclone
+/usr/lib/libntfs.so.10
+/usr/lib/libntfs.so.10
+/usr/lib/libntfs.so.10.0.0
+/lib/libc.so.6
+/lib/libc.so.6
+/lib/libc-2.12.1.so
+/lib/ld-linux.so.2
+/lib/ld-linux.so.2
+/lib/ld-2.12.1.so
+/usr/share/file/magic
+/usr/share/misc/file/magic
+WARNING - /usr/share/misc/file/magic does not exist; cannot be LDD'd.
+module vfat --> /lib/modules/2.6.35-32-generic/kernel/fs/fat/vfat.ko
+module msdos --> /lib/modules/2.6.35-32-generic/kernel/fs/fat/msdos.ko
+module fat --> /lib/modules/2.6.35-32-generic/kernel/fs/fat/fat.ko
+module parport_pc --> /lib/modules/2.6.35-32-generic/kernel/drivers/parport/parport_pc.ko
+module ppdev --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/ppdev.ko
+module dm_crypt --> 
+module snd_hda_codec_analog --> 
+module snd_hda_intel --> 
+module snd_hda_codec --> 
+module snd_hwdep --> 
+module thinkpad_acpi --> /lib/modules/2.6.35-32-generic/kernel/drivers/platform/x86/thinkpad_acpi.ko
+module snd_pcm --> 
+module snd_seq_midi --> 
+module snd_rawmidi --> 
+module arc4 --> /lib/modules/2.6.35-32-generic/kernel/crypto/arc4.ko
+module snd_seq_midi_event --> 
+module pcmcia --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia.ko
+module snd_seq --> 
+module snd_timer --> 
+module snd_seq_device --> 
+module iwl3945 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/wireless/iwlwifi/iwl3945.ko
+module iwlcore --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/wireless/iwlwifi/iwlcore.ko
+module snd --> /lib/modules/2.6.35-32-generic/kernel/sound/core/snd.ko
+module yenta_socket --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/yenta_socket.ko
+module lp --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/lp.ko
+module mac80211 --> /lib/modules/2.6.35-32-generic/kernel/net/mac80211/mac80211.ko
+module usb_storage --> 
+module pcmcia_rsrc --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia_rsrc.ko
+module tpm_tis --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/tpm/tpm_tis.ko
+module soundcore --> /lib/modules/2.6.35-32-generic/kernel/sound/soundcore.ko
+module parport --> /lib/modules/2.6.35-32-generic/kernel/drivers/parport/parport.ko
+module snd_page_alloc --> 
+module irda --> /lib/modules/2.6.35-32-generic/kernel/net/irda/irda.ko
+module cfg80211 --> /lib/modules/2.6.35-32-generic/kernel/net/wireless/cfg80211.ko
+module pcmcia_core --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia_core.ko
+module psmouse --> /lib/modules/2.6.35-32-generic/kernel/drivers/input/mouse/psmouse.ko
+module crc_ccitt --> 
+module serio_raw --> /lib/modules/2.6.35-32-generic/kernel/drivers/input/serio/serio_raw.ko
+module tpm --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/tpm/tpm.ko
+module nvram --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/nvram.ko
+module tpm_bios --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/tpm/tpm_bios.ko
+module raid10 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid10.ko
+module raid456 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid456.ko
+module async_raid6_recov --> /lib/modules/2.6.35-32-generic/kernel/crypto/async_tx/async_raid6_recov.ko
+module async_pq --> /lib/modules/2.6.35-32-generic/kernel/crypto/async_tx/async_pq.ko
+module raid6_pq --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid6_pq.ko
+module async_xor --> /lib/modules/2.6.35-32-generic/kernel/crypto/async_tx/async_xor.ko
+module async_memcpy --> /lib/modules/2.6.35-32-generic/kernel/crypto/async_tx/async_memcpy.ko
+module async_tx --> /lib/modules/2.6.35-32-generic/kernel/crypto/async_tx/async_tx.ko
+module raid1 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid1.ko
+module raid0 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid0.ko
+module multipath --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/multipath.ko
+module linear --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/linear.ko
+module dm_raid45 --> 
+module xor --> /lib/modules/2.6.35-32-generic/kernel/crypto/xor.ko
+module i915 --> /lib/modules/2.6.35-32-generic/kernel/drivers/gpu/drm/i915/i915.ko
+module drm_kms_helper --> /lib/modules/2.6.35-32-generic/kernel/drivers/gpu/drm/drm_kms_helper.ko
+module drm --> /lib/modules/2.6.35-32-generic/kernel/drivers/gpu/drm/drm.ko
+module sdhci_pci --> 
+module sdhci --> /lib/modules/2.6.35-32-generic/kernel/drivers/mmc/host/sdhci.ko
+module firewire_ohci --> 
+module firewire_core --> 
+module led_class --> 
+module i2c_algo_bit --> 
+module crc_itu_t --> 
+module e1000e --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/e1000e/e1000e.ko
+module intel_agp --> 
+module video --> /lib/modules/2.6.35-32-generic/kernel/drivers/acpi/video.ko
+module agpgart --> /lib/modules/2.6.35-32-generic/kernel/drivers/char/agp/agpgart.ko
+module output --> /lib/modules/2.6.35-32-generic/kernel/drivers/video/output.ko
+module ramzswap --> /lib/modules/2.6.35-32-generic/kernel/drivers/staging/ramzswap/ramzswap.ko
+module lzo_compress --> /lib/modules/2.6.35-32-generic/kernel/lib/lzo/lzo_compress.ko
+module ht --> 
+module st --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/st.ko
+module osst --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/osst.ko
+module ide-tape --> 
+module ide_tape --> 
+module ide --> 
+module ide-floppy --> 
+module floppy --> /lib/modules/2.6.35-32-generic/kernel/drivers/block/floppy.ko
+module ide-generic --> 
+module ide-detect --> 
+module ide-mod --> 
+module ide-disk --> 
+module ide_disk --> 
+module ide-cd --> 
+module ide_cd --> 
+module ide_cd_mod --> 
+module ide-cd_mod --> 
+module ide-cs --> 
+module ide-core --> 
+module ide_core --> 
+module edd --> 
+module paride --> /lib/modules/2.6.35-32-generic/kernel/drivers/block/paride/paride.ko
+module ata_generic --> 
+module ata_piix --> 
+module libata --> 
+module dock --> 
+module via82cxxx --> 
+module generic --> /lib/modules/2.6.35-32-generic/kernel/drivers/mtd/onenand/generic.ko
+module nvidia --> 
+module ahci --> /lib/modules/2.6.35-32-generic/kernel/drivers/ata/ahci.ko
+module sata_nv --> /lib/modules/2.6.35-32-generic/kernel/drivers/ata/sata_nv.ko
+module cmd64x --> 
+module pata_amd --> /lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_amd.ko
+module pata_marvell --> /lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_marvell.ko
+module pata_serverworks --> /lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_serverworks.ko
+module pata_sis --> 
+module amd74xx --> 
+module sis5513 --> 
+module usb-storage --> /lib/modules/2.6.35-32-generic/kernel/drivers/usb/storage/usb-storage.ko
+module usb-ohci --> 
+module usb-uhci --> 
+module usbcore --> 
+module usb_storage --> 
+module input --> 
+module hid --> /lib/modules/2.6.35-32-generic/kernel/drivers/hid/hid.ko
+module uhci_hcd --> 
+module ehci_hcd --> 
+module uhci-hcd --> 
+module ehci-hcd --> 
+module ohci-hcd --> 
+module ohci_hcd --> 
+module usbkbd --> 
+module usbhid --> /lib/modules/2.6.35-32-generic/kernel/drivers/hid/usbhid/usbhid.ko
+module keybdev --> 
+module mousedev --> 
+module libusual --> 
+module scsi_mod --> 
+module pcmcia_core --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia_core.ko
+module ds --> 
+module yenta_socket --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/yenta_socket.ko
+module 3w-xxxx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/3w-xxxx.ko
+module 3w_xxxx --> 
+module 3w_9xxx --> 
+module 3w-9xxx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/3w-9xxx.ko
+module 53c7,8xx --> 
+module a100u2w --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/a100u2w.ko
+module a320raid --> 
+module aacraid --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aacraid/aacraid.ko
+module adpahci --> 
+module advansys --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/advansys.ko
+module aha152x --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha152x.ko
+module aha1542 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha1542.ko
+module aha1740 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha1740.ko
+module aic79xx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aic7xxx/aic79xx.ko
+module aic79xx_mod --> 
+module aic7xxx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aic7xxx/aic7xxx.ko
+module aic7xxx_mod --> 
+module aic7xxx_old --> 
+module AM53C974 --> 
+module atp870u --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/atp870u.ko
+module BusLogic --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/BusLogic.ko
+module cciss --> /lib/modules/2.6.35-32-generic/kernel/drivers/block/cciss.ko
+module cpqfc --> 
+module dmx3191d --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dmx3191d.ko
+module dpt_i2o --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dpt_i2o.ko
+module dtc --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dtc.ko
+module eata --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/eata.ko
+module eata_dma --> 
+module eata_pio --> 
+module fdomain --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/fdomain.ko
+module gdth --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/gdth.ko
+module g_NCR5380 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/g_NCR5380.ko
+module i2o_block --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/i2o/i2o_block.ko
+module i2o_core --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/i2o/i2o_core.ko
+module ide-scsi --> 
+module ieee1394 --> /lib/modules/2.6.35-32-generic/kernel/drivers/ieee1394/ieee1394.ko
+module imm --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/imm.ko
+module in2000 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/in2000.ko
+module initio --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/initio.ko
+module ips --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ips.ko
+module iscsi --> 
+module isp --> 
+module megaraid --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid.ko
+module megaraid_mm --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_mm.ko
+module megaraid_mbox --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_mbox.ko
+module megaraid_sas --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_sas.ko
+module mptbase --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptbase.ko
+module mptscsih --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptscsih.ko
+module mptsas --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptsas.ko
+module mptspi --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptspi.ko
+module mptfc --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptfc.ko
+module mptscsi --> 
+module mptctl --> /lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptctl.ko
+module NCR53c406a --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/NCR53c406a.ko
+module ncr53c8xx --> 
+module nsp32 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/nsp32.ko
+module pas16 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/pas16.ko
+module pci2000 --> 
+module pci2220i --> 
+module pcmcia --> /lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia.ko
+module ppa --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ppa.ko
+module psi240i --> 
+module qla1280 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qla1280.ko
+module qla2200 --> 
+module qla2300 --> 
+module qla2400 --> 
+module qla2xxx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qla2xxx/qla2xxx.ko
+module qla2xxx_conf --> 
+module qlogicfas --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qlogicfas.ko
+module qlogicfc --> 
+module qlogicisp --> 
+module raw1394 --> /lib/modules/2.6.35-32-generic/kernel/drivers/ieee1394/raw1394.ko
+module scsi_debug --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_debug.ko
+module scsi_mod --> 
+module scsi_transport_sas --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_transport_sas.ko
+module scsi_transport_spi --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_transport_spi.ko
+module sd_mod --> 
+module seagate --> 
+module sg --> 
+module sim710 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sim710.ko
+module sr_mod --> 
+module sym53c416 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sym53c416.ko
+module sym53c8xx --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sym53c8xx_2/sym53c8xx.ko
+module sym53c8xx_2 --> 
+module t128 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/t128.ko
+module tmscsim --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/tmscsim.ko
+module u14-34f --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/u14-34f.ko
+module ultrastor --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ultrastor.ko
+module wd7000 --> /lib/modules/2.6.35-32-generic/kernel/drivers/scsi/wd7000.ko
+module vmhgfs --> 
+module intermodule --> 
+module sunrpc --> /lib/modules/2.6.35-32-generic/kernel/net/sunrpc/sunrpc.ko
+module nfs --> /lib/modules/2.6.35-32-generic/kernel/fs/nfs/nfs.ko
+module nfs_acl --> /lib/modules/2.6.35-32-generic/kernel/fs/nfs_common/nfs_acl.ko
+module lockd --> /lib/modules/2.6.35-32-generic/kernel/fs/lockd/lockd.ko
+module fscache --> /lib/modules/2.6.35-32-generic/kernel/fs/fscache/fscache.ko
+module loop --> 
+module mii --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/mii.ko
+module 3c59x --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/3c59x.ko
+module e100 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/e100.ko
+module bcm5700 --> 
+module bnx2 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/bnx2.ko
+module e1000 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/e1000/e1000.ko
+module eepro100 --> 
+module ne2k-pci --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/ne2k-pci.ko
+module tg3 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/tg3.ko
+module pcnet32 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/pcnet32.ko
+module 8139cp --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/8139cp.ko
+module 8139too --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/8139too.ko
+module 8390 --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/8390.ko
+module forcedeth --> /lib/modules/2.6.35-32-generic/kernel/drivers/net/forcedeth.ko
+module vmxnet --> 
+module vmnet --> 
+module exportfs --> /lib/modules/2.6.35-32-generic/kernel/fs/exportfs/exportfs.ko
+module af_packet --> 
+module cdrom --> 
+module isocd --> 
+module isofs --> /lib/modules/2.6.35-32-generic/kernel/fs/isofs/isofs.ko
+module inflate_fs --> 
+module nls_iso8859-1 --> /lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_iso8859-1.ko
+module nls_base --> 
+module nls_cp437 --> /lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_cp437.ko
+module nls_utf8 --> /lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_utf8.ko
+module sg --> 
+module sr_mod --> 
+module zlib_inflate --> 
+module iso9660 --> 
+module vfat --> /lib/modules/2.6.35-32-generic/kernel/fs/fat/vfat.ko
+module fat --> /lib/modules/2.6.35-32-generic/kernel/fs/fat/fat.ko
+module loop --> 
+module md-mod --> 
+module linear --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/linear.ko
+module raid0 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid0.ko
+module raid1 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid1.ko
+module xor --> /lib/modules/2.6.35-32-generic/kernel/crypto/xor.ko
+module raid5 --> 
+module raid456 --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/raid456.ko
+module lvm-mod --> 
+module dm-mod --> 
+module dm-snapshot --> 
+module dm-zero --> /lib/modules/2.6.35-32-generic/kernel/drivers/md/dm-zero.ko
+module dm-mirror --> 
+module jfs --> /lib/modules/2.6.35-32-generic/kernel/fs/jfs/jfs.ko
+module xfs --> /lib/modules/2.6.35-32-generic/kernel/fs/xfs/xfs.ko
+module xfs_support --> 
+module pagebuf --> 
+module reiserfs --> /lib/modules/2.6.35-32-generic/kernel/fs/reiserfs/reiserfs.ko
+module ext2 --> 
+module ext3 --> 
+module minix --> /lib/modules/2.6.35-32-generic/kernel/fs/minix/minix.ko
+module nfs --> /lib/modules/2.6.35-32-generic/kernel/fs/nfs/nfs.ko
+module nfs_acl --> /lib/modules/2.6.35-32-generic/kernel/fs/nfs_common/nfs_acl.ko
+module nfsd --> /lib/modules/2.6.35-32-generic/kernel/fs/nfsd/nfsd.ko
+module lockd --> /lib/modules/2.6.35-32-generic/kernel/fs/lockd/lockd.ko
+module sunrpc --> /lib/modules/2.6.35-32-generic/kernel/net/sunrpc/sunrpc.ko
+module jbd --> 
+module mbcache --> 
+Analyzing your keyboard's configuration.
+Unknown config detected. Default keyboard map will be used.
+Your raw fstab file looks like this:
+------------------------------------
+# /etc/fstab: static file system information.
+#
+# Use 'blkid -o value -s UUID' to print the universally unique identifier
+# for a device; this may be used with UUID= as a more robust way to name
+# devices that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    nodev,noexec,nosuid 0       0
+# / was on /dev/sda5 during installation
+UUID=3a803f9b-d9d3-45f4-a881-46304414b15d /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda6 during installation
+UUID=389dce2b-fe16-42e6-b9d9-9c9890ca6f5f none            swap    sw              0       0
+Your mountlist will look like this:
+-----------------------------------
+        DEVICE          MOUNTPOINT      FORMAT          SIZE (MB)       LABEL/UUID     
+
+BLKGETSIZE ioctl failed on proc
+Examining /dev/sda5 (mount=/ fmt=ext4 psz=59923456)
+	/dev/sda5       /               ext4              58519 3a803f9b-d9d3-45f4-a881-46304414b15d
+Examining /dev/sda6 (mount=swap fmt=swap psz=2596860)
+	/dev/sda6       swap            swap               2535 389dce2b-fe16-42e6-b9d9-9c9890ca6f5f
+/dev/sda5 / ext4 59923456 3a803f9b-d9d3-45f4-a881-46304414b15d
+/dev/sda6 swap swap 2596860 389dce2b-fe16-42e6-b9d9-9c9890ca6f5f
+11056	/var/cache/mindi/all.tar.gz
+Ramdisk will be 77824 KB
+Creating ext2 filesystem on /tmp/mindi.5xv6VQlWIo/temp.rd
+mke2fs 1.41.12 (17-May-2010)
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+Stride=0 blocks, Stripe width=0 blocks
+38960 inodes, 77824 blocks
+778 blocks (1.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67371008
+10 block groups
+8192 blocks per group, 8192 fragments per group
+3896 inodes per group
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729
+
+Writing inode tables:  0/10 1/10 2/10 3/10 4/10 5/10 6/10 7/10 8/10 9/10done                            
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 24 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+udev device manager found
+WARNING: No Hardware support for 170686U
+You may ask your manufacturer to contribute to the mindi project
+Removing kqemu from the list of modules to load
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/st.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/osst.ko (68 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/block/floppy.ko (84 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/block/paride/paride.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/mtd/onenand/generic.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ata/ahci.ko (44 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ata/sata_nv.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_amd.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_marvell.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ata/pata_serverworks.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/usb/storage/usb-storage.ko (96 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/hid/hid.ko (100 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/hid/usbhid/usbhid.ko (60 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia_core.ko (28 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/yenta_socket.ko (40 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/3w-xxxx.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/3w-9xxx.ko (48 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/a100u2w.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aacraid/aacraid.ko (104 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/advansys.ko (80 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha152x.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha1542.ko (24 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aha1740.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aic7xxx/aic79xx.ko (200 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/aic7xxx/aic7xxx.ko (172 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/atp870u.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/BusLogic.ko (48 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/block/cciss.ko (120 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dmx3191d.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dpt_i2o.ko (48 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/dtc.ko (24 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/eata.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/fdomain.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/gdth.ko (80 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/g_NCR5380.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/i2o/i2o_block.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/i2o/i2o_core.ko (60 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ieee1394/ieee1394.ko (116 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/imm.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/in2000.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/initio.ko (28 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ips.ko (64 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid.ko (56 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_mm.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_mbox.ko (48 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/megaraid/megaraid_sas.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptbase.ko (116 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptscsih.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptsas.ko (72 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptspi.ko (28 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptfc.ko (28 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/message/fusion/mptctl.ko (44 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/NCR53c406a.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/nsp32.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/pas16.ko (28 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/pcmcia/pcmcia.ko (56 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ppa.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qla1280.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qla2xxx/qla2xxx.ko (396 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/qlogicfas.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/ieee1394/raw1394.ko (40 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_debug.ko (72 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_transport_sas.ko (48 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/scsi_transport_spi.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sim710.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sym53c416.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/sym53c8xx_2/sym53c8xx.ko (100 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/t128.ko (24 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/tmscsim.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/u14-34f.ko (36 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/ultrastor.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/scsi/wd7000.ko (20 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/net/sunrpc/sunrpc.ko (256 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/nfs/nfs.ko (380 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/nfs_common/nfs_acl.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/lockd/lockd.ko (96 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/fscache/fscache.ko (68 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/mii.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/3c59x.ko (60 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/e100.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/bnx2.ko (92 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/e1000/e1000.ko (132 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/ne2k-pci.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/tg3.ko (160 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/pcnet32.ko (52 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/8139cp.ko (32 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/8139too.ko (40 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/8390.ko (16 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/drivers/net/forcedeth.ko (76 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/exportfs/exportfs.ko (12 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/isofs/isofs.ko (44 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_iso8859-1.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_cp437.ko (8 KB) to the rootfs
+Adding lib/modules/2.6.35-32-generic/kernel/fs/nls/nls_utf8.ko (4 KB) to the rootfs
+Deleting devfsd daemon from ramdisk
+...because /sbin/devfsd not found
+Call GetInitrdFilesystemToUse() with parameter /boot/vmlinuz-2.6.35-32-generic to get filesystem to use for initrd.
+  GetInitrdFilesystemToUse(): called with parameter: /boot/vmlinuz-2.6.35-32-generic.\n
+  GetInitrdFilesystemToUse(): gzip magic found at lvOffset 13932.\n
+  GetInitrdFilesystemToUse(): Filesytem to use for initrd is UNSUPPORTED.\n
+FATAL ERROR. Filesystem UNSUPPORTED not supported for initrd image. Terminating.
+Please e-mail a copy of /var/log/mindi.log to the mailing list.
+See http://www.mondorescue.org for more information.
+WE CANNOT HELP unless you enclose that file.
+
+Mindi 2.0.4-r2045 is exiting
+End date : Thu Aug  9 11:07:37 EDT 2012

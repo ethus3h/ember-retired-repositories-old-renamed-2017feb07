@@ -1,0 +1,7 @@
+#!/bin/sh
+#scanner-setup : Wreathe File Scanner Setup Script version 1.0 (3 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
+mkdir ~/.Wreathe-File-Scanner
+cd ~/.Wreathe-File-Scanner
+touch input.scdat
+touch output.scdat
+touch log.scdat

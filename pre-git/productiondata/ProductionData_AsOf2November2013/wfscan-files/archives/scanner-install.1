@@ -1,0 +1,44 @@
+#!/bin/sh
+#scanner-install : Wreathe File Scanner Installation Script version 4.0 (3 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
+rm scanner.pl
+rm scanner-setup
+rm scanner-update
+rm wfscan
+rm wfscan-help
+rm wfscan-help.txt
+rm wfscan-recoll
+rm scanner-uninstall
+wget http://futuramerlin.com/scanner.plbz2
+wget http://futuramerlin.com/scanner-setup
+wget http://futuramerlin.com/scanner-update
+wget http://futuramerlin.com/wfscan
+wget http://futuramerlin.com/wfscan-help
+wget http://futuramerlin.com/wfscan-help.txt
+wget http://futuramerlin.com/wfscan-recoll
+wget http://futuramerlin.com/scanner-uninstall
+cp scanner.plbz2 scanner.pl.bz2
+bzip2 -dfv scanner.pl.bz2
+cp scanner.pl /usr/bin/scanner.pl
+cp scanner-setup /usr/bin/scanner-setup
+cp scanner-update /usr/bin/scanner-update
+cp wfscan /usr/bin/wfscan
+cp wfscan-help /usr/bin/wfscan-help
+cp wfscan-help.txt /usr/share/doc/wfscan-help.txt
+cp wfscan-recoll /usr/bin/wfscan-recoll
+cp scanner-uninstall /usr/bin/scanner-uninstall
+chmod +x /usr/bin/scanner.pl
+chmod +x /usr/bin/scanner-setup
+chmod +x /usr/bin/scanner-update
+chmod +x /usr/bin/wfscan
+chmod +x /usr/bin/wfscan-help
+chmod +x /usr/share/doc/wfscan-help.txt
+chmod +x /usr/bin/wfscan-recoll
+chmod +x /usr/bin/scanner-uninstall
+rm scanner.pl
+rm scanner-setup
+rm scanner-update
+rm wfscan
+rm wfscan-help
+rm wfscan-help.txt
+rm wfscan-recoll
+rm scanner-uninstall

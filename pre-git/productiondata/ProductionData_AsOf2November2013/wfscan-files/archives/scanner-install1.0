@@ -1,0 +1,14 @@
+#!/bin/sh
+#scanner-install : Wreathe File Scanner Installation Script version 1.0 (3 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
+wget http://futuramerlin.com/scanner.pl
+wget http://futuramerlin.com/scanner-setup
+wget http://futuramerlin.com/wfscan
+wget http://futuramerlin.com/scanner-uninstall
+cp scanner.pl /usr/bin/scanner.pl
+cp scanner-setup /usr/bin/scanner-setup
+cp wfscan /usr/bin/wfscan
+cp scanner-uninstall /usr/bin/scanner-uninstall
+chmod +x /usr/bin/scanner.pl
+chmod +x /usr/bin/scanner-setup
+chmod +x /usr/bin/wfscan
+chmod +x /usr/bin/scanner-uninstall

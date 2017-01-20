@@ -1,0 +1,1 @@
+#define UTS_RELEASE "3.4.0-7.dmz.1-liquorix-686"

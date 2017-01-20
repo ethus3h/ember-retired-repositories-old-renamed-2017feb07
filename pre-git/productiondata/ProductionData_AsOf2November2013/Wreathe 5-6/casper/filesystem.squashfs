@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Wreathe 5-6/casper/filesystem.squashfs
+## 
+3932504064,962e896ea95ac7cf352b0481dfbd4168,681cb7a37215b8d4be112f0d9cbda1a41eaf8d67,2e3ee346f3ee79b9dd93de46d27ee84059f62526a08526f7ac86bc706cc6b09f,045bff7ba32205828d3087a1f7246ed8edf36fe582f435db,4f6f4bcedeb14c5ef82310ab081b08db15b3d4971ba68e456e504f8fe00e893ad3a08de95edae6682131fedea7cc5e6347fdba9f93470a88c1e1db757be85930,/home/kyan/productiondata/ProductionData_AsOf2November2013/Wreathe 5-6/casper/filesystem.squashfs

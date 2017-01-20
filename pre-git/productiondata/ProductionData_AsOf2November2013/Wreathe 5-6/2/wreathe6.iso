@@ -1,0 +1,6 @@
+%%%% HASHDEEP-1.0
+%%%% size,md5,sha1,sha256,tiger,whirlpool,filename
+## Invoked from: /home/kyan/productiondata
+## $ hashdeep -c md5,sha1,sha256,tiger,whirlpool -e -o fbsd -r ./ProductionData_AsOf2November2013/Wreathe 5-6/2/wreathe6.iso
+## 
+4002631680,b5501d639304e6aceefd6d25e032ee92,b20e4ef58df01cb1ccf97e627792dd860809dd7c,df4aea546d71dbcc5afb6ad70e5cdbcb474fce27c1f6db35ca416eb9be9e20d3,2ba09708621d0c2c6067422b87b4accd86729aa9162fb653,89ab866b29ebb66bd2bee2e25100f8057c40c5b30d16cdde8e8bc27d16d122e5f31cc8789d6ef3cb4905a8405a96bac3cc6284ae32d14acf405a4679042c142c,/home/kyan/productiondata/ProductionData_AsOf2November2013/Wreathe 5-6/2/wreathe6.iso

@@ -1,0 +1,44 @@
+#!/bin/sh
+#scanner-install : Wreathe File Scanner Installation Script version 4.1 (6 April 2011)! This script is released under the Affero GPL version 3 (run wfscan-help to see the license), with the added provisions : author attribution is required, and misrepresentation of the origin of the material is prohibited. http://futuramerlin.com/ Copyright © 2011 Futuramerlin.com. This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+rm scanner.pl
+rm scanner-setup
+rm scanner-update
+rm wfscan
+rm wfscan-help
+rm wfscan-help.txt
+rm wfscan-recoll
+rm scanner-uninstall
+wget http://futuramerlin.com/scanner.plbz2
+wget http://futuramerlin.com/scanner-setup
+wget http://futuramerlin.com/scanner-update
+wget http://futuramerlin.com/wfscan
+wget http://futuramerlin.com/wfscan-help
+wget http://futuramerlin.com/wfscan-help.txt
+wget http://futuramerlin.com/wfscan-recoll
+wget http://futuramerlin.com/scanner-uninstall
+cp scanner.plbz2 scanner.pl.bz2
+bzip2 -dfv scanner.pl.bz2
+cp scanner.pl /usr/bin/scanner.pl
+cp scanner-setup /usr/bin/scanner-setup
+cp scanner-update /usr/bin/scanner-update
+cp wfscan /usr/bin/wfscan
+cp wfscan-help /usr/bin/wfscan-help
+cp wfscan-help.txt /usr/share/doc/wfscan-help.txt
+cp wfscan-recoll /usr/bin/wfscan-recoll
+cp scanner-uninstall /usr/bin/scanner-uninstall
+chmod +x /usr/bin/scanner.pl
+chmod +x /usr/bin/scanner-setup
+chmod +x /usr/bin/scanner-update
+chmod +x /usr/bin/wfscan
+chmod +x /usr/bin/wfscan-help
+chmod +x /usr/share/doc/wfscan-help.txt
+chmod +x /usr/bin/wfscan-recoll
+chmod +x /usr/bin/scanner-uninstall
+rm scanner.pl
+rm scanner-setup
+rm scanner-update
+rm wfscan
+rm wfscan-help
+rm wfscan-help.txt
+rm wfscan-recoll
+rm scanner-uninstall

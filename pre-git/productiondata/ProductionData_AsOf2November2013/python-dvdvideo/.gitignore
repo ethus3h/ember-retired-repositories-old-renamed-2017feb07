@@ -1,0 +1,4 @@
+__pycache__
+/build
+/debian/files
+/debian/python3-dvdvideo*

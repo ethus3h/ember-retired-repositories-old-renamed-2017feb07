@@ -1,0 +1,374 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8x
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Wreathe Users' Guide
+\end_layout
+
+\begin_layout Date
+Version 1, 7 July 2012
+\end_layout
+
+\begin_layout Chapter
+Basic use
+\end_layout
+
+\begin_layout Section
+What is Wreathe?
+\end_layout
+
+\begin_layout Standard
+Wreathe is a computer operating system.
+ A computer operating system is a set of abstract tools for getting a computer
+ perform certain specified tasks.
+ Wreathe is designed for 
+\begin_inset Quotes eld
+\end_inset
+
+desktop computing
+\begin_inset Quotes erd
+\end_inset
+
+ --- the use of a computer in common home or office applications such as
+ word processing, listening to music, or creating and viewing Internet 
+\begin_inset Quotes eld
+\end_inset
+
+web sites
+\begin_inset Quotes erd
+\end_inset
+
+ (groups of interconnected computerized documents intended for computerized
+ distribution).
+ Its abilities are comparable to those of Microsoft Windows or Macintosh
+ OS, although each has its strengths and weaknesses.
+ This guide provides basic information on how to use Wreathe.
+ Note when using this guide that some minor details of appearance or phrasing
+ may differ from what is shown in the guide.
+\end_layout
+
+\begin_layout Section
+Computer use
+\end_layout
+
+\begin_layout Standard
+First, note that a thorough explanation of computer use is beyond the intended
+ scope of this guide; only an extremely brief introduction is included here
+ for convenience.
+ This guide assumes a moderate knowledge and understanding of computers
+ and their operation.
+\end_layout
+
+\begin_layout Standard
+Most computers generally need an external source of electricity, so please
+ ensure that you are correctly supplying yours with electricity (assuming
+ it is necessary).
+ Otherwise it will probably not function.
+\end_layout
+
+\begin_layout Standard
+A computer generally has three prominent components that you will need to
+ use to get Wreathe working in its most basic form: the 
+\begin_inset Quotes eld
+\end_inset
+
+screen
+\begin_inset Quotes erd
+\end_inset
+
+, which is an 
+\begin_inset Quotes eld
+\end_inset
+
+output
+\begin_inset Quotes erd
+\end_inset
+
+ device (a way for the computer to communicate information to its user),
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+keyboard
+\begin_inset Quotes erd
+\end_inset
+
+, which is an 
+\begin_inset Quotes eld
+\end_inset
+
+input
+\begin_inset Quotes erd
+\end_inset
+
+ device (a way for the user to communicate information to the computer),
+ and the 
+\begin_inset Quotes eld
+\end_inset
+
+pointing device
+\begin_inset Quotes erd
+\end_inset
+
+ (these come in many types), which is also an input device.
+ The screen is the part of the computer that displays information visually.
+ The keyboard is a method for communicating textual information to the computer.
+ Keyboards come in many different layouts, and their usage can vary.
+ The recommended keyboard layout for Wreathe (and the one it will attempt
+ to use when a keyboard is attached) is, approximately (although the top
+ row of keys is missing some of their labels):
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename Documents/keyboard-cropped-07July2012
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The pointing device can vary greatly in form and usage.
+ It will usually control some sort of positional indicator on the screen,
+ and can be used to 
+\begin_inset Quotes eld
+\end_inset
+
+click
+\begin_inset Quotes erd
+\end_inset
+
+ (indicate an action to the computer).
+\end_layout
+
+\begin_layout Section
+Installation
+\end_layout
+
+\begin_layout Standard
+First you need to ensure that your computer meets the recommended system
+ specifications.
+ It is possible to run Wreathe using a computer that does not meet these
+ specifications, but it may not work well and is not recommended for non-experie
+nced users.
+ The recommended specifications are:
+\end_layout
+
+\begin_layout Itemize
+At least 1 GB RAM
+\end_layout
+
+\begin_layout Itemize
+At least 128 MB graphics memory in a supported 3D graphics accellerator
+\end_layout
+
+\begin_layout Itemize
+At least 2 GHz CPU
+\end_layout
+
+\begin_layout Itemize
+An x86 processor
+\end_layout
+
+\begin_layout Itemize
+At least 14 GB available hard disk space
+\end_layout
+
+\begin_layout Standard
+Before installing Wreathe, it is recommended that you make at least one
+ extra copy (
+\begin_inset Quotes eld
+\end_inset
+
+backup
+\begin_inset Quotes erd
+\end_inset
+
+) of any information stored using your computer that you want to retain,
+ and that that backup not be within your computer, but rather be within,
+ for example, optical CDs.
+ You should ensure that any backup you make is readable.
+\end_layout
+
+\begin_layout Standard
+To install Wreathe into your computer (assuming your computer has a DVD
+ drive), first boot your computer using the Wreathe DVD.
+ Then, move your cursor to the upper left of your screen, and click the
+ small monochromatic picture of a house (should look something like: 
+\begin_inset Graphics
+	filename /usr/share/icons/AwOkenDark/clear/128x128/places/user-home2.png
+	scale 25
+
+\end_inset
+
+).
+ Click it.
+ Then, click 
+\begin_inset Quotes eld
+\end_inset
+
+Install RELEASE
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Next, follow the instructions and answer the questions posed to you, clicking
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Next
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Continue
+\begin_inset Quotes erd
+\end_inset
+
+ as prompted.
+ If you don't know what you are doing, avoid options marked 
+\begin_inset Quotes eld
+\end_inset
+
+advanced
+\begin_inset Quotes erd
+\end_inset
+
+.
+ That indicates technically challenging options.
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\bigstar$
+\end_inset
+
+Important note: If you choose to use the 
+\begin_inset Quotes eld
+\end_inset
+
+entire disk
+\begin_inset Quotes erd
+\end_inset
+
+ for Wreathe, it is likely that any other software, data, or information
+ you had previously in the computer will be erased.
+ Choosing 
+\begin_inset Quotes eld
+\end_inset
+
+Install along side other operating systems
+\begin_inset Quotes erd
+\end_inset
+
+ should eliminate this problem.
+\end_layout
+
+\begin_layout Section
+Basics of use
+\end_layout
+
+\begin_layout Standard
+When you first run your computer and enter your user name and passkey, you
+ will see something like this (it has changed slightly since this image
+ was created, but the important elements are the same).
+ The labels on the picture are not in the real thing.
+ In addition, you will never see both the icons (in this reference, the
+ word 
+\begin_inset Quotes eld
+\end_inset
+
+icon
+\begin_inset Quotes erd
+\end_inset
+
+ is used to refer to a small picture or symbol that represents an action
+ or functionality of Wreathe) at the left of the screen 
+\emph on
+and
+\emph default
+ all three icons at the right of the screen in normal use; they have been
+ shown in the same image for illustrative purposes.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename /usr/share/Wreathe/doc/Quick Reference.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

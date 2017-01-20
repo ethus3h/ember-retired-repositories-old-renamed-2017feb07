@@ -1,0 +1,7 @@
+#!/bin/bash
+#wfscan : Wreathe File Scanner Execution Script version 4.0 (4 April 2011)! This script is released under the Affero GPL. http://futuramerlin.com/
+rm -f ~/.Wreathe-File-Scanner/input.scdat
+touch ~/.Wreathe-File-Scanner/input.scdat
+cp "$1" ~/.Wreathe-File-Scanner/input.scdat
+rm -f ~/.Wreathe-File-Scanner/output.scdat
+perl /usr/bin/scanner.pl
