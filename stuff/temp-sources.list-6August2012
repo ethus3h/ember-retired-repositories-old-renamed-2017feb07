@@ -1,0 +1,61 @@
+
+deb http://us.archive.ubuntu.com/ubuntu/ maverick main restricted multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ maverick main restricted
+
+deb http://us.archive.ubuntu.com/ubuntu/ maverick-updates main restricted multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ maverick-updates main restricted
+
+deb http://us.archive.ubuntu.com/ubuntu/ maverick universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ maverick universe
+deb http://us.archive.ubuntu.com/ubuntu/ maverick-updates universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ maverick-updates universe
+deb http://us.archive.ubuntu.com/ubuntu/ maverick-backports main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ maverick-backports main restricted universe
+deb http://archive.canonical.com/ubuntu maverick partner
+deb-src http://archive.canonical.com/ubuntu maverick partner
+deb http://extras.ubuntu.com/ubuntu maverick main
+deb-src http://extras.ubuntu.com/ubuntu maverick main
+
+deb http://security.ubuntu.com/ubuntu maverick-security main restricted multiverse
+deb-src http://security.ubuntu.com/ubuntu maverick-security main restricted
+deb http://security.ubuntu.com/ubuntu maverick-security universe
+deb-src http://security.ubuntu.com/ubuntu maverick-security universe
+deb-src http://archive.ubuntu.com/ubuntu maverick main restricted
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+deb http://apt.last.fm/ debian stable
+deb-src http://apt.last.fm/ debian stable
+deb http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu karmic main
+deb-src http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu karmic main
+deb http://liquorix.net/debian sid main
+deb-src http://liquorix.net/debian sid main

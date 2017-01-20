@@ -1,0 +1,11 @@
+liborigin2-1		install
+libmuparser0		install
+worldwind		install
+libqtassistantclient4		install
+python-sip4		install
+libjogl-java		install
+gaia		install
+libjogl-jni		install
+qt-assistant-compat		install
+libworldwind-java		install
+qtiplot		install

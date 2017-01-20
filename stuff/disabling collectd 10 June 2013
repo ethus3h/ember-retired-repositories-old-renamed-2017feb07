@@ -1,0 +1,23 @@
+kyan@elegy:~$ sudo update-rc.d collectd disable
+[sudo] password for kyan: 
+update-rc.d: warning: collectd start runlevel arguments (none) do not match LSB Default-Start values (2 3 4 5)
+update-rc.d: warning: collectd stop runlevel arguments (none) do not match LSB Default-Stop values (0 1 6)
+ Disabling system startup links for /etc/init.d/collectd ...
+ Removing any system startup links for /etc/init.d/collectd ...
+   /etc/rc0.d/K95collectd
+   /etc/rc1.d/K95collectd
+   /etc/rc2.d/S95collectd
+   /etc/rc3.d/S95collectd
+   /etc/rc4.d/S95collectd
+   /etc/rc5.d/S95collectd
+   /etc/rc6.d/K95collectd
+ Adding system startup for /etc/init.d/collectd ...
+   /etc/rc0.d/K95collectd -> ../init.d/collectd
+   /etc/rc1.d/K95collectd -> ../init.d/collectd
+   /etc/rc6.d/K95collectd -> ../init.d/collectd
+   /etc/rc2.d/K05collectd -> ../init.d/collectd
+   /etc/rc3.d/K05collectd -> ../init.d/collectd
+   /etc/rc4.d/K05collectd -> ../init.d/collectd
+   /etc/rc5.d/K05collectd -> ../init.d/collectd
+kyan@elegy:~$ 
+
