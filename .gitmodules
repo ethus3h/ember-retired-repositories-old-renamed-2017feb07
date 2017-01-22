@@ -19,3 +19,6 @@
 [submodule "ember-old-moved-2016apr24a25"]
 	path = ember-old-moved-2016apr24a25
 	url = https://github.com/ethus3h/ember-old-moved-2016apr24a25.git
+[submodule "ember-repositories"]
+	path = ember-repositories
+	url = https://github.com/ethus3h/ember-repositories.git
