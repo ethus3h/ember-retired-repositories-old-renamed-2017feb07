@@ -1,9 +1,0 @@
-Commit Log for Mon Aug  6 16:42:53 2012
-
-
-Reinstalled the following packages:
-ffmpeg (4:0.6-2ubuntu6.3)
-gstreamer0.10-ffmpeg (0.10.11-1)
-libavformat-extra-52 (4:0.6-2ubuntu3.3+medibuntu1)
-libmatroska2 (1.0.0+repack-0ubuntu1)
-
